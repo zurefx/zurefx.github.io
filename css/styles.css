@@ -900,3 +900,27 @@ a { text-decoration: none; color: inherit; }
   align-items: center;
   color: var(--text-3);
 }
+
+/* ══════════════════════════════════════════════════════════════════════════
+   EXTRA SMALL SCREENS — S23 Mini, iPhone Mini, etc. (≤ 360px)
+   Agrega esto al final de styles.css
+   ══════════════════════════════════════════════════════════════════════════ */
+@media (max-width: 360px) {
+  .topbar { padding: 0 8px; gap: 4px; }
+
+  /* Logo SVG más pequeño */
+  .logo-icon { width: 20px; height: 21px; }
+
+  /* Texto "Zurefx" más pequeño */
+  .logo-text { font-size: 1.05rem; }
+
+  /* Ocultar el botón Join Discord */
+  .btn-join { display: none; }
+
+  /* Reducir botones icon */
+  .icon-btn { width: 24px; height: 24px; }
+  .icon-btn svg { width: 14px; height: 14px; }
+
+  /* Avatar un poco más chico */
+  .avatar { width: 24px; height: 24px; }
+}
