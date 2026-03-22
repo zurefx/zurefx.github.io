@@ -3,11 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ZureFX — Security Research</title>
+
+  <!-- ═══════════════════════ SEO ═══════════════════════ -->
+  <title>ZureFX — Security Research & CTF Writeups</title>
   <meta name="description" content="Security researcher and CTF player. Writeups, offensive security research, scripting notes and malware analysis." />
-  <meta name="author" content="Zurefx" />
+  <meta name="author" content="ZureFX" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="ctf, hackthebox, writeups, pentesting, offensive security, malware analysis, zurefx, oscp, nmap, cybersecurity" />
+
+  <!-- Canonical — evita duplicate content si acceden con o sin www -->
+  <link rel="canonical" href="https://zurefx.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ZureFX — Security Research & CTF Writeups" />
+  <meta property="og:description" content="Security researcher and CTF player. Writeups, offensive security research, scripting notes and malware analysis." />
+  <meta property="og:url" content="https://zurefx.github.io/" />
+  <meta property="og:site_name" content="ZureFX" />
+  <meta property="og:image" content="https://zurefx.github.io/img/profile.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ZureFX — Security Research & CTF Writeups" />
+  <meta name="twitter:description" content="Security researcher and CTF player. Writeups, offensive security research, scripting notes and malware analysis." />
+  <meta name="twitter:image" content="https://zurefx.github.io/img/profile.png" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "ZureFX",
+    "description": "Security researcher and CTF player. Writeups, offensive security research, scripting notes and malware analysis.",
+    "url": "https://zurefx.github.io/",
+    "image": "https://zurefx.github.io/img/profile.png",
+    "inLanguage": "en",
+    "author": {
+      "@type": "Person",
+      "name": "ZureFX",
+      "url": "https://zurefx.github.io/page/profile.html",
+      "sameAs": [
+        "https://github.com/zurefx",
+        "https://www.linkedin.com/in/fabian-g-huamani",
+        "https://profile.hackthebox.com/profile/019c52fc-d8cf-7339-9385-c0d96f6f7efb"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "ZureFX",
+      "url": "https://zurefx.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://zurefx.github.io/img/profile.png"
+      }
+    }
+  }
+  </script>
+  <!-- ════════════════════════════════════════════════════ -->
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@400;500;600;700;800&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/search.css">
 </head>
@@ -19,15 +80,13 @@
 <!-- SIDE MENU (hamburger) -->
 <aside class="side-menu" id="sideMenu">
 
-  <!-- Profile block -->
   <div class="menu-profile">
     <img src="img/profile.png" class="menu-avatar" alt="Zurefx" onerror="this.style.display='none'">
     <h3 class="menu-name">Zure<em>fx</em></h3>
     <p class="menu-bio">Security Researcher · CTF Player · Blogger</p>
   </div>
 
-  <!-- Main navigation -->
-   <div class="menu-nav-wrapper">
+  <div class="menu-nav-wrapper">
   <nav class="menu-nav">
     <a href="/" class="menu-link active" data-section="for-you">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
@@ -50,12 +109,11 @@
       <span>Tags</span>
     </a>
     <a href="page/projects.html" class="menu-link">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V7z"/></svg>
-        <span>Projects</span>
-      </a>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V7z"/></svg>
+      <span>Projects</span>
+    </a>
   </nav>
 
-  <!-- Secondary links (social platforms) -->
   <nav class="menu-nav menu-nav-secondary">
     <a href="https://youtube.com/@zurefx0" target="_blank" rel="noopener noreferrer" class="menu-link menu-link-secondary">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
@@ -70,8 +128,8 @@
       <span>Discord</span>
     </a>
   </nav>
-</div>
-  <!-- Social icon strip at bottom -->
+  </div>
+
   <div class="menu-social-strip">
     <a href="https://github.com/zurefx" target="_blank" rel="noopener" class="menu-social-link" aria-label="GitHub">
       <svg fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/></svg>
@@ -96,7 +154,7 @@
       <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
     </svg>
   </button>
-  <a class="logo-wrap" data-section="for-you">
+  <a class="logo-wrap" href="/" data-section="for-you">
     <svg class="logo-icon" viewBox="-0.5 -0.5 262 270" xmlns="http://www.w3.org/2000/svg">
       <path fill="#c82525" d="M -0.5,-0.5 C 86.8333,-0.5 174.167,-0.5 261.5,-0.5C 261.5,89.5 261.5,179.5 261.5,269.5C 174.167,269.5 86.8333,269.5 -0.5,269.5C -0.5,179.5 -0.5,89.5 -0.5,-0.5 Z"/>
       <path fill="#f9f8f8" d="M 121.5,149.5 C 120.244,149.461 119.244,149.961 118.5,151C 143.831,151.5 169.164,151.667 194.5,151.5C 194.5,159.167 194.5,166.833 194.5,174.5C 151.167,174.5 107.833,174.5 64.5,174.5C 64.169,166.472 64.5023,158.472 65.5,150.5C 90.1104,140.298 114.777,130.298 139.5,120.5C 140.289,120.217 140.956,119.717 141.5,119C 115.835,118.5 90.1688,118.333 64.5,118.5C 64.5,110.833 64.5,103.167 64.5,95.5C 108.167,95.5 151.833,95.5 195.5,95.5C 195.831,103.528 195.498,111.528 194.5,119.5C 170.143,129.506 145.809,139.506 121.5,149.5 Z"/>
@@ -169,13 +227,10 @@
   </section>
 
   <aside class="col-sidebar">
-    <!-- Staff Picks: injected by app.js from post.json (pick:1, max 3) -->
     <div class="sb-section">
       <h4 class="sb-heading">STAFF PICKS</h4>
       <ul class="picks" id="picksContainer"></ul>
     </div>
-
-    <!-- Tags: first 30 unique tags from post.json, injected by app.js -->
     <div class="sb-section">
       <h4 class="sb-heading">TAGS</h4>
       <div class="tags-cloud" id="tagsCloud"></div>
