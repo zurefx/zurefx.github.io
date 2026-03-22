@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Bloquear archivos que no aportan SEO
+Disallow: /js/
+Disallow: /css/
+
+Sitemap: https://zurefx.github.io/sitemap.xml
