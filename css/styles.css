@@ -924,3 +924,37 @@ a { text-decoration: none; color: inherit; }
   /* Avatar un poco más chico */
   .avatar { width: 24px; height: 24px; }
 }
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   ULTRA WIDE SCREENS — 1500px+
+   Evita que el contenido se pierda o estire en monitores muy anchos
+   ══════════════════════════════════════════════════════════════════════════ */
+@media (min-width: 1500px) {
+  /* El layout ya tiene max-width:1500px — solo aseguramos el centrado */
+  .layout {
+    margin: 0 auto;
+  }
+
+  /* Evita que las cards del grid se estiren demasiado */
+  .posts-grid {
+    grid-template-columns: repeat(3, minmax(0, 420px));
+    justify-content: start;
+  }
+
+  /* El col-featured no debe crecer indefinidamente */
+  .col-featured {
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* En pantallas gigantes, forzar el max-width en el wrapper general */
+  body > .layout,
+  main.layout {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
