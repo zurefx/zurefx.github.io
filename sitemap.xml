@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ════════════════════════════════════════════════════════
+       HOMEPAGE — prioridad máxima, cambia cada vez que posteas
+       ════════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://zurefx.github.io/</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/profile.png</image:loc>
+      <image:title>ZureFX — Security Research</image:title>
+    </image:image>
+  </url>
+
+  <!-- ════════════════════════════════════════════════════════
+       PÁGINAS PRINCIPALES — Google las usa como sitelinks
+       ════════════════════════════════════════════════════════ -->
+
+  <!-- About / Profile — actualiza si cambias tu bio -->
+  <url>
+    <loc>https://zurefx.github.io/page/profile.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Archives — actualiza la fecha cada vez que añades un post -->
+  <url>
+    <loc>https://zurefx.github.io/page/archives.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Notes index — actualiza cuando publicas una nueva note -->
+  <url>
+    <loc>https://zurefx.github.io/page/notes.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Tags — actualiza cuando aparecen tags nuevos -->
+  <url>
+    <loc>https://zurefx.github.io/page/tags.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Projects index — actualiza cuando añades un proyecto -->
+  <url>
+    <loc>https://zurefx.github.io/page/projects.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ════════════════════════════════════════════════════════
+       NOTES / CHEATSHEETS — monthly porque pueden corregirse
+       ════════════════════════════════════════════════════════ -->
+
+  <!-- [NOTA] Port Enumeration — 2026-03-17 -->
+  <url>
+    <loc>https://zurefx.github.io/notes/port-enumeration.html</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/port-enumeration.png</image:loc>
+      <image:title>Port Enumeration — ZureFX</image:title>
+    </image:image>
+  </url>
+
+  <!-- [NOTA] Network Scanning — 2026-03-17 -->
+  <url>
+    <loc>https://zurefx.github.io/notes/network-scanning.html</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/network-scanning.png</image:loc>
+      <image:title>Network Scanning — ZureFX</image:title>
+    </image:image>
+  </url>
+
+  <!-- ════════════════════════════════════════════════════════
+       WRITEUPS — never porque un writeup terminado no cambia
+       ════════════════════════════════════════════════════════ -->
+
+  <!-- Pega aquí el bloque XML que genera convert.py por cada writeup -->
+  <!--
+  <url>
+    <loc>https://zurefx.github.io/writeups/htb-NOMBRE.html</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/htb-NOMBRE.png</image:loc>
+      <image:title>HTB NOMBRE — ZureFX</image:title>
+    </image:image>
+  </url>
+  -->
+
+  <!-- ════════════════════════════════════════════════════════
+       RESEARCH — monthly por si añades más análisis al post
+       ════════════════════════════════════════════════════════ -->
+
+  <!-- Pega aquí los bloques de research -->
+  <!--
+  <url>
+    <loc>https://zurefx.github.io/research/NOMBRE.html</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/NOMBRE.png</image:loc>
+      <image:title>NOMBRE — ZureFX</image:title>
+    </image:image>
+  </url>
+  -->
+
+  <!-- ════════════════════════════════════════════════════════
+       PROJECTS — monthly porque los proyectos evolucionan
+       ════════════════════════════════════════════════════════ -->
+
+  <!-- Pega aquí los bloques de projects -->
+  <!--
+  <url>
+    <loc>https://zurefx.github.io/page/projects/NOMBRE.html</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/NOMBRE.png</image:loc>
+      <image:title>NOMBRE — ZureFX</image:title>
+    </image:image>
+  </url>
+  -->
+
+  <!-- ════════════════════════════════════════════════════════
+       SCRIPTING — monthly igual que notes
+       ════════════════════════════════════════════════════════ -->
+
+  <!-- Pega aquí los bloques de scripting -->
+  <!--
+  <url>
+    <loc>https://zurefx.github.io/scripting/NOMBRE.html</loc>
+    <lastmod>YYYY-MM-DD</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/NOMBRE.png</image:loc>
+      <image:title>NOMBRE — ZureFX</image:title>
+    </image:image>
+  </url>
+  -->
+
+</urlset>
