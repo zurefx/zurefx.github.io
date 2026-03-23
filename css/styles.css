@@ -481,18 +481,8 @@ a { text-decoration: none; color: inherit; }
 }
 .pick:hover .pick-num { color:var(--red); }
 
-/* pick thumb — SIN background-image */
-.pick-thumb {
-  width:48px; height:48px; flex-shrink:0; position:relative; overflow:hidden;
-  border:1px solid var(--border); border-radius:3px;
-  background-color: var(--bg-card2);
-  transition:border-color 0.2s, transform 0.25s;
-}
-.pick:hover .pick-thumb { border-color:var(--text-3); transform:scale(1.06); }
-.pick-thumb::before { content:''; position:absolute; inset:0; z-index:1; }
-.pick-thumb.pt1::before { background:rgba(4,18,8,0.12); }
-.pick-thumb.pt2::before { background:rgba(4,8,22,0.12); }
-.pick-thumb.pt3::before { background:rgba(22,4,4,0.12); }
+/* pick thumb — oculto sin imagen */
+.pick-thumb { display:none; }
 
 .pick-info { display:flex; flex-direction:column; gap:2px; flex:1; min-width:0; }
 .pick-title {
