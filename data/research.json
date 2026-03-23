@@ -1,0 +1,65 @@
+[
+  {
+    "id": "zfx-recon-tool",
+    "title": "ZFX Recon Tool",
+    "section": "projects",
+    "description": "Automated reconnaissance framework for CTF and pentesting. Chains nmap, ffuf, whatweb and screenshots into a single command with structured output.",
+    "permalink": "/research/zfx-recon-tool.html",
+    "btn_label": "View on GitHub",
+    "date": "2026-03-22",
+    "tags": [
+      "python",
+      "automation",
+      "recon",
+      "opensource",
+      "tools"
+    ],
+    "image": "/img/zfx-recon-tool.png",
+    "words": 43,
+    "readTime": "1 min",
+    "features": [
+      "Automated nmap + ffuf + whatweb chain",
+      "Structured markdown output per target",
+      "Screenshot capture via gowitness",
+      "Plugin system for custom modules"
+    ]
+  },
+  {
+    "id": "edr-evasion-research",
+    "title": "EDR Evasion Techniques Overview",
+    "section": "research",
+    "description": "Overview of common EDR evasion techniques: syscall unhooking, AMSI bypass, process injection and sleep obfuscation.",
+    "permalink": "/research/edr-evasion-research.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-15",
+    "tags": [
+      "research",
+      "redteam",
+      "edr",
+      "evasion",
+      "amsi"
+    ],
+    "image": "/img/edr-evasion-research.png",
+    "words": 75,
+    "readTime": "1 min"
+  },
+  {
+    "id": "malware-dropper-analysis",
+    "title": "Analyzing a Simple Python Dropper",
+    "section": "research",
+    "description": "Static and dynamic analysis of a basic Python-based malware dropper. Covers obfuscation, persistence and C2 communication patterns.",
+    "permalink": "/research/malware-dropper-analysis.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-11",
+    "tags": [
+      "malwareanalysis",
+      "research",
+      "dropper",
+      "python",
+      "reversing"
+    ],
+    "image": "/img/malware-dropper-analysis.png",
+    "words": 69,
+    "readTime": "1 min"
+  }
+]

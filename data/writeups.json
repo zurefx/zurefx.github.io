@@ -1,0 +1,120 @@
+[
+  {
+    "id": "htb-active",
+    "title": "HTB Active — Easy Windows",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Active. SMB anonymous share enumeration, GPP password decryption with gpp-decrypt, and Kerberoasting the Administrator account to get SYSTEM.",
+    "permalink": "/writeups/htb-active.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-25",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "windows",
+      "kerberoasting",
+      "gpp",
+      "smb",
+      "activedirectory"
+    ],
+    "image": "/img/htb-active.png",
+    "words": 1052,
+    "readTime": "6 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-linkvortex",
+    "title": "HTB LinkVortex — Easy Linux",
+    "section": "writeups",
+    "description": "HackTheBox LinkVortex writeup. Ghost CMS credential leak via git repo exposure and symlink exploit for root.",
+    "permalink": "/writeups/htb-linkvortex.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-23",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "ghostcms",
+      "symlink"
+    ],
+    "image": "/img/htb-linkvortex.png",
+    "words": 96,
+    "readTime": "1 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-analysis",
+    "title": "HTB Analysis — Hard Windows",
+    "section": "writeups",
+    "description": "HackTheBox Analysis writeup. LDAP injection, ASP webshell, DLL hijacking and Snort dynamic preprocessor abuse for root.",
+    "permalink": "/writeups/htb-analysis.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-19",
+    "tags": [
+      "hackthebox",
+      "hard",
+      "windows",
+      "ldapinjection",
+      "dllhijacking"
+    ],
+    "image": "/img/htb-analysis.png",
+    "words": 85,
+    "readTime": "1 min"
+  },
+  {
+    "id": "htb-bizness",
+    "title": "HTB Bizness — Easy Linux",
+    "section": "writeups",
+    "description": "HackTheBox Bizness writeup. Apache OFBiz authentication bypass CVE-2023-49070 and SHA1 hash cracking for root.",
+    "permalink": "/writeups/htb-bizness.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-14",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "ofbiz",
+      "authbypass"
+    ],
+    "image": "/img/htb-bizness.png",
+    "words": 55,
+    "readTime": "1 min"
+  },
+  {
+    "id": "htb-hospital",
+    "title": "HTB Hospital — Medium Windows",
+    "section": "writeups",
+    "description": "HackTheBox Hospital writeup. File upload bypass, CVE-2023-35001 Linux kernel exploit and RoundCube webmail attack chain.",
+    "permalink": "/writeups/htb-hospital.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-10",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "windows",
+      "fileupload",
+      "kernelexploit"
+    ],
+    "image": "/img/htb-hospital.png",
+    "words": 70,
+    "readTime": "1 min"
+  },
+  {
+    "id": "htb-keeper",
+    "title": "HTB Keeper — Easy Linux",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Keeper. Exploiting default credentials in a ticket system and KeePass memory dump to get root.",
+    "permalink": "/writeups/htb-keeper.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-05",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "keepass",
+      "defaultcreds"
+    ],
+    "image": "/img/htb-keeper.png",
+    "words": 62,
+    "readTime": "1 min"
+  }
+]

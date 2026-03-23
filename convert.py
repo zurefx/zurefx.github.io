@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ZureFX — convert.py  (v2)
+ZureFX — convert.py  (v4)
 =========================
 Uso  (desde la carpeta raíz del repo):
     python tools/convert.py <archivo.md>
@@ -12,8 +12,10 @@ Qué hace:
        writeups/  → Section: writeups
        research/  → Section: research   ← también Section: projects
        scripting/ → Section: scripting
-  3. Inserta el nuevo post al principio del chunk JSON apropiado
-     (data/posts-1.json si tiene < 9 entradas, sino posts-2.json, etc.)
+  3. Inserta el nuevo post en los JSONs planos:
+       data/posts.json        → feed global (todos los posts)
+       data/<section>.json    → feed específico de la sección
+       data/for-you.json      → últimos 9 posts (sliding window)
   4. Inyecta la entrada <url> en sitemap.xml justo antes de </urlset>
 """
 
@@ -25,71 +27,59 @@ from datetime import datetime
 # ══════════════════════════════════════════════════════════════════════════════
 #  CONFIG
 # ══════════════════════════════════════════════════════════════════════════════
-CHUNK_1_MAX  = 9
-CHUNK_N_MAX  = 12
-MAX_CHUNKS   = 50
-DATA_DIR     = Path("data")
-SITEMAP_FILE = Path("sitemap.xml")
+DATA_DIR       = Path("data")
+SITEMAP_FILE   = Path("sitemap.xml")
+FOR_YOU_LIMIT  = 9
 
 SECTION_FOLDER = {
     "notes":     "notes",
     "writeups":  "writeups",
     "research":  "research",
     "scripting": "scripting",
-    "projects":  "research",   # projects → research/ folder
+    "projects":  "research",
     "tools":     "tools",
+}
+
+SECTION_JSON = {
+    "notes":     "notes.json",
+    "writeups":  "writeups.json",
+    "research":  "research.json",
+    "scripting": "scripting.json",
+    "projects":  "research.json",
+    "tools":     "tools.json",
 }
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  FRONTMATTER
 # ══════════════════════════════════════════════════════════════════════════════
-def parse_frontmatter(text):
+def parse_frontmatter(text: str) -> tuple[dict, str]:
     pattern = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
     match = pattern.match(text)
     if not match:
-        print("No frontmatter found.")
+        print("⚠️  No frontmatter found.")
         return {}, text
     return yaml.safe_load(match.group(1)) or {}, text[match.end():]
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  STATS
 # ══════════════════════════════════════════════════════════════════════════════
-def calculate_stats(md_text):
-    """
-    Cuenta palabras como lo hace un contador online estándar (wordcounter.net):
-    - Incluye contenido de bloques de código (son contenido real).
-    - Elimina solo marcadores de sintaxis markdown (##, ```, *, |, etc.).
-    - Elimina líneas completamente vacías (no aportan palabras).
-    - Separa tokens por espacios Y puntuación: "dev.htb" → 2, "22/tcp" → 2.
-    - 200 wpm para contenido técnico.
-    """
+def calculate_stats(md_text: str) -> tuple[int, str]:
     clean = md_text
-    # Eliminar fence markers (```bash / ```) conservando contenido del bloque
     clean = re.sub(r'^```\w*\s*$', '', clean, flags=re.MULTILINE)
-    # Eliminar backticks inline conservando texto
     clean = re.sub(r'`', '', clean)
-    # Eliminar heading markers (## Título → Título)
     clean = re.sub(r'^#{1,6}\s+', '', clean, flags=re.MULTILINE)
-    # Eliminar list markers (- item → item)
     clean = re.sub(r'^[-*+]\s+', '', clean, flags=re.MULTILINE)
     clean = re.sub(r'^\d+\.\s+', '', clean, flags=re.MULTILINE)
-    # Bold/italic → conservar texto
     clean = re.sub(r'\*{1,3}(.+?)\*{1,3}', r'\1', clean)
     clean = re.sub(r'_{1,2}(.+?)_{1,2}', r'\1', clean)
-    # Links → solo texto visible, imágenes → eliminar
     clean = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', clean)
     clean = re.sub(r'!\[[^\]]*\]\([^\)]*\)', '', clean)
-    # Tablas: eliminar separadores, conservar celdas
     clean = re.sub(r'^\|[-| :]+\|$', '', clean, flags=re.MULTILINE)
     clean = re.sub(r'\|', ' ', clean)
-    # Blockquotes, HR
     clean = re.sub(r'^>\s*', '', clean, flags=re.MULTILINE)
     clean = re.sub(r'^[-_*]{3,}$', '', clean, flags=re.MULTILINE)
-    # Colapsar líneas vacías en una sola línea (no aportan palabras)
     lines = [l for l in clean.splitlines() if l.strip()]
     clean = ' '.join(lines)
-    # Separar por espacios Y puntuación — igual que contadores online
-    # Esto hace que "dev.linkvortex.htb" → 3, "22/tcp" → 2, "git-dumper" → 2
     tokens = re.findall(r"[^\s\.,;:!?\(\)\[\]{}<>\"'\\/@#\$%\^&\*\+=|~]+", clean)
     words   = [t for t in tokens if re.search(r'[a-zA-Z0-9]', t)]
     count   = len(words)
@@ -102,9 +92,10 @@ def calculate_stats(md_text):
 # ══════════════════════════════════════════════════════════════════════════════
 #  FEATURES
 # ══════════════════════════════════════════════════════════════════════════════
-def parse_features(raw):
-    if not raw: return []
-    raw = str(raw).strip()
+def parse_features(raw: str) -> list[str]:
+    if not raw:
+        return []
+    raw = raw.strip()
     if raw.startswith('-'):
         items = re.findall(r'-\s*(.+)', raw)
     else:
@@ -114,54 +105,91 @@ def parse_features(raw):
 # ══════════════════════════════════════════════════════════════════════════════
 #  MARKDOWN → HTML
 # ══════════════════════════════════════════════════════════════════════════════
-def md_to_body(md_text):
+def md_to_body(md_text: str) -> str:
     md_text = re.sub(r'^(`{4,})(\w*)\s*$', r'```\2', md_text, flags=re.MULTILINE)
     html = markdown.markdown(
         md_text,
-        extensions=["fenced_code","codehilite","tables","sane_lists","nl2br",TocExtension(permalink=False)],
-        extension_configs={"codehilite":{"guess_lang":False,"use_pygments":False,"css_class":"highlight"}},
+        extensions=[
+            "fenced_code", "codehilite", "tables",
+            "sane_lists", "nl2br", TocExtension(permalink=False),
+        ],
+        extension_configs={
+            "codehilite": {
+                "guess_lang": False,
+                "use_pygments": False,
+                "css_class": "highlight",
+            }
+        },
     )
     html = re.sub(r'class="language-(\w+)"', r'class="lang-\1"', html)
-    html = re.sub(r'<div class="highlight"><pre>(.*?)</pre></div>', r'<pre><code>\1</code></pre>', html, flags=re.DOTALL)
+    html = re.sub(
+        r'<div class="highlight"><pre>(.*?)</pre></div>',
+        r'<pre><code>\1</code></pre>',
+        html, flags=re.DOTALL,
+    )
     return html
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  IMAGES
 # ══════════════════════════════════════════════════════════════════════════════
-def normalize_images_in_md(md_text):
+def normalize_images_in_md(md_text: str) -> tuple[str, dict]:
     pattern = re.compile(r'!\[([^\]]*)\]\((__)?([^)]+?)(__)?(\s+"[^"]*")?\)')
     counter, mapping = [0], {}
+
     def replacer(m):
         alt, src_raw, title_part = m.group(1), m.group(3).strip(), m.group(5) or ""
-        if src_raw.startswith("http://") or src_raw.startswith("https://"): return m.group(0)
+        if src_raw.startswith(("http://", "https://")):
+            return m.group(0)
         if src_raw not in mapping:
             counter[0] += 1
             mapping[src_raw] = f"img{counter[0]:02d}{Path(src_raw).suffix or '.png'}"
         return f"![{alt}]({mapping[src_raw]}{title_part})"
+
     return pattern.sub(replacer, md_text), mapping
 
-def expand_image_urls_in_html(html, base_url):
+def expand_image_urls_in_html(html: str, base_url: str) -> str:
     base_url = base_url.rstrip("/")
+
     def replacer(m):
         src = m.group(1)
-        if src.startswith("http://") or src.startswith("https://"): return m.group(0)
+        if src.startswith(("http://", "https://")):
+            return m.group(0)
         return f'src="{base_url}/{src}"'
+
     return re.sub(r'src="([^"]+)"', replacer, html)
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  HELPERS
 # ══════════════════════════════════════════════════════════════════════════════
-def format_date_display(date_str):
-    try: return datetime.strptime(str(date_str), "%Y-%m-%d").strftime("%b %d, %Y")
-    except: return str(date_str)
+def format_date_display(date_str: str) -> str:
+    try:
+        return datetime.strptime(str(date_str), "%Y-%m-%d").strftime("%b %d, %Y")
+    except ValueError:
+        return str(date_str)
 
-def build_tags_html(tags_raw):
+def build_tags_html(tags_raw: str) -> str:
     tags_list = [t.strip() for t in str(tags_raw).split(",") if t.strip()]
-    if not tags_list: return ""
+    if not tags_list:
+        return ""
     return "\n                  ".join(
-        f'<a href="/page/tags.html#{t.lower().replace(" ","-")}" class="tag">{t}</a>'
+        f'<a href="/page/tags.html#{t.lower().replace(" ", "-")}" class="tag">{t}</a>'
         for t in tags_list
     )
+
+def derive_post_id(meta: dict) -> str:
+    permalink = str(meta.get("Permalink", ""))
+    if permalink:
+        stem = permalink.rstrip("/").split("/")[-1].replace(".html", "")
+        if stem:
+            return stem
+    return str(meta.get("TitlePost", "post")).lower().replace(" ", "-")
+
+def parse_tags(tags_raw) -> list[str]:
+    return [
+        t.strip().lower().replace(" ", "-")
+        for t in str(tags_raw).split(",")
+        if t.strip()
+    ]
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  SVG ASSETS
@@ -179,7 +207,7 @@ SVG_LOGO_F   = '<svg style="width:22px;height:23px;flex-shrink:0;display:block;"
 # ══════════════════════════════════════════════════════════════════════════════
 #  BUILD HTML
 # ══════════════════════════════════════════════════════════════════════════════
-def build_html(meta, body_html, words, read_time):
+def build_html(meta: dict, body_html: str, words: int, read_time: str) -> str:
     title_seo   = meta.get("TitleSEO",    "Post | ZureFX")
     title_post  = meta.get("TitlePost",   "Sin título")
     author      = meta.get("Author",      "ZureFX")
@@ -193,12 +221,19 @@ def build_html(meta, body_html, words, read_time):
     main_img    = str(meta.get("main_img", "")).strip()
     permalink   = meta.get("Permalink",   url.replace("https://zurefx.github.io", ""))
 
-    post_id = permalink.rstrip("/").split("/")[-1].replace(".html","") or title_post.lower().replace(" ","-")
+    post_id = derive_post_id(meta)
     cover_img = f"https://zurefx.github.io/img/{main_img if main_img else post_id}.png"
     date_display = format_date_display(str(date))
 
-    sec_labels = {"writeups":"Writeups","notes":"Notes","research":"Research","scripting":"Scripting","projects":"Projects"}
-    sec_pages  = {"writeups":"/page/archives.html","notes":"/page/notes.html","research":"/page/research.html","scripting":"/page/scripting.html","projects":"/page/projects.html"}
+    sec_labels = {
+        "writeups": "Writeups", "notes": "Notes",
+        "research": "Research", "scripting": "Scripting", "projects": "Projects",
+    }
+    sec_pages = {
+        "writeups": "/page/archives.html", "notes": "/page/notes.html",
+        "research": "/page/research.html", "scripting": "/page/scripting.html",
+        "projects": "/page/projects.html",
+    }
     section_label = sec_labels.get(section, section.capitalize())
     section_href  = sec_pages.get(section, f"/page/{section}.html")
 
@@ -207,8 +242,8 @@ def build_html(meta, body_html, words, read_time):
     jsonld_kw    = ", ".join(f'"{t}"' for t in tags_list)
     tags_html    = build_tags_html(str(tags_raw))
     words_display = f"{words:,}"
-    an = ' active' if section=='notes' else ''
-    ap = ' active' if section=='projects' else ''
+    an = ' active' if section == 'notes' else ''
+    ap = ' active' if section == 'projects' else ''
 
     return f"""<!DOCTYPE html>
 <html lang="{lang}" data-theme="dark">
@@ -397,7 +432,7 @@ def build_html(meta, body_html, words, read_time):
 # ══════════════════════════════════════════════════════════════════════════════
 #  BUILD JSON ENTRY
 # ══════════════════════════════════════════════════════════════════════════════
-def build_json_entry(meta, words, read_time):
+def build_json_entry(meta: dict, words: int, read_time: str) -> dict:
     title_post   = meta.get("TitlePost",   "Sin título")
     section      = str(meta.get("Section", "notes")).lower()
     subsection   = meta.get("Subsection",  "")
@@ -407,20 +442,20 @@ def build_json_entry(meta, words, read_time):
     date         = str(meta.get("Date",    ""))
     tags_raw     = meta.get("Tags",        "")
     main_img     = str(meta.get("main_img", "")).strip()
-    btn_label    = meta.get("BtnLabel",   "Read More")
-    features_raw = meta.get("Features",   "")
-    # Pick: 1 = staff pick (aparece en sidebar), 0 = normal (default)
-    pick_raw     = meta.get("Pick", 0)
+    btn_label    = meta.get("BtnLabel",    "Read More")
+    features_raw = meta.get("Features",    "")
+    pick_raw     = meta.get("Pick",        0)
+
     try:
         pick = int(pick_raw)
     except (ValueError, TypeError):
         pick = 0
 
-    post_id    = permalink.rstrip("/").split("/")[-1].replace(".html","") or title_post.lower().replace(" ","-")
-    tags_slugs = [t.strip().lower().replace(" ","-") for t in str(tags_raw).split(",") if t.strip()]
-    image      = f"/img/{main_img if main_img else post_id}.png"
+    post_id = derive_post_id(meta)
+    tags    = parse_tags(tags_raw)
+    image   = f"/img/{main_img if main_img else post_id}.png"
 
-    obj = {
+    obj: dict = {
         "id":          post_id,
         "title":       title_post,
         "section":     section,
@@ -428,12 +463,11 @@ def build_json_entry(meta, words, read_time):
         "permalink":   permalink,
         "btn_label":   btn_label,
         "date":        date,
-        "tags":        tags_slugs,
+        "tags":        tags,
         "image":       image,
         "words":       words,
         "readTime":    read_time,
     }
-    # Pick solo se incluye si es 1 (staff pick) — los normales no llevan el campo
     if pick == 1:
         obj["pick"] = 1
     if subsection:
@@ -444,117 +478,83 @@ def build_json_entry(meta, words, read_time):
     return obj
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  CHUNK MANAGER — cola deslizante ordenada por fecha
+#  FLAT JSON MANAGER
 # ══════════════════════════════════════════════════════════════════════════════
-def load_chunk(idx):
-    """Lee un chunk existente. Retorna [] si no existe."""
-    path = DATA_DIR / f"posts-{idx}.json"
+def read_json(path: Path) -> list[dict]:
+    """Lee un JSON array de disco. Retorna [] si no existe o está corrupto."""
     if not path.exists():
         return []
-    return json.loads(path.read_text(encoding="utf-8"))
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return data if isinstance(data, list) else []
+    except (json.JSONDecodeError, OSError):
+        return []
 
-def save_chunk(idx, data):
-    """Escribe un chunk en disco."""
-    path = DATA_DIR / f"posts-{idx}.json"
+def write_json(path: Path, data: list[dict]) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
-def post_date(p):
-    """Clave de ordenación: date string ISO → comparable."""
-    return p.get("date", "0000-00-00")
+def upsert_front(data: list[dict], entry: dict) -> tuple[list[dict], str]:
+    """Elimina entrada con mismo id, inserta al frente. Retorna (lista, status)."""
+    existed = any(p.get("id") == entry["id"] for p in data)
+    data = [p for p in data if p.get("id") != entry["id"]]
+    data.insert(0, entry)
+    return data, ("updated" if existed else "inserted")
 
-def insert_into_chunks(entry):
+def update_json_file(json_path: Path, new_entry: dict) -> str:
     """
-    Cola deslizante ordenada por fecha descendente.
-
-    Reglas:
-      - posts-1.json siempre tiene los 9 más recientes (for-you feed).
-      - posts-N.json (N>1) tiene hasta 12 posts.
-      - Al insertar un post nuevo:
-          1. Se reconstruye la lista global ordenada por fecha desc.
-          2. Se elimina la entrada antigua del post si existía (update).
-          3. Se inserta el nuevo en el lugar correcto por fecha.
-          4. Se redistribuye la lista en chunks respetando los límites.
-      - El post más antiguo de posts-1 siempre va a posts-2, y así
-        en cascada si hace falta.
-
-    Retorna (nombre_archivo_donde_quedó, índice_chunk).
+    Upsert al inicio del array JSON. Crea el archivo si no existe.
+    Retorna 'created', 'updated' o 'inserted'.
     """
     DATA_DIR.mkdir(exist_ok=True)
+    was_new  = not json_path.exists()
+    existing = read_json(json_path)
+    data, status = upsert_front(existing, new_entry)
+    write_json(json_path, data)
+    return "created" if was_new else status
 
-    def max_cap(idx): return CHUNK_1_MAX if idx == 1 else CHUNK_N_MAX
+def update_for_you(new_entry: dict) -> None:
+    """
+    Mantiene data/for-you.json con los FOR_YOU_LIMIT posts más recientes.
+    - Upsert por id: si ya existía lo saca y lo vuelve a poner al frente.
+    - Sliding window: si tras insertar hay más de FOR_YOU_LIMIT, elimina el último.
+    """
+    path = DATA_DIR / "for-you.json"
+    DATA_DIR.mkdir(exist_ok=True)
+    data = read_json(path)
+    data, _ = upsert_front(data, new_entry)
+    data = data[:FOR_YOU_LIMIT]   # mantener solo los más recientes
+    write_json(path, data)
+    print(f"   ✅ for-you.json     → {len(data)}/{FOR_YOU_LIMIT} posts")
 
-    # ── 1. Cargar todos los posts existentes en todos los chunks ──────────
-    all_posts = []
-    existing_chunks = 0
-    for idx in range(1, MAX_CHUNKS + 1):
-        chunk = load_chunk(idx)
-        if not chunk and idx > 1:
-            break   # llegamos al final de los chunks existentes
-        all_posts.extend(chunk)
-        if chunk:
-            existing_chunks = idx
+def write_to_jsons(entry: dict, section: str) -> None:
+    """
+    Escribe la entrada en:
+      - data/posts.json          (feed global, siempre)
+      - data/<section>.json      (feed específico de la sección)
+      - data/for-you.json        (sliding window de los últimos FOR_YOU_LIMIT)
+    """
+    STATUS_ICON = {"created": "🆕", "updated": "♻️ ", "inserted": "✅"}
 
-    # ── 2. Eliminar entrada antigua del mismo id (actualización) ─────────
-    was_update = any(p.get("id") == entry["id"] for p in all_posts)
-    all_posts = [p for p in all_posts if p.get("id") != entry["id"]]
+    targets: list[Path] = [DATA_DIR / "posts.json"]
+    section_file = SECTION_JSON.get(section)
+    if section_file:
+        sp = DATA_DIR / section_file
+        if sp not in targets:
+            targets.append(sp)
 
-    # ── 3. Insertar nuevo entry y ordenar por fecha desc ──────────────────
-    all_posts.append(entry)
-    all_posts.sort(key=post_date, reverse=True)
+    for path in targets:
+        status = update_json_file(path, entry)
+        icon   = STATUS_ICON.get(status, "  ")
+        count  = len(read_json(path))
+        label  = path.name.ljust(18)
+        print(f"   {icon} {status:8s} → data/{label}  ({count} posts)")
 
-    # ── 4. Redistribuir en chunks ─────────────────────────────────────────
-    chunks = []
-    remaining = list(all_posts)
-    idx = 1
-    while remaining:
-        cap = max_cap(idx)
-        chunk_data = remaining[:cap]
-        remaining  = remaining[cap:]
-        chunks.append((idx, chunk_data))
-        idx += 1
-        if idx > MAX_CHUNKS:
-            raise RuntimeError(f"Límite de {MAX_CHUNKS} chunks alcanzado.")
-
-    # ── 5. Escribir todos los chunks ──────────────────────────────────────
-    for chunk_idx, chunk_data in chunks:
-        save_chunk(chunk_idx, chunk_data)
-
-    # Borrar chunks sobrantes (si la redistribución redujo el número)
-    new_chunk_count = len(chunks)
-    for orphan in range(new_chunk_count + 1, existing_chunks + 2):
-        orphan_path = DATA_DIR / f"posts-{orphan}.json"
-        if orphan_path.exists():
-            orphan_path.unlink()
-            print(f"   🗑️  Chunk vacío eliminado: data/posts-{orphan}.json")
-
-    # ── 6. Encontrar en qué chunk quedó el post nuevo ─────────────────────
-    landed_idx = 1
-    for chunk_idx, chunk_data in chunks:
-        if any(p.get("id") == entry["id"] for p in chunk_data):
-            landed_idx = chunk_idx
-            break
-
-    cap_landed = max_cap(landed_idx)
-    total_posts = len(all_posts)
-
-    if was_update:
-        print(f"   ♻️  Post actualizado → data/posts-{landed_idx}.json")
-    else:
-        print(f"   ✅ Post insertado  → data/posts-{landed_idx}.json  ({len(chunks[landed_idx-1][1])}/{cap_landed})")
-
-    print(f"   📦 Chunks activos: {new_chunk_count}  |  Posts totales: {total_posts}")
-
-    # Mostrar resumen de cada chunk
-    for chunk_idx, chunk_data in chunks:
-        ids = ", ".join(p["id"] for p in chunk_data)
-        print(f"      posts-{chunk_idx}.json [{len(chunk_data)}/{max_cap(chunk_idx)}]: {ids}")
-
-    return f"posts-{landed_idx}.json", landed_idx
+    update_for_you(entry)
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  SITEMAP
 # ══════════════════════════════════════════════════════════════════════════════
-def inject_sitemap(meta):
+def inject_sitemap(meta: dict) -> None:
     if not SITEMAP_FILE.exists():
         print(f"   ⚠️  {SITEMAP_FILE} no encontrado — saltando.")
         return
@@ -564,18 +564,24 @@ def inject_sitemap(meta):
     main_img = str(meta.get("main_img", "")).strip()
     date_str = str(meta.get("Date", datetime.now().strftime("%Y-%m-%d")))
     title    = meta.get("TitlePost", meta.get("TitleSEO", ""))
-    stem     = url.rstrip("/").split("/")[-1].replace(".html","")
+    stem     = url.rstrip("/").split("/")[-1].replace(".html", "")
     cover    = f"https://zurefx.github.io/img/{main_img if main_img else stem}.png"
 
-    freq_map = {"writeups":"never","notes":"monthly","research":"monthly","scripting":"monthly","projects":"monthly"}
-    prio_map = {"writeups":"0.7","notes":"0.75","research":"0.75","scripting":"0.75","projects":"0.7"}
+    freq_map = {
+        "writeups": "never", "notes": "monthly",
+        "research": "monthly", "scripting": "monthly", "projects": "monthly",
+    }
+    prio_map = {
+        "writeups": "0.7", "notes": "0.75",
+        "research": "0.75", "scripting": "0.75", "projects": "0.7",
+    }
 
     new_entry = (
         f"  <url>\n"
         f"    <loc>{url}</loc>\n"
         f"    <lastmod>{date_str}</lastmod>\n"
-        f"    <changefreq>{freq_map.get(section,'monthly')}</changefreq>\n"
-        f"    <priority>{prio_map.get(section,'0.7')}</priority>\n"
+        f"    <changefreq>{freq_map.get(section, 'monthly')}</changefreq>\n"
+        f"    <priority>{prio_map.get(section, '0.7')}</priority>\n"
         f"    <image:image>\n"
         f"      <image:loc>{cover}</image:loc>\n"
         f"      <image:title>{title}</image:title>\n"
@@ -585,17 +591,23 @@ def inject_sitemap(meta):
 
     content = SITEMAP_FILE.read_text(encoding="utf-8")
 
-    # Actualizar si ya existe
     if url and url in content:
-        pattern = re.compile(r'\s*<url>\s*\n\s*<loc>' + re.escape(url) + r'</loc>.*?</url>', re.DOTALL)
+        pattern = re.compile(
+            r'\s*<url>\s*\n\s*<loc>' + re.escape(url) + r'</loc>.*?</url>',
+            re.DOTALL,
+        )
         if pattern.search(content):
-            SITEMAP_FILE.write_text(pattern.sub('\n' + new_entry, content), encoding="utf-8")
+            SITEMAP_FILE.write_text(
+                pattern.sub('\n' + new_entry, content), encoding="utf-8"
+            )
             print(f"   ♻️  Sitemap actualizado: {url}")
             return
 
-    # Insertar antes de </urlset>
     if "</urlset>" in content:
-        SITEMAP_FILE.write_text(content.replace("</urlset>", f"\n{new_entry}\n\n</urlset>"), encoding="utf-8")
+        SITEMAP_FILE.write_text(
+            content.replace("</urlset>", f"\n{new_entry}\n\n</urlset>"),
+            encoding="utf-8",
+        )
         print(f"   ✅ Sitemap inyectado: {url}")
     else:
         print("   ⚠️  </urlset> no encontrado en sitemap.xml")
@@ -603,7 +615,7 @@ def inject_sitemap(meta):
 # ══════════════════════════════════════════════════════════════════════════════
 #  MAIN
 # ══════════════════════════════════════════════════════════════════════════════
-def main():
+def main() -> None:
     if len(sys.argv) < 2:
         print("Uso: python tools/convert.py <archivo.md>")
         sys.exit(1)
@@ -616,47 +628,44 @@ def main():
     raw = input_path.read_text(encoding="utf-8")
     meta, md_content = parse_frontmatter(raw)
 
-    section = str(meta.get("Section","notes")).lower()
+    section = str(meta.get("Section", "notes")).lower()
     folder  = SECTION_FOLDER.get(section, section)
-    post_id = (
-        str(meta.get("Permalink","")).rstrip("/").split("/")[-1].replace(".html","")
-        or str(meta.get("TitlePost","post")).lower().replace(" ","-")
-    )
+    post_id = derive_post_id(meta)
 
-    print(f"\n📄 {meta.get('TitlePost','?')}")
+    print(f"\n📄 {meta.get('TitlePost', '?')}")
     print(f"   section={section}  →  {folder}/{post_id}.html")
 
-    # Stats
+    # ── Stats ────────────────────────────────────────────────────────────────
     words, read_time = calculate_stats(md_content)
     print(f"   {words:,} words · {read_time}")
 
-    # Images
+    # ── Images ───────────────────────────────────────────────────────────────
     md_content, img_map = normalize_images_in_md(md_content)
     for orig, seq in img_map.items():
         print(f"   img: {orig} → {seq}")
 
-    # Build
+    # ── Build HTML ───────────────────────────────────────────────────────────
     body = md_to_body(md_content)
-    url_images = str(meta.get("URL_IMAGES","")).rstrip("/")
+    url_images = str(meta.get("URL_IMAGES", "")).rstrip("/")
     if url_images:
         body = expand_image_urls_in_html(body, url_images)
 
-    # Write HTML
     out_dir  = Path(folder)
     out_dir.mkdir(exist_ok=True)
     out_path = out_dir / f"{post_id}.html"
     out_path.write_text(build_html(meta, body, words, read_time), encoding="utf-8")
     print(f"   ✅ HTML  → {out_path}")
 
-    # JSON chunk
+    # ── JSON (flat files + for-you sliding window) ───────────────────────────
     entry = build_json_entry(meta, words, read_time)
-    insert_into_chunks(entry)
+    write_to_jsons(entry, section)
 
-    # Sitemap
+    # ── Sitemap ──────────────────────────────────────────────────────────────
     inject_sitemap(meta)
 
-    print(f"\n── JSON ─────────────────────────────────────────────────")
+    print(f"\n── JSON entry ───────────────────────────────────────────")
     print(json.dumps(entry, ensure_ascii=False, indent=2))
+
 
 if __name__ == "__main__":
     main()

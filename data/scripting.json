@@ -1,0 +1,56 @@
+[
+  {
+    "id": "port-scan-tool",
+    "title": "Fast Port Scanner in Python",
+    "section": "scripting",
+    "description": "Multithreaded Python port scanner with banner grabbing, built as a lightweight alternative to nmap for CTF environments.",
+    "permalink": "/scripting/port-scan-tool.html",
+    "btn_label": "View Script",
+    "date": "2026-03-17",
+    "tags": [
+      "python",
+      "scripting",
+      "tools",
+      "networking"
+    ],
+    "image": "/img/port-scan-tool.png",
+    "words": 81,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-automation",
+    "title": "Bash Recon Automation",
+    "section": "scripting",
+    "description": "Bash script to automate initial recon: nmap, gobuster, whatweb and screenshot capture in one command.",
+    "permalink": "/scripting/bash-automation.html",
+    "btn_label": "View Script",
+    "date": "2026-03-12",
+    "tags": [
+      "bash",
+      "scripting",
+      "automation",
+      "recon"
+    ],
+    "image": "/img/bash-automation.png",
+    "words": 62,
+    "readTime": "1 min"
+  },
+  {
+    "id": "python-rev-shell",
+    "title": "Python Reverse Shell Generator",
+    "section": "scripting",
+    "description": "Lightweight Python script to generate reverse shell one-liners for multiple languages during CTF and pentesting.",
+    "permalink": "/scripting/python-rev-shell.html",
+    "btn_label": "View Script",
+    "date": "2026-03-07",
+    "tags": [
+      "python",
+      "scripting",
+      "reverseshell",
+      "tools"
+    ],
+    "image": "/img/python-rev-shell.png",
+    "words": 86,
+    "readTime": "1 min"
+  }
+]

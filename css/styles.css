@@ -13,8 +13,8 @@
   --border:     #2e2e2e;
   --border-dim: #1e1e1e;
   --text-1:     #efefef;
-  --text-2:     #909090;
-  --text-3:     #525252;
+  --text-2:     #aba9a9;
+  --text-3:     #6c6c6c;
   --text-4:     #303030;
   --icon-c:     #707070;
 }
@@ -26,7 +26,7 @@
   --border:     #aaaaaa;
   --border-dim: #bbbbbb;
   --text-1:     #0a0a0a;
-  --text-2:     #2e2e2e;
+  --text-2:     #252525;
   --text-3:     #555555;
   --text-4:     #888888;
   --icon-c:     #444444;
@@ -992,4 +992,28 @@ a { text-decoration: none; color: inherit; }
 
 .pick-thumb {
   position: relative;
+}
+/* ── Card tag badges (non-clickable, display only) ──────────────────────── */
+/* Pegar esto en styles.css o post.css donde tengas el resto de .tag styles  */
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 8px 0 4px;
+}
+
+.card-tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  padding: 3px 7px;
+  border-radius: 3px;
+  border: 1px solid;
+  cursor: default;          /* sin puntero — no es clickable */
+  pointer-events: none;     /* bloquea clicks completamente  */
+  user-select: none;
+  white-space: nowrap;
 }

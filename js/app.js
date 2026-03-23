@@ -1,7 +1,15 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   ZureFX — app.js
-   Sistema de carga progresiva (lazy chunks) para posts.
+   ZureFX — app.js  (v2)
+   Sistema de carga plana por sección.
+   Archivos cargados según sección activa:
+     for-you   → data/for-you.json
+     all       → data/posts.json
+     writeups  → data/writeups.json
+     research  → data/research.json
+     scripting → data/scripting.json
+     notes     → data/notes.json
    Las cards NO cargan imágenes — el visual es solo color/tint.
+   Las cards SÍ muestran tags como badges no-clickables.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ── CONSTANTS ───────────────────────────────────────────────────────────── */
@@ -26,25 +34,29 @@ var SECTION_LABEL = {
   'projects':     'Project'
 };
 
+/* JSON file for each section */
+var SECTION_FILE = {
+  'for-you':  'for-you.json',
+  'all':      'posts.json',
+  'writeups': 'writeups.json',
+  'research': 'research.json',
+  'scripting':'scripting.json',
+  'notes':    'notes.json',
+  'tools':    'tools.json'
+};
+
 var MONTHS   = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 var SECTIONS = ['for-you', 'all', 'writeups', 'research', 'scripting', 'notes'];
 
 /* ── POSTS PER PAGE ─────────────────────────────────────────────────────── */
-var FOR_YOU_LIMIT = 9;
-var PAGE_LIMIT    = 12;
-
-/* ── CHUNK CONFIG ────────────────────────────────────────────────────────── */
-var CHUNK_SIZES = { 1: 9, default: 12 };
-var MAX_CHUNKS  = 50;
+var PAGE_LIMIT = 12;
 
 /* ── STATE ───────────────────────────────────────────────────────────────── */
-var POSTS           = [];
-var currentChunk    = 0;
-var allChunksLoaded = false;
-var loadingChunk    = false;
-var currentSection  = 'for-you';
-var currentView     = 'grid';
-var currentPage     = 1;
+var CACHE          = {};   /* section → posts[] once loaded */
+var currentSection = 'for-you';
+var currentView    = 'grid';
+var currentPage    = 1;
+var loading        = false;
 
 /* ── DOM REFS ────────────────────────────────────────────────────────────── */
 var container;
@@ -121,6 +133,23 @@ function updateCardStats(card, data) {
   if (timeSpan) timeSpan.textContent = data.timeLabel ? data.timeLabel + ' read'            : '? min';
 }
 
+/* ── TAG BADGES (no-click, display only) ────────────────────────────────── */
+
+function buildTagBadges(tags, sec) {
+  if (!Array.isArray(tags) || tags.length === 0) return '';
+  var color = sectionColor(sec);
+  var html  = '<div class="card-tags">';
+  tags.slice(0, 4).forEach(function(t) {
+    html += '<span class="card-tag" style="'
+      + 'color:' + color + ';'
+      + 'border-color:' + color + '33;'
+      + 'background:' + color + '0f'
+      + '">' + t + '</span>';
+  });
+  html += '</div>';
+  return html;
+}
+
 /* ── TICKER ──────────────────────────────────────────────────────────────── */
 
 function buildTicker(items) {
@@ -143,70 +172,32 @@ function loadTicker() {
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
-   LAZY CHUNKS
+   FLAT JSON LOADER
    ══════════════════════════════════════════════════════════════════════════ */
 
-async function loadNextChunk() {
-  if (allChunksLoaded) return [];
-  if (loadingChunk)    return [];
-  if (currentChunk >= MAX_CHUNKS) { allChunksLoaded = true; return []; }
+async function loadSection(sec) {
+  if (CACHE[sec]) return CACHE[sec];
 
-  loadingChunk = true;
-  var nextIdx  = currentChunk + 1;
-  var url      = getRootPrefix() + 'data/posts-' + nextIdx + '.json?v=' + Date.now();
+  var file = SECTION_FILE[sec];
+  if (!file) { CACHE[sec] = []; return []; }
 
+  var url = getRootPrefix() + 'data/' + file + '?v=' + Date.now();
   try {
     var res = await fetch(url, { cache: 'no-store' });
-    if (!res.ok) { allChunksLoaded = true; loadingChunk = false; return []; }
-
-    var newPosts = await res.json();
-    if (!Array.isArray(newPosts) || newPosts.length === 0) {
-      allChunksLoaded = true; loadingChunk = false; return [];
-    }
-
-    var existingIds = {};
-    POSTS.forEach(function(p) { existingIds[p.id] = true; });
-    var unique = newPosts.filter(function(p) { return !existingIds[p.id]; });
-
-    POSTS        = POSTS.concat(unique);
-    currentChunk = nextIdx;
-    loadingChunk = false;
-
-    console.log('[ZFX] Chunk ' + nextIdx + ' — ' + unique.length + ' posts (total: ' + POSTS.length + ')');
-    return unique;
-
+    if (!res.ok) { CACHE[sec] = []; return []; }
+    var data = await res.json();
+    CACHE[sec] = Array.isArray(data) ? data : [];
+    console.log('[ZFX] Loaded ' + file + ' — ' + CACHE[sec].length + ' posts');
+    return CACHE[sec];
   } catch (err) {
-    console.warn('[ZFX] posts-' + (currentChunk + 1) + '.json not found');
-    allChunksLoaded = true; loadingChunk = false; return [];
+    console.warn('[ZFX] Could not load ' + file + ':', err);
+    CACHE[sec] = [];
+    return [];
   }
-}
-
-async function ensurePostsForSection(section, needed) {
-  function count(sec) {
-    if (sec === 'for-you' || sec === 'all') return POSTS.length;
-    return POSTS.filter(function(p) { return p.section === sec; }).length;
-  }
-  while (count(section) < needed && !allChunksLoaded) {
-    var added = await loadNextChunk();
-    if (!added.length) break;
-  }
-}
-
-function preloadNextChunk() {
-  if (allChunksLoaded || loadingChunk) return;
-  setTimeout(function() { loadNextChunk().catch(function() {}); }, 800);
-}
-
-/* ── FILTER ──────────────────────────────────────────────────────────────── */
-
-function filterPosts(sec) {
-  if (sec === 'for-you') return POSTS.slice(0, FOR_YOU_LIMIT);
-  if (sec === 'all')     return POSTS;
-  return POSTS.filter(function(p) { return p.section === sec; });
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
-   RENDER GRID — sin imágenes, solo color/tint
+   RENDER GRID — sin imágenes, solo color/tint + tags
    ══════════════════════════════════════════════════════════════════════════ */
 
 function renderGrid(posts) {
@@ -230,6 +221,7 @@ function renderGrid(posts) {
         '<div class="pg-cat" style="color:' + color + ';--cat-dot:' + color + '">' + label + '</div>' +
         '<div class="pg-title">' + p.title + '</div>' +
         '<div class="pg-desc">'  + p.description + '</div>' +
+        buildTagBadges(p.tags, p.section) +
         '<div class="pg-footer">' + buildStats('grid') + '</div>' +
       '</div>';
 
@@ -245,7 +237,7 @@ function renderGrid(posts) {
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
-   RENDER LIST — sin imágenes, solo color/tint
+   RENDER LIST — sin imágenes, solo color/tint + tags
    ══════════════════════════════════════════════════════════════════════════ */
 
 function renderList(posts) {
@@ -271,6 +263,7 @@ function renderList(posts) {
         '</div>' +
         '<div class="pl-title">' + p.title + '</div>' +
         '<div class="pl-desc">'  + p.description + '</div>' +
+        buildTagBadges(p.tags, p.section) +
         '<div class="pl-foot">'  + buildStats('list') + '</div>' +
       '</div>';
 
@@ -289,8 +282,9 @@ function renderList(posts) {
 
 var PICK_TINTS = ['pt1', 'pt2', 'pt3'];
 
-function renderPicks() {
-  var picks = POSTS.filter(function(p) { return p.pick === 1; }).slice(0, 3);
+function renderPicks(posts) {
+  if (!picksContainer) return;
+  var picks = posts.filter(function(p) { return p.pick === 1; }).slice(0, 3);
   picksContainer.innerHTML = '';
 
   picks.forEach(function(p, i) {
@@ -324,12 +318,13 @@ function renderPicks() {
   });
 }
 
-/* ── RENDER TAGS ─────────────────────────────────────────────────────────── */
+/* ── RENDER TAGS CLOUD ───────────────────────────────────────────────────── */
 
-function renderTags() {
+function renderTags(posts) {
+  if (!tagsCloud) return;
   var seen = {};
   var tags = [];
-  POSTS.forEach(function(p) {
+  posts.forEach(function(p) {
     if (Array.isArray(p.tags)) {
       p.tags.forEach(function(t) {
         var clean = t.toLowerCase().trim();
@@ -402,22 +397,24 @@ function showLoader() {
 
 /* ── MAIN RENDER ─────────────────────────────────────────────────────────── */
 
-function render() {
-  var all = filterPosts(currentSection);
+function render(posts) {
+  if (!container) return;
 
+  /* for-you: muestra todo lo que venga del JSON (máx 9), sin paginación */
   if (currentSection === 'for-you') {
     container.innerHTML = '';
     var v = isMobile() ? 'list' : currentView;
-    container.appendChild(v === 'grid' ? renderGrid(all) : renderList(all));
-    paginator.innerHTML = '';
+    container.appendChild(v === 'grid' ? renderGrid(posts) : renderList(posts));
+    if (paginator) paginator.innerHTML = '';
     return;
   }
 
-  var total = Math.max(1, Math.ceil(all.length / PAGE_LIMIT));
+  /* resto de secciones: paginación */
+  var total = Math.max(1, Math.ceil(posts.length / PAGE_LIMIT));
   if (currentPage < 1)     currentPage = 1;
   if (currentPage > total) currentPage = total;
 
-  var slice = all.slice((currentPage - 1) * PAGE_LIMIT, currentPage * PAGE_LIMIT);
+  var slice = posts.slice((currentPage - 1) * PAGE_LIMIT, currentPage * PAGE_LIMIT);
   container.innerHTML = '';
   var v2 = isMobile() ? 'list' : currentView;
   container.appendChild(v2 === 'grid' ? renderGrid(slice) : renderList(slice));
@@ -427,32 +424,19 @@ function render() {
 /* ── RENDER WITH LOADER ──────────────────────────────────────────────────── */
 
 async function renderWithLoader() {
-  if (!container) return;
+  if (!container || loading) return;
+  loading = true;
+  showLoader();
 
-  var neededSection = currentSection;
-  var neededCount;
+  var posts = await loadSection(currentSection);
+  render(posts);
 
-  if (currentSection === 'for-you') {
-    neededCount   = FOR_YOU_LIMIT;
-    neededSection = 'all';
-  } else {
-    neededCount = currentPage * PAGE_LIMIT;
-  }
+  /* sidebar: picks + tags siempre desde posts.json (feed global) */
+  var allPosts = CACHE['all'] || await loadSection('all');
+  renderPicks(allPosts);
+  renderTags(allPosts);
 
-  var currentCount = (neededSection === 'all')
-    ? POSTS.length
-    : POSTS.filter(function(p) { return p.section === neededSection; }).length;
-
-  if (currentCount < neededCount && !allChunksLoaded) showLoader();
-
-  await ensurePostsForSection(neededSection, neededCount);
-
-  render();
-
-  if (picksContainer) renderPicks();
-  if (tagsCloud)      renderTags();
-
-  preloadNextChunk();
+  loading = false;
 }
 
 /* ── SECTION MANAGEMENT ──────────────────────────────────────────────────── */
@@ -516,9 +500,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (!container) return;
 
-  /* ── View toggle ── */
-  if (btnGrid) btnGrid.addEventListener('click', function() { currentView = 'grid'; currentPage = 1; btnGrid.classList.add('active'); btnList.classList.remove('active'); render(); });
-  if (btnList) btnList.addEventListener('click', function() { currentView = 'list'; currentPage = 1; btnList.classList.add('active'); btnGrid.classList.remove('active'); render(); });
+  /* ── View toggle (solo re-renderiza desde caché, sin refetch) ── */
+  if (btnGrid) btnGrid.addEventListener('click', function() {
+    currentView = 'grid'; currentPage = 1;
+    btnGrid.classList.add('active'); btnList.classList.remove('active');
+    var cached = CACHE[currentSection];
+    if (cached) render(cached);
+  });
+  if (btnList) btnList.addEventListener('click', function() {
+    currentView = 'list'; currentPage = 1;
+    btnList.classList.add('active'); btnGrid.classList.remove('active');
+    var cached = CACHE[currentSection];
+    if (cached) render(cached);
+  });
 
   window.addEventListener('hashchange', handleHash);
 
@@ -545,25 +539,35 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   var rt;
-  window.addEventListener('resize', function() { clearTimeout(rt); rt = setTimeout(render, 120); });
+  window.addEventListener('resize', function() {
+    clearTimeout(rt);
+    rt = setTimeout(function() {
+      var cached = CACHE[currentSection];
+      if (cached) render(cached);
+    }, 120);
+  });
 
-  /* ── Bootstrap ── */
+  /* ── Bootstrap: carga for-you + posts.json en paralelo ── */
   (async function boot() {
+    if (!container) return;
     showLoader();
     try {
-      var res = await fetch(getRootPrefix() + 'data/posts-1.json', { cache: 'no-cache' });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      POSTS        = await res.json();
-      currentChunk = 1;
-      if (picksContainer) renderPicks();
-      if (tagsCloud)      renderTags();
-      handleHash();
-      preloadNextChunk();
+      /* for-you.json y posts.json en paralelo desde el arranque */
+      await Promise.all([loadSection('for-you'), loadSection('all')]);
+
+      var allPosts = CACHE['all'] || [];
+      renderPicks(allPosts);
+      renderTags(allPosts);
+
+      handleHash();   /* decide sección según URL hash y renderiza */
+
     } catch (err) {
-      console.error('[ZFX] Failed to load posts-1.json:', err);
-      container.innerHTML =
-        '<p style="color:var(--text-3);padding:32px;font-family:var(--mono);font-size:0.65rem;letter-spacing:0.08em;">' +
-        'FAILED TO LOAD POSTS — CHECK /data/posts-1.json</p>';
+      console.error('[ZFX] Boot failed:', err);
+      if (container) {
+        container.innerHTML =
+          '<p style="color:var(--text-3);padding:32px;font-family:var(--mono);font-size:0.65rem;letter-spacing:0.08em;">' +
+          'FAILED TO LOAD POSTS — CHECK /data/for-you.json</p>';
+      }
     }
   })();
 

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "ad-kerberoasting",
+    "title": "Kerberoasting — Active Directory",
+    "section": "notes",
+    "description": "Kerberoasting attack explained: how to request TGS tickets, extract hashes and crack service account passwords offline.",
+    "permalink": "/notes/ad-kerberoasting.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-18",
+    "tags": [
+      "activedirectory",
+      "kerberoasting",
+      "cheatsheet",
+      "impacket"
+    ],
+    "image": "/img/ad-kerberoasting.png",
+    "words": 87,
+    "readTime": "1 min",
+    "subsection": "Active Directory"
+  },
+  {
+    "id": "linux-privesc-notes",
+    "title": "Linux Privilege Escalation",
+    "section": "notes",
+    "description": "Linux privesc quick reference: SUID, sudo misconfigurations, cron jobs, writable paths and kernel exploits.",
+    "permalink": "/notes/linux-privesc-notes.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-16",
+    "tags": [
+      "cheatsheet",
+      "linux",
+      "privesc",
+      "oscp"
+    ],
+    "image": "/img/linux-privesc-notes.png",
+    "words": 64,
+    "readTime": "1 min",
+    "subsection": "Linux"
+  },
+  {
+    "id": "sql-injection-notes",
+    "title": "SQL Injection Notes",
+    "section": "notes",
+    "description": "SQL injection quick reference: error-based, union-based, blind and time-based techniques with sqlmap usage.",
+    "permalink": "/notes/sql-injection-notes.html",
+    "btn_label": "View Notes",
+    "date": "2026-03-13",
+    "tags": [
+      "sqli",
+      "web",
+      "cheatsheet",
+      "owasp"
+    ],
+    "image": "/img/sql-injection-notes.png",
+    "words": 76,
+    "readTime": "1 min",
+    "subsection": "Web"
+  },
+  {
+    "id": "smb-enumeration",
+    "title": "SMB Enumeration",
+    "section": "notes",
+    "description": "SMB enumeration techniques using smbclient, enum4linux, crackmapexec and impacket for Active Directory pentesting.",
+    "permalink": "/notes/smb-enumeration.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-08",
+    "tags": [
+      "cheatsheet",
+      "smb",
+      "activedirectory",
+      "enumeration"
+    ],
+    "image": "/img/smb-enumeration.png",
+    "words": 61,
+    "readTime": "1 min",
+    "subsection": "Active Directory"
+  },
+  {
+    "id": "ffuf-guide",
+    "title": "FFUF Web Fuzzing Guide",
+    "section": "notes",
+    "description": "Practical FFUF guide for directory, parameter and subdomain fuzzing during web pentests.",
+    "permalink": "/notes/ffuf-guide.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-03",
+    "tags": [
+      "web",
+      "fuzzing",
+      "ffuf",
+      "bugbounty"
+    ],
+    "image": "/img/ffuf-guide.png",
+    "words": 65,
+    "readTime": "1 min",
+    "subsection": "Web"
+  },
+  {
+    "id": "nmap-cheatsheet",
+    "title": "Nmap Cheatsheet",
+    "section": "notes",
+    "description": "Quick reference for Nmap: scan types, timing, scripts and output formats for pentesting.",
+    "permalink": "/notes/nmap-cheatsheet.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-01",
+    "tags": [
+      "cheatsheet",
+      "network",
+      "nmap",
+      "enumeration"
+    ],
+    "image": "/img/nmap-cheatsheet.png",
+    "words": 47,
+    "readTime": "1 min",
+    "subsection": "Network"
+  }
+]

@@ -1,0 +1,351 @@
+[
+  {
+    "id": "htb-active",
+    "title": "HTB Active — Easy Windows",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Active. SMB anonymous share enumeration, GPP password decryption with gpp-decrypt, and Kerberoasting the Administrator account to get SYSTEM.",
+    "permalink": "/writeups/htb-active.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-25",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "windows",
+      "kerberoasting",
+      "gpp",
+      "smb",
+      "activedirectory"
+    ],
+    "image": "/img/htb-active.png",
+    "words": 1052,
+    "readTime": "6 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-linkvortex",
+    "title": "HTB LinkVortex — Easy Linux",
+    "section": "writeups",
+    "description": "HackTheBox LinkVortex writeup. Ghost CMS credential leak via git repo exposure and symlink exploit for root.",
+    "permalink": "/writeups/htb-linkvortex.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-23",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "ghostcms",
+      "symlink"
+    ],
+    "image": "/img/htb-linkvortex.png",
+    "words": 96,
+    "readTime": "1 min",
+    "pick": 1
+  },
+  {
+    "id": "zfx-recon-tool",
+    "title": "ZFX Recon Tool",
+    "section": "projects",
+    "description": "Automated reconnaissance framework for CTF and pentesting. Chains nmap, ffuf, whatweb and screenshots into a single command with structured output.",
+    "permalink": "/research/zfx-recon-tool.html",
+    "btn_label": "View on GitHub",
+    "date": "2026-03-22",
+    "tags": [
+      "python",
+      "automation",
+      "recon",
+      "opensource",
+      "tools"
+    ],
+    "image": "/img/zfx-recon-tool.png",
+    "words": 43,
+    "readTime": "1 min",
+    "features": [
+      "Automated nmap + ffuf + whatweb chain",
+      "Structured markdown output per target",
+      "Screenshot capture via gowitness",
+      "Plugin system for custom modules"
+    ]
+  },
+  {
+    "id": "htb-analysis",
+    "title": "HTB Analysis — Hard Windows",
+    "section": "writeups",
+    "description": "HackTheBox Analysis writeup. LDAP injection, ASP webshell, DLL hijacking and Snort dynamic preprocessor abuse for root.",
+    "permalink": "/writeups/htb-analysis.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-19",
+    "tags": [
+      "hackthebox",
+      "hard",
+      "windows",
+      "ldapinjection",
+      "dllhijacking"
+    ],
+    "image": "/img/htb-analysis.png",
+    "words": 85,
+    "readTime": "1 min"
+  },
+  {
+    "id": "ad-kerberoasting",
+    "title": "Kerberoasting — Active Directory",
+    "section": "notes",
+    "description": "Kerberoasting attack explained: how to request TGS tickets, extract hashes and crack service account passwords offline.",
+    "permalink": "/notes/ad-kerberoasting.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-18",
+    "tags": [
+      "activedirectory",
+      "kerberoasting",
+      "cheatsheet",
+      "impacket"
+    ],
+    "image": "/img/ad-kerberoasting.png",
+    "words": 87,
+    "readTime": "1 min",
+    "subsection": "Active Directory"
+  },
+  {
+    "id": "port-scan-tool",
+    "title": "Fast Port Scanner in Python",
+    "section": "scripting",
+    "description": "Multithreaded Python port scanner with banner grabbing, built as a lightweight alternative to nmap for CTF environments.",
+    "permalink": "/scripting/port-scan-tool.html",
+    "btn_label": "View Script",
+    "date": "2026-03-17",
+    "tags": [
+      "python",
+      "scripting",
+      "tools",
+      "networking"
+    ],
+    "image": "/img/port-scan-tool.png",
+    "words": 81,
+    "readTime": "1 min"
+  },
+  {
+    "id": "linux-privesc-notes",
+    "title": "Linux Privilege Escalation",
+    "section": "notes",
+    "description": "Linux privesc quick reference: SUID, sudo misconfigurations, cron jobs, writable paths and kernel exploits.",
+    "permalink": "/notes/linux-privesc-notes.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-16",
+    "tags": [
+      "cheatsheet",
+      "linux",
+      "privesc",
+      "oscp"
+    ],
+    "image": "/img/linux-privesc-notes.png",
+    "words": 64,
+    "readTime": "1 min",
+    "subsection": "Linux"
+  },
+  {
+    "id": "edr-evasion-research",
+    "title": "EDR Evasion Techniques Overview",
+    "section": "research",
+    "description": "Overview of common EDR evasion techniques: syscall unhooking, AMSI bypass, process injection and sleep obfuscation.",
+    "permalink": "/research/edr-evasion-research.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-15",
+    "tags": [
+      "research",
+      "redteam",
+      "edr",
+      "evasion",
+      "amsi"
+    ],
+    "image": "/img/edr-evasion-research.png",
+    "words": 75,
+    "readTime": "1 min"
+  },
+  {
+    "id": "htb-bizness",
+    "title": "HTB Bizness — Easy Linux",
+    "section": "writeups",
+    "description": "HackTheBox Bizness writeup. Apache OFBiz authentication bypass CVE-2023-49070 and SHA1 hash cracking for root.",
+    "permalink": "/writeups/htb-bizness.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-14",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "ofbiz",
+      "authbypass"
+    ],
+    "image": "/img/htb-bizness.png",
+    "words": 55,
+    "readTime": "1 min"
+  },
+  {
+    "id": "sql-injection-notes",
+    "title": "SQL Injection Notes",
+    "section": "notes",
+    "description": "SQL injection quick reference: error-based, union-based, blind and time-based techniques with sqlmap usage.",
+    "permalink": "/notes/sql-injection-notes.html",
+    "btn_label": "View Notes",
+    "date": "2026-03-13",
+    "tags": [
+      "sqli",
+      "web",
+      "cheatsheet",
+      "owasp"
+    ],
+    "image": "/img/sql-injection-notes.png",
+    "words": 76,
+    "readTime": "1 min",
+    "subsection": "Web"
+  },
+  {
+    "id": "bash-automation",
+    "title": "Bash Recon Automation",
+    "section": "scripting",
+    "description": "Bash script to automate initial recon: nmap, gobuster, whatweb and screenshot capture in one command.",
+    "permalink": "/scripting/bash-automation.html",
+    "btn_label": "View Script",
+    "date": "2026-03-12",
+    "tags": [
+      "bash",
+      "scripting",
+      "automation",
+      "recon"
+    ],
+    "image": "/img/bash-automation.png",
+    "words": 62,
+    "readTime": "1 min"
+  },
+  {
+    "id": "malware-dropper-analysis",
+    "title": "Analyzing a Simple Python Dropper",
+    "section": "research",
+    "description": "Static and dynamic analysis of a basic Python-based malware dropper. Covers obfuscation, persistence and C2 communication patterns.",
+    "permalink": "/research/malware-dropper-analysis.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-11",
+    "tags": [
+      "malwareanalysis",
+      "research",
+      "dropper",
+      "python",
+      "reversing"
+    ],
+    "image": "/img/malware-dropper-analysis.png",
+    "words": 69,
+    "readTime": "1 min"
+  },
+  {
+    "id": "htb-hospital",
+    "title": "HTB Hospital — Medium Windows",
+    "section": "writeups",
+    "description": "HackTheBox Hospital writeup. File upload bypass, CVE-2023-35001 Linux kernel exploit and RoundCube webmail attack chain.",
+    "permalink": "/writeups/htb-hospital.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-10",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "windows",
+      "fileupload",
+      "kernelexploit"
+    ],
+    "image": "/img/htb-hospital.png",
+    "words": 70,
+    "readTime": "1 min"
+  },
+  {
+    "id": "smb-enumeration",
+    "title": "SMB Enumeration",
+    "section": "notes",
+    "description": "SMB enumeration techniques using smbclient, enum4linux, crackmapexec and impacket for Active Directory pentesting.",
+    "permalink": "/notes/smb-enumeration.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-08",
+    "tags": [
+      "cheatsheet",
+      "smb",
+      "activedirectory",
+      "enumeration"
+    ],
+    "image": "/img/smb-enumeration.png",
+    "words": 61,
+    "readTime": "1 min",
+    "subsection": "Active Directory"
+  },
+  {
+    "id": "python-rev-shell",
+    "title": "Python Reverse Shell Generator",
+    "section": "scripting",
+    "description": "Lightweight Python script to generate reverse shell one-liners for multiple languages during CTF and pentesting.",
+    "permalink": "/scripting/python-rev-shell.html",
+    "btn_label": "View Script",
+    "date": "2026-03-07",
+    "tags": [
+      "python",
+      "scripting",
+      "reverseshell",
+      "tools"
+    ],
+    "image": "/img/python-rev-shell.png",
+    "words": 86,
+    "readTime": "1 min"
+  },
+  {
+    "id": "htb-keeper",
+    "title": "HTB Keeper — Easy Linux",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Keeper. Exploiting default credentials in a ticket system and KeePass memory dump to get root.",
+    "permalink": "/writeups/htb-keeper.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-05",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "keepass",
+      "defaultcreds"
+    ],
+    "image": "/img/htb-keeper.png",
+    "words": 62,
+    "readTime": "1 min"
+  },
+  {
+    "id": "ffuf-guide",
+    "title": "FFUF Web Fuzzing Guide",
+    "section": "notes",
+    "description": "Practical FFUF guide for directory, parameter and subdomain fuzzing during web pentests.",
+    "permalink": "/notes/ffuf-guide.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-03",
+    "tags": [
+      "web",
+      "fuzzing",
+      "ffuf",
+      "bugbounty"
+    ],
+    "image": "/img/ffuf-guide.png",
+    "words": 65,
+    "readTime": "1 min",
+    "subsection": "Web"
+  },
+  {
+    "id": "nmap-cheatsheet",
+    "title": "Nmap Cheatsheet",
+    "section": "notes",
+    "description": "Quick reference for Nmap: scan types, timing, scripts and output formats for pentesting.",
+    "permalink": "/notes/nmap-cheatsheet.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-01",
+    "tags": [
+      "cheatsheet",
+      "network",
+      "nmap",
+      "enumeration"
+    ],
+    "image": "/img/nmap-cheatsheet.png",
+    "words": 47,
+    "readTime": "1 min",
+    "subsection": "Network"
+  }
+]
