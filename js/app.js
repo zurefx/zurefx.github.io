@@ -30,8 +30,8 @@ var MONTHS   = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov
 var SECTIONS = ['for-you', 'all', 'writeups', 'research', 'scripting', 'notes'];
 
 /* ── POSTS PER PAGE ─────────────────────────────────────────────────────── */
-var FOR_YOU_LIMIT = 6;
-var PAGE_LIMIT    = 9;
+var FOR_YOU_LIMIT = 9;
+var PAGE_LIMIT    = 12;
 
 /* ── CHUNK CONFIG ────────────────────────────────────────────────────────── */
 var CHUNK_SIZES = { 1: 9, default: 12 };

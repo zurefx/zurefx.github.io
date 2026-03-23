@@ -74,8 +74,7 @@
   var activeSub   = 'all';
   var searchQuery = '';
 
-  /* ── Build compact row (mismo formato que tags.js) ── */
-  /* ── Build card (formato grid — .note-card en .notes-grid) ── */
+  /* ── Build card (sin imagen) ── */
   function buildCard(note, index) {
     var a = document.createElement('a');
     a.className = index === 0 ? 'note-card note-featured' : 'note-card';
@@ -89,15 +88,7 @@
       return '<span class="note-card-tag">#' + escN(t) + '</span>';
     }).join('');
 
-    var imgHTML = note.image
-      ? '<div class="note-card-img-wrap">' +
-          '<img class="note-card-img" src="' + escN(note.image) + '" alt="' + escN(note.title) + '" loading="lazy"' +
-          ' onerror="this.closest(\'.note-card-img-wrap\').remove()">' +
-        '</div>'
-      : '';
-
     a.innerHTML =
-      imgHTML +
       '<div class="note-card-body">' +
         (sub ? '<span class="note-card-sub">' + escN(sub) + '</span>' : '') +
         '<h2 class="note-card-title">' + escN(note.title) + '</h2>' +
@@ -138,7 +129,6 @@
     }
     emptyEl && emptyEl.classList.add('hidden');
 
-    /* Las cards van directo al #notes-grid — el CSS hace el grid */
     filtered.forEach(function(note, i) { grid.appendChild(buildCard(note, i)); });
   }
 

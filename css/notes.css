@@ -211,20 +211,6 @@
 .note-card.note-featured { grid-column: span 2; }
 .note-card.note-featured .note-card-title { font-size: 1.08rem; }
 .note-card.note-featured .note-card-desc  { -webkit-line-clamp: 4; }
-.note-card.note-featured .note-card-img-wrap { aspect-ratio: 21/9; }
-
-/* Imagen */
-.note-card-img-wrap {
-  width: 100%; aspect-ratio: 16/9;
-  overflow: hidden; background: var(--bg-card2);
-  flex-shrink: 0; border-bottom: 1px solid var(--border);
-}
-.note-card-img {
-  width: 100%; height: 100%;
-  object-fit: cover; display: block;
-  transition: transform .4s ease;
-}
-.note-card:hover .note-card-img { transform: scale(1.04); }
 
 /* Body */
 .note-card-body {

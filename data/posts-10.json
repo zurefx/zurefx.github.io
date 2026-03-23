@@ -163,6 +163,7 @@
     "id": "lfi-cheatsheet",
     "title": "LFI Cheatsheet",
     "section": "notes",
+    "subsection":"aea",
     "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
     "permalink": "/notes/lfi-cheatsheet.html",
     "btn_label": "View Notes",
