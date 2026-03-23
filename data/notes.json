@@ -1,5 +1,23 @@
 [
   {
+    "id": "note-111111",
+    "title": "Enumeration Example #1",
+    "section": "notes",
+    "description": "Notes for real-world offensive security scenarios.",
+    "permalink": "/notes/note-1111111.html",
+    "btn_label": "View Notes",
+    "date": "2026-03-23",
+    "tags": [
+      "linux",
+      "web",
+      "nmap"
+    ],
+    "image": "/img/note-1.png",
+    "words": 69,
+    "readTime": "1 min",
+    "subsection": "Active Directory"
+  },
+  {
     "id": "note-1",
     "title": "Enumeration Guide #1",
     "section": "notes",
