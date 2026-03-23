@@ -1,55 +1,9 @@
 /* ============================================================
-   ZureFX — archives.js  (v2)
-   Carga progresiva por chunks — igual que app.js y tags.js.
+   ZureFX — archives.js  (v3)
+   Carga plana desde data/posts.json (mismo patrón que app.js).
    Depende de app.js (cargado antes): getRootPrefix(),
    SECTION_COLOR_MAP, fmtDate(), capitalize().
    ============================================================ */
-
-/* ── Estado de chunks ── */
-var _arc_posts     = [];
-var _arc_chunk     = 0;
-var _arc_loaded    = false;
-var _arc_loading   = false;
-var MAX_CHUNKS_ARC = 50;
-
-/* ── Cargar siguiente chunk ── */
-async function arcLoadNextChunk() {
-  if (_arc_loaded || _arc_loading) return [];
-  if (_arc_chunk >= MAX_CHUNKS_ARC) { _arc_loaded = true; return []; }
-
-  _arc_loading = true;
-  var nextIdx = _arc_chunk + 1;
-  var url = getRootPrefix() + 'data/posts-' + nextIdx + '.json?v=' + Date.now();
-
-  try {
-    var res = await fetch(url, { cache: 'no-store' });
-    if (!res.ok) { _arc_loaded = true; _arc_loading = false; return []; }
-
-    var incoming = await res.json();
-    if (!Array.isArray(incoming) || !incoming.length) {
-      _arc_loaded = true; _arc_loading = false; return [];
-    }
-
-    var existing = {};
-    _arc_posts.forEach(function(p) { existing[p.id] = true; });
-    var unique = incoming.filter(function(p) { return !existing[p.id]; });
-
-    _arc_posts   = _arc_posts.concat(unique);
-    _arc_chunk   = nextIdx;
-    _arc_loading = false;
-    return unique;
-  } catch (e) {
-    _arc_loaded = true; _arc_loading = false; return [];
-  }
-}
-
-/* ── Cargar TODOS los chunks (archives muestra todo) ── */
-async function arcLoadAll() {
-  while (!_arc_loaded) {
-    var added = await arcLoadNextChunk();
-    if (!added.length) break;
-  }
-}
 
 /* ── Helpers ── */
 function escArc(s) {
@@ -69,7 +23,7 @@ function formatMonthHeading(key) {
   } catch(_) { return key; }
 }
 
-/* ── Build compact row (mismo formato que tags.js) ── */
+/* ── Build compact row ── */
 function buildArcRow(p) {
   var color = SECTION_COLOR_MAP[p.section] || '#cc2b2b';
   var label = capitalize(p.section);
@@ -85,14 +39,12 @@ function buildArcRow(p) {
     'animation:fadeInUp .3s ease both'
   ].join(';');
 
-  /* accent bar */
   var bar = document.createElement('div');
   bar.style.cssText = [
     'flex-shrink:0', 'width:3px', 'border-radius:2px',
     'background:' + color, 'align-self:stretch', 'min-height:44px'
   ].join(';');
 
-  /* body */
   var body = document.createElement('div');
   body.style.cssText = 'flex:1;min-width:0;display:flex;flex-direction:column;gap:4px';
 
@@ -166,6 +118,25 @@ function updateArchivesStats(text) {
   if (el) el.querySelector('span').textContent = text;
 }
 
+/* ══════════════════════════════════════════════════════
+   LOAD — carga plana desde data/posts.json
+   ══════════════════════════════════════════════════════ */
+function loadAllPosts() {
+  var url = getRootPrefix() + 'data/posts.json?v=' + Date.now();
+  return fetch(url, { cache: 'no-store' })
+    .then(function(res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .then(function(data) {
+      return Array.isArray(data) ? data : [];
+    })
+    .catch(function(err) {
+      console.warn('[archives.js] Could not load posts.json:', err);
+      return [];
+    });
+}
+
 /* ── Main ── */
 async function loadArchives() {
   var container = document.getElementById('archivesContainer');
@@ -174,10 +145,11 @@ async function loadArchives() {
   renderSkeletonArc(container);
 
   try {
-    /* Cargar todos los chunks — archives es un índice completo */
-    await arcLoadAll();
+    var allPosts = await loadAllPosts();
 
-    var posts = _arc_posts
+    console.log('[ZFX] archives — loaded posts.json — ' + allPosts.length + ' posts');
+
+    var posts = allPosts
       .filter(function(p) { return p.section !== 'projects'; })
       .sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
 
@@ -230,7 +202,7 @@ async function loadArchives() {
     console.error('[archives.js]', err);
     container.innerHTML =
       '<div class="archives-empty"><h3>Could not load archives</h3>' +
-      '<p>Check that <code>/data/posts-1.json</code> exists.</p></div>';
+      '<p>Check that <code>/data/posts.json</code> exists.</p></div>';
   }
 }
 

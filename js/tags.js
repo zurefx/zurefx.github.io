@@ -1,68 +1,14 @@
 /* ============================================================
-   ZureFX — tags.js  (v2)
+   ZureFX — tags.js  (v3)
    Tags index + filter by #tagname via URL hash.
-   Carga progresiva por chunks — igual que app.js.
-   Depende de app.js (cargado antes): usa getRootPrefix(),
+   Carga plana desde data/posts.json (mismo patrón que app.js).
+   Depende de app.js (cargado antes): getRootPrefix(),
    SECTION_COLOR_MAP, fmtDate(), capitalize(), isMobile().
    ============================================================ */
 
-/* ── Estado del sistema de chunks ── */
-var _tags_posts        = [];     /* todos los posts cargados hasta ahora     */
-var _tags_chunk        = 0;      /* último chunk cargado                     */
-var _tags_allLoaded    = false;  /* true cuando no hay más chunks            */
-var _tags_loading      = false;  /* mutex anti-fetch simultáneo              */
-var MAX_CHUNKS_TAGS    = 50;
-
-/* ── Cargar el siguiente chunk ── */
-async function tagsLoadNextChunk() {
-  if (_tags_allLoaded || _tags_loading) return [];
-  if (_tags_chunk >= MAX_CHUNKS_TAGS) { _tags_allLoaded = true; return []; }
-
-  _tags_loading = true;
-  var nextIdx = _tags_chunk + 1;
-  var url     = getRootPrefix() + 'data/posts-' + nextIdx + '.json?v=' + Date.now();
-
-  try {
-    var res = await fetch(url, { cache: 'no-store' });
-    if (!res.ok) { _tags_allLoaded = true; _tags_loading = false; return []; }
-
-    var incoming = await res.json();
-    if (!Array.isArray(incoming) || !incoming.length) {
-      _tags_allLoaded = true; _tags_loading = false; return [];
-    }
-
-    /* deduplicar */
-    var existing = {};
-    _tags_posts.forEach(function(p) { existing[p.id] = true; });
-    var unique = incoming.filter(function(p) { return !existing[p.id]; });
-
-    _tags_posts   = _tags_posts.concat(unique);
-    _tags_chunk   = nextIdx;
-    _tags_loading = false;
-    return unique;
-
-  } catch (e) {
-    _tags_allLoaded = true; _tags_loading = false; return [];
-  }
-}
-
-/* ── Asegurar posts suficientes para un tag ──
-   Carga chunks hasta encontrar N posts con ese tag,
-   o hasta agotar los archivos disponibles.           */
-async function tagsEnsureForTag(tag, needed) {
-  function countTag() {
-    return _tags_posts.filter(function(p) {
-      return (p.tags || []).some(function(t) {
-        return t.trim().toLowerCase() === tag.toLowerCase();
-      });
-    }).length;
-  }
-
-  while (countTag() < needed && !_tags_allLoaded) {
-    var added = await tagsLoadNextChunk();
-    if (!added.length) break;
-  }
-}
+/* ── Cache compartido — evita re-fetch si ya está cargado ── */
+var _tags_posts     = [];
+var _tags_loaded    = false;
 
 /* ── Helpers locales ── */
 function escT(s) {
@@ -71,9 +17,33 @@ function escT(s) {
     .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-/* ── Build tag-row — formato compacto SIN imagen, cero peso ──
-   Inspirado en el formato de projects: pill de sección + título +
-   descripción + stats, todo en una sola fila horizontal.           */
+/* ══════════════════════════════════════════════════════
+   LOAD — carga plana desde data/posts.json
+   ══════════════════════════════════════════════════════ */
+function tagsLoadPosts() {
+  if (_tags_loaded) return Promise.resolve(_tags_posts);
+
+  var url = getRootPrefix() + 'data/posts.json?v=' + Date.now();
+  return fetch(url, { cache: 'no-store' })
+    .then(function(res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .then(function(data) {
+      _tags_posts  = Array.isArray(data) ? data : [];
+      _tags_loaded = true;
+      console.log('[ZFX] tags — loaded posts.json — ' + _tags_posts.length + ' posts');
+      return _tags_posts;
+    })
+    .catch(function(err) {
+      console.warn('[tags.js] Could not load posts.json:', err);
+      _tags_posts  = [];
+      _tags_loaded = true;
+      return [];
+    });
+}
+
+/* ── Build tag-row ── */
 function buildPlItemT(p) {
   var color = SECTION_COLOR_MAP[p.section] || '#cc2b2b';
   var label = capitalize(p.section);
@@ -85,13 +55,11 @@ function buildPlItemT(p) {
   item.style.cssText = [
     'display:flex', 'align-items:flex-start', 'gap:14px',
     'padding:14px 16px',
-    'border:1px solid trasparent',
     'background:var(--bg-card)',
     'cursor:pointer',
     'animation:fadeInUp .3s ease both'
   ].join(';');
 
-  /* ── section accent bar ── */
   var bar = document.createElement('div');
   bar.style.cssText = [
     'flex-shrink:0', 'width:3px', 'border-radius:2px',
@@ -99,11 +67,9 @@ function buildPlItemT(p) {
     'align-self:stretch', 'min-height:44px'
   ].join(';');
 
-  /* ── body ── */
   var body = document.createElement('div');
   body.style.cssText = 'flex:1;min-width:0;display:flex;flex-direction:column;gap:4px';
 
-  /* top row: pill + date */
   var meta = document.createElement('div');
   meta.style.cssText = 'display:flex;align-items:center;gap:8px;flex-wrap:wrap';
   meta.innerHTML =
@@ -120,7 +86,6 @@ function buildPlItemT(p) {
       fmtDate(p.date) +
     '</span>';
 
-  /* title */
   var title = document.createElement('div');
   title.style.cssText = [
     'font-family:var(--display)', 'font-weight:700', 'font-size:.95rem',
@@ -130,7 +95,6 @@ function buildPlItemT(p) {
   ].join(';');
   title.textContent = p.title;
 
-  /* description */
   var desc = document.createElement('div');
   desc.style.cssText = [
     'font-family:var(--body)', 'font-size:.72rem',
@@ -140,7 +104,6 @@ function buildPlItemT(p) {
   ].join(';');
   desc.textContent = p.description || '';
 
-  /* stats row */
   var foot = document.createElement('div');
   foot.style.cssText = 'display:flex;align-items:center;gap:6px;margin-top:2px';
   foot.innerHTML =
@@ -161,7 +124,6 @@ function buildPlItemT(p) {
   item.appendChild(bar);
   item.appendChild(body);
 
-  /* hover */
   item.addEventListener('mouseenter', function() {
     item.style.borderColor = 'rgba(' +
       parseInt(color.slice(1,3),16) + ',' +
@@ -211,11 +173,8 @@ function updateTagsStats(text) {
 
 /* ══════════════════════════════════════════════════════════════
    RENDER: FILTER MODE  (tags.html#CTF)
-   Carga chunks hasta tener todos los posts con ese tag,
-   o hasta agotar los archivos.
    ══════════════════════════════════════════════════════════════ */
 async function renderFilter(tag, container) {
-  /* Reescribir header */
   document.title = '#' + tag + ' — ZureFX';
   var header = document.getElementById('tagsHeader');
   if (header) {
@@ -239,10 +198,9 @@ async function renderFilter(tag, container) {
 
   renderTagsSkeleton(container);
 
-  /* Cargar todos los chunks que tengan este tag */
-  await tagsEnsureForTag(tag, Infinity);
+  var posts = await tagsLoadPosts();
 
-  var filtered = _tags_posts.filter(function(p) {
+  var filtered = posts.filter(function(p) {
     return (p.tags || []).some(function(t) {
       return t.trim().toLowerCase() === tag.toLowerCase();
     });
@@ -272,14 +230,11 @@ async function renderFilter(tag, container) {
 
 /* ══════════════════════════════════════════════════════════════
    RENDER: INDEX MODE  (tags.html)
-   Muestra tags de los posts cargados (posts-1.json = recientes).
-   El cloud + secciones reflejan solo lo que hay en memoria.
    ══════════════════════════════════════════════════════════════ */
-function renderIndex(container) {
-  /* Agrupar por tag con los posts actuales */
+function renderIndex(posts, container) {
   var tagMap = new Map();
-  for (var i = 0; i < _tags_posts.length; i++) {
-    var p    = _tags_posts[i];
+  for (var i = 0; i < posts.length; i++) {
+    var p    = posts[i];
     var tags = (p.tags || []).map(function(t) { return t.trim(); }).filter(Boolean);
     if (!tags.length) {
       if (!tagMap.has('untagged')) tagMap.set('untagged', []);
@@ -292,7 +247,6 @@ function renderIndex(container) {
     }
   }
 
-  /* Sort alfabético */
   var sorted = Array.from(tagMap.entries()).sort(function(a, b) {
     return a[0].localeCompare(b[0]);
   });
@@ -300,7 +254,7 @@ function renderIndex(container) {
   document.title = 'Tags — ZureFX';
   updateTagsStats(sorted.length + ' tag' + (sorted.length !== 1 ? 's' : ''));
 
-  /* ── Tag cloud pills ── */
+  /* Tag cloud pills */
   var cloudWrap = document.createElement('div');
   cloudWrap.className = 'tags-cloud-wrap';
   var cloud = document.createElement('div');
@@ -309,9 +263,9 @@ function renderIndex(container) {
   sorted.forEach(function(entry) {
     var tg = entry[0], count = entry[1].length;
     var btn = document.createElement('button');
-    btn.className    = 'tags-cloud-pill';
-    btn.dataset.tag  = tg;
-    btn.innerHTML    = escT(tg) + '<span class="pill-count">' + count + '</span>';
+    btn.className   = 'tags-cloud-pill';
+    btn.dataset.tag = tg;
+    btn.innerHTML   = escT(tg) + '<span class="pill-count">' + count + '</span>';
     btn.addEventListener('click', function() {
       window.location.hash = encodeURIComponent(btn.dataset.tag);
     });
@@ -319,7 +273,7 @@ function renderIndex(container) {
   });
   cloudWrap.appendChild(cloud);
 
-  /* ── Secciones por tag ── */
+  /* Secciones por tag */
   var frag = document.createDocumentFragment();
   frag.appendChild(cloudWrap);
 
@@ -362,27 +316,25 @@ async function renderTagsPage() {
 
   var tag = getHashTag();
 
-  if (tag) {
-    /* Filter mode: necesitamos cargar todo para ese tag */
-    await renderFilter(tag, container);
-  } else {
-    /* Index mode: mostrar skeleton, cargar posts-1.json y renderizar */
-    renderTagsSkeleton(container);
-    try {
-      /* Asegurar que al menos posts-1.json está cargado */
-      if (_tags_chunk === 0) await tagsLoadNextChunk();
-      renderIndex(container);
-    } catch (e) {
-      console.error('[tags.js]', e);
-      container.innerHTML =
-        '<div class="tags-empty">' +
-          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">' +
-            '<circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>' +
-          '</svg>' +
-          '<h3>Could not load tags</h3>' +
-          '<p>Check that <code>/data/posts-1.json</code> exists and is valid JSON.</p>' +
-        '</div>';
+  renderTagsSkeleton(container);
+
+  try {
+    if (tag) {
+      await renderFilter(tag, container);
+    } else {
+      var posts = await tagsLoadPosts();
+      renderIndex(posts, container);
     }
+  } catch (e) {
+    console.error('[tags.js]', e);
+    container.innerHTML =
+      '<div class="tags-empty">' +
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">' +
+          '<circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>' +
+        '</svg>' +
+        '<h3>Could not load tags</h3>' +
+        '<p>Check that <code>/data/posts.json</code> exists and is valid JSON.</p>' +
+      '</div>';
   }
 }
 
