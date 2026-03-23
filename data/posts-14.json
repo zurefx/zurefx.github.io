@@ -1,0 +1,218 @@
+[
+  {
+    "id": "container-escape-techniques",
+    "title": "Container Escape Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/container-escape-techniques.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-09",
+    "tags": [
+      "docker",
+      "research",
+      "containers",
+      "privesc"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "shellcode-development-101",
+    "title": "Shellcode Development 101",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/shellcode-development-101.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-07",
+    "tags": [
+      "shellcode",
+      "research",
+      "windows",
+      "malwaredev"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "apt-persistence-mechanisms",
+    "title": "APT Persistence Mechanisms",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/apt-persistence-mechanisms.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-05",
+    "tags": [
+      "apt",
+      "research",
+      "persistence",
+      "windows"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "linux-kernel-exploitation-basics",
+    "title": "Linux Kernel Exploitation Basics",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/linux-kernel-exploitation-basics.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-03",
+    "tags": [
+      "kernelexploit",
+      "research",
+      "linux",
+      "privesc"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "sandbox-evasion-techniques",
+    "title": "Sandbox Evasion Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/sandbox-evasion-techniques.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-01",
+    "tags": [
+      "sandbox",
+      "research",
+      "malwaredev",
+      "evasion"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "lateral-movement-techniques",
+    "title": "Lateral Movement Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/lateral-movement-techniques.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-30",
+    "tags": [
+      "lateralmovement",
+      "research",
+      "activedirectory",
+      "redteam"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "supply-chain-attack-analysis",
+    "title": "Supply Chain Attack Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/supply-chain-attack-analysis.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-28",
+    "tags": [
+      "supplychain",
+      "research",
+      "apt",
+      "malwareanalysis"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "edr-evasion-techniques",
+    "title": "EDR Evasion Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/edr-evasion-techniques.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-26",
+    "tags": [
+      "edr",
+      "research",
+      "redteam",
+      "evasion"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "memory-forensics-volatility-3",
+    "title": "Memory Forensics Volatility 3",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/memory-forensics-volatility-3.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-24",
+    "tags": [
+      "forensics",
+      "volatility",
+      "research",
+      "dfir"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "dll-injection-techniques",
+    "title": "DLL Injection Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/dll-injection-techniques.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-22",
+    "tags": [
+      "dll",
+      "research",
+      "windows",
+      "injection"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "process-injection-deep-dive",
+    "title": "Process Injection Deep Dive",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/process-injection-deep-dive.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-20",
+    "tags": [
+      "injection",
+      "research",
+      "windows",
+      "malwaredev"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "browser-exploitation-basics",
+    "title": "Browser Exploitation Basics",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/browser-exploitation-basics.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-18",
+    "tags": [
+      "browser",
+      "research",
+      "v8",
+      "exploitation"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  }
+]

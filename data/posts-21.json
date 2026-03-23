@@ -1,0 +1,216 @@
+[
+  {
+    "id": "prototype-pollution-notes-v2",
+    "title": "Prototype Pollution Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/prototype-pollution-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-23",
+    "tags": [
+      "prototypepollution",
+      "javascript",
+      "cheatsheet",
+      "owasp"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "cors-misconfiguration-notes-v2",
+    "title": "CORS Misconfiguration Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/cors-misconfiguration-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-21",
+    "tags": [
+      "cors",
+      "web",
+      "cheatsheet",
+      "bugbounty"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "opsec-quick-notes-v2",
+    "title": "OPSEC Quick Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/opsec-quick-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-19",
+    "tags": [
+      "opsec",
+      "redteam",
+      "cheatsheet",
+      "c2"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "encoding--obfuscation-notes-v2",
+    "title": "Encoding & Obfuscation Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/encoding--obfuscation-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-17",
+    "tags": [
+      "encoding",
+      "web",
+      "cheatsheet",
+      "bypass"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "cloud-ssrf-notes-v2",
+    "title": "Cloud SSRF Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/cloud-ssrf-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-15",
+    "tags": [
+      "ssrf",
+      "cloud",
+      "aws",
+      "cheatsheet"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "metasploit-framework-notes-v2",
+    "title": "Metasploit Framework Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/metasploit-framework-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-13",
+    "tags": [
+      "metasploit",
+      "exploitation",
+      "cheatsheet",
+      "meterpreter"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "burp-suite-extensions-notes-v2",
+    "title": "Burp Suite Extensions Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/burp-suite-extensions-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-11",
+    "tags": [
+      "burp",
+      "web",
+      "tools",
+      "cheatsheet"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "curl-api-testing-notes-v2",
+    "title": "cURL API Testing Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/curl-api-testing-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-09",
+    "tags": [
+      "curl",
+      "api",
+      "web",
+      "cheatsheet"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bloodhound-cypher-notes-v2",
+    "title": "BloodHound Cypher Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/bloodhound-cypher-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-07",
+    "tags": [
+      "bloodhound",
+      "activedirectory",
+      "cheatsheet"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "kerberos-attack-notes-v2",
+    "title": "Kerberos Attack Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/kerberos-attack-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-05",
+    "tags": [
+      "kerberos",
+      "activedirectory",
+      "cheatsheet"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "python-ssh-brute-forcer-v2",
+    "title": "Python SSH Brute-Forcer",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/python-ssh-brute-forcer-v2.html",
+    "btn_label": "View Script",
+    "date": "2024-12-03",
+    "tags": [
+      "python",
+      "scripting",
+      "ssh",
+      "bruteforce"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "python-directory-bruteforcer-v2",
+    "title": "Python Directory Bruteforcer",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/python-directory-bruteforcer-v2.html",
+    "btn_label": "View Script",
+    "date": "2024-12-01",
+    "tags": [
+      "python",
+      "scripting",
+      "web",
+      "fuzzing"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  }
+]

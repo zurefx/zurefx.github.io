@@ -1,0 +1,233 @@
+[
+  {
+    "id": "htb-topology--easy-linux",
+    "title": "HTB Topology — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-topology--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-24",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "latex",
+      "suid"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-pilgrimage--easy-linux",
+    "title": "HTB Pilgrimage — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-pilgrimage--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-22",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "imagemagick",
+      "cve"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-soccer--easy-linux",
+    "title": "HTB Soccer — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-soccer--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-20",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "websocket",
+      "sqli"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-vessel--medium-linux",
+    "title": "HTB Vessel — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-vessel--medium-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-18",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "nodejs",
+      "ssti"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-interface--medium-linux",
+    "title": "HTB Interface — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-interface--medium-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-16",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "ssrf",
+      "dompdf"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-agile--medium-linux",
+    "title": "HTB Agile — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-agile--medium-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-14",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "werkzeug",
+      "sudoedit"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-socket--medium-linux",
+    "title": "HTB Socket — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-socket--medium-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-12",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "websocket",
+      "pyinstaller"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-mentor--medium-linux",
+    "title": "HTB Mentor — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-mentor--medium-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-10",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "snmp",
+      "cmdi"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-inject--easy-linux",
+    "title": "HTB Inject — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-inject--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-08",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "spring",
+      "spel",
+      "cve"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-precious--easy-linux",
+    "title": "HTB Precious — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-precious--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-06",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "pdfkit",
+      "cve",
+      "ruby"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-stocker--easy-linux",
+    "title": "HTB Stocker — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-stocker--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-04",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "nosqli",
+      "dompdf"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-intentions--hard-linux",
+    "title": "HTB Intentions — Hard Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-intentions--hard-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-02",
+    "tags": [
+      "hackthebox",
+      "hard",
+      "linux",
+      "sqli",
+      "php",
+      "git"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  }
+]

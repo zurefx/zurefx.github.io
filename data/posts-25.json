@@ -1,0 +1,218 @@
+[
+  {
+    "id": "incident-response-methodology-v2",
+    "title": "Incident Response Methodology",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/incident-response-methodology-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-18",
+    "tags": [
+      "incidentresponse",
+      "research",
+      "dfir",
+      "blueteam"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "wi-fi-attack-techniques-v2",
+    "title": "Wi-Fi Attack Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/wi-fi-attack-techniques-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-16",
+    "tags": [
+      "wifi",
+      "research",
+      "wireless",
+      "wpa2"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "javascript-obfuscation-analysis-v2",
+    "title": "JavaScript Obfuscation Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/javascript-obfuscation-analysis-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-14",
+    "tags": [
+      "javascript",
+      "research",
+      "malwareanalysis",
+      "reversing"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "android-app-pentesting-basics-v2",
+    "title": "Android App Pentesting Basics",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/android-app-pentesting-basics-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-12",
+    "tags": [
+      "android",
+      "research",
+      "mobile",
+      "frida"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "reverse-shell-techniques-deep-dive-v2",
+    "title": "Reverse Shell Techniques Deep Dive",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/reverse-shell-techniques-deep-dive-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-10",
+    "tags": [
+      "reverseshell",
+      "research",
+      "redteam",
+      "evasion"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "network-pivoting-advanced-v2",
+    "title": "Network Pivoting Advanced",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/network-pivoting-advanced-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-08",
+    "tags": [
+      "pivoting",
+      "research",
+      "redteam",
+      "network"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "physical-pentesting-overview-v2",
+    "title": "Physical Pentesting Overview",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/physical-pentesting-overview-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-06",
+    "tags": [
+      "physical",
+      "research",
+      "redteam",
+      "socialengineering"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "heap-spray-techniques-v2",
+    "title": "Heap Spray Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/heap-spray-techniques-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-04",
+    "tags": [
+      "heap",
+      "research",
+      "browser",
+      "exploitation"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "threat-hunting-with-sysmon-v2",
+    "title": "Threat Hunting with Sysmon",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/threat-hunting-with-sysmon-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-02",
+    "tags": [
+      "sysmon",
+      "research",
+      "dfir",
+      "threathunting"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "cobalt-strike-beacon-analysis-v2",
+    "title": "Cobalt Strike Beacon Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/cobalt-strike-beacon-analysis-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-31",
+    "tags": [
+      "cobaltstrike",
+      "research",
+      "malwareanalysis",
+      "reversing"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "ransomware-sample-analysis-v2",
+    "title": "Ransomware Sample Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/ransomware-sample-analysis-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-29",
+    "tags": [
+      "ransomware",
+      "research",
+      "malwareanalysis",
+      "crypto"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "phishing-infrastructure-research-v2",
+    "title": "Phishing Infrastructure Research",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/phishing-infrastructure-research-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-27",
+    "tags": [
+      "phishing",
+      "research",
+      "redteam",
+      "evilginx"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  }
+]

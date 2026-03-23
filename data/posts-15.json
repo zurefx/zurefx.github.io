@@ -1,0 +1,219 @@
+[
+  {
+    "id": "threat-intelligence-fundamentals",
+    "title": "Threat Intelligence Fundamentals",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/threat-intelligence-fundamentals.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-16",
+    "tags": [
+      "threatintel",
+      "research",
+      "mitre",
+      "yara"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "active-directory-attack-chain",
+    "title": "Active Directory Attack Chain",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/active-directory-attack-chain.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-14",
+    "tags": [
+      "activedirectory",
+      "research",
+      "redteam",
+      "kerberos"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "red-team-operations-planning",
+    "title": "Red Team Operations Planning",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/red-team-operations-planning.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-12",
+    "tags": [
+      "redteam",
+      "research",
+      "methodology",
+      "c2"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "iot-firmware-analysis",
+    "title": "IoT Firmware Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/iot-firmware-analysis.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-10",
+    "tags": [
+      "iot",
+      "research",
+      "firmware",
+      "reversing"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "zero-trust-architecture-analysis",
+    "title": "Zero Trust Architecture Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/zero-trust-architecture-analysis.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-08",
+    "tags": [
+      "zerotrust",
+      "research",
+      "architecture",
+      "cloud"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "aws-pentest-techniques",
+    "title": "AWS Pentest Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/aws-pentest-techniques.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-06",
+    "tags": [
+      "aws",
+      "research",
+      "cloud",
+      "pentest",
+      "iam"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "incident-response-methodology",
+    "title": "Incident Response Methodology",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/incident-response-methodology.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-04",
+    "tags": [
+      "incidentresponse",
+      "research",
+      "dfir",
+      "blueteam"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "wi-fi-attack-techniques",
+    "title": "Wi-Fi Attack Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/wi-fi-attack-techniques.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-02",
+    "tags": [
+      "wifi",
+      "research",
+      "wireless",
+      "wpa2"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "javascript-obfuscation-analysis",
+    "title": "JavaScript Obfuscation Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/javascript-obfuscation-analysis.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-30",
+    "tags": [
+      "javascript",
+      "research",
+      "malwareanalysis",
+      "reversing"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "android-app-pentesting-basics",
+    "title": "Android App Pentesting Basics",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/android-app-pentesting-basics.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-28",
+    "tags": [
+      "android",
+      "research",
+      "mobile",
+      "frida"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "reverse-shell-techniques-deep-dive",
+    "title": "Reverse Shell Techniques Deep Dive",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/reverse-shell-techniques-deep-dive.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-26",
+    "tags": [
+      "reverseshell",
+      "research",
+      "redteam",
+      "evasion"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "network-pivoting-advanced",
+    "title": "Network Pivoting Advanced",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/network-pivoting-advanced.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-24",
+    "tags": [
+      "pivoting",
+      "research",
+      "redteam",
+      "network"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  }
+]

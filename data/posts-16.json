@@ -1,0 +1,224 @@
+[
+  {
+    "id": "physical-pentesting-overview",
+    "title": "Physical Pentesting Overview",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/physical-pentesting-overview.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-22",
+    "tags": [
+      "physical",
+      "research",
+      "redteam",
+      "socialengineering"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "heap-spray-techniques",
+    "title": "Heap Spray Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/heap-spray-techniques.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-20",
+    "tags": [
+      "heap",
+      "research",
+      "browser",
+      "exploitation"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "threat-hunting-with-sysmon",
+    "title": "Threat Hunting with Sysmon",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/threat-hunting-with-sysmon.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-18",
+    "tags": [
+      "sysmon",
+      "research",
+      "dfir",
+      "threathunting"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "cobalt-strike-beacon-analysis",
+    "title": "Cobalt Strike Beacon Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/cobalt-strike-beacon-analysis.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-16",
+    "tags": [
+      "cobaltstrike",
+      "research",
+      "malwareanalysis",
+      "reversing"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "ransomware-sample-analysis",
+    "title": "Ransomware Sample Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/ransomware-sample-analysis.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-14",
+    "tags": [
+      "ransomware",
+      "research",
+      "malwareanalysis",
+      "crypto"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "phishing-infrastructure-research",
+    "title": "Phishing Infrastructure Research",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/phishing-infrastructure-research.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-12",
+    "tags": [
+      "phishing",
+      "research",
+      "redteam",
+      "evilginx"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "htb-topology--easy-linux-v2",
+    "title": "HTB Topology — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-topology--easy-linux-v2.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-10",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "latex",
+      "suid"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-pilgrimage--easy-linux-v2",
+    "title": "HTB Pilgrimage — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-pilgrimage--easy-linux-v2.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-08",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "imagemagick",
+      "cve"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-soccer--easy-linux-v2",
+    "title": "HTB Soccer — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-soccer--easy-linux-v2.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-06",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "websocket",
+      "sqli"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-vessel--medium-linux-v2",
+    "title": "HTB Vessel — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-vessel--medium-linux-v2.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-04",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "nodejs",
+      "ssti"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-interface--medium-linux-v2",
+    "title": "HTB Interface — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-interface--medium-linux-v2.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-02",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "ssrf",
+      "dompdf"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-agile--medium-linux-v2",
+    "title": "HTB Agile — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-agile--medium-linux-v2.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-31",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "werkzeug",
+      "sudoedit"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  }
+]

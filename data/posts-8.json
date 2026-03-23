@@ -1,0 +1,236 @@
+[
+  {
+    "id": "htb-jupiter--medium-linux",
+    "title": "HTB Jupiter — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-jupiter--medium-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-31",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "grafana",
+      "jupyter"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-pc--easy-linux",
+    "title": "HTB PC — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-pc--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-29",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "grpc",
+      "sqli",
+      "cve"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-busqueda--easy-linux",
+    "title": "HTB Busqueda — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-busqueda--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-27",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "eval",
+      "git",
+      "docker"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-cronos--medium-linux",
+    "title": "HTB Cronos — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-cronos--medium-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-25",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "dns",
+      "sqli",
+      "cmdi"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-timing--medium-linux",
+    "title": "HTB Timing — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-timing--medium-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-23",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "idor",
+      "fileupload"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-late--easy-linux",
+    "title": "HTB Late — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-late--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-21",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "ssti",
+      "jinja2"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-trick--easy-linux",
+    "title": "HTB Trick — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-trick--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-19",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "lfi",
+      "sqli",
+      "fail2ban"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-gobox--medium-linux",
+    "title": "HTB GoBox — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-gobox--medium-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-17",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "golang",
+      "ssrf"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-horizontall--easy-linux",
+    "title": "HTB HorizontAll — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-horizontall--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-15",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "strapi",
+      "rce"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-secret--easy-linux",
+    "title": "HTB Secret — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-secret--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-13",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "jwt",
+      "git",
+      "cmdi"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-previse--easy-linux",
+    "title": "HTB Previse — Easy Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-previse--easy-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-11",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "racecondition",
+      "cmdi"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-union--medium-linux",
+    "title": "HTB Union — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-union--medium-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-09",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "sqli",
+      "cmdi",
+      "nginx"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  }
+]

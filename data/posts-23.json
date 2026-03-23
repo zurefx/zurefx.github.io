@@ -1,0 +1,218 @@
+[
+  {
+    "id": "bash-dns-enumeration-script-v2",
+    "title": "Bash DNS Enumeration Script",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-dns-enumeration-script-v2.html",
+    "btn_label": "View Script",
+    "date": "2024-11-05",
+    "tags": [
+      "bash",
+      "scripting",
+      "dns",
+      "recon"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-ioc-checker-v2",
+    "title": "Bash IOC Checker",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-ioc-checker-v2.html",
+    "btn_label": "View Script",
+    "date": "2024-11-03",
+    "tags": [
+      "bash",
+      "scripting",
+      "dfir",
+      "ioc"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-threat-hunting-one-liners-v2",
+    "title": "Bash Threat Hunting One-Liners",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-threat-hunting-one-liners-v2.html",
+    "btn_label": "View Script",
+    "date": "2024-11-01",
+    "tags": [
+      "bash",
+      "scripting",
+      "dfir",
+      "threathunting"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-pivoting-setup-scripts-v2",
+    "title": "Bash Pivoting Setup Scripts",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-pivoting-setup-scripts-v2.html",
+    "btn_label": "View Script",
+    "date": "2024-10-30",
+    "tags": [
+      "bash",
+      "scripting",
+      "pivoting",
+      "ssh"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-credential-harvest-script-v2",
+    "title": "Bash Credential Harvest Script",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-credential-harvest-script-v2.html",
+    "btn_label": "View Script",
+    "date": "2024-10-28",
+    "tags": [
+      "bash",
+      "scripting",
+      "postexploit",
+      "credentials"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "python-hash-identifier--cracker-v2",
+    "title": "Python Hash Identifier & Cracker",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/python-hash-identifier--cracker-v2.html",
+    "btn_label": "View Script",
+    "date": "2024-10-26",
+    "tags": [
+      "python",
+      "scripting",
+      "hashcat",
+      "cracking"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "container-escape-techniques-v2",
+    "title": "Container Escape Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/container-escape-techniques-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-24",
+    "tags": [
+      "docker",
+      "research",
+      "containers",
+      "privesc"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "shellcode-development-101-v2",
+    "title": "Shellcode Development 101",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/shellcode-development-101-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-22",
+    "tags": [
+      "shellcode",
+      "research",
+      "windows",
+      "malwaredev"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "apt-persistence-mechanisms-v2",
+    "title": "APT Persistence Mechanisms",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/apt-persistence-mechanisms-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-20",
+    "tags": [
+      "apt",
+      "research",
+      "persistence",
+      "windows"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "linux-kernel-exploitation-basics-v2",
+    "title": "Linux Kernel Exploitation Basics",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/linux-kernel-exploitation-basics-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-18",
+    "tags": [
+      "kernelexploit",
+      "research",
+      "linux",
+      "privesc"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "sandbox-evasion-techniques-v2",
+    "title": "Sandbox Evasion Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/sandbox-evasion-techniques-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-16",
+    "tags": [
+      "sandbox",
+      "research",
+      "malwaredev",
+      "evasion"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "lateral-movement-techniques-v2",
+    "title": "Lateral Movement Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/lateral-movement-techniques-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-14",
+    "tags": [
+      "lateralmovement",
+      "research",
+      "activedirectory",
+      "redteam"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  }
+]

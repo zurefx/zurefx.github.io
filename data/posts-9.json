@@ -1,0 +1,237 @@
+[
+  {
+    "id": "htb-spider--hard-linux",
+    "title": "HTB Spider — Hard Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-spider--hard-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-07",
+    "tags": [
+      "hackthebox",
+      "hard",
+      "linux",
+      "ssti",
+      "xxe",
+      "ssrf"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-forge--medium-linux",
+    "title": "HTB Forge — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-forge--medium-linux.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-05",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "ssrf",
+      "ftp",
+      "sudo"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-return--easy-windows",
+    "title": "HTB Return — Easy Windows",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-return--easy-windows.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-03",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "windows",
+      "responder",
+      "winrm"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-scrambled--medium-windows",
+    "title": "HTB Scrambled — Medium Windows",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-scrambled--medium-windows.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-01",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "windows",
+      "silverticket",
+      "kerberoasting"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-resolute--medium-windows",
+    "title": "HTB Resolute — Medium Windows",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-resolute--medium-windows.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-29",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "windows",
+      "activedirectory",
+      "dnscmd"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-acute--hard-windows",
+    "title": "HTB Acute — Hard Windows",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-acute--hard-windows.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-27",
+    "tags": [
+      "hackthebox",
+      "hard",
+      "windows",
+      "powershell",
+      "activedirectory"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-streamio--medium-windows",
+    "title": "HTB StreamIO — Medium Windows",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-streamio--medium-windows.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-25",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "windows",
+      "sqli",
+      "lfi",
+      "firefox"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-escape--medium-windows",
+    "title": "HTB Escape — Medium Windows",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-escape--medium-windows.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-23",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "windows",
+      "mssql",
+      "adcs",
+      "ntlm"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-object--hard-windows",
+    "title": "HTB Object — Hard Windows",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-object--hard-windows.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-21",
+    "tags": [
+      "hackthebox",
+      "hard",
+      "windows",
+      "jenkins",
+      "activedirectory"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-support--easy-windows",
+    "title": "HTB Support — Easy Windows",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-support--easy-windows.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-19",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "windows",
+      "ldap",
+      "rbcd",
+      "kerberos"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-timelapse--easy-windows",
+    "title": "HTB Timelapse — Easy Windows",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-timelapse--easy-windows.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-17",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "windows",
+      "smb",
+      "laps",
+      "winrm"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-cerberus--insane-windows",
+    "title": "HTB Cerberus — Insane Windows",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-cerberus--insane-windows.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-15",
+    "tags": [
+      "hackthebox",
+      "insane",
+      "windows",
+      "adcs",
+      "icinga",
+      "snort"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  }
+]

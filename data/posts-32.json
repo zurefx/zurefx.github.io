@@ -1,0 +1,218 @@
+[
+  {
+    "id": "python-shodan-recon-tool-v3",
+    "title": "Python Shodan Recon Tool",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/python-shodan-recon-tool-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-04-03",
+    "tags": [
+      "python",
+      "scripting",
+      "shodan",
+      "osint"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "python-port-scanner-v3",
+    "title": "Python Port Scanner",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/python-port-scanner-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-04-01",
+    "tags": [
+      "python",
+      "scripting",
+      "networking",
+      "tools"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-web-recon-script-v3",
+    "title": "Bash Web Recon Script",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-web-recon-script-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-03-30",
+    "tags": [
+      "bash",
+      "scripting",
+      "web",
+      "recon"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-privilege-escalation-enum-v3",
+    "title": "Bash Privilege Escalation Enum",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-privilege-escalation-enum-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-03-28",
+    "tags": [
+      "bash",
+      "scripting",
+      "privesc",
+      "linux"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-password-spraying-script-v3",
+    "title": "Bash Password Spraying Script",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-password-spraying-script-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-03-26",
+    "tags": [
+      "bash",
+      "scripting",
+      "passwordspray",
+      "smb"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-log-parser-v3",
+    "title": "Bash Log Parser",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-log-parser-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-03-24",
+    "tags": [
+      "bash",
+      "scripting",
+      "dfir",
+      "logs"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-dns-enumeration-script-v3",
+    "title": "Bash DNS Enumeration Script",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-dns-enumeration-script-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-03-22",
+    "tags": [
+      "bash",
+      "scripting",
+      "dns",
+      "recon"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-ioc-checker-v3",
+    "title": "Bash IOC Checker",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-ioc-checker-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-03-20",
+    "tags": [
+      "bash",
+      "scripting",
+      "dfir",
+      "ioc"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-threat-hunting-one-liners-v3",
+    "title": "Bash Threat Hunting One-Liners",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-threat-hunting-one-liners-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-03-18",
+    "tags": [
+      "bash",
+      "scripting",
+      "dfir",
+      "threathunting"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-pivoting-setup-scripts-v3",
+    "title": "Bash Pivoting Setup Scripts",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-pivoting-setup-scripts-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-03-16",
+    "tags": [
+      "bash",
+      "scripting",
+      "pivoting",
+      "ssh"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "bash-credential-harvest-script-v3",
+    "title": "Bash Credential Harvest Script",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/bash-credential-harvest-script-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-03-14",
+    "tags": [
+      "bash",
+      "scripting",
+      "postexploit",
+      "credentials"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  },
+  {
+    "id": "python-hash-identifier--cracker-v3",
+    "title": "Python Hash Identifier & Cracker",
+    "section": "scripting",
+    "description": "Practical script with usage examples, configuration options and output samples for automating this pentesting task.",
+    "permalink": "/scripting/python-hash-identifier--cracker-v3.html",
+    "btn_label": "View Script",
+    "date": "2024-03-12",
+    "tags": [
+      "python",
+      "scripting",
+      "hashcat",
+      "cracking"
+    ],
+    "image": "/img/fua.png",
+    "words": 95,
+    "readTime": "1 min"
+  }
+]

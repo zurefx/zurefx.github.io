@@ -1,0 +1,219 @@
+[
+  {
+    "id": "supply-chain-attack-analysis-v2",
+    "title": "Supply Chain Attack Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/supply-chain-attack-analysis-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-12",
+    "tags": [
+      "supplychain",
+      "research",
+      "apt",
+      "malwareanalysis"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "edr-evasion-techniques-v2",
+    "title": "EDR Evasion Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/edr-evasion-techniques-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-10",
+    "tags": [
+      "edr",
+      "research",
+      "redteam",
+      "evasion"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "memory-forensics-volatility-3-v2",
+    "title": "Memory Forensics Volatility 3",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/memory-forensics-volatility-3-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-08",
+    "tags": [
+      "forensics",
+      "volatility",
+      "research",
+      "dfir"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "dll-injection-techniques-v2",
+    "title": "DLL Injection Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/dll-injection-techniques-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-06",
+    "tags": [
+      "dll",
+      "research",
+      "windows",
+      "injection"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "process-injection-deep-dive-v2",
+    "title": "Process Injection Deep Dive",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/process-injection-deep-dive-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-04",
+    "tags": [
+      "injection",
+      "research",
+      "windows",
+      "malwaredev"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "browser-exploitation-basics-v2",
+    "title": "Browser Exploitation Basics",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/browser-exploitation-basics-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-02",
+    "tags": [
+      "browser",
+      "research",
+      "v8",
+      "exploitation"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "threat-intelligence-fundamentals-v2",
+    "title": "Threat Intelligence Fundamentals",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/threat-intelligence-fundamentals-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-30",
+    "tags": [
+      "threatintel",
+      "research",
+      "mitre",
+      "yara"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "active-directory-attack-chain-v2",
+    "title": "Active Directory Attack Chain",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/active-directory-attack-chain-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-28",
+    "tags": [
+      "activedirectory",
+      "research",
+      "redteam",
+      "kerberos"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "red-team-operations-planning-v2",
+    "title": "Red Team Operations Planning",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/red-team-operations-planning-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-26",
+    "tags": [
+      "redteam",
+      "research",
+      "methodology",
+      "c2"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "iot-firmware-analysis-v2",
+    "title": "IoT Firmware Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/iot-firmware-analysis-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-24",
+    "tags": [
+      "iot",
+      "research",
+      "firmware",
+      "reversing"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "zero-trust-architecture-analysis-v2",
+    "title": "Zero Trust Architecture Analysis",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/zero-trust-architecture-analysis-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-22",
+    "tags": [
+      "zerotrust",
+      "research",
+      "architecture",
+      "cloud"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  },
+  {
+    "id": "aws-pentest-techniques-v2",
+    "title": "AWS Pentest Techniques",
+    "section": "research",
+    "description": "In-depth analysis covering methodology, tooling, detection opportunities and real-world examples of this security topic.",
+    "permalink": "/research/aws-pentest-techniques-v2.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-20",
+    "tags": [
+      "aws",
+      "research",
+      "cloud",
+      "pentest",
+      "iam"
+    ],
+    "image": "/img/fua.png",
+    "words": 1350,
+    "readTime": "7 min"
+  }
+]

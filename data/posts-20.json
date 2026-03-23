@@ -1,0 +1,224 @@
+[
+  {
+    "id": "htb-unicode--medium-linux-v2",
+    "title": "HTB Unicode — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-unicode--medium-linux-v2.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-16",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "jwt",
+      "ssrf",
+      "lfi"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-routing-b1--medium-linux-v2",
+    "title": "HTB Routing B1 — Medium Linux",
+    "section": "writeups",
+    "description": "Full walkthrough covering enumeration, exploitation and privilege escalation steps to reach root or SYSTEM on this machine.",
+    "permalink": "/writeups/htb-routing-b1--medium-linux-v2.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-14",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux",
+      "network",
+      "bgp",
+      "privesc"
+    ],
+    "image": "/img/fua.png",
+    "words": 950,
+    "readTime": "5 min"
+  },
+  {
+    "id": "lfi-cheatsheet-v2",
+    "title": "LFI Cheatsheet",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/lfi-cheatsheet-v2.html",
+    "btn_label": "View Notes",
+    "date": "2025-01-12",
+    "tags": [
+      "lfi",
+      "web",
+      "cheatsheet",
+      "owasp",
+      "rce"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "clickjacking-notes-v2",
+    "title": "Clickjacking Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/clickjacking-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2025-01-10",
+    "tags": [
+      "clickjacking",
+      "web",
+      "cheatsheet",
+      "bugbounty"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "http-request-smuggling-notes-v2",
+    "title": "HTTP Request Smuggling Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/http-request-smuggling-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2025-01-08",
+    "tags": [
+      "smuggling",
+      "web",
+      "cheatsheet",
+      "owasp"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "websocket-security-notes-v2",
+    "title": "WebSocket Security Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/websocket-security-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2025-01-06",
+    "tags": [
+      "websocket",
+      "web",
+      "cheatsheet",
+      "bugbounty"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "open-redirect-cheatsheet-v2",
+    "title": "Open Redirect Cheatsheet",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/open-redirect-cheatsheet-v2.html",
+    "btn_label": "View Notes",
+    "date": "2025-01-04",
+    "tags": [
+      "openredirect",
+      "web",
+      "cheatsheet",
+      "bugbounty"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "business-logic-vuln-notes-v2",
+    "title": "Business Logic Vuln Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/business-logic-vuln-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2025-01-02",
+    "tags": [
+      "businesslogic",
+      "web",
+      "cheatsheet",
+      "bugbounty"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "deserialization-cheatsheet-v2",
+    "title": "Deserialization Cheatsheet",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/deserialization-cheatsheet-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-31",
+    "tags": [
+      "deserialization",
+      "web",
+      "cheatsheet",
+      "owasp",
+      "rce"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "race-condition-notes-v2",
+    "title": "Race Condition Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/race-condition-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-29",
+    "tags": [
+      "racecondition",
+      "web",
+      "cheatsheet",
+      "bugbounty"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "graphql-pentesting-notes-v2",
+    "title": "GraphQL Pentesting Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/graphql-pentesting-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-27",
+    "tags": [
+      "graphql",
+      "api",
+      "cheatsheet",
+      "bugbounty"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  },
+  {
+    "id": "redis-pentesting-notes-v2",
+    "title": "Redis Pentesting Notes",
+    "section": "notes",
+    "description": "Quick reference covering the most important commands, payloads and techniques for this topic during CTF and pentesting engagements.",
+    "permalink": "/notes/redis-pentesting-notes-v2.html",
+    "btn_label": "View Notes",
+    "date": "2024-12-25",
+    "tags": [
+      "redis",
+      "web",
+      "cheatsheet",
+      "rce"
+    ],
+    "image": "/img/fua.png",
+    "words": 78,
+    "readTime": "1 min"
+  }
+]
