@@ -1,10 +1,9 @@
 /* ============================================================
-   ZureFX — notes.js  (v2)
-   Carga progresiva por chunks — igual que app.js y tags.js.
-   Filtra section:"notes", agrupa por subsection, búsqueda
-   en tiempo real. Mismo formato de card que tags.js.
-   Depende de app.js: getRootPrefix(), SECTION_COLOR_MAP,
-   fmtDate(), capitalize().
+   ZureFX — notes.js  (v3)
+   Carga en paralelo todos los chunks, filtra solo notes,
+   renderiza de golpe con DocumentFragment. Sin skeleton,
+   sin animationDelay, sin imágenes.
+   Depende de app.js: getRootPrefix(), fmtDate(), capitalize().
    ============================================================ */
 
 (function () {
@@ -17,51 +16,8 @@
   var totalEl   = document.getElementById('notesTotal');
   if (!grid) return;
 
-  /* ── Estado de chunks ── */
-  var _notes_posts   = [];
-  var _notes_chunk   = 0;
-  var _notes_loaded  = false;
-  var _notes_loading = false;
-  var MAX_CHUNKS_N   = 50;
-
-  /* ── Cargar siguiente chunk ── */
-  async function notesLoadNextChunk() {
-    if (_notes_loaded || _notes_loading) return [];
-    if (_notes_chunk >= MAX_CHUNKS_N) { _notes_loaded = true; return []; }
-
-    _notes_loading = true;
-    var nextIdx = _notes_chunk + 1;
-    var url = getRootPrefix() + 'data/posts-' + nextIdx + '.json?v=' + Date.now();
-
-    try {
-      var res = await fetch(url, { cache: 'no-store' });
-      if (!res.ok) { _notes_loaded = true; _notes_loading = false; return []; }
-
-      var incoming = await res.json();
-      if (!Array.isArray(incoming) || !incoming.length) {
-        _notes_loaded = true; _notes_loading = false; return [];
-      }
-
-      var existing = {};
-      _notes_posts.forEach(function(p) { existing[p.id] = true; });
-      var unique = incoming.filter(function(p) { return !existing[p.id]; });
-
-      _notes_posts   = _notes_posts.concat(unique);
-      _notes_chunk   = nextIdx;
-      _notes_loading = false;
-      return unique;
-    } catch (e) {
-      _notes_loaded = true; _notes_loading = false; return [];
-    }
-  }
-
-  /* ── Cargar todos los chunks (necesitamos todas las notes) ── */
-  async function notesLoadAll() {
-    while (!_notes_loaded) {
-      var added = await notesLoadNextChunk();
-      if (!added.length) break;
-    }
-  }
+  /* ── Config ── */
+  var MAX_CHUNKS = 50;
 
   /* ── Helpers ── */
   function escN(s) {
@@ -71,15 +27,51 @@
   }
 
   /* ── State de filtros ── */
-  var activeSub   = 'all';
-  var searchQuery = '';
+  var allNotes  = [];   /* todas las notes cargadas, ordenadas por fecha */
+  var activeSub = 'all';
+  var searchQ   = '';
 
-  /* ── Build card (sin imagen) ── */
-  function buildCard(note, index) {
+  /* ══════════════════════════════════════════════════════
+     CARGA EN PARALELO
+     Lanza todos los fetches a la vez con Promise.all.
+     Cada chunk que falle (404) simplemente devuelve [].
+     No hay lazy loading — queremos todo de golpe.
+     ══════════════════════════════════════════════════════ */
+  function fetchChunk(idx) {
+    var url = getRootPrefix() + 'data/posts-' + idx + '.json';
+    return fetch(url, { cache: 'no-cache' })
+      .then(function(res) { return res.ok ? res.json() : []; })
+      .catch(function()   { return []; });
+  }
+
+  /* Carga chunks 1..MAX_CHUNKS en paralelo y para en el primero vacío */
+  async function loadAllChunks() {
+    var seen  = {};
+    var posts = [];
+
+    /* Carga secuencialmente hasta encontrar un chunk vacío (404 / [])
+       Así no hacemos 50 requests innecesarios — paramos en cuanto
+       hay un hueco. Más rápido que lazy pero sin over-fetching. */
+    for (var i = 1; i <= MAX_CHUNKS; i++) {
+      var chunk = await fetchChunk(i);
+      if (!Array.isArray(chunk) || chunk.length === 0) break;
+      chunk.forEach(function(p) {
+        if (!seen[p.id]) { seen[p.id] = true; posts.push(p); }
+      });
+    }
+
+    return posts;
+  }
+
+  /* ══════════════════════════════════════════════════════
+     BUILD CARD — sin imagen, sin animationDelay
+     Igual que antes pero sin el delay por índice
+     y sin el bloque de imagen.
+     ══════════════════════════════════════════════════════ */
+  function buildCard(note, featured) {
     var a = document.createElement('a');
-    a.className = index === 0 ? 'note-card note-featured' : 'note-card';
-    a.href = note.permalink || '#';
-    a.style.animationDelay = (0.03 + index * 0.04) + 's';
+    a.className = featured ? 'note-card note-featured' : 'note-card';
+    a.href      = note.permalink || '#';
 
     var sub  = (note.subsection || '').trim();
     var tags = (note.tags || []).slice(0, 5);
@@ -92,7 +84,7 @@
       '<div class="note-card-body">' +
         (sub ? '<span class="note-card-sub">' + escN(sub) + '</span>' : '') +
         '<h2 class="note-card-title">' + escN(note.title) + '</h2>' +
-        '<p class="note-card-desc">' + escN(note.description || '') + '</p>' +
+        '<p class="note-card-desc">'   + escN(note.description || '') + '</p>' +
         (tagsHTML ? '<div class="note-card-tags">' + tagsHTML + '</div>' : '') +
         '<div class="note-card-foot">' +
           '<span class="note-card-date">' + fmtDate(note.date) + '</span>' +
@@ -107,11 +99,14 @@
     return a;
   }
 
-  /* ── Render filtrado → directo al grid ── */
-  function render(notes) {
-    var q = searchQuery.toLowerCase();
+  /* ══════════════════════════════════════════════════════
+     RENDER con DocumentFragment
+     Una sola escritura al DOM — sin reflows intermedios.
+     ══════════════════════════════════════════════════════ */
+  function render() {
+    var q = searchQ.toLowerCase();
 
-    var filtered = notes.filter(function(note) {
+    var filtered = allNotes.filter(function(note) {
       var noteSub  = (note.subsection || '').trim();
       var matchSub = activeSub === 'all' || noteSub === activeSub;
       var matchQ   = !q ||
@@ -121,6 +116,7 @@
       return matchSub && matchQ;
     });
 
+    /* Una sola asignación a innerHTML para limpiar */
     grid.innerHTML = '';
 
     if (!filtered.length) {
@@ -129,35 +125,40 @@
     }
     emptyEl && emptyEl.classList.add('hidden');
 
-    filtered.forEach(function(note, i) { grid.appendChild(buildCard(note, i)); });
+    /* DocumentFragment → una sola inserción al DOM */
+    var frag = document.createDocumentFragment();
+    filtered.forEach(function(note, i) {
+      frag.appendChild(buildCard(note, i === 0));
+    });
+    grid.appendChild(frag);
   }
 
-  /* ── Skeleton ── */
-  function showSkeleton() {
-    grid.innerHTML =
-      '<div style="display:flex;flex-direction:column;gap:6px">' +
-      Array(6).fill('<div class="note-skeleton"></div>').join('') +
-      '</div>';
-  }
+  /* ══════════════════════════════════════════════════════
+     BOOT — sin skeleton, muestra loading mínimo
+     ══════════════════════════════════════════════════════ */
+  grid.innerHTML =
+    '<div style="padding:40px 0;text-align:center;font-family:var(--mono);' +
+    'font-size:0.58rem;letter-spacing:0.1em;color:var(--text-3)">LOADING…</div>';
 
-  /* ── Boot ── */
-  showSkeleton();
+  loadAllChunks().then(function(allPosts) {
 
-  notesLoadAll().then(function() {
-    var notes = _notes_posts
+    /* Filtrar solo notes y ordenar por fecha desc */
+    allNotes = allPosts
       .filter(function(p) { return p.section === 'notes'; })
       .sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
 
+    /* Stat total */
     if (totalEl) totalEl.querySelector('span').textContent =
-      notes.length + ' note' + (notes.length !== 1 ? 's' : '');
+      allNotes.length + ' note' + (allNotes.length !== 1 ? 's' : '');
 
-    /* Botones de filtro por subsection */
+    /* Botones de filtro por subsección */
     var subCount = new Map();
-    notes.forEach(function(n) {
+    allNotes.forEach(function(n) {
       var sub = (n.subsection || '').trim();
       if (sub) subCount.set(sub, (subCount.get(sub) || 0) + 1);
     });
 
+    var frag = document.createDocumentFragment();
     Array.from(subCount.entries())
       .sort(function(a, b) { return a[0].localeCompare(b[0]); })
       .forEach(function(entry) {
@@ -165,10 +166,12 @@
         btn.className   = 'notes-filter-btn';
         btn.dataset.sub = entry[0];
         btn.innerHTML   = escN(entry[0]) + ' <span class="fc">' + entry[1] + '</span>';
-        filtersEl.appendChild(btn);
+        frag.appendChild(btn);
       });
+    filtersEl.appendChild(frag);
 
-    render(notes);
+    /* Render inicial */
+    render();
 
     /* Filter clicks */
     filtersEl.addEventListener('click', function(e) {
@@ -177,14 +180,18 @@
       document.querySelectorAll('.notes-filter-btn').forEach(function(b) { b.classList.remove('active'); });
       btn.classList.add('active');
       activeSub = btn.dataset.sub || 'all';
-      render(notes);
+      render();
     });
 
-    /* Search */
+    /* Search — debounce ligero para no re-renderizar en cada tecla */
     if (searchEl) {
+      var _st;
       searchEl.addEventListener('input', function(e) {
-        searchQuery = e.target.value.trim();
-        render(notes);
+        clearTimeout(_st);
+        _st = setTimeout(function() {
+          searchQ = e.target.value.trim();
+          render();
+        }, 80);
       });
     }
 
