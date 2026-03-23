@@ -1,8 +1,9 @@
 /* ============================================================
-   ZureFX — notes.js  (v5)
-   Carga plana desde data/notes.json (mismo patrón que app.js).
-   Sin chunks, sin skeleton, sin imágenes.
-   Depende de app.js: getRootPrefix(), fmtDate(), capitalize().
+   ZureFX — notes.js  (v6)
+   Reutiliza CACHE['notes'] de app.js si ya está cargado.
+   Carga plana desde data/notes.json como fallback.
+   Depende de app.js: getRootPrefix(), fmtDate(), capitalize(),
+                      CACHE, loadSection().
    ============================================================ */
 
 (function () {
@@ -28,9 +29,21 @@
   var searchQ   = '';
 
   /* ══════════════════════════════════════════════════════
-     LOAD — carga plana desde data/notes.json
+     LOAD — reutiliza CACHE de app.js o fetchea
      ══════════════════════════════════════════════════════ */
   function loadNotes() {
+    /* Si app.js ya cargó notes.json, úsalo directamente — cero fetch */
+    if (typeof CACHE !== 'undefined' && Array.isArray(CACHE['notes']) && CACHE['notes'].length) {
+      console.log('[ZFX] notes.js — usando CACHE[notes] (' + CACHE['notes'].length + ' notas)');
+      return Promise.resolve(CACHE['notes']);
+    }
+
+    /* Si app.js expone loadSection(), delegamos para que también llene CACHE */
+    if (typeof loadSection === 'function') {
+      return loadSection('notes');
+    }
+
+    /* Fallback: fetch directo si app.js no está disponible */
     var url = getRootPrefix() + 'data/notes.json?v=' + Date.now();
     return fetch(url, { cache: 'no-store' })
       .then(function(res) {
@@ -118,12 +131,9 @@
 
   loadNotes().then(function(posts) {
 
-    /* Ordenar desc por fecha */
     allNotes = posts.sort(function(a, b) {
       return new Date(b.date) - new Date(a.date);
     });
-
-    console.log('[ZFX] Loaded notes.json — ' + allNotes.length + ' notes');
 
     /* Actualizar contador */
     if (totalEl) {
@@ -150,7 +160,6 @@
       });
     filtersEl.appendChild(frag);
 
-    /* Render inicial */
     render();
 
     /* Filter clicks */
