@@ -1,10 +1,7 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   ZureFX — app.js  (performance-optimised)
-   • background-image → <img> real con loading="lazy" / fetchpriority="high"
-   • Espacio reservado via aspect-ratio → CLS ≈ 0
-   • decoding="async" en todas las imágenes → no bloquea el hilo principal
-   • Primera imagen (above-the-fold) recibe fetchpriority="high" para LCP
-   • Resto de la lógica (chunks, paginación, picks, tags) intacta
+   ZureFX — app.js
+   Sistema de carga progresiva (lazy chunks) para posts.
+   Las cards NO cargan imágenes — el visual es solo color/tint.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ── CONSTANTS ───────────────────────────────────────────────────────────── */
@@ -29,7 +26,7 @@ var SECTION_LABEL = {
   'projects':     'Project'
 };
 
-var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+var MONTHS   = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 var SECTIONS = ['for-you', 'all', 'writeups', 'research', 'scripting', 'notes'];
 
 /* ── POSTS PER PAGE ─────────────────────────────────────────────────────── */
@@ -45,17 +42,9 @@ var POSTS           = [];
 var currentChunk    = 0;
 var allChunksLoaded = false;
 var loadingChunk    = false;
-
 var currentSection  = 'for-you';
 var currentView     = 'grid';
 var currentPage     = 1;
-
-/*
- * Contador global de imágenes renderizadas en el render actual.
- * Se resetea en cada llamada a render() para identificar la primera
- * imagen above-the-fold y darle fetchpriority="high".
- */
-var _imgRenderIndex = 0;
 
 /* ── DOM REFS ────────────────────────────────────────────────────────────── */
 var container;
@@ -92,9 +81,7 @@ function forceScrollTop() {
   }, 20);
 }
 
-function sectionColor(sec) {
-  return SECTION_COLOR_MAP[sec] || '#cc2b2b';
-}
+function sectionColor(sec) { return SECTION_COLOR_MAP[sec] || '#cc2b2b'; }
 
 function buildTint(sec) {
   var hex = SECTION_COLOR_MAP[sec];
@@ -134,70 +121,6 @@ function updateCardStats(card, data) {
   if (timeSpan) timeSpan.textContent = data.timeLabel ? data.timeLabel + ' read'            : '? min';
 }
 
-/* ══════════════════════════════════════════════════════════════════════════
-   IMAGEN OPTIMIZADA
-   Reemplaza background-image por un <img> real dentro del visual div.
-   Beneficios:
-     • loading="lazy"  → el browser no descarga imágenes off-screen
-     • fetchpriority="high" en la primera → LCP más rápido
-     • decoding="async" → no bloquea el hilo principal
-     • El contenedor tiene altura fija en CSS → CLS = 0 (sin layout shift)
-   ══════════════════════════════════════════════════════════════════════════ */
-
-/**
- * Crea un <img> optimizado para la thumbnail del post.
- *
- * @param {string}  src       - ruta de la imagen (p.image del JSON)
- * @param {string}  alt       - texto alternativo (título del post)
- * @param {boolean} isPriority - true solo para la primera imagen visible
- * @returns {HTMLImageElement}
- */
-function buildOptimizedImg(src, alt, isPriority) {
-  var prefix = getRootPrefix();
-  var img    = document.createElement('img');
-
-  /* Ruta: si ya es absoluta la dejamos, si es relativa añadimos el prefix */
-  img.src = (src && src.startsWith('/')) ? prefix + src.slice(1) : (src || '');
-  img.alt = alt || '';
-
-  /* Siempre async para no bloquear el parser */
-  img.decoding = 'async';
-
-  if (isPriority) {
-    /* Primera imagen visible → queremos que el browser la descargue YA */
-    img.fetchPriority = 'high';
-    img.loading       = 'eager';
-  } else {
-    /* Resto → lazy, el browser las descarga solo cuando están near-viewport */
-    img.loading = 'lazy';
-  }
-
-  /* Estilos: cubre el contenedor exactamente como background-size:cover */
-  img.style.cssText = [
-    'position:absolute',
-    'inset:0',
-    'width:100%',
-    'height:100%',
-    'object-fit:cover',
-    'object-position:center',
-    'display:block',
-    /* Fade-in suave una vez cargada — evita flash blanco */
-    'opacity:0',
-    'transition:opacity .35s ease'
-  ].join(';');
-
-  img.addEventListener('load', function() {
-    img.style.opacity = '1';
-  });
-
-  /* Si la imagen falla, se queda el fondo oscuro del contenedor — sin roto */
-  img.addEventListener('error', function() {
-    img.style.display = 'none';
-  });
-
-  return img;
-}
-
 /* ── TICKER ──────────────────────────────────────────────────────────────── */
 
 function buildTicker(items) {
@@ -213,14 +136,14 @@ function buildTicker(items) {
 
 function loadTicker() {
   var prefix = getRootPrefix();
-  fetch(prefix + 'data/ticker.json?v=' + Date.now(), { cache: 'no-store' })
+  fetch(prefix + 'data/ticker.json', { cache: 'default' })
     .then(function(res) { return res.json(); })
     .then(function(data) { buildTicker(data.items || []); })
     .catch(function() {});
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
-   SISTEMA DE CARGA PROGRESIVA (LAZY CHUNKS) — sin cambios
+   LAZY CHUNKS
    ══════════════════════════════════════════════════════════════════════════ */
 
 async function loadNextChunk() {
@@ -230,8 +153,7 @@ async function loadNextChunk() {
 
   loadingChunk = true;
   var nextIdx  = currentChunk + 1;
-  var prefix   = getRootPrefix();
-  var url      = prefix + 'data/posts-' + nextIdx + '.json?v=' + Date.now();
+  var url      = getRootPrefix() + 'data/posts-' + nextIdx + '.json?v=' + Date.now();
 
   try {
     var res = await fetch(url, { cache: 'no-store' });
@@ -250,24 +172,23 @@ async function loadNextChunk() {
     currentChunk = nextIdx;
     loadingChunk = false;
 
-    console.log('[ZFX] Chunk ' + nextIdx + ' cargado — ' + unique.length + ' posts nuevos (total: ' + POSTS.length + ')');
+    console.log('[ZFX] Chunk ' + nextIdx + ' — ' + unique.length + ' posts (total: ' + POSTS.length + ')');
     return unique;
 
   } catch (err) {
-    console.warn('[ZFX] No se pudo cargar posts-' + nextIdx + '.json:', err.message);
+    console.warn('[ZFX] posts-' + (currentChunk + 1) + '.json not found');
     allChunksLoaded = true; loadingChunk = false; return [];
   }
 }
 
 async function ensurePostsForSection(section, needed) {
-  function countForSection(sec) {
-    if (sec === 'for-you') return POSTS.length;
-    if (sec === 'all')     return POSTS.length;
+  function count(sec) {
+    if (sec === 'for-you' || sec === 'all') return POSTS.length;
     return POSTS.filter(function(p) { return p.section === sec; }).length;
   }
-  while (countForSection(section) < needed && !allChunksLoaded) {
+  while (count(section) < needed && !allChunksLoaded) {
     var added = await loadNextChunk();
-    if (added.length === 0) break;
+    if (!added.length) break;
   }
 }
 
@@ -285,9 +206,7 @@ function filterPosts(sec) {
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
-   RENDER GRID
-   Cambio clave: .pg-visual ya no usa background-image inline.
-   En su lugar tiene position:relative y contiene un <img> real.
+   RENDER GRID — sin imágenes, solo color/tint
    ══════════════════════════════════════════════════════════════════════════ */
 
 function renderGrid(posts) {
@@ -303,42 +222,19 @@ function renderGrid(posts) {
     var card  = document.createElement('article');
     card.className = 'pg-card';
 
-    /* ── Visual container ──
-       Ya NO ponemos background-image aquí.
-       El <img> va dentro; el tint overlay y la grid van encima (z-index). */
-    var visual = document.createElement('div');
-    visual.className = 'pg-visual';
-    /* Eliminamos background-image del inline style.
-       Solo mantenemos la variable --tint para el pseudo-elemento ::before */
-    visual.style.setProperty('--tint', tint);
+    card.innerHTML =
+      '<div class="pg-visual" style="--tint:' + tint + '">' +
+        '<div class="pg-visual-label"></div>' +
+      '</div>' +
+      '<div class="pg-body">' +
+        '<div class="pg-cat" style="color:' + color + ';--cat-dot:' + color + '">' + label + '</div>' +
+        '<div class="pg-title">' + p.title + '</div>' +
+        '<div class="pg-desc">'  + p.description + '</div>' +
+        '<div class="pg-footer">' + buildStats('grid') + '</div>' +
+      '</div>';
 
-    /* Imagen real optimizada */
-    if (p.image) {
-      var isPriority = (_imgRenderIndex === 0); /* solo la primera */
-      var img = buildOptimizedImg(p.image, p.title, isPriority);
-      visual.appendChild(img);
-      _imgRenderIndex++;
-    }
-
-    /* Label dentro del visual (estaba en el HTML original, lo mantenemos) */
-    var visualLabel = document.createElement('div');
-    visualLabel.className = 'pg-visual-label';
-    visual.appendChild(visualLabel);
-
-    /* ── Card body (sin cambios) ── */
-    var body = document.createElement('div');
-    body.className = 'pg-body';
-    body.innerHTML =
-      '<div class="pg-cat" style="color:' + color + ';--cat-dot:' + color + '">' + label + '</div>' +
-      '<div class="pg-title">' + p.title + '</div>' +
-      '<div class="pg-desc">' + p.description + '</div>' +
-      '<div class="pg-footer">' + buildStats('grid') + '</div>';
-
-    card.appendChild(visual);
-    card.appendChild(body);
-
-    card.addEventListener('click', (function(permalink) {
-      return function() { window.location.href = permalink; };
+    card.addEventListener('click', (function(href) {
+      return function() { window.location.href = href; };
     })(p.permalink));
 
     grid.appendChild(card);
@@ -349,8 +245,7 @@ function renderGrid(posts) {
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
-   RENDER LIST
-   Mismo cambio: .pl-visual sin background-image inline, <img> real dentro.
+   RENDER LIST — sin imágenes, solo color/tint
    ══════════════════════════════════════════════════════════════════════════ */
 
 function renderList(posts) {
@@ -364,44 +259,23 @@ function renderList(posts) {
     var item  = document.createElement('div');
     item.className = 'pl-item';
 
-    /* ── Visual container ── */
-    var visual = document.createElement('div');
-    visual.className = 'pl-visual';
-    visual.style.setProperty('--tint', tint);
-
-    if (p.image) {
-      /* En la lista, la primera imagen también es candidata a LCP */
-      var isPriority = (_imgRenderIndex === 0);
-      var img = buildOptimizedImg(p.image, p.title, isPriority);
-      visual.appendChild(img);
-      _imgRenderIndex++;
-    }
-
-    /* Grid lines y fade overlay (mantienen z-index sobre la imagen) */
-    var gridLines = document.createElement('div');
-    gridLines.className = 'pl-grid-lines';
-    var fade = document.createElement('div');
-    fade.className = 'pl-fade';
-    visual.appendChild(gridLines);
-    visual.appendChild(fade);
-
-    /* ── Body (sin cambios) ── */
-    var body = document.createElement('div');
-    body.className = 'pl-body';
-    body.innerHTML =
-      '<div class="pl-meta">' +
-        '<span class="pl-cat" style="color:' + color + ';--dot-c:' + color + '">' + label + '</span>' +
-        '<span class="pl-date">' + fmtDate(p.date) + '</span>' +
+    item.innerHTML =
+      '<div class="pl-visual" style="--tint:' + tint + '">' +
+        '<div class="pl-grid-lines"></div>' +
+        '<div class="pl-fade"></div>' +
       '</div>' +
-      '<div class="pl-title">' + p.title + '</div>' +
-      '<div class="pl-desc">' + p.description + '</div>' +
-      '<div class="pl-foot">' + buildStats('list') + '</div>';
+      '<div class="pl-body">' +
+        '<div class="pl-meta">' +
+          '<span class="pl-cat" style="color:' + color + ';--dot-c:' + color + '">' + label + '</span>' +
+          '<span class="pl-date">' + fmtDate(p.date) + '</span>' +
+        '</div>' +
+        '<div class="pl-title">' + p.title + '</div>' +
+        '<div class="pl-desc">'  + p.description + '</div>' +
+        '<div class="pl-foot">'  + buildStats('list') + '</div>' +
+      '</div>';
 
-    item.appendChild(body);   /* order:1 en CSS */
-    item.appendChild(visual); /* order:2 en CSS */
-
-    item.addEventListener('click', (function(permalink) {
-      return function() { window.location.href = permalink; };
+    item.addEventListener('click', (function(href) {
+      return function() { window.location.href = href; };
     })(p.permalink));
 
     list.appendChild(item);
@@ -431,33 +305,19 @@ function renderPicks() {
 
     var li = document.createElement('li');
     li.className = 'pick';
-
-    /* Thumbnail: también <img> real con lazy loading */
-    var thumb = document.createElement('div');
-    thumb.className = 'pick-thumb ' + PICK_TINTS[i];
-
-    if (p.image) {
-      var tImg = buildOptimizedImg(p.image, p.title, false); /* picks = siempre lazy */
-      /* Override de tamaño para el thumb pequeño (48×48) */
-      tImg.style.borderRadius = '3px';
-      thumb.appendChild(tImg);
-    }
-
-    var info = document.createElement('div');
-    info.className = 'pick-info';
-    info.innerHTML =
-      '<span class="pick-title">' + p.title + '</span>' +
-      '<span class="pick-sub">' + p.description.slice(0, 85) + '…</span>' +
-      '<div class="pick-meta">' +
-        '<span class="tag tag-xs" style="color:' + color + ';border-color:' + color + '44;background:' + color + '12">' + sectionLabel + '</span>' +
+    li.innerHTML =
+      '<span class="pick-num">0' + (i + 1) + '</span>' +
+      '<div class="pick-thumb ' + PICK_TINTS[i] + '"></div>' +
+      '<div class="pick-info">' +
+        '<span class="pick-title">' + p.title + '</span>' +
+        '<span class="pick-sub">' + p.description.slice(0, 85) + '…</span>' +
+        '<div class="pick-meta">' +
+          '<span class="tag tag-xs" style="color:' + color + ';border-color:' + color + '44;background:' + color + '12">' + sectionLabel + '</span>' +
+        '</div>' +
       '</div>';
 
-    li.innerHTML = '<span class="pick-num">0' + (i + 1) + '</span>';
-    li.appendChild(thumb);
-    li.appendChild(info);
-
-    li.addEventListener('click', (function(permalink) {
-      return function() { window.location.href = permalink; };
+    li.addEventListener('click', (function(href) {
+      return function() { window.location.href = href; };
     })(p.permalink));
 
     picksContainer.appendChild(li);
@@ -514,14 +374,14 @@ function renderPaginator(totalPages, cur) {
     return b;
   }
 
-  paginator.appendChild(mkBtn(svgFirst, cur === 1,           1));
-  paginator.appendChild(mkBtn(svgPrev,  cur === 1,           cur - 1));
+  paginator.appendChild(mkBtn(svgFirst, cur === 1,          1));
+  paginator.appendChild(mkBtn(svgPrev,  cur === 1,          cur - 1));
   var badge = document.createElement('span');
   badge.className = 'pg-current';
   badge.textContent = cur;
   paginator.appendChild(badge);
-  paginator.appendChild(mkBtn(svgNext, cur === totalPages,  cur + 1));
-  paginator.appendChild(mkBtn(svgLast, cur === totalPages,  totalPages));
+  paginator.appendChild(mkBtn(svgNext, cur === totalPages, cur + 1));
+  paginator.appendChild(mkBtn(svgLast, cur === totalPages, totalPages));
 }
 
 function goPage(p) {
@@ -543,10 +403,6 @@ function showLoader() {
 /* ── MAIN RENDER ─────────────────────────────────────────────────────────── */
 
 function render() {
-  /* Resetear el contador de imágenes para que la primera
-     del render actual reciba fetchpriority="high" */
-  _imgRenderIndex = 0;
-
   var all = filterPosts(currentSection);
 
   if (currentSection === 'for-you') {
@@ -587,9 +443,7 @@ async function renderWithLoader() {
     ? POSTS.length
     : POSTS.filter(function(p) { return p.section === neededSection; }).length;
 
-  if (currentCount < neededCount && !allChunksLoaded) {
-    showLoader();
-  }
+  if (currentCount < neededCount && !allChunksLoaded) showLoader();
 
   await ensurePostsForSection(neededSection, neededCount);
 
@@ -650,59 +504,29 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   applyTheme(htmlEl.getAttribute('data-theme') || 'dark');
 
-  if (themeBtn) {
-    themeBtn.addEventListener('click', function() {
-      applyTheme(htmlEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
-    });
-  }
-  if (menuToggle) {
-    menuToggle.addEventListener('click', function() {
-      applyTheme(htmlEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
-    });
-  }
+  if (themeBtn)   themeBtn.addEventListener('click',   function() { applyTheme(htmlEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); });
+  if (menuToggle) menuToggle.addEventListener('click', function() { applyTheme(htmlEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); });
 
   /* ── Side menu ── */
-  function openMenu() {
-    if (sideMenu)    sideMenu.classList.add('open');
-    if (menuOverlay) menuOverlay.classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
-  function closeMenu() {
-    if (sideMenu)    sideMenu.classList.remove('open');
-    if (menuOverlay) menuOverlay.classList.remove('open');
-    document.body.style.overflow = '';
-  }
+  function openMenu()  { sideMenu?.classList.add('open');    menuOverlay?.classList.add('open');    document.body.style.overflow = 'hidden'; }
+  function closeMenu() { sideMenu?.classList.remove('open'); menuOverlay?.classList.remove('open'); document.body.style.overflow = ''; }
 
-  var hamBtn = document.getElementById('hamburgerBtn');
-  if (hamBtn)      hamBtn.addEventListener('click', openMenu);
-  if (menuOverlay) menuOverlay.addEventListener('click', closeMenu);
+  document.getElementById('hamburgerBtn')?.addEventListener('click', openMenu);
+  menuOverlay?.addEventListener('click', closeMenu);
 
   if (!container) return;
 
   /* ── View toggle ── */
-  if (btnGrid) {
-    btnGrid.addEventListener('click', function() {
-      currentView = 'grid'; currentPage = 1;
-      btnGrid.classList.add('active'); btnList.classList.remove('active');
-      render();
-    });
-  }
-  if (btnList) {
-    btnList.addEventListener('click', function() {
-      currentView = 'list'; currentPage = 1;
-      btnList.classList.add('active'); btnGrid.classList.remove('active');
-      render();
-    });
-  }
+  if (btnGrid) btnGrid.addEventListener('click', function() { currentView = 'grid'; currentPage = 1; btnGrid.classList.add('active'); btnList.classList.remove('active'); render(); });
+  if (btnList) btnList.addEventListener('click', function() { currentView = 'list'; currentPage = 1; btnList.classList.add('active'); btnGrid.classList.remove('active'); render(); });
 
   window.addEventListener('hashchange', handleHash);
 
   document.querySelectorAll('[data-section]').forEach(function(el) {
     el.addEventListener('click', function(e) {
       e.preventDefault();
-      var sec = el.dataset.section;
-      history.pushState(null, '', '#' + sec);
-      setSection(sec);
+      history.pushState(null, '', '#' + el.dataset.section);
+      setSection(el.dataset.section);
       forceScrollTop();
       closeMenu();
     });
@@ -710,8 +534,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   document.querySelectorAll('.footer-link').forEach(function(el) {
     el.addEventListener('click', function(e) {
-      var href = el.getAttribute('href') || '';
-      var sec  = href.replace('#', '');
+      var sec = (el.getAttribute('href') || '').replace('#', '');
       if (SECTIONS.indexOf(sec) !== -1) {
         e.preventDefault();
         history.pushState(null, '', '#' + sec);
@@ -722,35 +545,24 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   var rt;
-  window.addEventListener('resize', function() {
-    clearTimeout(rt);
-    rt = setTimeout(render, 120);
-  });
+  window.addEventListener('resize', function() { clearTimeout(rt); rt = setTimeout(render, 120); });
 
   /* ── Bootstrap ── */
   (async function boot() {
-    var prefix = getRootPrefix();
     showLoader();
-
     try {
-      var res = await fetch(prefix + 'data/posts-1.json?v=' + Date.now(), { cache: 'no-store' });
+      var res = await fetch(getRootPrefix() + 'data/posts-1.json', { cache: 'no-cache' });
       if (!res.ok) throw new Error('HTTP ' + res.status);
-
-      var data = await res.json();
-      POSTS        = data;
+      POSTS        = await res.json();
       currentChunk = 1;
-
       if (picksContainer) renderPicks();
       if (tagsCloud)      renderTags();
       handleHash();
-
       preloadNextChunk();
-
     } catch (err) {
       console.error('[ZFX] Failed to load posts-1.json:', err);
       container.innerHTML =
-        '<p style="color:var(--text-3);padding:32px;font-family:var(--mono);' +
-        'font-size:0.65rem;letter-spacing:0.08em;">' +
+        '<p style="color:var(--text-3);padding:32px;font-family:var(--mono);font-size:0.65rem;letter-spacing:0.08em;">' +
         'FAILED TO LOAD POSTS — CHECK /data/posts-1.json</p>';
     }
   })();
