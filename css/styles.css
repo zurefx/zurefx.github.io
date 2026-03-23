@@ -1034,3 +1034,46 @@ a { text-decoration: none; color: inherit; }
   .pg-btn    { width: 40px; height: 40px; font-size: 0.7rem; }
   .pg-current { height: 40px; font-size: 0.75rem; }
 }
+
+/* ══════════════════════════════════════════════════════════════════════════
+   ZureFX — PATCH para app.js optimizado
+   Agregar en styles.css (al final, o cerca de .pg-visual / .pl-visual)
+
+   Por qué:
+   • .pg-visual y .pl-visual ahora contienen un <img> real en vez de
+     background-image. El img tiene position:absolute inset:0.
+   • El contenedor DEBE tener position:relative para que el img lo cubra.
+   • La altura ya estaba definida en CSS (height:155px, etc.) → CLS = 0.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* ─── Asegurar position:relative en los contenedores visuales ─── */
+/* (ya deberían tenerlo por overflow:hidden, pero lo hacemos explícito) */
+.pg-visual,
+.pl-visual {
+  position: relative; /* el <img> abs se posiciona dentro de aquí */
+}
+
+/* ─── El <img> real va en z-index 0, los overlays encima ─── */
+/*
+  Árbol de capas dentro de .pg-visual / .pl-visual:
+    z-index 0  → <img>           (la foto del post)
+    z-index 1  → ::before        (tint oscuro de sección, ya existía)
+    z-index 2  → ::after         (grid lines overlay, ya existía)
+    z-index 3+ → .pg-visual-label / .pl-grid-lines / .pl-fade  (ya existían)
+
+  No hace falta tocar los pseudo-elementos, el <img> solo necesita
+  estar detrás de ellos — y como position:absolute sin z-index
+  explícito queda en z-index auto (= 0), está debajo de todos. ✓
+*/
+
+/* ─── Fallback: si la imagen falla o no existe, el fondo oscuro del
+       contenedor actúa de placeholder — sin imagen rota visible ─── */
+.pg-visual,
+.pl-visual {
+  background-color: var(--bg-card2); /* color base si no hay imagen */
+}
+
+/* ─── Pick thumbs también usan <img> real ahora ─── */
+.pick-thumb {
+  position: relative; /* ya estaba, solo confirmamos */
+}

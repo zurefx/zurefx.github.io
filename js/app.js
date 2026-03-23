@@ -1,6 +1,10 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   ZureFX — app.js
-   Sistema de carga progresiva (lazy chunks) para posts
+   ZureFX — app.js  (performance-optimised)
+   • background-image → <img> real con loading="lazy" / fetchpriority="high"
+   • Espacio reservado via aspect-ratio → CLS ≈ 0
+   • decoding="async" en todas las imágenes → no bloquea el hilo principal
+   • Primera imagen (above-the-fold) recibe fetchpriority="high" para LCP
+   • Resto de la lógica (chunks, paginación, picks, tags) intacta
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ── CONSTANTS ───────────────────────────────────────────────────────────── */
@@ -26,42 +30,34 @@ var SECTION_LABEL = {
 };
 
 var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-
 var SECTIONS = ['for-you', 'all', 'writeups', 'research', 'scripting', 'notes'];
 
 /* ── POSTS PER PAGE ─────────────────────────────────────────────────────── */
-/* "for-you" muestra los primeros N posts sin paginar                        */
-var FOR_YOU_LIMIT  = 6;
-/* Tamaño de página para secciones paginadas                                 */
-var PAGE_LIMIT     = 9;
+var FOR_YOU_LIMIT = 6;
+var PAGE_LIMIT    = 9;
 
 /* ── CHUNK CONFIG ────────────────────────────────────────────────────────── */
-/*
- * Sistema de archivos:
- *   data/posts-1.json  → primeros 9 posts  (cargado al inicio)
- *   data/posts-2.json  → siguientes 12
- *   data/posts-3.json  → siguientes 12
- *   ...
- *
- * El array global POSTS se llena progresivamente.
- * Nunca se cargan todos los archivos de golpe.
- */
-var CHUNK_SIZES = { 1: 9, default: 12 };  /* tamaño esperado por chunk (solo referencia) */
-var MAX_CHUNKS  = 50;                      /* techo de seguridad anti-loop infinito       */
+var CHUNK_SIZES = { 1: 9, default: 12 };
+var MAX_CHUNKS  = 50;
 
 /* ── STATE ───────────────────────────────────────────────────────────────── */
+var POSTS           = [];
+var currentChunk    = 0;
+var allChunksLoaded = false;
+var loadingChunk    = false;
 
-var POSTS          = [];      /* array global — se llena progresivamente      */
-var currentChunk   = 0;       /* último chunk cargado (0 = ninguno)           */
-var allChunksLoaded = false;   /* true cuando ya no hay más archivos           */
-var loadingChunk   = false;    /* mutex — evita fetches simultáneos            */
+var currentSection  = 'for-you';
+var currentView     = 'grid';
+var currentPage     = 1;
 
-var currentSection = 'for-you';
-var currentView    = 'grid';
-var currentPage    = 1;
+/*
+ * Contador global de imágenes renderizadas en el render actual.
+ * Se resetea en cada llamada a render() para identificar la primera
+ * imagen above-the-fold y darle fetchpriority="high".
+ */
+var _imgRenderIndex = 0;
 
 /* ── DOM REFS ────────────────────────────────────────────────────────────── */
-
 var container;
 var paginator;
 var picksContainer;
@@ -138,6 +134,70 @@ function updateCardStats(card, data) {
   if (timeSpan) timeSpan.textContent = data.timeLabel ? data.timeLabel + ' read'            : '? min';
 }
 
+/* ══════════════════════════════════════════════════════════════════════════
+   IMAGEN OPTIMIZADA
+   Reemplaza background-image por un <img> real dentro del visual div.
+   Beneficios:
+     • loading="lazy"  → el browser no descarga imágenes off-screen
+     • fetchpriority="high" en la primera → LCP más rápido
+     • decoding="async" → no bloquea el hilo principal
+     • El contenedor tiene altura fija en CSS → CLS = 0 (sin layout shift)
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/**
+ * Crea un <img> optimizado para la thumbnail del post.
+ *
+ * @param {string}  src       - ruta de la imagen (p.image del JSON)
+ * @param {string}  alt       - texto alternativo (título del post)
+ * @param {boolean} isPriority - true solo para la primera imagen visible
+ * @returns {HTMLImageElement}
+ */
+function buildOptimizedImg(src, alt, isPriority) {
+  var prefix = getRootPrefix();
+  var img    = document.createElement('img');
+
+  /* Ruta: si ya es absoluta la dejamos, si es relativa añadimos el prefix */
+  img.src = (src && src.startsWith('/')) ? prefix + src.slice(1) : (src || '');
+  img.alt = alt || '';
+
+  /* Siempre async para no bloquear el parser */
+  img.decoding = 'async';
+
+  if (isPriority) {
+    /* Primera imagen visible → queremos que el browser la descargue YA */
+    img.fetchPriority = 'high';
+    img.loading       = 'eager';
+  } else {
+    /* Resto → lazy, el browser las descarga solo cuando están near-viewport */
+    img.loading = 'lazy';
+  }
+
+  /* Estilos: cubre el contenedor exactamente como background-size:cover */
+  img.style.cssText = [
+    'position:absolute',
+    'inset:0',
+    'width:100%',
+    'height:100%',
+    'object-fit:cover',
+    'object-position:center',
+    'display:block',
+    /* Fade-in suave una vez cargada — evita flash blanco */
+    'opacity:0',
+    'transition:opacity .35s ease'
+  ].join(';');
+
+  img.addEventListener('load', function() {
+    img.style.opacity = '1';
+  });
+
+  /* Si la imagen falla, se queda el fondo oscuro del contenedor — sin roto */
+  img.addEventListener('error', function() {
+    img.style.display = 'none';
+  });
+
+  return img;
+}
+
 /* ── TICKER ──────────────────────────────────────────────────────────────── */
 
 function buildTicker(items) {
@@ -156,22 +216,14 @@ function loadTicker() {
   fetch(prefix + 'data/ticker.json?v=' + Date.now(), { cache: 'no-store' })
     .then(function(res) { return res.json(); })
     .then(function(data) { buildTicker(data.items || []); })
-    .catch(function() { /* ticker decorativo, fallo silencioso */ });
+    .catch(function() {});
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
-   SISTEMA DE CARGA PROGRESIVA (LAZY CHUNKS)
+   SISTEMA DE CARGA PROGRESIVA (LAZY CHUNKS) — sin cambios
    ══════════════════════════════════════════════════════════════════════════ */
 
-/**
- * Carga el siguiente chunk de posts.
- * Retorna los posts nuevos añadidos (array), o [] si ya no hay más.
- * Tiene mutex interno para evitar fetches simultáneos.
- *
- * @returns {Promise<Array>}
- */
 async function loadNextChunk() {
-  /* ── Guard: ya cargamos todo o hay un fetch en curso ── */
   if (allChunksLoaded) return [];
   if (loadingChunk)    return [];
   if (currentChunk >= MAX_CHUNKS) { allChunksLoaded = true; return []; }
@@ -183,28 +235,18 @@ async function loadNextChunk() {
 
   try {
     var res = await fetch(url, { cache: 'no-store' });
-
-    /* 404 o cualquier fallo HTTP → no hay más chunks */
-    if (!res.ok) {
-      allChunksLoaded = true;
-      loadingChunk = false;
-      return [];
-    }
+    if (!res.ok) { allChunksLoaded = true; loadingChunk = false; return []; }
 
     var newPosts = await res.json();
-
     if (!Array.isArray(newPosts) || newPosts.length === 0) {
-      allChunksLoaded = true;
-      loadingChunk = false;
-      return [];
+      allChunksLoaded = true; loadingChunk = false; return [];
     }
 
-    /* Filtrar duplicados por id antes de concatenar */
     var existingIds = {};
     POSTS.forEach(function(p) { existingIds[p.id] = true; });
     var unique = newPosts.filter(function(p) { return !existingIds[p.id]; });
 
-    POSTS = POSTS.concat(unique);
+    POSTS        = POSTS.concat(unique);
     currentChunk = nextIdx;
     loadingChunk = false;
 
@@ -212,47 +254,26 @@ async function loadNextChunk() {
     return unique;
 
   } catch (err) {
-    /* Error de red → no hay más chunks */
     console.warn('[ZFX] No se pudo cargar posts-' + nextIdx + '.json:', err.message);
-    allChunksLoaded = true;
-    loadingChunk = false;
-    return [];
+    allChunksLoaded = true; loadingChunk = false; return [];
   }
 }
 
-/**
- * Asegura que haya al menos `needed` posts disponibles para la sección dada.
- * Carga chunks de forma recursiva hasta satisfacer la demanda o agotar archivos.
- *
- * @param {string} section  - sección a verificar ('all', 'notes', 'writeups', etc.)
- * @param {number} needed   - número mínimo de posts necesarios
- * @returns {Promise<void>}
- */
 async function ensurePostsForSection(section, needed) {
-  /* Contar cuántos tenemos ya para esta sección */
   function countForSection(sec) {
-    if (sec === 'for-you') return POSTS.length;          /* for-you no filtra */
+    if (sec === 'for-you') return POSTS.length;
     if (sec === 'all')     return POSTS.length;
     return POSTS.filter(function(p) { return p.section === sec; }).length;
   }
-
-  /* Bucle: carga chunks hasta tener suficientes o agotar fuentes */
   while (countForSection(section) < needed && !allChunksLoaded) {
     var added = await loadNextChunk();
-    if (added.length === 0) break;  /* no hay más o hubo error */
+    if (added.length === 0) break;
   }
 }
 
-/**
- * Precarga el siguiente chunk en segundo plano (sin bloquear UI).
- * Se llama después de renderizar para preparar datos futuros.
- */
 function preloadNextChunk() {
   if (allChunksLoaded || loadingChunk) return;
-  /* Pequeño delay para no competir con el render actual */
-  setTimeout(function() {
-    loadNextChunk().catch(function() {});
-  }, 800);
+  setTimeout(function() { loadNextChunk().catch(function() {}); }, 800);
 }
 
 /* ── FILTER ──────────────────────────────────────────────────────────────── */
@@ -263,7 +284,11 @@ function filterPosts(sec) {
   return POSTS.filter(function(p) { return p.section === sec; });
 }
 
-/* ── RENDER GRID ─────────────────────────────────────────────────────────── */
+/* ══════════════════════════════════════════════════════════════════════════
+   RENDER GRID
+   Cambio clave: .pg-visual ya no usa background-image inline.
+   En su lugar tiene position:relative y contiene un <img> real.
+   ══════════════════════════════════════════════════════════════════════════ */
 
 function renderGrid(posts) {
   var grid = document.createElement('div');
@@ -278,16 +303,39 @@ function renderGrid(posts) {
     var card  = document.createElement('article');
     card.className = 'pg-card';
 
-    card.innerHTML =
-      '<div class="pg-visual" style="--tint:' + tint + '">' +
-        '<div class="pg-visual-label"></div>' +
-      '</div>' +
-      '<div class="pg-body">' +
-        '<div class="pg-cat" style="color:' + color + ';--cat-dot:' + color + '">' + label + '</div>' +
-        '<div class="pg-title">' + p.title + '</div>' +
-        '<div class="pg-desc">' + p.description + '</div>' +
-        '<div class="pg-footer">' + buildStats('grid') + '</div>' +
-      '</div>';
+    /* ── Visual container ──
+       Ya NO ponemos background-image aquí.
+       El <img> va dentro; el tint overlay y la grid van encima (z-index). */
+    var visual = document.createElement('div');
+    visual.className = 'pg-visual';
+    /* Eliminamos background-image del inline style.
+       Solo mantenemos la variable --tint para el pseudo-elemento ::before */
+    visual.style.setProperty('--tint', tint);
+
+    /* Imagen real optimizada */
+    if (p.image) {
+      var isPriority = (_imgRenderIndex === 0); /* solo la primera */
+      var img = buildOptimizedImg(p.image, p.title, isPriority);
+      visual.appendChild(img);
+      _imgRenderIndex++;
+    }
+
+    /* Label dentro del visual (estaba en el HTML original, lo mantenemos) */
+    var visualLabel = document.createElement('div');
+    visualLabel.className = 'pg-visual-label';
+    visual.appendChild(visualLabel);
+
+    /* ── Card body (sin cambios) ── */
+    var body = document.createElement('div');
+    body.className = 'pg-body';
+    body.innerHTML =
+      '<div class="pg-cat" style="color:' + color + ';--cat-dot:' + color + '">' + label + '</div>' +
+      '<div class="pg-title">' + p.title + '</div>' +
+      '<div class="pg-desc">' + p.description + '</div>' +
+      '<div class="pg-footer">' + buildStats('grid') + '</div>';
+
+    card.appendChild(visual);
+    card.appendChild(body);
 
     card.addEventListener('click', (function(permalink) {
       return function() { window.location.href = permalink; };
@@ -300,7 +348,10 @@ function renderGrid(posts) {
   return grid;
 }
 
-/* ── RENDER LIST ─────────────────────────────────────────────────────────── */
+/* ══════════════════════════════════════════════════════════════════════════
+   RENDER LIST
+   Mismo cambio: .pl-visual sin background-image inline, <img> real dentro.
+   ══════════════════════════════════════════════════════════════════════════ */
 
 function renderList(posts) {
   var list = document.createElement('div');
@@ -313,20 +364,41 @@ function renderList(posts) {
     var item  = document.createElement('div');
     item.className = 'pl-item';
 
-    item.innerHTML =
-      '<div class="pl-visual" style="--tint:' + tint + '">' +
-        '<div class="pl-grid-lines"></div>' +
-        '<div class="pl-fade"></div>' +
+    /* ── Visual container ── */
+    var visual = document.createElement('div');
+    visual.className = 'pl-visual';
+    visual.style.setProperty('--tint', tint);
+
+    if (p.image) {
+      /* En la lista, la primera imagen también es candidata a LCP */
+      var isPriority = (_imgRenderIndex === 0);
+      var img = buildOptimizedImg(p.image, p.title, isPriority);
+      visual.appendChild(img);
+      _imgRenderIndex++;
+    }
+
+    /* Grid lines y fade overlay (mantienen z-index sobre la imagen) */
+    var gridLines = document.createElement('div');
+    gridLines.className = 'pl-grid-lines';
+    var fade = document.createElement('div');
+    fade.className = 'pl-fade';
+    visual.appendChild(gridLines);
+    visual.appendChild(fade);
+
+    /* ── Body (sin cambios) ── */
+    var body = document.createElement('div');
+    body.className = 'pl-body';
+    body.innerHTML =
+      '<div class="pl-meta">' +
+        '<span class="pl-cat" style="color:' + color + ';--dot-c:' + color + '">' + label + '</span>' +
+        '<span class="pl-date">' + fmtDate(p.date) + '</span>' +
       '</div>' +
-      '<div class="pl-body">' +
-        '<div class="pl-meta">' +
-          '<span class="pl-cat" style="color:' + color + ';--dot-c:' + color + '">' + label + '</span>' +
-          '<span class="pl-date">' + fmtDate(p.date) + '</span>' +
-        '</div>' +
-        '<div class="pl-title">' + p.title + '</div>' +
-        '<div class="pl-desc">' + p.description + '</div>' +
-        '<div class="pl-foot">' + buildStats('list') + '</div>' +
-      '</div>';
+      '<div class="pl-title">' + p.title + '</div>' +
+      '<div class="pl-desc">' + p.description + '</div>' +
+      '<div class="pl-foot">' + buildStats('list') + '</div>';
+
+    item.appendChild(body);   /* order:1 en CSS */
+    item.appendChild(visual); /* order:2 en CSS */
 
     item.addEventListener('click', (function(permalink) {
       return function() { window.location.href = permalink; };
@@ -359,16 +431,30 @@ function renderPicks() {
 
     var li = document.createElement('li');
     li.className = 'pick';
-    li.innerHTML =
-      '<span class="pick-num">0' + (i + 1) + '</span>' +
-      '<div class="pick-thumb ' + PICK_TINTS[i] + '"></div>' +
-      '<div class="pick-info">' +
-        '<span class="pick-title">' + p.title + '</span>' +
-        '<span class="pick-sub">' + p.description.slice(0, 85) + '…</span>' +
-        '<div class="pick-meta">' +
-          '<span class="tag tag-xs" style="color:' + color + ';border-color:' + color + '44;background:' + color + '12">' + sectionLabel + '</span>' +
-        '</div>' +
+
+    /* Thumbnail: también <img> real con lazy loading */
+    var thumb = document.createElement('div');
+    thumb.className = 'pick-thumb ' + PICK_TINTS[i];
+
+    if (p.image) {
+      var tImg = buildOptimizedImg(p.image, p.title, false); /* picks = siempre lazy */
+      /* Override de tamaño para el thumb pequeño (48×48) */
+      tImg.style.borderRadius = '3px';
+      thumb.appendChild(tImg);
+    }
+
+    var info = document.createElement('div');
+    info.className = 'pick-info';
+    info.innerHTML =
+      '<span class="pick-title">' + p.title + '</span>' +
+      '<span class="pick-sub">' + p.description.slice(0, 85) + '…</span>' +
+      '<div class="pick-meta">' +
+        '<span class="tag tag-xs" style="color:' + color + ';border-color:' + color + '44;background:' + color + '12">' + sectionLabel + '</span>' +
       '</div>';
+
+    li.innerHTML = '<span class="pick-num">0' + (i + 1) + '</span>';
+    li.appendChild(thumb);
+    li.appendChild(info);
 
     li.addEventListener('click', (function(permalink) {
       return function() { window.location.href = permalink; };
@@ -450,14 +536,17 @@ function showLoader() {
   if (!container) return;
   container.innerHTML =
     '<div style="padding:48px;text-align:center;font-family:var(--mono);' +
-    'font-size:0.62rem;letter-spacing:0.1em;color:var(--text-3)">' +
-    'LOADING…</div>';
+    'font-size:0.62rem;letter-spacing:0.1em;color:var(--text-3)">LOADING…</div>';
   if (paginator) paginator.innerHTML = '';
 }
 
-/* ── MAIN RENDER (sync — solo dibuja lo que ya está en POSTS) ────────────── */
+/* ── MAIN RENDER ─────────────────────────────────────────────────────────── */
 
 function render() {
+  /* Resetear el contador de imágenes para que la primera
+     del render actual reciba fetchpriority="high" */
+  _imgRenderIndex = 0;
+
   var all = filterPosts(currentSection);
 
   if (currentSection === 'for-you') {
@@ -479,24 +568,21 @@ function render() {
   renderPaginator(total, currentPage);
 }
 
-/* ── RENDER WITH LOADER (async — carga chunks si hacen falta) ────────────── */
+/* ── RENDER WITH LOADER ──────────────────────────────────────────────────── */
 
 async function renderWithLoader() {
   if (!container) return;
 
-  /* Para for-you solo necesitamos FOR_YOU_LIMIT posts en total */
   var neededSection = currentSection;
   var neededCount;
 
   if (currentSection === 'for-you') {
-    neededCount = FOR_YOU_LIMIT;
-    neededSection = 'all';              /* for-you no filtra por sección */
+    neededCount   = FOR_YOU_LIMIT;
+    neededSection = 'all';
   } else {
-    /* cuántos posts se necesitan para llegar hasta la página actual */
     neededCount = currentPage * PAGE_LIMIT;
   }
 
-  /* Mostrar loader solo si realmente vamos a buscar datos */
   var currentCount = (neededSection === 'all')
     ? POSTS.length
     : POSTS.filter(function(p) { return p.section === neededSection; }).length;
@@ -505,17 +591,13 @@ async function renderWithLoader() {
     showLoader();
   }
 
-  /* Asegurar datos suficientes */
   await ensurePostsForSection(neededSection, neededCount);
 
-  /* Dibujar */
   render();
 
-  /* Actualizar picks y tags con los posts recién cargados */
   if (picksContainer) renderPicks();
   if (tagsCloud)      renderTags();
 
-  /* Precargar el siguiente chunk en segundo plano */
   preloadNextChunk();
 }
 
@@ -551,10 +633,9 @@ document.addEventListener('DOMContentLoaded', function() {
   sideMenu       = document.getElementById('sideMenu');
   menuOverlay    = document.getElementById('menuOverlay');
 
-  /* ── Ticker — funciona en todas las páginas ── */
   loadTicker();
 
-  /* ── Theme toggle — funciona en todas las páginas ── */
+  /* ── Theme toggle ── */
   var htmlEl     = document.documentElement;
   var themeBtn   = document.getElementById('themeBtn');
   var menuToggle = document.getElementById('menuThemeToggle');
@@ -580,7 +661,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  /* ── Side menu — funciona en todas las páginas ── */
+  /* ── Side menu ── */
   function openMenu() {
     if (sideMenu)    sideMenu.classList.add('open');
     if (menuOverlay) menuOverlay.classList.add('open');
@@ -596,7 +677,6 @@ document.addEventListener('DOMContentLoaded', function() {
   if (hamBtn)      hamBtn.addEventListener('click', openMenu);
   if (menuOverlay) menuOverlay.addEventListener('click', closeMenu);
 
-  /* ── Guard: solo continúa si estamos en el index ── */
   if (!container) return;
 
   /* ── View toggle ── */
@@ -647,11 +727,9 @@ document.addEventListener('DOMContentLoaded', function() {
     rt = setTimeout(render, 120);
   });
 
-  /* ── Bootstrap: carga posts-1.json y arranca ── */
+  /* ── Bootstrap ── */
   (async function boot() {
     var prefix = getRootPrefix();
-
-    /* Mostrar loader inicial */
     showLoader();
 
     try {
@@ -659,18 +737,13 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!res.ok) throw new Error('HTTP ' + res.status);
 
       var data = await res.json();
-
-      /* posts-1.json ya viene ordenado por fecha desc desde convert.py    */
-      /* NO filtramos projects — aparecen en for-you y all igual que el    */
-      /* resto; projects.js se encarga de filtrarlos en su propia página.  */
-      POSTS = data;
+      POSTS        = data;
       currentChunk = 1;
 
       if (picksContainer) renderPicks();
       if (tagsCloud)      renderTags();
       handleHash();
 
-      /* Precargar posts-2.json en segundo plano */
       preloadNextChunk();
 
     } catch (err) {
