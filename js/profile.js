@@ -1,31 +1,29 @@
 /* ============================================================
    ZureFX — profile.js
-   Carga los 5 posts más recientes y los renderiza igual que
-   app.js (grid en desktop, list en mobile).
-   Depende de app.js (debe cargarse antes).
+   Carga los posts más recientes desde posts-1.json (mismo
+   sistema de chunks que app.js) y los renderiza en la página
+   de perfil. Depende de app.js (cargado antes).
    ============================================================ */
-
-function getRootPrefixProfile() {
-  var depth = (window.location.pathname.match(/\//g) || []).length - 1;
-  return depth > 0 ? '../'.repeat(depth) : '';
-}
 
 async function loadRecentPosts() {
   var container = document.getElementById('postsContainer');
   if (!container) return;
 
-  var prefix = getRootPrefixProfile();
+  /* Mostrar skeleton mientras carga */
+  container.innerHTML =
+    '<div class="skeleton-row" style="opacity:.4"></div>' +
+    '<div class="skeleton-row" style="opacity:.3;animation-delay:.15s"></div>' +
+    '<div class="skeleton-row" style="opacity:.2;animation-delay:.3s"></div>';
+
+  var prefix = getRootPrefix();   /* reutiliza la función de app.js */
 
   try {
-    var res = await fetch(prefix + 'data/post.json?v=' + Date.now(), { cache: 'no-store' });
+    var res = await fetch(prefix + 'data/posts-1.json?v=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) throw new Error('HTTP ' + res.status);
+
     var posts = await res.json();
 
-    /* excluir projects, ordenar por fecha */
-    posts = posts
-      .filter(function(p) { return p.section !== 'projects'; })
-      .sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
-
+    /* posts-1.json ya viene ordenado por fecha desc — solo tomamos los 3 primeros */
     var recent = posts.slice(0, 3);
 
     if (!recent.length) {
@@ -38,8 +36,7 @@ async function loadRecentPosts() {
     container.innerHTML = '';
 
     /* misma lógica de app.js: list en mobile, grid en desktop */
-    var el = isMobile() ? renderList(recent) : renderGrid(recent);
-    container.appendChild(el);
+    container.appendChild(isMobile() ? renderList(recent) : renderGrid(recent));
 
   } catch (err) {
     console.error('[profile.js]', err);
@@ -49,7 +46,7 @@ async function loadRecentPosts() {
   }
 }
 
-/* re-renderizar al cambiar tamaño de ventana (igual que app.js) */
+/* Re-renderizar al cambiar tamaño de ventana */
 var _profileResizeTimer;
 window.addEventListener('resize', function() {
   clearTimeout(_profileResizeTimer);

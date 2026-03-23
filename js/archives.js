@@ -1,124 +1,153 @@
 /* ============================================================
-   ZureFX — archives.js
-   Carga todos los posts de /data/post.json, los agrupa por mes
-   y los renderiza con pl-item (igual que tags.js).
-   Depende de app.js (debe cargarse antes).
+   ZureFX — archives.js  (v2)
+   Carga progresiva por chunks — igual que app.js y tags.js.
+   Depende de app.js (cargado antes): getRootPrefix(),
+   SECTION_COLOR_MAP, fmtDate(), capitalize().
    ============================================================ */
 
-/* ── Root prefix ── */
-function getRootPrefixArchives() {
-  var depth = (window.location.pathname.match(/\//g) || []).length - 1;
-  return depth > 0 ? '../'.repeat(depth) : '';
+/* ── Estado de chunks ── */
+var _arc_posts     = [];
+var _arc_chunk     = 0;
+var _arc_loaded    = false;
+var _arc_loading   = false;
+var MAX_CHUNKS_ARC = 50;
+
+/* ── Cargar siguiente chunk ── */
+async function arcLoadNextChunk() {
+  if (_arc_loaded || _arc_loading) return [];
+  if (_arc_chunk >= MAX_CHUNKS_ARC) { _arc_loaded = true; return []; }
+
+  _arc_loading = true;
+  var nextIdx = _arc_chunk + 1;
+  var url = getRootPrefix() + 'data/posts-' + nextIdx + '.json?v=' + Date.now();
+
+  try {
+    var res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) { _arc_loaded = true; _arc_loading = false; return []; }
+
+    var incoming = await res.json();
+    if (!Array.isArray(incoming) || !incoming.length) {
+      _arc_loaded = true; _arc_loading = false; return [];
+    }
+
+    var existing = {};
+    _arc_posts.forEach(function(p) { existing[p.id] = true; });
+    var unique = incoming.filter(function(p) { return !existing[p.id]; });
+
+    _arc_posts   = _arc_posts.concat(unique);
+    _arc_chunk   = nextIdx;
+    _arc_loading = false;
+    return unique;
+  } catch (e) {
+    _arc_loaded = true; _arc_loading = false; return [];
+  }
+}
+
+/* ── Cargar TODOS los chunks (archives muestra todo) ── */
+async function arcLoadAll() {
+  while (!_arc_loaded) {
+    var added = await arcLoadNextChunk();
+    if (!added.length) break;
+  }
 }
 
 /* ── Helpers ── */
-var MONTHS_ARC = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-
-var SECTION_COLOR_MAP_ARC = {
-  'writeups':     '#cc2b2b',
-  'research':     '#7c3aed',
-  'scripting':    '#16a34a',
-  'notes':        '#ca8a04',
-  'cheat-sheets': '#0891b2',
-  'tools':        '#db2777'
-};
-
 function escArc(s) {
   return String(s || '')
     .replace(/&/g,'&amp;').replace(/</g,'&lt;')
     .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-function fmtDateArc(d) {
-  var parts = d.split('-');
-  var m = parseInt(parts[1], 10) - 1;
-  return MONTHS_ARC[m] + ' ' + parts[0];
-}
-
-function capitalizeArc(str) {
-  if (!str) return '';
-  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
-}
-
-function sectionColorArc(sec) {
-  return SECTION_COLOR_MAP_ARC[sec] || '#cc2b2b';
-}
-
-function buildTintArc(sec) {
-  var hex = SECTION_COLOR_MAP_ARC[sec];
-  if (!hex) return 'rgba(10,10,10,0.78)';
-  var r = parseInt(hex.slice(1,3), 16);
-  var g = parseInt(hex.slice(3,5), 16);
-  var b = parseInt(hex.slice(5,7), 16);
-  var f = 0.14;
-  return 'rgba(' + Math.round(r*f) + ',' + Math.round(g*f) + ',' + Math.round(b*f) + ',0.14)';
-}
-
-function monthKey(dateString) {
-  return dateString.slice(0, 7); /* "YYYY-MM" */
-}
+function monthKey(d) { return d.slice(0, 7); }
 
 function formatMonthHeading(key) {
   try {
-    var parts = key.split('-').map(Number);
-    var d = new Date(parts[0], parts[1] - 1, 1);
-    return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' }).toUpperCase();
-  } catch (_) { return key; }
+    var p = key.split('-').map(Number);
+    return new Date(p[0], p[1]-1, 1)
+      .toLocaleDateString('en-US', { month:'long', year:'numeric' })
+      .toUpperCase();
+  } catch(_) { return key; }
 }
 
-/* ── Icons ── */
-var iconWordsArc = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>';
-var iconTimeArc  = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>';
-
-function buildStatsArc() {
-  return (
-    '<span class="pl-stat stat-words">' + iconWordsArc + '<span>— w</span></span>' +
-    '<span class="pl-dot"></span>' +
-    '<span class="pl-stat stat-time">' + iconTimeArc + '<span>? min</span></span>'
-  );
-}
-
-function updateStatsArc(item, data) {
-  if (!data) return;
-  var wordSpan = item.querySelector('.stat-words span');
-  var timeSpan = item.querySelector('.stat-time span');
-  if (wordSpan) wordSpan.textContent = data.words     ? data.words.toLocaleString() + ' w' : '— w';
-  if (timeSpan) timeSpan.textContent = data.timeLabel ? data.timeLabel + ' read'            : '? min';
-}
-
-/* ── Build pl-item — stats desde post.json, sin fetch ── */
-function buildPlItemArc(p) {
-  var color = sectionColorArc(p.section);
-  var tint  = buildTintArc(p.section);
-  var label = capitalizeArc(p.section);
+/* ── Build compact row (mismo formato que tags.js) ── */
+function buildArcRow(p) {
+  var color = SECTION_COLOR_MAP[p.section] || '#cc2b2b';
+  var label = capitalize(p.section);
+  var words = p.words ? p.words.toLocaleString() + ' w' : '— w';
+  var time  = p.readTime || '? min';
 
   var item = document.createElement('div');
-  item.className = 'pl-item';
-  item.style.cursor = 'pointer';
+  item.style.cssText = [
+    'display:flex', 'align-items:flex-start', 'gap:14px',
+    'padding:14px 16px',
+    'background:var(--bg-card)',
+    'cursor:pointer',
+    'animation:fadeInUp .3s ease both'
+  ].join(';');
 
-  item.innerHTML =
-    '<div class="pl-visual" style="--tint:' + tint + '">' +
-      '<div class="pl-grid-lines"></div>' +
-      '<div class="pl-fade"></div>' +
-    '</div>' +
-    '<div class="pl-body">' +
-      '<div class="pl-meta">' +
-        '<span class="pl-cat" style="color:' + color + ';--dot-c:' + color + '">' + escArc(label) + '</span>' +
-        '<span class="pl-date">' + fmtDateArc(p.date) + '</span>' +
-      '</div>' +
-      '<div class="pl-title">' + escArc(p.title) + '</div>' +
-      '<div class="pl-desc">' + escArc(p.description || '') + '</div>' +
-      '<div class="pl-foot">' + buildStatsArc() + '</div>' +
-    '</div>';
+  /* accent bar */
+  var bar = document.createElement('div');
+  bar.style.cssText = [
+    'flex-shrink:0', 'width:3px', 'border-radius:2px',
+    'background:' + color, 'align-self:stretch', 'min-height:44px'
+  ].join(';');
 
+  /* body */
+  var body = document.createElement('div');
+  body.style.cssText = 'flex:1;min-width:0;display:flex;flex-direction:column;gap:4px';
+
+  var meta = document.createElement('div');
+  meta.style.cssText = 'display:flex;align-items:center;gap:8px';
+  meta.innerHTML =
+    '<span style="font-family:var(--mono);font-size:.5rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:' + color + ';display:flex;align-items:center;gap:4px;line-height:1">' +
+      '<span style="width:4px;height:4px;border-radius:50%;background:currentColor;flex-shrink:0;display:block"></span>' +
+      escArc(label) +
+    '</span>' +
+    '<span style="font-family:var(--mono);font-size:.48rem;color:var(--text-3);margin-left:auto">' +
+      fmtDate(p.date) +
+    '</span>';
+
+  var title = document.createElement('div');
+  title.style.cssText = 'font-family:var(--display);font-weight:700;font-size:.95rem;color:var(--text-1);line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .15s';
+  title.textContent = p.title;
+
+  var desc = document.createElement('div');
+  desc.style.cssText = 'font-family:var(--body);font-size:.72rem;color:var(--text-2);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden';
+  desc.textContent = p.description || '';
+
+  var foot = document.createElement('div');
+  foot.style.cssText = 'display:flex;align-items:center;gap:6px;margin-top:2px';
+  foot.innerHTML =
+    '<span style="font-family:var(--mono);font-size:.52rem;color:var(--text-3);display:flex;align-items:center;gap:3px">' +
+      '<svg style="width:10px;height:10px;opacity:.5;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>' +
+      words +
+    '</span>' +
+    '<span style="width:3px;height:3px;border-radius:50%;background:var(--border);flex-shrink:0"></span>' +
+    '<span style="font-family:var(--mono);font-size:.52rem;color:var(--text-3);display:flex;align-items:center;gap:3px">' +
+      '<svg style="width:10px;height:10px;opacity:.5;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>' +
+      time +
+    '</span>';
+
+  body.appendChild(meta);
+  body.appendChild(title);
+  body.appendChild(desc);
+  body.appendChild(foot);
+  item.appendChild(bar);
+  item.appendChild(body);
+
+  item.addEventListener('mouseenter', function() {
+    item.style.borderColor = 'rgba(' + parseInt(color.slice(1,3),16) + ',' + parseInt(color.slice(3,5),16) + ',' + parseInt(color.slice(5,7),16) + ',.35)';
+    item.style.transform   = 'translateY(-1px)';
+    title.style.color      = color;
+  });
+  item.addEventListener('mouseleave', function() {
+    item.style.borderColor = '';
+    item.style.transform   = '';
+    title.style.color      = '';
+  });
   item.addEventListener('click', (function(href) {
     return function() { window.location.href = href; };
   })(p.permalink));
-
-  updateStatsArc(item, {
-    words:     p.words    || null,
-    timeLabel: p.readTime || null
-  });
 
   return item;
 }
@@ -126,20 +155,12 @@ function buildPlItemArc(p) {
 /* ── Skeleton ── */
 function renderSkeletonArc(container) {
   container.innerHTML =
-    '<div class="arc-skeleton-group">' +
-      '<div class="arc-skeleton-heading"></div>' +
-      '<div class="arc-skeleton-row"></div>' +
-      '<div class="arc-skeleton-row"></div>' +
-      '<div class="arc-skeleton-row"></div>' +
-    '</div>' +
-    '<div class="arc-skeleton-group">' +
-      '<div class="arc-skeleton-heading"></div>' +
-      '<div class="arc-skeleton-row"></div>' +
-      '<div class="arc-skeleton-row"></div>' +
-    '</div>';
+    '<div class="arc-skeleton-group"><div class="arc-skeleton-heading"></div>' +
+    '<div class="arc-skeleton-row"></div><div class="arc-skeleton-row"></div><div class="arc-skeleton-row"></div></div>' +
+    '<div class="arc-skeleton-group"><div class="arc-skeleton-heading"></div>' +
+    '<div class="arc-skeleton-row"></div><div class="arc-skeleton-row"></div></div>';
 }
 
-/* ── Update stats pill ── */
 function updateArchivesStats(text) {
   var el = document.getElementById('archivesTotal');
   if (el) el.querySelector('span').textContent = text;
@@ -152,33 +173,22 @@ async function loadArchives() {
 
   renderSkeletonArc(container);
 
-  var prefix = getRootPrefixArchives();
-
   try {
-    var res = await fetch(prefix + 'data/post.json?v=' + Date.now(), { cache: 'no-store' });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    var raw   = await res.json();
-    var posts = Array.isArray(raw) ? raw : (raw.posts || []);
+    /* Cargar todos los chunks — archives es un índice completo */
+    await arcLoadAll();
 
-    /* excluir projects */
-    posts = posts.filter(function(p) { return p.section !== 'projects'; });
-    posts.sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
+    var posts = _arc_posts
+      .filter(function(p) { return p.section !== 'projects'; })
+      .sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
 
     updateArchivesStats(posts.length + ' post' + (posts.length !== 1 ? 's' : ''));
 
     if (!posts.length) {
-      container.innerHTML =
-        '<div class="archives-empty">' +
-          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">' +
-            '<path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>' +
-          '</svg>' +
-          '<h3>No posts yet</h3>' +
-          '<p>Check back soon.</p>' +
-        '</div>';
+      container.innerHTML = '<div class="archives-empty"><h3>No posts yet</h3><p>Check back soon.</p></div>';
       return;
     }
 
-    /* ── Agrupar por mes ── */
+    /* Agrupar por mes */
     var groupMap = new Map();
     posts.forEach(function(p) {
       var key = monthKey(p.date);
@@ -204,11 +214,9 @@ async function loadArchives() {
         '</span>';
 
       var list = document.createElement('div');
-      list.className = 'archive-post-list';
+      list.style.cssText = 'display:flex;flex-direction:column;gap:6px';
 
-      groupPosts.forEach(function(p) {
-        list.appendChild(buildPlItemArc(p));
-      });
+      groupPosts.forEach(function(p) { list.appendChild(buildArcRow(p)); });
 
       group.appendChild(heading);
       group.appendChild(list);
@@ -221,15 +229,8 @@ async function loadArchives() {
   } catch (err) {
     console.error('[archives.js]', err);
     container.innerHTML =
-      '<div class="archives-empty">' +
-        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">' +
-          '<circle cx="12" cy="12" r="10"/>' +
-          '<line x1="12" y1="8" x2="12" y2="12"/>' +
-          '<line x1="12" y1="16" x2="12.01" y2="16"/>' +
-        '</svg>' +
-        '<h3>Could not load archives</h3>' +
-        '<p>Check that <code>/data/post.json</code> exists and is valid JSON.</p>' +
-      '</div>';
+      '<div class="archives-empty"><h3>Could not load archives</h3>' +
+      '<p>Check that <code>/data/posts-1.json</code> exists.</p></div>';
   }
 }
 

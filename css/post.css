@@ -3,16 +3,15 @@
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   1. LAYOUT — override completo para páginas de post
-   El truco: usamos 3 columnas  [toc] [artículo centrado] [espejo vacío]
-   La columna espejo tiene el mismo ancho que el TOC para que el artículo
-   quede matemáticamente en el centro horizontal de la pantalla.
+   1. LAYOUT
+   3 columnas: [toc] [artículo centrado] [espejo vacío]
+   La columna espejo equilibra el layout para centrar matemáticamente el artículo.
 ───────────────────────────────────────────────────────────────────────────── */
 .layout:has(.post-article) {
   display: grid;
-  grid-template-columns: 200px 1fr 200px;   /* toc | contenido | espejo */
+  grid-template-columns: 260px 1fr 260px;
   grid-template-areas: "sidebar article mirror";
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -24,13 +23,17 @@
   grid-area: sidebar;
   display: flex;
   flex-direction: column;
-  justify-content: center;    /* centrado vertical siempre */
+  justify-content: center;
   position: sticky;
   top: 54px;
   height: calc(100vh - 54px);
   align-self: start;
   overflow: visible;
-  padding: 0 16px 0 24px;     /* espacio respecto al artículo */
+  padding: 0 16px 0 24px;
+  border: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  box-shadow: none !important;
 }
 
 /* Columna artículo */
@@ -40,7 +43,7 @@
   min-width: 0;
 }
 
-/* Columna espejo vacía — equilibra el layout para centrar el artículo */
+/* Columna espejo vacía */
 .layout:has(.post-article) .col-sidebar ~ * + *,
 .layout:has(.post-article)::after {
   grid-area: mirror;
@@ -48,14 +51,14 @@
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   2. ARTÍCULO — centrado, max-width contenido
+   2. ARTÍCULO
 ───────────────────────────────────────────────────────────────────────────── */
 .post-article {
   width: 100%;
   max-width: 760px;
   min-width: 0;
   margin: 0 auto;
-  padding: 56px 32px 100px;   /* más espacio arriba entre ticker y breadcrumb */
+  padding: 56px 32px 100px;
   box-sizing: border-box;
 }
 
@@ -83,8 +86,7 @@
   position: relative;
 }
 
-
-/* Breadcrumb — con espacio generoso arriba */
+/* Breadcrumb */
 .post-breadcrumb {
   display: flex;
   align-items: center;
@@ -261,7 +263,7 @@
   display: inline;
 }
 
-/* Bloque de código */
+/* ── Bloque de código ── */
 .code-block-wrapper {
   position: relative;
   margin: 1.4rem 0;
@@ -288,7 +290,6 @@
 .code-block-wrapper pre::-webkit-scrollbar        { height: 4px; }
 .code-block-wrapper pre::-webkit-scrollbar-track  { background: var(--bg-card); }
 .code-block-wrapper pre::-webkit-scrollbar-thumb  { background: var(--border); border-radius: 2px; }
-
 .code-block-wrapper pre code {
   font-family: var(--mono);
   font-size: 0.72rem;
@@ -433,24 +434,37 @@
   box-sizing: border-box;
 }
 
-/* Tablas */
-.post-content table {
-  display: block;
+/* ── TABLAS ──
+   .table-wrap lo inyecta wrapTables() en post.js para dar
+   scroll horizontal cuando la tabla desborda el artículo.    */
+.post-content .table-wrap {
   width: 100%;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  margin: 1.5rem 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.post-content .table-wrap::-webkit-scrollbar        { height: 4px; }
+.post-content .table-wrap::-webkit-scrollbar-track  { background: var(--bg-card); }
+.post-content .table-wrap::-webkit-scrollbar-thumb  { background: var(--border); border-radius: 2px; }
+.post-content .table-wrap table { margin: 0; }
+
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
   box-sizing: border-box;
+  display: table;           /* display:table para que width:100% funcione */
 }
 .post-content th,
 .post-content td {
-  padding: 8px 14px;
+  padding: 9px 16px;
   border: 1px solid var(--border);
   text-align: left;
   color: var(--text-2);
   font-size: 0.85rem;
-  white-space: nowrap;
+  white-space: normal;      /* texto hace wrap dentro de la celda */
+  word-break: break-word;
 }
 .post-content th {
   color: var(--text-1);
@@ -460,6 +474,7 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   background: var(--bg-card2);
+  white-space: nowrap;      /* headers en 1 línea */
 }
 .post-content tr:nth-child(even) td { background: var(--bg-card); }
 
@@ -478,7 +493,6 @@
   margin-bottom: 0;
 }
 
-/* Ocultar el heading TABLE OF CONTENTS — el TOC habla solo */
 .layout:has(.post-article) .sb-heading {
   display: none;
 }
@@ -497,12 +511,11 @@
   position: relative;
 }
 
-/* Línea vertical solo en el grupo activo (cuando tiene H3 abiertos) */
 .toc-group:has(.toc-sublist.is-open)::before {
   content: '';
   position: absolute;
   left: 12px;
-  top: 34px; /* empieza justo debajo del H2 */
+  top: 34px;
   bottom: 4px;
   width: 2px;
   background: var(--red-dim);
@@ -536,21 +549,21 @@
 
 /* H2 */
 .toc-link.toc-h2 {
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--text-1);
   padding: 7px 12px;
   transition: color 0.15s;
 }
 .toc-link.toc-h2:hover     { color: var(--text-1); }
-.toc-link.toc-h2.is-active { color: var(--text-1); }
+.toc-link.toc-h2.is-active { color: var(--red); }
 
-/* H3 — indentados respecto a la línea */
+/* H3 */
 .toc-link.toc-h3 {
-  font-size: 0.8rem;
-  color: var(--text-3, var(--text-3));
+  font-size: 0.78rem;
+  color: var(--text-3);
   padding: 3px 12px 3px 28px;
   opacity: 0.75;
   transition: color 0.15s, opacity 0.15s;
@@ -558,36 +571,36 @@
 .toc-link.toc-h3:hover     { opacity: 1; color: var(--text-2); }
 .toc-link.toc-h3.is-active { opacity: 1; color: var(--text-1); font-weight: 600; }
 
-.layout:has(.post-article) .col-sidebar {
-  border: none !important;
-  border-left: none !important;
-  border-right: none !important;
-  box-shadow: none !important;
-}
-
 /* ─────────────────────────────────────────────────────────────────────────────
    7. RESPONSIVE
 ───────────────────────────────────────────────────────────────────────────── */
 
-/* ── 1200px — achica el TOC ── */
-@media (max-width: 1200px) {
+/* ── 1300px ── */
+@media (max-width: 1300px) {
+  .layout:has(.post-article) {
+    grid-template-columns: 220px 1fr 220px;
+  }
+}
+
+/* ── 1050px ── */
+@media (max-width: 1050px) {
   .layout:has(.post-article) {
     grid-template-columns: 180px 1fr 180px;
   }
 }
 
-/* ── 980px — quita la columna espejo, TOC más estrecho ── */
-@media (max-width: 980px) {
+/* ── 860px — quita columna espejo ── */
+@media (max-width: 860px) {
   .layout:has(.post-article) {
     grid-template-columns: 160px 1fr;
     grid-template-areas: "sidebar article";
   }
   .layout:has(.post-article) .col-sidebar {
-    padding: 0 12px 0 16px;
+    padding: 0 10px 0 14px;
   }
 }
 
-/* ── 768px — TOC se va arriba como barra horizontal ── */
+/* ── 768px — TOC oculto, layout a columna ── */
 @media (max-width: 768px) {
   .layout:has(.post-article) {
     display: flex;
@@ -596,34 +609,8 @@
   }
 
   .layout:has(.post-article) .col-sidebar {
-    display: block;
-    position: static;
-    height: auto;
-    overflow: visible;
-    padding: 0;
-    order: -1;
-    width: 100%;
-    margin-bottom: 0;
-    justify-content: flex-start;
+    display: none;
   }
-
-  /* TOC horizontal en tablet */
-  .toc-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2px 10px;
-    border-left: none;
-    border-top: 2px solid var(--red-dim);
-    padding: 10px 0 0;
-  }
-  .toc-link.toc-h2 {
-    margin-left: 0;
-    border-left: none;
-    padding: 4px 6px;
-  }
-  .toc-link.toc-h2.is-active { color: var(--red); }
-  .toc-group { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 2px 6px; }
-  .toc-sublist { display: none !important; } /* en tablet/móvil no mostramos H3 */
 
   .post-article {
     max-width: 100%;
@@ -636,34 +623,20 @@
   .post-content li  { font-size: 0.88rem; }
 }
 
-/* ── Móvil ≤640px ── */
+/* ── 640px ── */
 @media (max-width: 640px) {
-  .layout:has(.post-article) {
-    padding: 0 16px;
-  }
-
-  /* Ocultar TOC en móvil */
-  .layout:has(.post-article) .col-sidebar {
-    display: none;
-  }
-
+  .layout:has(.post-article) { padding: 0 16px; }
   .post-article { padding: 20px 0 40px; }
   .post-title   { font-size: clamp(1.2rem, 6vw, 1.5rem); }
-
   .post-content h2 { font-size: 1rem; margin: 1.8rem 0 0.6rem; }
   .post-content h3 { font-size: 0.9rem; }
   .post-content p,
   .post-content li  { font-size: 0.85rem; line-height: 1.7; }
-
   .code-block-wrapper,
-  .post-content pre:not(.code-block-wrapper pre) {
-    margin-left: 0;
-    margin-right: 0;
-  }
+  .post-content pre:not(.code-block-wrapper pre) { margin-left: 0; margin-right: 0; }
   .code-block-wrapper pre { padding: 12px 44px 12px 16px; }
   .code-block-wrapper pre code,
   .post-content pre:not(.code-block-wrapper pre) code { font-size: 0.65rem; line-height: 1.6; }
-
   .post-content blockquote { padding: 12px 14px 12px 16px; margin-left: 0; margin-right: 0; }
   .post-content :not(pre) > code { font-size: 0.73em; }
   .post-meta       { gap: 6px; font-size: 0.6rem; }

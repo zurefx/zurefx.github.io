@@ -1,5 +1,6 @@
 /* ═══════════════════════════════════════════════════════════════════════════
    ZureFX — app.js
+   Sistema de carga progresiva (lazy chunks) para posts
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ── CONSTANTS ───────────────────────────────────────────────────────────── */
@@ -10,7 +11,8 @@ var SECTION_COLOR_MAP = {
   'scripting':    '#16a34a',
   'notes':        '#ca8a04',
   'cheat-sheets': '#0891b2',
-  'tools':        '#db2777'
+  'tools':        '#db2777',
+  'projects':     '#0891b2'
 };
 
 var SECTION_LABEL = {
@@ -19,16 +21,41 @@ var SECTION_LABEL = {
   'notes':        'Notes',
   'scripting':    'Scripting',
   'cheat-sheets': 'Cheat Sheets',
-  'tools':        'Tools'
+  'tools':        'Tools',
+  'projects':     'Project'
 };
 
 var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
 var SECTIONS = ['for-you', 'all', 'writeups', 'research', 'scripting', 'notes'];
 
+/* ── POSTS PER PAGE ─────────────────────────────────────────────────────── */
+/* "for-you" muestra los primeros N posts sin paginar                        */
+var FOR_YOU_LIMIT  = 6;
+/* Tamaño de página para secciones paginadas                                 */
+var PAGE_LIMIT     = 9;
+
+/* ── CHUNK CONFIG ────────────────────────────────────────────────────────── */
+/*
+ * Sistema de archivos:
+ *   data/posts-1.json  → primeros 9 posts  (cargado al inicio)
+ *   data/posts-2.json  → siguientes 12
+ *   data/posts-3.json  → siguientes 12
+ *   ...
+ *
+ * El array global POSTS se llena progresivamente.
+ * Nunca se cargan todos los archivos de golpe.
+ */
+var CHUNK_SIZES = { 1: 9, default: 12 };  /* tamaño esperado por chunk (solo referencia) */
+var MAX_CHUNKS  = 50;                      /* techo de seguridad anti-loop infinito       */
+
 /* ── STATE ───────────────────────────────────────────────────────────────── */
 
-var POSTS          = [];
+var POSTS          = [];      /* array global — se llena progresivamente      */
+var currentChunk   = 0;       /* último chunk cargado (0 = ninguno)           */
+var allChunksLoaded = false;   /* true cuando ya no hay más archivos           */
+var loadingChunk   = false;    /* mutex — evita fetches simultáneos            */
+
 var currentSection = 'for-you';
 var currentView    = 'grid';
 var currentPage    = 1;
@@ -76,20 +103,12 @@ function sectionColor(sec) {
 function buildTint(sec) {
   var hex = SECTION_COLOR_MAP[sec];
   if (!hex) return 'rgba(10,10,10,0.78)';
-
   var r = parseInt(hex.slice(1,3), 16);
   var g = parseInt(hex.slice(3,5), 16);
   var b = parseInt(hex.slice(5,7), 16);
-
   var f = 0.14;
-  r = Math.round(r * f);
-  g = Math.round(g * f);
-  b = Math.round(b * f);
-
-  return 'rgba(' + r + ',' + g + ',' + b + ',0.14)';
+  return 'rgba(' + Math.round(r*f) + ',' + Math.round(g*f) + ',' + Math.round(b*f) + ',0.14)';
 }
-
-/* ── ROOT PREFIX — calcula ../ según profundidad de ruta ─────────────────── */
 
 function getRootPrefix() {
   var depth = (window.location.pathname.match(/\//g) || []).length - 1;
@@ -104,23 +123,12 @@ var iconTime  = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stro
 function buildStats(context) {
   var cls = context === 'grid' ? 'pg-stat' : 'pl-stat';
   var dot = context === 'grid' ? '<span class="pg-dot"></span>' : '<span class="pl-dot"></span>';
-
-  var wordsStat =
-    '<span class="' + cls + ' stat-words">' +
-      iconWords +
-      '<span>— w</span>' +
-    '</span>';
-
-  var timeStat =
-    '<span class="' + cls + ' stat-time">' +
-      iconTime +
-      '<span>? min</span>' +
-    '</span>';
-
-  return wordsStat + dot + timeStat;
+  return (
+    '<span class="' + cls + ' stat-words">' + iconWords + '<span>— w</span></span>' +
+    dot +
+    '<span class="' + cls + ' stat-time">' + iconTime + '<span>? min</span></span>'
+  );
 }
-
-/* ── CARD STATS — lee words y readTime desde post.json ───────────────────── */
 
 function updateCardStats(card, data) {
   if (!data) return;
@@ -135,7 +143,6 @@ function updateCardStats(card, data) {
 function buildTicker(items) {
   var track = document.getElementById('tickerTrack');
   if (!track) return;
-
   var all  = items.concat(items);
   var html = '';
   all.forEach(function(item) {
@@ -149,13 +156,109 @@ function loadTicker() {
   fetch(prefix + 'data/ticker.json?v=' + Date.now(), { cache: 'no-store' })
     .then(function(res) { return res.json(); })
     .then(function(data) { buildTicker(data.items || []); })
-    .catch(function() { /* ticker es decorativo, fallo silencioso */ });
+    .catch(function() { /* ticker decorativo, fallo silencioso */ });
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   SISTEMA DE CARGA PROGRESIVA (LAZY CHUNKS)
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/**
+ * Carga el siguiente chunk de posts.
+ * Retorna los posts nuevos añadidos (array), o [] si ya no hay más.
+ * Tiene mutex interno para evitar fetches simultáneos.
+ *
+ * @returns {Promise<Array>}
+ */
+async function loadNextChunk() {
+  /* ── Guard: ya cargamos todo o hay un fetch en curso ── */
+  if (allChunksLoaded) return [];
+  if (loadingChunk)    return [];
+  if (currentChunk >= MAX_CHUNKS) { allChunksLoaded = true; return []; }
+
+  loadingChunk = true;
+  var nextIdx  = currentChunk + 1;
+  var prefix   = getRootPrefix();
+  var url      = prefix + 'data/posts-' + nextIdx + '.json?v=' + Date.now();
+
+  try {
+    var res = await fetch(url, { cache: 'no-store' });
+
+    /* 404 o cualquier fallo HTTP → no hay más chunks */
+    if (!res.ok) {
+      allChunksLoaded = true;
+      loadingChunk = false;
+      return [];
+    }
+
+    var newPosts = await res.json();
+
+    if (!Array.isArray(newPosts) || newPosts.length === 0) {
+      allChunksLoaded = true;
+      loadingChunk = false;
+      return [];
+    }
+
+    /* Filtrar duplicados por id antes de concatenar */
+    var existingIds = {};
+    POSTS.forEach(function(p) { existingIds[p.id] = true; });
+    var unique = newPosts.filter(function(p) { return !existingIds[p.id]; });
+
+    POSTS = POSTS.concat(unique);
+    currentChunk = nextIdx;
+    loadingChunk = false;
+
+    console.log('[ZFX] Chunk ' + nextIdx + ' cargado — ' + unique.length + ' posts nuevos (total: ' + POSTS.length + ')');
+    return unique;
+
+  } catch (err) {
+    /* Error de red → no hay más chunks */
+    console.warn('[ZFX] No se pudo cargar posts-' + nextIdx + '.json:', err.message);
+    allChunksLoaded = true;
+    loadingChunk = false;
+    return [];
+  }
+}
+
+/**
+ * Asegura que haya al menos `needed` posts disponibles para la sección dada.
+ * Carga chunks de forma recursiva hasta satisfacer la demanda o agotar archivos.
+ *
+ * @param {string} section  - sección a verificar ('all', 'notes', 'writeups', etc.)
+ * @param {number} needed   - número mínimo de posts necesarios
+ * @returns {Promise<void>}
+ */
+async function ensurePostsForSection(section, needed) {
+  /* Contar cuántos tenemos ya para esta sección */
+  function countForSection(sec) {
+    if (sec === 'for-you') return POSTS.length;          /* for-you no filtra */
+    if (sec === 'all')     return POSTS.length;
+    return POSTS.filter(function(p) { return p.section === sec; }).length;
+  }
+
+  /* Bucle: carga chunks hasta tener suficientes o agotar fuentes */
+  while (countForSection(section) < needed && !allChunksLoaded) {
+    var added = await loadNextChunk();
+    if (added.length === 0) break;  /* no hay más o hubo error */
+  }
+}
+
+/**
+ * Precarga el siguiente chunk en segundo plano (sin bloquear UI).
+ * Se llama después de renderizar para preparar datos futuros.
+ */
+function preloadNextChunk() {
+  if (allChunksLoaded || loadingChunk) return;
+  /* Pequeño delay para no competir con el render actual */
+  setTimeout(function() {
+    loadNextChunk().catch(function() {});
+  }, 800);
 }
 
 /* ── FILTER ──────────────────────────────────────────────────────────────── */
 
 function filterPosts(sec) {
-  if (sec === 'for-you') return POSTS.slice(0, 6);
+  if (sec === 'for-you') return POSTS.slice(0, FOR_YOU_LIMIT);
   if (sec === 'all')     return POSTS;
   return POSTS.filter(function(p) { return p.section === sec; });
 }
@@ -191,11 +294,7 @@ function renderGrid(posts) {
     })(p.permalink));
 
     grid.appendChild(card);
-
-    updateCardStats(card, {
-      words:     p.words    || null,
-      timeLabel: p.readTime || null
-    });
+    updateCardStats(card, { words: p.words || null, timeLabel: p.readTime || null });
   });
 
   return grid;
@@ -234,11 +333,7 @@ function renderList(posts) {
     })(p.permalink));
 
     list.appendChild(item);
-
-    updateCardStats(item, {
-      words:     p.words    || null,
-      timeLabel: p.readTime || null
-    });
+    updateCardStats(item, { words: p.words || null, timeLabel: p.readTime || null });
   });
 
   return list;
@@ -264,7 +359,6 @@ function renderPicks() {
 
     var li = document.createElement('li');
     li.className = 'pick';
-
     li.innerHTML =
       '<span class="pick-num">0' + (i + 1) + '</span>' +
       '<div class="pick-thumb ' + PICK_TINTS[i] + '"></div>' +
@@ -272,11 +366,7 @@ function renderPicks() {
         '<span class="pick-title">' + p.title + '</span>' +
         '<span class="pick-sub">' + p.description.slice(0, 85) + '…</span>' +
         '<div class="pick-meta">' +
-          '<span class="tag tag-xs" style="' +
-            'color:' + color + ';' +
-            'border-color:' + color + '44;' +
-            'background:' + color + '12' +
-          '">' + sectionLabel + '</span>' +
+          '<span class="tag tag-xs" style="color:' + color + ';border-color:' + color + '44;background:' + color + '12">' + sectionLabel + '</span>' +
         '</div>' +
       '</div>';
 
@@ -297,17 +387,13 @@ function renderTags() {
     if (Array.isArray(p.tags)) {
       p.tags.forEach(function(t) {
         var clean = t.toLowerCase().trim();
-        if (clean && !seen[clean]) {
-          seen[clean] = true;
-          tags.push(clean);
-        }
+        if (clean && !seen[clean]) { seen[clean] = true; tags.push(clean); }
       });
     }
   });
 
   tags = tags.slice(0, TAG_LIMIT);
   tagsCloud.innerHTML = '';
-
   tags.forEach(function(t) {
     var a = document.createElement('a');
     a.className = 'tag';
@@ -342,25 +428,34 @@ function renderPaginator(totalPages, cur) {
     return b;
   }
 
-  paginator.appendChild(mkBtn(svgFirst, cur === 1,          1));
-  paginator.appendChild(mkBtn(svgPrev,  cur === 1,          cur - 1));
-
+  paginator.appendChild(mkBtn(svgFirst, cur === 1,           1));
+  paginator.appendChild(mkBtn(svgPrev,  cur === 1,           cur - 1));
   var badge = document.createElement('span');
   badge.className = 'pg-current';
   badge.textContent = cur;
   paginator.appendChild(badge);
-
-  paginator.appendChild(mkBtn(svgNext, cur === totalPages, cur + 1));
-  paginator.appendChild(mkBtn(svgLast, cur === totalPages, totalPages));
+  paginator.appendChild(mkBtn(svgNext, cur === totalPages,  cur + 1));
+  paginator.appendChild(mkBtn(svgLast, cur === totalPages,  totalPages));
 }
 
 function goPage(p) {
   currentPage = p;
-  render();
+  renderWithLoader();
   forceScrollTop();
 }
 
-/* ── MAIN RENDER ─────────────────────────────────────────────────────────── */
+/* ── LOADING INDICATOR ───────────────────────────────────────────────────── */
+
+function showLoader() {
+  if (!container) return;
+  container.innerHTML =
+    '<div style="padding:48px;text-align:center;font-family:var(--mono);' +
+    'font-size:0.62rem;letter-spacing:0.1em;color:var(--text-3)">' +
+    'LOADING…</div>';
+  if (paginator) paginator.innerHTML = '';
+}
+
+/* ── MAIN RENDER (sync — solo dibuja lo que ya está en POSTS) ────────────── */
 
 function render() {
   var all = filterPosts(currentSection);
@@ -373,16 +468,55 @@ function render() {
     return;
   }
 
-  var limit = 9;
-  var total = Math.max(1, Math.ceil(all.length / limit));
+  var total = Math.max(1, Math.ceil(all.length / PAGE_LIMIT));
   if (currentPage < 1)     currentPage = 1;
   if (currentPage > total) currentPage = total;
 
-  var slice = all.slice((currentPage - 1) * limit, currentPage * limit);
+  var slice = all.slice((currentPage - 1) * PAGE_LIMIT, currentPage * PAGE_LIMIT);
   container.innerHTML = '';
   var v2 = isMobile() ? 'list' : currentView;
   container.appendChild(v2 === 'grid' ? renderGrid(slice) : renderList(slice));
   renderPaginator(total, currentPage);
+}
+
+/* ── RENDER WITH LOADER (async — carga chunks si hacen falta) ────────────── */
+
+async function renderWithLoader() {
+  if (!container) return;
+
+  /* Para for-you solo necesitamos FOR_YOU_LIMIT posts en total */
+  var neededSection = currentSection;
+  var neededCount;
+
+  if (currentSection === 'for-you') {
+    neededCount = FOR_YOU_LIMIT;
+    neededSection = 'all';              /* for-you no filtra por sección */
+  } else {
+    /* cuántos posts se necesitan para llegar hasta la página actual */
+    neededCount = currentPage * PAGE_LIMIT;
+  }
+
+  /* Mostrar loader solo si realmente vamos a buscar datos */
+  var currentCount = (neededSection === 'all')
+    ? POSTS.length
+    : POSTS.filter(function(p) { return p.section === neededSection; }).length;
+
+  if (currentCount < neededCount && !allChunksLoaded) {
+    showLoader();
+  }
+
+  /* Asegurar datos suficientes */
+  await ensurePostsForSection(neededSection, neededCount);
+
+  /* Dibujar */
+  render();
+
+  /* Actualizar picks y tags con los posts recién cargados */
+  if (picksContainer) renderPicks();
+  if (tagsCloud)      renderTags();
+
+  /* Precargar el siguiente chunk en segundo plano */
+  preloadNextChunk();
 }
 
 /* ── SECTION MANAGEMENT ──────────────────────────────────────────────────── */
@@ -394,7 +528,7 @@ function setSection(sec) {
   document.querySelectorAll('[data-section]').forEach(function(el) {
     el.classList.toggle('active', el.dataset.section === sec);
   });
-  render();
+  renderWithLoader();
 }
 
 function handleHash() {
@@ -402,7 +536,9 @@ function handleHash() {
   setSection(SECTIONS.indexOf(hash) !== -1 ? hash : 'for-you');
 }
 
-/* ── BOOT ────────────────────────────────────────────────────────────────── */
+/* ══════════════════════════════════════════════════════════════════════════
+   BOOT
+   ══════════════════════════════════════════════════════════════════════════ */
 
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -431,7 +567,6 @@ document.addEventListener('DOMContentLoaded', function() {
     localStorage.setItem('zfx-theme', t);
     if (menuText) menuText.textContent = t === 'dark' ? 'Switch to Light' : 'Switch to Dark';
   }
-
   applyTheme(htmlEl.getAttribute('data-theme') || 'dark');
 
   if (themeBtn) {
@@ -464,7 +599,7 @@ document.addEventListener('DOMContentLoaded', function() {
   /* ── Guard: solo continúa si estamos en el index ── */
   if (!container) return;
 
-  /* View toggle */
+  /* ── View toggle ── */
   if (btnGrid) {
     btnGrid.addEventListener('click', function() {
       currentView = 'grid'; currentPage = 1;
@@ -512,26 +647,39 @@ document.addEventListener('DOMContentLoaded', function() {
     rt = setTimeout(render, 120);
   });
 
-  /* ── Fetch post.json & boot ── */
-  var prefix = getRootPrefix();
-  fetch(prefix + 'data/post.json?v=' + Date.now(), { cache: 'no-store' })
-    .then(function(res) {
+  /* ── Bootstrap: carga posts-1.json y arranca ── */
+  (async function boot() {
+    var prefix = getRootPrefix();
+
+    /* Mostrar loader inicial */
+    showLoader();
+
+    try {
+      var res = await fetch(prefix + 'data/posts-1.json?v=' + Date.now(), { cache: 'no-store' });
       if (!res.ok) throw new Error('HTTP ' + res.status);
-      return res.json();
-    })
-    .then(function(data) {
-      POSTS = data
-        .filter(function(p) { return p.section !== 'projects'; })
-        .sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
-      renderPicks();
-      renderTags();
+
+      var data = await res.json();
+
+      /* posts-1.json ya viene ordenado por fecha desc desde convert.py    */
+      /* NO filtramos projects — aparecen en for-you y all igual que el    */
+      /* resto; projects.js se encarga de filtrarlos en su propia página.  */
+      POSTS = data;
+      currentChunk = 1;
+
+      if (picksContainer) renderPicks();
+      if (tagsCloud)      renderTags();
       handleHash();
-    })
-    .catch(function(err) {
-      console.error('Failed to load post.json:', err);
+
+      /* Precargar posts-2.json en segundo plano */
+      preloadNextChunk();
+
+    } catch (err) {
+      console.error('[ZFX] Failed to load posts-1.json:', err);
       container.innerHTML =
         '<p style="color:var(--text-3);padding:32px;font-family:var(--mono);' +
         'font-size:0.65rem;letter-spacing:0.08em;">' +
-        'FAILED TO LOAD POSTS — CHECK /data/post.json</p>';
-    });
+        'FAILED TO LOAD POSTS — CHECK /data/posts-1.json</p>';
+    }
+  })();
+
 });

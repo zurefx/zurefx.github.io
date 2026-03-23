@@ -1,13 +1,9 @@
 /* ============================================================
    ZureFX — projects.js
-   Lee /data/post.json, filtra section:"projects",
-   agrupa por subsection y renderiza cards con features + botón.
+   Lee /data/posts-*.json (mismo sistema de chunks que app.js),
+   filtra section:"projects", agrupa por subsection y renderiza
+   cards con features + botón.
    ============================================================ */
-
-function getRootPrefixProjects() {
-  var depth = (window.location.pathname.match(/\//g) || []).length - 1;
-  return depth > 0 ? '../'.repeat(depth) : '';
-}
 
 function esc(s) {
   return String(s || '')
@@ -47,12 +43,9 @@ function renderStats(projects) {
     '</span>' +
     '<span class="proj-stat">' +
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">' +
-        '<line x1="8" y1="6" x2="21" y2="6"/>' +
-        '<line x1="8" y1="12" x2="21" y2="12"/>' +
-        '<line x1="8" y1="18" x2="21" y2="18"/>' +
-        '<line x1="3" y1="6" x2="3.01" y2="6"/>' +
-        '<line x1="3" y1="12" x2="3.01" y2="12"/>' +
-        '<line x1="3" y1="18" x2="3.01" y2="18"/>' +
+        '<line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/>' +
+        '<line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/>' +
+        '<line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/>' +
       '</svg>' +
       cats.length + ' categor' + (cats.length !== 1 ? 'ies' : 'y') +
     '</span>';
@@ -71,34 +64,30 @@ function renderStats(projects) {
 }
 
 function buildCard(p) {
-  var isExt   = p.permalink && p.permalink.startsWith('http');
-  var isPick  = p.pick === 1 || p.pick === true;
-  var desc    = p.description || '';
+  var isExt    = p.permalink && p.permalink.startsWith('http');
+  var isPick   = p.pick === 1 || p.pick === true;
+  var desc     = p.description || '';
   var btnLabel = p.btn_label || 'View Project';
 
-  /* ── features list ── */
+  /* features list */
   var featuresHTML = '';
   if (Array.isArray(p.features) && p.features.length) {
     featuresHTML =
       '<ul class="proj-card-features">' +
-      p.features.map(function(f) {
-        return '<li>' + esc(f) + '</li>';
-      }).join('') +
+      p.features.map(function(f) { return '<li>' + esc(f) + '</li>'; }).join('') +
       '</ul>';
   }
 
-  /* ── tags ── */
+  /* tags */
   var tagsHTML = '';
   if (Array.isArray(p.tags) && p.tags.length) {
     tagsHTML =
       '<div class="proj-card-tags">' +
-      p.tags.map(function(t) {
-        return '<span class="proj-card-tag">' + esc(t) + '</span>';
-      }).join('') +
+      p.tags.map(function(t) { return '<span class="proj-card-tag">' + esc(t) + '</span>'; }).join('') +
       '</div>';
   }
 
-  /* ── pick badge ── */
+  /* pick badge */
   var pickHTML = isPick
     ? '<span class="proj-pick-badge">' +
         '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>' +
@@ -109,7 +98,7 @@ function buildCard(p) {
   return (
     '<div class="proj-card' + (isPick ? ' proj-card-pick' : '') + '">' +
       '<div class="proj-card-header">' +
-        '<h3 class="proj-card-title">' + esc(p.title || p.name || '') + '</h3>' +
+        '<h3 class="proj-card-title">' + esc(p.title || '') + '</h3>' +
         pickHTML +
       '</div>' +
       (desc ? '<p class="proj-card-desc">' + esc(desc) + '</p>' : '') +
@@ -130,23 +119,60 @@ function buildCard(p) {
   );
 }
 
-(async function () {
+/* ── Carga todos los chunks hasta obtener todos los projects ── */
+async function loadAllProjects() {
+  var prefix   = getRootPrefix();   /* función de app.js */
+  var projects = [];
+  var chunk    = 1;
 
+  while (chunk <= 50) {
+    try {
+      var res = await fetch(prefix + 'data/posts-' + chunk + '.json?v=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) break;                     /* no hay más chunks */
+
+      var data = await res.json();
+      if (!Array.isArray(data) || !data.length) break;
+
+      /* filtrar solo projects de este chunk */
+      data.filter(function(p) { return p.section === 'projects'; })
+          .forEach(function(p) {
+            /* deduplicar por id */
+            if (!projects.some(function(x) { return x.id === p.id; })) {
+              projects.push(p);
+            }
+          });
+
+      chunk++;
+    } catch (err) {
+      break;
+    }
+  }
+
+  /* ya vienen ordenados por fecha desc desde convert.py */
+  return projects;
+}
+
+/* ── Agrupar por subsection preservando orden de aparición ── */
+function groupBySubsection(projects) {
+  var groups = new Map();
+  projects.forEach(function(p) {
+    var key = p.subsection || 'Projects';
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(p);
+  });
+  return groups;
+}
+
+/* ── BOOT ── */
+(async function () {
   var container = document.getElementById('projectsContainer');
   if (!container) return;
 
   showSkeleton(container);
 
-  var prefix   = getRootPrefixProjects();
-  var projects = [];
-
+  var projects;
   try {
-    var res = await fetch(prefix + 'data/post.json?v=' + Date.now(), { cache: 'no-store' });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    var raw  = await res.json();
-    var all  = Array.isArray(raw) ? raw : (raw.projects || []);
-    projects = all.filter(function(p) { return p.section === 'projects'; });
-    projects.sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
+    projects = await loadAllProjects();
   } catch (err) {
     console.error('[projects.js]', err);
     container.innerHTML =
@@ -157,7 +183,7 @@ function buildCard(p) {
           '<line x1="12" y1="16" x2="12.01" y2="16"/>' +
         '</svg>' +
         '<h3>Could not load projects</h3>' +
-        '<p>Check that <code>/data/post.json</code> exists and is valid JSON.</p>' +
+        '<p>Check that <code>/data/posts-1.json</code> exists and is valid JSON.</p>' +
       '</div>';
     return;
   }
@@ -176,18 +202,11 @@ function buildCard(p) {
     return;
   }
 
-  /* ── Agrupar por subsection preservando orden ── */
-  var groups = new Map();
-  projects.forEach(function(p) {
-    var key = p.subsection || 'Projects';
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(p);
-  });
+  var groups = groupBySubsection(projects);
 
   var html = '';
   groups.forEach(function(items, name) {
     var cards = items.map(buildCard).join('');
-
     html +=
       '<div class="proj-section">' +
         '<div class="proj-section-heading">' +
@@ -202,5 +221,4 @@ function buildCard(p) {
   });
 
   container.innerHTML = html;
-
 })();

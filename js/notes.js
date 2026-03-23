@@ -1,8 +1,10 @@
 /* ============================================================
-   ZureFX — notes.js
-   Lee /data/post.json, filtra section:"notes",
-   agrupa filtros por subsection, búsqueda en tiempo real.
-   Primera card = featured (span 2 columnas).
+   ZureFX — notes.js  (v2)
+   Carga progresiva por chunks — igual que app.js y tags.js.
+   Filtra section:"notes", agrupa por subsection, búsqueda
+   en tiempo real. Mismo formato de card que tags.js.
+   Depende de app.js: getRootPrefix(), SECTION_COLOR_MAP,
+   fmtDate(), capitalize().
    ============================================================ */
 
 (function () {
@@ -13,68 +15,67 @@
   var searchEl  = document.getElementById('notes-search');
   var emptyEl   = document.getElementById('notes-empty');
   var totalEl   = document.getElementById('notesTotal');
-
   if (!grid) return;
 
-  /* ── Root prefix (igual que app.js) ── */
-  function getRootPrefixNotes() {
-    var depth = (window.location.pathname.match(/\//g) || []).length - 1;
-    return depth > 0 ? '../'.repeat(depth) : '';
+  /* ── Estado de chunks ── */
+  var _notes_posts   = [];
+  var _notes_chunk   = 0;
+  var _notes_loaded  = false;
+  var _notes_loading = false;
+  var MAX_CHUNKS_N   = 50;
+
+  /* ── Cargar siguiente chunk ── */
+  async function notesLoadNextChunk() {
+    if (_notes_loaded || _notes_loading) return [];
+    if (_notes_chunk >= MAX_CHUNKS_N) { _notes_loaded = true; return []; }
+
+    _notes_loading = true;
+    var nextIdx = _notes_chunk + 1;
+    var url = getRootPrefix() + 'data/posts-' + nextIdx + '.json?v=' + Date.now();
+
+    try {
+      var res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) { _notes_loaded = true; _notes_loading = false; return []; }
+
+      var incoming = await res.json();
+      if (!Array.isArray(incoming) || !incoming.length) {
+        _notes_loaded = true; _notes_loading = false; return [];
+      }
+
+      var existing = {};
+      _notes_posts.forEach(function(p) { existing[p.id] = true; });
+      var unique = incoming.filter(function(p) { return !existing[p.id]; });
+
+      _notes_posts   = _notes_posts.concat(unique);
+      _notes_chunk   = nextIdx;
+      _notes_loading = false;
+      return unique;
+    } catch (e) {
+      _notes_loaded = true; _notes_loading = false; return [];
+    }
+  }
+
+  /* ── Cargar todos los chunks (necesitamos todas las notes) ── */
+  async function notesLoadAll() {
+    while (!_notes_loaded) {
+      var added = await notesLoadNextChunk();
+      if (!added.length) break;
+    }
   }
 
   /* ── Helpers ── */
-  function formatDateNote(dateString) {
-    try {
-      var parts = dateString.split('-').map(Number);
-      var d = new Date(parts[0], parts[1] - 1, parts[2]);
-      return d.toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' }).toUpperCase();
-    } catch (_) { return dateString.toUpperCase(); }
-  }
-
-  function escNote(s) {
+  function escN(s) {
     return String(s || '')
       .replace(/&/g,'&amp;').replace(/</g,'&lt;')
       .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
-  /* ── Skeleton ── */
-  function showSkeleton() {
-    grid.innerHTML = Array(6).fill('<div class="note-skeleton"></div>').join('');
-  }
-
-  /* ── State ── */
-  var notes       = [];
+  /* ── State de filtros ── */
   var activeSub   = 'all';
   var searchQuery = '';
 
-  /* ── Render ── */
-  function render() {
-    var q = searchQuery.toLowerCase();
-
-    var filtered = notes.filter(function(note) {
-      var noteSub     = (note.subsection || '').trim();
-      var matchSub    = activeSub === 'all' || noteSub === activeSub;
-      var matchSearch = !q ||
-        note.title.toLowerCase().includes(q) ||
-        (note.description || '').toLowerCase().includes(q) ||
-        (note.tags || []).some(function(t) { return t.toLowerCase().includes(q); });
-      return matchSub && matchSearch;
-    });
-
-    grid.innerHTML = '';
-
-    if (!filtered.length) {
-      emptyEl.classList.remove('hidden');
-      return;
-    }
-
-    emptyEl.classList.add('hidden');
-    filtered.forEach(function(note, i) {
-      grid.appendChild(buildCard(note, i));
-    });
-  }
-
-  /* ── Build card ── */
+  /* ── Build compact row (mismo formato que tags.js) ── */
+  /* ── Build card (formato grid — .note-card en .notes-grid) ── */
   function buildCard(note, index) {
     var a = document.createElement('a');
     a.className = index === 0 ? 'note-card note-featured' : 'note-card';
@@ -82,29 +83,28 @@
     a.style.animationDelay = (0.03 + index * 0.04) + 's';
 
     var sub  = (note.subsection || '').trim();
-    var desc = note.description || '';
     var tags = (note.tags || []).slice(0, 5);
 
-    var tagsHTML = tags
-      .map(function(t) { return '<span class="note-card-tag">#' + escNote(t) + '</span>'; })
-      .join('');
+    var tagsHTML = tags.map(function(t) {
+      return '<span class="note-card-tag">#' + escN(t) + '</span>';
+    }).join('');
 
     var imgHTML = note.image
       ? '<div class="note-card-img-wrap">' +
-          '<img class="note-card-img" src="' + escNote(note.image) + '" alt="' + escNote(note.title) + '" loading="lazy"' +
-            ' onerror="this.closest(\'.note-card-img-wrap\').remove()">' +
+          '<img class="note-card-img" src="' + escN(note.image) + '" alt="' + escN(note.title) + '" loading="lazy"' +
+          ' onerror="this.closest(\'.note-card-img-wrap\').remove()">' +
         '</div>'
       : '';
 
     a.innerHTML =
       imgHTML +
       '<div class="note-card-body">' +
-        (sub ? '<span class="note-card-sub">' + escNote(sub) + '</span>' : '') +
-        '<h2 class="note-card-title">' + escNote(note.title) + '</h2>' +
-        '<p class="note-card-desc">' + escNote(desc) + '</p>' +
+        (sub ? '<span class="note-card-sub">' + escN(sub) + '</span>' : '') +
+        '<h2 class="note-card-title">' + escN(note.title) + '</h2>' +
+        '<p class="note-card-desc">' + escN(note.description || '') + '</p>' +
         (tagsHTML ? '<div class="note-card-tags">' + tagsHTML + '</div>' : '') +
         '<div class="note-card-foot">' +
-          '<span class="note-card-date">' + formatDateNote(note.date) + '</span>' +
+          '<span class="note-card-date">' + fmtDate(note.date) + '</span>' +
           '<span class="note-card-arrow" aria-hidden="true">' +
             '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">' +
               '<path d="M9 18l6-6-6-6"/>' +
@@ -116,76 +116,91 @@
     return a;
   }
 
-  /* ── Filter clicks ── */
-  filtersEl.addEventListener('click', function(e) {
-    var btn = e.target.closest('.notes-filter-btn');
-    if (!btn) return;
-    document.querySelectorAll('.notes-filter-btn').forEach(function(b) { b.classList.remove('active'); });
-    btn.classList.add('active');
-    activeSub = btn.dataset.sub || 'all';
-    render();
-  });
+  /* ── Render filtrado → directo al grid ── */
+  function render(notes) {
+    var q = searchQuery.toLowerCase();
 
-  /* ── Search ── */
-  if (searchEl) {
-    searchEl.addEventListener('input', function(e) {
-      searchQuery = e.target.value.trim();
-      render();
+    var filtered = notes.filter(function(note) {
+      var noteSub  = (note.subsection || '').trim();
+      var matchSub = activeSub === 'all' || noteSub === activeSub;
+      var matchQ   = !q ||
+        note.title.toLowerCase().includes(q) ||
+        (note.description || '').toLowerCase().includes(q) ||
+        (note.tags || []).some(function(t) { return t.toLowerCase().includes(q); });
+      return matchSub && matchQ;
     });
+
+    grid.innerHTML = '';
+
+    if (!filtered.length) {
+      emptyEl && emptyEl.classList.remove('hidden');
+      return;
+    }
+    emptyEl && emptyEl.classList.add('hidden');
+
+    /* Las cards van directo al #notes-grid — el CSS hace el grid */
+    filtered.forEach(function(note, i) { grid.appendChild(buildCard(note, i)); });
   }
 
-  /* ── Update total stat ── */
-  function updateTotal(n) {
-    if (totalEl) totalEl.querySelector('span').textContent = n + ' note' + (n !== 1 ? 's' : '');
+  /* ── Skeleton ── */
+  function showSkeleton() {
+    grid.innerHTML =
+      '<div style="display:flex;flex-direction:column;gap:6px">' +
+      Array(6).fill('<div class="note-skeleton"></div>').join('') +
+      '</div>';
   }
 
-  /* ── Fetch & boot ── */
+  /* ── Boot ── */
   showSkeleton();
 
-  var prefix = getRootPrefixNotes();
+  notesLoadAll().then(function() {
+    var notes = _notes_posts
+      .filter(function(p) { return p.section === 'notes'; })
+      .sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
 
-  fetch(prefix + 'data/post.json?v=' + Date.now(), { cache: 'no-store' })
-    .then(function(res) {
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      return res.json();
-    })
-    .then(function(all) {
-      notes = all.filter(function(p) { return p.section === 'notes'; });
-      notes.sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
+    if (totalEl) totalEl.querySelector('span').textContent =
+      notes.length + ' note' + (notes.length !== 1 ? 's' : '');
 
-      updateTotal(notes.length);
+    /* Botones de filtro por subsection */
+    var subCount = new Map();
+    notes.forEach(function(n) {
+      var sub = (n.subsection || '').trim();
+      if (sub) subCount.set(sub, (subCount.get(sub) || 0) + 1);
+    });
 
-      /* ── Filter buttons por subsection ── */
-      var subCount = new Map();
-      notes.forEach(function(n) {
-        var sub = (n.subsection || '').trim();
-        if (sub) subCount.set(sub, (subCount.get(sub) || 0) + 1);
+    Array.from(subCount.entries())
+      .sort(function(a, b) { return a[0].localeCompare(b[0]); })
+      .forEach(function(entry) {
+        var btn = document.createElement('button');
+        btn.className   = 'notes-filter-btn';
+        btn.dataset.sub = entry[0];
+        btn.innerHTML   = escN(entry[0]) + ' <span class="fc">' + entry[1] + '</span>';
+        filtersEl.appendChild(btn);
       });
 
-      Array.from(subCount.entries())
-        .sort(function(a, b) { return a[0].localeCompare(b[0]); })
-        .forEach(function(entry) {
-          var sub = entry[0], count = entry[1];
-          var btn = document.createElement('button');
-          btn.className   = 'notes-filter-btn';
-          btn.dataset.sub = sub;
-          btn.innerHTML   = escNote(sub) + ' <span class="fc">' + count + '</span>';
-          filtersEl.appendChild(btn);
-        });
+    render(notes);
 
-      render();
-    })
-    .catch(function(err) {
-      console.error('[notes.js]', err);
-      grid.innerHTML =
-        '<div class="notes-empty">' +
-          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">' +
-            '<circle cx="12" cy="12" r="10"/>' +
-            '<line x1="12" y1="8" x2="12" y2="12"/>' +
-            '<line x1="12" y1="16" x2="12.01" y2="16"/>' +
-          '</svg>' +
-          'Could not load notes.' +
-        '</div>';
+    /* Filter clicks */
+    filtersEl.addEventListener('click', function(e) {
+      var btn = e.target.closest('.notes-filter-btn');
+      if (!btn) return;
+      document.querySelectorAll('.notes-filter-btn').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      activeSub = btn.dataset.sub || 'all';
+      render(notes);
     });
+
+    /* Search */
+    if (searchEl) {
+      searchEl.addEventListener('input', function(e) {
+        searchQuery = e.target.value.trim();
+        render(notes);
+      });
+    }
+
+  }).catch(function(err) {
+    console.error('[notes.js]', err);
+    grid.innerHTML = '<div class="notes-empty">Could not load notes.</div>';
+  });
 
 })();

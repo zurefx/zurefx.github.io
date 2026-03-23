@@ -1,7 +1,7 @@
 /**
  * ZureFX — post.js
  * TOC dinámico con accordion hover · Scroll spy · Progress bar
- * Copy buttons · Scrollbar hover · Theme · Menu
+ * Copy buttons · Table wrap · Scrollbar hover · Menu
  */
 
 (function () {
@@ -15,6 +15,7 @@
     buildTOC();
     initScrollSpy();
     initCopyButtons();
+    wrapTables();
     initScrollbarHover();
     initMenu();
   });
@@ -43,9 +44,7 @@
     const headings = Array.from(content.querySelectorAll('h2, h3'));
     if (!headings.length) return;
 
-    headings.forEach(h => {
-      if (!h.id) h.id = slugify(h.textContent);
-    });
+    headings.forEach(h => { if (!h.id) h.id = slugify(h.textContent); });
 
     const nav = document.createElement('nav');
     nav.className = 'toc-nav';
@@ -121,20 +120,16 @@
       if (isScrollingTo || ticking) return;
       ticking = true;
       requestAnimationFrame(() => {
-        const offset  = 100;
-        let activeEl  = null;
+        const offset = 100;
+        let activeEl = null;
         for (let i = headingEls.length - 1; i >= 0; i--) {
           if (headingEls[i].getBoundingClientRect().top <= offset) {
-            activeEl = headingEls[i];
-            break;
+            activeEl = headingEls[i]; break;
           }
         }
         if (!activeEl) activeEl = headingEls[0];
         const newId = activeEl?.id;
-        if (newId && newId !== lastId) {
-          lastId = newId;
-          setActive(newId);
-        }
+        if (newId && newId !== lastId) { lastId = newId; setActive(newId); }
         ticking = false;
       });
     }
@@ -145,17 +140,11 @@
 
   function setActive(id) {
     document.querySelectorAll('.toc-link').forEach(l => l.classList.remove('is-active'));
-
     const activeLink = document.querySelector(`.toc-link[href="#${id}"]`);
     if (!activeLink) return;
     activeLink.classList.add('is-active');
-
     document.querySelectorAll('.toc-group').forEach(group => {
-      if (group.contains(activeLink)) {
-        expandGroup(group);
-      } else {
-        collapseGroup(group);
-      }
+      group.contains(activeLink) ? expandGroup(group) : collapseGroup(group);
     });
   }
 
@@ -232,6 +221,21 @@
       <rect x="9" y="9" width="13" height="13"></rect>
       <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
     </svg>`;
+  }
+
+  /* ═══════════════════════════════════════════
+     WRAP TABLES — scroll horizontal si desbordan
+     Envuelve cada <table> en un .table-wrap para
+     que el overflow-x funcione sin romper el layout.
+     ═══════════════════════════════════════════ */
+  function wrapTables() {
+    document.querySelectorAll('.post-content table').forEach(table => {
+      if (table.closest('.table-wrap')) return;  /* ya envuelta */
+      const wrap = document.createElement('div');
+      wrap.className = 'table-wrap';
+      table.parentNode.insertBefore(wrap, table);
+      wrap.appendChild(table);
+    });
   }
 
   /* ═══════════════════════════════════════════

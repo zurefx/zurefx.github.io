@@ -66,101 +66,185 @@
   <!-- ════════════════════════════════════════════════════════
        NOTES / CHEATSHEETS — monthly porque pueden corregirse
        ════════════════════════════════════════════════════════ -->
-
-  <!-- [NOTA] Port Enumeration — 2026-03-17 -->
   <url>
-    <loc>https://zurefx.github.io/notes/port-enumeration.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://zurefx.github.io/notes/nmap-cheatsheet.html</loc>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
     <image:image>
-      <image:loc>https://zurefx.github.io/img/port-enumeration.png</image:loc>
-      <image:title>Port Enumeration — ZureFX</image:title>
+      <image:loc>https://zurefx.github.io/img/nmap-cheatsheet.png</image:loc>
+      <image:title>Nmap Cheatsheet</image:title>
     </image:image>
   </url>
-
-  <!-- [NOTA] Network Scanning — 2026-03-17 -->
   <url>
-    <loc>https://zurefx.github.io/notes/network-scanning.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://zurefx.github.io/notes/ffuf-guide.html</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
     <image:image>
-      <image:loc>https://zurefx.github.io/img/network-scanning.png</image:loc>
-      <image:title>Network Scanning — ZureFX</image:title>
+      <image:loc>https://zurefx.github.io/img/ffuf-guide.png</image:loc>
+      <image:title>FFUF Web Fuzzing Guide</image:title>
     </image:image>
   </url>
-
-  <!-- ════════════════════════════════════════════════════════
-       WRITEUPS — never porque un writeup terminado no cambia
-       ════════════════════════════════════════════════════════ -->
-
-  <!-- Pega aquí el bloque XML que genera convert.py por cada writeup -->
-  <!--
   <url>
-    <loc>https://zurefx.github.io/writeups/htb-NOMBRE.html</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <loc>https://zurefx.github.io/writeups/htb-keeper.html</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>never</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://zurefx.github.io/img/htb-NOMBRE.png</image:loc>
-      <image:title>HTB NOMBRE — ZureFX</image:title>
+      <image:loc>https://zurefx.github.io/img/htb-keeper.png</image:loc>
+      <image:title>HTB Keeper — Easy Linux</image:title>
     </image:image>
   </url>
-  -->
-
-  <!-- ════════════════════════════════════════════════════════
-       RESEARCH — monthly por si añades más análisis al post
-       ════════════════════════════════════════════════════════ -->
-
-  <!-- Pega aquí los bloques de research -->
-  <!--
   <url>
-    <loc>https://zurefx.github.io/research/NOMBRE.html</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <loc>https://zurefx.github.io/scripting/python-rev-shell.html</loc>
+    <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
     <image:image>
-      <image:loc>https://zurefx.github.io/img/NOMBRE.png</image:loc>
-      <image:title>NOMBRE — ZureFX</image:title>
+      <image:loc>https://zurefx.github.io/img/python-rev-shell.png</image:loc>
+      <image:title>Python Reverse Shell Generator</image:title>
     </image:image>
   </url>
-  -->
-
-  <!-- ════════════════════════════════════════════════════════
-       PROJECTS — monthly porque los proyectos evolucionan
-       ════════════════════════════════════════════════════════ -->
-
-  <!-- Pega aquí los bloques de projects -->
-  <!--
   <url>
-    <loc>https://zurefx.github.io/page/projects/NOMBRE.html</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
+    <loc>https://zurefx.github.io/notes/smb-enumeration.html</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/smb-enumeration.png</image:loc>
+      <image:title>SMB Enumeration</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zurefx.github.io/writeups/htb-hospital.html</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/htb-hospital.png</image:loc>
+      <image:title>HTB Hospital — Medium Windows</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zurefx.github.io/research/malware-dropper-analysis.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/malware-dropper-analysis.png</image:loc>
+      <image:title>Analyzing a Simple Python Dropper</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zurefx.github.io/scripting/bash-automation.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/bash-automation.png</image:loc>
+      <image:title>Bash Recon Automation</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zurefx.github.io/notes/sql-injection-notes.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/sql-injection-notes.png</image:loc>
+      <image:title>SQL Injection Notes</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zurefx.github.io/writeups/htb-bizness.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/htb-bizness.png</image:loc>
+      <image:title>HTB Bizness — Easy Linux</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zurefx.github.io/research/edr-evasion-research.html</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/edr-evasion-research.png</image:loc>
+      <image:title>EDR Evasion Techniques Overview</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zurefx.github.io/notes/linux-privesc-notes.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/linux-privesc-notes.png</image:loc>
+      <image:title>Linux Privilege Escalation</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zurefx.github.io/scripting/port-scan-tool.html</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/port-scan-tool.png</image:loc>
+      <image:title>Fast Port Scanner in Python</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zurefx.github.io/notes/ad-kerberoasting.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/ad-kerberoasting.png</image:loc>
+      <image:title>Kerberoasting — Active Directory</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zurefx.github.io/writeups/htb-analysis.html</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/htb-analysis.png</image:loc>
+      <image:title>HTB Analysis — Hard Windows</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://zurefx.github.io/research/zfx-recon-tool.html</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://zurefx.github.io/img/NOMBRE.png</image:loc>
-      <image:title>NOMBRE — ZureFX</image:title>
+      <image:loc>https://zurefx.github.io/img/zfx-recon-tool.png</image:loc>
+      <image:title>ZFX Recon Tool</image:title>
     </image:image>
   </url>
-  -->
-
-  <!-- ════════════════════════════════════════════════════════
-       SCRIPTING — monthly igual que notes
-       ════════════════════════════════════════════════════════ -->
-
-  <!-- Pega aquí los bloques de scripting -->
-  <!--
   <url>
-    <loc>https://zurefx.github.io/scripting/NOMBRE.html</loc>
-    <lastmod>YYYY-MM-DD</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <loc>https://zurefx.github.io/writeups/htb-linkvortex.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://zurefx.github.io/img/NOMBRE.png</image:loc>
-      <image:title>NOMBRE — ZureFX</image:title>
+      <image:loc>https://zurefx.github.io/img/htb-linkvortex.png</image:loc>
+      <image:title>HTB LinkVortex — Easy Linux</image:title>
     </image:image>
   </url>
-  -->
+  <url>
+    <loc>https://zurefx.github.io/writeups/htb-active.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://zurefx.github.io/img/htb-active.png</image:loc>
+      <image:title>HTB Active — Easy Windows</image:title>
+    </image:image>
+  </url>
 
 </urlset>
