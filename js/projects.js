@@ -1,8 +1,8 @@
 /* ============================================================
-   ZureFX — projects.js
-   Lee /data/posts-*.json (mismo sistema de chunks que app.js),
-   filtra section:"projects", agrupa por subsection y renderiza
-   cards con features + botón.
+   ZureFX — projects.js  (v2)
+   Carga desde data/research.json (proyectos).
+   Reutiliza CACHE de app.js cuando está disponible.
+   Depende de app.js: getRootPrefix(), CACHE, loadSection().
    ============================================================ */
 
 function esc(s) {
@@ -29,10 +29,11 @@ function renderStats(projects) {
   if (!el) return;
 
   var cats = [];
-  projects.forEach(function(p) {
-    if (p.subsection && cats.indexOf(p.subsection) === -1) cats.push(p.subsection);
+  projects.forEach(p => {
+    if (p.subsection && !cats.includes(p.subsection)) cats.push(p.subsection);
   });
-  var picks = projects.filter(function(p) { return p.pick === 1 || p.pick === true; }).length;
+
+  var picks = projects.filter(p => p.pick === 1 || p.pick === true).length;
 
   var html =
     '<span class="proj-stat">' +
@@ -64,35 +65,32 @@ function renderStats(projects) {
 }
 
 function buildCard(p) {
-  var isExt    = p.permalink && p.permalink.startsWith('http');
-  var isPick   = p.pick === 1 || p.pick === true;
-  var desc     = p.description || '';
+  var isExt = p.permalink && p.permalink.startsWith('http');
+  var isPick = p.pick === 1 || p.pick === true;
+  var desc = p.description || '';
   var btnLabel = p.btn_label || 'View Project';
 
-  /* features list */
   var featuresHTML = '';
   if (Array.isArray(p.features) && p.features.length) {
     featuresHTML =
       '<ul class="proj-card-features">' +
-      p.features.map(function(f) { return '<li>' + esc(f) + '</li>'; }).join('') +
+      p.features.map(f => '<li>' + esc(f) + '</li>').join('') +
       '</ul>';
   }
 
-  /* tags */
   var tagsHTML = '';
   if (Array.isArray(p.tags) && p.tags.length) {
     tagsHTML =
       '<div class="proj-card-tags">' +
-      p.tags.map(function(t) { return '<span class="proj-card-tag">' + esc(t) + '</span>'; }).join('') +
+      p.tags.map(t => '<span class="proj-card-tag">' + esc(t) + '</span>').join('') +
       '</div>';
   }
 
-  /* pick badge */
   var pickHTML = isPick
     ? '<span class="proj-pick-badge">' +
-        '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>' +
-        'Pick' +
-      '</span>'
+        '<svg viewBox="0 0 24 24" fill="currentColor">' +
+          '<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>' +
+        '</svg>Pick</span>'
     : '';
 
   return (
@@ -110,7 +108,8 @@ function buildCard(p) {
           btnLabel +
           '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">' +
             (isExt
-              ? '<path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>'
+              ? '<path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>' +
+                '<polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>'
               : '<polyline points="9 18 15 12 9 6"/>') +
           '</svg>' +
         '</a>' +
@@ -119,72 +118,63 @@ function buildCard(p) {
   );
 }
 
-/* ── Carga todos los chunks hasta obtener todos los projects ── */
-async function loadAllProjects() {
-  var prefix   = getRootPrefix();   /* función de app.js */
-  var projects = [];
-  var chunk    = 1;
-
-  while (chunk <= 50) {
-    try {
-      var res = await fetch(prefix + 'data/posts-' + chunk + '.json?v=' + Date.now(), { cache: 'no-store' });
-      if (!res.ok) break;                     /* no hay más chunks */
-
-      var data = await res.json();
-      if (!Array.isArray(data) || !data.length) break;
-
-      /* filtrar solo projects de este chunk */
-      data.filter(function(p) { return p.section === 'projects'; })
-          .forEach(function(p) {
-            /* deduplicar por id */
-            if (!projects.some(function(x) { return x.id === p.id; })) {
-              projects.push(p);
-            }
-          });
-
-      chunk++;
-    } catch (err) {
-      break;
-    }
-  }
-
-  /* ya vienen ordenados por fecha desc desde convert.py */
-  return projects;
-}
-
-/* ── Agrupar por subsection preservando orden de aparición ── */
 function groupBySubsection(projects) {
-  var groups = new Map();
-  projects.forEach(function(p) {
-    var key = p.subsection || 'Projects';
+  const groups = new Map();
+  projects.forEach(p => {
+    const key = p.subsection || 'Projects';
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(p);
   });
   return groups;
 }
 
+function loadProjects() {
+  // Nivel 1: CACHE
+  if (typeof CACHE !== 'undefined' && Array.isArray(CACHE['all']) && CACHE['all'].length) {
+    console.log('[ZFX] projects — usando CACHE[all]');
+    return Promise.resolve(CACHE['all'].filter(p => String(p.section || '').toLowerCase() === 'projects'));
+  }
+
+  // Nivel 2: loadSection
+  if (typeof loadSection === 'function') {
+    return loadSection('all').then(posts =>
+      posts.filter(p => String(p.section || '').toLowerCase() === 'projects')
+    );
+  }
+
+  // Nivel 3: fetch directo
+  const url = getRootPrefix() + 'data/research.json?v=' + Date.now();
+  return fetch(url, { cache: 'no-store' })
+    .then(res => {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .then(data => {
+      console.log('[projects.js] fetch data:', data);
+      return Array.isArray(data)
+        ? data.filter(p => String(p.section || '').toLowerCase() === 'projects')
+        : [];
+    })
+    .catch(err => {
+      console.warn('[projects.js] Could not load research.json:', err);
+      return [];
+    });
+}
+
 /* ── BOOT ── */
 (async function () {
-  var container = document.getElementById('projectsContainer');
+  const container = document.getElementById('projectsContainer');
   if (!container) return;
 
   showSkeleton(container);
 
-  var projects;
+  let projects;
   try {
-    projects = await loadAllProjects();
+    projects = await loadProjects();
+    console.log('[ZFX] projects — ' + projects.length + ' projects encontrados');
   } catch (err) {
     console.error('[projects.js]', err);
-    container.innerHTML =
-      '<div class="proj-empty">' +
-        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">' +
-          '<circle cx="12" cy="12" r="10"/>' +
-          '<line x1="12" y1="8" x2="12" y2="12"/>' +
-          '<line x1="12" y1="16" x2="12.01" y2="16"/>' +
-        '</svg>' +
-        '<h3>Could not load projects</h3>' +
-        '<p>Check that <code>/data/posts-1.json</code> exists and is valid JSON.</p>' +
-      '</div>';
+    container.innerHTML = '<div class="proj-empty"><h3>Could not load projects</h3></div>';
     return;
   }
 
@@ -193,20 +183,15 @@ function groupBySubsection(projects) {
   if (!projects.length) {
     container.innerHTML =
       '<div class="proj-empty">' +
-        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">' +
-          '<path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>' +
-        '</svg>' +
         '<h3>No projects yet</h3>' +
-        '<p>Check back soon — something is brewing.</p>' +
       '</div>';
     return;
   }
 
-  var groups = groupBySubsection(projects);
-
-  var html = '';
-  groups.forEach(function(items, name) {
-    var cards = items.map(buildCard).join('');
+  const groups = groupBySubsection(projects);
+  let html = '';
+  groups.forEach((items, name) => {
+    const cards = items.map(buildCard).join('');
     html +=
       '<div class="proj-section">' +
         '<div class="proj-section-heading">' +

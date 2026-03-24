@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ZureFX — convert.py  (v4)
+ZureFX — convert.py  (v5)
 =========================
 Uso  (desde la carpeta raíz del repo):
     python tools/convert.py <archivo.md>
@@ -16,7 +16,10 @@ Qué hace:
        data/posts.json        → feed global (todos los posts)
        data/<section>.json    → feed específico de la sección
        data/for-you.json      → últimos 9 posts (sliding window)
+       data/posts-recent.json → últimos 50 posts (sliding window)
+       data/tags.json         → índice de tags → posts
   4. Inyecta la entrada <url> en sitemap.xml justo antes de </urlset>
+  5. Imágenes del markdown renombradas a img01.png, img02.png… con URL completa
 """
 
 import sys, re, math, json, yaml, markdown
@@ -27,9 +30,10 @@ from datetime import datetime
 # ══════════════════════════════════════════════════════════════════════════════
 #  CONFIG
 # ══════════════════════════════════════════════════════════════════════════════
-DATA_DIR       = Path("data")
-SITEMAP_FILE   = Path("sitemap.xml")
-FOR_YOU_LIMIT  = 9
+DATA_DIR          = Path("data")
+SITEMAP_FILE      = Path("sitemap.xml")
+FOR_YOU_LIMIT     = 9
+POSTS_RECENT_LIMIT = 50
 
 SECTION_FOLDER = {
     "notes":     "notes",
@@ -73,7 +77,8 @@ def calculate_stats(md_text: str) -> tuple[int, str]:
     clean = re.sub(r'\*{1,3}(.+?)\*{1,3}', r'\1', clean)
     clean = re.sub(r'_{1,2}(.+?)_{1,2}', r'\1', clean)
     clean = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', clean)
-    clean = re.sub(r'!\[[^\]]*\]\([^\)]*\)', '', clean)
+    clean = re.sub(r'!\[\[[^\]]*\]\]', '', clean)          # Obsidian wikilinks
+    clean = re.sub(r'!\[[^\]]*\]\([^\)]*\)', '', clean)   # Markdown estándar
     clean = re.sub(r'^\|[-| :]+\|$', '', clean, flags=re.MULTILINE)
     clean = re.sub(r'\|', ' ', clean)
     clean = re.sub(r'^>\s*', '', clean, flags=re.MULTILINE)
@@ -103,6 +108,80 @@ def parse_features(raw: str) -> list[str]:
     return [i.strip() for i in items if i.strip()]
 
 # ══════════════════════════════════════════════════════════════════════════════
+#  IMAGES  —  renombrar a imgNN.ext + expandir URLs en HTML
+#  Soporta dos sintaxis:
+#    • Markdown estándar  : ![alt](ruta.png)  o  ![alt](__ruta.png__)
+#    • Obsidian wikilink  : ![[ruta.png]]
+# ══════════════════════════════════════════════════════════════════════════════
+def normalize_images_in_md(md_text: str, url_images: str) -> tuple[str, dict]:
+    """
+    Convierte toda imagen local a su URL absoluta final (url_images/imgNN.ext).
+    Las imágenes ya absolutas (http/https) se dejan sin tocar.
+    Retorna (md_modificado, mapping {ruta_original: nombre_secuencial}).
+    """
+    counter  = [0]
+    mapping  = {}
+    base_url = url_images.rstrip("/") if url_images else ""
+
+    def _seq(src_raw: str) -> str:
+        """Asigna (o recupera) el nombre secuencial para una ruta local."""
+        if src_raw not in mapping:
+            counter[0] += 1
+            ext = Path(src_raw).suffix or ".png"
+            mapping[src_raw] = f"img{counter[0]:02d}{ext}"
+        return mapping[src_raw]
+
+    def _final_url(seq_name: str) -> str:
+        return f"{base_url}/{seq_name}" if base_url else seq_name
+
+    # ── 1. Obsidian wikilinks: ![[filename.png]] o ![[path/to/img.jpg]]
+    #       Se convierten a <img> directamente (sin envoltura en <p>)
+    obsidian_pat = re.compile(r'!\[\[([^\]]+?)\]\]')
+
+    def obsidian_replacer(m):
+        src_raw = m.group(1).strip()
+        if src_raw.startswith(("http://", "https://")):
+            # wikilink externo: convertir a markdown estándar con alt vacío
+            return f"![]({src_raw})"
+        seq_name  = _seq(src_raw)
+        final_src = _final_url(seq_name)
+        return f"![]({final_src})"
+
+    md_text = obsidian_pat.sub(obsidian_replacer, md_text)
+
+    # ── 2. Markdown estándar: ![alt](ruta)  /  ![alt](__ruta__)
+    std_pat = re.compile(r'!\[([^\]]*)\]\((__)?([^)]+?)(__)?(\s+"[^"]*")?\)')
+
+    def std_replacer(m):
+        alt        = m.group(1)
+        src_raw    = m.group(3).strip()
+        title_part = m.group(5) or ""
+
+        if src_raw.startswith(("http://", "https://")):
+            return m.group(0)
+
+        seq_name  = _seq(src_raw)
+        final_src = _final_url(seq_name)
+        return f"![{alt}]({final_src}{title_part})"
+
+    md_text = std_pat.sub(std_replacer, md_text)
+
+    return md_text, mapping
+
+
+def expand_image_urls_in_html(html: str, base_url: str) -> str:
+    """Expande cualquier src relativo que quede en el HTML generado."""
+    base_url = base_url.rstrip("/")
+
+    def replacer(m):
+        src = m.group(1)
+        if src.startswith(("http://", "https://")):
+            return m.group(0)
+        return f'src="{base_url}/{src}"'
+
+    return re.sub(r'src="([^"]+)"', replacer, html)
+
+# ══════════════════════════════════════════════════════════════════════════════
 #  MARKDOWN → HTML
 # ══════════════════════════════════════════════════════════════════════════════
 def md_to_body(md_text: str) -> str:
@@ -127,36 +206,18 @@ def md_to_body(md_text: str) -> str:
         r'<pre><code>\1</code></pre>',
         html, flags=re.DOTALL,
     )
+
+    # ── Quitar el <p> que python-markdown mete alrededor de <img> ────────────
+    # Convierte <p><img .../></p>  →  <img .../>
+    # También maneja <p><img .../>\n</p> y similares
+    html = re.sub(
+        r'<p>\s*(<img\s[^>]+>)\s*</p>',
+        r'\1',
+        html,
+        flags=re.DOTALL,
+    )
+
     return html
-
-# ══════════════════════════════════════════════════════════════════════════════
-#  IMAGES
-# ══════════════════════════════════════════════════════════════════════════════
-def normalize_images_in_md(md_text: str) -> tuple[str, dict]:
-    pattern = re.compile(r'!\[([^\]]*)\]\((__)?([^)]+?)(__)?(\s+"[^"]*")?\)')
-    counter, mapping = [0], {}
-
-    def replacer(m):
-        alt, src_raw, title_part = m.group(1), m.group(3).strip(), m.group(5) or ""
-        if src_raw.startswith(("http://", "https://")):
-            return m.group(0)
-        if src_raw not in mapping:
-            counter[0] += 1
-            mapping[src_raw] = f"img{counter[0]:02d}{Path(src_raw).suffix or '.png'}"
-        return f"![{alt}]({mapping[src_raw]}{title_part})"
-
-    return pattern.sub(replacer, md_text), mapping
-
-def expand_image_urls_in_html(html: str, base_url: str) -> str:
-    base_url = base_url.rstrip("/")
-
-    def replacer(m):
-        src = m.group(1)
-        if src.startswith(("http://", "https://")):
-            return m.group(0)
-        return f'src="{base_url}/{src}"'
-
-    return re.sub(r'src="([^"]+)"', replacer, html)
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  HELPERS
@@ -490,7 +551,17 @@ def read_json(path: Path) -> list[dict]:
     except (json.JSONDecodeError, OSError):
         return []
 
-def write_json(path: Path, data: list[dict]) -> None:
+def read_json_obj(path: Path) -> dict:
+    """Lee un JSON object de disco. Retorna {} si no existe o está corrupto."""
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+def write_json(path: Path, data) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 def upsert_front(data: list[dict], entry: dict) -> tuple[list[dict], str]:
@@ -515,23 +586,84 @@ def update_json_file(json_path: Path, new_entry: dict) -> str:
 def update_for_you(new_entry: dict) -> None:
     """
     Mantiene data/for-you.json con los FOR_YOU_LIMIT posts más recientes.
-    - Upsert por id: si ya existía lo saca y lo vuelve a poner al frente.
-    - Sliding window: si tras insertar hay más de FOR_YOU_LIMIT, elimina el último.
     """
     path = DATA_DIR / "for-you.json"
     DATA_DIR.mkdir(exist_ok=True)
     data = read_json(path)
     data, _ = upsert_front(data, new_entry)
-    data = data[:FOR_YOU_LIMIT]   # mantener solo los más recientes
+    data = data[:FOR_YOU_LIMIT]
     write_json(path, data)
     print(f"   ✅ for-you.json     → {len(data)}/{FOR_YOU_LIMIT} posts")
+
+def update_posts_recent(new_entry: dict) -> None:
+    """
+    Mantiene data/posts-recent.json con los POSTS_RECENT_LIMIT posts más recientes.
+    Sliding window: upsert por id al frente, recorta si supera el límite.
+    """
+    path = DATA_DIR / "posts-recent.json"
+    DATA_DIR.mkdir(exist_ok=True)
+    data = read_json(path)
+    data, _ = upsert_front(data, new_entry)
+    data = data[:POSTS_RECENT_LIMIT]
+    write_json(path, data)
+    print(f"   ✅ posts-recent.json → {len(data)}/{POSTS_RECENT_LIMIT} posts")
+
+def update_tags_json(new_entry: dict) -> None:
+    """
+    Mantiene data/tags.json como un objeto indexado por tag:
+
+    {
+      "ctf": [
+        { "id": "post-id", "title": "...", "permalink": "...", "date": "...", "section": "..." },
+        ...
+      ],
+      "linux": [ ... ],
+      ...
+    }
+
+    Cada tag tiene su array de posts (sin duplicados por id, más reciente al frente).
+    """
+    path = DATA_DIR / "tags.json"
+    DATA_DIR.mkdir(exist_ok=True)
+    tags_index = read_json_obj(path)
+
+    # resumen mínimo que necesita la página de tags
+    post_stub = {
+        "id":        new_entry["id"],
+        "title":     new_entry["title"],
+        "permalink": new_entry["permalink"],
+        "date":      new_entry["date"],
+        "section":   new_entry["section"],
+        "image":     new_entry.get("image", ""),
+        "readTime":  new_entry.get("readTime", ""),
+    }
+
+    for tag in new_entry.get("tags", []):
+        tag = tag.strip().lower().replace(" ", "-")
+        if not tag:
+            continue
+        posts = tags_index.get(tag, [])
+        # eliminar entrada previa con el mismo id
+        posts = [p for p in posts if p.get("id") != post_stub["id"]]
+        posts.insert(0, post_stub)
+        tags_index[tag] = posts
+
+    # ordenar las claves alfabéticamente para legibilidad
+    tags_index = dict(sorted(tags_index.items()))
+    write_json(path, tags_index)
+
+    tag_count = len(new_entry.get("tags", []))
+    total_tags = len(tags_index)
+    print(f"   ✅ tags.json        → {tag_count} tags añadidos  ({total_tags} tags totales)")
 
 def write_to_jsons(entry: dict, section: str) -> None:
     """
     Escribe la entrada en:
-      - data/posts.json          (feed global, siempre)
+      - data/posts.json          (feed global)
       - data/<section>.json      (feed específico de la sección)
       - data/for-you.json        (sliding window de los últimos FOR_YOU_LIMIT)
+      - data/posts-recent.json   (sliding window de los últimos POSTS_RECENT_LIMIT)
+      - data/tags.json           (índice tag → posts)
     """
     STATUS_ICON = {"created": "🆕", "updated": "♻️ ", "inserted": "✅"}
 
@@ -550,6 +682,8 @@ def write_to_jsons(entry: dict, section: str) -> None:
         print(f"   {icon} {status:8s} → data/{label}  ({count} posts)")
 
     update_for_you(entry)
+    update_posts_recent(entry)
+    update_tags_json(entry)
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  SITEMAP
@@ -639,14 +773,21 @@ def main() -> None:
     words, read_time = calculate_stats(md_content)
     print(f"   {words:,} words · {read_time}")
 
-    # ── Images ───────────────────────────────────────────────────────────────
-    md_content, img_map = normalize_images_in_md(md_content)
-    for orig, seq in img_map.items():
-        print(f"   img: {orig} → {seq}")
+    # ── URL base para imágenes ───────────────────────────────────────────────
+    url_images = str(meta.get("URL_IMAGES", "")).rstrip("/")
+
+    # ── Images: renombrar en el markdown a imgNN.ext con URL absoluta ────────
+    md_content, img_map = normalize_images_in_md(md_content, url_images)
+    if img_map:
+        for orig, seq in img_map.items():
+            final = f"{url_images}/{seq}" if url_images else seq
+            print(f"   img: {orig} → {final}")
+    else:
+        print("   img: (sin imágenes locales)")
 
     # ── Build HTML ───────────────────────────────────────────────────────────
     body = md_to_body(md_content)
-    url_images = str(meta.get("URL_IMAGES", "")).rstrip("/")
+    # Segundo pase: por si quedó algún src relativo en el HTML (p.ej. tablas HTML inline)
     if url_images:
         body = expand_image_urls_in_html(body, url_images)
 
@@ -656,7 +797,7 @@ def main() -> None:
     out_path.write_text(build_html(meta, body, words, read_time), encoding="utf-8")
     print(f"   ✅ HTML  → {out_path}")
 
-    # ── JSON (flat files + for-you sliding window) ───────────────────────────
+    # ── JSON (flat files + sliding windows + tags) ───────────────────────────
     entry = build_json_entry(meta, words, read_time)
     write_to_jsons(entry, section)
 

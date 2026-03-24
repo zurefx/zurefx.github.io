@@ -1,5 +1,5680 @@
 [
   {
+    "id": "script-web-crawler-and-spider-994",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-994.html",
+    "btn_label": "View Script",
+    "date": "2026-02-28",
+    "tags": [
+      "bash",
+      "fuzzer",
+      "script",
+      "rust",
+      "powershell",
+      "automation"
+    ],
+    "image": "/img/script-web-crawler-and-spider-994.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-851",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-851.html",
+    "btn_label": "View Script",
+    "date": "2024-08-11",
+    "tags": [
+      "go",
+      "python",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-851.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-790",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-790.html",
+    "btn_label": "View Script",
+    "date": "2024-10-28",
+    "tags": [
+      "rust",
+      "scanner",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-790.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-756",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-756.html",
+    "btn_label": "View Script",
+    "date": "2025-05-10",
+    "tags": [
+      "python",
+      "go",
+      "rust",
+      "scanner",
+      "script"
+    ],
+    "image": "/img/script-web-crawler-and-spider-756.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-715",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-715.html",
+    "btn_label": "View Script",
+    "date": "2026-03-20",
+    "tags": [
+      "powershell",
+      "fuzzer",
+      "script",
+      "rust",
+      "go"
+    ],
+    "image": "/img/script-web-crawler-and-spider-715.png",
+    "words": 345,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-713",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-713.html",
+    "btn_label": "View Script",
+    "date": "2026-01-10",
+    "tags": [
+      "powershell",
+      "scanner",
+      "script",
+      "go"
+    ],
+    "image": "/img/script-web-crawler-and-spider-713.png",
+    "words": 298,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-693",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-693.html",
+    "btn_label": "View Script",
+    "date": "2024-06-24",
+    "tags": [
+      "bash",
+      "tool",
+      "automation",
+      "rust",
+      "go"
+    ],
+    "image": "/img/script-web-crawler-and-spider-693.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-670",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-670.html",
+    "btn_label": "View Script",
+    "date": "2024-12-16",
+    "tags": [
+      "rust",
+      "scanner",
+      "parser",
+      "python",
+      "c",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-670.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-647",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-647.html",
+    "btn_label": "View Script",
+    "date": "2025-08-08",
+    "tags": [
+      "rust",
+      "go",
+      "python",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-web-crawler-and-spider-647.png",
+    "words": 346,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-581",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-581.html",
+    "btn_label": "View Script",
+    "date": "2026-02-12",
+    "tags": [
+      "scanner",
+      "parser",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-web-crawler-and-spider-581.png",
+    "words": 312,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-559",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-559.html",
+    "btn_label": "View Script",
+    "date": "2025-04-24",
+    "tags": [
+      "powershell",
+      "rust",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-web-crawler-and-spider-559.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-534",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-534.html",
+    "btn_label": "View Script",
+    "date": "2025-02-10",
+    "tags": [
+      "bash",
+      "scanner",
+      "rust",
+      "python",
+      "go",
+      "script"
+    ],
+    "image": "/img/script-web-crawler-and-spider-534.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-516",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-516.html",
+    "btn_label": "View Script",
+    "date": "2024-03-02",
+    "tags": [
+      "automation",
+      "parser",
+      "scanner",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-516.png",
+    "words": 374,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-308",
+    "title": "Web Crawler and Spider — Python",
+    "section": "scripting",
+    "description": "A Python script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-308.html",
+    "btn_label": "View Script",
+    "date": "2024-03-10",
+    "tags": [
+      "rust",
+      "tool",
+      "script",
+      "bash",
+      "automation",
+      "python"
+    ],
+    "image": "/img/script-web-crawler-and-spider-308.png",
+    "words": 392,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-290",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-290.html",
+    "btn_label": "View Script",
+    "date": "2024-11-11",
+    "tags": [
+      "parser",
+      "tool",
+      "rust",
+      "go",
+      "fuzzer",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-290.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-245",
+    "title": "Web Crawler and Spider — Python",
+    "section": "scripting",
+    "description": "A Python script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-245.html",
+    "btn_label": "View Script",
+    "date": "2025-05-31",
+    "tags": [
+      "python",
+      "rust",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-245.png",
+    "words": 351,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-952",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-952.html",
+    "btn_label": "View Script",
+    "date": "2024-10-23",
+    "tags": [
+      "bash",
+      "parser",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-952.png",
+    "words": 372,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-915",
+    "title": "Subdomain Enumeration Tool — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-915.html",
+    "btn_label": "View Script",
+    "date": "2025-03-02",
+    "tags": [
+      "python",
+      "rust",
+      "bash",
+      "automation",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-915.png",
+    "words": 265,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-613",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-613.html",
+    "btn_label": "View Script",
+    "date": "2026-03-04",
+    "tags": [
+      "tool",
+      "script",
+      "go",
+      "scanner",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-613.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-454",
+    "title": "Subdomain Enumeration Tool — Go",
+    "section": "scripting",
+    "description": "A Go script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-454.html",
+    "btn_label": "View Script",
+    "date": "2025-11-30",
+    "tags": [
+      "tool",
+      "python",
+      "rust",
+      "automation",
+      "fuzzer",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-454.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-446",
+    "title": "Subdomain Enumeration Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-446.html",
+    "btn_label": "View Script",
+    "date": "2024-10-14",
+    "tags": [
+      "automation",
+      "python",
+      "scanner",
+      "bash",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-446.png",
+    "words": 367,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-421",
+    "title": "Subdomain Enumeration Tool — Go",
+    "section": "scripting",
+    "description": "A Go script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-421.html",
+    "btn_label": "View Script",
+    "date": "2025-11-24",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "python",
+      "go"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-421.png",
+    "words": 307,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-419",
+    "title": "Subdomain Enumeration Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-419.html",
+    "btn_label": "View Script",
+    "date": "2025-06-16",
+    "tags": [
+      "bash",
+      "script",
+      "fuzzer",
+      "parser"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-419.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-406",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-406.html",
+    "btn_label": "View Script",
+    "date": "2025-10-29",
+    "tags": [
+      "go",
+      "script",
+      "automation",
+      "scanner",
+      "parser",
+      "fuzzer",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-406.png",
+    "words": 334,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-220",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-220.html",
+    "btn_label": "View Script",
+    "date": "2024-09-10",
+    "tags": [
+      "script",
+      "c",
+      "scanner",
+      "parser",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-220.png",
+    "words": 257,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-190",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-190.html",
+    "btn_label": "View Script",
+    "date": "2024-11-14",
+    "tags": [
+      "rust",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-190.png",
+    "words": 301,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-956",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-956.html",
+    "btn_label": "View Script",
+    "date": "2024-07-20",
+    "tags": [
+      "tool",
+      "scanner",
+      "rust",
+      "parser",
+      "powershell",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-956.png",
+    "words": 284,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-921",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-921.html",
+    "btn_label": "View Script",
+    "date": "2025-08-07",
+    "tags": [
+      "automation",
+      "parser",
+      "go",
+      "bash",
+      "python",
+      "tool"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-921.png",
+    "words": 286,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-872",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-872.html",
+    "btn_label": "View Script",
+    "date": "2024-09-28",
+    "tags": [
+      "go",
+      "script",
+      "bash",
+      "python",
+      "scanner"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-872.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-831",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-831.html",
+    "btn_label": "View Script",
+    "date": "2024-09-21",
+    "tags": [
+      "rust",
+      "automation",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-831.png",
+    "words": 299,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-689",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-689.html",
+    "btn_label": "View Script",
+    "date": "2024-11-17",
+    "tags": [
+      "python",
+      "go",
+      "fuzzer",
+      "scanner"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-689.png",
+    "words": 293,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-686",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-686.html",
+    "btn_label": "View Script",
+    "date": "2025-03-12",
+    "tags": [
+      "parser",
+      "bash",
+      "go",
+      "scanner",
+      "tool",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-686.png",
+    "words": 323,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-517",
+    "title": "SMB Share Enumeration Script — Python",
+    "section": "scripting",
+    "description": "A Python script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-517.html",
+    "btn_label": "View Script",
+    "date": "2024-08-04",
+    "tags": [
+      "rust",
+      "fuzzer",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-517.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-453",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-453.html",
+    "btn_label": "View Script",
+    "date": "2025-11-06",
+    "tags": [
+      "scanner",
+      "parser",
+      "powershell",
+      "rust",
+      "fuzzer",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-453.png",
+    "words": 346,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-431",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-431.html",
+    "btn_label": "View Script",
+    "date": "2025-04-01",
+    "tags": [
+      "rust",
+      "script",
+      "powershell",
+      "python",
+      "c",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-431.png",
+    "words": 318,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-398",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-398.html",
+    "btn_label": "View Script",
+    "date": "2025-01-29",
+    "tags": [
+      "rust",
+      "scanner",
+      "c",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-398.png",
+    "words": 342,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-352",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-352.html",
+    "btn_label": "View Script",
+    "date": "2024-05-15",
+    "tags": [
+      "powershell",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-352.png",
+    "words": 282,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-347",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-347.html",
+    "btn_label": "View Script",
+    "date": "2024-03-09",
+    "tags": [
+      "script",
+      "automation",
+      "c",
+      "python",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-347.png",
+    "words": 347,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-338",
+    "title": "SMB Share Enumeration Script — Python",
+    "section": "scripting",
+    "description": "A Python script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-338.html",
+    "btn_label": "View Script",
+    "date": "2025-09-19",
+    "tags": [
+      "bash",
+      "python",
+      "fuzzer",
+      "c",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-338.png",
+    "words": 309,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-301",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-301.html",
+    "btn_label": "View Script",
+    "date": "2025-02-28",
+    "tags": [
+      "rust",
+      "parser",
+      "bash",
+      "scanner",
+      "tool",
+      "fuzzer"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-301.png",
+    "words": 347,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-257",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-257.html",
+    "btn_label": "View Script",
+    "date": "2025-03-10",
+    "tags": [
+      "python",
+      "tool",
+      "automation",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-257.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-236",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-236.html",
+    "btn_label": "View Script",
+    "date": "2024-01-26",
+    "tags": [
+      "fuzzer",
+      "powershell",
+      "parser"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-236.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-200",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-200.html",
+    "btn_label": "View Script",
+    "date": "2025-05-25",
+    "tags": [
+      "c",
+      "automation",
+      "python",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-200.png",
+    "words": 278,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-189",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-189.html",
+    "btn_label": "View Script",
+    "date": "2025-10-04",
+    "tags": [
+      "powershell",
+      "scanner",
+      "tool",
+      "rust",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-189.png",
+    "words": 330,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-159",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-159.html",
+    "btn_label": "View Script",
+    "date": "2025-06-21",
+    "tags": [
+      "c",
+      "bash",
+      "scanner",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-159.png",
+    "words": 308,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-149",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-149.html",
+    "btn_label": "View Script",
+    "date": "2024-09-18",
+    "tags": [
+      "scanner",
+      "rust",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-149.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-136",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-136.html",
+    "btn_label": "View Script",
+    "date": "2024-02-03",
+    "tags": [
+      "script",
+      "parser",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-136.png",
+    "words": 363,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-993",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-993.html",
+    "btn_label": "View Script",
+    "date": "2024-03-18",
+    "tags": [
+      "script",
+      "rust",
+      "powershell",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-reverse-shell-generator-993.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-974",
+    "title": "Reverse Shell Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-974.html",
+    "btn_label": "View Script",
+    "date": "2024-12-29",
+    "tags": [
+      "python",
+      "parser",
+      "powershell",
+      "automation",
+      "c",
+      "rust"
+    ],
+    "image": "/img/script-reverse-shell-generator-974.png",
+    "words": 331,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-928",
+    "title": "Reverse Shell Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-928.html",
+    "btn_label": "View Script",
+    "date": "2024-07-10",
+    "tags": [
+      "scanner",
+      "rust",
+      "c",
+      "tool",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-reverse-shell-generator-928.png",
+    "words": 355,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-821",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-821.html",
+    "btn_label": "View Script",
+    "date": "2024-01-05",
+    "tags": [
+      "automation",
+      "scanner",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-reverse-shell-generator-821.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-811",
+    "title": "Reverse Shell Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-811.html",
+    "btn_label": "View Script",
+    "date": "2025-06-28",
+    "tags": [
+      "python",
+      "automation",
+      "scanner",
+      "c",
+      "tool",
+      "rust",
+      "powershell"
+    ],
+    "image": "/img/script-reverse-shell-generator-811.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-759",
+    "title": "Reverse Shell Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-759.html",
+    "btn_label": "View Script",
+    "date": "2026-03-19",
+    "tags": [
+      "script",
+      "automation",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-reverse-shell-generator-759.png",
+    "words": 317,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-617",
+    "title": "Reverse Shell Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-617.html",
+    "btn_label": "View Script",
+    "date": "2024-03-08",
+    "tags": [
+      "automation",
+      "python",
+      "scanner",
+      "powershell"
+    ],
+    "image": "/img/script-reverse-shell-generator-617.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-548",
+    "title": "Reverse Shell Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-548.html",
+    "btn_label": "View Script",
+    "date": "2025-03-13",
+    "tags": [
+      "rust",
+      "automation",
+      "scanner",
+      "go"
+    ],
+    "image": "/img/script-reverse-shell-generator-548.png",
+    "words": 379,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-532",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-532.html",
+    "btn_label": "View Script",
+    "date": "2025-06-20",
+    "tags": [
+      "scanner",
+      "script",
+      "python",
+      "automation",
+      "rust",
+      "bash"
+    ],
+    "image": "/img/script-reverse-shell-generator-532.png",
+    "words": 374,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-432",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-432.html",
+    "btn_label": "View Script",
+    "date": "2024-10-30",
+    "tags": [
+      "go",
+      "bash",
+      "c",
+      "script"
+    ],
+    "image": "/img/script-reverse-shell-generator-432.png",
+    "words": 362,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-293",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-293.html",
+    "btn_label": "View Script",
+    "date": "2026-03-02",
+    "tags": [
+      "python",
+      "powershell",
+      "go",
+      "fuzzer",
+      "bash"
+    ],
+    "image": "/img/script-reverse-shell-generator-293.png",
+    "words": 289,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-260",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-260.html",
+    "btn_label": "View Script",
+    "date": "2024-12-03",
+    "tags": [
+      "parser",
+      "scanner",
+      "fuzzer",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-reverse-shell-generator-260.png",
+    "words": 341,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-250",
+    "title": "Reverse Shell Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-250.html",
+    "btn_label": "View Script",
+    "date": "2026-01-30",
+    "tags": [
+      "scanner",
+      "python",
+      "tool",
+      "c",
+      "parser",
+      "powershell"
+    ],
+    "image": "/img/script-reverse-shell-generator-250.png",
+    "words": 278,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-171",
+    "title": "Reverse Shell Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-171.html",
+    "btn_label": "View Script",
+    "date": "2025-09-28",
+    "tags": [
+      "c",
+      "go",
+      "bash",
+      "python",
+      "parser"
+    ],
+    "image": "/img/script-reverse-shell-generator-171.png",
+    "words": 357,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-169",
+    "title": "Reverse Shell Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-169.html",
+    "btn_label": "View Script",
+    "date": "2025-10-10",
+    "tags": [
+      "parser",
+      "go",
+      "bash",
+      "tool",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-reverse-shell-generator-169.png",
+    "words": 286,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-129",
+    "title": "Reverse Shell Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-129.html",
+    "btn_label": "View Script",
+    "date": "2026-01-17",
+    "tags": [
+      "tool",
+      "rust",
+      "go",
+      "bash",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-reverse-shell-generator-129.png",
+    "words": 363,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-898",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-898.html",
+    "btn_label": "View Script",
+    "date": "2025-11-14",
+    "tags": [
+      "fuzzer",
+      "python",
+      "powershell",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-process-injection-poc-898.png",
+    "words": 303,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-799",
+    "title": "Process Injection PoC — Go",
+    "section": "scripting",
+    "description": "A Go script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-799.html",
+    "btn_label": "View Script",
+    "date": "2025-11-13",
+    "tags": [
+      "fuzzer",
+      "parser",
+      "c",
+      "script",
+      "rust",
+      "go"
+    ],
+    "image": "/img/script-process-injection-poc-799.png",
+    "words": 270,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-704",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-704.html",
+    "btn_label": "View Script",
+    "date": "2026-01-05",
+    "tags": [
+      "c",
+      "scanner",
+      "script",
+      "rust",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-process-injection-poc-704.png",
+    "words": 279,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-650",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-650.html",
+    "btn_label": "View Script",
+    "date": "2025-11-09",
+    "tags": [
+      "fuzzer",
+      "parser",
+      "python",
+      "script",
+      "bash"
+    ],
+    "image": "/img/script-process-injection-poc-650.png",
+    "words": 302,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-626",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-626.html",
+    "btn_label": "View Script",
+    "date": "2024-02-02",
+    "tags": [
+      "powershell",
+      "script",
+      "scanner",
+      "parser",
+      "python",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-process-injection-poc-626.png",
+    "words": 302,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-527",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-527.html",
+    "btn_label": "View Script",
+    "date": "2024-10-21",
+    "tags": [
+      "bash",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-process-injection-poc-527.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-507",
+    "title": "Process Injection PoC — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-507.html",
+    "btn_label": "View Script",
+    "date": "2024-07-12",
+    "tags": [
+      "python",
+      "tool",
+      "scanner",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-process-injection-poc-507.png",
+    "words": 391,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-505",
+    "title": "Process Injection PoC — Go",
+    "section": "scripting",
+    "description": "A Go script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-505.html",
+    "btn_label": "View Script",
+    "date": "2025-04-25",
+    "tags": [
+      "bash",
+      "tool",
+      "automation",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-process-injection-poc-505.png",
+    "words": 376,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-460",
+    "title": "Process Injection PoC — Go",
+    "section": "scripting",
+    "description": "A Go script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-460.html",
+    "btn_label": "View Script",
+    "date": "2025-12-18",
+    "tags": [
+      "powershell",
+      "go",
+      "fuzzer",
+      "rust",
+      "parser"
+    ],
+    "image": "/img/script-process-injection-poc-460.png",
+    "words": 289,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-424",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-424.html",
+    "btn_label": "View Script",
+    "date": "2024-08-03",
+    "tags": [
+      "parser",
+      "tool",
+      "python",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-process-injection-poc-424.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-421",
+    "title": "Process Injection PoC — Python",
+    "section": "scripting",
+    "description": "A Python script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-421.html",
+    "btn_label": "View Script",
+    "date": "2026-02-05",
+    "tags": [
+      "script",
+      "scanner",
+      "c",
+      "bash",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-process-injection-poc-421.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-176",
+    "title": "Process Injection PoC — Go",
+    "section": "scripting",
+    "description": "A Go script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-176.html",
+    "btn_label": "View Script",
+    "date": "2025-08-11",
+    "tags": [
+      "parser",
+      "scanner",
+      "python",
+      "go",
+      "powershell",
+      "script"
+    ],
+    "image": "/img/script-process-injection-poc-176.png",
+    "words": 366,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-169",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-169.html",
+    "btn_label": "View Script",
+    "date": "2025-07-24",
+    "tags": [
+      "script",
+      "scanner",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-process-injection-poc-169.png",
+    "words": 334,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-141",
+    "title": "Process Injection PoC — Go",
+    "section": "scripting",
+    "description": "A Go script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-141.html",
+    "btn_label": "View Script",
+    "date": "2024-03-09",
+    "tags": [
+      "rust",
+      "bash",
+      "c",
+      "powershell",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-process-injection-poc-141.png",
+    "words": 351,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-135",
+    "title": "Process Injection PoC — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-135.html",
+    "btn_label": "View Script",
+    "date": "2026-01-05",
+    "tags": [
+      "tool",
+      "c",
+      "parser",
+      "powershell"
+    ],
+    "image": "/img/script-process-injection-poc-135.png",
+    "words": 299,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-853",
+    "title": "Payload Obfuscation Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-853.html",
+    "btn_label": "View Script",
+    "date": "2025-07-22",
+    "tags": [
+      "fuzzer",
+      "powershell",
+      "automation",
+      "tool"
+    ],
+    "image": "/img/script-payload-obfuscation-script-853.png",
+    "words": 350,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-851",
+    "title": "Payload Obfuscation Script — Go",
+    "section": "scripting",
+    "description": "A Go script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-851.html",
+    "btn_label": "View Script",
+    "date": "2024-05-10",
+    "tags": [
+      "scanner",
+      "parser",
+      "c",
+      "go"
+    ],
+    "image": "/img/script-payload-obfuscation-script-851.png",
+    "words": 271,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-834",
+    "title": "Payload Obfuscation Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-834.html",
+    "btn_label": "View Script",
+    "date": "2026-03-13",
+    "tags": [
+      "fuzzer",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-payload-obfuscation-script-834.png",
+    "words": 336,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-775",
+    "title": "Payload Obfuscation Script — Go",
+    "section": "scripting",
+    "description": "A Go script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-775.html",
+    "btn_label": "View Script",
+    "date": "2025-02-14",
+    "tags": [
+      "script",
+      "bash",
+      "rust",
+      "python",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-payload-obfuscation-script-775.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-672",
+    "title": "Payload Obfuscation Script — Go",
+    "section": "scripting",
+    "description": "A Go script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-672.html",
+    "btn_label": "View Script",
+    "date": "2026-02-01",
+    "tags": [
+      "script",
+      "python",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-payload-obfuscation-script-672.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-641",
+    "title": "Payload Obfuscation Script — Go",
+    "section": "scripting",
+    "description": "A Go script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-641.html",
+    "btn_label": "View Script",
+    "date": "2024-06-12",
+    "tags": [
+      "tool",
+      "fuzzer",
+      "parser",
+      "c",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-payload-obfuscation-script-641.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-393",
+    "title": "Payload Obfuscation Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-393.html",
+    "btn_label": "View Script",
+    "date": "2025-09-04",
+    "tags": [
+      "bash",
+      "scanner",
+      "rust",
+      "go",
+      "automation",
+      "c",
+      "powershell"
+    ],
+    "image": "/img/script-payload-obfuscation-script-393.png",
+    "words": 359,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-178",
+    "title": "Payload Obfuscation Script — Python",
+    "section": "scripting",
+    "description": "A Python script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-178.html",
+    "btn_label": "View Script",
+    "date": "2025-09-27",
+    "tags": [
+      "c",
+      "bash",
+      "fuzzer",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-payload-obfuscation-script-178.png",
+    "words": 330,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-172",
+    "title": "Payload Obfuscation Script — Python",
+    "section": "scripting",
+    "description": "A Python script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-172.html",
+    "btn_label": "View Script",
+    "date": "2026-01-22",
+    "tags": [
+      "fuzzer",
+      "script",
+      "powershell",
+      "parser",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-payload-obfuscation-script-172.png",
+    "words": 322,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-971",
+    "title": "Password Spraying Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-971.html",
+    "btn_label": "View Script",
+    "date": "2026-03-13",
+    "tags": [
+      "go",
+      "c",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-password-spraying-tool-971.png",
+    "words": 330,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-839",
+    "title": "Password Spraying Tool — Go",
+    "section": "scripting",
+    "description": "A Go script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-839.html",
+    "btn_label": "View Script",
+    "date": "2024-06-22",
+    "tags": [
+      "tool",
+      "script",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-password-spraying-tool-839.png",
+    "words": 428,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-password-spraying-tool-772",
+    "title": "Password Spraying Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-772.html",
+    "btn_label": "View Script",
+    "date": "2025-11-03",
+    "tags": [
+      "c",
+      "script",
+      "scanner",
+      "bash"
+    ],
+    "image": "/img/script-password-spraying-tool-772.png",
+    "words": 284,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-755",
+    "title": "Password Spraying Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-755.html",
+    "btn_label": "View Script",
+    "date": "2025-01-29",
+    "tags": [
+      "fuzzer",
+      "tool",
+      "script",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-password-spraying-tool-755.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-730",
+    "title": "Password Spraying Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-730.html",
+    "btn_label": "View Script",
+    "date": "2025-03-18",
+    "tags": [
+      "scanner",
+      "rust",
+      "automation",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-password-spraying-tool-730.png",
+    "words": 355,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-705",
+    "title": "Password Spraying Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-705.html",
+    "btn_label": "View Script",
+    "date": "2025-10-22",
+    "tags": [
+      "python",
+      "parser",
+      "script",
+      "powershell",
+      "fuzzer"
+    ],
+    "image": "/img/script-password-spraying-tool-705.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-696",
+    "title": "Password Spraying Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-696.html",
+    "btn_label": "View Script",
+    "date": "2025-01-23",
+    "tags": [
+      "powershell",
+      "bash",
+      "parser",
+      "tool",
+      "python",
+      "c"
+    ],
+    "image": "/img/script-password-spraying-tool-696.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-388",
+    "title": "Password Spraying Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-388.html",
+    "btn_label": "View Script",
+    "date": "2025-09-25",
+    "tags": [
+      "c",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-password-spraying-tool-388.png",
+    "words": 317,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-334",
+    "title": "Password Spraying Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-334.html",
+    "btn_label": "View Script",
+    "date": "2024-07-01",
+    "tags": [
+      "powershell",
+      "scanner",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-password-spraying-tool-334.png",
+    "words": 386,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-257",
+    "title": "Password Spraying Tool — Go",
+    "section": "scripting",
+    "description": "A Go script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-257.html",
+    "btn_label": "View Script",
+    "date": "2024-12-11",
+    "tags": [
+      "python",
+      "scanner",
+      "automation",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-password-spraying-tool-257.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-141",
+    "title": "Password Spraying Tool — Go",
+    "section": "scripting",
+    "description": "A Go script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-141.html",
+    "btn_label": "View Script",
+    "date": "2025-09-06",
+    "tags": [
+      "scanner",
+      "bash",
+      "script",
+      "automation",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-password-spraying-tool-141.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-119",
+    "title": "Password Spraying Tool — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-119.html",
+    "btn_label": "View Script",
+    "date": "2025-01-16",
+    "tags": [
+      "bash",
+      "scanner",
+      "script",
+      "tool",
+      "rust",
+      "powershell"
+    ],
+    "image": "/img/script-password-spraying-tool-119.png",
+    "words": 351,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-867",
+    "title": "Network Packet Sniffer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-867.html",
+    "btn_label": "View Script",
+    "date": "2024-10-03",
+    "tags": [
+      "python",
+      "c",
+      "parser",
+      "powershell",
+      "tool",
+      "bash"
+    ],
+    "image": "/img/script-network-packet-sniffer-867.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-843",
+    "title": "Network Packet Sniffer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-843.html",
+    "btn_label": "View Script",
+    "date": "2024-04-23",
+    "tags": [
+      "parser",
+      "python",
+      "scanner",
+      "bash",
+      "script"
+    ],
+    "image": "/img/script-network-packet-sniffer-843.png",
+    "words": 390,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-840",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-840.html",
+    "btn_label": "View Script",
+    "date": "2025-05-07",
+    "tags": [
+      "parser",
+      "python",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-840.png",
+    "words": 306,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-795",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-795.html",
+    "btn_label": "View Script",
+    "date": "2025-05-04",
+    "tags": [
+      "go",
+      "automation",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-network-packet-sniffer-795.png",
+    "words": 373,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-785",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-785.html",
+    "btn_label": "View Script",
+    "date": "2025-08-24",
+    "tags": [
+      "go",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-network-packet-sniffer-785.png",
+    "words": 364,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-777",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-777.html",
+    "btn_label": "View Script",
+    "date": "2025-05-27",
+    "tags": [
+      "automation",
+      "python",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-777.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-771",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-771.html",
+    "btn_label": "View Script",
+    "date": "2024-01-27",
+    "tags": [
+      "go",
+      "bash",
+      "fuzzer",
+      "tool",
+      "script"
+    ],
+    "image": "/img/script-network-packet-sniffer-771.png",
+    "words": 318,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-656",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-656.html",
+    "btn_label": "View Script",
+    "date": "2024-07-23",
+    "tags": [
+      "rust",
+      "python",
+      "fuzzer",
+      "parser",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-656.png",
+    "words": 326,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-613",
+    "title": "Network Packet Sniffer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-613.html",
+    "btn_label": "View Script",
+    "date": "2025-11-19",
+    "tags": [
+      "python",
+      "fuzzer",
+      "bash",
+      "scanner",
+      "automation"
+    ],
+    "image": "/img/script-network-packet-sniffer-613.png",
+    "words": 365,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-556",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-556.html",
+    "btn_label": "View Script",
+    "date": "2025-06-16",
+    "tags": [
+      "script",
+      "fuzzer",
+      "c",
+      "scanner",
+      "go",
+      "bash",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-556.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-505",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-505.html",
+    "btn_label": "View Script",
+    "date": "2024-06-20",
+    "tags": [
+      "parser",
+      "go",
+      "scanner",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-505.png",
+    "words": 289,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-504",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-504.html",
+    "btn_label": "View Script",
+    "date": "2024-02-07",
+    "tags": [
+      "rust",
+      "script",
+      "scanner",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-504.png",
+    "words": 366,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-465",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-465.html",
+    "btn_label": "View Script",
+    "date": "2026-01-18",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "tool",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-465.png",
+    "words": 360,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-399",
+    "title": "Network Packet Sniffer — Python",
+    "section": "scripting",
+    "description": "A Python script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-399.html",
+    "btn_label": "View Script",
+    "date": "2024-01-08",
+    "tags": [
+      "rust",
+      "parser",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-network-packet-sniffer-399.png",
+    "words": 277,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-393",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-393.html",
+    "btn_label": "View Script",
+    "date": "2026-03-21",
+    "tags": [
+      "bash",
+      "scanner",
+      "rust",
+      "tool",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-393.png",
+    "words": 299,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-297",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-297.html",
+    "btn_label": "View Script",
+    "date": "2025-06-17",
+    "tags": [
+      "powershell",
+      "tool",
+      "scanner",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-297.png",
+    "words": 276,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-211",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-211.html",
+    "btn_label": "View Script",
+    "date": "2025-08-06",
+    "tags": [
+      "fuzzer",
+      "tool",
+      "powershell",
+      "scanner",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-211.png",
+    "words": 418,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-199",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-199.html",
+    "btn_label": "View Script",
+    "date": "2025-08-02",
+    "tags": [
+      "parser",
+      "tool",
+      "automation",
+      "script",
+      "bash",
+      "c",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-199.png",
+    "words": 380,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-197",
+    "title": "Network Packet Sniffer — Python",
+    "section": "scripting",
+    "description": "A Python script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-197.html",
+    "btn_label": "View Script",
+    "date": "2025-03-04",
+    "tags": [
+      "script",
+      "go",
+      "python",
+      "tool",
+      "bash"
+    ],
+    "image": "/img/script-network-packet-sniffer-197.png",
+    "words": 326,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-189",
+    "title": "Network Packet Sniffer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-189.html",
+    "btn_label": "View Script",
+    "date": "2025-05-27",
+    "tags": [
+      "automation",
+      "scanner",
+      "fuzzer",
+      "bash"
+    ],
+    "image": "/img/script-network-packet-sniffer-189.png",
+    "words": 376,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-156",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-156.html",
+    "btn_label": "View Script",
+    "date": "2025-04-09",
+    "tags": [
+      "powershell",
+      "parser",
+      "go",
+      "rust",
+      "scanner"
+    ],
+    "image": "/img/script-network-packet-sniffer-156.png",
+    "words": 375,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-148",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-148.html",
+    "btn_label": "View Script",
+    "date": "2024-06-03",
+    "tags": [
+      "script",
+      "bash",
+      "tool",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-148.png",
+    "words": 289,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-122",
+    "title": "Network Packet Sniffer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-122.html",
+    "btn_label": "View Script",
+    "date": "2024-02-14",
+    "tags": [
+      "tool",
+      "powershell",
+      "parser",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-network-packet-sniffer-122.png",
+    "words": 286,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-962",
+    "title": "Log Parser and Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-962.html",
+    "btn_label": "View Script",
+    "date": "2024-06-26",
+    "tags": [
+      "rust",
+      "scanner",
+      "fuzzer",
+      "parser",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-962.png",
+    "words": 319,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-910",
+    "title": "Log Parser and Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-910.html",
+    "btn_label": "View Script",
+    "date": "2024-08-14",
+    "tags": [
+      "rust",
+      "tool",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-910.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-899",
+    "title": "Log Parser and Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-899.html",
+    "btn_label": "View Script",
+    "date": "2025-01-16",
+    "tags": [
+      "fuzzer",
+      "go",
+      "parser",
+      "powershell"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-899.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-730",
+    "title": "Log Parser and Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-730.html",
+    "btn_label": "View Script",
+    "date": "2024-01-03",
+    "tags": [
+      "fuzzer",
+      "go",
+      "c",
+      "tool",
+      "rust",
+      "script"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-730.png",
+    "words": 288,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-722",
+    "title": "Log Parser and Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-722.html",
+    "btn_label": "View Script",
+    "date": "2025-05-14",
+    "tags": [
+      "tool",
+      "scanner",
+      "bash",
+      "automation",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-722.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-714",
+    "title": "Log Parser and Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-714.html",
+    "btn_label": "View Script",
+    "date": "2024-08-25",
+    "tags": [
+      "scanner",
+      "powershell",
+      "automation",
+      "go",
+      "bash",
+      "script"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-714.png",
+    "words": 306,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-680",
+    "title": "Log Parser and Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-680.html",
+    "btn_label": "View Script",
+    "date": "2024-11-08",
+    "tags": [
+      "script",
+      "parser",
+      "tool",
+      "python",
+      "rust",
+      "powershell"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-680.png",
+    "words": 320,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-663",
+    "title": "Log Parser and Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-663.html",
+    "btn_label": "View Script",
+    "date": "2024-05-04",
+    "tags": [
+      "parser",
+      "tool",
+      "scanner",
+      "bash"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-663.png",
+    "words": 327,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-641",
+    "title": "Log Parser and Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-641.html",
+    "btn_label": "View Script",
+    "date": "2025-09-07",
+    "tags": [
+      "python",
+      "script",
+      "rust",
+      "tool",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-641.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-587",
+    "title": "Log Parser and Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-587.html",
+    "btn_label": "View Script",
+    "date": "2024-09-08",
+    "tags": [
+      "script",
+      "powershell",
+      "c",
+      "bash",
+      "tool"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-587.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-487",
+    "title": "Log Parser and Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-487.html",
+    "btn_label": "View Script",
+    "date": "2024-09-30",
+    "tags": [
+      "powershell",
+      "automation",
+      "rust",
+      "parser",
+      "go"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-487.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-486",
+    "title": "Log Parser and Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-486.html",
+    "btn_label": "View Script",
+    "date": "2025-01-12",
+    "tags": [
+      "scanner",
+      "go",
+      "fuzzer",
+      "python"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-486.png",
+    "words": 296,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-439",
+    "title": "Log Parser and Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-439.html",
+    "btn_label": "View Script",
+    "date": "2024-07-11",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "tool",
+      "python",
+      "powershell",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-439.png",
+    "words": 295,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-433",
+    "title": "Log Parser and Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-433.html",
+    "btn_label": "View Script",
+    "date": "2025-07-24",
+    "tags": [
+      "bash",
+      "parser",
+      "rust",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-433.png",
+    "words": 290,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-395",
+    "title": "Log Parser and Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-395.html",
+    "btn_label": "View Script",
+    "date": "2024-10-30",
+    "tags": [
+      "bash",
+      "rust",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-395.png",
+    "words": 368,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-320",
+    "title": "Log Parser and Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-320.html",
+    "btn_label": "View Script",
+    "date": "2025-11-24",
+    "tags": [
+      "powershell",
+      "c",
+      "scanner",
+      "fuzzer",
+      "rust"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-320.png",
+    "words": 265,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-276",
+    "title": "Log Parser and Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-276.html",
+    "btn_label": "View Script",
+    "date": "2026-01-07",
+    "tags": [
+      "automation",
+      "go",
+      "bash",
+      "python",
+      "c"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-276.png",
+    "words": 302,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-191",
+    "title": "Log Parser and Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-191.html",
+    "btn_label": "View Script",
+    "date": "2024-12-13",
+    "tags": [
+      "automation",
+      "go",
+      "parser"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-191.png",
+    "words": 324,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-135",
+    "title": "Log Parser and Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-135.html",
+    "btn_label": "View Script",
+    "date": "2024-01-31",
+    "tags": [
+      "bash",
+      "go",
+      "fuzzer",
+      "powershell",
+      "c"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-135.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-944",
+    "title": "JWT Token Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-944.html",
+    "btn_label": "View Script",
+    "date": "2025-12-21",
+    "tags": [
+      "python",
+      "powershell",
+      "go",
+      "rust",
+      "bash"
+    ],
+    "image": "/img/script-jwt-token-analyzer-944.png",
+    "words": 257,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-775",
+    "title": "JWT Token Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-775.html",
+    "btn_label": "View Script",
+    "date": "2025-05-01",
+    "tags": [
+      "go",
+      "rust",
+      "bash",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-775.png",
+    "words": 279,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-745",
+    "title": "JWT Token Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-745.html",
+    "btn_label": "View Script",
+    "date": "2024-03-28",
+    "tags": [
+      "tool",
+      "go",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-jwt-token-analyzer-745.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-677",
+    "title": "JWT Token Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-677.html",
+    "btn_label": "View Script",
+    "date": "2024-01-03",
+    "tags": [
+      "bash",
+      "script",
+      "automation",
+      "tool",
+      "parser",
+      "powershell"
+    ],
+    "image": "/img/script-jwt-token-analyzer-677.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-665",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-665.html",
+    "btn_label": "View Script",
+    "date": "2024-10-19",
+    "tags": [
+      "automation",
+      "script",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-665.png",
+    "words": 294,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-577",
+    "title": "JWT Token Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-577.html",
+    "btn_label": "View Script",
+    "date": "2025-04-22",
+    "tags": [
+      "rust",
+      "go",
+      "script",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-jwt-token-analyzer-577.png",
+    "words": 320,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-547",
+    "title": "JWT Token Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-547.html",
+    "btn_label": "View Script",
+    "date": "2024-07-27",
+    "tags": [
+      "tool",
+      "c",
+      "automation",
+      "scanner",
+      "bash"
+    ],
+    "image": "/img/script-jwt-token-analyzer-547.png",
+    "words": 404,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-521",
+    "title": "JWT Token Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-521.html",
+    "btn_label": "View Script",
+    "date": "2025-11-14",
+    "tags": [
+      "script",
+      "automation",
+      "rust",
+      "go"
+    ],
+    "image": "/img/script-jwt-token-analyzer-521.png",
+    "words": 350,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-461",
+    "title": "JWT Token Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-461.html",
+    "btn_label": "View Script",
+    "date": "2025-07-24",
+    "tags": [
+      "tool",
+      "bash",
+      "c",
+      "script",
+      "scanner"
+    ],
+    "image": "/img/script-jwt-token-analyzer-461.png",
+    "words": 314,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-453",
+    "title": "JWT Token Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-453.html",
+    "btn_label": "View Script",
+    "date": "2024-04-28",
+    "tags": [
+      "bash",
+      "automation",
+      "fuzzer",
+      "c",
+      "go",
+      "powershell"
+    ],
+    "image": "/img/script-jwt-token-analyzer-453.png",
+    "words": 361,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-430",
+    "title": "JWT Token Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-430.html",
+    "btn_label": "View Script",
+    "date": "2024-03-31",
+    "tags": [
+      "tool",
+      "parser",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-jwt-token-analyzer-430.png",
+    "words": 356,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-282",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-282.html",
+    "btn_label": "View Script",
+    "date": "2024-02-23",
+    "tags": [
+      "powershell",
+      "go",
+      "c",
+      "fuzzer",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-282.png",
+    "words": 312,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-239",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-239.html",
+    "btn_label": "View Script",
+    "date": "2025-08-29",
+    "tags": [
+      "automation",
+      "c",
+      "tool",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-239.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-212",
+    "title": "JWT Token Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-212.html",
+    "btn_label": "View Script",
+    "date": "2024-07-01",
+    "tags": [
+      "tool",
+      "fuzzer",
+      "script",
+      "powershell",
+      "python",
+      "go"
+    ],
+    "image": "/img/script-jwt-token-analyzer-212.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-174",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-174.html",
+    "btn_label": "View Script",
+    "date": "2024-01-10",
+    "tags": [
+      "scanner",
+      "tool",
+      "fuzzer",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-174.png",
+    "words": 336,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-135",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-135.html",
+    "btn_label": "View Script",
+    "date": "2025-08-04",
+    "tags": [
+      "bash",
+      "script",
+      "parser",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-135.png",
+    "words": 295,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-118",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-118.html",
+    "btn_label": "View Script",
+    "date": "2026-01-12",
+    "tags": [
+      "go",
+      "fuzzer",
+      "powershell",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-118.png",
+    "words": 353,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-992",
+    "title": "Hash Identifier and Cracker Wrapper — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-992.html",
+    "btn_label": "View Script",
+    "date": "2024-04-23",
+    "tags": [
+      "parser",
+      "rust",
+      "c",
+      "go",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-992.png",
+    "words": 319,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-750",
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "section": "scripting",
+    "description": "A Python script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-750.html",
+    "btn_label": "View Script",
+    "date": "2024-11-10",
+    "tags": [
+      "bash",
+      "c",
+      "powershell",
+      "python",
+      "fuzzer",
+      "script"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-750.png",
+    "words": 313,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-626",
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "section": "scripting",
+    "description": "A Python script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-626.html",
+    "btn_label": "View Script",
+    "date": "2024-01-03",
+    "tags": [
+      "c",
+      "script",
+      "rust",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-626.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-576",
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "section": "scripting",
+    "description": "A Python script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-576.html",
+    "btn_label": "View Script",
+    "date": "2026-02-13",
+    "tags": [
+      "script",
+      "c",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-576.png",
+    "words": 355,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-522",
+    "title": "Hash Identifier and Cracker Wrapper — Bash",
+    "section": "scripting",
+    "description": "A Bash script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-522.html",
+    "btn_label": "View Script",
+    "date": "2024-09-09",
+    "tags": [
+      "python",
+      "parser",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-522.png",
+    "words": 346,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-510",
+    "title": "Hash Identifier and Cracker Wrapper — Go",
+    "section": "scripting",
+    "description": "A Go script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-510.html",
+    "btn_label": "View Script",
+    "date": "2025-01-13",
+    "tags": [
+      "python",
+      "rust",
+      "parser",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-510.png",
+    "words": 253,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-444",
+    "title": "Hash Identifier and Cracker Wrapper — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-444.html",
+    "btn_label": "View Script",
+    "date": "2024-09-03",
+    "tags": [
+      "parser",
+      "go",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-444.png",
+    "words": 280,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-434",
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "section": "scripting",
+    "description": "A Python script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-434.html",
+    "btn_label": "View Script",
+    "date": "2025-03-23",
+    "tags": [
+      "c",
+      "rust",
+      "powershell",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-434.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-173",
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "section": "scripting",
+    "description": "A Python script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-173.html",
+    "btn_label": "View Script",
+    "date": "2024-06-25",
+    "tags": [
+      "go",
+      "rust",
+      "scanner",
+      "fuzzer",
+      "c",
+      "script",
+      "python"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-173.png",
+    "words": 338,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-918",
+    "title": "EDR Evasion Techniques — Python",
+    "section": "scripting",
+    "description": "A Python script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-918.html",
+    "btn_label": "View Script",
+    "date": "2025-10-25",
+    "tags": [
+      "tool",
+      "rust",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-edr-evasion-techniques-918.png",
+    "words": 291,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-879",
+    "title": "EDR Evasion Techniques — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-879.html",
+    "btn_label": "View Script",
+    "date": "2025-03-12",
+    "tags": [
+      "go",
+      "parser",
+      "c",
+      "powershell"
+    ],
+    "image": "/img/script-edr-evasion-techniques-879.png",
+    "words": 320,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-875",
+    "title": "EDR Evasion Techniques — Python",
+    "section": "scripting",
+    "description": "A Python script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-875.html",
+    "btn_label": "View Script",
+    "date": "2025-02-27",
+    "tags": [
+      "go",
+      "fuzzer",
+      "automation",
+      "python",
+      "powershell",
+      "parser"
+    ],
+    "image": "/img/script-edr-evasion-techniques-875.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-629",
+    "title": "EDR Evasion Techniques — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-629.html",
+    "btn_label": "View Script",
+    "date": "2024-07-09",
+    "tags": [
+      "script",
+      "bash",
+      "fuzzer",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-edr-evasion-techniques-629.png",
+    "words": 308,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-548",
+    "title": "EDR Evasion Techniques — Go",
+    "section": "scripting",
+    "description": "A Go script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-548.html",
+    "btn_label": "View Script",
+    "date": "2025-11-02",
+    "tags": [
+      "script",
+      "python",
+      "c",
+      "go",
+      "fuzzer"
+    ],
+    "image": "/img/script-edr-evasion-techniques-548.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-528",
+    "title": "EDR Evasion Techniques — Python",
+    "section": "scripting",
+    "description": "A Python script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-528.html",
+    "btn_label": "View Script",
+    "date": "2025-11-23",
+    "tags": [
+      "powershell",
+      "python",
+      "c",
+      "tool",
+      "go",
+      "scanner"
+    ],
+    "image": "/img/script-edr-evasion-techniques-528.png",
+    "words": 368,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-344",
+    "title": "EDR Evasion Techniques — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-344.html",
+    "btn_label": "View Script",
+    "date": "2025-02-20",
+    "tags": [
+      "bash",
+      "parser",
+      "scanner",
+      "powershell"
+    ],
+    "image": "/img/script-edr-evasion-techniques-344.png",
+    "words": 286,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-128",
+    "title": "EDR Evasion Techniques — Bash",
+    "section": "scripting",
+    "description": "A Bash script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-128.html",
+    "btn_label": "View Script",
+    "date": "2025-02-05",
+    "tags": [
+      "tool",
+      "automation",
+      "script",
+      "go",
+      "rust",
+      "bash"
+    ],
+    "image": "/img/script-edr-evasion-techniques-128.png",
+    "words": 331,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-953",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-953.html",
+    "btn_label": "View Script",
+    "date": "2024-12-15",
+    "tags": [
+      "c",
+      "script",
+      "tool",
+      "go",
+      "automation",
+      "rust"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-953.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-948",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-948.html",
+    "btn_label": "View Script",
+    "date": "2026-01-22",
+    "tags": [
+      "go",
+      "script",
+      "c",
+      "scanner",
+      "tool"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-948.png",
+    "words": 309,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-898",
+    "title": "DNS Resolver and Brute Forcer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-898.html",
+    "btn_label": "View Script",
+    "date": "2025-11-18",
+    "tags": [
+      "c",
+      "parser",
+      "rust",
+      "scanner",
+      "powershell",
+      "automation"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-898.png",
+    "words": 348,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-892",
+    "title": "DNS Resolver and Brute Forcer — Python",
+    "section": "scripting",
+    "description": "A Python script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-892.html",
+    "btn_label": "View Script",
+    "date": "2025-06-03",
+    "tags": [
+      "rust",
+      "python",
+      "bash",
+      "powershell",
+      "scanner",
+      "automation"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-892.png",
+    "words": 351,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-736",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-736.html",
+    "btn_label": "View Script",
+    "date": "2024-10-07",
+    "tags": [
+      "c",
+      "tool",
+      "go",
+      "rust",
+      "fuzzer",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-736.png",
+    "words": 332,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-727",
+    "title": "DNS Resolver and Brute Forcer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-727.html",
+    "btn_label": "View Script",
+    "date": "2025-04-28",
+    "tags": [
+      "c",
+      "bash",
+      "rust",
+      "fuzzer",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-727.png",
+    "words": 302,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-721",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-721.html",
+    "btn_label": "View Script",
+    "date": "2025-08-05",
+    "tags": [
+      "powershell",
+      "rust",
+      "python",
+      "fuzzer",
+      "go",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-721.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-699",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-699.html",
+    "btn_label": "View Script",
+    "date": "2024-02-12",
+    "tags": [
+      "go",
+      "automation",
+      "tool",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-699.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-657",
+    "title": "DNS Resolver and Brute Forcer — Python",
+    "section": "scripting",
+    "description": "A Python script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-657.html",
+    "btn_label": "View Script",
+    "date": "2025-01-25",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "python",
+      "automation",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-657.png",
+    "words": 332,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-598",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-598.html",
+    "btn_label": "View Script",
+    "date": "2025-02-19",
+    "tags": [
+      "powershell",
+      "bash",
+      "scanner"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-598.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-591",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-591.html",
+    "btn_label": "View Script",
+    "date": "2024-05-20",
+    "tags": [
+      "powershell",
+      "bash",
+      "python",
+      "parser"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-591.png",
+    "words": 304,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-521",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-521.html",
+    "btn_label": "View Script",
+    "date": "2026-01-18",
+    "tags": [
+      "rust",
+      "c",
+      "fuzzer",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-521.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-517",
+    "title": "DNS Resolver and Brute Forcer — Python",
+    "section": "scripting",
+    "description": "A Python script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-517.html",
+    "btn_label": "View Script",
+    "date": "2026-01-07",
+    "tags": [
+      "python",
+      "powershell",
+      "rust"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-517.png",
+    "words": 283,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-508",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-508.html",
+    "btn_label": "View Script",
+    "date": "2024-08-04",
+    "tags": [
+      "python",
+      "parser",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-508.png",
+    "words": 309,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-506",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-506.html",
+    "btn_label": "View Script",
+    "date": "2025-04-28",
+    "tags": [
+      "go",
+      "fuzzer",
+      "script",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-506.png",
+    "words": 301,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-414",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-414.html",
+    "btn_label": "View Script",
+    "date": "2024-12-18",
+    "tags": [
+      "automation",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-414.png",
+    "words": 290,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-379",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-379.html",
+    "btn_label": "View Script",
+    "date": "2026-02-14",
+    "tags": [
+      "rust",
+      "automation",
+      "script",
+      "go"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-379.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-373",
+    "title": "DNS Resolver and Brute Forcer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-373.html",
+    "btn_label": "View Script",
+    "date": "2024-05-19",
+    "tags": [
+      "bash",
+      "python",
+      "c",
+      "parser",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-373.png",
+    "words": 329,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-334",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-334.html",
+    "btn_label": "View Script",
+    "date": "2025-05-17",
+    "tags": [
+      "script",
+      "automation",
+      "tool",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-334.png",
+    "words": 331,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-312",
+    "title": "DNS Resolver and Brute Forcer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-312.html",
+    "btn_label": "View Script",
+    "date": "2024-09-28",
+    "tags": [
+      "fuzzer",
+      "powershell",
+      "rust"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-312.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-226",
+    "title": "DNS Resolver and Brute Forcer — Python",
+    "section": "scripting",
+    "description": "A Python script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-226.html",
+    "btn_label": "View Script",
+    "date": "2024-12-21",
+    "tags": [
+      "parser",
+      "bash",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-226.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-136",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-136.html",
+    "btn_label": "View Script",
+    "date": "2024-05-17",
+    "tags": [
+      "powershell",
+      "c",
+      "script",
+      "bash",
+      "fuzzer",
+      "rust"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-136.png",
+    "words": 274,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-970",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-970.html",
+    "btn_label": "View Script",
+    "date": "2025-12-23",
+    "tags": [
+      "c",
+      "bash",
+      "rust",
+      "tool",
+      "scanner",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-custom-wordlist-generator-970.png",
+    "words": 318,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-937",
+    "title": "Custom Wordlist Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-937.html",
+    "btn_label": "View Script",
+    "date": "2025-05-08",
+    "tags": [
+      "rust",
+      "scanner",
+      "c",
+      "script",
+      "go"
+    ],
+    "image": "/img/script-custom-wordlist-generator-937.png",
+    "words": 341,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-802",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-802.html",
+    "btn_label": "View Script",
+    "date": "2025-02-21",
+    "tags": [
+      "script",
+      "go",
+      "fuzzer",
+      "c",
+      "bash",
+      "powershell"
+    ],
+    "image": "/img/script-custom-wordlist-generator-802.png",
+    "words": 351,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-744",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-744.html",
+    "btn_label": "View Script",
+    "date": "2026-02-16",
+    "tags": [
+      "tool",
+      "powershell",
+      "c",
+      "parser",
+      "rust"
+    ],
+    "image": "/img/script-custom-wordlist-generator-744.png",
+    "words": 345,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-614",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-614.html",
+    "btn_label": "View Script",
+    "date": "2024-02-22",
+    "tags": [
+      "parser",
+      "go",
+      "fuzzer",
+      "automation",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-custom-wordlist-generator-614.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-604",
+    "title": "Custom Wordlist Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-604.html",
+    "btn_label": "View Script",
+    "date": "2024-08-31",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "parser",
+      "go"
+    ],
+    "image": "/img/script-custom-wordlist-generator-604.png",
+    "words": 327,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-541",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-541.html",
+    "btn_label": "View Script",
+    "date": "2024-05-03",
+    "tags": [
+      "c",
+      "python",
+      "script",
+      "rust",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-custom-wordlist-generator-541.png",
+    "words": 353,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-460",
+    "title": "Custom Wordlist Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-460.html",
+    "btn_label": "View Script",
+    "date": "2025-02-07",
+    "tags": [
+      "automation",
+      "tool",
+      "fuzzer",
+      "c",
+      "python",
+      "parser"
+    ],
+    "image": "/img/script-custom-wordlist-generator-460.png",
+    "words": 352,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-424",
+    "title": "Custom Wordlist Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-424.html",
+    "btn_label": "View Script",
+    "date": "2025-12-22",
+    "tags": [
+      "rust",
+      "bash",
+      "python",
+      "scanner"
+    ],
+    "image": "/img/script-custom-wordlist-generator-424.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-407",
+    "title": "Custom Wordlist Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-407.html",
+    "btn_label": "View Script",
+    "date": "2024-12-21",
+    "tags": [
+      "bash",
+      "c",
+      "tool",
+      "fuzzer"
+    ],
+    "image": "/img/script-custom-wordlist-generator-407.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-320",
+    "title": "Custom Wordlist Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-320.html",
+    "btn_label": "View Script",
+    "date": "2025-03-03",
+    "tags": [
+      "bash",
+      "tool",
+      "automation",
+      "rust",
+      "python"
+    ],
+    "image": "/img/script-custom-wordlist-generator-320.png",
+    "words": 261,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-168",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-168.html",
+    "btn_label": "View Script",
+    "date": "2024-05-01",
+    "tags": [
+      "c",
+      "scanner",
+      "tool",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-custom-wordlist-generator-168.png",
+    "words": 329,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-152",
+    "title": "Custom Wordlist Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-152.html",
+    "btn_label": "View Script",
+    "date": "2024-05-12",
+    "tags": [
+      "parser",
+      "automation",
+      "fuzzer",
+      "scanner",
+      "bash",
+      "script",
+      "go"
+    ],
+    "image": "/img/script-custom-wordlist-generator-152.png",
+    "words": 296,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-956",
+    "title": "CTF Challenge Solver Template — Go",
+    "section": "scripting",
+    "description": "A Go script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-956.html",
+    "btn_label": "View Script",
+    "date": "2024-04-14",
+    "tags": [
+      "bash",
+      "tool",
+      "c",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-956.png",
+    "words": 231,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-936",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-936.html",
+    "btn_label": "View Script",
+    "date": "2024-03-23",
+    "tags": [
+      "python",
+      "tool",
+      "scanner"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-936.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-911",
+    "title": "CTF Challenge Solver Template — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-911.html",
+    "btn_label": "View Script",
+    "date": "2025-02-25",
+    "tags": [
+      "automation",
+      "powershell",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-911.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-818",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-818.html",
+    "btn_label": "View Script",
+    "date": "2026-02-22",
+    "tags": [
+      "parser",
+      "bash",
+      "powershell",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-818.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-805",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-805.html",
+    "btn_label": "View Script",
+    "date": "2024-02-08",
+    "tags": [
+      "tool",
+      "parser",
+      "scanner",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-805.png",
+    "words": 368,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-779",
+    "title": "CTF Challenge Solver Template — Go",
+    "section": "scripting",
+    "description": "A Go script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-779.html",
+    "btn_label": "View Script",
+    "date": "2024-08-01",
+    "tags": [
+      "powershell",
+      "parser",
+      "python",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-779.png",
+    "words": 359,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-762",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-762.html",
+    "btn_label": "View Script",
+    "date": "2025-08-13",
+    "tags": [
+      "rust",
+      "fuzzer",
+      "script",
+      "tool",
+      "python",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-762.png",
+    "words": 392,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-751",
+    "title": "CTF Challenge Solver Template — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-751.html",
+    "btn_label": "View Script",
+    "date": "2026-01-15",
+    "tags": [
+      "python",
+      "fuzzer",
+      "c",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-751.png",
+    "words": 314,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-649",
+    "title": "CTF Challenge Solver Template — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-649.html",
+    "btn_label": "View Script",
+    "date": "2024-12-24",
+    "tags": [
+      "powershell",
+      "bash",
+      "go",
+      "c",
+      "automation"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-649.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-638",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-638.html",
+    "btn_label": "View Script",
+    "date": "2024-08-29",
+    "tags": [
+      "rust",
+      "scanner",
+      "python",
+      "script",
+      "tool",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-638.png",
+    "words": 281,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-615",
+    "title": "CTF Challenge Solver Template — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-615.html",
+    "btn_label": "View Script",
+    "date": "2024-03-23",
+    "tags": [
+      "powershell",
+      "automation",
+      "tool"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-615.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-513",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-513.html",
+    "btn_label": "View Script",
+    "date": "2025-12-19",
+    "tags": [
+      "automation",
+      "parser",
+      "c",
+      "scanner",
+      "fuzzer",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-513.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-441",
+    "title": "CTF Challenge Solver Template — Go",
+    "section": "scripting",
+    "description": "A Go script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-441.html",
+    "btn_label": "View Script",
+    "date": "2026-03-03",
+    "tags": [
+      "parser",
+      "bash",
+      "python",
+      "go"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-441.png",
+    "words": 375,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-415",
+    "title": "CTF Challenge Solver Template — Go",
+    "section": "scripting",
+    "description": "A Go script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-415.html",
+    "btn_label": "View Script",
+    "date": "2024-09-24",
+    "tags": [
+      "c",
+      "go",
+      "rust",
+      "bash",
+      "scanner"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-415.png",
+    "words": 345,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-373",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-373.html",
+    "btn_label": "View Script",
+    "date": "2024-09-10",
+    "tags": [
+      "rust",
+      "powershell",
+      "go",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-373.png",
+    "words": 281,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-370",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-370.html",
+    "btn_label": "View Script",
+    "date": "2024-05-11",
+    "tags": [
+      "fuzzer",
+      "powershell",
+      "c",
+      "rust",
+      "tool",
+      "script",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-370.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-298",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-298.html",
+    "btn_label": "View Script",
+    "date": "2026-01-11",
+    "tags": [
+      "rust",
+      "go",
+      "scanner",
+      "c",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-298.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-292",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-292.html",
+    "btn_label": "View Script",
+    "date": "2024-03-18",
+    "tags": [
+      "parser",
+      "tool",
+      "bash",
+      "go",
+      "script",
+      "automation"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-292.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-291",
+    "title": "CTF Challenge Solver Template — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-291.html",
+    "btn_label": "View Script",
+    "date": "2024-10-24",
+    "tags": [
+      "rust",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-291.png",
+    "words": 305,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-285",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-285.html",
+    "btn_label": "View Script",
+    "date": "2025-03-19",
+    "tags": [
+      "fuzzer",
+      "script",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-285.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-260",
+    "title": "CTF Challenge Solver Template — Go",
+    "section": "scripting",
+    "description": "A Go script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-260.html",
+    "btn_label": "View Script",
+    "date": "2024-05-27",
+    "tags": [
+      "bash",
+      "powershell",
+      "scanner",
+      "rust",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-260.png",
+    "words": 322,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-222",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-222.html",
+    "btn_label": "View Script",
+    "date": "2025-08-20",
+    "tags": [
+      "automation",
+      "rust",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-222.png",
+    "words": 317,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-173",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-173.html",
+    "btn_label": "View Script",
+    "date": "2024-04-01",
+    "tags": [
+      "c",
+      "fuzzer",
+      "bash",
+      "automation"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-173.png",
+    "words": 319,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-167",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-167.html",
+    "btn_label": "View Script",
+    "date": "2024-07-29",
+    "tags": [
+      "powershell",
+      "go",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-167.png",
+    "words": 303,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-165",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-165.html",
+    "btn_label": "View Script",
+    "date": "2025-02-10",
+    "tags": [
+      "automation",
+      "c",
+      "tool",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-165.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-145",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-145.html",
+    "btn_label": "View Script",
+    "date": "2024-09-05",
+    "tags": [
+      "bash",
+      "python",
+      "go",
+      "c",
+      "rust"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-145.png",
+    "words": 344,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-884",
+    "title": "C2 Beacon Simulator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-884.html",
+    "btn_label": "View Script",
+    "date": "2025-10-06",
+    "tags": [
+      "automation",
+      "tool",
+      "python",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-c2-beacon-simulator-884.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-879",
+    "title": "C2 Beacon Simulator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-879.html",
+    "btn_label": "View Script",
+    "date": "2025-08-24",
+    "tags": [
+      "fuzzer",
+      "rust",
+      "bash",
+      "go",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-c2-beacon-simulator-879.png",
+    "words": 301,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-704",
+    "title": "C2 Beacon Simulator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-704.html",
+    "btn_label": "View Script",
+    "date": "2025-10-09",
+    "tags": [
+      "c",
+      "tool",
+      "powershell",
+      "python",
+      "bash"
+    ],
+    "image": "/img/script-c2-beacon-simulator-704.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-694",
+    "title": "C2 Beacon Simulator — Python",
+    "section": "scripting",
+    "description": "A Python script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-694.html",
+    "btn_label": "View Script",
+    "date": "2024-11-13",
+    "tags": [
+      "automation",
+      "fuzzer",
+      "rust",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-c2-beacon-simulator-694.png",
+    "words": 334,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-684",
+    "title": "C2 Beacon Simulator — Go",
+    "section": "scripting",
+    "description": "A Go script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-684.html",
+    "btn_label": "View Script",
+    "date": "2026-01-22",
+    "tags": [
+      "fuzzer",
+      "script",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-c2-beacon-simulator-684.png",
+    "words": 326,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-620",
+    "title": "C2 Beacon Simulator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-620.html",
+    "btn_label": "View Script",
+    "date": "2025-01-21",
+    "tags": [
+      "powershell",
+      "fuzzer",
+      "script",
+      "rust",
+      "automation",
+      "parser"
+    ],
+    "image": "/img/script-c2-beacon-simulator-620.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-418",
+    "title": "C2 Beacon Simulator — Go",
+    "section": "scripting",
+    "description": "A Go script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-418.html",
+    "btn_label": "View Script",
+    "date": "2025-10-30",
+    "tags": [
+      "automation",
+      "c",
+      "script",
+      "go"
+    ],
+    "image": "/img/script-c2-beacon-simulator-418.png",
+    "words": 318,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-390",
+    "title": "C2 Beacon Simulator — Python",
+    "section": "scripting",
+    "description": "A Python script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-390.html",
+    "btn_label": "View Script",
+    "date": "2025-12-09",
+    "tags": [
+      "scanner",
+      "automation",
+      "c",
+      "tool",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-c2-beacon-simulator-390.png",
+    "words": 300,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-369",
+    "title": "C2 Beacon Simulator — Python",
+    "section": "scripting",
+    "description": "A Python script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-369.html",
+    "btn_label": "View Script",
+    "date": "2024-09-23",
+    "tags": [
+      "rust",
+      "go",
+      "c",
+      "script",
+      "tool",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-c2-beacon-simulator-369.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-315",
+    "title": "C2 Beacon Simulator — Go",
+    "section": "scripting",
+    "description": "A Go script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-315.html",
+    "btn_label": "View Script",
+    "date": "2024-08-20",
+    "tags": [
+      "tool",
+      "bash",
+      "fuzzer",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-c2-beacon-simulator-315.png",
+    "words": 344,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-291",
+    "title": "C2 Beacon Simulator — Python",
+    "section": "scripting",
+    "description": "A Python script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-291.html",
+    "btn_label": "View Script",
+    "date": "2024-11-30",
+    "tags": [
+      "rust",
+      "bash",
+      "fuzzer",
+      "tool",
+      "scanner",
+      "script",
+      "python"
+    ],
+    "image": "/img/script-c2-beacon-simulator-291.png",
+    "words": 281,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-107",
+    "title": "C2 Beacon Simulator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-107.html",
+    "btn_label": "View Script",
+    "date": "2025-05-20",
+    "tags": [
+      "automation",
+      "tool",
+      "go",
+      "fuzzer",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-c2-beacon-simulator-107.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-report-generator-879",
+    "title": "Automated Report Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-879.html",
+    "btn_label": "View Script",
+    "date": "2026-01-22",
+    "tags": [
+      "powershell",
+      "scanner",
+      "parser",
+      "go",
+      "tool",
+      "automation"
+    ],
+    "image": "/img/script-automated-report-generator-879.png",
+    "words": 266,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-report-generator-796",
+    "title": "Automated Report Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-796.html",
+    "btn_label": "View Script",
+    "date": "2025-01-14",
+    "tags": [
+      "powershell",
+      "automation",
+      "fuzzer",
+      "script",
+      "c",
+      "scanner",
+      "go"
+    ],
+    "image": "/img/script-automated-report-generator-796.png",
+    "words": 367,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-report-generator-699",
+    "title": "Automated Report Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-699.html",
+    "btn_label": "View Script",
+    "date": "2024-01-15",
+    "tags": [
+      "c",
+      "script",
+      "powershell",
+      "fuzzer",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-automated-report-generator-699.png",
+    "words": 389,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-report-generator-493",
+    "title": "Automated Report Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-493.html",
+    "btn_label": "View Script",
+    "date": "2024-03-27",
+    "tags": [
+      "c",
+      "python",
+      "rust",
+      "script",
+      "bash"
+    ],
+    "image": "/img/script-automated-report-generator-493.png",
+    "words": 360,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-report-generator-343",
+    "title": "Automated Report Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-343.html",
+    "btn_label": "View Script",
+    "date": "2024-10-05",
+    "tags": [
+      "python",
+      "parser",
+      "scanner",
+      "go",
+      "rust",
+      "powershell"
+    ],
+    "image": "/img/script-automated-report-generator-343.png",
+    "words": 317,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-report-generator-222",
+    "title": "Automated Report Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-222.html",
+    "btn_label": "View Script",
+    "date": "2024-09-12",
+    "tags": [
+      "python",
+      "go",
+      "rust",
+      "c",
+      "powershell"
+    ],
+    "image": "/img/script-automated-report-generator-222.png",
+    "words": 348,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-report-generator-137",
+    "title": "Automated Report Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-137.html",
+    "btn_label": "View Script",
+    "date": "2025-03-22",
+    "tags": [
+      "parser",
+      "powershell",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-automated-report-generator-137.png",
+    "words": 326,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-960",
+    "title": "Automated Port Scanner — Go",
+    "section": "scripting",
+    "description": "A Go script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-960.html",
+    "btn_label": "View Script",
+    "date": "2024-08-11",
+    "tags": [
+      "automation",
+      "bash",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-automated-port-scanner-960.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-898",
+    "title": "Automated Port Scanner — Python",
+    "section": "scripting",
+    "description": "A Python script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-898.html",
+    "btn_label": "View Script",
+    "date": "2024-10-21",
+    "tags": [
+      "bash",
+      "automation",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-automated-port-scanner-898.png",
+    "words": 299,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-881",
+    "title": "Automated Port Scanner — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-881.html",
+    "btn_label": "View Script",
+    "date": "2025-05-03",
+    "tags": [
+      "bash",
+      "c",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-automated-port-scanner-881.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-663",
+    "title": "Automated Port Scanner — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-663.html",
+    "btn_label": "View Script",
+    "date": "2025-01-21",
+    "tags": [
+      "automation",
+      "parser",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-automated-port-scanner-663.png",
+    "words": 396,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-631",
+    "title": "Automated Port Scanner — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-631.html",
+    "btn_label": "View Script",
+    "date": "2025-01-17",
+    "tags": [
+      "bash",
+      "python",
+      "c",
+      "automation",
+      "scanner",
+      "go",
+      "powershell"
+    ],
+    "image": "/img/script-automated-port-scanner-631.png",
+    "words": 312,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-539",
+    "title": "Automated Port Scanner — Python",
+    "section": "scripting",
+    "description": "A Python script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-539.html",
+    "btn_label": "View Script",
+    "date": "2025-08-31",
+    "tags": [
+      "bash",
+      "parser",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-automated-port-scanner-539.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-511",
+    "title": "Automated Port Scanner — Python",
+    "section": "scripting",
+    "description": "A Python script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-511.html",
+    "btn_label": "View Script",
+    "date": "2025-04-04",
+    "tags": [
+      "python",
+      "fuzzer",
+      "tool",
+      "powershell",
+      "go",
+      "c"
+    ],
+    "image": "/img/script-automated-port-scanner-511.png",
+    "words": 362,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-425",
+    "title": "Automated Port Scanner — Go",
+    "section": "scripting",
+    "description": "A Go script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-425.html",
+    "btn_label": "View Script",
+    "date": "2024-01-17",
+    "tags": [
+      "c",
+      "scanner",
+      "rust",
+      "python",
+      "parser",
+      "go"
+    ],
+    "image": "/img/script-automated-port-scanner-425.png",
+    "words": 275,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-356",
+    "title": "Automated Port Scanner — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-356.html",
+    "btn_label": "View Script",
+    "date": "2025-01-25",
+    "tags": [
+      "scanner",
+      "tool",
+      "go",
+      "python",
+      "bash"
+    ],
+    "image": "/img/script-automated-port-scanner-356.png",
+    "words": 305,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-335",
+    "title": "Automated Port Scanner — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-335.html",
+    "btn_label": "View Script",
+    "date": "2025-09-17",
+    "tags": [
+      "tool",
+      "scanner",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-automated-port-scanner-335.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-329",
+    "title": "Automated Port Scanner — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-329.html",
+    "btn_label": "View Script",
+    "date": "2024-05-22",
+    "tags": [
+      "c",
+      "tool",
+      "go",
+      "bash",
+      "scanner",
+      "powershell"
+    ],
+    "image": "/img/script-automated-port-scanner-329.png",
+    "words": 344,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-315",
+    "title": "Automated Port Scanner — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-315.html",
+    "btn_label": "View Script",
+    "date": "2024-03-18",
+    "tags": [
+      "rust",
+      "tool",
+      "script",
+      "automation",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-automated-port-scanner-315.png",
+    "words": 295,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-307",
+    "title": "Automated Port Scanner — Go",
+    "section": "scripting",
+    "description": "A Go script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-307.html",
+    "btn_label": "View Script",
+    "date": "2025-04-06",
+    "tags": [
+      "fuzzer",
+      "parser",
+      "go",
+      "c",
+      "script"
+    ],
+    "image": "/img/script-automated-port-scanner-307.png",
+    "words": 377,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-255",
+    "title": "Automated Port Scanner — Python",
+    "section": "scripting",
+    "description": "A Python script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-255.html",
+    "btn_label": "View Script",
+    "date": "2025-12-18",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "python",
+      "script",
+      "tool"
+    ],
+    "image": "/img/script-automated-port-scanner-255.png",
+    "words": 301,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-251",
+    "title": "Automated Port Scanner — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-251.html",
+    "btn_label": "View Script",
+    "date": "2025-04-02",
+    "tags": [
+      "scanner",
+      "bash",
+      "fuzzer",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-automated-port-scanner-251.png",
+    "words": 330,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-128",
+    "title": "Automated Port Scanner — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-128.html",
+    "btn_label": "View Script",
+    "date": "2024-11-27",
+    "tags": [
+      "go",
+      "bash",
+      "python",
+      "c",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-automated-port-scanner-128.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-985",
+    "title": "API Security Testing Framework — Bash",
+    "section": "scripting",
+    "description": "A Bash script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-985.html",
+    "btn_label": "View Script",
+    "date": "2024-10-03",
+    "tags": [
+      "bash",
+      "tool",
+      "parser"
+    ],
+    "image": "/img/script-api-security-testing-framework-985.png",
+    "words": 365,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-933",
+    "title": "API Security Testing Framework — Go",
+    "section": "scripting",
+    "description": "A Go script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-933.html",
+    "btn_label": "View Script",
+    "date": "2025-03-19",
+    "tags": [
+      "parser",
+      "python",
+      "scanner",
+      "go"
+    ],
+    "image": "/img/script-api-security-testing-framework-933.png",
+    "words": 279,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-924",
+    "title": "API Security Testing Framework — Go",
+    "section": "scripting",
+    "description": "A Go script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-924.html",
+    "btn_label": "View Script",
+    "date": "2024-09-11",
+    "tags": [
+      "c",
+      "scanner",
+      "script",
+      "python",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-api-security-testing-framework-924.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-894",
+    "title": "API Security Testing Framework — Bash",
+    "section": "scripting",
+    "description": "A Bash script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-894.html",
+    "btn_label": "View Script",
+    "date": "2024-07-17",
+    "tags": [
+      "go",
+      "scanner",
+      "fuzzer",
+      "rust",
+      "bash"
+    ],
+    "image": "/img/script-api-security-testing-framework-894.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-886",
+    "title": "API Security Testing Framework — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-886.html",
+    "btn_label": "View Script",
+    "date": "2025-02-06",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "python",
+      "automation",
+      "powershell"
+    ],
+    "image": "/img/script-api-security-testing-framework-886.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-862",
+    "title": "API Security Testing Framework — Bash",
+    "section": "scripting",
+    "description": "A Bash script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-862.html",
+    "btn_label": "View Script",
+    "date": "2025-12-21",
+    "tags": [
+      "go",
+      "script",
+      "bash",
+      "rust",
+      "scanner",
+      "tool"
+    ],
+    "image": "/img/script-api-security-testing-framework-862.png",
+    "words": 387,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-607",
+    "title": "API Security Testing Framework — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-607.html",
+    "btn_label": "View Script",
+    "date": "2025-04-07",
+    "tags": [
+      "scanner",
+      "bash",
+      "script",
+      "rust",
+      "go",
+      "powershell"
+    ],
+    "image": "/img/script-api-security-testing-framework-607.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-535",
+    "title": "API Security Testing Framework — Go",
+    "section": "scripting",
+    "description": "A Go script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-535.html",
+    "btn_label": "View Script",
+    "date": "2025-05-24",
+    "tags": [
+      "tool",
+      "powershell",
+      "scanner",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-api-security-testing-framework-535.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-469",
+    "title": "API Security Testing Framework — Python",
+    "section": "scripting",
+    "description": "A Python script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-469.html",
+    "btn_label": "View Script",
+    "date": "2025-09-19",
+    "tags": [
+      "python",
+      "rust",
+      "automation",
+      "script"
+    ],
+    "image": "/img/script-api-security-testing-framework-469.png",
+    "words": 326,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-421",
+    "title": "API Security Testing Framework — Python",
+    "section": "scripting",
+    "description": "A Python script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-421.html",
+    "btn_label": "View Script",
+    "date": "2025-07-21",
+    "tags": [
+      "tool",
+      "automation",
+      "script",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-api-security-testing-framework-421.png",
+    "words": 348,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-393",
+    "title": "API Security Testing Framework — Bash",
+    "section": "scripting",
+    "description": "A Bash script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-393.html",
+    "btn_label": "View Script",
+    "date": "2024-04-14",
+    "tags": [
+      "scanner",
+      "parser",
+      "automation",
+      "rust",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-api-security-testing-framework-393.png",
+    "words": 355,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-331",
+    "title": "API Security Testing Framework — Go",
+    "section": "scripting",
+    "description": "A Go script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-331.html",
+    "btn_label": "View Script",
+    "date": "2024-04-25",
+    "tags": [
+      "script",
+      "powershell",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-api-security-testing-framework-331.png",
+    "words": 303,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-138",
+    "title": "API Security Testing Framework — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-138.html",
+    "btn_label": "View Script",
+    "date": "2025-10-06",
+    "tags": [
+      "fuzzer",
+      "tool",
+      "automation",
+      "powershell"
+    ],
+    "image": "/img/script-api-security-testing-framework-138.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-922",
+    "title": "AMSI Bypass Collection — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-922.html",
+    "btn_label": "View Script",
+    "date": "2025-05-21",
+    "tags": [
+      "fuzzer",
+      "rust",
+      "powershell",
+      "tool"
+    ],
+    "image": "/img/script-amsi-bypass-collection-922.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-821",
+    "title": "AMSI Bypass Collection — Bash",
+    "section": "scripting",
+    "description": "A Bash script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-821.html",
+    "btn_label": "View Script",
+    "date": "2025-08-30",
+    "tags": [
+      "script",
+      "bash",
+      "fuzzer",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-amsi-bypass-collection-821.png",
+    "words": 325,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-810",
+    "title": "AMSI Bypass Collection — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-810.html",
+    "btn_label": "View Script",
+    "date": "2024-08-14",
+    "tags": [
+      "script",
+      "powershell",
+      "python",
+      "fuzzer"
+    ],
+    "image": "/img/script-amsi-bypass-collection-810.png",
+    "words": 325,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-750",
+    "title": "AMSI Bypass Collection — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-750.html",
+    "btn_label": "View Script",
+    "date": "2026-02-15",
+    "tags": [
+      "bash",
+      "parser",
+      "scanner",
+      "automation",
+      "powershell"
+    ],
+    "image": "/img/script-amsi-bypass-collection-750.png",
+    "words": 330,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-740",
+    "title": "AMSI Bypass Collection — Python",
+    "section": "scripting",
+    "description": "A Python script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-740.html",
+    "btn_label": "View Script",
+    "date": "2026-01-03",
+    "tags": [
+      "bash",
+      "rust",
+      "python",
+      "parser",
+      "tool"
+    ],
+    "image": "/img/script-amsi-bypass-collection-740.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-694",
+    "title": "AMSI Bypass Collection — Go",
+    "section": "scripting",
+    "description": "A Go script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-694.html",
+    "btn_label": "View Script",
+    "date": "2024-06-27",
+    "tags": [
+      "tool",
+      "rust",
+      "bash",
+      "c",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-amsi-bypass-collection-694.png",
+    "words": 329,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-530",
+    "title": "AMSI Bypass Collection — Python",
+    "section": "scripting",
+    "description": "A Python script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-530.html",
+    "btn_label": "View Script",
+    "date": "2025-12-24",
+    "tags": [
+      "c",
+      "script",
+      "rust",
+      "bash",
+      "tool",
+      "powershell",
+      "python"
+    ],
+    "image": "/img/script-amsi-bypass-collection-530.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-495",
+    "title": "AMSI Bypass Collection — Python",
+    "section": "scripting",
+    "description": "A Python script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-495.html",
+    "btn_label": "View Script",
+    "date": "2025-05-08",
+    "tags": [
+      "go",
+      "bash",
+      "powershell",
+      "python"
+    ],
+    "image": "/img/script-amsi-bypass-collection-495.png",
+    "words": 347,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-473",
+    "title": "AMSI Bypass Collection — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-473.html",
+    "btn_label": "View Script",
+    "date": "2024-12-20",
+    "tags": [
+      "script",
+      "c",
+      "python",
+      "bash",
+      "powershell"
+    ],
+    "image": "/img/script-amsi-bypass-collection-473.png",
+    "words": 324,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-470",
+    "title": "AMSI Bypass Collection — Go",
+    "section": "scripting",
+    "description": "A Go script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-470.html",
+    "btn_label": "View Script",
+    "date": "2024-05-07",
+    "tags": [
+      "rust",
+      "bash",
+      "script",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-amsi-bypass-collection-470.png",
+    "words": 284,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-447",
+    "title": "AMSI Bypass Collection — Go",
+    "section": "scripting",
+    "description": "A Go script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-447.html",
+    "btn_label": "View Script",
+    "date": "2025-10-08",
+    "tags": [
+      "script",
+      "scanner",
+      "bash",
+      "parser",
+      "automation",
+      "c",
+      "go"
+    ],
+    "image": "/img/script-amsi-bypass-collection-447.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-446",
+    "title": "AMSI Bypass Collection — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-446.html",
+    "btn_label": "View Script",
+    "date": "2024-10-10",
+    "tags": [
+      "rust",
+      "tool",
+      "scanner",
+      "fuzzer",
+      "automation",
+      "powershell"
+    ],
+    "image": "/img/script-amsi-bypass-collection-446.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-356",
+    "title": "AMSI Bypass Collection — Bash",
+    "section": "scripting",
+    "description": "A Bash script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-356.html",
+    "btn_label": "View Script",
+    "date": "2024-12-21",
+    "tags": [
+      "automation",
+      "scanner",
+      "fuzzer",
+      "bash"
+    ],
+    "image": "/img/script-amsi-bypass-collection-356.png",
+    "words": 289,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-196",
+    "title": "AMSI Bypass Collection — Bash",
+    "section": "scripting",
+    "description": "A Bash script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-196.html",
+    "btn_label": "View Script",
+    "date": "2026-01-04",
+    "tags": [
+      "python",
+      "tool",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-amsi-bypass-collection-196.png",
+    "words": 261,
+    "readTime": "2 min"
+  },
+  {
     "id": "port-scan-tool",
     "title": "Fast Port Scanner in Python",
     "section": "scripting",

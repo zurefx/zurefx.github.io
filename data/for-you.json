@@ -1,182 +1,173 @@
 [
   {
-    "id": "htb-active",
-    "title": "HTB Active — Easy Windows",
-    "section": "writeups",
-    "description": "Full writeup for HackTheBox Active. SMB anonymous share enumeration, GPP password decryption with gpp-decrypt, and Kerberoasting the Administrator account to get SYSTEM.",
-    "permalink": "/writeups/htb-active.html",
-    "btn_label": "Read Writeup",
-    "date": "2026-03-25",
-    "tags": [
-      "hackthebox",
-      "easy",
-      "windows",
-      "kerberoasting",
-      "gpp",
-      "smb",
-      "activedirectory"
-    ],
-    "image": "/img/htb-active.png",
-    "words": 1052,
-    "readTime": "6 min",
-    "pick": 1
-  },
-  {
-    "id": "htb-linkvortex",
-    "title": "HTB LinkVortex — Easy Linux",
-    "section": "writeups",
-    "description": "HackTheBox LinkVortex writeup. Ghost CMS credential leak via git repo exposure and symlink exploit for root.",
-    "permalink": "/writeups/htb-linkvortex.html",
-    "btn_label": "Read Writeup",
-    "date": "2026-03-23",
-    "tags": [
-      "hackthebox",
-      "easy",
-      "linux",
-      "ghostcms",
-      "symlink"
-    ],
-    "image": "/img/htb-linkvortex.png",
-    "words": 96,
-    "readTime": "1 min",
-    "pick": 1
-  },
-  {
-    "id": "zfx-recon-tool",
-    "title": "ZFX Recon Tool",
-    "section": "projects",
-    "description": "Automated reconnaissance framework for CTF and pentesting. Chains nmap, ffuf, whatweb and screenshots into a single command with structured output.",
-    "permalink": "/research/zfx-recon-tool.html",
-    "btn_label": "View on GitHub",
-    "date": "2026-03-22",
-    "tags": [
-      "python",
-      "automation",
-      "recon",
-      "opensource",
-      "tools"
-    ],
-    "image": "/img/zfx-recon-tool.png",
-    "words": 43,
-    "readTime": "1 min",
-    "features": [
-      "Automated nmap + ffuf + whatweb chain",
-      "Structured markdown output per target",
-      "Screenshot capture via gowitness",
-      "Plugin system for custom modules"
-    ]
-  },
-  {
-    "id": "htb-analysis",
-    "title": "HTB Analysis — Hard Windows",
-    "section": "writeups",
-    "description": "HackTheBox Analysis writeup. LDAP injection, ASP webshell, DLL hijacking and Snort dynamic preprocessor abuse for root.",
-    "permalink": "/writeups/htb-analysis.html",
-    "btn_label": "Read Writeup",
-    "date": "2026-03-19",
-    "tags": [
-      "hackthebox",
-      "hard",
-      "windows",
-      "ldapinjection",
-      "dllhijacking"
-    ],
-    "image": "/img/htb-analysis.png",
-    "words": 85,
-    "readTime": "1 min"
-  },
-  {
-    "id": "ad-kerberoasting",
-    "title": "Kerberoasting — Active Directory",
-    "section": "notes",
-    "description": "Kerberoasting attack explained: how to request TGS tickets, extract hashes and crack service account passwords offline.",
-    "permalink": "/notes/ad-kerberoasting.html",
-    "btn_label": "View CheatSheet",
-    "date": "2026-03-18",
-    "tags": [
-      "activedirectory",
-      "kerberoasting",
-      "cheatsheet",
-      "impacket"
-    ],
-    "image": "/img/ad-kerberoasting.png",
-    "words": 87,
-    "readTime": "1 min",
-    "subsection": "Active Directory"
-  },
-  {
-    "id": "port-scan-tool",
-    "title": "Fast Port Scanner in Python",
+    "id": "script-web-crawler-and-spider-994",
+    "title": "Web Crawler and Spider — PowerShell",
     "section": "scripting",
-    "description": "Multithreaded Python port scanner with banner grabbing, built as a lightweight alternative to nmap for CTF environments.",
-    "permalink": "/scripting/port-scan-tool.html",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-994.html",
     "btn_label": "View Script",
-    "date": "2026-03-17",
+    "date": "2026-02-28",
+    "tags": [
+      "bash",
+      "fuzzer",
+      "script",
+      "rust",
+      "powershell",
+      "automation"
+    ],
+    "image": "/img/script-web-crawler-and-spider-994.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-851",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-851.html",
+    "btn_label": "View Script",
+    "date": "2024-08-11",
+    "tags": [
+      "go",
+      "python",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-851.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-790",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-790.html",
+    "btn_label": "View Script",
+    "date": "2024-10-28",
+    "tags": [
+      "rust",
+      "scanner",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-790.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-756",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-756.html",
+    "btn_label": "View Script",
+    "date": "2025-05-10",
     "tags": [
       "python",
-      "scripting",
-      "tools",
-      "networking"
+      "go",
+      "rust",
+      "scanner",
+      "script"
     ],
-    "image": "/img/port-scan-tool.png",
-    "words": 81,
-    "readTime": "1 min"
+    "image": "/img/script-web-crawler-and-spider-756.png",
+    "words": 328,
+    "readTime": "2 min"
   },
   {
-    "id": "linux-privesc-notes",
-    "title": "Linux Privilege Escalation",
-    "section": "notes",
-    "description": "Linux privesc quick reference: SUID, sudo misconfigurations, cron jobs, writable paths and kernel exploits.",
-    "permalink": "/notes/linux-privesc-notes.html",
-    "btn_label": "View CheatSheet",
-    "date": "2026-03-16",
+    "id": "script-web-crawler-and-spider-715",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-715.html",
+    "btn_label": "View Script",
+    "date": "2026-03-20",
     "tags": [
-      "cheatsheet",
-      "linux",
-      "privesc",
-      "oscp"
+      "powershell",
+      "fuzzer",
+      "script",
+      "rust",
+      "go"
     ],
-    "image": "/img/linux-privesc-notes.png",
-    "words": 64,
-    "readTime": "1 min",
-    "subsection": "Linux"
+    "image": "/img/script-web-crawler-and-spider-715.png",
+    "words": 345,
+    "readTime": "2 min"
   },
   {
-    "id": "edr-evasion-research",
-    "title": "EDR Evasion Techniques Overview",
-    "section": "research",
-    "description": "Overview of common EDR evasion techniques: syscall unhooking, AMSI bypass, process injection and sleep obfuscation.",
-    "permalink": "/research/edr-evasion-research.html",
-    "btn_label": "Read Research",
-    "date": "2026-03-15",
+    "id": "script-web-crawler-and-spider-713",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-713.html",
+    "btn_label": "View Script",
+    "date": "2026-01-10",
     "tags": [
-      "research",
-      "redteam",
-      "edr",
-      "evasion",
-      "amsi"
+      "powershell",
+      "scanner",
+      "script",
+      "go"
     ],
-    "image": "/img/edr-evasion-research.png",
-    "words": 75,
-    "readTime": "1 min"
+    "image": "/img/script-web-crawler-and-spider-713.png",
+    "words": 298,
+    "readTime": "2 min"
   },
   {
-    "id": "htb-bizness",
-    "title": "HTB Bizness — Easy Linux",
-    "section": "writeups",
-    "description": "HackTheBox Bizness writeup. Apache OFBiz authentication bypass CVE-2023-49070 and SHA1 hash cracking for root.",
-    "permalink": "/writeups/htb-bizness.html",
-    "btn_label": "Read Writeup",
-    "date": "2026-03-14",
+    "id": "script-web-crawler-and-spider-693",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-693.html",
+    "btn_label": "View Script",
+    "date": "2024-06-24",
     "tags": [
-      "hackthebox",
-      "easy",
-      "linux",
-      "ofbiz",
-      "authbypass"
+      "bash",
+      "tool",
+      "automation",
+      "rust",
+      "go"
     ],
-    "image": "/img/htb-bizness.png",
-    "words": 55,
-    "readTime": "1 min"
+    "image": "/img/script-web-crawler-and-spider-693.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-670",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-670.html",
+    "btn_label": "View Script",
+    "date": "2024-12-16",
+    "tags": [
+      "rust",
+      "scanner",
+      "parser",
+      "python",
+      "c",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-670.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-647",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-647.html",
+    "btn_label": "View Script",
+    "date": "2025-08-08",
+    "tags": [
+      "rust",
+      "go",
+      "python",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-web-crawler-and-spider-647.png",
+    "words": 346,
+    "readTime": "2 min"
   }
 ]

@@ -1,8 +1,10 @@
 /* ============================================================
-   ZureFX — archives.js  (v3)
-   Carga plana desde data/posts.json (mismo patrón que app.js).
-   Depende de app.js (cargado antes): getRootPrefix(),
-   SECTION_COLOR_MAP, fmtDate(), capitalize().
+   ZureFX — archives.js  (v4)
+   Carga desde data/posts-recent.json (últimos ~50 posts).
+   Si no existe, cae a data/posts.json como fallback.
+   Reutiliza CACHE de app.js cuando está disponible.
+   Depende de app.js: getRootPrefix(), SECTION_COLOR_MAP,
+                      fmtDate(), capitalize(), CACHE.
    ============================================================ */
 
 /* ── Helpers ── */
@@ -119,21 +121,45 @@ function updateArchivesStats(text) {
 }
 
 /* ══════════════════════════════════════════════════════
-   LOAD — carga plana desde data/posts.json
+   LOAD — 3 niveles de prioridad
+   1. CACHE['all'] de app.js → cero fetch
+   2. posts-recent.json     → archivo ligero (~50 posts)
+   3. posts.json            → fallback completo
    ══════════════════════════════════════════════════════ */
-function loadAllPosts() {
-  var url = getRootPrefix() + 'data/posts.json?v=' + Date.now();
-  return fetch(url, { cache: 'no-store' })
+function loadRecentPosts() {
+  /* Nivel 1: reutilizar CACHE de app.js si ya está en memoria */
+  if (typeof CACHE !== 'undefined' && Array.isArray(CACHE['all']) && CACHE['all'].length) {
+    console.log('[ZFX] archives — usando CACHE[all]');
+    return Promise.resolve(CACHE['all'].slice(0, 50));
+  }
+
+  var prefix = getRootPrefix();
+
+  /* Nivel 2: posts-recent.json (archivo ligero, solo últimos ~50) */
+  return fetch(prefix + 'data/posts-recent.json?v=' + Date.now(), { cache: 'no-store' })
     .then(function(res) {
-      if (!res.ok) throw new Error('HTTP ' + res.status);
+      if (!res.ok) throw new Error('no-recent');
       return res.json();
     })
     .then(function(data) {
+      console.log('[ZFX] archives — loaded posts-recent.json');
       return Array.isArray(data) ? data : [];
     })
-    .catch(function(err) {
-      console.warn('[archives.js] Could not load posts.json:', err);
-      return [];
+    .catch(function() {
+      /* Nivel 3: fallback a posts.json completo */
+      console.warn('[ZFX] archives — posts-recent.json no encontrado, usando posts.json');
+      return fetch(prefix + 'data/posts.json?v=' + Date.now(), { cache: 'no-store' })
+        .then(function(res) {
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          return res.json();
+        })
+        .then(function(data) {
+          return Array.isArray(data) ? data.slice(0, 50) : [];
+        })
+        .catch(function(err) {
+          console.warn('[archives.js] Could not load posts.json:', err);
+          return [];
+        });
     });
 }
 
@@ -145,9 +171,7 @@ async function loadArchives() {
   renderSkeletonArc(container);
 
   try {
-    var allPosts = await loadAllPosts();
-
-    console.log('[ZFX] archives — loaded posts.json — ' + allPosts.length + ' posts');
+    var allPosts = await loadRecentPosts();
 
     var posts = allPosts
       .filter(function(p) { return p.section !== 'projects'; })
@@ -202,7 +226,7 @@ async function loadArchives() {
     console.error('[archives.js]', err);
     container.innerHTML =
       '<div class="archives-empty"><h3>Could not load archives</h3>' +
-      '<p>Check that <code>/data/posts.json</code> exists.</p></div>';
+      '<p>Check that <code>/data/posts-recent.json</code> exists.</p></div>';
   }
 }
 

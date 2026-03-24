@@ -1,0 +1,956 @@
+[
+  {
+    "id": "script-web-crawler-and-spider-994",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-994.html",
+    "btn_label": "View Script",
+    "date": "2026-02-28",
+    "tags": [
+      "bash",
+      "fuzzer",
+      "script",
+      "rust",
+      "powershell",
+      "automation"
+    ],
+    "image": "/img/script-web-crawler-and-spider-994.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-851",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-851.html",
+    "btn_label": "View Script",
+    "date": "2024-08-11",
+    "tags": [
+      "go",
+      "python",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-851.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-790",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-790.html",
+    "btn_label": "View Script",
+    "date": "2024-10-28",
+    "tags": [
+      "rust",
+      "scanner",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-790.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-756",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-756.html",
+    "btn_label": "View Script",
+    "date": "2025-05-10",
+    "tags": [
+      "python",
+      "go",
+      "rust",
+      "scanner",
+      "script"
+    ],
+    "image": "/img/script-web-crawler-and-spider-756.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-715",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-715.html",
+    "btn_label": "View Script",
+    "date": "2026-03-20",
+    "tags": [
+      "powershell",
+      "fuzzer",
+      "script",
+      "rust",
+      "go"
+    ],
+    "image": "/img/script-web-crawler-and-spider-715.png",
+    "words": 345,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-713",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-713.html",
+    "btn_label": "View Script",
+    "date": "2026-01-10",
+    "tags": [
+      "powershell",
+      "scanner",
+      "script",
+      "go"
+    ],
+    "image": "/img/script-web-crawler-and-spider-713.png",
+    "words": 298,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-693",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-693.html",
+    "btn_label": "View Script",
+    "date": "2024-06-24",
+    "tags": [
+      "bash",
+      "tool",
+      "automation",
+      "rust",
+      "go"
+    ],
+    "image": "/img/script-web-crawler-and-spider-693.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-670",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-670.html",
+    "btn_label": "View Script",
+    "date": "2024-12-16",
+    "tags": [
+      "rust",
+      "scanner",
+      "parser",
+      "python",
+      "c",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-670.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-647",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-647.html",
+    "btn_label": "View Script",
+    "date": "2025-08-08",
+    "tags": [
+      "rust",
+      "go",
+      "python",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-web-crawler-and-spider-647.png",
+    "words": 346,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-581",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-581.html",
+    "btn_label": "View Script",
+    "date": "2026-02-12",
+    "tags": [
+      "scanner",
+      "parser",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-web-crawler-and-spider-581.png",
+    "words": 312,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-559",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-559.html",
+    "btn_label": "View Script",
+    "date": "2025-04-24",
+    "tags": [
+      "powershell",
+      "rust",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-web-crawler-and-spider-559.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-534",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-534.html",
+    "btn_label": "View Script",
+    "date": "2025-02-10",
+    "tags": [
+      "bash",
+      "scanner",
+      "rust",
+      "python",
+      "go",
+      "script"
+    ],
+    "image": "/img/script-web-crawler-and-spider-534.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-516",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-516.html",
+    "btn_label": "View Script",
+    "date": "2024-03-02",
+    "tags": [
+      "automation",
+      "parser",
+      "scanner",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-516.png",
+    "words": 374,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-308",
+    "title": "Web Crawler and Spider — Python",
+    "section": "scripting",
+    "description": "A Python script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-308.html",
+    "btn_label": "View Script",
+    "date": "2024-03-10",
+    "tags": [
+      "rust",
+      "tool",
+      "script",
+      "bash",
+      "automation",
+      "python"
+    ],
+    "image": "/img/script-web-crawler-and-spider-308.png",
+    "words": 392,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-290",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-290.html",
+    "btn_label": "View Script",
+    "date": "2024-11-11",
+    "tags": [
+      "parser",
+      "tool",
+      "rust",
+      "go",
+      "fuzzer",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-290.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-245",
+    "title": "Web Crawler and Spider — Python",
+    "section": "scripting",
+    "description": "A Python script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-245.html",
+    "btn_label": "View Script",
+    "date": "2025-05-31",
+    "tags": [
+      "python",
+      "rust",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-245.png",
+    "words": 351,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-952",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-952.html",
+    "btn_label": "View Script",
+    "date": "2024-10-23",
+    "tags": [
+      "bash",
+      "parser",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-952.png",
+    "words": 372,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-915",
+    "title": "Subdomain Enumeration Tool — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-915.html",
+    "btn_label": "View Script",
+    "date": "2025-03-02",
+    "tags": [
+      "python",
+      "rust",
+      "bash",
+      "automation",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-915.png",
+    "words": 265,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-613",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-613.html",
+    "btn_label": "View Script",
+    "date": "2026-03-04",
+    "tags": [
+      "tool",
+      "script",
+      "go",
+      "scanner",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-613.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-454",
+    "title": "Subdomain Enumeration Tool — Go",
+    "section": "scripting",
+    "description": "A Go script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-454.html",
+    "btn_label": "View Script",
+    "date": "2025-11-30",
+    "tags": [
+      "tool",
+      "python",
+      "rust",
+      "automation",
+      "fuzzer",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-454.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-446",
+    "title": "Subdomain Enumeration Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-446.html",
+    "btn_label": "View Script",
+    "date": "2024-10-14",
+    "tags": [
+      "automation",
+      "python",
+      "scanner",
+      "bash",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-446.png",
+    "words": 367,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-421",
+    "title": "Subdomain Enumeration Tool — Go",
+    "section": "scripting",
+    "description": "A Go script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-421.html",
+    "btn_label": "View Script",
+    "date": "2025-11-24",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "python",
+      "go"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-421.png",
+    "words": 307,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-419",
+    "title": "Subdomain Enumeration Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-419.html",
+    "btn_label": "View Script",
+    "date": "2025-06-16",
+    "tags": [
+      "bash",
+      "script",
+      "fuzzer",
+      "parser"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-419.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-406",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-406.html",
+    "btn_label": "View Script",
+    "date": "2025-10-29",
+    "tags": [
+      "go",
+      "script",
+      "automation",
+      "scanner",
+      "parser",
+      "fuzzer",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-406.png",
+    "words": 334,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-220",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-220.html",
+    "btn_label": "View Script",
+    "date": "2024-09-10",
+    "tags": [
+      "script",
+      "c",
+      "scanner",
+      "parser",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-220.png",
+    "words": 257,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-190",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-190.html",
+    "btn_label": "View Script",
+    "date": "2024-11-14",
+    "tags": [
+      "rust",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-190.png",
+    "words": 301,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-956",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-956.html",
+    "btn_label": "View Script",
+    "date": "2024-07-20",
+    "tags": [
+      "tool",
+      "scanner",
+      "rust",
+      "parser",
+      "powershell",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-956.png",
+    "words": 284,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-921",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-921.html",
+    "btn_label": "View Script",
+    "date": "2025-08-07",
+    "tags": [
+      "automation",
+      "parser",
+      "go",
+      "bash",
+      "python",
+      "tool"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-921.png",
+    "words": 286,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-872",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-872.html",
+    "btn_label": "View Script",
+    "date": "2024-09-28",
+    "tags": [
+      "go",
+      "script",
+      "bash",
+      "python",
+      "scanner"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-872.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-831",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-831.html",
+    "btn_label": "View Script",
+    "date": "2024-09-21",
+    "tags": [
+      "rust",
+      "automation",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-831.png",
+    "words": 299,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-689",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-689.html",
+    "btn_label": "View Script",
+    "date": "2024-11-17",
+    "tags": [
+      "python",
+      "go",
+      "fuzzer",
+      "scanner"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-689.png",
+    "words": 293,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-686",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-686.html",
+    "btn_label": "View Script",
+    "date": "2025-03-12",
+    "tags": [
+      "parser",
+      "bash",
+      "go",
+      "scanner",
+      "tool",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-686.png",
+    "words": 323,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-517",
+    "title": "SMB Share Enumeration Script — Python",
+    "section": "scripting",
+    "description": "A Python script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-517.html",
+    "btn_label": "View Script",
+    "date": "2024-08-04",
+    "tags": [
+      "rust",
+      "fuzzer",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-517.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-453",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-453.html",
+    "btn_label": "View Script",
+    "date": "2025-11-06",
+    "tags": [
+      "scanner",
+      "parser",
+      "powershell",
+      "rust",
+      "fuzzer",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-453.png",
+    "words": 346,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-431",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-431.html",
+    "btn_label": "View Script",
+    "date": "2025-04-01",
+    "tags": [
+      "rust",
+      "script",
+      "powershell",
+      "python",
+      "c",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-431.png",
+    "words": 318,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-398",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-398.html",
+    "btn_label": "View Script",
+    "date": "2025-01-29",
+    "tags": [
+      "rust",
+      "scanner",
+      "c",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-398.png",
+    "words": 342,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-352",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-352.html",
+    "btn_label": "View Script",
+    "date": "2024-05-15",
+    "tags": [
+      "powershell",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-352.png",
+    "words": 282,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-347",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-347.html",
+    "btn_label": "View Script",
+    "date": "2024-03-09",
+    "tags": [
+      "script",
+      "automation",
+      "c",
+      "python",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-347.png",
+    "words": 347,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-338",
+    "title": "SMB Share Enumeration Script — Python",
+    "section": "scripting",
+    "description": "A Python script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-338.html",
+    "btn_label": "View Script",
+    "date": "2025-09-19",
+    "tags": [
+      "bash",
+      "python",
+      "fuzzer",
+      "c",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-338.png",
+    "words": 309,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-301",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-301.html",
+    "btn_label": "View Script",
+    "date": "2025-02-28",
+    "tags": [
+      "rust",
+      "parser",
+      "bash",
+      "scanner",
+      "tool",
+      "fuzzer"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-301.png",
+    "words": 347,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-257",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-257.html",
+    "btn_label": "View Script",
+    "date": "2025-03-10",
+    "tags": [
+      "python",
+      "tool",
+      "automation",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-257.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-236",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-236.html",
+    "btn_label": "View Script",
+    "date": "2024-01-26",
+    "tags": [
+      "fuzzer",
+      "powershell",
+      "parser"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-236.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-200",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-200.html",
+    "btn_label": "View Script",
+    "date": "2025-05-25",
+    "tags": [
+      "c",
+      "automation",
+      "python",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-200.png",
+    "words": 278,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-189",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-189.html",
+    "btn_label": "View Script",
+    "date": "2025-10-04",
+    "tags": [
+      "powershell",
+      "scanner",
+      "tool",
+      "rust",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-189.png",
+    "words": 330,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-159",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-159.html",
+    "btn_label": "View Script",
+    "date": "2025-06-21",
+    "tags": [
+      "c",
+      "bash",
+      "scanner",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-159.png",
+    "words": 308,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-149",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-149.html",
+    "btn_label": "View Script",
+    "date": "2024-09-18",
+    "tags": [
+      "scanner",
+      "rust",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-149.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-136",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-136.html",
+    "btn_label": "View Script",
+    "date": "2024-02-03",
+    "tags": [
+      "script",
+      "parser",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-136.png",
+    "words": 363,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-993",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-993.html",
+    "btn_label": "View Script",
+    "date": "2024-03-18",
+    "tags": [
+      "script",
+      "rust",
+      "powershell",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-reverse-shell-generator-993.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-974",
+    "title": "Reverse Shell Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-974.html",
+    "btn_label": "View Script",
+    "date": "2024-12-29",
+    "tags": [
+      "python",
+      "parser",
+      "powershell",
+      "automation",
+      "c",
+      "rust"
+    ],
+    "image": "/img/script-reverse-shell-generator-974.png",
+    "words": 331,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-928",
+    "title": "Reverse Shell Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-928.html",
+    "btn_label": "View Script",
+    "date": "2024-07-10",
+    "tags": [
+      "scanner",
+      "rust",
+      "c",
+      "tool",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-reverse-shell-generator-928.png",
+    "words": 355,
+    "readTime": "2 min"
+  }
+]

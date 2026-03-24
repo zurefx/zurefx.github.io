@@ -1,5 +1,5769 @@
 [
   {
+    "id": "research-threat-intelligence-integration-995",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-995.html",
+    "btn_label": "Read Research",
+    "date": "2025-12-24",
+    "tags": [
+      "heap-exploitation",
+      "exploit-development",
+      "malware-analysis",
+      "kernel",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-threat-intelligence-integration-995.png",
+    "words": 462,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-threat-intelligence-integration-916",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-916.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-13",
+    "tags": [
+      "exploit-development",
+      "shellcode",
+      "rop",
+      "malware-analysis",
+      "aslr-bypass",
+      "kernel"
+    ],
+    "image": "/img/research-threat-intelligence-integration-916.png",
+    "words": 508,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-threat-intelligence-integration-820",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-820.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-30",
+    "tags": [
+      "aslr-bypass",
+      "exploit-development",
+      "shellcode",
+      "zero-day",
+      "format-string",
+      "kernel"
+    ],
+    "image": "/img/research-threat-intelligence-integration-820.png",
+    "words": 449,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-769",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-769.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-01",
+    "tags": [
+      "shellcode",
+      "heap-exploitation",
+      "kernel"
+    ],
+    "image": "/img/research-threat-intelligence-integration-769.png",
+    "words": 503,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-755",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-755.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-20",
+    "tags": [
+      "aslr-bypass",
+      "zero-day",
+      "heap-exploitation",
+      "malware-analysis"
+    ],
+    "image": "/img/research-threat-intelligence-integration-755.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-748",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-748.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-05",
+    "tags": [
+      "uaf",
+      "cve",
+      "rop",
+      "zero-day",
+      "aslr-bypass",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-threat-intelligence-integration-748.png",
+    "words": 504,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-threat-intelligence-integration-733",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-733.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-03",
+    "tags": [
+      "exploit-development",
+      "uaf",
+      "buffer-overflow",
+      "malware-analysis"
+    ],
+    "image": "/img/research-threat-intelligence-integration-733.png",
+    "words": 460,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-514",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-514.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-09",
+    "tags": [
+      "cve",
+      "zero-day",
+      "format-string",
+      "exploit-development",
+      "rop",
+      "malware-analysis"
+    ],
+    "image": "/img/research-threat-intelligence-integration-514.png",
+    "words": 460,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-threat-intelligence-integration-489",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-489.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-30",
+    "tags": [
+      "format-string",
+      "uaf",
+      "shellcode",
+      "cve"
+    ],
+    "image": "/img/research-threat-intelligence-integration-489.png",
+    "words": 434,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-threat-intelligence-integration-347",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-347.html",
+    "btn_label": "Read Research",
+    "date": "2025-07-05",
+    "tags": [
+      "heap-exploitation",
+      "cve",
+      "shellcode",
+      "uaf"
+    ],
+    "image": "/img/research-threat-intelligence-integration-347.png",
+    "words": 491,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-270",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-270.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-24",
+    "tags": [
+      "buffer-overflow",
+      "rop",
+      "kernel"
+    ],
+    "image": "/img/research-threat-intelligence-integration-270.png",
+    "words": 470,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-255",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-255.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-11",
+    "tags": [
+      "cve",
+      "rop",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-threat-intelligence-integration-255.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-253",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-253.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-08",
+    "tags": [
+      "rop",
+      "exploit-development",
+      "zero-day",
+      "malware-analysis",
+      "cve"
+    ],
+    "image": "/img/research-threat-intelligence-integration-253.png",
+    "words": 483,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-threat-intelligence-integration-234",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-234.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-14",
+    "tags": [
+      "malware-analysis",
+      "uaf",
+      "aslr-bypass",
+      "format-string",
+      "zero-day",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-threat-intelligence-integration-234.png",
+    "words": 513,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-threat-intelligence-integration-168",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-168.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-21",
+    "tags": [
+      "heap-exploitation",
+      "cve",
+      "exploit-development"
+    ],
+    "image": "/img/research-threat-intelligence-integration-168.png",
+    "words": 482,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-150",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-150.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-03",
+    "tags": [
+      "rop",
+      "format-string",
+      "uaf",
+      "heap-exploitation",
+      "kernel"
+    ],
+    "image": "/img/research-threat-intelligence-integration-150.png",
+    "words": 478,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-837",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-837.html",
+    "btn_label": "Read Research",
+    "date": "2024-05-06",
+    "tags": [
+      "uaf",
+      "format-string",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-837.png",
+    "words": 434,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-822",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-822.html",
+    "btn_label": "Read Research",
+    "date": "2025-07-20",
+    "tags": [
+      "uaf",
+      "exploit-development",
+      "zero-day",
+      "kernel"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-822.png",
+    "words": 502,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-802",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-802.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-30",
+    "tags": [
+      "rop",
+      "malware-analysis",
+      "aslr-bypass",
+      "cve"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-802.png",
+    "words": 480,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-630",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-630.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-04",
+    "tags": [
+      "rop",
+      "heap-exploitation",
+      "format-string"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-630.png",
+    "words": 490,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-538",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-538.html",
+    "btn_label": "Read Research",
+    "date": "2024-12-13",
+    "tags": [
+      "zero-day",
+      "rop",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-538.png",
+    "words": 467,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-500",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-500.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-19",
+    "tags": [
+      "buffer-overflow",
+      "kernel",
+      "rop",
+      "exploit-development"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-500.png",
+    "words": 496,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-452",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-452.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-16",
+    "tags": [
+      "rop",
+      "shellcode",
+      "format-string",
+      "malware-analysis",
+      "aslr-bypass",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-452.png",
+    "words": 454,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-378",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-378.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-23",
+    "tags": [
+      "zero-day",
+      "format-string",
+      "rop",
+      "kernel",
+      "heap-exploitation",
+      "exploit-development"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-378.png",
+    "words": 526,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-302",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-302.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-25",
+    "tags": [
+      "buffer-overflow",
+      "format-string",
+      "malware-analysis",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-302.png",
+    "words": 481,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-281",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-281.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-15",
+    "tags": [
+      "aslr-bypass",
+      "zero-day",
+      "cve",
+      "buffer-overflow",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-281.png",
+    "words": 492,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-122",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-122.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-31",
+    "tags": [
+      "malware-analysis",
+      "format-string",
+      "heap-exploitation",
+      "rop"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-122.png",
+    "words": 526,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-111",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-111.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-03",
+    "tags": [
+      "malware-analysis",
+      "aslr-bypass",
+      "format-string",
+      "shellcode",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-111.png",
+    "words": 481,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-red-team-infrastructure-design-970",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-970.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-05",
+    "tags": [
+      "shellcode",
+      "zero-day",
+      "format-string",
+      "buffer-overflow",
+      "rop"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-970.png",
+    "words": 437,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-red-team-infrastructure-design-763",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-763.html",
+    "btn_label": "Read Research",
+    "date": "2024-03-28",
+    "tags": [
+      "cve",
+      "exploit-development",
+      "malware-analysis"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-763.png",
+    "words": 490,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-red-team-infrastructure-design-709",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-709.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-23",
+    "tags": [
+      "uaf",
+      "cve",
+      "buffer-overflow",
+      "format-string"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-709.png",
+    "words": 477,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-red-team-infrastructure-design-687",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-687.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-04",
+    "tags": [
+      "shellcode",
+      "exploit-development",
+      "cve"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-687.png",
+    "words": 552,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-red-team-infrastructure-design-378",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-378.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-19",
+    "tags": [
+      "shellcode",
+      "heap-exploitation",
+      "rop",
+      "uaf",
+      "format-string"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-378.png",
+    "words": 507,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-red-team-infrastructure-design-293",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-293.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-23",
+    "tags": [
+      "malware-analysis",
+      "buffer-overflow",
+      "heap-exploitation",
+      "kernel",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-293.png",
+    "words": 493,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-red-team-infrastructure-design-213",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-213.html",
+    "btn_label": "Read Research",
+    "date": "2024-03-17",
+    "tags": [
+      "aslr-bypass",
+      "buffer-overflow",
+      "format-string",
+      "malware-analysis",
+      "zero-day"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-213.png",
+    "words": 461,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-984",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-984.html",
+    "btn_label": "Read Research",
+    "date": "2025-12-17",
+    "tags": [
+      "buffer-overflow",
+      "cve",
+      "kernel",
+      "shellcode"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-984.png",
+    "words": 458,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-942",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-942.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-23",
+    "tags": [
+      "malware-analysis",
+      "uaf",
+      "format-string",
+      "rop",
+      "zero-day"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-942.png",
+    "words": 473,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-688",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-688.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-11",
+    "tags": [
+      "malware-analysis",
+      "buffer-overflow",
+      "exploit-development",
+      "cve"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-688.png",
+    "words": 481,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-685",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-685.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-03",
+    "tags": [
+      "format-string",
+      "buffer-overflow",
+      "shellcode",
+      "zero-day",
+      "rop"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-685.png",
+    "words": 510,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-676",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-676.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-14",
+    "tags": [
+      "shellcode",
+      "exploit-development",
+      "buffer-overflow",
+      "malware-analysis",
+      "rop"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-676.png",
+    "words": 460,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-528",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-528.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-23",
+    "tags": [
+      "malware-analysis",
+      "heap-exploitation",
+      "format-string",
+      "rop",
+      "shellcode",
+      "exploit-development"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-528.png",
+    "words": 530,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-499",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-499.html",
+    "btn_label": "Read Research",
+    "date": "2025-12-30",
+    "tags": [
+      "malware-analysis",
+      "buffer-overflow",
+      "format-string"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-499.png",
+    "words": 516,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-244",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-244.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-08",
+    "tags": [
+      "malware-analysis",
+      "exploit-development",
+      "rop",
+      "format-string",
+      "zero-day",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-244.png",
+    "words": 476,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-196",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-196.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-19",
+    "tags": [
+      "uaf",
+      "format-string",
+      "rop",
+      "kernel",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-196.png",
+    "words": 481,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-705",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-705.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-15",
+    "tags": [
+      "uaf",
+      "heap-exploitation",
+      "kernel",
+      "buffer-overflow",
+      "cve",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-705.png",
+    "words": 415,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-681",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-681.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-20",
+    "tags": [
+      "uaf",
+      "heap-exploitation",
+      "zero-day",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-681.png",
+    "words": 458,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-604",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-604.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-31",
+    "tags": [
+      "buffer-overflow",
+      "format-string",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-604.png",
+    "words": 470,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-585",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-585.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-26",
+    "tags": [
+      "heap-exploitation",
+      "buffer-overflow",
+      "shellcode",
+      "format-string"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-585.png",
+    "words": 495,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-507",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-507.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-14",
+    "tags": [
+      "uaf",
+      "rop",
+      "heap-exploitation",
+      "exploit-development"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-507.png",
+    "words": 490,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-388",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-388.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-13",
+    "tags": [
+      "shellcode",
+      "kernel",
+      "zero-day",
+      "cve",
+      "rop"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-388.png",
+    "words": 507,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-370",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-370.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-04",
+    "tags": [
+      "uaf",
+      "buffer-overflow",
+      "malware-analysis",
+      "kernel",
+      "rop"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-370.png",
+    "words": 521,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-262",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-262.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-07",
+    "tags": [
+      "cve",
+      "buffer-overflow",
+      "kernel",
+      "exploit-development",
+      "zero-day"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-262.png",
+    "words": 470,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-260",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-260.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-07",
+    "tags": [
+      "aslr-bypass",
+      "exploit-development",
+      "format-string",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-260.png",
+    "words": 470,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-224",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-224.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-12",
+    "tags": [
+      "malware-analysis",
+      "exploit-development",
+      "aslr-bypass",
+      "heap-exploitation",
+      "kernel"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-224.png",
+    "words": 462,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-958",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-958.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-01",
+    "tags": [
+      "malware-analysis",
+      "format-string",
+      "buffer-overflow",
+      "shellcode",
+      "kernel"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-95.png",
+    "words": 479,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-757",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-757.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-23",
+    "tags": [
+      "zero-day",
+      "format-string",
+      "exploit-development"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-75.png",
+    "words": 495,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-643",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-643.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-22",
+    "tags": [
+      "zero-day",
+      "format-string",
+      "malware-analysis",
+      "cve",
+      "exploit-development",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-64.png",
+    "words": 493,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-495",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-495.html",
+    "btn_label": "Read Research",
+    "date": "2024-05-06",
+    "tags": [
+      "shellcode",
+      "uaf",
+      "malware-analysis",
+      "aslr-bypass",
+      "exploit-development",
+      "kernel"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-49.png",
+    "words": 446,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-480",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-480.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-16",
+    "tags": [
+      "kernel",
+      "format-string",
+      "buffer-overflow",
+      "heap-exploitation",
+      "shellcode",
+      "uaf"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-48.png",
+    "words": 439,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-466",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-466.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-17",
+    "tags": [
+      "format-string",
+      "buffer-overflow",
+      "aslr-bypass",
+      "kernel"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-46.png",
+    "words": 443,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-398",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-398.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-18",
+    "tags": [
+      "zero-day",
+      "kernel",
+      "cve",
+      "exploit-development",
+      "format-string",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-39.png",
+    "words": 506,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-372",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-372.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-03",
+    "tags": [
+      "format-string",
+      "malware-analysis",
+      "zero-day",
+      "buffer-overflow",
+      "exploit-development",
+      "cve"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-37.png",
+    "words": 450,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-365",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-365.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-26",
+    "tags": [
+      "format-string",
+      "malware-analysis",
+      "kernel",
+      "rop",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-36.png",
+    "words": 434,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-298",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-298.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-12",
+    "tags": [
+      "format-string",
+      "buffer-overflow",
+      "rop",
+      "exploit-development",
+      "zero-day"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-29.png",
+    "words": 478,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-283",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-283.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-19",
+    "tags": [
+      "exploit-development",
+      "shellcode",
+      "buffer-overflow",
+      "rop"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-28.png",
+    "words": 482,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-258",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-258.html",
+    "btn_label": "Read Research",
+    "date": "2025-07-30",
+    "tags": [
+      "format-string",
+      "exploit-development",
+      "zero-day",
+      "aslr-bypass",
+      "uaf",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-25.png",
+    "words": 479,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-243",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-243.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-11",
+    "tags": [
+      "kernel",
+      "rop",
+      "exploit-development"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-24.png",
+    "words": 484,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-869",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-869.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-02",
+    "tags": [
+      "heap-exploitation",
+      "shellcode",
+      "exploit-development",
+      "buffer-overflow",
+      "rop"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-869.png",
+    "words": 482,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-673",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-673.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-09",
+    "tags": [
+      "kernel",
+      "zero-day",
+      "shellcode"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-673.png",
+    "words": 496,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-670",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-670.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-04",
+    "tags": [
+      "kernel",
+      "malware-analysis",
+      "exploit-development",
+      "uaf",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-670.png",
+    "words": 497,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-638",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-638.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-11",
+    "tags": [
+      "heap-exploitation",
+      "buffer-overflow",
+      "shellcode"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-638.png",
+    "words": 477,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-609",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-609.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-30",
+    "tags": [
+      "heap-exploitation",
+      "exploit-development",
+      "buffer-overflow",
+      "rop"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-609.png",
+    "words": 494,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-504",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-504.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-20",
+    "tags": [
+      "cve",
+      "heap-exploitation",
+      "exploit-development",
+      "format-string"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-504.png",
+    "words": 480,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-482",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-482.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-26",
+    "tags": [
+      "zero-day",
+      "exploit-development",
+      "buffer-overflow",
+      "cve",
+      "kernel",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-482.png",
+    "words": 449,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-458",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-458.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-26",
+    "tags": [
+      "cve",
+      "kernel",
+      "buffer-overflow",
+      "exploit-development",
+      "malware-analysis",
+      "shellcode"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-458.png",
+    "words": 498,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-354",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-354.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-14",
+    "tags": [
+      "buffer-overflow",
+      "shellcode",
+      "exploit-development"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-354.png",
+    "words": 514,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-284",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-284.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-19",
+    "tags": [
+      "uaf",
+      "zero-day",
+      "format-string",
+      "buffer-overflow",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-284.png",
+    "words": 452,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-263",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-263.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-06",
+    "tags": [
+      "rop",
+      "zero-day",
+      "kernel",
+      "exploit-development",
+      "shellcode"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-263.png",
+    "words": 528,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-249",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-249.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-05",
+    "tags": [
+      "malware-analysis",
+      "heap-exploitation",
+      "format-string",
+      "rop"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-249.png",
+    "words": 523,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-101",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-101.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-08",
+    "tags": [
+      "malware-analysis",
+      "zero-day",
+      "rop",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-101.png",
+    "words": 432,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-966",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-966.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-24",
+    "tags": [
+      "rop",
+      "heap-exploitation",
+      "zero-day",
+      "uaf",
+      "shellcode",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-966.png",
+    "words": 479,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-938",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-938.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-18",
+    "tags": [
+      "kernel",
+      "heap-exploitation",
+      "uaf",
+      "zero-day"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-938.png",
+    "words": 453,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-921",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-921.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-22",
+    "tags": [
+      "kernel",
+      "zero-day",
+      "aslr-bypass",
+      "uaf",
+      "exploit-development"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-921.png",
+    "words": 508,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-900",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-900.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-03",
+    "tags": [
+      "shellcode",
+      "kernel",
+      "heap-exploitation",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-900.png",
+    "words": 484,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-594",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-594.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-26",
+    "tags": [
+      "rop",
+      "cve",
+      "kernel",
+      "heap-exploitation",
+      "malware-analysis"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-594.png",
+    "words": 438,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-586",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-586.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-04",
+    "tags": [
+      "zero-day",
+      "exploit-development",
+      "uaf",
+      "shellcode",
+      "malware-analysis",
+      "rop"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-586.png",
+    "words": 539,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-489",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-489.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-17",
+    "tags": [
+      "rop",
+      "exploit-development",
+      "kernel",
+      "format-string"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-489.png",
+    "words": 455,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-482",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-482.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-27",
+    "tags": [
+      "heap-exploitation",
+      "cve",
+      "malware-analysis",
+      "zero-day",
+      "format-string"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-482.png",
+    "words": 493,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-466",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-466.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-01",
+    "tags": [
+      "aslr-bypass",
+      "shellcode",
+      "uaf",
+      "zero-day",
+      "format-string",
+      "kernel"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-466.png",
+    "words": 487,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-443",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-443.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-28",
+    "tags": [
+      "format-string",
+      "exploit-development",
+      "uaf",
+      "kernel"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-443.png",
+    "words": 498,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-385",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-385.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-28",
+    "tags": [
+      "zero-day",
+      "kernel",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-385.png",
+    "words": 434,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-333",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-333.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-21",
+    "tags": [
+      "exploit-development",
+      "uaf",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-333.png",
+    "words": 496,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-244",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-244.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-04",
+    "tags": [
+      "zero-day",
+      "aslr-bypass",
+      "shellcode",
+      "rop",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-244.png",
+    "words": 498,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-185",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-185.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-19",
+    "tags": [
+      "heap-exploitation",
+      "format-string",
+      "exploit-development"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-185.png",
+    "words": 456,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-127",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-127.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-03",
+    "tags": [
+      "uaf",
+      "zero-day",
+      "buffer-overflow",
+      "kernel",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-127.png",
+    "words": 455,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-793",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-793.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-26",
+    "tags": [
+      "shellcode",
+      "aslr-bypass",
+      "zero-day",
+      "rop",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-731",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-731.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-01",
+    "tags": [
+      "cve",
+      "rop",
+      "format-string",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 495,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-692",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-692.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-16",
+    "tags": [
+      "heap-exploitation",
+      "exploit-development",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 482,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-688",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-688.html",
+    "btn_label": "Read Research",
+    "date": "2025-07-02",
+    "tags": [
+      "aslr-bypass",
+      "uaf",
+      "exploit-development"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 478,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-626",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-626.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-05",
+    "tags": [
+      "zero-day",
+      "cve",
+      "buffer-overflow",
+      "shellcode",
+      "rop"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 443,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-592",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-592.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-12",
+    "tags": [
+      "rop",
+      "malware-analysis",
+      "format-string"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 518,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-591",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-591.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-31",
+    "tags": [
+      "exploit-development",
+      "cve",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 485,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-536",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-536.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-08",
+    "tags": [
+      "kernel",
+      "heap-exploitation",
+      "exploit-development",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-364",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-364.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-01",
+    "tags": [
+      "zero-day",
+      "cve",
+      "kernel",
+      "heap-exploitation",
+      "aslr-bypass",
+      "rop"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 527,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-323",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-323.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-25",
+    "tags": [
+      "aslr-bypass",
+      "buffer-overflow",
+      "zero-day"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 519,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-315",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-315.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-18",
+    "tags": [
+      "rop",
+      "aslr-bypass",
+      "exploit-development"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 508,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-295",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-295.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-20",
+    "tags": [
+      "cve",
+      "exploit-development",
+      "uaf",
+      "kernel",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 462,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-244",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-244.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-22",
+    "tags": [
+      "malware-analysis",
+      "zero-day",
+      "buffer-overflow",
+      "cve",
+      "exploit-development",
+      "kernel"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 467,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-164",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-164.html",
+    "btn_label": "Read Research",
+    "date": "2024-05-31",
+    "tags": [
+      "shellcode",
+      "buffer-overflow",
+      "exploit-development",
+      "format-string",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 480,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-131",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-131.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-30",
+    "tags": [
+      "format-string",
+      "zero-day",
+      "buffer-overflow",
+      "cve"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 512,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-119",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-119.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-26",
+    "tags": [
+      "malware-analysis",
+      "buffer-overflow",
+      "rop",
+      "shellcode",
+      "zero-day",
+      "kernel"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 501,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-963",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-963.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-28",
+    "tags": [
+      "shellcode",
+      "kernel",
+      "format-string",
+      "rop",
+      "aslr-bypass",
+      "malware-analysis"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-963.png",
+    "words": 430,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-962",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-962.html",
+    "btn_label": "Read Research",
+    "date": "2025-12-04",
+    "tags": [
+      "malware-analysis",
+      "buffer-overflow",
+      "cve",
+      "exploit-development",
+      "zero-day",
+      "rop"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-962.png",
+    "words": 484,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-960",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-960.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-03",
+    "tags": [
+      "heap-exploitation",
+      "aslr-bypass",
+      "format-string",
+      "kernel",
+      "exploit-development"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-960.png",
+    "words": 547,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-950",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-950.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-15",
+    "tags": [
+      "malware-analysis",
+      "kernel",
+      "exploit-development"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-950.png",
+    "words": 521,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-759",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-759.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-20",
+    "tags": [
+      "zero-day",
+      "cve",
+      "rop",
+      "format-string",
+      "malware-analysis"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-759.png",
+    "words": 464,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-698",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-698.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-27",
+    "tags": [
+      "format-string",
+      "kernel",
+      "exploit-development",
+      "shellcode",
+      "rop",
+      "uaf"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-698.png",
+    "words": 501,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-683",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-683.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-18",
+    "tags": [
+      "malware-analysis",
+      "aslr-bypass",
+      "zero-day",
+      "kernel",
+      "heap-exploitation",
+      "cve"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-683.png",
+    "words": 426,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-649",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-649.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-06",
+    "tags": [
+      "kernel",
+      "rop",
+      "uaf",
+      "buffer-overflow",
+      "exploit-development"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-649.png",
+    "words": 490,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-619",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-619.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-01",
+    "tags": [
+      "malware-analysis",
+      "exploit-development",
+      "aslr-bypass",
+      "format-string"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-619.png",
+    "words": 507,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-565",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-565.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-24",
+    "tags": [
+      "aslr-bypass",
+      "malware-analysis",
+      "zero-day"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-565.png",
+    "words": 483,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-334",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-334.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-08",
+    "tags": [
+      "shellcode",
+      "aslr-bypass",
+      "malware-analysis",
+      "heap-exploitation",
+      "kernel",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-334.png",
+    "words": 536,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-306",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-306.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-08",
+    "tags": [
+      "kernel",
+      "uaf",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-306.png",
+    "words": 459,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-254",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-254.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-11",
+    "tags": [
+      "rop",
+      "format-string",
+      "kernel",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-254.png",
+    "words": 494,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-147",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-147.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-10",
+    "tags": [
+      "buffer-overflow",
+      "uaf",
+      "zero-day",
+      "aslr-bypass",
+      "kernel",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-147.png",
+    "words": 448,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-985",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-985.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-23",
+    "tags": [
+      "format-string",
+      "kernel",
+      "shellcode"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-985.png",
+    "words": 489,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-935",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-935.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-20",
+    "tags": [
+      "kernel",
+      "uaf",
+      "format-string",
+      "zero-day",
+      "rop"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-935.png",
+    "words": 496,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-915",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-915.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-16",
+    "tags": [
+      "rop",
+      "buffer-overflow",
+      "kernel",
+      "format-string"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-915.png",
+    "words": 497,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-861",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-861.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-24",
+    "tags": [
+      "exploit-development",
+      "cve",
+      "kernel",
+      "aslr-bypass",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-861.png",
+    "words": 497,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-719",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-719.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-20",
+    "tags": [
+      "malware-analysis",
+      "heap-exploitation",
+      "rop"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-719.png",
+    "words": 450,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-664",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-664.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-04",
+    "tags": [
+      "aslr-bypass",
+      "shellcode",
+      "buffer-overflow",
+      "exploit-development",
+      "format-string"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-664.png",
+    "words": 497,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-656",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-656.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-18",
+    "tags": [
+      "rop",
+      "uaf",
+      "cve"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-656.png",
+    "words": 491,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-626",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-626.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-13",
+    "tags": [
+      "aslr-bypass",
+      "uaf",
+      "shellcode",
+      "malware-analysis",
+      "kernel"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-626.png",
+    "words": 471,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-488",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-488.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-31",
+    "tags": [
+      "rop",
+      "malware-analysis",
+      "buffer-overflow",
+      "shellcode",
+      "exploit-development"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-488.png",
+    "words": 526,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-478",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-478.html",
+    "btn_label": "Read Research",
+    "date": "2024-05-31",
+    "tags": [
+      "cve",
+      "rop",
+      "exploit-development"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-478.png",
+    "words": 525,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-472",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-472.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-18",
+    "tags": [
+      "zero-day",
+      "uaf",
+      "format-string",
+      "kernel"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-472.png",
+    "words": 470,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-283",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-283.html",
+    "btn_label": "Read Research",
+    "date": "2024-03-26",
+    "tags": [
+      "format-string",
+      "rop",
+      "uaf"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-283.png",
+    "words": 511,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-257",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-257.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-24",
+    "tags": [
+      "shellcode",
+      "cve",
+      "aslr-bypass",
+      "exploit-development"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-257.png",
+    "words": 470,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-191",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-191.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-02",
+    "tags": [
+      "format-string",
+      "buffer-overflow",
+      "cve",
+      "uaf",
+      "aslr-bypass",
+      "exploit-development"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-191.png",
+    "words": 492,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-122",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-122.html",
+    "btn_label": "Read Research",
+    "date": "2024-12-02",
+    "tags": [
+      "rop",
+      "malware-analysis",
+      "zero-day",
+      "uaf"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-122.png",
+    "words": 491,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-930",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-930.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-07",
+    "tags": [
+      "uaf",
+      "buffer-overflow",
+      "cve",
+      "malware-analysis"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-930.png",
+    "words": 459,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-854",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-854.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-01",
+    "tags": [
+      "exploit-development",
+      "uaf",
+      "rop",
+      "shellcode"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-854.png",
+    "words": 479,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-787",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-787.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-20",
+    "tags": [
+      "shellcode",
+      "buffer-overflow",
+      "uaf",
+      "zero-day",
+      "exploit-development"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-787.png",
+    "words": 525,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-698",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-698.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-27",
+    "tags": [
+      "cve",
+      "heap-exploitation",
+      "zero-day",
+      "format-string",
+      "rop",
+      "shellcode"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-698.png",
+    "words": 484,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-696",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-696.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-10",
+    "tags": [
+      "format-string",
+      "zero-day",
+      "malware-analysis",
+      "cve",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-696.png",
+    "words": 444,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-601",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-601.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-16",
+    "tags": [
+      "shellcode",
+      "zero-day",
+      "exploit-development",
+      "malware-analysis",
+      "heap-exploitation",
+      "rop"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-601.png",
+    "words": 432,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-583",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-583.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-15",
+    "tags": [
+      "zero-day",
+      "malware-analysis",
+      "heap-exploitation",
+      "rop",
+      "cve",
+      "exploit-development"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-583.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-549",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-549.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-22",
+    "tags": [
+      "heap-exploitation",
+      "malware-analysis",
+      "uaf",
+      "zero-day",
+      "kernel",
+      "rop"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-549.png",
+    "words": 456,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-500",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-500.html",
+    "btn_label": "Read Research",
+    "date": "2025-12-12",
+    "tags": [
+      "aslr-bypass",
+      "heap-exploitation",
+      "buffer-overflow",
+      "kernel",
+      "exploit-development",
+      "shellcode"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-500.png",
+    "words": 440,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-372",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-372.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-03",
+    "tags": [
+      "malware-analysis",
+      "shellcode",
+      "zero-day",
+      "exploit-development",
+      "uaf"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-372.png",
+    "words": 462,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-275",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-275.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-09",
+    "tags": [
+      "cve",
+      "shellcode",
+      "aslr-bypass",
+      "zero-day"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-275.png",
+    "words": 461,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-236",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-236.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-30",
+    "tags": [
+      "shellcode",
+      "rop",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-236.png",
+    "words": 481,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-174",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-174.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-21",
+    "tags": [
+      "rop",
+      "aslr-bypass",
+      "uaf",
+      "exploit-development"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-174.png",
+    "words": 508,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-150",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-150.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-01",
+    "tags": [
+      "exploit-development",
+      "shellcode",
+      "zero-day"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-150.png",
+    "words": 506,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-946",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-946.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-29",
+    "tags": [
+      "rop",
+      "shellcode",
+      "zero-day"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-946.png",
+    "words": 451,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-861",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-861.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-07",
+    "tags": [
+      "cve",
+      "rop",
+      "shellcode",
+      "heap-exploitation",
+      "format-string"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-861.png",
+    "words": 459,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-717",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-717.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-24",
+    "tags": [
+      "exploit-development",
+      "aslr-bypass",
+      "cve"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-717.png",
+    "words": 485,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-677",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-677.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-26",
+    "tags": [
+      "shellcode",
+      "buffer-overflow",
+      "malware-analysis",
+      "exploit-development"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-677.png",
+    "words": 469,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-660",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-660.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-12",
+    "tags": [
+      "format-string",
+      "uaf",
+      "kernel",
+      "malware-analysis"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-660.png",
+    "words": 472,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-534",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-534.html",
+    "btn_label": "Read Research",
+    "date": "2024-05-10",
+    "tags": [
+      "kernel",
+      "zero-day",
+      "uaf"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-534.png",
+    "words": 466,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-browser-exploitation-techniques-485",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-485.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-05",
+    "tags": [
+      "exploit-development",
+      "zero-day",
+      "rop",
+      "uaf",
+      "aslr-bypass",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-485.png",
+    "words": 493,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-478",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-478.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-31",
+    "tags": [
+      "uaf",
+      "aslr-bypass",
+      "exploit-development",
+      "heap-exploitation",
+      "cve",
+      "rop"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-478.png",
+    "words": 498,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-465",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-465.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-12",
+    "tags": [
+      "shellcode",
+      "buffer-overflow",
+      "zero-day",
+      "uaf",
+      "kernel"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-465.png",
+    "words": 439,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-436",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-436.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-27",
+    "tags": [
+      "cve",
+      "malware-analysis",
+      "kernel",
+      "buffer-overflow",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-436.png",
+    "words": 525,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-325",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-325.html",
+    "btn_label": "Read Research",
+    "date": "2024-12-20",
+    "tags": [
+      "rop",
+      "zero-day",
+      "cve",
+      "exploit-development",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-325.png",
+    "words": 421,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-271",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-271.html",
+    "btn_label": "Read Research",
+    "date": "2024-03-23",
+    "tags": [
+      "uaf",
+      "kernel",
+      "malware-analysis"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-271.png",
+    "words": 446,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-262",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-262.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-14",
+    "tags": [
+      "cve",
+      "kernel",
+      "zero-day",
+      "rop",
+      "format-string",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-262.png",
+    "words": 477,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-229",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-229.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-08",
+    "tags": [
+      "cve",
+      "shellcode",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-229.png",
+    "words": 461,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-988",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-988.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-30",
+    "tags": [
+      "exploit-development",
+      "format-string",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 444,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-922",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-922.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-01",
+    "tags": [
+      "malware-analysis",
+      "zero-day",
+      "heap-exploitation",
+      "format-string",
+      "uaf"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 508,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-779",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-779.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-01",
+    "tags": [
+      "shellcode",
+      "format-string",
+      "exploit-development",
+      "malware-analysis",
+      "heap-exploitation",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 430,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-740",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-740.html",
+    "btn_label": "Read Research",
+    "date": "2024-03-28",
+    "tags": [
+      "shellcode",
+      "uaf",
+      "rop",
+      "cve",
+      "buffer-overflow",
+      "malware-analysis"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 513,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-546",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-546.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-20",
+    "tags": [
+      "cve",
+      "aslr-bypass",
+      "kernel",
+      "uaf",
+      "format-string"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 478,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-436",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-436.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-22",
+    "tags": [
+      "kernel",
+      "uaf",
+      "buffer-overflow",
+      "cve",
+      "malware-analysis"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 433,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-416",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-416.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-22",
+    "tags": [
+      "kernel",
+      "aslr-bypass",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 475,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-374",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-374.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-06",
+    "tags": [
+      "rop",
+      "exploit-development",
+      "heap-exploitation",
+      "kernel",
+      "malware-analysis"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 498,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-284",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-284.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-12",
+    "tags": [
+      "aslr-bypass",
+      "uaf",
+      "exploit-development",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 486,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-223",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-223.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-07",
+    "tags": [
+      "uaf",
+      "zero-day",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 487,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-111",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-111.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-16",
+    "tags": [
+      "kernel",
+      "buffer-overflow",
+      "zero-day",
+      "uaf",
+      "format-string",
+      "cve"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 425,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-923",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-923.html",
+    "btn_label": "Read Research",
+    "date": "2024-12-27",
+    "tags": [
+      "cve",
+      "aslr-bypass",
+      "heap-exploitation",
+      "exploit-development",
+      "uaf",
+      "zero-day"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-92.png",
+    "words": 437,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-893",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-893.html",
+    "btn_label": "Read Research",
+    "date": "2024-03-03",
+    "tags": [
+      "exploit-development",
+      "aslr-bypass",
+      "uaf"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-89.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-813",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-813.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-28",
+    "tags": [
+      "aslr-bypass",
+      "rop",
+      "malware-analysis",
+      "format-string",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-81.png",
+    "words": 475,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-733",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-733.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-10",
+    "tags": [
+      "buffer-overflow",
+      "heap-exploitation",
+      "cve"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-73.png",
+    "words": 445,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-723",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-723.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-12",
+    "tags": [
+      "kernel",
+      "heap-exploitation",
+      "zero-day",
+      "exploit-development"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-72.png",
+    "words": 467,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-679",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-679.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-22",
+    "tags": [
+      "format-string",
+      "shellcode",
+      "malware-analysis"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-67.png",
+    "words": 469,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-665",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-665.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-06",
+    "tags": [
+      "buffer-overflow",
+      "exploit-development",
+      "kernel",
+      "cve"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-66.png",
+    "words": 473,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-641",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-641.html",
+    "btn_label": "Read Research",
+    "date": "2024-12-25",
+    "tags": [
+      "rop",
+      "format-string",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-64.png",
+    "words": 526,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-605",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-605.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-07",
+    "tags": [
+      "zero-day",
+      "aslr-bypass",
+      "cve",
+      "buffer-overflow",
+      "uaf",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-60.png",
+    "words": 493,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-598",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-598.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-05",
+    "tags": [
+      "format-string",
+      "shellcode",
+      "rop",
+      "exploit-development"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-59.png",
+    "words": 486,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-552",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-552.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-07",
+    "tags": [
+      "uaf",
+      "kernel",
+      "exploit-development",
+      "shellcode",
+      "rop"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-55.png",
+    "words": 439,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-492",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-492.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-12",
+    "tags": [
+      "kernel",
+      "uaf",
+      "rop",
+      "exploit-development",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-49.png",
+    "words": 504,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-452",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-452.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-14",
+    "tags": [
+      "format-string",
+      "shellcode",
+      "uaf",
+      "rop"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-45.png",
+    "words": 473,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-417",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-417.html",
+    "btn_label": "Read Research",
+    "date": "2024-12-06",
+    "tags": [
+      "heap-exploitation",
+      "exploit-development",
+      "cve",
+      "shellcode",
+      "uaf",
+      "format-string"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-41.png",
+    "words": 524,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-290",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-290.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-23",
+    "tags": [
+      "aslr-bypass",
+      "buffer-overflow",
+      "cve",
+      "malware-analysis",
+      "format-string"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-29.png",
+    "words": 504,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-250",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-250.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-21",
+    "tags": [
+      "buffer-overflow",
+      "malware-analysis",
+      "kernel",
+      "zero-day"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-25.png",
+    "words": 457,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-133",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-133.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-06",
+    "tags": [
+      "exploit-development",
+      "malware-analysis",
+      "cve",
+      "format-string",
+      "aslr-bypass",
+      "shellcode"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-13.png",
+    "words": 472,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-108",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-108.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-14",
+    "tags": [
+      "malware-analysis",
+      "heap-exploitation",
+      "cve",
+      "uaf"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-10.png",
+    "words": 488,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-web-crawler-and-spider-800",
+    "title": "Web Crawler and Spider",
+    "section": "projects",
+    "description": "Open source security project: Web Crawler and Spider. Built for the community.",
+    "permalink": "/research/project-web-crawler-and-spider-800.html",
+    "btn_label": "View Project",
+    "date": "2024-02-04",
+    "tags": [
+      "security",
+      "plugin",
+      "automation"
+    ],
+    "image": "/img/project-web-crawler-and-spider-800.png",
+    "words": 209,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "gobuster",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "project-web-crawler-and-spider-545",
+    "title": "Web Crawler and Spider",
+    "section": "projects",
+    "description": "Open source security project: Web Crawler and Spider. Built for the community.",
+    "permalink": "/research/project-web-crawler-and-spider-545.html",
+    "btn_label": "View Project",
+    "date": "2025-10-23",
+    "tags": [
+      "open-source",
+      "automation",
+      "library"
+    ],
+    "image": "/img/project-web-crawler-and-spider-545.png",
+    "words": 213,
+    "readTime": "2 min",
+    "features": [
+      "feroxbuster",
+      "ffuf",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-subdomain-enumeration-tool-508",
+    "title": "Subdomain Enumeration Tool",
+    "section": "projects",
+    "description": "Open source security project: Subdomain Enumeration Tool. Built for the community.",
+    "permalink": "/research/project-subdomain-enumeration-tool-508.html",
+    "btn_label": "View Project",
+    "date": "2024-05-28",
+    "tags": [
+      "automation",
+      "cli",
+      "tool",
+      "library",
+      "plugin"
+    ],
+    "image": "/img/project-subdomain-enumeration-tool-508.png",
+    "words": 193,
+    "readTime": "1 min",
+    "features": [
+      "gobuster",
+      "hydra",
+      "nmap"
+    ]
+  },
+  {
+    "id": "project-subdomain-enumeration-tool-467",
+    "title": "Subdomain Enumeration Tool",
+    "section": "projects",
+    "description": "Open source security project: Subdomain Enumeration Tool. Built for the community.",
+    "permalink": "/research/project-subdomain-enumeration-tool-467.html",
+    "btn_label": "View Project",
+    "date": "2024-04-02",
+    "tags": [
+      "library",
+      "tool",
+      "security",
+      "extension"
+    ],
+    "image": "/img/project-subdomain-enumeration-tool-467.png",
+    "words": 209,
+    "readTime": "2 min",
+    "features": [
+      "gobuster",
+      "hydra",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "project-subdomain-enumeration-tool-199",
+    "title": "Subdomain Enumeration Tool",
+    "section": "projects",
+    "description": "Open source security project: Subdomain Enumeration Tool. Built for the community.",
+    "permalink": "/research/project-subdomain-enumeration-tool-199.html",
+    "btn_label": "View Project",
+    "date": "2025-08-22",
+    "tags": [
+      "framework",
+      "cli",
+      "tool",
+      "automation"
+    ],
+    "image": "/img/project-subdomain-enumeration-tool-199.png",
+    "words": 215,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "ffuf",
+      "impacket"
+    ]
+  },
+  {
+    "id": "project-subdomain-enumeration-tool-105",
+    "title": "Subdomain Enumeration Tool",
+    "section": "projects",
+    "description": "Open source security project: Subdomain Enumeration Tool. Built for the community.",
+    "permalink": "/research/project-subdomain-enumeration-tool-105.html",
+    "btn_label": "View Project",
+    "date": "2024-06-13",
+    "tags": [
+      "automation",
+      "plugin",
+      "open-source"
+    ],
+    "image": "/img/project-subdomain-enumeration-tool-105.png",
+    "words": 198,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "gobuster",
+      "john"
+    ]
+  },
+  {
+    "id": "project-smb-share-enumeration-script-898",
+    "title": "SMB Share Enumeration Script",
+    "section": "projects",
+    "description": "Open source security project: SMB Share Enumeration Script. Built for the community.",
+    "permalink": "/research/project-smb-share-enumeration-script-898.html",
+    "btn_label": "View Project",
+    "date": "2025-04-22",
+    "tags": [
+      "cli",
+      "framework",
+      "open-source",
+      "extension",
+      "automation"
+    ],
+    "image": "/img/project-smb-share-enumeration-script-898.png",
+    "words": 211,
+    "readTime": "2 min",
+    "features": [
+      "gobuster",
+      "crackmapexec",
+      "impacket"
+    ]
+  },
+  {
+    "id": "project-reverse-shell-generator-873",
+    "title": "Reverse Shell Generator",
+    "section": "projects",
+    "description": "Open source security project: Reverse Shell Generator. Built for the community.",
+    "permalink": "/research/project-reverse-shell-generator-873.html",
+    "btn_label": "View Project",
+    "date": "2025-04-18",
+    "tags": [
+      "plugin",
+      "security",
+      "library"
+    ],
+    "image": "/img/project-reverse-shell-generator-873.png",
+    "words": 214,
+    "readTime": "2 min",
+    "features": [
+      "evil-winrm",
+      "impacket",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-reverse-shell-generator-545",
+    "title": "Reverse Shell Generator",
+    "section": "projects",
+    "description": "Open source security project: Reverse Shell Generator. Built for the community.",
+    "permalink": "/research/project-reverse-shell-generator-545.html",
+    "btn_label": "View Project",
+    "date": "2025-02-05",
+    "tags": [
+      "cli",
+      "open-source",
+      "plugin",
+      "framework"
+    ],
+    "image": "/img/project-reverse-shell-generator-545.png",
+    "words": 219,
+    "readTime": "2 min",
+    "features": [
+      "ffuf",
+      "gobuster",
+      "impacket"
+    ]
+  },
+  {
+    "id": "project-reverse-shell-generator-488",
+    "title": "Reverse Shell Generator",
+    "section": "projects",
+    "description": "Open source security project: Reverse Shell Generator. Built for the community.",
+    "permalink": "/research/project-reverse-shell-generator-488.html",
+    "btn_label": "View Project",
+    "date": "2025-07-03",
+    "tags": [
+      "framework",
+      "library",
+      "cli",
+      "plugin",
+      "security"
+    ],
+    "image": "/img/project-reverse-shell-generator-488.png",
+    "words": 203,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "hydra",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-reverse-shell-generator-254",
+    "title": "Reverse Shell Generator",
+    "section": "projects",
+    "description": "Open source security project: Reverse Shell Generator. Built for the community.",
+    "permalink": "/research/project-reverse-shell-generator-254.html",
+    "btn_label": "View Project",
+    "date": "2024-08-03",
+    "tags": [
+      "security",
+      "extension",
+      "automation",
+      "open-source",
+      "cli"
+    ],
+    "image": "/img/project-reverse-shell-generator-254.png",
+    "words": 208,
+    "readTime": "2 min",
+    "features": [
+      "gobuster",
+      "nmap",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-process-injection-poc-807",
+    "title": "Process Injection PoC",
+    "section": "projects",
+    "description": "Open source security project: Process Injection PoC. Built for the community.",
+    "permalink": "/research/project-process-injection-poc-807.html",
+    "btn_label": "View Project",
+    "date": "2024-09-30",
+    "tags": [
+      "extension",
+      "security",
+      "plugin",
+      "automation",
+      "framework"
+    ],
+    "image": "/img/project-process-injection-poc-807.png",
+    "words": 210,
+    "readTime": "2 min",
+    "features": [
+      "hydra",
+      "feroxbuster",
+      "nmap"
+    ]
+  },
+  {
+    "id": "project-process-injection-poc-764",
+    "title": "Process Injection PoC",
+    "section": "projects",
+    "description": "Open source security project: Process Injection PoC. Built for the community.",
+    "permalink": "/research/project-process-injection-poc-764.html",
+    "btn_label": "View Project",
+    "date": "2026-02-26",
+    "tags": [
+      "library",
+      "automation",
+      "cli",
+      "open-source",
+      "plugin"
+    ],
+    "image": "/img/project-process-injection-poc-764.png",
+    "words": 219,
+    "readTime": "2 min",
+    "features": [
+      "evil-winrm",
+      "ffuf",
+      "impacket"
+    ]
+  },
+  {
+    "id": "project-process-injection-poc-716",
+    "title": "Process Injection PoC",
+    "section": "projects",
+    "description": "Open source security project: Process Injection PoC. Built for the community.",
+    "permalink": "/research/project-process-injection-poc-716.html",
+    "btn_label": "View Project",
+    "date": "2024-11-06",
+    "tags": [
+      "library",
+      "open-source",
+      "extension",
+      "tool",
+      "plugin"
+    ],
+    "image": "/img/project-process-injection-poc-716.png",
+    "words": 198,
+    "readTime": "1 min",
+    "features": [
+      "nmap",
+      "hydra",
+      "impacket"
+    ]
+  },
+  {
+    "id": "project-process-injection-poc-680",
+    "title": "Process Injection PoC",
+    "section": "projects",
+    "description": "Open source security project: Process Injection PoC. Built for the community.",
+    "permalink": "/research/project-process-injection-poc-680.html",
+    "btn_label": "View Project",
+    "date": "2024-02-16",
+    "tags": [
+      "security",
+      "plugin",
+      "library",
+      "open-source",
+      "extension"
+    ],
+    "image": "/img/project-process-injection-poc-680.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "ffuf",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "project-process-injection-poc-270",
+    "title": "Process Injection PoC",
+    "section": "projects",
+    "description": "Open source security project: Process Injection PoC. Built for the community.",
+    "permalink": "/research/project-process-injection-poc-270.html",
+    "btn_label": "View Project",
+    "date": "2025-09-04",
+    "tags": [
+      "extension",
+      "library",
+      "automation",
+      "cli"
+    ],
+    "image": "/img/project-process-injection-poc-270.png",
+    "words": 182,
+    "readTime": "1 min",
+    "features": [
+      "feroxbuster",
+      "gobuster",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-payload-obfuscation-script-363",
+    "title": "Payload Obfuscation Script",
+    "section": "projects",
+    "description": "Open source security project: Payload Obfuscation Script. Built for the community.",
+    "permalink": "/research/project-payload-obfuscation-script-363.html",
+    "btn_label": "View Project",
+    "date": "2024-06-13",
+    "tags": [
+      "framework",
+      "security",
+      "extension",
+      "automation"
+    ],
+    "image": "/img/project-payload-obfuscation-script-363.png",
+    "words": 207,
+    "readTime": "2 min",
+    "features": [
+      "ffuf",
+      "hashcat",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "project-payload-obfuscation-script-332",
+    "title": "Payload Obfuscation Script",
+    "section": "projects",
+    "description": "Open source security project: Payload Obfuscation Script. Built for the community.",
+    "permalink": "/research/project-payload-obfuscation-script-332.html",
+    "btn_label": "View Project",
+    "date": "2024-03-11",
+    "tags": [
+      "cli",
+      "tool",
+      "plugin",
+      "library",
+      "open-source"
+    ],
+    "image": "/img/project-payload-obfuscation-script-332.png",
+    "words": 206,
+    "readTime": "2 min",
+    "features": [
+      "nmap",
+      "gobuster",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-payload-obfuscation-script-234",
+    "title": "Payload Obfuscation Script",
+    "section": "projects",
+    "description": "Open source security project: Payload Obfuscation Script. Built for the community.",
+    "permalink": "/research/project-payload-obfuscation-script-234.html",
+    "btn_label": "View Project",
+    "date": "2026-03-12",
+    "tags": [
+      "tool",
+      "extension",
+      "library",
+      "security"
+    ],
+    "image": "/img/project-payload-obfuscation-script-234.png",
+    "words": 199,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "feroxbuster",
+      "john"
+    ]
+  },
+  {
+    "id": "project-password-spraying-tool-489",
+    "title": "Password Spraying Tool",
+    "section": "projects",
+    "description": "Open source security project: Password Spraying Tool. Built for the community.",
+    "permalink": "/research/project-password-spraying-tool-489.html",
+    "btn_label": "View Project",
+    "date": "2024-07-06",
+    "tags": [
+      "extension",
+      "tool",
+      "framework",
+      "security",
+      "automation"
+    ],
+    "image": "/img/project-password-spraying-tool-489.png",
+    "words": 224,
+    "readTime": "2 min",
+    "features": [
+      "hashcat",
+      "crackmapexec",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "project-novel-persistence-mechanisms-in-linux-754",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "projects",
+    "description": "Open source security project: Novel Persistence Mechanisms in Linux. Built for the community.",
+    "permalink": "/research/project-novel-persistence-mechanisms-in-linux-754.html",
+    "btn_label": "View Project",
+    "date": "2025-07-28",
+    "tags": [
+      "automation",
+      "security",
+      "framework",
+      "extension",
+      "tool"
+    ],
+    "image": "/img/project-novel-persistence-mechanisms-in-linux-754.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "nmap",
+      "hashcat",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-novel-persistence-mechanisms-in-linux-613",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "projects",
+    "description": "Open source security project: Novel Persistence Mechanisms in Linux. Built for the community.",
+    "permalink": "/research/project-novel-persistence-mechanisms-in-linux-613.html",
+    "btn_label": "View Project",
+    "date": "2024-12-23",
+    "tags": [
+      "tool",
+      "automation",
+      "open-source",
+      "plugin",
+      "security"
+    ],
+    "image": "/img/project-novel-persistence-mechanisms-in-linux-613.png",
+    "words": 221,
+    "readTime": "2 min",
+    "features": [
+      "nmap",
+      "crackmapexec",
+      "hydra"
+    ]
+  },
+  {
+    "id": "project-novel-persistence-mechanisms-in-linux-461",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "projects",
+    "description": "Open source security project: Novel Persistence Mechanisms in Linux. Built for the community.",
+    "permalink": "/research/project-novel-persistence-mechanisms-in-linux-461.html",
+    "btn_label": "View Project",
+    "date": "2025-09-07",
+    "tags": [
+      "security",
+      "plugin",
+      "cli",
+      "extension",
+      "open-source"
+    ],
+    "image": "/img/project-novel-persistence-mechanisms-in-linux-461.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "hashcat",
+      "ffuf",
+      "hydra"
+    ]
+  },
+  {
+    "id": "project-novel-persistence-mechanisms-in-linux-216",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "projects",
+    "description": "Open source security project: Novel Persistence Mechanisms in Linux. Built for the community.",
+    "permalink": "/research/project-novel-persistence-mechanisms-in-linux-216.html",
+    "btn_label": "View Project",
+    "date": "2024-11-17",
+    "tags": [
+      "tool",
+      "library",
+      "plugin",
+      "framework"
+    ],
+    "image": "/img/project-novel-persistence-mechanisms-in-linux-216.png",
+    "words": 192,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "ffuf",
+      "nmap"
+    ]
+  },
+  {
+    "id": "project-network-packet-sniffer-604",
+    "title": "Network Packet Sniffer",
+    "section": "projects",
+    "description": "Open source security project: Network Packet Sniffer. Built for the community.",
+    "permalink": "/research/project-network-packet-sniffer-604.html",
+    "btn_label": "View Project",
+    "date": "2024-08-07",
+    "tags": [
+      "framework",
+      "automation",
+      "cli",
+      "security"
+    ],
+    "image": "/img/project-network-packet-sniffer-604.png",
+    "words": 211,
+    "readTime": "2 min",
+    "features": [
+      "nmap",
+      "impacket",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "project-network-packet-sniffer-310",
+    "title": "Network Packet Sniffer",
+    "section": "projects",
+    "description": "Open source security project: Network Packet Sniffer. Built for the community.",
+    "permalink": "/research/project-network-packet-sniffer-310.html",
+    "btn_label": "View Project",
+    "date": "2025-05-27",
+    "tags": [
+      "library",
+      "security",
+      "extension",
+      "tool"
+    ],
+    "image": "/img/project-network-packet-sniffer-310.png",
+    "words": 206,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "gobuster",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-network-packet-sniffer-163",
+    "title": "Network Packet Sniffer",
+    "section": "projects",
+    "description": "Open source security project: Network Packet Sniffer. Built for the community.",
+    "permalink": "/research/project-network-packet-sniffer-163.html",
+    "btn_label": "View Project",
+    "date": "2025-10-01",
+    "tags": [
+      "open-source",
+      "extension",
+      "tool",
+      "library",
+      "cli"
+    ],
+    "image": "/img/project-network-packet-sniffer-163.png",
+    "words": 219,
+    "readTime": "2 min",
+    "features": [
+      "impacket",
+      "ffuf",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "project-log-parser-and-analyzer-547",
+    "title": "Log Parser and Analyzer",
+    "section": "projects",
+    "description": "Open source security project: Log Parser and Analyzer. Built for the community.",
+    "permalink": "/research/project-log-parser-and-analyzer-547.html",
+    "btn_label": "View Project",
+    "date": "2025-05-16",
+    "tags": [
+      "open-source",
+      "tool",
+      "plugin",
+      "library"
+    ],
+    "image": "/img/project-log-parser-and-analyzer-547.png",
+    "words": 206,
+    "readTime": "2 min",
+    "features": [
+      "hashcat",
+      "hydra",
+      "impacket"
+    ]
+  },
+  {
+    "id": "project-log-parser-and-analyzer-501",
+    "title": "Log Parser and Analyzer",
+    "section": "projects",
+    "description": "Open source security project: Log Parser and Analyzer. Built for the community.",
+    "permalink": "/research/project-log-parser-and-analyzer-501.html",
+    "btn_label": "View Project",
+    "date": "2025-10-09",
+    "tags": [
+      "cli",
+      "extension",
+      "framework"
+    ],
+    "image": "/img/project-log-parser-and-analyzer-501.png",
+    "words": 208,
+    "readTime": "2 min",
+    "features": [
+      "hydra",
+      "evil-winrm",
+      "nmap"
+    ]
+  },
+  {
+    "id": "project-log-parser-and-analyzer-347",
+    "title": "Log Parser and Analyzer",
+    "section": "projects",
+    "description": "Open source security project: Log Parser and Analyzer. Built for the community.",
+    "permalink": "/research/project-log-parser-and-analyzer-347.html",
+    "btn_label": "View Project",
+    "date": "2024-05-07",
+    "tags": [
+      "security",
+      "tool",
+      "cli",
+      "open-source",
+      "extension"
+    ],
+    "image": "/img/project-log-parser-and-analyzer-347.png",
+    "words": 204,
+    "readTime": "2 min",
+    "features": [
+      "gobuster",
+      "hashcat",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-jwt-token-analyzer-448",
+    "title": "JWT Token Analyzer",
+    "section": "projects",
+    "description": "Open source security project: JWT Token Analyzer. Built for the community.",
+    "permalink": "/research/project-jwt-token-analyzer-448.html",
+    "btn_label": "View Project",
+    "date": "2024-12-30",
+    "tags": [
+      "framework",
+      "extension",
+      "library"
+    ],
+    "image": "/img/project-jwt-token-analyzer-448.png",
+    "words": 204,
+    "readTime": "2 min",
+    "features": [
+      "evil-winrm",
+      "impacket",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-jwt-token-analyzer-438",
+    "title": "JWT Token Analyzer",
+    "section": "projects",
+    "description": "Open source security project: JWT Token Analyzer. Built for the community.",
+    "permalink": "/research/project-jwt-token-analyzer-438.html",
+    "btn_label": "View Project",
+    "date": "2025-10-01",
+    "tags": [
+      "security",
+      "tool",
+      "framework",
+      "plugin",
+      "cli"
+    ],
+    "image": "/img/project-jwt-token-analyzer-438.png",
+    "words": 208,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "hashcat",
+      "impacket"
+    ]
+  },
+  {
+    "id": "project-jwt-token-analyzer-279",
+    "title": "JWT Token Analyzer",
+    "section": "projects",
+    "description": "Open source security project: JWT Token Analyzer. Built for the community.",
+    "permalink": "/research/project-jwt-token-analyzer-279.html",
+    "btn_label": "View Project",
+    "date": "2026-03-02",
+    "tags": [
+      "open-source",
+      "extension",
+      "security",
+      "tool",
+      "cli"
+    ],
+    "image": "/img/project-jwt-token-analyzer-279.png",
+    "words": 201,
+    "readTime": "2 min",
+    "features": [
+      "hydra",
+      "ffuf",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "project-jwt-token-analyzer-154",
+    "title": "JWT Token Analyzer",
+    "section": "projects",
+    "description": "Open source security project: JWT Token Analyzer. Built for the community.",
+    "permalink": "/research/project-jwt-token-analyzer-154.html",
+    "btn_label": "View Project",
+    "date": "2025-08-11",
+    "tags": [
+      "automation",
+      "tool",
+      "security",
+      "cli",
+      "framework"
+    ],
+    "image": "/img/project-jwt-token-analyzer-154.png",
+    "words": 230,
+    "readTime": "2 min",
+    "features": [
+      "ffuf",
+      "nmap",
+      "john"
+    ]
+  },
+  {
+    "id": "project-jwt-token-analyzer-151",
+    "title": "JWT Token Analyzer",
+    "section": "projects",
+    "description": "Open source security project: JWT Token Analyzer. Built for the community.",
+    "permalink": "/research/project-jwt-token-analyzer-151.html",
+    "btn_label": "View Project",
+    "date": "2024-03-24",
+    "tags": [
+      "automation",
+      "plugin",
+      "library",
+      "framework",
+      "extension"
+    ],
+    "image": "/img/project-jwt-token-analyzer-151.png",
+    "words": 188,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "nmap",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "project-hash-identifier-and-cracker-wrapper-835",
+    "title": "Hash Identifier and Cracker Wrapper",
+    "section": "projects",
+    "description": "Open source security project: Hash Identifier and Cracker Wrapper. Built for the community.",
+    "permalink": "/research/project-hash-identifier-and-cracker-wrapper-835.html",
+    "btn_label": "View Project",
+    "date": "2026-02-17",
+    "tags": [
+      "extension",
+      "framework",
+      "automation"
+    ],
+    "image": "/img/project-hash-identifier-and-cracker-wrapper-835.png",
+    "words": 227,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "gobuster",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-hash-identifier-and-cracker-wrapper-466",
+    "title": "Hash Identifier and Cracker Wrapper",
+    "section": "projects",
+    "description": "Open source security project: Hash Identifier and Cracker Wrapper. Built for the community.",
+    "permalink": "/research/project-hash-identifier-and-cracker-wrapper-466.html",
+    "btn_label": "View Project",
+    "date": "2025-09-12",
+    "tags": [
+      "extension",
+      "security",
+      "cli",
+      "tool"
+    ],
+    "image": "/img/project-hash-identifier-and-cracker-wrapper-466.png",
+    "words": 209,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "evil-winrm",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-985",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-985.html",
+    "btn_label": "View Project",
+    "date": "2025-10-23",
+    "tags": [
+      "tool",
+      "cli",
+      "extension"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-985.png",
+    "words": 204,
+    "readTime": "2 min",
+    "features": [
+      "evil-winrm",
+      "hydra",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-737",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-737.html",
+    "btn_label": "View Project",
+    "date": "2025-11-01",
+    "tags": [
+      "library",
+      "extension",
+      "open-source",
+      "plugin",
+      "security"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-737.png",
+    "words": 220,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "hashcat",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-717",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-717.html",
+    "btn_label": "View Project",
+    "date": "2025-11-29",
+    "tags": [
+      "framework",
+      "cli",
+      "security",
+      "extension"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-717.png",
+    "words": 203,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "hydra",
+      "impacket"
+    ]
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-390",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-390.html",
+    "btn_label": "View Project",
+    "date": "2024-08-03",
+    "tags": [
+      "extension",
+      "tool",
+      "library",
+      "framework",
+      "automation"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-390.png",
+    "words": 198,
+    "readTime": "1 min",
+    "features": [
+      "nmap",
+      "impacket",
+      "john"
+    ]
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-257",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-257.html",
+    "btn_label": "View Project",
+    "date": "2025-07-17",
+    "tags": [
+      "security",
+      "cli",
+      "framework"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-257.png",
+    "words": 220,
+    "readTime": "2 min",
+    "features": [
+      "evil-winrm",
+      "nmap",
+      "hydra"
+    ]
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-249",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-249.html",
+    "btn_label": "View Project",
+    "date": "2025-04-04",
+    "tags": [
+      "automation",
+      "library",
+      "plugin",
+      "cli",
+      "extension"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-249.png",
+    "words": 198,
+    "readTime": "1 min",
+    "features": [
+      "ffuf",
+      "impacket",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-110",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-110.html",
+    "btn_label": "View Project",
+    "date": "2024-09-18",
+    "tags": [
+      "automation",
+      "extension",
+      "security"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-110.png",
+    "words": 216,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "gobuster",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-edr-evasion-techniques-868",
+    "title": "EDR Evasion Techniques",
+    "section": "projects",
+    "description": "Open source security project: EDR Evasion Techniques. Built for the community.",
+    "permalink": "/research/project-edr-evasion-techniques-868.html",
+    "btn_label": "View Project",
+    "date": "2025-06-02",
+    "tags": [
+      "open-source",
+      "library",
+      "cli",
+      "tool",
+      "automation"
+    ],
+    "image": "/img/project-edr-evasion-techniques-868.png",
+    "words": 194,
+    "readTime": "1 min",
+    "features": [
+      "nmap",
+      "ffuf",
+      "john"
+    ]
+  },
+  {
+    "id": "project-edr-evasion-techniques-859",
+    "title": "EDR Evasion Techniques",
+    "section": "projects",
+    "description": "Open source security project: EDR Evasion Techniques. Built for the community.",
+    "permalink": "/research/project-edr-evasion-techniques-859.html",
+    "btn_label": "View Project",
+    "date": "2024-09-07",
+    "tags": [
+      "plugin",
+      "security",
+      "tool",
+      "automation"
+    ],
+    "image": "/img/project-edr-evasion-techniques-859.png",
+    "words": 194,
+    "readTime": "1 min",
+    "features": [
+      "hashcat",
+      "gobuster",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "project-edr-evasion-techniques-825",
+    "title": "EDR Evasion Techniques",
+    "section": "projects",
+    "description": "Open source security project: EDR Evasion Techniques. Built for the community.",
+    "permalink": "/research/project-edr-evasion-techniques-825.html",
+    "btn_label": "View Project",
+    "date": "2024-02-23",
+    "tags": [
+      "framework",
+      "automation",
+      "cli",
+      "extension",
+      "library"
+    ],
+    "image": "/img/project-edr-evasion-techniques-825.png",
+    "words": 241,
+    "readTime": "2 min",
+    "features": [
+      "impacket",
+      "hydra",
+      "john"
+    ]
+  },
+  {
+    "id": "project-edr-evasion-techniques-704",
+    "title": "EDR Evasion Techniques",
+    "section": "projects",
+    "description": "Open source security project: EDR Evasion Techniques. Built for the community.",
+    "permalink": "/research/project-edr-evasion-techniques-704.html",
+    "btn_label": "View Project",
+    "date": "2026-02-20",
+    "tags": [
+      "extension",
+      "automation",
+      "framework"
+    ],
+    "image": "/img/project-edr-evasion-techniques-704.png",
+    "words": 210,
+    "readTime": "2 min",
+    "features": [
+      "feroxbuster",
+      "evil-winrm",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-edr-evasion-techniques-313",
+    "title": "EDR Evasion Techniques",
+    "section": "projects",
+    "description": "Open source security project: EDR Evasion Techniques. Built for the community.",
+    "permalink": "/research/project-edr-evasion-techniques-313.html",
+    "btn_label": "View Project",
+    "date": "2025-12-28",
+    "tags": [
+      "cli",
+      "plugin",
+      "tool",
+      "framework"
+    ],
+    "image": "/img/project-edr-evasion-techniques-313.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "gobuster",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "project-dns-resolver-and-brute-forcer-961",
+    "title": "DNS Resolver and Brute Forcer",
+    "section": "projects",
+    "description": "Open source security project: DNS Resolver and Brute Forcer. Built for the community.",
+    "permalink": "/research/project-dns-resolver-and-brute-forcer-961.html",
+    "btn_label": "View Project",
+    "date": "2025-08-05",
+    "tags": [
+      "cli",
+      "extension",
+      "tool"
+    ],
+    "image": "/img/project-dns-resolver-and-brute-forcer-961.png",
+    "words": 191,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "feroxbuster",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "project-dns-resolver-and-brute-forcer-821",
+    "title": "DNS Resolver and Brute Forcer",
+    "section": "projects",
+    "description": "Open source security project: DNS Resolver and Brute Forcer. Built for the community.",
+    "permalink": "/research/project-dns-resolver-and-brute-forcer-821.html",
+    "btn_label": "View Project",
+    "date": "2024-09-17",
+    "tags": [
+      "framework",
+      "security",
+      "tool",
+      "open-source"
+    ],
+    "image": "/img/project-dns-resolver-and-brute-forcer-821.png",
+    "words": 185,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "hydra",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "project-dns-resolver-and-brute-forcer-591",
+    "title": "DNS Resolver and Brute Forcer",
+    "section": "projects",
+    "description": "Open source security project: DNS Resolver and Brute Forcer. Built for the community.",
+    "permalink": "/research/project-dns-resolver-and-brute-forcer-591.html",
+    "btn_label": "View Project",
+    "date": "2025-06-13",
+    "tags": [
+      "automation",
+      "open-source",
+      "plugin",
+      "cli",
+      "extension"
+    ],
+    "image": "/img/project-dns-resolver-and-brute-forcer-591.png",
+    "words": 229,
+    "readTime": "2 min",
+    "features": [
+      "hashcat",
+      "john",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "project-deep-dive-into-windows-kernel-exploitati-750",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "projects",
+    "description": "Open source security project: Deep Dive into Windows Kernel Exploitation. Built for the community.",
+    "permalink": "/research/project-deep-dive-into-windows-kernel-exploitati-750.html",
+    "btn_label": "View Project",
+    "date": "2025-02-01",
+    "tags": [
+      "automation",
+      "extension",
+      "tool",
+      "security"
+    ],
+    "image": "/img/project-deep-dive-into-windows-kernel-exploitati-7.png",
+    "words": 210,
+    "readTime": "2 min",
+    "features": [
+      "hashcat",
+      "crackmapexec",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "project-deep-dive-into-windows-kernel-exploitati-258",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "projects",
+    "description": "Open source security project: Deep Dive into Windows Kernel Exploitation. Built for the community.",
+    "permalink": "/research/project-deep-dive-into-windows-kernel-exploitati-258.html",
+    "btn_label": "View Project",
+    "date": "2024-08-31",
+    "tags": [
+      "plugin",
+      "extension",
+      "cli",
+      "open-source"
+    ],
+    "image": "/img/project-deep-dive-into-windows-kernel-exploitati-2.png",
+    "words": 211,
+    "readTime": "2 min",
+    "features": [
+      "nmap",
+      "impacket",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-deep-dive-into-windows-kernel-exploitati-205",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "projects",
+    "description": "Open source security project: Deep Dive into Windows Kernel Exploitation. Built for the community.",
+    "permalink": "/research/project-deep-dive-into-windows-kernel-exploitati-205.html",
+    "btn_label": "View Project",
+    "date": "2025-09-05",
+    "tags": [
+      "security",
+      "cli",
+      "library"
+    ],
+    "image": "/img/project-deep-dive-into-windows-kernel-exploitati-2.png",
+    "words": 174,
+    "readTime": "1 min",
+    "features": [
+      "hashcat",
+      "hydra",
+      "impacket"
+    ]
+  },
+  {
+    "id": "project-custom-wordlist-generator-770",
+    "title": "Custom Wordlist Generator",
+    "section": "projects",
+    "description": "Open source security project: Custom Wordlist Generator. Built for the community.",
+    "permalink": "/research/project-custom-wordlist-generator-770.html",
+    "btn_label": "View Project",
+    "date": "2026-01-14",
+    "tags": [
+      "extension",
+      "security",
+      "plugin",
+      "framework",
+      "open-source"
+    ],
+    "image": "/img/project-custom-wordlist-generator-770.png",
+    "words": 189,
+    "readTime": "1 min",
+    "features": [
+      "hydra",
+      "nmap",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "project-custom-wordlist-generator-333",
+    "title": "Custom Wordlist Generator",
+    "section": "projects",
+    "description": "Open source security project: Custom Wordlist Generator. Built for the community.",
+    "permalink": "/research/project-custom-wordlist-generator-333.html",
+    "btn_label": "View Project",
+    "date": "2024-04-29",
+    "tags": [
+      "plugin",
+      "library",
+      "open-source",
+      "tool"
+    ],
+    "image": "/img/project-custom-wordlist-generator-333.png",
+    "words": 182,
+    "readTime": "1 min",
+    "features": [
+      "john",
+      "gobuster",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "project-custom-wordlist-generator-197",
+    "title": "Custom Wordlist Generator",
+    "section": "projects",
+    "description": "Open source security project: Custom Wordlist Generator. Built for the community.",
+    "permalink": "/research/project-custom-wordlist-generator-197.html",
+    "btn_label": "View Project",
+    "date": "2025-10-10",
+    "tags": [
+      "library",
+      "open-source",
+      "cli",
+      "automation"
+    ],
+    "image": "/img/project-custom-wordlist-generator-197.png",
+    "words": 181,
+    "readTime": "1 min",
+    "features": [
+      "gobuster",
+      "impacket",
+      "john"
+    ]
+  },
+  {
+    "id": "project-custom-wordlist-generator-140",
+    "title": "Custom Wordlist Generator",
+    "section": "projects",
+    "description": "Open source security project: Custom Wordlist Generator. Built for the community.",
+    "permalink": "/research/project-custom-wordlist-generator-140.html",
+    "btn_label": "View Project",
+    "date": "2025-03-24",
+    "tags": [
+      "open-source",
+      "extension",
+      "tool"
+    ],
+    "image": "/img/project-custom-wordlist-generator-140.png",
+    "words": 198,
+    "readTime": "1 min",
+    "features": [
+      "feroxbuster",
+      "crackmapexec",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-ctf-challenge-solver-template-850",
+    "title": "CTF Challenge Solver Template",
+    "section": "projects",
+    "description": "Open source security project: CTF Challenge Solver Template. Built for the community.",
+    "permalink": "/research/project-ctf-challenge-solver-template-850.html",
+    "btn_label": "View Project",
+    "date": "2025-07-01",
+    "tags": [
+      "tool",
+      "extension",
+      "open-source"
+    ],
+    "image": "/img/project-ctf-challenge-solver-template-850.png",
+    "words": 194,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "hydra",
+      "nmap"
+    ]
+  },
+  {
+    "id": "project-ctf-challenge-solver-template-285",
+    "title": "CTF Challenge Solver Template",
+    "section": "projects",
+    "description": "Open source security project: CTF Challenge Solver Template. Built for the community.",
+    "permalink": "/research/project-ctf-challenge-solver-template-285.html",
+    "btn_label": "View Project",
+    "date": "2024-02-22",
+    "tags": [
+      "open-source",
+      "cli",
+      "automation"
+    ],
+    "image": "/img/project-ctf-challenge-solver-template-285.png",
+    "words": 202,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "nmap",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-c2-beacon-simulator-623",
+    "title": "C2 Beacon Simulator",
+    "section": "projects",
+    "description": "Open source security project: C2 Beacon Simulator. Built for the community.",
+    "permalink": "/research/project-c2-beacon-simulator-623.html",
+    "btn_label": "View Project",
+    "date": "2025-06-28",
+    "tags": [
+      "security",
+      "framework",
+      "plugin"
+    ],
+    "image": "/img/project-c2-beacon-simulator-623.png",
+    "words": 186,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "ffuf",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "project-c2-beacon-simulator-228",
+    "title": "C2 Beacon Simulator",
+    "section": "projects",
+    "description": "Open source security project: C2 Beacon Simulator. Built for the community.",
+    "permalink": "/research/project-c2-beacon-simulator-228.html",
+    "btn_label": "View Project",
+    "date": "2024-08-22",
+    "tags": [
+      "security",
+      "library",
+      "extension",
+      "tool"
+    ],
+    "image": "/img/project-c2-beacon-simulator-228.png",
+    "words": 191,
+    "readTime": "1 min",
+    "features": [
+      "feroxbuster",
+      "impacket",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "project-browser-exploitation-techniques-935",
+    "title": "Browser Exploitation Techniques",
+    "section": "projects",
+    "description": "Open source security project: Browser Exploitation Techniques. Built for the community.",
+    "permalink": "/research/project-browser-exploitation-techniques-935.html",
+    "btn_label": "View Project",
+    "date": "2024-07-26",
+    "tags": [
+      "extension",
+      "security",
+      "cli"
+    ],
+    "image": "/img/project-browser-exploitation-techniques-935.png",
+    "words": 220,
+    "readTime": "2 min",
+    "features": [
+      "hashcat",
+      "hydra",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-browser-exploitation-techniques-723",
+    "title": "Browser Exploitation Techniques",
+    "section": "projects",
+    "description": "Open source security project: Browser Exploitation Techniques. Built for the community.",
+    "permalink": "/research/project-browser-exploitation-techniques-723.html",
+    "btn_label": "View Project",
+    "date": "2026-02-27",
+    "tags": [
+      "automation",
+      "plugin",
+      "security",
+      "framework",
+      "library"
+    ],
+    "image": "/img/project-browser-exploitation-techniques-723.png",
+    "words": 188,
+    "readTime": "1 min",
+    "features": [
+      "ffuf",
+      "nmap",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "project-browser-exploitation-techniques-566",
+    "title": "Browser Exploitation Techniques",
+    "section": "projects",
+    "description": "Open source security project: Browser Exploitation Techniques. Built for the community.",
+    "permalink": "/research/project-browser-exploitation-techniques-566.html",
+    "btn_label": "View Project",
+    "date": "2025-10-22",
+    "tags": [
+      "framework",
+      "cli",
+      "plugin"
+    ],
+    "image": "/img/project-browser-exploitation-techniques-566.png",
+    "words": 209,
+    "readTime": "2 min",
+    "features": [
+      "nmap",
+      "hydra",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "project-browser-exploitation-techniques-434",
+    "title": "Browser Exploitation Techniques",
+    "section": "projects",
+    "description": "Open source security project: Browser Exploitation Techniques. Built for the community.",
+    "permalink": "/research/project-browser-exploitation-techniques-434.html",
+    "btn_label": "View Project",
+    "date": "2025-05-01",
+    "tags": [
+      "security",
+      "extension",
+      "cli",
+      "open-source"
+    ],
+    "image": "/img/project-browser-exploitation-techniques-434.png",
+    "words": 206,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "hydra",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "project-browser-exploitation-techniques-155",
+    "title": "Browser Exploitation Techniques",
+    "section": "projects",
+    "description": "Open source security project: Browser Exploitation Techniques. Built for the community.",
+    "permalink": "/research/project-browser-exploitation-techniques-155.html",
+    "btn_label": "View Project",
+    "date": "2025-04-19",
+    "tags": [
+      "cli",
+      "tool",
+      "security",
+      "open-source"
+    ],
+    "image": "/img/project-browser-exploitation-techniques-155.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "hashcat",
+      "gobuster",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-automated-report-generator-970",
+    "title": "Automated Report Generator",
+    "section": "projects",
+    "description": "Open source security project: Automated Report Generator. Built for the community.",
+    "permalink": "/research/project-automated-report-generator-970.html",
+    "btn_label": "View Project",
+    "date": "2024-04-05",
+    "tags": [
+      "framework",
+      "cli",
+      "tool",
+      "plugin",
+      "security"
+    ],
+    "image": "/img/project-automated-report-generator-970.png",
+    "words": 205,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "crackmapexec",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "project-automated-report-generator-636",
+    "title": "Automated Report Generator",
+    "section": "projects",
+    "description": "Open source security project: Automated Report Generator. Built for the community.",
+    "permalink": "/research/project-automated-report-generator-636.html",
+    "btn_label": "View Project",
+    "date": "2026-02-25",
+    "tags": [
+      "security",
+      "extension",
+      "framework",
+      "tool"
+    ],
+    "image": "/img/project-automated-report-generator-636.png",
+    "words": 232,
+    "readTime": "2 min",
+    "features": [
+      "gobuster",
+      "impacket",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "project-automated-report-generator-539",
+    "title": "Automated Report Generator",
+    "section": "projects",
+    "description": "Open source security project: Automated Report Generator. Built for the community.",
+    "permalink": "/research/project-automated-report-generator-539.html",
+    "btn_label": "View Project",
+    "date": "2024-10-29",
+    "tags": [
+      "open-source",
+      "extension",
+      "automation"
+    ],
+    "image": "/img/project-automated-report-generator-539.png",
+    "words": 187,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "john",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-automated-report-generator-107",
+    "title": "Automated Report Generator",
+    "section": "projects",
+    "description": "Open source security project: Automated Report Generator. Built for the community.",
+    "permalink": "/research/project-automated-report-generator-107.html",
+    "btn_label": "View Project",
+    "date": "2025-01-16",
+    "tags": [
+      "library",
+      "plugin",
+      "extension"
+    ],
+    "image": "/img/project-automated-report-generator-107.png",
+    "words": 193,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "john",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "project-automated-port-scanner-799",
+    "title": "Automated Port Scanner",
+    "section": "projects",
+    "description": "Open source security project: Automated Port Scanner. Built for the community.",
+    "permalink": "/research/project-automated-port-scanner-799.html",
+    "btn_label": "View Project",
+    "date": "2025-01-15",
+    "tags": [
+      "cli",
+      "tool",
+      "framework",
+      "open-source"
+    ],
+    "image": "/img/project-automated-port-scanner-799.png",
+    "words": 226,
+    "readTime": "2 min",
+    "features": [
+      "hydra",
+      "feroxbuster",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "project-automated-port-scanner-793",
+    "title": "Automated Port Scanner",
+    "section": "projects",
+    "description": "Open source security project: Automated Port Scanner. Built for the community.",
+    "permalink": "/research/project-automated-port-scanner-793.html",
+    "btn_label": "View Project",
+    "date": "2025-04-15",
+    "tags": [
+      "framework",
+      "library",
+      "extension"
+    ],
+    "image": "/img/project-automated-port-scanner-793.png",
+    "words": 216,
+    "readTime": "2 min",
+    "features": [
+      "impacket",
+      "hydra",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "project-automated-port-scanner-140",
+    "title": "Automated Port Scanner",
+    "section": "projects",
+    "description": "Open source security project: Automated Port Scanner. Built for the community.",
+    "permalink": "/research/project-automated-port-scanner-140.html",
+    "btn_label": "View Project",
+    "date": "2024-01-14",
+    "tags": [
+      "automation",
+      "cli",
+      "framework"
+    ],
+    "image": "/img/project-automated-port-scanner-140.png",
+    "words": 195,
+    "readTime": "1 min",
+    "features": [
+      "nmap",
+      "impacket",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "project-api-security-testing-framework-880",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-880.html",
+    "btn_label": "View Project",
+    "date": "2025-06-30",
+    "tags": [
+      "framework",
+      "tool",
+      "cli"
+    ],
+    "image": "/img/project-api-security-testing-framework-880.png",
+    "words": 189,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "feroxbuster",
+      "hydra"
+    ]
+  },
+  {
+    "id": "project-api-security-testing-framework-728",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-728.html",
+    "btn_label": "View Project",
+    "date": "2025-12-17",
+    "tags": [
+      "plugin",
+      "library",
+      "cli",
+      "open-source"
+    ],
+    "image": "/img/project-api-security-testing-framework-728.png",
+    "words": 186,
+    "readTime": "1 min",
+    "features": [
+      "ffuf",
+      "hashcat",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "project-api-security-testing-framework-683",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-683.html",
+    "btn_label": "View Project",
+    "date": "2024-09-15",
+    "tags": [
+      "extension",
+      "tool",
+      "plugin",
+      "open-source",
+      "framework"
+    ],
+    "image": "/img/project-api-security-testing-framework-683.png",
+    "words": 195,
+    "readTime": "1 min",
+    "features": [
+      "hashcat",
+      "ffuf",
+      "john"
+    ]
+  },
+  {
+    "id": "project-api-security-testing-framework-344",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-344.html",
+    "btn_label": "View Project",
+    "date": "2025-09-24",
+    "tags": [
+      "framework",
+      "security",
+      "plugin",
+      "extension",
+      "cli"
+    ],
+    "image": "/img/project-api-security-testing-framework-344.png",
+    "words": 193,
+    "readTime": "1 min",
+    "features": [
+      "hydra",
+      "gobuster",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-api-security-testing-framework-272",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-272.html",
+    "btn_label": "View Project",
+    "date": "2024-08-02",
+    "tags": [
+      "cli",
+      "framework",
+      "tool"
+    ],
+    "image": "/img/project-api-security-testing-framework-272.png",
+    "words": 193,
+    "readTime": "1 min",
+    "features": [
+      "feroxbuster",
+      "john",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "project-api-security-testing-framework-168",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-168.html",
+    "btn_label": "View Project",
+    "date": "2025-10-23",
+    "tags": [
+      "library",
+      "security",
+      "automation"
+    ],
+    "image": "/img/project-api-security-testing-framework-168.png",
+    "words": 217,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "feroxbuster",
+      "hydra"
+    ]
+  },
+  {
+    "id": "project-api-security-testing-framework-128",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-128.html",
+    "btn_label": "View Project",
+    "date": "2025-09-10",
+    "tags": [
+      "open-source",
+      "automation",
+      "framework",
+      "extension"
+    ],
+    "image": "/img/project-api-security-testing-framework-128.png",
+    "words": 190,
+    "readTime": "1 min",
+    "features": [
+      "hydra",
+      "evil-winrm",
+      "nmap"
+    ]
+  },
+  {
+    "id": "project-analysis-of-cve-2024-xxxx-remote-code-ex-760",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "projects",
+    "description": "Open source security project: Analysis of CVE-2024-XXXX: Remote Code Execution. Built for the community.",
+    "permalink": "/research/project-analysis-of-cve-2024-xxxx-remote-code-ex-760.html",
+    "btn_label": "View Project",
+    "date": "2025-02-01",
+    "tags": [
+      "security",
+      "cli",
+      "library",
+      "framework",
+      "open-source"
+    ],
+    "image": "/img/project-analysis-of-cve-2024-xxxx-remote-code-ex-7.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "ffuf",
+      "nmap",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-analysis-of-cve-2024-xxxx-remote-code-ex-730",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "projects",
+    "description": "Open source security project: Analysis of CVE-2024-XXXX: Remote Code Execution. Built for the community.",
+    "permalink": "/research/project-analysis-of-cve-2024-xxxx-remote-code-ex-730.html",
+    "btn_label": "View Project",
+    "date": "2024-01-07",
+    "tags": [
+      "tool",
+      "security",
+      "cli"
+    ],
+    "image": "/img/project-analysis-of-cve-2024-xxxx-remote-code-ex-7.png",
+    "words": 200,
+    "readTime": "1 min",
+    "features": [
+      "gobuster",
+      "ffuf",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "project-analysis-of-cve-2024-xxxx-remote-code-ex-649",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "projects",
+    "description": "Open source security project: Analysis of CVE-2024-XXXX: Remote Code Execution. Built for the community.",
+    "permalink": "/research/project-analysis-of-cve-2024-xxxx-remote-code-ex-649.html",
+    "btn_label": "View Project",
+    "date": "2026-02-21",
+    "tags": [
+      "extension",
+      "framework",
+      "library",
+      "tool"
+    ],
+    "image": "/img/project-analysis-of-cve-2024-xxxx-remote-code-ex-6.png",
+    "words": 195,
+    "readTime": "1 min",
+    "features": [
+      "feroxbuster",
+      "hashcat",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-analysis-of-cve-2024-xxxx-remote-code-ex-479",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "projects",
+    "description": "Open source security project: Analysis of CVE-2024-XXXX: Remote Code Execution. Built for the community.",
+    "permalink": "/research/project-analysis-of-cve-2024-xxxx-remote-code-ex-479.html",
+    "btn_label": "View Project",
+    "date": "2024-11-03",
+    "tags": [
+      "tool",
+      "automation",
+      "security"
+    ],
+    "image": "/img/project-analysis-of-cve-2024-xxxx-remote-code-ex-4.png",
+    "words": 228,
+    "readTime": "2 min",
+    "features": [
+      "impacket",
+      "evil-winrm",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-amsi-bypass-collection-923",
+    "title": "AMSI Bypass Collection",
+    "section": "projects",
+    "description": "Open source security project: AMSI Bypass Collection. Built for the community.",
+    "permalink": "/research/project-amsi-bypass-collection-923.html",
+    "btn_label": "View Project",
+    "date": "2024-06-19",
+    "tags": [
+      "security",
+      "extension",
+      "library",
+      "cli"
+    ],
+    "image": "/img/project-amsi-bypass-collection-923.png",
+    "words": 209,
+    "readTime": "2 min",
+    "features": [
+      "hydra",
+      "john",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-amsi-bypass-collection-733",
+    "title": "AMSI Bypass Collection",
+    "section": "projects",
+    "description": "Open source security project: AMSI Bypass Collection. Built for the community.",
+    "permalink": "/research/project-amsi-bypass-collection-733.html",
+    "btn_label": "View Project",
+    "date": "2024-07-05",
+    "tags": [
+      "open-source",
+      "extension",
+      "plugin"
+    ],
+    "image": "/img/project-amsi-bypass-collection-733.png",
+    "words": 212,
+    "readTime": "2 min",
+    "features": [
+      "feroxbuster",
+      "evil-winrm",
+      "john"
+    ]
+  },
+  {
+    "id": "project-amsi-bypass-collection-606",
+    "title": "AMSI Bypass Collection",
+    "section": "projects",
+    "description": "Open source security project: AMSI Bypass Collection. Built for the community.",
+    "permalink": "/research/project-amsi-bypass-collection-606.html",
+    "btn_label": "View Project",
+    "date": "2024-10-02",
+    "tags": [
+      "automation",
+      "cli",
+      "framework",
+      "plugin",
+      "extension"
+    ],
+    "image": "/img/project-amsi-bypass-collection-606.png",
+    "words": 217,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "ffuf",
+      "gobuster"
+    ]
+  },
+  {
     "id": "zfx-recon-tool",
     "title": "ZFX Recon Tool",
     "section": "projects",

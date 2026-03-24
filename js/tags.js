@@ -1,14 +1,14 @@
 /* ============================================================
-   ZureFX — tags.js  (v3)
+   ZureFX — tags.js  (v4)
    Tags index + filter by #tagname via URL hash.
-   Carga plana desde data/posts.json (mismo patrón que app.js).
+   Lee directamente data/tags.json (índice pre-construido por convert.py).
    Depende de app.js (cargado antes): getRootPrefix(),
    SECTION_COLOR_MAP, fmtDate(), capitalize(), isMobile().
    ============================================================ */
 
 /* ── Cache compartido — evita re-fetch si ya está cargado ── */
-var _tags_posts     = [];
-var _tags_loaded    = false;
+var _tags_index  = null;   // objeto { "ctf": [...], "linux": [...], ... }
+var _tags_loaded = false;
 
 /* ── Helpers locales ── */
 function escT(s) {
@@ -18,28 +18,29 @@ function escT(s) {
 }
 
 /* ══════════════════════════════════════════════════════
-   LOAD — carga plana desde data/posts.json
+   LOAD — lee data/tags.json (objeto indexado por tag)
    ══════════════════════════════════════════════════════ */
-function tagsLoadPosts() {
-  if (_tags_loaded) return Promise.resolve(_tags_posts);
+function tagsLoadIndex() {
+  if (_tags_loaded) return Promise.resolve(_tags_index);
 
-  var url = getRootPrefix() + 'data/posts.json?v=' + Date.now();
+  var url = getRootPrefix() + 'data/tags.json?v=' + Date.now();
   return fetch(url, { cache: 'no-store' })
     .then(function(res) {
       if (!res.ok) throw new Error('HTTP ' + res.status);
       return res.json();
     })
     .then(function(data) {
-      _tags_posts  = Array.isArray(data) ? data : [];
+      _tags_index  = (data && typeof data === 'object' && !Array.isArray(data)) ? data : {};
       _tags_loaded = true;
-      console.log('[ZFX] tags — loaded posts.json — ' + _tags_posts.length + ' posts');
-      return _tags_posts;
+      var total = Object.keys(_tags_index).length;
+      console.log('[ZFX] tags — loaded tags.json — ' + total + ' tags');
+      return _tags_index;
     })
     .catch(function(err) {
-      console.warn('[tags.js] Could not load posts.json:', err);
-      _tags_posts  = [];
+      console.warn('[tags.js] Could not load tags.json:', err);
+      _tags_index  = {};
       _tags_loaded = true;
-      return [];
+      return {};
     });
 }
 
@@ -47,7 +48,7 @@ function tagsLoadPosts() {
 function buildPlItemT(p) {
   var color = SECTION_COLOR_MAP[p.section] || '#cc2b2b';
   var label = capitalize(p.section);
-  var words = p.words ? p.words.toLocaleString() + ' w' : '— w';
+  var words = p.words ? p.words.toLocaleString() + ' w' : '';
   var time  = p.readTime ? p.readTime : '? min';
 
   var item = document.createElement('div');
@@ -104,38 +105,40 @@ function buildPlItemT(p) {
   ].join(';');
   desc.textContent = p.description || '';
 
-  var foot = document.createElement('div');
-  foot.style.cssText = 'display:flex;align-items:center;gap:6px;margin-top:2px';
-  foot.innerHTML =
-    '<span style="font-family:var(--mono);font-size:.52rem;color:var(--text-3);display:flex;align-items:center;gap:3px">' +
-      '<svg style="width:10px;height:10px;opacity:.5;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>' +
-      words +
-    '</span>' +
-    '<span style="width:3px;height:3px;border-radius:50%;background:var(--border);flex-shrink:0"></span>' +
+  var footParts =
     '<span style="font-family:var(--mono);font-size:.52rem;color:var(--text-3);display:flex;align-items:center;gap:3px">' +
       '<svg style="width:10px;height:10px;opacity:.5;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>' +
       time +
     '</span>';
 
+  if (words) {
+    footParts =
+      '<span style="font-family:var(--mono);font-size:.52rem;color:var(--text-3);display:flex;align-items:center;gap:3px">' +
+        '<svg style="width:10px;height:10px;opacity:.5;flex-shrink:0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>' +
+        words +
+      '</span>' +
+      '<span style="width:3px;height:3px;border-radius:50%;background:var(--border);flex-shrink:0"></span>' +
+      footParts;
+  }
+
+  var foot = document.createElement('div');
+  foot.style.cssText = 'display:flex;align-items:center;gap:6px;margin-top:2px';
+  foot.innerHTML = footParts;
+
   body.appendChild(meta);
   body.appendChild(title);
-  body.appendChild(desc);
+  if (p.description) body.appendChild(desc);
   body.appendChild(foot);
   item.appendChild(bar);
   item.appendChild(body);
 
   item.addEventListener('mouseenter', function() {
-    item.style.borderColor = 'rgba(' +
-      parseInt(color.slice(1,3),16) + ',' +
-      parseInt(color.slice(3,5),16) + ',' +
-      parseInt(color.slice(5,7),16) + ',.35)';
-    item.style.transform   = 'translateY(-1px)';
-    title.style.color      = color;
+    item.style.transform = 'translateY(-1px)';
+    title.style.color    = color;
   });
   item.addEventListener('mouseleave', function() {
-    item.style.borderColor = '';
-    item.style.transform   = '';
-    title.style.color      = '';
+    item.style.transform = '';
+    title.style.color    = '';
   });
 
   item.addEventListener('click', (function(href) {
@@ -172,10 +175,12 @@ function updateTagsStats(text) {
 }
 
 /* ══════════════════════════════════════════════════════════════
-   RENDER: FILTER MODE  (tags.html#CTF)
+   RENDER: FILTER MODE  (tags.html#ctf)
+   Lee directamente tagsIndex["ctf"] — sin filtrar todo posts.json
    ══════════════════════════════════════════════════════════════ */
 async function renderFilter(tag, container) {
   document.title = '#' + tag + ' — ZureFX';
+
   var header = document.getElementById('tagsHeader');
   if (header) {
     header.innerHTML =
@@ -198,17 +203,17 @@ async function renderFilter(tag, container) {
 
   renderTagsSkeleton(container);
 
-  var posts = await tagsLoadPosts();
+  var index = await tagsLoadIndex();
 
-  var filtered = posts.filter(function(p) {
-    return (p.tags || []).some(function(t) {
-      return t.trim().toLowerCase() === tag.toLowerCase();
-    });
+  /* Búsqueda case-insensitive: el tag del hash puede venir en cualquier case */
+  var tagKey = Object.keys(index).find(function(k) {
+    return k.toLowerCase() === tag.toLowerCase();
   });
+  var posts = tagKey ? (index[tagKey] || []) : [];
 
-  updateTagsStats(filtered.length + ' post' + (filtered.length !== 1 ? 's' : ''));
+  updateTagsStats(posts.length + ' post' + (posts.length !== 1 ? 's' : ''));
 
-  if (!filtered.length) {
+  if (!posts.length) {
     container.innerHTML =
       '<div class="tags-empty">' +
         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">' +
@@ -223,36 +228,20 @@ async function renderFilter(tag, container) {
   var list = document.createElement('div');
   list.className = 'tag-post-list';
   list.style.cssText = 'display:flex;flex-direction:column;gap:6px';
-  filtered.forEach(function(p) { list.appendChild(buildPlItemT(p)); });
+  posts.forEach(function(p) { list.appendChild(buildPlItemT(p)); });
   container.innerHTML = '';
   container.appendChild(list);
 }
 
 /* ══════════════════════════════════════════════════════════════
    RENDER: INDEX MODE  (tags.html)
+   El índice ya viene ordenado alfabéticamente desde tags.json
    ══════════════════════════════════════════════════════════════ */
-function renderIndex(posts, container) {
-  var tagMap = new Map();
-  for (var i = 0; i < posts.length; i++) {
-    var p    = posts[i];
-    var tags = (p.tags || []).map(function(t) { return t.trim(); }).filter(Boolean);
-    if (!tags.length) {
-      if (!tagMap.has('untagged')) tagMap.set('untagged', []);
-      tagMap.get('untagged').push(p);
-    } else {
-      tags.forEach(function(tg) {
-        if (!tagMap.has(tg)) tagMap.set(tg, []);
-        tagMap.get(tg).push(p);
-      });
-    }
-  }
-
-  var sorted = Array.from(tagMap.entries()).sort(function(a, b) {
-    return a[0].localeCompare(b[0]);
-  });
+function renderIndex(index, container) {
+  var entries = Object.entries(index);   /* [ [tag, posts[]], ... ] */
 
   document.title = 'Tags — ZureFX';
-  updateTagsStats(sorted.length + ' tag' + (sorted.length !== 1 ? 's' : ''));
+  updateTagsStats(entries.length + ' tag' + (entries.length !== 1 ? 's' : ''));
 
   /* Tag cloud pills */
   var cloudWrap = document.createElement('div');
@@ -260,7 +249,7 @@ function renderIndex(posts, container) {
   var cloud = document.createElement('div');
   cloud.className = 'tags-cloud';
 
-  sorted.forEach(function(entry) {
+  entries.forEach(function(entry) {
     var tg = entry[0], count = entry[1].length;
     var btn = document.createElement('button');
     btn.className   = 'tags-cloud-pill';
@@ -277,7 +266,7 @@ function renderIndex(posts, container) {
   var frag = document.createDocumentFragment();
   frag.appendChild(cloudWrap);
 
-  sorted.forEach(function(entry) {
+  entries.forEach(function(entry) {
     var tg = entry[0], tp = entry[1];
     var section = document.createElement('div');
     section.className = 'tag-section';
@@ -315,15 +304,15 @@ async function renderTagsPage() {
   if (!container) return;
 
   var tag = getHashTag();
-
   renderTagsSkeleton(container);
 
   try {
+    var index = await tagsLoadIndex();
+
     if (tag) {
       await renderFilter(tag, container);
     } else {
-      var posts = await tagsLoadPosts();
-      renderIndex(posts, container);
+      renderIndex(index, container);
     }
   } catch (e) {
     console.error('[tags.js]', e);
@@ -333,7 +322,7 @@ async function renderTagsPage() {
           '<circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>' +
         '</svg>' +
         '<h3>Could not load tags</h3>' +
-        '<p>Check that <code>/data/posts.json</code> exists and is valid JSON.</p>' +
+        '<p>Check that <code>/data/tags.json</code> exists and is valid JSON.</p>' +
       '</div>';
   }
 }

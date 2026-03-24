@@ -1,30 +1,28 @@
 /* ============================================================
    ZureFX — profile.js
-   Carga los posts más recientes desde posts-1.json (mismo
-   sistema de chunks que app.js) y los renderiza en la página
-   de perfil. Depende de app.js (cargado antes).
+   Carga los posts más recientes desde for-you.json y los
+   renderiza en la página de perfil.
+   Depende de app.js (cargado antes): getRootPrefix(),
+   isMobile(), renderList(), renderGrid().
    ============================================================ */
 
 async function loadRecentPosts() {
   var container = document.getElementById('postsContainer');
   if (!container) return;
 
-  /* Mostrar skeleton mientras carga */
   container.innerHTML =
     '<div class="skeleton-row" style="opacity:.4"></div>' +
     '<div class="skeleton-row" style="opacity:.3;animation-delay:.15s"></div>' +
     '<div class="skeleton-row" style="opacity:.2;animation-delay:.3s"></div>';
 
-  var prefix = getRootPrefix();   /* reutiliza la función de app.js */
+  var prefix = getRootPrefix();
 
   try {
-    var res = await fetch(prefix + 'data/posts-1.json?v=' + Date.now(), { cache: 'no-store' });
+    var res = await fetch(prefix + 'data/for-you.json?v=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) throw new Error('HTTP ' + res.status);
 
     var posts = await res.json();
-
-    /* posts-1.json ya viene ordenado por fecha desc — solo tomamos los 3 primeros */
-    var recent = posts.slice(0, 3);
+    var recent = Array.isArray(posts) ? posts.slice(0, 3) : [];
 
     if (!recent.length) {
       container.innerHTML =
@@ -34,8 +32,6 @@ async function loadRecentPosts() {
     }
 
     container.innerHTML = '';
-
-    /* misma lógica de app.js: list en mobile, grid en desktop */
     container.appendChild(isMobile() ? renderList(recent) : renderGrid(recent));
 
   } catch (err) {
@@ -46,7 +42,6 @@ async function loadRecentPosts() {
   }
 }
 
-/* Re-renderizar al cambiar tamaño de ventana */
 var _profileResizeTimer;
 window.addEventListener('resize', function() {
   clearTimeout(_profileResizeTimer);
