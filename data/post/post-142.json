@@ -1,0 +1,233 @@
+[
+  {
+    "id": "note-web-application-penetration-testing-meth-844",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-844.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-16",
+    "tags": [
+      "lateral-movement",
+      "cheatsheet",
+      "persistence",
+      "windows",
+      "enumeration"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-844.png",
+    "words": 447,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-348",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-348.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-16",
+    "tags": [
+      "networking",
+      "oscp",
+      "windows",
+      "lateral-movement",
+      "blue-team",
+      "cheatsheet"
+    ],
+    "image": "/img/note-cryptography-fundamentals-348.png",
+    "words": 367,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-339",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-339.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-16",
+    "tags": [
+      "dfir",
+      "networking",
+      "windows",
+      "enumeration",
+      "malware",
+      "oscp"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-339.png",
+    "words": 388,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-beep-598",
+    "title": "VulnHub — Beep (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Beep. SeImpersonatePrivilege and GPP Password to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-beep-598.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-16",
+    "tags": [
+      "pwntilldawn",
+      "ctf",
+      "reversing",
+      "linux"
+    ],
+    "image": "/img/htb-beep-598.png",
+    "words": 558,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-352",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-352.html",
+    "btn_label": "View Script",
+    "date": "2024-05-15",
+    "tags": [
+      "powershell",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-352.png",
+    "words": 282,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-512",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-512.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-14",
+    "tags": [
+      "lateral-movement",
+      "dfir",
+      "persistence",
+      "enumeration",
+      "linux"
+    ],
+    "image": "/img/note-digital-forensics-methodology-512.png",
+    "words": 320,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-relevant-623",
+    "title": "OffSec Proving Grounds — Relevant (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Relevant. Cron Job and AS-REP Roasting to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-relevant-623.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-14",
+    "tags": [
+      "insane",
+      "tryhackme",
+      "easy"
+    ],
+    "image": "/img/htb-relevant-623.png",
+    "words": 568,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-optimum-783",
+    "title": "HackTheBox — Optimum (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Optimum. Subdomain Takeover and AS-REP Roasting to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-optimum-783.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-14",
+    "tags": [
+      "medium",
+      "hackthebox",
+      "web",
+      "reversing",
+      "linux",
+      "tryhackme"
+    ],
+    "image": "/img/htb-optimum-783.png",
+    "words": 643,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-717",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-717.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-13",
+    "tags": [
+      "cheatsheet",
+      "enumeration",
+      "malware"
+    ],
+    "image": "/img/note-active-directory-attack-paths-717.png",
+    "words": 580,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-cap-173",
+    "title": "OffSec Proving Grounds — Cap (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Cap. Remote File Inclusion and IDOR to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-cap-173.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-13",
+    "tags": [
+      "windows",
+      "reversing",
+      "insane",
+      "web",
+      "hackthebox",
+      "active-directory",
+      "ctf"
+    ],
+    "image": "/img/htb-cap-173.png",
+    "words": 563,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-152",
+    "title": "Custom Wordlist Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-152.html",
+    "btn_label": "View Script",
+    "date": "2024-05-12",
+    "tags": [
+      "parser",
+      "automation",
+      "fuzzer",
+      "scanner",
+      "bash",
+      "script",
+      "go"
+    ],
+    "image": "/img/script-custom-wordlist-generator-152.png",
+    "words": 296,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-370",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-370.html",
+    "btn_label": "View Script",
+    "date": "2024-05-11",
+    "tags": [
+      "fuzzer",
+      "powershell",
+      "c",
+      "rust",
+      "tool",
+      "script",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-370.png",
+    "words": 285,
+    "readTime": "2 min"
+  }
+]

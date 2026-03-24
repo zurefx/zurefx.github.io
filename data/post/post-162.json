@@ -1,0 +1,229 @@
+[
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-665",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-665.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-06",
+    "tags": [
+      "buffer-overflow",
+      "exploit-development",
+      "kernel",
+      "cve"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-66.png",
+    "words": 473,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-web-crawler-and-spider-800",
+    "title": "Web Crawler and Spider",
+    "section": "projects",
+    "description": "Open source security project: Web Crawler and Spider. Built for the community.",
+    "permalink": "/research/project-web-crawler-and-spider-800.html",
+    "btn_label": "View Project",
+    "date": "2024-02-04",
+    "tags": [
+      "security",
+      "plugin",
+      "automation"
+    ],
+    "image": "/img/project-web-crawler-and-spider-800.png",
+    "words": 209,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "gobuster",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "htb-legacy-645",
+    "title": "TryHackMe — Legacy (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Legacy. DCSync and GPP Password to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-legacy-645.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-04",
+    "tags": [
+      "ctf",
+      "offsec",
+      "tryhackme",
+      "insane",
+      "forensics"
+    ],
+    "image": "/img/htb-legacy-645.png",
+    "words": 681,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-136",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-136.html",
+    "btn_label": "View Script",
+    "date": "2024-02-03",
+    "tags": [
+      "script",
+      "parser",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-136.png",
+    "words": 363,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-891",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-891.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-03",
+    "tags": [
+      "lateral-movement",
+      "blue-team",
+      "windows",
+      "enumeration"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-891.png",
+    "words": 200,
+    "readTime": "1 min"
+  },
+  {
+    "id": "script-process-injection-poc-626",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-626.html",
+    "btn_label": "View Script",
+    "date": "2024-02-02",
+    "tags": [
+      "powershell",
+      "script",
+      "scanner",
+      "parser",
+      "python",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-process-injection-poc-626.png",
+    "words": 302,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-821",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-821.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-02",
+    "tags": [
+      "dfir",
+      "malware",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-digital-forensics-methodology-821.png",
+    "words": 586,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-pikaboo-394",
+    "title": "VulnHub — Pikaboo (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Pikaboo. Remote Code Execution and CSRF to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-pikaboo-394.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-02",
+    "tags": [
+      "insane",
+      "linux",
+      "reversing",
+      "hackthebox",
+      "easy"
+    ],
+    "image": "/img/htb-pikaboo-394.png",
+    "words": 638,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-node-675",
+    "title": "HackTheBox — Node (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Node. CORS Misconfiguration and LAPS Abuse to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-node-675.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-02",
+    "tags": [
+      "forensics",
+      "hard",
+      "easy",
+      "insane"
+    ],
+    "image": "/img/htb-node-675.png",
+    "words": 597,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-958",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-958.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-01",
+    "tags": [
+      "malware-analysis",
+      "format-string",
+      "buffer-overflow",
+      "shellcode",
+      "kernel"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-95.png",
+    "words": 479,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-incident-response-playbook-995",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-995.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-01",
+    "tags": [
+      "persistence",
+      "blue-team",
+      "linux",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-incident-response-playbook-995.png",
+    "words": 384,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-incident-response-playbook-114",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-114.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-01",
+    "tags": [
+      "enumeration",
+      "windows",
+      "privilege-escalation",
+      "networking",
+      "blue-team",
+      "malware"
+    ],
+    "image": "/img/note-incident-response-playbook-114.png",
+    "words": 232,
+    "readTime": "2 min"
+  }
+]

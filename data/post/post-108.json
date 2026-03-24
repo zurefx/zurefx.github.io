@@ -1,0 +1,227 @@
+[
+  {
+    "id": "note-cryptography-fundamentals-347",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-347.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-27",
+    "tags": [
+      "lateral-movement",
+      "dfir",
+      "networking",
+      "blue-team"
+    ],
+    "image": "/img/note-cryptography-fundamentals-347.png",
+    "words": 448,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-passage-198",
+    "title": "HackTheBox — Passage (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Passage. SUID Binary and LXD Privilege Escalation to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-passage-198.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-26",
+    "tags": [
+      "windows",
+      "tryhackme",
+      "offsec",
+      "linux",
+      "hackthebox",
+      "reversing"
+    ],
+    "image": "/img/htb-passage-198.png",
+    "words": 639,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-mindgames-967",
+    "title": "OffSec Proving Grounds — Mindgames (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Mindgames. SQL Injection and DCSync to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-mindgames-967.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-26",
+    "tags": [
+      "offsec",
+      "easy",
+      "insane"
+    ],
+    "image": "/img/htb-mindgames-967.png",
+    "words": 689,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-ice-469",
+    "title": "HackTheBox — Ice (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ice. Path Traversal and LXD Privilege Escalation to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-ice-469.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-26",
+    "tags": [
+      "active-directory",
+      "insane",
+      "offsec",
+      "linux"
+    ],
+    "image": "/img/htb-ice-469.png",
+    "words": 648,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-sigma-rule-development-732",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-732.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-25",
+    "tags": [
+      "networking",
+      "oscp",
+      "privilege-escalation",
+      "malware"
+    ],
+    "image": "/img/note-sigma-rule-development-732.png",
+    "words": 267,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-706",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-706.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-25",
+    "tags": [
+      "blue-team",
+      "oscp",
+      "linux",
+      "lateral-movement",
+      "windows"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-706.png",
+    "words": 651,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-tenet-607",
+    "title": "HackTheBox — Tenet (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Tenet. Local File Inclusion and DLL Hijacking to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-tenet-607.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-25",
+    "tags": [
+      "linux",
+      "web",
+      "medium",
+      "ctf"
+    ],
+    "image": "/img/htb-tenet-607.png",
+    "words": 531,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-startup-472",
+    "title": "HackTheBox — Startup (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Startup. Resource-Based Constrained Delegation and AlwaysInstallElevated to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-startup-472.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-25",
+    "tags": [
+      "active-directory",
+      "easy",
+      "ctf",
+      "linux"
+    ],
+    "image": "/img/htb-startup-472.png",
+    "words": 606,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-291",
+    "title": "CTF Challenge Solver Template — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-291.html",
+    "btn_label": "View Script",
+    "date": "2024-10-24",
+    "tags": [
+      "rust",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-291.png",
+    "words": 305,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-mustacchio-504",
+    "title": "OffSec Proving Grounds — Mustacchio (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Mustacchio. Kerberoasting and Broken Access Control to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-mustacchio-504.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-24",
+    "tags": [
+      "windows",
+      "tryhackme",
+      "hard",
+      "reversing",
+      "easy",
+      "forensics",
+      "linux"
+    ],
+    "image": "/img/htb-mustacchio-504.png",
+    "words": 624,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-952",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-952.html",
+    "btn_label": "View Script",
+    "date": "2024-10-23",
+    "tags": [
+      "bash",
+      "parser",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-952.png",
+    "words": 372,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-114",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-114.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-23",
+    "tags": [
+      "linux",
+      "enumeration",
+      "cheatsheet",
+      "windows",
+      "networking",
+      "oscp"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-114.png",
+    "words": 622,
+    "readTime": "4 min"
+  }
+]

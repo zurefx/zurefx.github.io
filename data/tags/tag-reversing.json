@@ -1,0 +1,2026 @@
+[
+  {
+    "title": "HackTheBox — Doctor (Insane OpenBSD)",
+    "date": "2026-03-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-doctor-614.html",
+    "image": "/img/htb-doctor-614.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Node (Medium OpenBSD)",
+    "date": "2026-03-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-node-156.html",
+    "image": "/img/htb-node-156.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Game Zone (Medium FreeBSD)",
+    "date": "2026-03-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-game-zone-608.html",
+    "image": "/img/htb-game-zone-608.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Legacy (Insane Windows)",
+    "date": "2026-03-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-legacy-548.html",
+    "image": "/img/htb-legacy-548.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Deja Vu (Easy OpenBSD)",
+    "date": "2026-03-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-692.html",
+    "image": "/img/htb-deja-vu-692.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Analyzing a Simple Python Dropper",
+    "date": "2026-03-11",
+    "section": "research",
+    "permalink": "/research/malware-dropper-analysis.html",
+    "image": "/img/malware-dropper-analysis.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "VulnHub — Lame (Insane FreeBSD)",
+    "date": "2026-03-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-lame-414.html",
+    "image": "/img/htb-lame-414.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — SwagShop (Hard FreeBSD)",
+    "date": "2026-03-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-swagshop-575.html",
+    "image": "/img/htb-swagshop-575.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Doctor (Medium Windows)",
+    "date": "2026-02-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-doctor-372.html",
+    "image": "/img/htb-doctor-372.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Tenet (Hard Windows)",
+    "date": "2026-02-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tenet-866.html",
+    "image": "/img/htb-tenet-866.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Ophiuchi (Medium OpenBSD)",
+    "date": "2026-02-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ophiuchi-879.html",
+    "image": "/img/htb-ophiuchi-879.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Mindgames (Medium Windows)",
+    "date": "2026-02-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-916.html",
+    "image": "/img/htb-mindgames-916.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Arctic (Easy Linux)",
+    "date": "2026-02-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-arctic-486.html",
+    "image": "/img/htb-arctic-486.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Poison (Medium OpenBSD)",
+    "date": "2026-02-08",
+    "section": "writeups",
+    "permalink": "/writeups/htb-poison-223.html",
+    "image": "/img/htb-poison-223.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Solidstate (Easy OpenBSD)",
+    "date": "2026-02-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-solidstate-961.html",
+    "image": "/img/htb-solidstate-961.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Ice (Insane FreeBSD)",
+    "date": "2026-02-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ice-906.html",
+    "image": "/img/htb-ice-906.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Pikaboo (Medium OpenBSD)",
+    "date": "2026-02-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pikaboo-713.html",
+    "image": "/img/htb-pikaboo-713.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Pit (Insane FreeBSD)",
+    "date": "2026-01-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pit-691.html",
+    "image": "/img/htb-pit-691.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Academy (Insane OpenBSD)",
+    "date": "2026-01-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-academy-701.html",
+    "image": "/img/htb-academy-701.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Spectra (Easy Windows)",
+    "date": "2026-01-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-198.html",
+    "image": "/img/htb-spectra-198.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — FriendZone (Medium Windows)",
+    "date": "2026-01-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-friendzone-625.html",
+    "image": "/img/htb-friendzone-625.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Devel (Easy Windows)",
+    "date": "2026-01-08",
+    "section": "writeups",
+    "permalink": "/writeups/htb-devel-663.html",
+    "image": "/img/htb-devel-663.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Forge (Hard OpenBSD)",
+    "date": "2026-01-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-forge-205.html",
+    "image": "/img/htb-forge-205.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Tenet (Insane FreeBSD)",
+    "date": "2026-01-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tenet-815.html",
+    "image": "/img/htb-tenet-815.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Legacy (Easy Linux)",
+    "date": "2025-12-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-legacy-398.html",
+    "image": "/img/htb-legacy-398.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — TheNotebook (Insane Linux)",
+    "date": "2025-12-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-thenotebook-736.html",
+    "image": "/img/htb-thenotebook-736.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Love (Medium FreeBSD)",
+    "date": "2025-12-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-love-558.html",
+    "image": "/img/htb-love-558.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — FriendZone (Insane OpenBSD)",
+    "date": "2025-12-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-friendzone-846.html",
+    "image": "/img/htb-friendzone-846.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Overpass (Insane FreeBSD)",
+    "date": "2025-12-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-overpass-681.html",
+    "image": "/img/htb-overpass-681.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Tartarsauce (Insane OpenBSD)",
+    "date": "2025-12-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tartarsauce-336.html",
+    "image": "/img/htb-tartarsauce-336.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Networked (Medium OpenBSD)",
+    "date": "2025-12-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-networked-623.html",
+    "image": "/img/htb-networked-623.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Traverxec (Easy OpenBSD)",
+    "date": "2025-11-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-traverxec-451.html",
+    "image": "/img/htb-traverxec-451.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Tentacle (Insane OpenBSD)",
+    "date": "2025-11-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tentacle-918.html",
+    "image": "/img/htb-tentacle-918.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Arctic (Insane FreeBSD)",
+    "date": "2025-11-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-arctic-763.html",
+    "image": "/img/htb-arctic-763.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Breadcrumbs (Easy Linux)",
+    "date": "2025-11-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-breadcrumbs-267.html",
+    "image": "/img/htb-breadcrumbs-267.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Arctic (Insane Linux)",
+    "date": "2025-11-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-arctic-862.html",
+    "image": "/img/htb-arctic-862.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Seal (Insane Windows)",
+    "date": "2025-11-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-seal-343.html",
+    "image": "/img/htb-seal-343.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — TheNotebook (Medium Windows)",
+    "date": "2025-11-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-thenotebook-269.html",
+    "image": "/img/htb-thenotebook-269.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Love (Easy FreeBSD)",
+    "date": "2025-11-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-love-555.html",
+    "image": "/img/htb-love-555.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Game Zone (Insane OpenBSD)",
+    "date": "2025-11-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-game-zone-957.html",
+    "image": "/img/htb-game-zone-957.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — FriendZone (Insane Windows)",
+    "date": "2025-11-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-friendzone-434.html",
+    "image": "/img/htb-friendzone-434.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Networked (Easy Windows)",
+    "date": "2025-11-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-networked-822.html",
+    "image": "/img/htb-networked-822.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Omni (Easy Windows)",
+    "date": "2025-10-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-omni-748.html",
+    "image": "/img/htb-omni-748.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — ScriptKiddie (Medium Windows)",
+    "date": "2025-10-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-scriptkiddie-473.html",
+    "image": "/img/htb-scriptkiddie-473.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Seal (Hard FreeBSD)",
+    "date": "2025-10-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-seal-953.html",
+    "image": "/img/htb-seal-953.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Granny (Easy Windows)",
+    "date": "2025-10-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-granny-167.html",
+    "image": "/img/htb-granny-167.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Legacy (Insane Linux)",
+    "date": "2025-10-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-legacy-460.html",
+    "image": "/img/htb-legacy-460.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Sense (Insane Windows)",
+    "date": "2025-10-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-315.html",
+    "image": "/img/htb-sense-315.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Worker (Easy FreeBSD)",
+    "date": "2025-10-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-worker-518.html",
+    "image": "/img/htb-worker-518.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Jarvis (Medium FreeBSD)",
+    "date": "2025-10-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-jarvis-802.html",
+    "image": "/img/htb-jarvis-802.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Writer (Hard Windows)",
+    "date": "2025-10-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-writer-803.html",
+    "image": "/img/htb-writer-803.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Blue (Insane OpenBSD)",
+    "date": "2025-10-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blue-732.html",
+    "image": "/img/htb-blue-732.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Game Zone (Medium Windows)",
+    "date": "2025-10-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-game-zone-241.html",
+    "image": "/img/htb-game-zone-241.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — ServMon (Medium OpenBSD)",
+    "date": "2025-09-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-servmon-635.html",
+    "image": "/img/htb-servmon-635.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Pit (Hard Windows)",
+    "date": "2025-09-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pit-286.html",
+    "image": "/img/htb-pit-286.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Beep (Hard FreeBSD)",
+    "date": "2025-09-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-beep-471.html",
+    "image": "/img/htb-beep-471.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Fuse (Hard Linux)",
+    "date": "2025-09-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-fuse-364.html",
+    "image": "/img/htb-fuse-364.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Networked (Insane Windows)",
+    "date": "2025-09-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-networked-165.html",
+    "image": "/img/htb-networked-165.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Remote (Medium OpenBSD)",
+    "date": "2025-09-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-remote-358.html",
+    "image": "/img/htb-remote-358.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Beep (Easy FreeBSD)",
+    "date": "2025-09-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-beep-557.html",
+    "image": "/img/htb-beep-557.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Convertmyfund (Hard Linux)",
+    "date": "2025-09-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-convertmyfund-279.html",
+    "image": "/img/htb-convertmyfund-279.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Dynstr (Easy Linux)",
+    "date": "2025-09-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-dynstr-506.html",
+    "image": "/img/htb-dynstr-506.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Irked (Medium Windows)",
+    "date": "2025-08-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-irked-921.html",
+    "image": "/img/htb-irked-921.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Poison (Insane OpenBSD)",
+    "date": "2025-08-21",
+    "section": "writeups",
+    "permalink": "/writeups/htb-poison-847.html",
+    "image": "/img/htb-poison-847.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Solidstate (Insane OpenBSD)",
+    "date": "2025-08-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-solidstate-707.html",
+    "image": "/img/htb-solidstate-707.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Mindgames (Medium OpenBSD)",
+    "date": "2025-08-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-246.html",
+    "image": "/img/htb-mindgames-246.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Admirer (Easy OpenBSD)",
+    "date": "2025-08-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-admirer-542.html",
+    "image": "/img/htb-admirer-542.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Nineveh (Medium OpenBSD)",
+    "date": "2025-08-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-nineveh-694.html",
+    "image": "/img/htb-nineveh-694.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Tabby (Easy Windows)",
+    "date": "2025-08-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tabby-249.html",
+    "image": "/img/htb-tabby-249.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Buff (Insane FreeBSD)",
+    "date": "2025-08-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-buff-439.html",
+    "image": "/img/htb-buff-439.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Ophiuchi (Medium Windows)",
+    "date": "2025-08-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ophiuchi-349.html",
+    "image": "/img/htb-ophiuchi-349.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Mindgames (Easy FreeBSD)",
+    "date": "2025-08-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-698.html",
+    "image": "/img/htb-mindgames-698.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Magic (Insane Windows)",
+    "date": "2025-08-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-magic-478.html",
+    "image": "/img/htb-magic-478.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Ready (Hard Windows)",
+    "date": "2025-07-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ready-588.html",
+    "image": "/img/htb-ready-588.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — ScriptKiddie (Easy FreeBSD)",
+    "date": "2025-07-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-scriptkiddie-802.html",
+    "image": "/img/htb-scriptkiddie-802.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Shocker (Insane FreeBSD)",
+    "date": "2025-07-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-shocker-584.html",
+    "image": "/img/htb-shocker-584.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — ServMon (Insane Windows)",
+    "date": "2025-07-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-servmon-308.html",
+    "image": "/img/htb-servmon-308.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Crossfit (Easy OpenBSD)",
+    "date": "2025-07-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-crossfit-197.html",
+    "image": "/img/htb-crossfit-197.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Relevant (Insane OpenBSD)",
+    "date": "2025-07-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-relevant-201.html",
+    "image": "/img/htb-relevant-201.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Knife (Hard Windows)",
+    "date": "2025-07-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-knife-924.html",
+    "image": "/img/htb-knife-924.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — ServMon (Easy OpenBSD)",
+    "date": "2025-07-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-servmon-784.html",
+    "image": "/img/htb-servmon-784.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Buffer (Insane Linux)",
+    "date": "2025-07-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-buffer-418.html",
+    "image": "/img/htb-buffer-418.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Beep (Easy FreeBSD)",
+    "date": "2025-07-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-beep-888.html",
+    "image": "/img/htb-beep-888.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Dynstr (Medium OpenBSD)",
+    "date": "2025-07-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-dynstr-372.html",
+    "image": "/img/htb-dynstr-372.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Deja Vu (Insane Windows)",
+    "date": "2025-07-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-631.html",
+    "image": "/img/htb-deja-vu-631.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Ophiuchi (Medium FreeBSD)",
+    "date": "2025-07-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ophiuchi-924.html",
+    "image": "/img/htb-ophiuchi-924.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Cap (Medium Windows)",
+    "date": "2025-07-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cap-606.html",
+    "image": "/img/htb-cap-606.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Game Zone (Insane FreeBSD)",
+    "date": "2025-06-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-game-zone-648.html",
+    "image": "/img/htb-game-zone-648.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Blunder (Insane OpenBSD)",
+    "date": "2025-06-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-355.html",
+    "image": "/img/htb-blunder-355.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Sense (Medium Windows)",
+    "date": "2025-06-21",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-794.html",
+    "image": "/img/htb-sense-794.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Horizontall (Medium OpenBSD)",
+    "date": "2025-06-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-horizontall-716.html",
+    "image": "/img/htb-horizontall-716.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Ophiuchi (Easy OpenBSD)",
+    "date": "2025-06-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ophiuchi-459.html",
+    "image": "/img/htb-ophiuchi-459.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Mindgames (Easy OpenBSD)",
+    "date": "2025-06-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-510.html",
+    "image": "/img/htb-mindgames-510.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Convertmyfund (Medium FreeBSD)",
+    "date": "2025-06-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-convertmyfund-597.html",
+    "image": "/img/htb-convertmyfund-597.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Ophiuchi (Hard OpenBSD)",
+    "date": "2025-05-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ophiuchi-781.html",
+    "image": "/img/htb-ophiuchi-781.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Writer (Hard FreeBSD)",
+    "date": "2025-05-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-writer-264.html",
+    "image": "/img/htb-writer-264.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Admirer (Medium OpenBSD)",
+    "date": "2025-05-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-admirer-212.html",
+    "image": "/img/htb-admirer-212.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Ice (Insane FreeBSD)",
+    "date": "2025-05-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ice-314.html",
+    "image": "/img/htb-ice-314.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Nineveh (Insane FreeBSD)",
+    "date": "2025-05-21",
+    "section": "writeups",
+    "permalink": "/writeups/htb-nineveh-386.html",
+    "image": "/img/htb-nineveh-386.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Omni (Easy FreeBSD)",
+    "date": "2025-05-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-omni-460.html",
+    "image": "/img/htb-omni-460.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — SwagShop (Hard Windows)",
+    "date": "2025-05-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-swagshop-402.html",
+    "image": "/img/htb-swagshop-402.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Sense (Insane Linux)",
+    "date": "2025-05-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-133.html",
+    "image": "/img/htb-sense-133.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Tenet (Hard FreeBSD)",
+    "date": "2025-05-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tenet-703.html",
+    "image": "/img/htb-tenet-703.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Ghizer (Easy Linux)",
+    "date": "2025-05-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ghizer-960.html",
+    "image": "/img/htb-ghizer-960.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Sense (Hard Windows)",
+    "date": "2025-05-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-535.html",
+    "image": "/img/htb-sense-535.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Sense (Easy OpenBSD)",
+    "date": "2025-04-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-840.html",
+    "image": "/img/htb-sense-840.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Res (Hard Linux)",
+    "date": "2025-04-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-res-638.html",
+    "image": "/img/htb-res-638.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Blunder (Insane FreeBSD)",
+    "date": "2025-04-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-415.html",
+    "image": "/img/htb-blunder-415.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Doctor (Insane Windows)",
+    "date": "2025-04-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-doctor-370.html",
+    "image": "/img/htb-doctor-370.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Ice (Hard Linux)",
+    "date": "2025-04-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ice-245.html",
+    "image": "/img/htb-ice-245.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Irked (Medium Linux)",
+    "date": "2025-04-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-irked-657.html",
+    "image": "/img/htb-irked-657.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — FriendZone (Easy Windows)",
+    "date": "2025-04-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-friendzone-487.html",
+    "image": "/img/htb-friendzone-487.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Overpass (Hard FreeBSD)",
+    "date": "2025-03-31",
+    "section": "writeups",
+    "permalink": "/writeups/htb-overpass-932.html",
+    "image": "/img/htb-overpass-932.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Academy (Hard Windows)",
+    "date": "2025-03-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-academy-229.html",
+    "image": "/img/htb-academy-229.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Overpass (Medium OpenBSD)",
+    "date": "2025-03-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-overpass-718.html",
+    "image": "/img/htb-overpass-718.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — SwagShop (Medium Linux)",
+    "date": "2025-03-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-swagshop-963.html",
+    "image": "/img/htb-swagshop-963.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Mindgames (Insane OpenBSD)",
+    "date": "2025-03-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-344.html",
+    "image": "/img/htb-mindgames-344.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Remote (Easy Windows)",
+    "date": "2025-03-08",
+    "section": "writeups",
+    "permalink": "/writeups/htb-remote-630.html",
+    "image": "/img/htb-remote-630.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Armageddon (Medium FreeBSD)",
+    "date": "2025-03-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-armageddon-738.html",
+    "image": "/img/htb-armageddon-738.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Tartarsauce (Hard Linux)",
+    "date": "2025-03-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tartarsauce-440.html",
+    "image": "/img/htb-tartarsauce-440.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Devel (Easy FreeBSD)",
+    "date": "2025-03-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-devel-196.html",
+    "image": "/img/htb-devel-196.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Anthem (Easy FreeBSD)",
+    "date": "2025-02-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-anthem-393.html",
+    "image": "/img/htb-anthem-393.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Traverxec (Hard Windows)",
+    "date": "2025-02-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-traverxec-303.html",
+    "image": "/img/htb-traverxec-303.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Brainstorm (Easy Linux)",
+    "date": "2025-02-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-brainstorm-693.html",
+    "image": "/img/htb-brainstorm-693.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Node (Medium Linux)",
+    "date": "2025-02-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-node-569.html",
+    "image": "/img/htb-node-569.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Cronos (Easy FreeBSD)",
+    "date": "2025-02-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cronos-578.html",
+    "image": "/img/htb-cronos-578.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Armageddon (Medium Windows)",
+    "date": "2025-01-31",
+    "section": "writeups",
+    "permalink": "/writeups/htb-armageddon-855.html",
+    "image": "/img/htb-armageddon-855.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Alfred (Hard Windows)",
+    "date": "2025-01-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-alfred-941.html",
+    "image": "/img/htb-alfred-941.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Granny (Insane Linux)",
+    "date": "2025-01-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-granny-638.html",
+    "image": "/img/htb-granny-638.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Doctor (Easy Windows)",
+    "date": "2025-01-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-doctor-298.html",
+    "image": "/img/htb-doctor-298.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Sense (Hard Windows)",
+    "date": "2025-01-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-636.html",
+    "image": "/img/htb-sense-636.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Convertmyfund (Hard Linux)",
+    "date": "2025-01-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-convertmyfund-794.html",
+    "image": "/img/htb-convertmyfund-794.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Blunder (Easy Windows)",
+    "date": "2025-01-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-860.html",
+    "image": "/img/htb-blunder-860.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Buffer (Insane OpenBSD)",
+    "date": "2025-01-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-buffer-749.html",
+    "image": "/img/htb-buffer-749.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Nineveh (Hard Linux)",
+    "date": "2025-01-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-nineveh-510.html",
+    "image": "/img/htb-nineveh-510.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Anthem (Medium Linux)",
+    "date": "2025-01-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-anthem-217.html",
+    "image": "/img/htb-anthem-217.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Admirer (Insane OpenBSD)",
+    "date": "2025-01-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-admirer-311.html",
+    "image": "/img/htb-admirer-311.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Optimum (Insane FreeBSD)",
+    "date": "2025-01-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-optimum-959.html",
+    "image": "/img/htb-optimum-959.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Res (Easy Linux)",
+    "date": "2024-12-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-res-437.html",
+    "image": "/img/htb-res-437.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Deja Vu (Medium Linux)",
+    "date": "2024-12-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-396.html",
+    "image": "/img/htb-deja-vu-396.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Sunday (Insane FreeBSD)",
+    "date": "2024-12-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sunday-376.html",
+    "image": "/img/htb-sunday-376.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Pit (Easy Windows)",
+    "date": "2024-12-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pit-401.html",
+    "image": "/img/htb-pit-401.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Cap (Medium Linux)",
+    "date": "2024-12-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cap-983.html",
+    "image": "/img/htb-cap-983.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Granny (Easy FreeBSD)",
+    "date": "2024-12-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-granny-184.html",
+    "image": "/img/htb-granny-184.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Irked (Insane FreeBSD)",
+    "date": "2024-11-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-irked-699.html",
+    "image": "/img/htb-irked-699.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Pikaboo (Insane Linux)",
+    "date": "2024-11-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pikaboo-587.html",
+    "image": "/img/htb-pikaboo-587.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Deja Vu (Easy Linux)",
+    "date": "2024-11-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-870.html",
+    "image": "/img/htb-deja-vu-870.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Crossfit (Hard FreeBSD)",
+    "date": "2024-11-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-crossfit-426.html",
+    "image": "/img/htb-crossfit-426.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Love (Hard Linux)",
+    "date": "2024-11-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-love-441.html",
+    "image": "/img/htb-love-441.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Relevant (Medium Linux)",
+    "date": "2024-11-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-relevant-268.html",
+    "image": "/img/htb-relevant-268.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Poison (Hard FreeBSD)",
+    "date": "2024-11-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-poison-220.html",
+    "image": "/img/htb-poison-220.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Knife (Insane Windows)",
+    "date": "2024-11-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-knife-232.html",
+    "image": "/img/htb-knife-232.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Monitors (Insane FreeBSD)",
+    "date": "2024-11-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-monitors-245.html",
+    "image": "/img/htb-monitors-245.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Optimum (Hard OpenBSD)",
+    "date": "2024-10-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-optimum-820.html",
+    "image": "/img/htb-optimum-820.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Passage (Hard FreeBSD)",
+    "date": "2024-10-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-passage-198.html",
+    "image": "/img/htb-passage-198.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Mustacchio (Medium Linux)",
+    "date": "2024-10-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mustacchio-504.html",
+    "image": "/img/htb-mustacchio-504.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Ophiuchi (Insane FreeBSD)",
+    "date": "2024-10-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ophiuchi-761.html",
+    "image": "/img/htb-ophiuchi-761.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Legacy (Easy FreeBSD)",
+    "date": "2024-10-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-legacy-908.html",
+    "image": "/img/htb-legacy-908.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Crossfit (Insane OpenBSD)",
+    "date": "2024-10-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-crossfit-634.html",
+    "image": "/img/htb-crossfit-634.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Breadcrumbs (Medium Linux)",
+    "date": "2024-10-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-breadcrumbs-222.html",
+    "image": "/img/htb-breadcrumbs-222.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Crossfit (Easy Linux)",
+    "date": "2024-10-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-crossfit-933.html",
+    "image": "/img/htb-crossfit-933.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Sunday (Insane FreeBSD)",
+    "date": "2024-10-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sunday-227.html",
+    "image": "/img/htb-sunday-227.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Spectra (Insane Linux)",
+    "date": "2024-10-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-547.html",
+    "image": "/img/htb-spectra-547.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Cronos (Medium Linux)",
+    "date": "2024-10-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cronos-531.html",
+    "image": "/img/htb-cronos-531.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Passage (Easy OpenBSD)",
+    "date": "2024-10-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-passage-365.html",
+    "image": "/img/htb-passage-365.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Grandpa (Hard Linux)",
+    "date": "2024-10-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-grandpa-245.html",
+    "image": "/img/htb-grandpa-245.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Sense (Insane Linux)",
+    "date": "2024-09-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-714.html",
+    "image": "/img/htb-sense-714.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Networked (Easy Linux)",
+    "date": "2024-09-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-networked-590.html",
+    "image": "/img/htb-networked-590.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Mindgames (Medium Linux)",
+    "date": "2024-09-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-547.html",
+    "image": "/img/htb-mindgames-547.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Cronos (Easy Windows)",
+    "date": "2024-09-08",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cronos-543.html",
+    "image": "/img/htb-cronos-543.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Lame (Insane Linux)",
+    "date": "2024-09-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-lame-810.html",
+    "image": "/img/htb-lame-810.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Pikaboo (Insane FreeBSD)",
+    "date": "2024-09-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pikaboo-765.html",
+    "image": "/img/htb-pikaboo-765.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Dynstr (Medium FreeBSD)",
+    "date": "2024-09-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-dynstr-259.html",
+    "image": "/img/htb-dynstr-259.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Dynstr (Easy OpenBSD)",
+    "date": "2024-08-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-dynstr-973.html",
+    "image": "/img/htb-dynstr-973.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Breadcrumbs (Medium FreeBSD)",
+    "date": "2024-08-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-breadcrumbs-795.html",
+    "image": "/img/htb-breadcrumbs-795.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Seal (Hard FreeBSD)",
+    "date": "2024-08-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-seal-934.html",
+    "image": "/img/htb-seal-934.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Nineveh (Easy Linux)",
+    "date": "2024-08-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-nineveh-352.html",
+    "image": "/img/htb-nineveh-352.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Deja Vu (Medium Linux)",
+    "date": "2024-08-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-160.html",
+    "image": "/img/htb-deja-vu-160.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Omni (Easy Linux)",
+    "date": "2024-08-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-omni-434.html",
+    "image": "/img/htb-omni-434.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Granny (Insane Windows)",
+    "date": "2024-07-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-granny-751.html",
+    "image": "/img/htb-granny-751.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Blunder (Easy Windows)",
+    "date": "2024-07-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-745.html",
+    "image": "/img/htb-blunder-745.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — TheNotebook (Easy OpenBSD)",
+    "date": "2024-07-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-thenotebook-710.html",
+    "image": "/img/htb-thenotebook-710.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Skynet (Medium OpenBSD)",
+    "date": "2024-07-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-skynet-138.html",
+    "image": "/img/htb-skynet-138.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Seal (Insane FreeBSD)",
+    "date": "2024-07-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-seal-205.html",
+    "image": "/img/htb-seal-205.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Tabby (Insane Windows)",
+    "date": "2024-07-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tabby-677.html",
+    "image": "/img/htb-tabby-677.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Sense (Hard Linux)",
+    "date": "2024-07-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-811.html",
+    "image": "/img/htb-sense-811.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Irked (Insane Linux)",
+    "date": "2024-06-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-irked-486.html",
+    "image": "/img/htb-irked-486.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Bucket (Easy Linux)",
+    "date": "2024-06-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-bucket-835.html",
+    "image": "/img/htb-bucket-835.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Sunday (Easy Windows)",
+    "date": "2024-06-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sunday-395.html",
+    "image": "/img/htb-sunday-395.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Writer (Hard OpenBSD)",
+    "date": "2024-06-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-writer-810.html",
+    "image": "/img/htb-writer-810.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Magic (Insane Linux)",
+    "date": "2024-06-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-magic-156.html",
+    "image": "/img/htb-magic-156.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Deja Vu (Hard FreeBSD)",
+    "date": "2024-06-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-245.html",
+    "image": "/img/htb-deja-vu-245.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Fuse (Easy Linux)",
+    "date": "2024-06-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-fuse-535.html",
+    "image": "/img/htb-fuse-535.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Admirer (Hard OpenBSD)",
+    "date": "2024-06-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-admirer-741.html",
+    "image": "/img/htb-admirer-741.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Mindgames (Medium Windows)",
+    "date": "2024-06-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-552.html",
+    "image": "/img/htb-mindgames-552.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Alfred (Easy Linux)",
+    "date": "2024-06-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-alfred-427.html",
+    "image": "/img/htb-alfred-427.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Anthem (Insane FreeBSD)",
+    "date": "2024-06-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-anthem-668.html",
+    "image": "/img/htb-anthem-668.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Traverxec (Hard Windows)",
+    "date": "2024-06-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-traverxec-655.html",
+    "image": "/img/htb-traverxec-655.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Worker (Insane Windows)",
+    "date": "2024-05-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-worker-750.html",
+    "image": "/img/htb-worker-750.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Seal (Medium Linux)",
+    "date": "2024-05-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-seal-633.html",
+    "image": "/img/htb-seal-633.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Spectra (Easy Linux)",
+    "date": "2024-05-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-285.html",
+    "image": "/img/htb-spectra-285.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Networked (Hard Linux)",
+    "date": "2024-05-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-networked-956.html",
+    "image": "/img/htb-networked-956.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Beep (Hard Windows)",
+    "date": "2024-05-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-beep-598.html",
+    "image": "/img/htb-beep-598.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Optimum (Medium OpenBSD)",
+    "date": "2024-05-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-optimum-783.html",
+    "image": "/img/htb-optimum-783.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Cap (Medium OpenBSD)",
+    "date": "2024-05-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cap-173.html",
+    "image": "/img/htb-cap-173.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Sunday (Medium Linux)",
+    "date": "2024-05-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sunday-351.html",
+    "image": "/img/htb-sunday-351.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — ScriptKiddie (Medium Windows)",
+    "date": "2024-05-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-scriptkiddie-157.html",
+    "image": "/img/htb-scriptkiddie-157.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Bucket (Medium OpenBSD)",
+    "date": "2024-05-08",
+    "section": "writeups",
+    "permalink": "/writeups/htb-bucket-185.html",
+    "image": "/img/htb-bucket-185.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Overpass (Easy OpenBSD)",
+    "date": "2024-05-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-overpass-635.html",
+    "image": "/img/htb-overpass-635.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Convertmyfund (Medium Linux)",
+    "date": "2024-05-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-convertmyfund-208.html",
+    "image": "/img/htb-convertmyfund-208.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Solidstate (Medium FreeBSD)",
+    "date": "2024-05-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-solidstate-899.html",
+    "image": "/img/htb-solidstate-899.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Horizontall (Medium OpenBSD)",
+    "date": "2024-04-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-horizontall-131.html",
+    "image": "/img/htb-horizontall-131.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Startup (Easy Linux)",
+    "date": "2024-04-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-startup-392.html",
+    "image": "/img/htb-startup-392.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Traverxec (Hard Windows)",
+    "date": "2024-04-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-traverxec-889.html",
+    "image": "/img/htb-traverxec-889.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Monitors (Insane Windows)",
+    "date": "2024-04-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-monitors-597.html",
+    "image": "/img/htb-monitors-597.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Blunder (Medium Windows)",
+    "date": "2024-04-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-311.html",
+    "image": "/img/htb-blunder-311.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Academy (Medium Linux)",
+    "date": "2024-04-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-academy-190.html",
+    "image": "/img/htb-academy-190.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Ghizer (Easy FreeBSD)",
+    "date": "2024-04-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ghizer-656.html",
+    "image": "/img/htb-ghizer-656.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Relevant (Hard OpenBSD)",
+    "date": "2024-03-31",
+    "section": "writeups",
+    "permalink": "/writeups/htb-relevant-626.html",
+    "image": "/img/htb-relevant-626.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Blunder (Easy Windows)",
+    "date": "2024-03-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-351.html",
+    "image": "/img/htb-blunder-351.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Blunder (Insane Linux)",
+    "date": "2024-03-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-529.html",
+    "image": "/img/htb-blunder-529.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Skynet (Easy Windows)",
+    "date": "2024-03-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-skynet-564.html",
+    "image": "/img/htb-skynet-564.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Overpass (Hard Windows)",
+    "date": "2024-03-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-overpass-299.html",
+    "image": "/img/htb-overpass-299.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Spectra (Easy OpenBSD)",
+    "date": "2024-03-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-687.html",
+    "image": "/img/htb-spectra-687.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Omni (Medium OpenBSD)",
+    "date": "2024-03-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-omni-378.html",
+    "image": "/img/htb-omni-378.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Bolt (Insane OpenBSD)",
+    "date": "2024-03-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-bolt-475.html",
+    "image": "/img/htb-bolt-475.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Writer (Easy OpenBSD)",
+    "date": "2024-03-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-writer-498.html",
+    "image": "/img/htb-writer-498.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Nibbles (Hard Linux)",
+    "date": "2024-03-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-nibbles-483.html",
+    "image": "/img/htb-nibbles-483.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Deja Vu (Hard FreeBSD)",
+    "date": "2024-03-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-829.html",
+    "image": "/img/htb-deja-vu-829.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Bolt (Insane FreeBSD)",
+    "date": "2024-03-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-bolt-391.html",
+    "image": "/img/htb-bolt-391.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Arctic (Insane Linux)",
+    "date": "2024-03-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-arctic-968.html",
+    "image": "/img/htb-arctic-968.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Monitors (Medium Linux)",
+    "date": "2024-03-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-monitors-213.html",
+    "image": "/img/htb-monitors-213.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Alfred (Easy Linux)",
+    "date": "2024-03-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-alfred-328.html",
+    "image": "/img/htb-alfred-328.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Cereal (Insane Linux)",
+    "date": "2024-03-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cereal-636.html",
+    "image": "/img/htb-cereal-636.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Tentacle (Medium Windows)",
+    "date": "2024-02-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tentacle-937.html",
+    "image": "/img/htb-tentacle-937.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Node (Hard Windows)",
+    "date": "2024-02-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-node-119.html",
+    "image": "/img/htb-node-119.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Sunday (Insane Windows)",
+    "date": "2024-02-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sunday-673.html",
+    "image": "/img/htb-sunday-673.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Traverxec (Hard FreeBSD)",
+    "date": "2024-02-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-traverxec-428.html",
+    "image": "/img/htb-traverxec-428.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Dynstr (Easy FreeBSD)",
+    "date": "2024-02-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-dynstr-386.html",
+    "image": "/img/htb-dynstr-386.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Monitors (Hard OpenBSD)",
+    "date": "2024-02-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-monitors-693.html",
+    "image": "/img/htb-monitors-693.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — OpenAdmin (Insane Windows)",
+    "date": "2024-02-08",
+    "section": "writeups",
+    "permalink": "/writeups/htb-openadmin-491.html",
+    "image": "/img/htb-openadmin-491.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Pikaboo (Medium Windows)",
+    "date": "2024-02-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pikaboo-394.html",
+    "image": "/img/htb-pikaboo-394.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Ghizer (Medium FreeBSD)",
+    "date": "2024-02-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ghizer-566.html",
+    "image": "/img/htb-ghizer-566.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Spectra (Insane Linux)",
+    "date": "2024-01-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-594.html",
+    "image": "/img/htb-spectra-594.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Node (Insane OpenBSD)",
+    "date": "2024-01-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-node-750.html",
+    "image": "/img/htb-node-750.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Arctic (Medium Linux)",
+    "date": "2024-01-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-arctic-840.html",
+    "image": "/img/htb-arctic-840.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Cereal (Insane Windows)",
+    "date": "2024-01-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cereal-808.html",
+    "image": "/img/htb-cereal-808.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Breadcrumbs (Medium OpenBSD)",
+    "date": "2024-01-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-breadcrumbs-927.html",
+    "image": "/img/htb-breadcrumbs-927.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Tartarsauce (Easy Linux)",
+    "date": "2024-01-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tartarsauce-193.html",
+    "image": "/img/htb-tartarsauce-193.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Irked (Easy OpenBSD)",
+    "date": "2024-01-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-irked-698.html",
+    "image": "/img/htb-irked-698.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Tenet (Insane OpenBSD)",
+    "date": "2024-01-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tenet-535.html",
+    "image": "/img/htb-tenet-535.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Pikaboo (Easy FreeBSD)",
+    "date": "2024-01-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pikaboo-895.html",
+    "image": "/img/htb-pikaboo-895.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Crossfit (Insane Linux)",
+    "date": "2024-01-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-crossfit-155.html",
+    "image": "/img/htb-crossfit-155.png",
+    "readTime": "3 min"
+  }
+]

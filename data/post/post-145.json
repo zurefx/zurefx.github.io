@@ -1,0 +1,234 @@
+[
+  {
+    "id": "script-custom-wordlist-generator-168",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-168.html",
+    "btn_label": "View Script",
+    "date": "2024-05-01",
+    "tags": [
+      "c",
+      "scanner",
+      "tool",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-custom-wordlist-generator-168.png",
+    "words": 329,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-820",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-820.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-30",
+    "tags": [
+      "aslr-bypass",
+      "exploit-development",
+      "shellcode",
+      "zero-day",
+      "format-string",
+      "kernel"
+    ],
+    "image": "/img/research-threat-intelligence-integration-820.png",
+    "words": 449,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-546",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-546.html",
+    "btn_label": "Read Notes",
+    "date": "2024-04-30",
+    "tags": [
+      "blue-team",
+      "enumeration",
+      "linux",
+      "windows"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-546.png",
+    "words": 551,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-custom-wordlist-generator-333",
+    "title": "Custom Wordlist Generator",
+    "section": "projects",
+    "description": "Open source security project: Custom Wordlist Generator. Built for the community.",
+    "permalink": "/research/project-custom-wordlist-generator-333.html",
+    "btn_label": "View Project",
+    "date": "2024-04-29",
+    "tags": [
+      "plugin",
+      "library",
+      "open-source",
+      "tool"
+    ],
+    "image": "/img/project-custom-wordlist-generator-333.png",
+    "words": 182,
+    "readTime": "1 min",
+    "features": [
+      "john",
+      "gobuster",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-875",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-875.html",
+    "btn_label": "Read Notes",
+    "date": "2024-04-29",
+    "tags": [
+      "networking",
+      "privilege-escalation",
+      "malware",
+      "cheatsheet",
+      "linux"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-875.png",
+    "words": 314,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-incident-response-playbook-766",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-766.html",
+    "btn_label": "Read Notes",
+    "date": "2024-04-29",
+    "tags": [
+      "malware",
+      "networking",
+      "lateral-movement"
+    ],
+    "image": "/img/note-incident-response-playbook-766.png",
+    "words": 524,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-optimum-699",
+    "title": "HackTheBox — Optimum (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Optimum. SSRF and Sudo Misconfiguration to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-optimum-699.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-29",
+    "tags": [
+      "easy",
+      "medium",
+      "tryhackme",
+      "linux",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-optimum-699.png",
+    "words": 566,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-jwt-token-analyzer-453",
+    "title": "JWT Token Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-453.html",
+    "btn_label": "View Script",
+    "date": "2024-04-28",
+    "tags": [
+      "bash",
+      "automation",
+      "fuzzer",
+      "c",
+      "go",
+      "powershell"
+    ],
+    "image": "/img/script-jwt-token-analyzer-453.png",
+    "words": 361,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-networked-829",
+    "title": "OffSec Proving Grounds — Networked (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Networked. NFS No Root Squash and Insecure Deserialization to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-networked-829.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-28",
+    "tags": [
+      "easy",
+      "pwntilldawn",
+      "linux"
+    ],
+    "image": "/img/htb-networked-829.png",
+    "words": 589,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-788",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-788.html",
+    "btn_label": "Read Notes",
+    "date": "2024-04-27",
+    "tags": [
+      "linux",
+      "enumeration",
+      "persistence",
+      "dfir",
+      "malware",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-788.png",
+    "words": 443,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-mustacchio-947",
+    "title": "VulnHub — Mustacchio (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Mustacchio. XSS and CSRF to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-mustacchio-947.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-27",
+    "tags": [
+      "ctf",
+      "web",
+      "offsec",
+      "easy",
+      "forensics",
+      "active-directory"
+    ],
+    "image": "/img/htb-mustacchio-947.png",
+    "words": 546,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-bastard-654",
+    "title": "VulnHub — Bastard (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Bastard. DCSync and SUID Binary to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-bastard-654.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-27",
+    "tags": [
+      "easy",
+      "offsec",
+      "ctf",
+      "pwntilldawn",
+      "tryhackme"
+    ],
+    "image": "/img/htb-bastard-654.png",
+    "words": 577,
+    "readTime": "3 min"
+  }
+]

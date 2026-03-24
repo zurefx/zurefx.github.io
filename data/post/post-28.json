@@ -1,0 +1,232 @@
+[
+  {
+    "id": "htb-game-zone-957",
+    "title": "TryHackMe — Game Zone (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Game Zone. Kerberoasting and Cron Job to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-game-zone-957.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-19",
+    "tags": [
+      "ctf",
+      "tryhackme",
+      "linux",
+      "reversing",
+      "web",
+      "active-directory"
+    ],
+    "image": "/img/htb-game-zone-957.png",
+    "words": 663,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-buffer-721",
+    "title": "OffSec Proving Grounds — Buffer (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Buffer. Constrained Delegation and Silver Ticket to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-buffer-721.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-19",
+    "tags": [
+      "forensics",
+      "pwntilldawn",
+      "windows"
+    ],
+    "image": "/img/htb-buffer-721.png",
+    "words": 613,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-898",
+    "title": "DNS Resolver and Brute Forcer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-898.html",
+    "btn_label": "View Script",
+    "date": "2025-11-18",
+    "tags": [
+      "c",
+      "parser",
+      "rust",
+      "scanner",
+      "powershell",
+      "automation"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-898.png",
+    "words": 348,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-friendzone-434",
+    "title": "OffSec Proving Grounds — FriendZone (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds FriendZone. ACL Abuse and XSS to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-friendzone-434.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-18",
+    "tags": [
+      "windows",
+      "reversing",
+      "web",
+      "offsec",
+      "linux"
+    ],
+    "image": "/img/htb-friendzone-434.png",
+    "words": 604,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-ophiuchi-379",
+    "title": "PwnTillDawn — Ophiuchi (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Ophiuchi. DCSync and Pass the Ticket to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ophiuchi-379.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-17",
+    "tags": [
+      "windows",
+      "offsec",
+      "linux",
+      "insane",
+      "medium",
+      "hard"
+    ],
+    "image": "/img/htb-ophiuchi-379.png",
+    "words": 567,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-915",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-915.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-16",
+    "tags": [
+      "rop",
+      "buffer-overflow",
+      "kernel",
+      "format-string"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-915.png",
+    "words": 497,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-startup-364",
+    "title": "OffSec Proving Grounds — Startup (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Startup. AlwaysInstallElevated and Constrained Delegation to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-startup-364.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-16",
+    "tags": [
+      "medium",
+      "offsec",
+      "pwntilldawn",
+      "insane",
+      "windows"
+    ],
+    "image": "/img/htb-startup-364.png",
+    "words": 640,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-process-injection-poc-898",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-898.html",
+    "btn_label": "View Script",
+    "date": "2025-11-14",
+    "tags": [
+      "fuzzer",
+      "python",
+      "powershell",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-process-injection-poc-898.png",
+    "words": 303,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-521",
+    "title": "JWT Token Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-521.html",
+    "btn_label": "View Script",
+    "date": "2025-11-14",
+    "tags": [
+      "script",
+      "automation",
+      "rust",
+      "go"
+    ],
+    "image": "/img/script-jwt-token-analyzer-521.png",
+    "words": 350,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-tentacle-703",
+    "title": "TryHackMe — Tentacle (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tentacle. Local File Inclusion and SQL Injection to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-tentacle-703.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-14",
+    "tags": [
+      "linux",
+      "ctf",
+      "web",
+      "hackthebox",
+      "medium"
+    ],
+    "image": "/img/htb-tentacle-703.png",
+    "words": 660,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-bastard-321",
+    "title": "HackTheBox — Bastard (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Bastard. Path Traversal and SUID Binary to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-bastard-321.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-14",
+    "tags": [
+      "hard",
+      "pwntilldawn",
+      "ctf"
+    ],
+    "image": "/img/htb-bastard-321.png",
+    "words": 590,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-process-injection-poc-799",
+    "title": "Process Injection PoC — Go",
+    "section": "scripting",
+    "description": "A Go script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-799.html",
+    "btn_label": "View Script",
+    "date": "2025-11-13",
+    "tags": [
+      "fuzzer",
+      "parser",
+      "c",
+      "script",
+      "rust",
+      "go"
+    ],
+    "image": "/img/script-process-injection-poc-799.png",
+    "words": 270,
+    "readTime": "2 min"
+  }
+]

@@ -1,0 +1,554 @@
+[
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2026-02-24",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-966.html",
+    "image": "/img/research-evading-modern-edr-solutions-966.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2026-02-20",
+    "section": "research",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-681.html",
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-681.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2026-02-20",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-546.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Red Team Infrastructure Design",
+    "date": "2026-02-19",
+    "section": "research",
+    "permalink": "/research/research-red-team-infrastructure-design-378.html",
+    "image": "/img/research-red-team-infrastructure-design-378.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2026-02-15",
+    "section": "research",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-705.html",
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-705.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2026-02-12",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-465.html",
+    "image": "/img/research-browser-exploitation-techniques-465.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2026-01-22",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-921.html",
+    "image": "/img/research-evading-modern-edr-solutions-921.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2026-01-14",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-234.html",
+    "image": "/img/research-threat-intelligence-integration-234.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-11-27",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-698.html",
+    "image": "/img/research-custom-c2-framework-architecture-698.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bypassing AppLocker and WDAC",
+    "date": "2025-11-07",
+    "section": "research",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-930.html",
+    "image": "/img/research-bypassing-applocker-and-wdac-930.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2025-11-01",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-922.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Fuzzing Embedded Firmware",
+    "date": "2025-10-04",
+    "section": "research",
+    "permalink": "/research/research-fuzzing-embedded-firmware-670.html",
+    "image": "/img/research-fuzzing-embedded-firmware-670.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2025-09-20",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-935.html",
+    "image": "/img/research-cobalt-strike-profile-development-935.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2025-09-18",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-472.html",
+    "image": "/img/research-cobalt-strike-profile-development-472.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2025-09-07",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-223.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2025-09-03",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-150.html",
+    "image": "/img/research-threat-intelligence-integration-150.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2025-08-31",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-478.html",
+    "image": "/img/research-browser-exploitation-techniques-478.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2025-08-14",
+    "section": "research",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-507.html",
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-507.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Living off the Land Binaries (LOLBins)",
+    "date": "2025-07-30",
+    "section": "research",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-258.html",
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-25.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Supply Chain Attack Vectors",
+    "date": "2025-07-20",
+    "section": "research",
+    "permalink": "/research/research-supply-chain-attack-vectors-822.html",
+    "image": "/img/research-supply-chain-attack-vectors-822.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2025-07-05",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-347.html",
+    "image": "/img/research-threat-intelligence-integration-347.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "date": "2025-07-02",
+    "section": "research",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-688.html",
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2025-06-07",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-605.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-60.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2025-06-05",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-748.html",
+    "image": "/img/research-threat-intelligence-integration-748.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2025-06-03",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-127.html",
+    "image": "/img/research-evading-modern-edr-solutions-127.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Living off the Land Binaries (LOLBins)",
+    "date": "2025-05-16",
+    "section": "research",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-480.html",
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-48.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2025-05-14",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-452.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-45.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-05-10",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-147.html",
+    "image": "/img/research-custom-c2-framework-architecture-147.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2025-05-05",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-485.html",
+    "image": "/img/research-browser-exploitation-techniques-485.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2025-04-30",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-489.html",
+    "image": "/img/research-threat-intelligence-integration-489.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2025-04-13",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-626.html",
+    "image": "/img/research-cobalt-strike-profile-development-626.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2025-04-12",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-660.html",
+    "image": "/img/research-browser-exploitation-techniques-660.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-04-06",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-649.html",
+    "image": "/img/research-custom-c2-framework-architecture-649.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2025-03-22",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-436.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "date": "2025-03-20",
+    "section": "research",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-295.html",
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2025-03-04",
+    "section": "research",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-370.html",
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-370.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2025-03-03",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-733.html",
+    "image": "/img/research-threat-intelligence-integration-733.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bypassing AppLocker and WDAC",
+    "date": "2025-02-20",
+    "section": "research",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-787.html",
+    "image": "/img/research-bypassing-applocker-and-wdac-787.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2025-02-12",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-492.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-49.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-01-08",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-306.html",
+    "image": "/img/research-custom-c2-framework-architecture-306.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bypassing AppLocker and WDAC",
+    "date": "2025-01-03",
+    "section": "research",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-372.html",
+    "image": "/img/research-bypassing-applocker-and-wdac-372.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2024-12-27",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-923.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-92.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2024-12-06",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-417.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-41.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2024-12-02",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-122.html",
+    "image": "/img/research-cobalt-strike-profile-development-122.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2024-11-28",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-443.html",
+    "image": "/img/research-evading-modern-edr-solutions-443.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Red Team Infrastructure Design",
+    "date": "2024-11-23",
+    "section": "research",
+    "permalink": "/research/research-red-team-infrastructure-design-709.html",
+    "image": "/img/research-red-team-infrastructure-design-709.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2024-11-02",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-191.html",
+    "image": "/img/research-cobalt-strike-profile-development-191.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Fuzzing Embedded Firmware",
+    "date": "2024-10-19",
+    "section": "research",
+    "permalink": "/research/research-fuzzing-embedded-firmware-284.html",
+    "image": "/img/research-fuzzing-embedded-firmware-284.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OPSEC Considerations for Red Teams",
+    "date": "2024-09-19",
+    "section": "research",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-196.html",
+    "image": "/img/research-opsec-considerations-for-red-teams-196.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2024-09-07",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-552.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-55.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bypassing AppLocker and WDAC",
+    "date": "2024-08-22",
+    "section": "research",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-549.html",
+    "image": "/img/research-bypassing-applocker-and-wdac-549.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2024-08-18",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-656.html",
+    "image": "/img/research-cobalt-strike-profile-development-656.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2024-08-16",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-111.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2024-08-04",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-586.html",
+    "image": "/img/research-evading-modern-edr-solutions-586.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bypassing AppLocker and WDAC",
+    "date": "2024-07-21",
+    "section": "research",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-174.html",
+    "image": "/img/research-bypassing-applocker-and-wdac-174.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2024-07-14",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-108.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-10.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2024-06-21",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-333.html",
+    "image": "/img/research-evading-modern-edr-solutions-333.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2024-06-18",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-938.html",
+    "image": "/img/research-evading-modern-edr-solutions-938.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2024-06-12",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-284.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bypassing AppLocker and WDAC",
+    "date": "2024-06-01",
+    "section": "research",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-854.html",
+    "image": "/img/research-bypassing-applocker-and-wdac-854.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2024-05-10",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-534.html",
+    "image": "/img/research-browser-exploitation-techniques-534.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Supply Chain Attack Vectors",
+    "date": "2024-05-06",
+    "section": "research",
+    "permalink": "/research/research-supply-chain-attack-vectors-837.html",
+    "image": "/img/research-supply-chain-attack-vectors-837.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Living off the Land Binaries (LOLBins)",
+    "date": "2024-05-06",
+    "section": "research",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-495.html",
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-49.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2024-04-01",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-466.html",
+    "image": "/img/research-evading-modern-edr-solutions-466.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2024-03-28",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-740.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2024-03-26",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-283.html",
+    "image": "/img/research-cobalt-strike-profile-development-283.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2024-03-23",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-271.html",
+    "image": "/img/research-browser-exploitation-techniques-271.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2024-03-03",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-893.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-89.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OPSEC Considerations for Red Teams",
+    "date": "2024-02-23",
+    "section": "research",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-942.html",
+    "image": "/img/research-opsec-considerations-for-red-teams-942.png",
+    "readTime": "3 min"
+  }
+]

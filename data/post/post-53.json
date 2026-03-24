@@ -1,0 +1,233 @@
+[
+  {
+    "id": "htb-tenet-404",
+    "title": "PwnTillDawn — Tenet (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Tenet. ACL Abuse and SQL Injection to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-tenet-404.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-22",
+    "tags": [
+      "ctf",
+      "hard",
+      "hackthebox"
+    ],
+    "image": "/img/htb-tenet-404.png",
+    "words": 626,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-api-security-testing-framework-421",
+    "title": "API Security Testing Framework — Python",
+    "section": "scripting",
+    "description": "A Python script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-421.html",
+    "btn_label": "View Script",
+    "date": "2025-07-21",
+    "tags": [
+      "tool",
+      "automation",
+      "script",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-api-security-testing-framework-421.png",
+    "words": 348,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-638",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-638.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-21",
+    "tags": [
+      "enumeration",
+      "cheatsheet",
+      "oscp",
+      "linux",
+      "privilege-escalation",
+      "windows"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-638.png",
+    "words": 723,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-169",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-169.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-21",
+    "tags": [
+      "cheatsheet",
+      "linux",
+      "lateral-movement",
+      "oscp",
+      "enumeration"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-169.png",
+    "words": 259,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-traverxec-411",
+    "title": "PwnTillDawn — Traverxec (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Traverxec. Path Traversal and NTLM Relay to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-traverxec-411.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-21",
+    "tags": [
+      "forensics",
+      "offsec",
+      "linux",
+      "insane",
+      "easy",
+      "hard"
+    ],
+    "image": "/img/htb-traverxec-411.png",
+    "words": 606,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-822",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-822.html",
+    "btn_label": "Read Research",
+    "date": "2025-07-20",
+    "tags": [
+      "uaf",
+      "exploit-development",
+      "zero-day",
+      "kernel"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-822.png",
+    "words": 502,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-525",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-525.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-20",
+    "tags": [
+      "oscp",
+      "persistence",
+      "blue-team",
+      "networking",
+      "lateral-movement"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-525.png",
+    "words": 701,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-node-111",
+    "title": "VulnHub — Node (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Node. Resource-Based Constrained Delegation and SSTI to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-node-111.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-20",
+    "tags": [
+      "web",
+      "active-directory",
+      "ctf",
+      "forensics",
+      "easy"
+    ],
+    "image": "/img/htb-node-111.png",
+    "words": 638,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-kubernetes-security-assessment-945",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-945.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-18",
+    "tags": [
+      "oscp",
+      "lateral-movement",
+      "blue-team",
+      "networking",
+      "enumeration"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-945.png",
+    "words": 590,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-servmon-308",
+    "title": "PwnTillDawn — ServMon (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn ServMon. Path Traversal and Pass the Ticket to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-servmon-308.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-18",
+    "tags": [
+      "offsec",
+      "ctf",
+      "forensics",
+      "easy",
+      "reversing",
+      "windows"
+    ],
+    "image": "/img/htb-servmon-308.png",
+    "words": 642,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-networked-651",
+    "title": "HackTheBox — Networked (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Networked. IDOR and SSTI to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-networked-651.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-18",
+    "tags": [
+      "pwntilldawn",
+      "ctf",
+      "windows",
+      "tryhackme",
+      "medium",
+      "forensics"
+    ],
+    "image": "/img/htb-networked-651.png",
+    "words": 636,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-crossfit-197",
+    "title": "VulnHub — Crossfit (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Crossfit. Subdomain Takeover and Remote File Inclusion to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-crossfit-197.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-18",
+    "tags": [
+      "active-directory",
+      "easy",
+      "linux",
+      "reversing",
+      "windows"
+    ],
+    "image": "/img/htb-crossfit-197.png",
+    "words": 571,
+    "readTime": "3 min"
+  }
+]

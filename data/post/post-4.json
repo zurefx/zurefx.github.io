@@ -1,0 +1,233 @@
+[
+  {
+    "id": "note-linux-privilege-escalation-techniques-655",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-655.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-13",
+    "tags": [
+      "networking",
+      "windows",
+      "persistence"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-655.png",
+    "words": 938,
+    "readTime": "5 min"
+  },
+  {
+    "id": "sql-injection-notes",
+    "title": "SQL Injection Notes",
+    "section": "notes",
+    "description": "SQL injection quick reference: error-based, union-based, blind and time-based techniques with sqlmap usage.",
+    "permalink": "/notes/sql-injection-notes.html",
+    "btn_label": "View Notes",
+    "date": "2026-03-13",
+    "tags": [
+      "sqli",
+      "web",
+      "cheatsheet",
+      "owasp"
+    ],
+    "image": "/img/sql-injection-notes.png",
+    "words": 76,
+    "readTime": "1 min",
+    "subsection": "Web"
+  },
+  {
+    "id": "project-payload-obfuscation-script-234",
+    "title": "Payload Obfuscation Script",
+    "section": "projects",
+    "description": "Open source security project: Payload Obfuscation Script. Built for the community.",
+    "permalink": "/research/project-payload-obfuscation-script-234.html",
+    "btn_label": "View Project",
+    "date": "2026-03-12",
+    "tags": [
+      "tool",
+      "extension",
+      "library",
+      "security"
+    ],
+    "image": "/img/project-payload-obfuscation-script-234.png",
+    "words": 199,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "feroxbuster",
+      "john"
+    ]
+  },
+  {
+    "id": "bash-automation",
+    "title": "Bash Recon Automation",
+    "section": "scripting",
+    "description": "Bash script to automate initial recon: nmap, gobuster, whatweb and screenshot capture in one command.",
+    "permalink": "/scripting/bash-automation.html",
+    "btn_label": "View Script",
+    "date": "2026-03-12",
+    "tags": [
+      "bash",
+      "scripting",
+      "automation",
+      "recon"
+    ],
+    "image": "/img/bash-automation.png",
+    "words": 62,
+    "readTime": "1 min"
+  },
+  {
+    "id": "malware-dropper-analysis",
+    "title": "Analyzing a Simple Python Dropper",
+    "section": "research",
+    "description": "Static and dynamic analysis of a basic Python-based malware dropper. Covers obfuscation, persistence and C2 communication patterns.",
+    "permalink": "/research/malware-dropper-analysis.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-11",
+    "tags": [
+      "malwareanalysis",
+      "research",
+      "dropper",
+      "python",
+      "reversing"
+    ],
+    "image": "/img/malware-dropper-analysis.png",
+    "words": 69,
+    "readTime": "1 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-512",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-512.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-10",
+    "tags": [
+      "cheatsheet",
+      "enumeration",
+      "privilege-escalation",
+      "linux"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-512.png",
+    "words": 680,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-127",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-127.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-10",
+    "tags": [
+      "enumeration",
+      "malware",
+      "lateral-movement",
+      "persistence",
+      "blue-team",
+      "windows"
+    ],
+    "image": "/img/note-cryptography-fundamentals-127.png",
+    "words": 499,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-hospital",
+    "title": "HTB Hospital — Medium Windows",
+    "section": "writeups",
+    "description": "HackTheBox Hospital writeup. File upload bypass, CVE-2023-35001 Linux kernel exploit and RoundCube webmail attack chain.",
+    "permalink": "/writeups/htb-hospital.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-10",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "windows",
+      "fileupload",
+      "kernelexploit"
+    ],
+    "image": "/img/htb-hospital.png",
+    "words": 70,
+    "readTime": "1 min"
+  },
+  {
+    "id": "htb-delivery-495",
+    "title": "TryHackMe — Delivery (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Delivery. Remote File Inclusion and XXE to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-delivery-495.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-09",
+    "tags": [
+      "windows",
+      "web",
+      "tryhackme",
+      "linux",
+      "insane",
+      "hard",
+      "forensics"
+    ],
+    "image": "/img/htb-delivery-495.png",
+    "words": 587,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-crossfit-865",
+    "title": "OffSec Proving Grounds — Crossfit (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Crossfit. NTLM Relay and Local File Inclusion to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-crossfit-865.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-09",
+    "tags": [
+      "ctf",
+      "hackthebox",
+      "insane",
+      "pwntilldawn",
+      "windows",
+      "medium"
+    ],
+    "image": "/img/htb-crossfit-865.png",
+    "words": 685,
+    "readTime": "4 min"
+  },
+  {
+    "id": "smb-enumeration",
+    "title": "SMB Enumeration",
+    "section": "notes",
+    "description": "SMB enumeration techniques using smbclient, enum4linux, crackmapexec and impacket for Active Directory pentesting.",
+    "permalink": "/notes/smb-enumeration.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-08",
+    "tags": [
+      "cheatsheet",
+      "smb",
+      "activedirectory",
+      "enumeration"
+    ],
+    "image": "/img/smb-enumeration.png",
+    "words": 61,
+    "readTime": "1 min",
+    "subsection": "Active Directory"
+  },
+  {
+    "id": "python-rev-shell",
+    "title": "Python Reverse Shell Generator",
+    "section": "scripting",
+    "description": "Lightweight Python script to generate reverse shell one-liners for multiple languages during CTF and pentesting.",
+    "permalink": "/scripting/python-rev-shell.html",
+    "btn_label": "View Script",
+    "date": "2026-03-07",
+    "tags": [
+      "python",
+      "scripting",
+      "reverseshell",
+      "tools"
+    ],
+    "image": "/img/python-rev-shell.png",
+    "words": 86,
+    "readTime": "1 min"
+  }
+]

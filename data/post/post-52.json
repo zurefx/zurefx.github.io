@@ -1,0 +1,222 @@
+[
+  {
+    "id": "htb-tenet-449",
+    "title": "PwnTillDawn — Tenet (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Tenet. SUID Binary and NFS No Root Squash to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-tenet-449.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-27",
+    "tags": [
+      "insane",
+      "medium",
+      "windows",
+      "forensics",
+      "hard"
+    ],
+    "image": "/img/htb-tenet-449.png",
+    "words": 608,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-cronos-823",
+    "title": "PwnTillDawn — Cronos (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Cronos. Resource-Based Constrained Delegation and DCSync to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-cronos-823.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-27",
+    "tags": [
+      "tryhackme",
+      "linux",
+      "web",
+      "medium"
+    ],
+    "image": "/img/htb-cronos-823.png",
+    "words": 512,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-breadcrumbs-399",
+    "title": "PwnTillDawn — Breadcrumbs (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Breadcrumbs. Docker Escape and Command Injection to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-breadcrumbs-399.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-27",
+    "tags": [
+      "windows",
+      "hard",
+      "linux"
+    ],
+    "image": "/img/htb-breadcrumbs-399.png",
+    "words": 597,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-process-injection-poc-169",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-169.html",
+    "btn_label": "View Script",
+    "date": "2025-07-24",
+    "tags": [
+      "script",
+      "scanner",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-process-injection-poc-169.png",
+    "words": 334,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-433",
+    "title": "Log Parser and Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-433.html",
+    "btn_label": "View Script",
+    "date": "2025-07-24",
+    "tags": [
+      "bash",
+      "parser",
+      "rust",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-433.png",
+    "words": 290,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-461",
+    "title": "JWT Token Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-461.html",
+    "btn_label": "View Script",
+    "date": "2025-07-24",
+    "tags": [
+      "tool",
+      "bash",
+      "c",
+      "script",
+      "scanner"
+    ],
+    "image": "/img/script-jwt-token-analyzer-461.png",
+    "words": 314,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-thenotebook-268",
+    "title": "PwnTillDawn — TheNotebook (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn TheNotebook. Pass the Hash and Kerberoasting to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-thenotebook-268.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-24",
+    "tags": [
+      "web",
+      "active-directory",
+      "hard",
+      "hackthebox",
+      "insane"
+    ],
+    "image": "/img/htb-thenotebook-268.png",
+    "words": 585,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-622",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-622.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-23",
+    "tags": [
+      "linux",
+      "malware",
+      "oscp"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-622.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-759",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-759.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-23",
+    "tags": [
+      "lateral-movement",
+      "blue-team",
+      "networking",
+      "oscp",
+      "linux"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-759.png",
+    "words": 508,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-450",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-450.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-23",
+    "tags": [
+      "networking",
+      "oscp",
+      "privilege-escalation",
+      "lateral-movement"
+    ],
+    "image": "/img/note-active-directory-attack-paths-450.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-shocker-584",
+    "title": "OffSec Proving Grounds — Shocker (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Shocker. DCSync and Remote Code Execution to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-shocker-584.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-23",
+    "tags": [
+      "pwntilldawn",
+      "ctf",
+      "reversing",
+      "tryhackme",
+      "linux"
+    ],
+    "image": "/img/htb-shocker-584.png",
+    "words": 568,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-853",
+    "title": "Payload Obfuscation Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-853.html",
+    "btn_label": "View Script",
+    "date": "2025-07-22",
+    "tags": [
+      "fuzzer",
+      "powershell",
+      "automation",
+      "tool"
+    ],
+    "image": "/img/script-payload-obfuscation-script-853.png",
+    "words": 350,
+    "readTime": "2 min"
+  }
+]

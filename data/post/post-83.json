@@ -1,0 +1,232 @@
+[
+  {
+    "id": "htb-legacy-255",
+    "title": "OffSec Proving Grounds — Legacy (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Legacy. LXD Privilege Escalation and Pass the Hash to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-legacy-255.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-04",
+    "tags": [
+      "hard",
+      "linux",
+      "easy",
+      "windows",
+      "web",
+      "tryhackme",
+      "hackthebox"
+    ],
+    "image": "/img/htb-legacy-255.png",
+    "words": 566,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ice-163",
+    "title": "TryHackMe — Ice (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Ice. SeImpersonatePrivilege and XXE to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-ice-163.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-04",
+    "tags": [
+      "active-directory",
+      "linux",
+      "hackthebox",
+      "ctf",
+      "medium",
+      "pwntilldawn",
+      "web"
+    ],
+    "image": "/img/htb-ice-163.png",
+    "words": 651,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-320",
+    "title": "Custom Wordlist Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-320.html",
+    "btn_label": "View Script",
+    "date": "2025-03-03",
+    "tags": [
+      "bash",
+      "tool",
+      "automation",
+      "rust",
+      "python"
+    ],
+    "image": "/img/script-custom-wordlist-generator-320.png",
+    "words": 261,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-733",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-733.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-03",
+    "tags": [
+      "exploit-development",
+      "uaf",
+      "buffer-overflow",
+      "malware-analysis"
+    ],
+    "image": "/img/research-threat-intelligence-integration-733.png",
+    "words": 460,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-111",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-111.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-03",
+    "tags": [
+      "malware-analysis",
+      "aslr-bypass",
+      "format-string",
+      "shellcode",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-111.png",
+    "words": 481,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-reverse-engineering-basics-125",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-125.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-03",
+    "tags": [
+      "persistence",
+      "oscp",
+      "cheatsheet",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-reverse-engineering-basics-125.png",
+    "words": 597,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-irked-169",
+    "title": "PwnTillDawn — Irked (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Irked. SeDebugPrivilege and DLL Hijacking to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-irked-169.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-03",
+    "tags": [
+      "hackthebox",
+      "tryhackme",
+      "medium",
+      "ctf"
+    ],
+    "image": "/img/htb-irked-169.png",
+    "words": 552,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-granny-303",
+    "title": "OffSec Proving Grounds — Granny (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Granny. Command Injection and DCSync to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-granny-303.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-03",
+    "tags": [
+      "windows",
+      "pwntilldawn",
+      "hackthebox",
+      "active-directory",
+      "ctf"
+    ],
+    "image": "/img/htb-granny-303.png",
+    "words": 612,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-devel-196",
+    "title": "OffSec Proving Grounds — Devel (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Devel. Unquoted Service Path and ACL Abuse to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-devel-196.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-03",
+    "tags": [
+      "offsec",
+      "pwntilldawn",
+      "easy",
+      "hard",
+      "reversing",
+      "active-directory"
+    ],
+    "image": "/img/htb-devel-196.png",
+    "words": 603,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-deja-vu-873",
+    "title": "HackTheBox — Deja Vu (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Deja Vu. Open Redirect and Constrained Delegation to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-deja-vu-873.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-03",
+    "tags": [
+      "linux",
+      "forensics",
+      "offsec"
+    ],
+    "image": "/img/htb-deja-vu-873.png",
+    "words": 640,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-915",
+    "title": "Subdomain Enumeration Tool — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-915.html",
+    "btn_label": "View Script",
+    "date": "2025-03-02",
+    "tags": [
+      "python",
+      "rust",
+      "bash",
+      "automation",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-915.png",
+    "words": 265,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-813",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-813.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-02",
+    "tags": [
+      "malware",
+      "lateral-movement",
+      "linux",
+      "blue-team",
+      "networking"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-813.png",
+    "words": 470,
+    "readTime": "3 min"
+  }
+]

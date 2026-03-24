@@ -1,0 +1,236 @@
+[
+  {
+    "id": "htb-tenet-559",
+    "title": "VulnHub — Tenet (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Tenet. Cron Job and Weak Service Permissions to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-tenet-559.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-06",
+    "tags": [
+      "active-directory",
+      "tryhackme",
+      "hard",
+      "hackthebox",
+      "ctf",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-tenet-559.png",
+    "words": 610,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-sunday-952",
+    "title": "TryHackMe — Sunday (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Sunday. Local File Inclusion and ACL Abuse to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-sunday-952.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-06",
+    "tags": [
+      "insane",
+      "hard",
+      "offsec",
+      "hackthebox",
+      "linux",
+      "tryhackme"
+    ],
+    "image": "/img/htb-sunday-952.png",
+    "words": 657,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-omni-568",
+    "title": "OffSec Proving Grounds — Omni (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Omni. Golden Ticket and GPP Password to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-omni-568.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-06",
+    "tags": [
+      "forensics",
+      "offsec",
+      "linux",
+      "ctf",
+      "easy"
+    ],
+    "image": "/img/htb-omni-568.png",
+    "words": 572,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-automated-report-generator-343",
+    "title": "Automated Report Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-343.html",
+    "btn_label": "View Script",
+    "date": "2024-10-05",
+    "tags": [
+      "python",
+      "parser",
+      "scanner",
+      "go",
+      "rust",
+      "powershell"
+    ],
+    "image": "/img/script-automated-report-generator-343.png",
+    "words": 317,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-100",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-100.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-05",
+    "tags": [
+      "cheatsheet",
+      "blue-team",
+      "networking",
+      "privilege-escalation",
+      "persistence"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-100.png",
+    "words": 530,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-passage-843",
+    "title": "VulnHub — Passage (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Passage. Sudo Misconfiguration and SeDebugPrivilege to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-passage-843.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-04",
+    "tags": [
+      "windows",
+      "hard",
+      "forensics",
+      "web"
+    ],
+    "image": "/img/htb-passage-843.png",
+    "words": 577,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-passage-365",
+    "title": "TryHackMe — Passage (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Passage. Command Injection and Remote File Inclusion to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-passage-365.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-04",
+    "tags": [
+      "web",
+      "ctf",
+      "easy",
+      "reversing"
+    ],
+    "image": "/img/htb-passage-365.png",
+    "words": 594,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-grandpa-245",
+    "title": "OffSec Proving Grounds — Grandpa (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Grandpa. SeImpersonatePrivilege and AS-REP Roasting to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-grandpa-245.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-04",
+    "tags": [
+      "insane",
+      "ctf",
+      "reversing",
+      "web",
+      "active-directory"
+    ],
+    "image": "/img/htb-grandpa-245.png",
+    "words": 601,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-867",
+    "title": "Network Packet Sniffer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-867.html",
+    "btn_label": "View Script",
+    "date": "2024-10-03",
+    "tags": [
+      "python",
+      "c",
+      "parser",
+      "powershell",
+      "tool",
+      "bash"
+    ],
+    "image": "/img/script-network-packet-sniffer-867.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-985",
+    "title": "API Security Testing Framework — Bash",
+    "section": "scripting",
+    "description": "A Bash script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-985.html",
+    "btn_label": "View Script",
+    "date": "2024-10-03",
+    "tags": [
+      "bash",
+      "tool",
+      "parser"
+    ],
+    "image": "/img/script-api-security-testing-framework-985.png",
+    "words": 365,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-amsi-bypass-collection-606",
+    "title": "AMSI Bypass Collection",
+    "section": "projects",
+    "description": "Open source security project: AMSI Bypass Collection. Built for the community.",
+    "permalink": "/research/project-amsi-bypass-collection-606.html",
+    "btn_label": "View Project",
+    "date": "2024-10-02",
+    "tags": [
+      "automation",
+      "cli",
+      "framework",
+      "plugin",
+      "extension"
+    ],
+    "image": "/img/project-amsi-bypass-collection-606.png",
+    "words": 217,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "ffuf",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "note-cryptography-fundamentals-869",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-869.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-02",
+    "tags": [
+      "cheatsheet",
+      "linux",
+      "blue-team",
+      "oscp"
+    ],
+    "image": "/img/note-cryptography-fundamentals-869.png",
+    "words": 437,
+    "readTime": "3 min"
+  }
+]

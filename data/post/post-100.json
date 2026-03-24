@@ -1,0 +1,238 @@
+[
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-592",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-592.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-06",
+    "tags": [
+      "malware",
+      "privilege-escalation",
+      "blue-team",
+      "oscp",
+      "lateral-movement",
+      "windows"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-592.png",
+    "words": 651,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-brainstorm-691",
+    "title": "TryHackMe — Brainstorm (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Brainstorm. AlwaysInstallElevated and Remote File Inclusion to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-brainstorm-691.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-06",
+    "tags": [
+      "hackthebox",
+      "windows",
+      "insane",
+      "forensics",
+      "tryhackme",
+      "hard"
+    ],
+    "image": "/img/htb-brainstorm-691.png",
+    "words": 594,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-spectra-284",
+    "title": "VulnHub — Spectra (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Spectra. XSS and Sudo Misconfiguration to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-spectra-284.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-05",
+    "tags": [
+      "active-directory",
+      "linux",
+      "web",
+      "pwntilldawn",
+      "windows"
+    ],
+    "image": "/img/htb-spectra-284.png",
+    "words": 609,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-260",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-260.html",
+    "btn_label": "View Script",
+    "date": "2024-12-03",
+    "tags": [
+      "parser",
+      "scanner",
+      "fuzzer",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-reverse-shell-generator-260.png",
+    "words": 341,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-131",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-131.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-03",
+    "tags": [
+      "oscp",
+      "linux",
+      "cheatsheet",
+      "windows",
+      "dfir"
+    ],
+    "image": "/img/note-cryptography-fundamentals-131.png",
+    "words": 564,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-blue-314",
+    "title": "VulnHub — Blue (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Blue. SQL Injection and Weak Service Permissions to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-blue-314.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-03",
+    "tags": [
+      "windows",
+      "offsec",
+      "easy",
+      "pwntilldawn",
+      "hackthebox",
+      "forensics",
+      "hard"
+    ],
+    "image": "/img/htb-blue-314.png",
+    "words": 582,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-122",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-122.html",
+    "btn_label": "Read Research",
+    "date": "2024-12-02",
+    "tags": [
+      "rop",
+      "malware-analysis",
+      "zero-day",
+      "uaf"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-122.png",
+    "words": 491,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-819",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-819.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-01",
+    "tags": [
+      "malware",
+      "enumeration",
+      "oscp",
+      "privilege-escalation",
+      "persistence"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-819.png",
+    "words": 572,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-granny-184",
+    "title": "PwnTillDawn — Granny (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Granny. SQL Injection and Command Injection to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-granny-184.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-01",
+    "tags": [
+      "reversing",
+      "offsec",
+      "windows",
+      "ctf",
+      "forensics",
+      "hackthebox",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-granny-184.png",
+    "words": 585,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-291",
+    "title": "C2 Beacon Simulator — Python",
+    "section": "scripting",
+    "description": "A Python script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-291.html",
+    "btn_label": "View Script",
+    "date": "2024-11-30",
+    "tags": [
+      "rust",
+      "bash",
+      "fuzzer",
+      "tool",
+      "scanner",
+      "script",
+      "python"
+    ],
+    "image": "/img/script-c2-beacon-simulator-291.png",
+    "words": 281,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-149",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-149.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-30",
+    "tags": [
+      "cheatsheet",
+      "lateral-movement",
+      "enumeration",
+      "oscp",
+      "persistence",
+      "windows"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-149.png",
+    "words": 299,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-irked-699",
+    "title": "OffSec Proving Grounds — Irked (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Irked. Broken Access Control and Subdomain Takeover to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-irked-699.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-30",
+    "tags": [
+      "offsec",
+      "web",
+      "linux",
+      "reversing"
+    ],
+    "image": "/img/htb-irked-699.png",
+    "words": 624,
+    "readTime": "4 min"
+  }
+]

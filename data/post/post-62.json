@@ -1,0 +1,236 @@
+[
+  {
+    "id": "htb-skynet-566",
+    "title": "HackTheBox — Skynet (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Skynet. Unquoted Service Path and Sudo Misconfiguration to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-skynet-566.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-05",
+    "tags": [
+      "active-directory",
+      "hackthebox",
+      "easy",
+      "pwntilldawn",
+      "windows",
+      "medium"
+    ],
+    "image": "/img/htb-skynet-566.png",
+    "words": 636,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-ophiuchi-459",
+    "title": "HackTheBox — Ophiuchi (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ophiuchi. CORS Misconfiguration and SSRF to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-ophiuchi-459.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-05",
+    "tags": [
+      "insane",
+      "pwntilldawn",
+      "hard",
+      "forensics",
+      "hackthebox",
+      "linux",
+      "reversing"
+    ],
+    "image": "/img/htb-ophiuchi-459.png",
+    "words": 644,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-mindgames-510",
+    "title": "TryHackMe — Mindgames (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Mindgames. Constrained Delegation and NTLM Relay to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-mindgames-510.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-05",
+    "tags": [
+      "easy",
+      "reversing",
+      "hackthebox",
+      "forensics",
+      "tryhackme",
+      "insane"
+    ],
+    "image": "/img/htb-mindgames-510.png",
+    "words": 635,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-630",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-630.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-04",
+    "tags": [
+      "rop",
+      "heap-exploitation",
+      "format-string"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-630.png",
+    "words": 490,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-353",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-353.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-04",
+    "tags": [
+      "dfir",
+      "networking",
+      "lateral-movement",
+      "cheatsheet"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-353.png",
+    "words": 411,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-864",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-864.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-04",
+    "tags": [
+      "cheatsheet",
+      "blue-team",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-864.png",
+    "words": 341,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-deja-vu-705",
+    "title": "PwnTillDawn — Deja Vu (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Deja Vu. Docker Escape and Weak Service Permissions to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-deja-vu-705.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-04",
+    "tags": [
+      "offsec",
+      "active-directory",
+      "insane",
+      "web",
+      "easy"
+    ],
+    "image": "/img/htb-deja-vu-705.png",
+    "words": 633,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-892",
+    "title": "DNS Resolver and Brute Forcer — Python",
+    "section": "scripting",
+    "description": "A Python script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-892.html",
+    "btn_label": "View Script",
+    "date": "2025-06-03",
+    "tags": [
+      "rust",
+      "python",
+      "bash",
+      "powershell",
+      "scanner",
+      "automation"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-892.png",
+    "words": 351,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-127",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-127.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-03",
+    "tags": [
+      "uaf",
+      "zero-day",
+      "buffer-overflow",
+      "kernel",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-127.png",
+    "words": 455,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-551",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-551.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-03",
+    "tags": [
+      "oscp",
+      "cheatsheet",
+      "linux"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-551.png",
+    "words": 382,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-edr-evasion-techniques-868",
+    "title": "EDR Evasion Techniques",
+    "section": "projects",
+    "description": "Open source security project: EDR Evasion Techniques. Built for the community.",
+    "permalink": "/research/project-edr-evasion-techniques-868.html",
+    "btn_label": "View Project",
+    "date": "2025-06-02",
+    "tags": [
+      "open-source",
+      "library",
+      "cli",
+      "tool",
+      "automation"
+    ],
+    "image": "/img/project-edr-evasion-techniques-868.png",
+    "words": 194,
+    "readTime": "1 min",
+    "features": [
+      "nmap",
+      "ffuf",
+      "john"
+    ]
+  },
+  {
+    "id": "note-sigma-rule-development-695",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-695.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-02",
+    "tags": [
+      "malware",
+      "blue-team",
+      "networking",
+      "privilege-escalation",
+      "dfir",
+      "windows"
+    ],
+    "image": "/img/note-sigma-rule-development-695.png",
+    "words": 634,
+    "readTime": "4 min"
+  }
+]

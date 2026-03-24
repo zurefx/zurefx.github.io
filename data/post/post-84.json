@@ -1,0 +1,234 @@
+[
+  {
+    "id": "note-buffer-overflow-exploitation-guide-985",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-985.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-02",
+    "tags": [
+      "enumeration",
+      "oscp",
+      "windows",
+      "lateral-movement",
+      "networking",
+      "cheatsheet"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-985.png",
+    "words": 289,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-301",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-301.html",
+    "btn_label": "View Script",
+    "date": "2025-02-28",
+    "tags": [
+      "rust",
+      "parser",
+      "bash",
+      "scanner",
+      "tool",
+      "fuzzer"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-301.png",
+    "words": 347,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-valentine-952",
+    "title": "VulnHub — Valentine (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Valentine. Writable PATH and Remote File Inclusion to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-valentine-952.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-28",
+    "tags": [
+      "hard",
+      "easy",
+      "tryhackme",
+      "forensics",
+      "active-directory",
+      "linux",
+      "hackthebox"
+    ],
+    "image": "/img/htb-valentine-952.png",
+    "words": 644,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-anthem-393",
+    "title": "PwnTillDawn — Anthem (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Anthem. LXD Privilege Escalation and Unquoted Service Path to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-anthem-393.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-28",
+    "tags": [
+      "easy",
+      "linux",
+      "forensics",
+      "insane",
+      "reversing",
+      "windows"
+    ],
+    "image": "/img/htb-anthem-393.png",
+    "words": 584,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-875",
+    "title": "EDR Evasion Techniques — Python",
+    "section": "scripting",
+    "description": "A Python script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-875.html",
+    "btn_label": "View Script",
+    "date": "2025-02-27",
+    "tags": [
+      "go",
+      "fuzzer",
+      "automation",
+      "python",
+      "powershell",
+      "parser"
+    ],
+    "image": "/img/script-edr-evasion-techniques-875.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-346",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-346.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-27",
+    "tags": [
+      "dfir",
+      "oscp",
+      "networking",
+      "linux"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-346.png",
+    "words": 513,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-689",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-689.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-27",
+    "tags": [
+      "networking",
+      "oscp",
+      "windows",
+      "persistence"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-689.png",
+    "words": 450,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-armageddon-221",
+    "title": "HackTheBox — Armageddon (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Armageddon. AlwaysInstallElevated and LAPS Abuse to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-armageddon-221.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-27",
+    "tags": [
+      "linux",
+      "forensics",
+      "windows",
+      "hackthebox",
+      "insane",
+      "active-directory"
+    ],
+    "image": "/img/htb-armageddon-221.png",
+    "words": 682,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-101",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-101.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-26",
+    "tags": [
+      "blue-team",
+      "oscp",
+      "cheatsheet",
+      "dfir",
+      "persistence"
+    ],
+    "image": "/img/note-reverse-engineering-basics-101.png",
+    "words": 322,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-977",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-977.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-26",
+    "tags": [
+      "cheatsheet",
+      "privilege-escalation",
+      "oscp"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-977.png",
+    "words": 225,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-traverxec-303",
+    "title": "VulnHub — Traverxec (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Traverxec. Path Traversal and Cron Job to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-traverxec-303.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-26",
+    "tags": [
+      "active-directory",
+      "hard",
+      "reversing",
+      "tryhackme",
+      "easy",
+      "windows",
+      "forensics"
+    ],
+    "image": "/img/htb-traverxec-303.png",
+    "words": 590,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-networked-407",
+    "title": "OffSec Proving Grounds — Networked (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Networked. XXE and Pass the Ticket to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-networked-407.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-26",
+    "tags": [
+      "hackthebox",
+      "pwntilldawn",
+      "windows"
+    ],
+    "image": "/img/htb-networked-407.png",
+    "words": 569,
+    "readTime": "3 min"
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "script-reverse-shell-generator-548",
+    "title": "Reverse Shell Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-548.html",
+    "btn_label": "View Script",
+    "date": "2025-03-13",
+    "tags": [
+      "rust",
+      "automation",
+      "scanner",
+      "go"
+    ],
+    "image": "/img/script-reverse-shell-generator-548.png",
+    "words": 379,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-704",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-704.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-13",
+    "tags": [
+      "enumeration",
+      "lateral-movement",
+      "linux"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-704.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tentacle-349",
+    "title": "HackTheBox — Tentacle (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Tentacle. DNS Rebinding and SSRF to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-tentacle-349.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-13",
+    "tags": [
+      "hackthebox",
+      "web",
+      "linux"
+    ],
+    "image": "/img/htb-tentacle-349.png",
+    "words": 628,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-mindgames-344",
+    "title": "HackTheBox — Mindgames (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Mindgames. AS-REP Roasting and LXD Privilege Escalation to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-mindgames-344.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-13",
+    "tags": [
+      "pwntilldawn",
+      "medium",
+      "ctf",
+      "reversing",
+      "insane",
+      "easy"
+    ],
+    "image": "/img/htb-mindgames-344.png",
+    "words": 598,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-smb-share-enumeration-script-686",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-686.html",
+    "btn_label": "View Script",
+    "date": "2025-03-12",
+    "tags": [
+      "parser",
+      "bash",
+      "go",
+      "scanner",
+      "tool",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-686.png",
+    "words": 323,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-879",
+    "title": "EDR Evasion Techniques — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-879.html",
+    "btn_label": "View Script",
+    "date": "2025-03-12",
+    "tags": [
+      "go",
+      "parser",
+      "c",
+      "powershell"
+    ],
+    "image": "/img/script-edr-evasion-techniques-879.png",
+    "words": 320,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-592",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-592.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-12",
+    "tags": [
+      "rop",
+      "malware-analysis",
+      "format-string"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 518,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-150",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-150.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-12",
+    "tags": [
+      "windows",
+      "lateral-movement",
+      "malware",
+      "cheatsheet",
+      "oscp",
+      "linux"
+    ],
+    "image": "/img/note-active-directory-attack-paths-150.png",
+    "words": 346,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-776",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-776.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-11",
+    "tags": [
+      "blue-team",
+      "malware",
+      "cheatsheet",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-776.png",
+    "words": 336,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-pit-533",
+    "title": "TryHackMe — Pit (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Pit. SQL Injection and Path Traversal to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pit-533.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-11",
+    "tags": [
+      "windows",
+      "web",
+      "easy",
+      "linux",
+      "forensics",
+      "hard"
+    ],
+    "image": "/img/htb-pit-533.png",
+    "words": 541,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-257",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-257.html",
+    "btn_label": "View Script",
+    "date": "2025-03-10",
+    "tags": [
+      "python",
+      "tool",
+      "automation",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-257.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-917",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-917.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-09",
+    "tags": [
+      "oscp",
+      "networking",
+      "cheatsheet",
+      "enumeration",
+      "dfir"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-917.png",
+    "words": 471,
+    "readTime": "3 min"
+  }
+]

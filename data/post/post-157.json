@@ -1,0 +1,226 @@
+[
+  {
+    "id": "note-malware-analysis-environment-setup-250",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-250.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-02",
+    "tags": [
+      "oscp",
+      "windows",
+      "malware"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-250.png",
+    "words": 464,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-legacy-939",
+    "title": "OffSec Proving Grounds — Legacy (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Legacy. SSTI and Open Redirect to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-legacy-939.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-02",
+    "tags": [
+      "hackthebox",
+      "web",
+      "medium",
+      "hard",
+      "insane",
+      "offsec"
+    ],
+    "image": "/img/htb-legacy-939.png",
+    "words": 525,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-buffer-499",
+    "title": "PwnTillDawn — Buffer (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Buffer. Silver Ticket and Pass the Ticket to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-buffer-499.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-02",
+    "tags": [
+      "linux",
+      "hackthebox",
+      "offsec"
+    ],
+    "image": "/img/htb-buffer-499.png",
+    "words": 595,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-854",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-854.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-01",
+    "tags": [
+      "dfir",
+      "privilege-escalation",
+      "lateral-movement",
+      "windows",
+      "malware"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-854.png",
+    "words": 352,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-798",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-798.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-01",
+    "tags": [
+      "windows",
+      "networking",
+      "linux"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-798.png",
+    "words": 563,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tartarsauce-116",
+    "title": "TryHackMe — Tartarsauce (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tartarsauce. ACL Abuse and Pass the Hash to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-tartarsauce-116.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-01",
+    "tags": [
+      "ctf",
+      "insane",
+      "hard",
+      "linux",
+      "pwntilldawn",
+      "forensics"
+    ],
+    "image": "/img/htb-tartarsauce-116.png",
+    "words": 585,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-pit-167",
+    "title": "TryHackMe — Pit (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Pit. SeDebugPrivilege and Insecure Deserialization to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pit-167.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-01",
+    "tags": [
+      "windows",
+      "offsec",
+      "pwntilldawn",
+      "web",
+      "easy",
+      "medium"
+    ],
+    "image": "/img/htb-pit-167.png",
+    "words": 571,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-909",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-909.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-28",
+    "tags": [
+      "windows",
+      "cheatsheet",
+      "dfir"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-909.png",
+    "words": 504,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tentacle-937",
+    "title": "OffSec Proving Grounds — Tentacle (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Tentacle. LXD Privilege Escalation and Kerberoasting to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-tentacle-937.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-28",
+    "tags": [
+      "reversing",
+      "easy",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-tentacle-937.png",
+    "words": 636,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-arctic-157",
+    "title": "HackTheBox — Arctic (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Arctic. DNS Rebinding and AS-REP Roasting to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-arctic-157.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-28",
+    "tags": [
+      "hard",
+      "hackthebox",
+      "offsec",
+      "easy",
+      "linux",
+      "tryhackme"
+    ],
+    "image": "/img/htb-arctic-157.png",
+    "words": 653,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-node-119",
+    "title": "PwnTillDawn — Node (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Node. SSRF and Unquoted Service Path to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-node-119.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-27",
+    "tags": [
+      "hackthebox",
+      "ctf",
+      "medium",
+      "offsec",
+      "linux",
+      "pwntilldawn",
+      "reversing"
+    ],
+    "image": "/img/htb-node-119.png",
+    "words": 547,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-traverxec-956",
+    "title": "PwnTillDawn — Traverxec (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Traverxec. Local File Inclusion and NTLM Relay to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-traverxec-956.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-26",
+    "tags": [
+      "insane",
+      "linux",
+      "medium",
+      "hard",
+      "easy"
+    ],
+    "image": "/img/htb-traverxec-956.png",
+    "words": 593,
+    "readTime": "3 min"
+  }
+]

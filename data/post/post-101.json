@@ -1,0 +1,229 @@
+[
+  {
+    "id": "htb-atom-526",
+    "title": "HackTheBox — Atom (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Atom. Pass the Ticket and DCSync to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-atom-526.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-30",
+    "tags": [
+      "windows",
+      "tryhackme",
+      "active-directory",
+      "linux"
+    ],
+    "image": "/img/htb-atom-526.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-349",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-349.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-29",
+    "tags": [
+      "windows",
+      "enumeration",
+      "networking",
+      "malware",
+      "oscp",
+      "lateral-movement"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-349.png",
+    "words": 378,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-doctor-911",
+    "title": "PwnTillDawn — Doctor (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Doctor. Subdomain Takeover and Command Injection to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-doctor-911.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-29",
+    "tags": [
+      "insane",
+      "active-directory",
+      "windows",
+      "linux",
+      "pwntilldawn",
+      "forensics"
+    ],
+    "image": "/img/htb-doctor-911.png",
+    "words": 591,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-443",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-443.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-28",
+    "tags": [
+      "format-string",
+      "exploit-development",
+      "uaf",
+      "kernel"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-443.png",
+    "words": 498,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-pikaboo-587",
+    "title": "VulnHub — Pikaboo (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Pikaboo. SSRF and Broken Access Control to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-pikaboo-587.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-28",
+    "tags": [
+      "hackthebox",
+      "ctf",
+      "insane",
+      "web",
+      "windows",
+      "linux",
+      "reversing"
+    ],
+    "image": "/img/htb-pikaboo-587.png",
+    "words": 603,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-overpass-559",
+    "title": "HackTheBox — Overpass (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Overpass. SSTI and IDOR to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-overpass-559.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-28",
+    "tags": [
+      "web",
+      "easy",
+      "offsec"
+    ],
+    "image": "/img/htb-overpass-559.png",
+    "words": 691,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-automated-port-scanner-128",
+    "title": "Automated Port Scanner — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-128.html",
+    "btn_label": "View Script",
+    "date": "2024-11-27",
+    "tags": [
+      "go",
+      "bash",
+      "python",
+      "c",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-automated-port-scanner-128.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-436",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-436.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-27",
+    "tags": [
+      "cve",
+      "malware-analysis",
+      "kernel",
+      "buffer-overflow",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-436.png",
+    "words": 525,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-785",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-785.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-27",
+    "tags": [
+      "enumeration",
+      "dfir",
+      "persistence"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-785.png",
+    "words": 809,
+    "readTime": "5 min"
+  },
+  {
+    "id": "note-docker-security-hardening-173",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-173.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-27",
+    "tags": [
+      "oscp",
+      "networking",
+      "cheatsheet",
+      "enumeration",
+      "blue-team"
+    ],
+    "image": "/img/note-docker-security-hardening-173.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-544",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-544.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-27",
+    "tags": [
+      "persistence",
+      "blue-team",
+      "enumeration",
+      "lateral-movement",
+      "windows"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-544.png",
+    "words": 529,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-677",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-677.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-26",
+    "tags": [
+      "shellcode",
+      "buffer-overflow",
+      "malware-analysis",
+      "exploit-development"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-677.png",
+    "words": 469,
+    "readTime": "3 min"
+  }
+]

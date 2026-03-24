@@ -1,0 +1,230 @@
+[
+  {
+    "id": "htb-sense-934",
+    "title": "OffSec Proving Grounds — Sense (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Sense. Sudo Misconfiguration and Local File Inclusion to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-sense-934.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-25",
+    "tags": [
+      "forensics",
+      "ctf",
+      "active-directory",
+      "easy"
+    ],
+    "image": "/img/htb-sense-934.png",
+    "words": 685,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-966",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-966.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-24",
+    "tags": [
+      "rop",
+      "heap-exploitation",
+      "zero-day",
+      "uaf",
+      "shellcode",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-966.png",
+    "words": 479,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-solidstate-558",
+    "title": "PwnTillDawn — Solidstate (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Solidstate. Resource-Based Constrained Delegation and AS-REP Roasting to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-solidstate-558.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-24",
+    "tags": [
+      "pwntilldawn",
+      "offsec",
+      "windows"
+    ],
+    "image": "/img/htb-solidstate-558.png",
+    "words": 551,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-973",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-973.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-23",
+    "tags": [
+      "enumeration",
+      "cheatsheet",
+      "lateral-movement"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-973.png",
+    "words": 597,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-docker-security-hardening-387",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-387.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-23",
+    "tags": [
+      "privilege-escalation",
+      "oscp",
+      "dfir",
+      "lateral-movement",
+      "linux",
+      "malware"
+    ],
+    "image": "/img/note-docker-security-hardening-387.png",
+    "words": 616,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-tenet-866",
+    "title": "VulnHub — Tenet (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Tenet. SSTI and CORS Misconfiguration to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-tenet-866.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-23",
+    "tags": [
+      "linux",
+      "reversing",
+      "ctf",
+      "tryhackme",
+      "hard"
+    ],
+    "image": "/img/htb-tenet-866.png",
+    "words": 600,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-mustacchio-361",
+    "title": "PwnTillDawn — Mustacchio (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Mustacchio. SQL Injection and AlwaysInstallElevated to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-mustacchio-361.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-23",
+    "tags": [
+      "pwntilldawn",
+      "medium",
+      "linux"
+    ],
+    "image": "/img/htb-mustacchio-361.png",
+    "words": 662,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-arctic-714",
+    "title": "OffSec Proving Grounds — Arctic (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Arctic. Command Injection and Local File Inclusion to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-arctic-714.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-23",
+    "tags": [
+      "insane",
+      "offsec",
+      "active-directory"
+    ],
+    "image": "/img/htb-arctic-714.png",
+    "words": 533,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-818",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-818.html",
+    "btn_label": "View Script",
+    "date": "2026-02-22",
+    "tags": [
+      "parser",
+      "bash",
+      "powershell",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-818.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-244",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-244.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-22",
+    "tags": [
+      "malware-analysis",
+      "zero-day",
+      "buffer-overflow",
+      "cve",
+      "exploit-development",
+      "kernel"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 467,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-389",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-389.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-22",
+    "tags": [
+      "cheatsheet",
+      "privilege-escalation",
+      "blue-team",
+      "enumeration"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-389.png",
+    "words": 477,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-analysis-of-cve-2024-xxxx-remote-code-ex-649",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "projects",
+    "description": "Open source security project: Analysis of CVE-2024-XXXX: Remote Code Execution. Built for the community.",
+    "permalink": "/research/project-analysis-of-cve-2024-xxxx-remote-code-ex-649.html",
+    "btn_label": "View Project",
+    "date": "2026-02-21",
+    "tags": [
+      "extension",
+      "framework",
+      "library",
+      "tool"
+    ],
+    "image": "/img/project-analysis-of-cve-2024-xxxx-remote-code-ex-6.png",
+    "words": 195,
+    "readTime": "1 min",
+    "features": [
+      "feroxbuster",
+      "hashcat",
+      "ffuf"
+    ]
+  }
+]

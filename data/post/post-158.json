@@ -1,0 +1,242 @@
+[
+  {
+    "id": "htb-ready-677",
+    "title": "VulnHub — Ready (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Ready. Kerberoasting and DCSync to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-ready-677.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-26",
+    "tags": [
+      "windows",
+      "active-directory",
+      "hard",
+      "tryhackme",
+      "web",
+      "ctf",
+      "offsec"
+    ],
+    "image": "/img/htb-ready-677.png",
+    "words": 537,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-omni-413",
+    "title": "PwnTillDawn — Omni (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Omni. Subdomain Takeover and Remote File Inclusion to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-omni-413.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-26",
+    "tags": [
+      "tryhackme",
+      "pwntilldawn",
+      "offsec"
+    ],
+    "image": "/img/htb-omni-413.png",
+    "words": 586,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-armageddon-697",
+    "title": "PwnTillDawn — Armageddon (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Armageddon. GPP Password and Pass the Ticket to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-armageddon-697.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-26",
+    "tags": [
+      "hackthebox",
+      "web",
+      "active-directory",
+      "medium",
+      "insane"
+    ],
+    "image": "/img/htb-armageddon-697.png",
+    "words": 580,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-302",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-302.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-25",
+    "tags": [
+      "buffer-overflow",
+      "format-string",
+      "malware-analysis",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-302.png",
+    "words": 481,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-179",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-179.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-25",
+    "tags": [
+      "malware",
+      "dfir",
+      "oscp",
+      "privilege-escalation",
+      "enumeration",
+      "persistence"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-179.png",
+    "words": 580,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-sunday-673",
+    "title": "HackTheBox — Sunday (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Sunday. SeImpersonatePrivilege and DLL Hijacking to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-sunday-673.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-25",
+    "tags": [
+      "reversing",
+      "linux",
+      "ctf",
+      "active-directory",
+      "hackthebox",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-sunday-673.png",
+    "words": 635,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-282",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-282.html",
+    "btn_label": "View Script",
+    "date": "2024-02-23",
+    "tags": [
+      "powershell",
+      "go",
+      "c",
+      "fuzzer",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-282.png",
+    "words": 312,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-942",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-942.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-23",
+    "tags": [
+      "malware-analysis",
+      "uaf",
+      "format-string",
+      "rop",
+      "zero-day"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-942.png",
+    "words": 473,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-edr-evasion-techniques-825",
+    "title": "EDR Evasion Techniques",
+    "section": "projects",
+    "description": "Open source security project: EDR Evasion Techniques. Built for the community.",
+    "permalink": "/research/project-edr-evasion-techniques-825.html",
+    "btn_label": "View Project",
+    "date": "2024-02-23",
+    "tags": [
+      "framework",
+      "automation",
+      "cli",
+      "extension",
+      "library"
+    ],
+    "image": "/img/project-edr-evasion-techniques-825.png",
+    "words": 241,
+    "readTime": "2 min",
+    "features": [
+      "impacket",
+      "hydra",
+      "john"
+    ]
+  },
+  {
+    "id": "script-custom-wordlist-generator-614",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-614.html",
+    "btn_label": "View Script",
+    "date": "2024-02-22",
+    "tags": [
+      "parser",
+      "go",
+      "fuzzer",
+      "automation",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-custom-wordlist-generator-614.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-643",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-643.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-22",
+    "tags": [
+      "zero-day",
+      "format-string",
+      "malware-analysis",
+      "cve",
+      "exploit-development",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-64.png",
+    "words": 493,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-ctf-challenge-solver-template-285",
+    "title": "CTF Challenge Solver Template",
+    "section": "projects",
+    "description": "Open source security project: CTF Challenge Solver Template. Built for the community.",
+    "permalink": "/research/project-ctf-challenge-solver-template-285.html",
+    "btn_label": "View Project",
+    "date": "2024-02-22",
+    "tags": [
+      "open-source",
+      "cli",
+      "automation"
+    ],
+    "image": "/img/project-ctf-challenge-solver-template-285.png",
+    "words": 202,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "nmap",
+      "ffuf"
+    ]
+  }
+]

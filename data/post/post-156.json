@@ -1,0 +1,225 @@
+[
+  {
+    "id": "note-incident-response-playbook-785",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-785.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-06",
+    "tags": [
+      "enumeration",
+      "privilege-escalation",
+      "networking",
+      "oscp",
+      "persistence",
+      "windows"
+    ],
+    "image": "/img/note-incident-response-playbook-785.png",
+    "words": 545,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tentacle-293",
+    "title": "TryHackMe — Tentacle (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tentacle. CSRF and SeImpersonatePrivilege to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-tentacle-293.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-06",
+    "tags": [
+      "medium",
+      "hard",
+      "web",
+      "forensics",
+      "hackthebox",
+      "linux",
+      "ctf"
+    ],
+    "image": "/img/htb-tentacle-293.png",
+    "words": 550,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tenet-754",
+    "title": "HackTheBox — Tenet (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Tenet. Kerberoasting and AS-REP Roasting to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-tenet-754.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-06",
+    "tags": [
+      "forensics",
+      "windows",
+      "active-directory"
+    ],
+    "image": "/img/htb-tenet-754.png",
+    "words": 660,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-cereal-900",
+    "title": "HackTheBox — Cereal (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Cereal. XXE and CSRF to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-cereal-900.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-06",
+    "tags": [
+      "offsec",
+      "hard",
+      "easy",
+      "hackthebox",
+      "medium",
+      "windows",
+      "tryhackme"
+    ],
+    "image": "/img/htb-cereal-900.png",
+    "words": 536,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-594",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-594.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-05",
+    "tags": [
+      "blue-team",
+      "cheatsheet",
+      "oscp",
+      "dfir"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-594.png",
+    "words": 606,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-700",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-700.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-05",
+    "tags": [
+      "windows",
+      "privilege-escalation",
+      "oscp"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-700.png",
+    "words": 308,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-856",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-856.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-05",
+    "tags": [
+      "persistence",
+      "oscp",
+      "dfir"
+    ],
+    "image": "/img/note-digital-forensics-methodology-856.png",
+    "words": 537,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-alfred-328",
+    "title": "TryHackMe — Alfred (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Alfred. SeDebugPrivilege and Local File Inclusion to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-alfred-328.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-05",
+    "tags": [
+      "easy",
+      "reversing",
+      "offsec",
+      "ctf",
+      "hackthebox"
+    ],
+    "image": "/img/htb-alfred-328.png",
+    "words": 588,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-893",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-893.html",
+    "btn_label": "Read Research",
+    "date": "2024-03-03",
+    "tags": [
+      "exploit-development",
+      "aslr-bypass",
+      "uaf"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-89.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-mindgames-308",
+    "title": "HackTheBox — Mindgames (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Mindgames. Remote File Inclusion and Docker Escape to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-mindgames-308.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-03",
+    "tags": [
+      "insane",
+      "active-directory",
+      "web",
+      "medium"
+    ],
+    "image": "/img/htb-mindgames-308.png",
+    "words": 615,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-cereal-636",
+    "title": "PwnTillDawn — Cereal (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Cereal. Docker Escape and SeDebugPrivilege to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-cereal-636.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-03",
+    "tags": [
+      "hard",
+      "windows",
+      "forensics",
+      "hackthebox",
+      "reversing"
+    ],
+    "image": "/img/htb-cereal-636.png",
+    "words": 628,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-516",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-516.html",
+    "btn_label": "View Script",
+    "date": "2024-03-02",
+    "tags": [
+      "automation",
+      "parser",
+      "scanner",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-516.png",
+    "words": 374,
+    "readTime": "2 min"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "id": "htb-traverxec-655",
+    "title": "PwnTillDawn — Traverxec (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Traverxec. IDOR and Docker Escape to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-traverxec-655.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-03",
+    "tags": [
+      "tryhackme",
+      "hard",
+      "reversing",
+      "forensics",
+      "linux"
+    ],
+    "image": "/img/htb-traverxec-655.png",
+    "words": 544,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-854",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-854.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-01",
+    "tags": [
+      "exploit-development",
+      "uaf",
+      "rop",
+      "shellcode"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-854.png",
+    "words": 479,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-164",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-164.html",
+    "btn_label": "Read Research",
+    "date": "2024-05-31",
+    "tags": [
+      "shellcode",
+      "buffer-overflow",
+      "exploit-development",
+      "format-string",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 480,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-478",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-478.html",
+    "btn_label": "Read Research",
+    "date": "2024-05-31",
+    "tags": [
+      "cve",
+      "rop",
+      "exploit-development"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-478.png",
+    "words": 525,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-826",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-826.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-31",
+    "tags": [
+      "linux",
+      "cheatsheet",
+      "lateral-movement",
+      "blue-team"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-826.png",
+    "words": 442,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-docker-security-hardening-167",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-167.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-29",
+    "tags": [
+      "persistence",
+      "networking",
+      "windows",
+      "privilege-escalation",
+      "lateral-movement"
+    ],
+    "image": "/img/note-docker-security-hardening-167.png",
+    "words": 511,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-vulnnet-729",
+    "title": "OffSec Proving Grounds — Vulnnet (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Vulnnet. Pass the Ticket and CSRF to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-vulnnet-729.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-29",
+    "tags": [
+      "forensics",
+      "web",
+      "tryhackme",
+      "medium"
+    ],
+    "image": "/img/htb-vulnnet-729.png",
+    "words": 659,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-subdomain-enumeration-tool-508",
+    "title": "Subdomain Enumeration Tool",
+    "section": "projects",
+    "description": "Open source security project: Subdomain Enumeration Tool. Built for the community.",
+    "permalink": "/research/project-subdomain-enumeration-tool-508.html",
+    "btn_label": "View Project",
+    "date": "2024-05-28",
+    "tags": [
+      "automation",
+      "cli",
+      "tool",
+      "library",
+      "plugin"
+    ],
+    "image": "/img/project-subdomain-enumeration-tool-508.png",
+    "words": 193,
+    "readTime": "1 min",
+    "features": [
+      "gobuster",
+      "hydra",
+      "nmap"
+    ]
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-260",
+    "title": "CTF Challenge Solver Template — Go",
+    "section": "scripting",
+    "description": "A Go script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-260.html",
+    "btn_label": "View Script",
+    "date": "2024-05-27",
+    "tags": [
+      "bash",
+      "powershell",
+      "scanner",
+      "rust",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-260.png",
+    "words": 322,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-incident-response-playbook-765",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-765.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-26",
+    "tags": [
+      "oscp",
+      "malware",
+      "windows",
+      "networking"
+    ],
+    "image": "/img/note-incident-response-playbook-765.png",
+    "words": 251,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-tenet-211",
+    "title": "PwnTillDawn — Tenet (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Tenet. ACL Abuse and Cron Job to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-tenet-211.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-24",
+    "tags": [
+      "easy",
+      "medium",
+      "linux"
+    ],
+    "image": "/img/htb-tenet-211.png",
+    "words": 687,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-automated-port-scanner-329",
+    "title": "Automated Port Scanner — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-329.html",
+    "btn_label": "View Script",
+    "date": "2024-05-22",
+    "tags": [
+      "c",
+      "tool",
+      "go",
+      "bash",
+      "scanner",
+      "powershell"
+    ],
+    "image": "/img/script-automated-port-scanner-329.png",
+    "words": 344,
+    "readTime": "2 min"
+  }
+]

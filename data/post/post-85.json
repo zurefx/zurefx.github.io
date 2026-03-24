@@ -1,0 +1,222 @@
+[
+  {
+    "id": "script-ctf-challenge-solver-template-911",
+    "title": "CTF Challenge Solver Template — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-911.html",
+    "btn_label": "View Script",
+    "date": "2025-02-25",
+    "tags": [
+      "automation",
+      "powershell",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-911.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-589",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-589.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-25",
+    "tags": [
+      "oscp",
+      "privilege-escalation",
+      "dfir"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-589.png",
+    "words": 734,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-brainstorm-693",
+    "title": "VulnHub — Brainstorm (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Brainstorm. GPP Password and Remote Code Execution to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-brainstorm-693.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-25",
+    "tags": [
+      "reversing",
+      "web",
+      "windows",
+      "offsec"
+    ],
+    "image": "/img/htb-brainstorm-693.png",
+    "words": 598,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-438",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-438.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-24",
+    "tags": [
+      "networking",
+      "linux",
+      "cheatsheet"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-438.png",
+    "words": 290,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-node-569",
+    "title": "VulnHub — Node (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Node. Writable PATH and SSRF to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-node-569.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-24",
+    "tags": [
+      "linux",
+      "offsec",
+      "reversing"
+    ],
+    "image": "/img/htb-node-569.png",
+    "words": 643,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-378",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-378.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-23",
+    "tags": [
+      "zero-day",
+      "format-string",
+      "rop",
+      "kernel",
+      "heap-exploitation",
+      "exploit-development"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-378.png",
+    "words": 526,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-291",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-291.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-23",
+    "tags": [
+      "lateral-movement",
+      "dfir",
+      "cheatsheet",
+      "networking",
+      "blue-team",
+      "oscp"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-291.png",
+    "words": 253,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-578",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-578.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-23",
+    "tags": [
+      "linux",
+      "windows",
+      "dfir",
+      "oscp"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-578.png",
+    "words": 644,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-416",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-416.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-22",
+    "tags": [
+      "kernel",
+      "aslr-bypass",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 475,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-arctic-129",
+    "title": "OffSec Proving Grounds — Arctic (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Arctic. Weak Service Permissions and Resource-Based Constrained Delegation to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-arctic-129.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-22",
+    "tags": [
+      "web",
+      "tryhackme",
+      "insane",
+      "forensics"
+    ],
+    "image": "/img/htb-arctic-129.png",
+    "words": 569,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-802",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-802.html",
+    "btn_label": "View Script",
+    "date": "2025-02-21",
+    "tags": [
+      "script",
+      "go",
+      "fuzzer",
+      "c",
+      "bash",
+      "powershell"
+    ],
+    "image": "/img/script-custom-wordlist-generator-802.png",
+    "words": 351,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-344",
+    "title": "EDR Evasion Techniques — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-344.html",
+    "btn_label": "View Script",
+    "date": "2025-02-20",
+    "tags": [
+      "bash",
+      "parser",
+      "scanner",
+      "powershell"
+    ],
+    "image": "/img/script-edr-evasion-techniques-344.png",
+    "words": 286,
+    "readTime": "2 min"
+  }
+]

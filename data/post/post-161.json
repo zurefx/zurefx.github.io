@@ -1,0 +1,222 @@
+[
+  {
+    "id": "research-fuzzing-embedded-firmware-638",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-638.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-11",
+    "tags": [
+      "heap-exploitation",
+      "buffer-overflow",
+      "shellcode"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-638.png",
+    "words": 477,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-monitors-491",
+    "title": "OffSec Proving Grounds — Monitors (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Monitors. GPP Password and Insecure Deserialization to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-monitors-491.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-11",
+    "tags": [
+      "insane",
+      "easy",
+      "linux",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-monitors-491.png",
+    "words": 645,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-horizontall-209",
+    "title": "TryHackMe — Horizontall (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Horizontall. Command Injection and Remote Code Execution to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-horizontall-209.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-11",
+    "tags": [
+      "medium",
+      "insane",
+      "ctf"
+    ],
+    "image": "/img/htb-horizontall-209.png",
+    "words": 496,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-love-989",
+    "title": "OffSec Proving Grounds — Love (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Love. Subdomain Takeover and Broken Access Control to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-love-989.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-10",
+    "tags": [
+      "offsec",
+      "insane",
+      "hackthebox"
+    ],
+    "image": "/img/htb-love-989.png",
+    "words": 546,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-805",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-805.html",
+    "btn_label": "View Script",
+    "date": "2024-02-08",
+    "tags": [
+      "tool",
+      "parser",
+      "scanner",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-805.png",
+    "words": 368,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-620",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-620.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-08",
+    "tags": [
+      "enumeration",
+      "privilege-escalation",
+      "networking"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-620.png",
+    "words": 517,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-openadmin-491",
+    "title": "TryHackMe — OpenAdmin (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe OpenAdmin. Open Redirect and Pass the Hash to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-openadmin-491.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-08",
+    "tags": [
+      "offsec",
+      "medium",
+      "reversing",
+      "insane",
+      "active-directory",
+      "easy",
+      "tryhackme"
+    ],
+    "image": "/img/htb-openadmin-491.png",
+    "words": 592,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-beep-317",
+    "title": "HackTheBox — Beep (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Beep. SSTI and Subdomain Takeover to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-beep-317.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-08",
+    "tags": [
+      "insane",
+      "easy",
+      "active-directory"
+    ],
+    "image": "/img/htb-beep-317.png",
+    "words": 560,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-network-packet-sniffer-504",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-504.html",
+    "btn_label": "View Script",
+    "date": "2024-02-07",
+    "tags": [
+      "rust",
+      "script",
+      "scanner",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-504.png",
+    "words": 366,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-yara-rule-writing-176",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-176.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-07",
+    "tags": [
+      "linux",
+      "networking",
+      "enumeration",
+      "persistence",
+      "oscp"
+    ],
+    "image": "/img/note-yara-rule-writing-176.png",
+    "words": 387,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-641",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-641.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-07",
+    "tags": [
+      "cheatsheet",
+      "lateral-movement",
+      "dfir",
+      "blue-team",
+      "networking"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-641.png",
+    "words": 625,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-263",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-263.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-06",
+    "tags": [
+      "rop",
+      "zero-day",
+      "kernel",
+      "exploit-development",
+      "shellcode"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-263.png",
+    "words": 528,
+    "readTime": "3 min"
+  }
+]

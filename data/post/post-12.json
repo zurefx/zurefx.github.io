@@ -1,0 +1,221 @@
+[
+  {
+    "id": "htb-doctor-133",
+    "title": "VulnHub — Doctor (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Doctor. Sudo Misconfiguration and NTLM Relay to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-doctor-133.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-02",
+    "tags": [
+      "insane",
+      "tryhackme",
+      "web"
+    ],
+    "image": "/img/htb-doctor-133.png",
+    "words": 598,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-672",
+    "title": "Payload Obfuscation Script — Go",
+    "section": "scripting",
+    "description": "A Go script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-672.html",
+    "btn_label": "View Script",
+    "date": "2026-02-01",
+    "tags": [
+      "script",
+      "python",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-payload-obfuscation-script-672.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-yara-rule-writing-351",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-351.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-01",
+    "tags": [
+      "lateral-movement",
+      "cheatsheet",
+      "dfir",
+      "persistence",
+      "networking"
+    ],
+    "image": "/img/note-yara-rule-writing-351.png",
+    "words": 229,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-451",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-451.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-01",
+    "tags": [
+      "persistence",
+      "networking",
+      "privilege-escalation",
+      "lateral-movement"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-451.png",
+    "words": 785,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-tenet-442",
+    "title": "OffSec Proving Grounds — Tenet (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Tenet. Docker Escape and SSRF to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-tenet-442.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-01",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "forensics",
+      "windows",
+      "web"
+    ],
+    "image": "/img/htb-tenet-442.png",
+    "words": 604,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-pikaboo-713",
+    "title": "OffSec Proving Grounds — Pikaboo (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Pikaboo. Pass the Hash and DNS Rebinding to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-pikaboo-713.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-01",
+    "tags": [
+      "reversing",
+      "linux",
+      "hackthebox",
+      "tryhackme",
+      "offsec"
+    ],
+    "image": "/img/htb-pikaboo-713.png",
+    "words": 631,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-122",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-122.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-31",
+    "tags": [
+      "malware-analysis",
+      "format-string",
+      "heap-exploitation",
+      "rop"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-122.png",
+    "words": 526,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-591",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-591.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-31",
+    "tags": [
+      "exploit-development",
+      "cve",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 485,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-968",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-968.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-31",
+    "tags": [
+      "windows",
+      "dfir",
+      "malware",
+      "oscp",
+      "privilege-escalation",
+      "blue-team"
+    ],
+    "image": "/img/note-cryptography-fundamentals-968.png",
+    "words": 163,
+    "readTime": "1 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-250",
+    "title": "Reverse Shell Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-250.html",
+    "btn_label": "View Script",
+    "date": "2026-01-30",
+    "tags": [
+      "scanner",
+      "python",
+      "tool",
+      "c",
+      "parser",
+      "powershell"
+    ],
+    "image": "/img/script-reverse-shell-generator-250.png",
+    "words": 278,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-988",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-988.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-30",
+    "tags": [
+      "exploit-development",
+      "format-string",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 444,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-707",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-707.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-29",
+    "tags": [
+      "malware",
+      "linux",
+      "oscp"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-707.png",
+    "words": 247,
+    "readTime": "2 min"
+  }
+]

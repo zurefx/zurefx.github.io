@@ -1,0 +1,237 @@
+[
+  {
+    "id": "note-web-application-penetration-testing-meth-576",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-576.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-20",
+    "tags": [
+      "privilege-escalation",
+      "enumeration",
+      "cheatsheet",
+      "persistence",
+      "networking",
+      "malware"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-576.png",
+    "words": 671,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-vulnnet-471",
+    "title": "TryHackMe — Vulnnet (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Vulnnet. AS-REP Roasting and SeDebugPrivilege to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-vulnnet-471.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-19",
+    "tags": [
+      "offsec",
+      "hard",
+      "medium",
+      "linux",
+      "tryhackme",
+      "pwntilldawn",
+      "forensics"
+    ],
+    "image": "/img/htb-vulnnet-471.png",
+    "words": 634,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-passage-531",
+    "title": "OffSec Proving Grounds — Passage (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Passage. AlwaysInstallElevated and Golden Ticket to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-passage-531.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-19",
+    "tags": [
+      "active-directory",
+      "medium",
+      "pwntilldawn",
+      "easy",
+      "windows"
+    ],
+    "image": "/img/htb-passage-531.png",
+    "words": 617,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-791",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-791.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-18",
+    "tags": [
+      "dfir",
+      "networking",
+      "windows",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-791.png",
+    "words": 360,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-322",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-322.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-18",
+    "tags": [
+      "linux",
+      "networking",
+      "malware",
+      "windows",
+      "oscp",
+      "lateral-movement"
+    ],
+    "image": "/img/note-cryptography-fundamentals-322.png",
+    "words": 615,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-brainstorm-148",
+    "title": "VulnHub — Brainstorm (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Brainstorm. Pass the Ticket and SeImpersonatePrivilege to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-brainstorm-148.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-18",
+    "tags": [
+      "ctf",
+      "hard",
+      "web",
+      "forensics",
+      "insane",
+      "offsec"
+    ],
+    "image": "/img/htb-brainstorm-148.png",
+    "words": 645,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-ophiuchi-309",
+    "title": "VulnHub — Ophiuchi (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Ophiuchi. DNS Rebinding and Docker Escape to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ophiuchi-309.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-17",
+    "tags": [
+      "forensics",
+      "medium",
+      "offsec",
+      "windows",
+      "hackthebox"
+    ],
+    "image": "/img/htb-ophiuchi-309.png",
+    "words": 601,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-monitors-263",
+    "title": "VulnHub — Monitors (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Monitors. XXE and Remote File Inclusion to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-monitors-263.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-17",
+    "tags": [
+      "hard",
+      "tryhackme",
+      "forensics",
+      "offsec",
+      "easy",
+      "windows",
+      "ctf"
+    ],
+    "image": "/img/htb-monitors-263.png",
+    "words": 597,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-185",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-185.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-16",
+    "tags": [
+      "blue-team",
+      "oscp",
+      "linux",
+      "malware",
+      "enumeration",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-185.png",
+    "words": 582,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-696",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-696.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-16",
+    "tags": [
+      "persistence",
+      "enumeration",
+      "cheatsheet"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-696.png",
+    "words": 427,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-solidstate-707",
+    "title": "HackTheBox — Solidstate (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Solidstate. XSS and DNS Rebinding to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-solidstate-707.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-16",
+    "tags": [
+      "pwntilldawn",
+      "insane",
+      "hard",
+      "linux",
+      "reversing",
+      "windows",
+      "tryhackme"
+    ],
+    "image": "/img/htb-solidstate-707.png",
+    "words": 593,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-791",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-791.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-15",
+    "tags": [
+      "persistence",
+      "dfir",
+      "blue-team",
+      "linux"
+    ],
+    "image": "/img/note-cryptography-fundamentals-791.png",
+    "words": 319,
+    "readTime": "2 min"
+  }
+]

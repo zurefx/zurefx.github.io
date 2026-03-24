@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ZureFX — convert.py  (v5)
+ZureFX — convert.py  (v6)
 =========================
 Uso  (desde la carpeta raíz del repo):
     python tools/convert.py <archivo.md>
@@ -12,14 +12,32 @@ Qué hace:
        writeups/  → Section: writeups
        research/  → Section: research   ← también Section: projects
        scripting/ → Section: scripting
-  3. Inserta el nuevo post en los JSONs planos:
-       data/posts.json        → feed global (todos los posts)
-       data/<section>.json    → feed específico de la sección
-       data/for-you.json      → últimos 9 posts (sliding window)
-       data/posts-recent.json → últimos 50 posts (sliding window)
-       data/tags.json         → índice de tags → posts
+  3. Actualiza los índices JSON paginados y modulares:
+
+       data/post/post-1.json        → página 1 (12 posts más recientes)
+       data/post/post-2.json        → página 2 (siguientes 12)
+       ...
+       data/posts-index.json        → metadatos de paginación
+       data/tags/index.json         → { tag: count } para todos los tags
+       data/tags/tag-<slug>.json    → posts que tienen ese tag
+
+       (legacy, ventanas deslizantes)
+       data/for-you.json            → últimos 9 posts
+       data/posts-recent.json       → últimos 50 posts
+
   4. Inyecta la entrada <url> en sitemap.xml justo antes de </urlset>
   5. Imágenes del markdown renombradas a img01.png, img02.png… con URL completa
+
+Notas sobre paginación
+----------------------
+- Posts ordenados por fecha DESC (el más nuevo en post-1.json).
+- Cada archivo de página contiene exactamente POSTS_PER_PAGE entradas (salvo
+  la última página, que puede contener menos).
+- posts-index.json guarda total_posts, posts_per_page y total_pages para que
+  el frontend pueda construir los controles de paginación sin cargar datos.
+- Las carpetas data/post/ y data/tags/ se crean automáticamente si no existen.
+- Cada rebuild regenera todos los archivos de página y de tag desde cero
+  (usando el maestro data/posts.json como fuente de verdad).
 """
 
 import sys, re, math, json, yaml, markdown
@@ -30,10 +48,16 @@ from datetime import datetime
 # ══════════════════════════════════════════════════════════════════════════════
 #  CONFIG
 # ══════════════════════════════════════════════════════════════════════════════
-DATA_DIR          = Path("data")
-SITEMAP_FILE      = Path("sitemap.xml")
-FOR_YOU_LIMIT     = 9
-POSTS_RECENT_LIMIT = 50
+DATA_DIR            = Path("data")
+POST_PAGES_DIR      = DATA_DIR / "post"       # data/post/post-1.json …
+TAGS_DIR            = DATA_DIR / "tags"        # data/tags/tag-ctf.json …
+POSTS_INDEX_FILE    = DATA_DIR / "posts-index.json"
+TAGS_INDEX_FILE     = TAGS_DIR / "index.json"
+SITEMAP_FILE        = Path("sitemap.xml")
+
+POSTS_PER_PAGE      = 12        # entradas por archivo de página
+FOR_YOU_LIMIT       = 9         # ventana deslizante "for you"
+POSTS_RECENT_LIMIT  = 50        # ventana deslizante "recent"
 
 SECTION_FOLDER = {
     "notes":     "notes",
@@ -77,8 +101,8 @@ def calculate_stats(md_text: str) -> tuple[int, str]:
     clean = re.sub(r'\*{1,3}(.+?)\*{1,3}', r'\1', clean)
     clean = re.sub(r'_{1,2}(.+?)_{1,2}', r'\1', clean)
     clean = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', clean)
-    clean = re.sub(r'!\[\[[^\]]*\]\]', '', clean)          # Obsidian wikilinks
-    clean = re.sub(r'!\[[^\]]*\]\([^\)]*\)', '', clean)   # Markdown estándar
+    clean = re.sub(r'!\[\[[^\]]*\]\]', '', clean)
+    clean = re.sub(r'!\[[^\]]*\]\([^\)]*\)', '', clean)
     clean = re.sub(r'^\|[-| :]+\|$', '', clean, flags=re.MULTILINE)
     clean = re.sub(r'\|', ' ', clean)
     clean = re.sub(r'^>\s*', '', clean, flags=re.MULTILINE)
@@ -109,22 +133,13 @@ def parse_features(raw: str) -> list[str]:
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  IMAGES  —  renombrar a imgNN.ext + expandir URLs en HTML
-#  Soporta dos sintaxis:
-#    • Markdown estándar  : ![alt](ruta.png)  o  ![alt](__ruta.png__)
-#    • Obsidian wikilink  : ![[ruta.png]]
 # ══════════════════════════════════════════════════════════════════════════════
 def normalize_images_in_md(md_text: str, url_images: str) -> tuple[str, dict]:
-    """
-    Convierte toda imagen local a su URL absoluta final (url_images/imgNN.ext).
-    Las imágenes ya absolutas (http/https) se dejan sin tocar.
-    Retorna (md_modificado, mapping {ruta_original: nombre_secuencial}).
-    """
     counter  = [0]
     mapping  = {}
     base_url = url_images.rstrip("/") if url_images else ""
 
     def _seq(src_raw: str) -> str:
-        """Asigna (o recupera) el nombre secuencial para una ruta local."""
         if src_raw not in mapping:
             counter[0] += 1
             ext = Path(src_raw).suffix or ".png"
@@ -134,14 +149,11 @@ def normalize_images_in_md(md_text: str, url_images: str) -> tuple[str, dict]:
     def _final_url(seq_name: str) -> str:
         return f"{base_url}/{seq_name}" if base_url else seq_name
 
-    # ── 1. Obsidian wikilinks: ![[filename.png]] o ![[path/to/img.jpg]]
-    #       Se convierten a <img> directamente (sin envoltura en <p>)
     obsidian_pat = re.compile(r'!\[\[([^\]]+?)\]\]')
 
     def obsidian_replacer(m):
         src_raw = m.group(1).strip()
         if src_raw.startswith(("http://", "https://")):
-            # wikilink externo: convertir a markdown estándar con alt vacío
             return f"![]({src_raw})"
         seq_name  = _seq(src_raw)
         final_src = _final_url(seq_name)
@@ -149,28 +161,23 @@ def normalize_images_in_md(md_text: str, url_images: str) -> tuple[str, dict]:
 
     md_text = obsidian_pat.sub(obsidian_replacer, md_text)
 
-    # ── 2. Markdown estándar: ![alt](ruta)  /  ![alt](__ruta__)
     std_pat = re.compile(r'!\[([^\]]*)\]\((__)?([^)]+?)(__)?(\s+"[^"]*")?\)')
 
     def std_replacer(m):
         alt        = m.group(1)
         src_raw    = m.group(3).strip()
         title_part = m.group(5) or ""
-
         if src_raw.startswith(("http://", "https://")):
             return m.group(0)
-
         seq_name  = _seq(src_raw)
         final_src = _final_url(seq_name)
         return f"![{alt}]({final_src}{title_part})"
 
     md_text = std_pat.sub(std_replacer, md_text)
-
     return md_text, mapping
 
 
 def expand_image_urls_in_html(html: str, base_url: str) -> str:
-    """Expande cualquier src relativo que quede en el HTML generado."""
     base_url = base_url.rstrip("/")
 
     def replacer(m):
@@ -206,17 +213,12 @@ def md_to_body(md_text: str) -> str:
         r'<pre><code>\1</code></pre>',
         html, flags=re.DOTALL,
     )
-
-    # ── Quitar el <p> que python-markdown mete alrededor de <img> ────────────
-    # Convierte <p><img .../></p>  →  <img .../>
-    # También maneja <p><img .../>\n</p> y similares
     html = re.sub(
         r'<p>\s*(<img\s[^>]+>)\s*</p>',
         r'\1',
         html,
         flags=re.DOTALL,
     )
-
     return html
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -539,7 +541,7 @@ def build_json_entry(meta: dict, words: int, read_time: str) -> dict:
     return obj
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  FLAT JSON MANAGER
+#  FLAT JSON HELPERS  (used by legacy sliding-window files)
 # ══════════════════════════════════════════════════════════════════════════════
 def read_json(path: Path) -> list[dict]:
     """Lee un JSON array de disco. Retorna [] si no existe o está corrupto."""
@@ -572,10 +574,7 @@ def upsert_front(data: list[dict], entry: dict) -> tuple[list[dict], str]:
     return data, ("updated" if existed else "inserted")
 
 def update_json_file(json_path: Path, new_entry: dict) -> str:
-    """
-    Upsert al inicio del array JSON. Crea el archivo si no existe.
-    Retorna 'created', 'updated' o 'inserted'.
-    """
+    """Upsert al inicio del array JSON. Retorna 'created', 'updated' o 'inserted'."""
     DATA_DIR.mkdir(exist_ok=True)
     was_new  = not json_path.exists()
     existing = read_json(json_path)
@@ -583,10 +582,12 @@ def update_json_file(json_path: Path, new_entry: dict) -> str:
     write_json(json_path, data)
     return "created" if was_new else status
 
+# ══════════════════════════════════════════════════════════════════════════════
+#  LEGACY SLIDING-WINDOW FILES  (for-you.json, posts-recent.json)
+# These remain unchanged to preserve frontend compatibility.
+# ══════════════════════════════════════════════════════════════════════════════
 def update_for_you(new_entry: dict) -> None:
-    """
-    Mantiene data/for-you.json con los FOR_YOU_LIMIT posts más recientes.
-    """
+    """Mantiene data/for-you.json con los FOR_YOU_LIMIT posts más recientes."""
     path = DATA_DIR / "for-you.json"
     DATA_DIR.mkdir(exist_ok=True)
     data = read_json(path)
@@ -596,10 +597,7 @@ def update_for_you(new_entry: dict) -> None:
     print(f"   ✅ for-you.json     → {len(data)}/{FOR_YOU_LIMIT} posts")
 
 def update_posts_recent(new_entry: dict) -> None:
-    """
-    Mantiene data/posts-recent.json con los POSTS_RECENT_LIMIT posts más recientes.
-    Sliding window: upsert por id al frente, recorta si supera el límite.
-    """
+    """Mantiene data/posts-recent.json con los POSTS_RECENT_LIMIT posts más recientes."""
     path = DATA_DIR / "posts-recent.json"
     DATA_DIR.mkdir(exist_ok=True)
     data = read_json(path)
@@ -608,82 +606,222 @@ def update_posts_recent(new_entry: dict) -> None:
     write_json(path, data)
     print(f"   ✅ posts-recent.json → {len(data)}/{POSTS_RECENT_LIMIT} posts")
 
-def update_tags_json(new_entry: dict) -> None:
-    """
-    Mantiene data/tags.json como un objeto indexado por tag:
+# ══════════════════════════════════════════════════════════════════════════════
+#  PAGINATED POST FILES  (data/post/post-N.json)
+#
+#  Strategy
+#  --------
+#  1. Read the full master list from data/posts.json (source of truth).
+#  2. Upsert the new entry at its correct position (remove old copy, prepend).
+#  3. Sort the full list by date DESC so the newest posts always land in
+#     the lowest-numbered page files.
+#  4. Split the sorted list into chunks of POSTS_PER_PAGE entries.
+#  5. Write each chunk to data/post/post-{n}.json, overwriting previous files.
+#  6. Write the lightweight index to data/posts-index.json.
+#
+#  This guarantees:
+#  • No page file ever exceeds POSTS_PER_PAGE entries.
+#  • Adding a new post may shift entries across pages, but all files are
+#    regenerated cleanly so there is never stale data.
+# ══════════════════════════════════════════════════════════════════════════════
+def _sort_key(post: dict) -> str:
+    """Return a comparable date string; empty dates sort to the end."""
+    return post.get("date", "") or ""
 
-    {
-      "ctf": [
-        { "id": "post-id", "title": "...", "permalink": "...", "date": "...", "section": "..." },
-        ...
-      ],
-      "linux": [ ... ],
-      ...
+def rebuild_paginated_posts(all_posts: list[dict]) -> None:
+    """
+    Regenerate all data/post/post-N.json files from the full post list.
+
+    Parameters
+    ----------
+    all_posts : list of post dicts, already sorted date DESC.
+    """
+    POST_PAGES_DIR.mkdir(parents=True, exist_ok=True)
+
+    # ── Chunk the sorted list ────────────────────────────────────────────────
+    # Example: 25 posts → chunks of 12, 12, 1 → post-1.json, post-2.json, post-3.json
+    total      = len(all_posts)
+    per_page   = POSTS_PER_PAGE
+    total_pages = math.ceil(total / per_page) if total else 1
+
+    for page_num in range(1, total_pages + 1):
+        start = (page_num - 1) * per_page
+        end   = start + per_page
+        chunk = all_posts[start:end]
+
+        page_file = POST_PAGES_DIR / f"post-{page_num}.json"
+        write_json(page_file, chunk)
+
+    # ── Remove stale page files that no longer have data ────────────────────
+    # If posts were deleted externally, old post-N.json files could linger.
+    existing_pages = sorted(POST_PAGES_DIR.glob("post-*.json"))
+    for f in existing_pages:
+        m = re.match(r"post-(\d+)\.json", f.name)
+        if m and int(m.group(1)) > total_pages:
+            f.unlink()
+            print(f"   🗑️  Removed stale {f.name}")
+
+    print(f"   ✅ post pages       → {total_pages} files  ({total} total posts, {per_page}/page)")
+
+def rebuild_posts_index(all_posts: list[dict]) -> None:
+    """
+    Write data/posts-index.json with pagination metadata.
+
+    Shape:
+        {
+          "total_posts":   240,
+          "posts_per_page": 12,
+          "total_pages":   20
+        }
+
+    The frontend reads this first to know how many page files to request.
+    """
+    total      = len(all_posts)
+    per_page   = POSTS_PER_PAGE
+    total_pages = math.ceil(total / per_page) if total else 1
+
+    index = {
+        "total_posts":    total,
+        "posts_per_page": per_page,
+        "total_pages":    total_pages,
     }
-
-    Cada tag tiene su array de posts (sin duplicados por id, más reciente al frente).
-    """
-    path = DATA_DIR / "tags.json"
     DATA_DIR.mkdir(exist_ok=True)
-    tags_index = read_json_obj(path)
+    write_json(POSTS_INDEX_FILE, index)
+    print(f"   ✅ posts-index.json → total={total}, pages={total_pages}")
 
-    # resumen mínimo que necesita la página de tags
-    post_stub = {
-        "id":        new_entry["id"],
-        "title":     new_entry["title"],
-        "permalink": new_entry["permalink"],
-        "date":      new_entry["date"],
-        "section":   new_entry["section"],
-        "image":     new_entry.get("image", ""),
-        "readTime":  new_entry.get("readTime", ""),
-    }
+# ══════════════════════════════════════════════════════════════════════════════
+#  MODULAR TAG FILES  (data/tags/index.json + data/tags/tag-<slug>.json)
+#
+#  Strategy
+#  --------
+#  1. Scan all_posts to build a dict: { tag_slug: [post_stub, ...] }
+#  2. Write data/tags/index.json  → { tag_slug: count }
+#  3. For each tag write data/tags/tag-<slug>.json → [post_stub, ...]
+#     Each stub contains only the fields needed for tag listings:
+#     title, date, section, permalink.  (image and readTime are optional extras.)
+#  4. Remove any tag file whose tag no longer exists in the corpus.
+#
+#  This replaces the monolithic data/tags.json.  Tag files are lightweight
+#  (<30 KB for a typical tag with 50 posts) and loaded on demand.
+# ══════════════════════════════════════════════════════════════════════════════
+def _tag_filename(tag: str) -> str:
+    """Convert a tag slug into its JSON filename, e.g. 'ctf' → 'tag-ctf.json'."""
+    return f"tag-{tag}.json"
 
-    for tag in new_entry.get("tags", []):
-        tag = tag.strip().lower().replace(" ", "-")
-        if not tag:
-            continue
-        posts = tags_index.get(tag, [])
-        # eliminar entrada previa con el mismo id
-        posts = [p for p in posts if p.get("id") != post_stub["id"]]
-        posts.insert(0, post_stub)
-        tags_index[tag] = posts
+def rebuild_tag_files(all_posts: list[dict]) -> None:
+    """
+    Regenerate data/tags/index.json and data/tags/tag-<slug>.json for every
+    tag found in all_posts.  Stale tag files are deleted.
+    """
+    TAGS_DIR.mkdir(parents=True, exist_ok=True)
 
-    # ordenar las claves alfabéticamente para legibilidad
-    tags_index = dict(sorted(tags_index.items()))
-    write_json(path, tags_index)
+    # ── Build tag → posts mapping ────────────────────────────────────────────
+    tag_map: dict[str, list[dict]] = {}
 
-    tag_count = len(new_entry.get("tags", []))
-    total_tags = len(tags_index)
-    print(f"   ✅ tags.json        → {tag_count} tags añadidos  ({total_tags} tags totales)")
+    for post in all_posts:          # all_posts is already sorted date DESC
+        stub = {
+            "title":     post.get("title",     ""),
+            "date":      post.get("date",      ""),
+            "section":   post.get("section",   ""),
+            "permalink": post.get("permalink", ""),
+            # Optional extras useful for tag-listing cards:
+            "image":     post.get("image",    ""),
+            "readTime":  post.get("readTime", ""),
+        }
+        for tag in post.get("tags", []):
+            tag = tag.strip().lower().replace(" ", "-")
+            if not tag:
+                continue
+            tag_map.setdefault(tag, []).append(stub)
 
+    # ── Write one file per tag ───────────────────────────────────────────────
+    active_filenames: set[str] = set()
+    for tag, stubs in sorted(tag_map.items()):
+        fname = _tag_filename(tag)
+        active_filenames.add(fname)
+        write_json(TAGS_DIR / fname, stubs)
+
+    # ── Write the lightweight index { tag: count } ───────────────────────────
+    tag_index = {tag: len(stubs) for tag, stubs in sorted(tag_map.items())}
+    write_json(TAGS_INDEX_FILE, tag_index)
+
+    # ── Remove stale tag files ───────────────────────────────────────────────
+    for existing in TAGS_DIR.glob("tag-*.json"):
+        if existing.name not in active_filenames:
+            existing.unlink()
+            print(f"   🗑️  Removed stale {existing.name}")
+
+    print(f"   ✅ tags/index.json  → {len(tag_index)} unique tags")
+    print(f"   ✅ tags/tag-*.json  → {len(active_filenames)} tag files written")
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  MASTER POSTS.JSON  (kept as source of truth, still written)
+# ══════════════════════════════════════════════════════════════════════════════
+def update_master_posts_json(new_entry: dict) -> list[dict]:
+    """
+    Upsert new_entry into data/posts.json and return the full sorted list.
+    This file is the single source of truth used to rebuild all page/tag files.
+    """
+    master_path = DATA_DIR / "posts.json"
+    DATA_DIR.mkdir(exist_ok=True)
+    existing = read_json(master_path)
+    data, status = upsert_front(existing, new_entry)
+
+    # Sort the entire list date DESC so page splits are deterministic
+    data = sorted(data, key=_sort_key, reverse=True)
+    write_json(master_path, data)
+
+    STATUS_ICON = {"created": "🆕", "updated": "♻️ ", "inserted": "✅"}
+    icon = STATUS_ICON.get(status, "  ")
+    print(f"   {icon} {status:8s} → data/posts.json   ({len(data)} posts)")
+    return data
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  SECTION JSON FILES  (data/notes.json, data/writeups.json, …)
+#  These are kept unchanged for frontend compatibility.
+# ══════════════════════════════════════════════════════════════════════════════
+def update_section_json(new_entry: dict, section: str) -> None:
+    section_file = SECTION_JSON.get(section)
+    if not section_file:
+        return
+    sp = DATA_DIR / section_file
+    status = update_json_file(sp, new_entry)
+    STATUS_ICON = {"created": "🆕", "updated": "♻️ ", "inserted": "✅"}
+    icon  = STATUS_ICON.get(status, "  ")
+    count = len(read_json(sp))
+    print(f"   {icon} {status:8s} → data/{section_file.ljust(18)} ({count} posts)")
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  ORCHESTRATOR  (replaces the old write_to_jsons + update_tags_json)
+# ══════════════════════════════════════════════════════════════════════════════
 def write_to_jsons(entry: dict, section: str) -> None:
     """
-    Escribe la entrada en:
-      - data/posts.json          (feed global)
-      - data/<section>.json      (feed específico de la sección)
-      - data/for-you.json        (sliding window de los últimos FOR_YOU_LIMIT)
-      - data/posts-recent.json   (sliding window de los últimos POSTS_RECENT_LIMIT)
-      - data/tags.json           (índice tag → posts)
+    Full JSON pipeline for one new/updated post:
+
+    1. Upsert into data/posts.json  (master, source of truth)
+    2. Rebuild paginated page files  data/post/post-N.json
+    3. Rebuild posts index           data/posts-index.json
+    4. Rebuild tag files             data/tags/tag-<slug>.json
+    5. Rebuild tags index            data/tags/index.json
+    6. Update section JSON           data/<section>.json  (legacy compat)
+    7. Update sliding windows        data/for-you.json / data/posts-recent.json
     """
-    STATUS_ICON = {"created": "🆕", "updated": "♻️ ", "inserted": "✅"}
+    # Step 1 — master list (sorted date DESC, returned for downstream use)
+    all_posts = update_master_posts_json(entry)
 
-    targets: list[Path] = [DATA_DIR / "posts.json"]
-    section_file = SECTION_JSON.get(section)
-    if section_file:
-        sp = DATA_DIR / section_file
-        if sp not in targets:
-            targets.append(sp)
+    # Step 2 & 3 — paginated pages + index
+    rebuild_paginated_posts(all_posts)
+    rebuild_posts_index(all_posts)
 
-    for path in targets:
-        status = update_json_file(path, entry)
-        icon   = STATUS_ICON.get(status, "  ")
-        count  = len(read_json(path))
-        label  = path.name.ljust(18)
-        print(f"   {icon} {status:8s} → data/{label}  ({count} posts)")
+    # Step 4 & 5 — per-tag files + tag index
+    rebuild_tag_files(all_posts)
 
+    # Step 6 — section-specific JSON (frontend compat)
+    update_section_json(entry, section)
+
+    # Step 7 — legacy sliding-window files
     update_for_you(entry)
     update_posts_recent(entry)
-    update_tags_json(entry)
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  SITEMAP
@@ -787,7 +925,6 @@ def main() -> None:
 
     # ── Build HTML ───────────────────────────────────────────────────────────
     body = md_to_body(md_content)
-    # Segundo pase: por si quedó algún src relativo en el HTML (p.ej. tablas HTML inline)
     if url_images:
         body = expand_image_urls_in_html(body, url_images)
 
@@ -797,7 +934,7 @@ def main() -> None:
     out_path.write_text(build_html(meta, body, words, read_time), encoding="utf-8")
     print(f"   ✅ HTML  → {out_path}")
 
-    # ── JSON (flat files + sliding windows + tags) ───────────────────────────
+    # ── JSON pipeline ────────────────────────────────────────────────────────
     entry = build_json_entry(meta, words, read_time)
     write_to_jsons(entry, section)
 

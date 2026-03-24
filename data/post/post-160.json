@@ -1,0 +1,231 @@
+[
+  {
+    "id": "note-common-ctf-tricks-and-techniques-833",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-833.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-16",
+    "tags": [
+      "linux",
+      "privilege-escalation",
+      "cheatsheet",
+      "dfir"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-833.png",
+    "words": 396,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-pit-233",
+    "title": "TryHackMe — Pit (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Pit. CORS Misconfiguration and Pass the Hash to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-pit-233.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-16",
+    "tags": [
+      "forensics",
+      "hackthebox",
+      "pwntilldawn",
+      "insane",
+      "linux"
+    ],
+    "image": "/img/htb-pit-233.png",
+    "words": 617,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-lame-906",
+    "title": "HackTheBox — Lame (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Lame. CORS Misconfiguration and Unconstrained Delegation to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-lame-906.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-16",
+    "tags": [
+      "pwntilldawn",
+      "offsec",
+      "hard",
+      "web",
+      "ctf"
+    ],
+    "image": "/img/htb-lame-906.png",
+    "words": 607,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-dynstr-386",
+    "title": "HackTheBox — Dynstr (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Dynstr. Local File Inclusion and Cron Job to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-dynstr-386.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-16",
+    "tags": [
+      "ctf",
+      "hackthebox",
+      "reversing",
+      "tryhackme",
+      "windows"
+    ],
+    "image": "/img/htb-dynstr-386.png",
+    "words": 573,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-delivery-381",
+    "title": "VulnHub — Delivery (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Delivery. Silver Ticket and AS-REP Roasting to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-delivery-381.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-16",
+    "tags": [
+      "ctf",
+      "forensics",
+      "pwntilldawn",
+      "web"
+    ],
+    "image": "/img/htb-delivery-381.png",
+    "words": 649,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-849",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-849.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-15",
+    "tags": [
+      "dfir",
+      "privilege-escalation",
+      "blue-team"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-849.png",
+    "words": 211,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-bolt-183",
+    "title": "VulnHub — Bolt (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Bolt. Docker Escape and Sudo Misconfiguration to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-bolt-183.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-15",
+    "tags": [
+      "hard",
+      "medium",
+      "active-directory",
+      "web",
+      "ctf",
+      "hackthebox"
+    ],
+    "image": "/img/htb-bolt-183.png",
+    "words": 573,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-122",
+    "title": "Network Packet Sniffer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-122.html",
+    "btn_label": "View Script",
+    "date": "2024-02-14",
+    "tags": [
+      "tool",
+      "powershell",
+      "parser",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-network-packet-sniffer-122.png",
+    "words": 286,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-183",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-183.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-14",
+    "tags": [
+      "networking",
+      "blue-team",
+      "dfir",
+      "lateral-movement",
+      "privilege-escalation",
+      "linux"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-183.png",
+    "words": 640,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-monitors-693",
+    "title": "OffSec Proving Grounds — Monitors (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Monitors. LAPS Abuse and Insecure Deserialization to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-monitors-693.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-14",
+    "tags": [
+      "pwntilldawn",
+      "hackthebox",
+      "reversing",
+      "windows",
+      "web",
+      "active-directory"
+    ],
+    "image": "/img/htb-monitors-693.png",
+    "words": 561,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-699",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-699.html",
+    "btn_label": "View Script",
+    "date": "2024-02-12",
+    "tags": [
+      "go",
+      "automation",
+      "tool",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-699.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-105",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-105.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-12",
+    "tags": [
+      "oscp",
+      "dfir",
+      "lateral-movement",
+      "persistence"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-105.png",
+    "words": 225,
+    "readTime": "2 min"
+  }
+]

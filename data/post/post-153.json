@@ -1,0 +1,236 @@
+[
+  {
+    "id": "htb-irked-867",
+    "title": "HackTheBox — Irked (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Irked. SSTI and NFS No Root Squash to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-irked-867.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-20",
+    "tags": [
+      "forensics",
+      "linux",
+      "easy",
+      "web",
+      "windows"
+    ],
+    "image": "/img/htb-irked-867.png",
+    "words": 575,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-reverse-shell-generator-993",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-993.html",
+    "btn_label": "View Script",
+    "date": "2024-03-18",
+    "tags": [
+      "script",
+      "rust",
+      "powershell",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-reverse-shell-generator-993.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-292",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-292.html",
+    "btn_label": "View Script",
+    "date": "2024-03-18",
+    "tags": [
+      "parser",
+      "tool",
+      "bash",
+      "go",
+      "script",
+      "automation"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-292.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-315",
+    "title": "Automated Port Scanner — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-315.html",
+    "btn_label": "View Script",
+    "date": "2024-03-18",
+    "tags": [
+      "rust",
+      "tool",
+      "script",
+      "automation",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-automated-port-scanner-315.png",
+    "words": 295,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-red-team-infrastructure-design-213",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-213.html",
+    "btn_label": "Read Research",
+    "date": "2024-03-17",
+    "tags": [
+      "aslr-bypass",
+      "buffer-overflow",
+      "format-string",
+      "malware-analysis",
+      "zero-day"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-213.png",
+    "words": 461,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-779",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-779.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-17",
+    "tags": [
+      "privilege-escalation",
+      "malware",
+      "windows",
+      "oscp",
+      "enumeration",
+      "lateral-movement"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-779.png",
+    "words": 498,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-bolt-475",
+    "title": "OffSec Proving Grounds — Bolt (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Bolt. CSRF and AlwaysInstallElevated to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-bolt-475.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-17",
+    "tags": [
+      "pwntilldawn",
+      "offsec",
+      "ctf",
+      "tryhackme",
+      "reversing",
+      "windows",
+      "medium"
+    ],
+    "image": "/img/htb-bolt-475.png",
+    "words": 665,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-798",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-798.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-16",
+    "tags": [
+      "enumeration",
+      "oscp",
+      "windows",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-798.png",
+    "words": 630,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-793",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-793.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-15",
+    "tags": [
+      "linux",
+      "lateral-movement",
+      "dfir",
+      "networking"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-793.png",
+    "words": 556,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-722",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-722.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-15",
+    "tags": [
+      "dfir",
+      "oscp",
+      "enumeration",
+      "malware",
+      "lateral-movement",
+      "networking"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-722.png",
+    "words": 300,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-writer-498",
+    "title": "VulnHub — Writer (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Writer. NTLM Relay and Pass the Ticket to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-writer-498.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-15",
+    "tags": [
+      "insane",
+      "active-directory",
+      "forensics",
+      "reversing",
+      "hard",
+      "ctf",
+      "web"
+    ],
+    "image": "/img/htb-writer-498.png",
+    "words": 580,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-nibbles-483",
+    "title": "VulnHub — Nibbles (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Nibbles. SQL Injection and Remote File Inclusion to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-nibbles-483.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-15",
+    "tags": [
+      "ctf",
+      "reversing",
+      "active-directory",
+      "insane"
+    ],
+    "image": "/img/htb-nibbles-483.png",
+    "words": 601,
+    "readTime": "4 min"
+  }
+]

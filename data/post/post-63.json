@@ -1,0 +1,228 @@
+[
+  {
+    "id": "note-powershell-for-red-teamers-317",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-317.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-02",
+    "tags": [
+      "persistence",
+      "oscp",
+      "cheatsheet",
+      "enumeration",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-317.png",
+    "words": 362,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-318",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-318.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-02",
+    "tags": [
+      "cheatsheet",
+      "malware",
+      "dfir",
+      "enumeration",
+      "lateral-movement"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-318.png",
+    "words": 461,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-convertmyfund-597",
+    "title": "TryHackMe — Convertmyfund (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Convertmyfund. Local File Inclusion and Remote Code Execution to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-convertmyfund-597.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-02",
+    "tags": [
+      "offsec",
+      "forensics",
+      "tryhackme",
+      "linux",
+      "ctf",
+      "reversing"
+    ],
+    "image": "/img/htb-convertmyfund-597.png",
+    "words": 648,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-955",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-955.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-01",
+    "tags": [
+      "blue-team",
+      "malware",
+      "dfir",
+      "cheatsheet",
+      "networking",
+      "persistence"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-955.png",
+    "words": 616,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-245",
+    "title": "Web Crawler and Spider — Python",
+    "section": "scripting",
+    "description": "A Python script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-245.html",
+    "btn_label": "View Script",
+    "date": "2025-05-31",
+    "tags": [
+      "python",
+      "rust",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-245.png",
+    "words": 351,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-649",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-649.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-31",
+    "tags": [
+      "cheatsheet",
+      "blue-team",
+      "networking"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-649.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-passage-767",
+    "title": "HackTheBox — Passage (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Passage. DLL Hijacking and Docker Escape to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-passage-767.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-31",
+    "tags": [
+      "linux",
+      "medium",
+      "offsec",
+      "windows",
+      "web"
+    ],
+    "image": "/img/htb-passage-767.png",
+    "words": 610,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-924",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-924.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-30",
+    "tags": [
+      "linux",
+      "enumeration",
+      "lateral-movement",
+      "networking"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-924.png",
+    "words": 664,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-ophiuchi-781",
+    "title": "TryHackMe — Ophiuchi (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Ophiuchi. AlwaysInstallElevated and DLL Hijacking to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-ophiuchi-781.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-30",
+    "tags": [
+      "linux",
+      "reversing",
+      "hackthebox",
+      "ctf",
+      "forensics",
+      "insane",
+      "medium"
+    ],
+    "image": "/img/htb-ophiuchi-781.png",
+    "words": 548,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-buff-381",
+    "title": "OffSec Proving Grounds — Buff (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Buff. GPP Password and SeImpersonatePrivilege to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-buff-381.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-29",
+    "tags": [
+      "linux",
+      "offsec",
+      "easy",
+      "ctf"
+    ],
+    "image": "/img/htb-buff-381.png",
+    "words": 700,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-writer-264",
+    "title": "VulnHub — Writer (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Writer. Silver Ticket and XXE to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-writer-264.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-28",
+    "tags": [
+      "reversing",
+      "easy",
+      "web",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-writer-264.png",
+    "words": 621,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-network-packet-sniffer-777",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-777.html",
+    "btn_label": "View Script",
+    "date": "2025-05-27",
+    "tags": [
+      "automation",
+      "python",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-777.png",
+    "words": 292,
+    "readTime": "2 min"
+  }
+]

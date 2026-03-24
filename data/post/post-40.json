@@ -1,0 +1,233 @@
+[
+  {
+    "id": "htb-pit-745",
+    "title": "HackTheBox — Pit (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Pit. Remote File Inclusion and Cron Job to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-pit-745.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-14",
+    "tags": [
+      "ctf",
+      "tryhackme",
+      "pwntilldawn",
+      "web"
+    ],
+    "image": "/img/htb-pit-745.png",
+    "words": 561,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-granny-514",
+    "title": "PwnTillDawn — Granny (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Granny. Subdomain Takeover and Insecure Deserialization to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-granny-514.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-13",
+    "tags": [
+      "hard",
+      "insane",
+      "forensics"
+    ],
+    "image": "/img/htb-granny-514.png",
+    "words": 614,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-beep-557",
+    "title": "OffSec Proving Grounds — Beep (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Beep. LAPS Abuse and Subdomain Takeover to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-beep-557.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-13",
+    "tags": [
+      "hard",
+      "ctf",
+      "linux",
+      "reversing",
+      "insane",
+      "offsec",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-beep-557.png",
+    "words": 603,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-admirer-911",
+    "title": "HackTheBox — Admirer (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Admirer. SeDebugPrivilege and LXD Privilege Escalation to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-admirer-911.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-13",
+    "tags": [
+      "hard",
+      "pwntilldawn",
+      "hackthebox",
+      "forensics",
+      "easy",
+      "windows"
+    ],
+    "image": "/img/htb-admirer-911.png",
+    "words": 641,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-hash-identifier-and-cracker-wrapper-466",
+    "title": "Hash Identifier and Cracker Wrapper",
+    "section": "projects",
+    "description": "Open source security project: Hash Identifier and Cracker Wrapper. Built for the community.",
+    "permalink": "/research/project-hash-identifier-and-cracker-wrapper-466.html",
+    "btn_label": "View Project",
+    "date": "2025-09-12",
+    "tags": [
+      "extension",
+      "security",
+      "cli",
+      "tool"
+    ],
+    "image": "/img/project-hash-identifier-and-cracker-wrapper-466.png",
+    "words": 209,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "evil-winrm",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-108",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-108.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-12",
+    "tags": [
+      "enumeration",
+      "networking",
+      "cheatsheet",
+      "lateral-movement",
+      "blue-team"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-108.png",
+    "words": 294,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-341",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-341.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-11",
+    "tags": [
+      "linux",
+      "privilege-escalation",
+      "cheatsheet"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-341.png",
+    "words": 441,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-api-security-testing-framework-128",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-128.html",
+    "btn_label": "View Project",
+    "date": "2025-09-10",
+    "tags": [
+      "open-source",
+      "automation",
+      "framework",
+      "extension"
+    ],
+    "image": "/img/project-api-security-testing-framework-128.png",
+    "words": 190,
+    "readTime": "1 min",
+    "features": [
+      "hydra",
+      "evil-winrm",
+      "nmap"
+    ]
+  },
+  {
+    "id": "htb-pikaboo-805",
+    "title": "PwnTillDawn — Pikaboo (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Pikaboo. Silver Ticket and NTLM Relay to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-pikaboo-805.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-10",
+    "tags": [
+      "linux",
+      "hackthebox",
+      "easy",
+      "hard",
+      "tryhackme"
+    ],
+    "image": "/img/htb-pikaboo-805.png",
+    "words": 636,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-660",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-660.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-09",
+    "tags": [
+      "persistence",
+      "blue-team",
+      "cheatsheet"
+    ],
+    "image": "/img/note-reverse-engineering-basics-660.png",
+    "words": 540,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-600",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-600.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-09",
+    "tags": [
+      "networking",
+      "windows",
+      "persistence",
+      "oscp"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-600.png",
+    "words": 481,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-startup-786",
+    "title": "HackTheBox — Startup (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Startup. IDOR and Resource-Based Constrained Delegation to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-startup-786.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-09",
+    "tags": [
+      "windows",
+      "insane",
+      "linux",
+      "web",
+      "active-directory"
+    ],
+    "image": "/img/htb-startup-786.png",
+    "words": 676,
+    "readTime": "4 min"
+  }
+]

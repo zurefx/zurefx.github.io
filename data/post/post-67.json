@@ -1,0 +1,241 @@
+[
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-480",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-480.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-16",
+    "tags": [
+      "kernel",
+      "format-string",
+      "buffer-overflow",
+      "heap-exploitation",
+      "shellcode",
+      "uaf"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-48.png",
+    "words": 439,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-log-parser-and-analyzer-547",
+    "title": "Log Parser and Analyzer",
+    "section": "projects",
+    "description": "Open source security project: Log Parser and Analyzer. Built for the community.",
+    "permalink": "/research/project-log-parser-and-analyzer-547.html",
+    "btn_label": "View Project",
+    "date": "2025-05-16",
+    "tags": [
+      "open-source",
+      "tool",
+      "plugin",
+      "library"
+    ],
+    "image": "/img/project-log-parser-and-analyzer-547.png",
+    "words": 206,
+    "readTime": "2 min",
+    "features": [
+      "hashcat",
+      "hydra",
+      "impacket"
+    ]
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-254",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-254.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-15",
+    "tags": [
+      "lateral-movement",
+      "malware",
+      "blue-team",
+      "windows",
+      "privilege-escalation",
+      "dfir"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-254.png",
+    "words": 723,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-incident-response-playbook-774",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-774.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-15",
+    "tags": [
+      "windows",
+      "oscp",
+      "cheatsheet",
+      "privilege-escalation",
+      "enumeration",
+      "persistence"
+    ],
+    "image": "/img/note-incident-response-playbook-774.png",
+    "words": 488,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-alfred-527",
+    "title": "OffSec Proving Grounds — Alfred (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Alfred. Unquoted Service Path and CSRF to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-alfred-527.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-15",
+    "tags": [
+      "tryhackme",
+      "hackthebox",
+      "windows",
+      "easy",
+      "ctf",
+      "hard"
+    ],
+    "image": "/img/htb-alfred-527.png",
+    "words": 622,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-log-parser-and-analyzer-722",
+    "title": "Log Parser and Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-722.html",
+    "btn_label": "View Script",
+    "date": "2025-05-14",
+    "tags": [
+      "tool",
+      "scanner",
+      "bash",
+      "automation",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-722.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-676",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-676.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-14",
+    "tags": [
+      "shellcode",
+      "exploit-development",
+      "buffer-overflow",
+      "malware-analysis",
+      "rop"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-676.png",
+    "words": 460,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-452",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-452.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-14",
+    "tags": [
+      "format-string",
+      "shellcode",
+      "uaf",
+      "rop"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-45.png",
+    "words": 473,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-cryptography-fundamentals-497",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-497.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-14",
+    "tags": [
+      "persistence",
+      "malware",
+      "networking",
+      "oscp",
+      "lateral-movement"
+    ],
+    "image": "/img/note-cryptography-fundamentals-497.png",
+    "words": 298,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-623",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-623.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-14",
+    "tags": [
+      "oscp",
+      "enumeration",
+      "blue-team",
+      "malware",
+      "persistence",
+      "networking"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-623.png",
+    "words": 521,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-omni-460",
+    "title": "HackTheBox — Omni (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Omni. XSS and Remote Code Execution to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-omni-460.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-14",
+    "tags": [
+      "pwntilldawn",
+      "web",
+      "windows",
+      "easy",
+      "reversing",
+      "active-directory",
+      "forensics"
+    ],
+    "image": "/img/htb-omni-460.png",
+    "words": 623,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-yara-rule-writing-619",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-619.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-13",
+    "tags": [
+      "persistence",
+      "privilege-escalation",
+      "networking"
+    ],
+    "image": "/img/note-yara-rule-writing-619.png",
+    "words": 292,
+    "readTime": "2 min"
+  }
+]

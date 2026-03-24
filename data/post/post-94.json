@@ -1,0 +1,233 @@
+[
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-637",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-637.html",
+    "btn_label": "Read Notes",
+    "date": "2025-01-08",
+    "tags": [
+      "windows",
+      "cheatsheet",
+      "oscp",
+      "enumeration",
+      "dfir",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-637.png",
+    "words": 523,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-354",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-354.html",
+    "btn_label": "Read Notes",
+    "date": "2025-01-07",
+    "tags": [
+      "oscp",
+      "privilege-escalation",
+      "lateral-movement",
+      "persistence",
+      "linux"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-354.png",
+    "words": 338,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-remote-747",
+    "title": "HackTheBox — Remote (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Remote. ACL Abuse and SSTI to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-remote-747.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-07",
+    "tags": [
+      "hackthebox",
+      "ctf",
+      "tryhackme"
+    ],
+    "image": "/img/htb-remote-747.png",
+    "words": 559,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-traverxec-829",
+    "title": "PwnTillDawn — Traverxec (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Traverxec. SSRF and DCSync to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-traverxec-829.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-06",
+    "tags": [
+      "linux",
+      "ctf",
+      "hard",
+      "medium",
+      "web"
+    ],
+    "image": "/img/htb-traverxec-829.png",
+    "words": 665,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-breadcrumbs-171",
+    "title": "VulnHub — Breadcrumbs (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Breadcrumbs. Pass the Hash and Unquoted Service Path to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-breadcrumbs-171.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-06",
+    "tags": [
+      "offsec",
+      "windows",
+      "hard"
+    ],
+    "image": "/img/htb-breadcrumbs-171.png",
+    "words": 573,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-nineveh-389",
+    "title": "HackTheBox — Nineveh (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Nineveh. Cron Job and SQL Injection to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-nineveh-389.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-05",
+    "tags": [
+      "linux",
+      "web",
+      "ctf",
+      "forensics",
+      "active-directory",
+      "pwntilldawn",
+      "hard"
+    ],
+    "image": "/img/htb-nineveh-389.png",
+    "words": 621,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-372",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-372.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-03",
+    "tags": [
+      "malware-analysis",
+      "shellcode",
+      "zero-day",
+      "exploit-development",
+      "uaf"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-372.png",
+    "words": 462,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-mindgames-758",
+    "title": "TryHackMe — Mindgames (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Mindgames. Local File Inclusion and SSTI to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-mindgames-758.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-01",
+    "tags": [
+      "web",
+      "offsec",
+      "active-directory",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-mindgames-758.png",
+    "words": 648,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-337",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-337.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-31",
+    "tags": [
+      "persistence",
+      "windows",
+      "oscp",
+      "lateral-movement"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-337.png",
+    "words": 408,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-lame-868",
+    "title": "OffSec Proving Grounds — Lame (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Lame. Subdomain Takeover and Command Injection to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-lame-868.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-31",
+    "tags": [
+      "hard",
+      "forensics",
+      "windows",
+      "medium",
+      "ctf",
+      "active-directory"
+    ],
+    "image": "/img/htb-lame-868.png",
+    "words": 691,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-jwt-token-analyzer-448",
+    "title": "JWT Token Analyzer",
+    "section": "projects",
+    "description": "Open source security project: JWT Token Analyzer. Built for the community.",
+    "permalink": "/research/project-jwt-token-analyzer-448.html",
+    "btn_label": "View Project",
+    "date": "2024-12-30",
+    "tags": [
+      "framework",
+      "extension",
+      "library"
+    ],
+    "image": "/img/project-jwt-token-analyzer-448.png",
+    "words": 204,
+    "readTime": "2 min",
+    "features": [
+      "evil-winrm",
+      "impacket",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-111",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-111.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-30",
+    "tags": [
+      "persistence",
+      "lateral-movement",
+      "dfir",
+      "blue-team",
+      "windows"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-111.png",
+    "words": 697,
+    "readTime": "4 min"
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "id": "htb-mindgames-927",
+    "title": "VulnHub — Mindgames (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Mindgames. Open Redirect and Constrained Delegation to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-mindgames-927.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-15",
+    "tags": [
+      "windows",
+      "offsec",
+      "medium",
+      "pwntilldawn",
+      "web"
+    ],
+    "image": "/img/htb-mindgames-927.png",
+    "words": 603,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-forge-569",
+    "title": "TryHackMe — Forge (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Forge. Command Injection and Pass the Ticket to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-forge-569.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-15",
+    "tags": [
+      "active-directory",
+      "insane",
+      "windows",
+      "forensics"
+    ],
+    "image": "/img/htb-forge-569.png",
+    "words": 559,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-deja-vu-829",
+    "title": "TryHackMe — Deja Vu (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Deja Vu. Constrained Delegation and Local File Inclusion to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-deja-vu-829.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-15",
+    "tags": [
+      "windows",
+      "reversing",
+      "tryhackme",
+      "hackthebox",
+      "active-directory",
+      "hard",
+      "insane"
+    ],
+    "image": "/img/htb-deja-vu-829.png",
+    "words": 698,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-bolt-391",
+    "title": "HackTheBox — Bolt (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Bolt. Pass the Ticket and Sudo Misconfiguration to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-bolt-391.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-15",
+    "tags": [
+      "reversing",
+      "web",
+      "forensics",
+      "easy",
+      "hackthebox"
+    ],
+    "image": "/img/htb-bolt-391.png",
+    "words": 653,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-arctic-968",
+    "title": "HackTheBox — Arctic (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Arctic. XXE and Pass the Ticket to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-arctic-968.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-15",
+    "tags": [
+      "web",
+      "hard",
+      "reversing",
+      "easy",
+      "medium",
+      "pwntilldawn",
+      "active-directory"
+    ],
+    "image": "/img/htb-arctic-968.png",
+    "words": 559,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-456",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-456.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-14",
+    "tags": [
+      "lateral-movement",
+      "persistence",
+      "networking",
+      "enumeration"
+    ],
+    "image": "/img/note-reverse-engineering-basics-456.png",
+    "words": 355,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-buff-792",
+    "title": "OffSec Proving Grounds — Buff (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Buff. Cron Job and Pass the Ticket to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-buff-792.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-14",
+    "tags": [
+      "offsec",
+      "hard",
+      "windows",
+      "hackthebox"
+    ],
+    "image": "/img/htb-buff-792.png",
+    "words": 631,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-tenet-401",
+    "title": "TryHackMe — Tenet (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tenet. Local File Inclusion and CSRF to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-tenet-401.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-13",
+    "tags": [
+      "hard",
+      "pwntilldawn",
+      "easy",
+      "forensics",
+      "insane"
+    ],
+    "image": "/img/htb-tenet-401.png",
+    "words": 550,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-yara-rule-writing-883",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-883.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-12",
+    "tags": [
+      "persistence",
+      "cheatsheet",
+      "oscp",
+      "blue-team",
+      "lateral-movement"
+    ],
+    "image": "/img/note-yara-rule-writing-883.png",
+    "words": 341,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-619",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-619.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-12",
+    "tags": [
+      "dfir",
+      "lateral-movement",
+      "enumeration"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-619.png",
+    "words": 304,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-overpass-636",
+    "title": "OffSec Proving Grounds — Overpass (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Overpass. Open Redirect and Remote File Inclusion to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-overpass-636.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-12",
+    "tags": [
+      "web",
+      "hackthebox",
+      "forensics",
+      "windows",
+      "easy",
+      "active-directory",
+      "ctf"
+    ],
+    "image": "/img/htb-overpass-636.png",
+    "words": 571,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-payload-obfuscation-script-332",
+    "title": "Payload Obfuscation Script",
+    "section": "projects",
+    "description": "Open source security project: Payload Obfuscation Script. Built for the community.",
+    "permalink": "/research/project-payload-obfuscation-script-332.html",
+    "btn_label": "View Project",
+    "date": "2024-03-11",
+    "tags": [
+      "cli",
+      "tool",
+      "plugin",
+      "library",
+      "open-source"
+    ],
+    "image": "/img/project-payload-obfuscation-script-332.png",
+    "words": 206,
+    "readTime": "2 min",
+    "features": [
+      "nmap",
+      "gobuster",
+      "crackmapexec"
+    ]
+  }
+]

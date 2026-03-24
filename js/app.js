@@ -1,15 +1,24 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   ZureFX — app.js  (v2)
-   Sistema de carga plana por sección.
-   Archivos cargados según sección activa:
-     for-you   → data/for-you.json
-     all       → data/posts.json
-     writeups  → data/writeups.json
-     research  → data/research.json
-     scripting → data/scripting.json
-     notes     → data/notes.json
-   Las cards NO cargan imágenes — el visual es solo color/tint.
-   Las cards SÍ muestran tags como badges no-clickables.
+   ZureFX — app.js  (v3)
+   Sistema de carga por sección con paginación remota para "all".
+
+   CAMBIO PRINCIPAL (v3)
+   ─────────────────────
+   La sección "all" ya no carga data/posts.json completo.
+   En su lugar carga páginas individuales bajo data/post/:
+
+     data/post/post-1.json   → 12 posts más recientes
+     data/post/post-2.json   → siguientes 12
+     …
+
+   El índice de paginación vive en:
+     data/posts-index.json   → { total_posts, posts_per_page, total_pages }
+
+   El sidebar (picks + tags cloud) sigue usando data/posts-recent.json
+   para evitar cargar la totalidad de los posts.
+
+   El resto del sistema (for-you, writeups, research, scripting, notes)
+   no cambia: sigue usando sus archivos JSON planos de sección.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ── CONSTANTS ───────────────────────────────────────────────────────────── */
@@ -34,10 +43,9 @@ var SECTION_LABEL = {
   'projects':     'Project'
 };
 
-/* JSON file for each section */
+/* JSON file for each flat section (excludes 'all' — handled by paginated loader) */
 var SECTION_FILE = {
   'for-you':  'for-you.json',
-  'all':      'posts.json',
   'writeups': 'writeups.json',
   'research': 'research.json',
   'scripting':'scripting.json',
@@ -52,7 +60,27 @@ var SECTIONS = ['for-you', 'all', 'writeups', 'research', 'scripting', 'notes'];
 var PAGE_LIMIT = 12;
 
 /* ── STATE ───────────────────────────────────────────────────────────────── */
-var CACHE          = {};   /* section → posts[] once loaded */
+
+/*
+  CACHE stores flat section data (for-you, writeups, etc.)
+  Shape: { sectionName: post[] }
+*/
+var CACHE          = {};
+
+/*
+  POSTS_PAGE_CACHE stores individually fetched paginated pages for "all".
+  Shape: { 1: post[], 2: post[], … }
+  Pages are fetched on demand and kept in memory to avoid repeat requests.
+*/
+var POSTS_PAGE_CACHE = {};
+
+/*
+  POSTS_INDEX holds the metadata from data/posts-index.json.
+  Shape: { total_posts: N, posts_per_page: 12, total_pages: N }
+  Null until first fetched.
+*/
+var POSTS_INDEX = null;
+
 var currentSection = 'for-you';
 var currentView    = 'grid';
 var currentPage    = 1;
@@ -172,7 +200,9 @@ function loadTicker() {
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
-   FLAT JSON LOADER
+   FLAT SECTION LOADER
+   Used for: for-you, writeups, research, scripting, notes, tools.
+   NOT used for 'all' — that uses the paginated loader below.
    ══════════════════════════════════════════════════════════════════════════ */
 
 async function loadSection(sec) {
@@ -193,6 +223,97 @@ async function loadSection(sec) {
     console.warn('[ZFX] Could not load ' + file + ':', err);
     CACHE[sec] = [];
     return [];
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   PAGINATED POST INDEX LOADER
+   Fetches data/posts-index.json once and caches it in POSTS_INDEX.
+   Shape: { total_posts: N, posts_per_page: 12, total_pages: N }
+   Used to know how many page files exist before fetching them.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+async function loadPostsIndex() {
+  if (POSTS_INDEX) return POSTS_INDEX;
+
+  var url = getRootPrefix() + 'data/posts-index.json?v=' + Date.now();
+  try {
+    var res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    var data = await res.json();
+    POSTS_INDEX = {
+      total_posts:    data.total_posts    || 0,
+      posts_per_page: data.posts_per_page || PAGE_LIMIT,
+      total_pages:    data.total_pages    || 1
+    };
+    console.log('[ZFX] posts-index — ' + POSTS_INDEX.total_posts + ' posts, ' + POSTS_INDEX.total_pages + ' pages');
+    return POSTS_INDEX;
+  } catch (err) {
+    console.warn('[ZFX] Could not load posts-index.json:', err);
+    /* Fallback: treat as single page so UI still works */
+    POSTS_INDEX = { total_posts: 0, posts_per_page: PAGE_LIMIT, total_pages: 1 };
+    return POSTS_INDEX;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   PAGINATED PAGE LOADER  —  loadPostsPage(page)
+   Fetches data/post/post-{page}.json on demand.
+
+   Caching:
+   • POSTS_PAGE_CACHE[page] is checked first — returns instantly if present.
+   • On success the result is stored under POSTS_PAGE_CACHE[page].
+   • On failure an empty array is stored so the same page isn't retried.
+
+   The returned array is the COMPLETE slice for that page (up to 12 posts).
+   The render layer must NOT slice it further — it arrives ready to display.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+async function loadPostsPage(page) {
+  /* Return from memory cache if this page was already fetched */
+  if (POSTS_PAGE_CACHE[page] !== undefined) {
+    return POSTS_PAGE_CACHE[page];
+  }
+
+  var url = getRootPrefix() + 'data/post/post-' + page + '.json?v=' + Date.now();
+  try {
+    var res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    var data = await res.json();
+    var posts = Array.isArray(data) ? data : [];
+    POSTS_PAGE_CACHE[page] = posts;   /* Store in memory cache */
+    console.log('[ZFX] post/post-' + page + '.json — ' + posts.length + ' posts');
+    return posts;
+  } catch (err) {
+    console.warn('[ZFX] Could not load post/post-' + page + '.json:', err);
+    POSTS_PAGE_CACHE[page] = [];      /* Cache empty result to prevent endless retries */
+    return [];
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   SIDEBAR DATA LOADER
+   The sidebar (picks + tags cloud) needs a representative sample of posts.
+   We use data/posts-recent.json (latest 50) rather than the full corpus
+   to keep the initial payload small.
+   Falls back to CACHE['for-you'] if posts-recent.json is unavailable.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+async function loadSidebarPosts() {
+  if (CACHE['_sidebar']) return CACHE['_sidebar'];
+
+  var url = getRootPrefix() + 'data/posts-recent.json?v=' + Date.now();
+  try {
+    var res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    var data = await res.json();
+    CACHE['_sidebar'] = Array.isArray(data) ? data : [];
+    console.log('[ZFX] posts-recent — ' + CACHE['_sidebar'].length + ' posts for sidebar');
+    return CACHE['_sidebar'];
+  } catch (err) {
+    console.warn('[ZFX] Could not load posts-recent.json, falling back to for-you cache:', err);
+    CACHE['_sidebar'] = CACHE['for-you'] || [];
+    return CACHE['_sidebar'];
   }
 }
 
@@ -395,29 +516,40 @@ function showLoader() {
   if (paginator) paginator.innerHTML = '';
 }
 
-/* ── MAIN RENDER ─────────────────────────────────────────────────────────── */
+/* ══════════════════════════════════════════════════════════════════════════
+   MAIN RENDER
+   Dispatches to either the paginated "all" path or the flat section path.
+   ══════════════════════════════════════════════════════════════════════════ */
 
-function render(posts) {
+async function render(posts, totalPages) {
   if (!container) return;
 
-  /* for-you: muestra todo lo que venga del JSON (máx 9), sin paginación */
+  var v = isMobile() ? 'list' : currentView;
+
+  /* ── for-you: no pagination, show everything from the JSON ── */
   if (currentSection === 'for-you') {
     container.innerHTML = '';
-    var v = isMobile() ? 'list' : currentView;
     container.appendChild(v === 'grid' ? renderGrid(posts) : renderList(posts));
     if (paginator) paginator.innerHTML = '';
     return;
   }
 
-  /* resto de secciones: paginación */
+  /* ── 'all': posts come pre-sliced from the page file, totalPages from index ── */
+  if (currentSection === 'all') {
+    container.innerHTML = '';
+    container.appendChild(v === 'grid' ? renderGrid(posts) : renderList(posts));
+    renderPaginator(totalPages || 1, currentPage);
+    return;
+  }
+
+  /* ── flat sections: slice locally as before ── */
   var total = Math.max(1, Math.ceil(posts.length / PAGE_LIMIT));
   if (currentPage < 1)     currentPage = 1;
   if (currentPage > total) currentPage = total;
 
   var slice = posts.slice((currentPage - 1) * PAGE_LIMIT, currentPage * PAGE_LIMIT);
   container.innerHTML = '';
-  var v2 = isMobile() ? 'list' : currentView;
-  container.appendChild(v2 === 'grid' ? renderGrid(slice) : renderList(slice));
+  container.appendChild(v === 'grid' ? renderGrid(slice) : renderList(slice));
   renderPaginator(total, currentPage);
 }
 
@@ -428,13 +560,37 @@ async function renderWithLoader() {
   loading = true;
   showLoader();
 
-  var posts = await loadSection(currentSection);
-  render(posts);
+  try {
+    if (currentSection === 'all') {
+      /* ── Paginated path ───────────────────────────────────────────────────
+         1. Fetch the index to know how many pages exist.
+         2. Clamp currentPage to valid range.
+         3. Fetch only the page that is needed (served from cache if available).
+         4. Pass totalPages to render() so the paginator is built correctly.
+         The posts array arrives pre-sliced — no further slicing needed.
+      ──────────────────────────────────────────────────────────────────── */
+      var idx = await loadPostsIndex();
 
-  /* sidebar: picks + tags siempre desde posts.json (feed global) */
-  var allPosts = CACHE['all'] || await loadSection('all');
-  renderPicks(allPosts);
-  renderTags(allPosts);
+      if (currentPage < 1)                  currentPage = 1;
+      if (currentPage > idx.total_pages)    currentPage = idx.total_pages;
+
+      var posts = await loadPostsPage(currentPage);
+      await render(posts, idx.total_pages);
+
+    } else {
+      /* ── Flat section path (unchanged from v2) ── */
+      var sectionPosts = await loadSection(currentSection);
+      await render(sectionPosts);
+    }
+
+    /* Sidebar uses posts-recent.json — loaded once, cached */
+    var sidebarPosts = await loadSidebarPosts();
+    renderPicks(sidebarPosts);
+    renderTags(sidebarPosts);
+
+  } catch (err) {
+    console.error('[ZFX] renderWithLoader failed:', err);
+  }
 
   loading = false;
 }
@@ -500,18 +656,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (!container) return;
 
-  /* ── View toggle (solo re-renderiza desde caché, sin refetch) ── */
+  /* ── View toggle (re-renders from cache, no refetch) ── */
   if (btnGrid) btnGrid.addEventListener('click', function() {
     currentView = 'grid'; currentPage = 1;
     btnGrid.classList.add('active'); btnList.classList.remove('active');
-    var cached = CACHE[currentSection];
-    if (cached) render(cached);
+    /* For 'all', re-render from the page cache (no network hit) */
+    if (currentSection === 'all') {
+      var cached = POSTS_PAGE_CACHE[currentPage];
+      var totalPg = POSTS_INDEX ? POSTS_INDEX.total_pages : 1;
+      if (cached !== undefined) render(cached, totalPg);
+    } else {
+      var flatCached = CACHE[currentSection];
+      if (flatCached) render(flatCached);
+    }
   });
   if (btnList) btnList.addEventListener('click', function() {
     currentView = 'list'; currentPage = 1;
     btnList.classList.add('active'); btnGrid.classList.remove('active');
-    var cached = CACHE[currentSection];
-    if (cached) render(cached);
+    if (currentSection === 'all') {
+      var cached = POSTS_PAGE_CACHE[currentPage];
+      var totalPg = POSTS_INDEX ? POSTS_INDEX.total_pages : 1;
+      if (cached !== undefined) render(cached, totalPg);
+    } else {
+      var flatCached = CACHE[currentSection];
+      if (flatCached) render(flatCached);
+    }
   });
 
   window.addEventListener('hashchange', handleHash);
@@ -542,24 +711,40 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', function() {
     clearTimeout(rt);
     rt = setTimeout(function() {
-      var cached = CACHE[currentSection];
-      if (cached) render(cached);
+      /* Re-render currently visible content from cache on resize */
+      if (currentSection === 'all') {
+        var cached = POSTS_PAGE_CACHE[currentPage];
+        var totalPg = POSTS_INDEX ? POSTS_INDEX.total_pages : 1;
+        if (cached !== undefined) render(cached, totalPg);
+      } else {
+        var flatCached = CACHE[currentSection];
+        if (flatCached) render(flatCached);
+      }
     }, 120);
   });
 
-  /* ── Bootstrap: carga for-you + posts.json en paralelo ── */
+  /* ── Bootstrap ──────────────────────────────────────────────────────────
+     Load the initial data needed before first render:
+       • for-you.json   → first section shown on landing
+       • posts-index.json → pagination metadata (prefetch so 'all' is instant)
+       • posts-recent.json → sidebar picks + tag cloud
+     All three fire in parallel to minimise time-to-interactive.
+  ──────────────────────────────────────────────────────────────────────── */
   (async function boot() {
     if (!container) return;
     showLoader();
     try {
-      /* for-you.json y posts.json en paralelo desde el arranque */
-      await Promise.all([loadSection('for-you'), loadSection('all')]);
+      await Promise.all([
+        loadSection('for-you'),   /* for the default view */
+        loadPostsIndex(),         /* prefetch pagination metadata */
+        loadSidebarPosts()        /* picks + tag cloud */
+      ]);
 
-      var allPosts = CACHE['all'] || [];
-      renderPicks(allPosts);
-      renderTags(allPosts);
+      var sidebarPosts = CACHE['_sidebar'] || [];
+      renderPicks(sidebarPosts);
+      renderTags(sidebarPosts);
 
-      handleHash();   /* decide sección según URL hash y renderiza */
+      handleHash();   /* decide section from URL hash and render */
 
     } catch (err) {
       console.error('[ZFX] Boot failed:', err);

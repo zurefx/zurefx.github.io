@@ -1,0 +1,228 @@
+[
+  {
+    "id": "note-bash-one-liners-for-security-testing-602",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-602.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-24",
+    "tags": [
+      "enumeration",
+      "malware",
+      "cheatsheet"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-602.png",
+    "words": 419,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-thenotebook-519",
+    "title": "HackTheBox — TheNotebook (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox TheNotebook. Path Traversal and SeImpersonatePrivilege to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-thenotebook-519.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-24",
+    "tags": [
+      "offsec",
+      "windows",
+      "active-directory",
+      "forensics",
+      "pwntilldawn",
+      "easy"
+    ],
+    "image": "/img/htb-thenotebook-519.png",
+    "words": 626,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-beep-471",
+    "title": "VulnHub — Beep (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Beep. Golden Ticket and NFS No Root Squash to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-beep-471.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-23",
+    "tags": [
+      "reversing",
+      "hackthebox",
+      "active-directory",
+      "web"
+    ],
+    "image": "/img/htb-beep-471.png",
+    "words": 544,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-valentine-728",
+    "title": "TryHackMe — Valentine (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Valentine. Golden Ticket and Docker Escape to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-valentine-728.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-22",
+    "tags": [
+      "windows",
+      "forensics",
+      "tryhackme"
+    ],
+    "image": "/img/htb-valentine-728.png",
+    "words": 674,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-sigma-rule-development-184",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-184.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-21",
+    "tags": [
+      "linux",
+      "cheatsheet",
+      "oscp",
+      "malware"
+    ],
+    "image": "/img/note-sigma-rule-development-184.png",
+    "words": 256,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-935",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-935.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-20",
+    "tags": [
+      "kernel",
+      "uaf",
+      "format-string",
+      "zero-day",
+      "rop"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-935.png",
+    "words": 496,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-fuse-364",
+    "title": "TryHackMe — Fuse (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Fuse. AlwaysInstallElevated and CORS Misconfiguration to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-fuse-364.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-20",
+    "tags": [
+      "windows",
+      "pwntilldawn",
+      "hackthebox",
+      "reversing",
+      "forensics",
+      "active-directory"
+    ],
+    "image": "/img/htb-fuse-364.png",
+    "words": 665,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-338",
+    "title": "SMB Share Enumeration Script — Python",
+    "section": "scripting",
+    "description": "A Python script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-338.html",
+    "btn_label": "View Script",
+    "date": "2025-09-19",
+    "tags": [
+      "bash",
+      "python",
+      "fuzzer",
+      "c",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-338.png",
+    "words": 309,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-469",
+    "title": "API Security Testing Framework — Python",
+    "section": "scripting",
+    "description": "A Python script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-469.html",
+    "btn_label": "View Script",
+    "date": "2025-09-19",
+    "tags": [
+      "python",
+      "rust",
+      "automation",
+      "script"
+    ],
+    "image": "/img/script-api-security-testing-framework-469.png",
+    "words": 326,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-591",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-591.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-19",
+    "tags": [
+      "networking",
+      "windows",
+      "privilege-escalation",
+      "cheatsheet",
+      "linux",
+      "blue-team"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-591.png",
+    "words": 619,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-379",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-379.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-19",
+    "tags": [
+      "privilege-escalation",
+      "enumeration",
+      "lateral-movement",
+      "cheatsheet",
+      "malware",
+      "linux"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-379.png",
+    "words": 476,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-683",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-683.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-18",
+    "tags": [
+      "malware-analysis",
+      "aslr-bypass",
+      "zero-day",
+      "kernel",
+      "heap-exploitation",
+      "cve"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-683.png",
+    "words": 426,
+    "readTime": "3 min"
+  }
+]

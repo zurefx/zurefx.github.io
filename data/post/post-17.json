@@ -1,0 +1,238 @@
+[
+  {
+    "id": "htb-convertmyfund-867",
+    "title": "TryHackMe — Convertmyfund (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Convertmyfund. Weak Service Permissions and CORS Misconfiguration to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-convertmyfund-867.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-14",
+    "tags": [
+      "linux",
+      "forensics",
+      "easy",
+      "tryhackme",
+      "medium",
+      "pwntilldawn",
+      "hard"
+    ],
+    "image": "/img/htb-convertmyfund-867.png",
+    "words": 591,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-388",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-388.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-13",
+    "tags": [
+      "shellcode",
+      "kernel",
+      "zero-day",
+      "cve",
+      "rop"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-388.png",
+    "words": 507,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-118",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-118.html",
+    "btn_label": "View Script",
+    "date": "2026-01-12",
+    "tags": [
+      "go",
+      "fuzzer",
+      "powershell",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-118.png",
+    "words": 353,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-337",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-337.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-12",
+    "tags": [
+      "enumeration",
+      "malware",
+      "lateral-movement"
+    ],
+    "image": "/img/note-reverse-engineering-basics-337.png",
+    "words": 248,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-vulnnet-314",
+    "title": "TryHackMe — Vulnnet (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Vulnnet. GPP Password and Constrained Delegation to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-vulnnet-314.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-12",
+    "tags": [
+      "tryhackme",
+      "medium",
+      "easy",
+      "web",
+      "hard",
+      "ctf",
+      "windows"
+    ],
+    "image": "/img/htb-vulnnet-314.png",
+    "words": 527,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-crossfit-523",
+    "title": "TryHackMe — Crossfit (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Crossfit. SeImpersonatePrivilege and DCSync to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-crossfit-523.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-12",
+    "tags": [
+      "ctf",
+      "forensics",
+      "easy",
+      "linux",
+      "insane",
+      "web",
+      "tryhackme"
+    ],
+    "image": "/img/htb-crossfit-523.png",
+    "words": 679,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-298",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-298.html",
+    "btn_label": "View Script",
+    "date": "2026-01-11",
+    "tags": [
+      "rust",
+      "go",
+      "scanner",
+      "c",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-298.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-326",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-326.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-11",
+    "tags": [
+      "blue-team",
+      "dfir",
+      "lateral-movement",
+      "networking",
+      "cheatsheet",
+      "malware"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-326.png",
+    "words": 635,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-968",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-968.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-11",
+    "tags": [
+      "windows",
+      "dfir",
+      "enumeration",
+      "persistence",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-968.png",
+    "words": 384,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-713",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-713.html",
+    "btn_label": "View Script",
+    "date": "2026-01-10",
+    "tags": [
+      "powershell",
+      "scanner",
+      "script",
+      "go"
+    ],
+    "image": "/img/script-web-crawler-and-spider-713.png",
+    "words": 298,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-knife-233",
+    "title": "OffSec Proving Grounds — Knife (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Knife. CORS Misconfiguration and XXE to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-knife-233.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-10",
+    "tags": [
+      "linux",
+      "pwntilldawn",
+      "insane",
+      "windows",
+      "ctf",
+      "medium",
+      "offsec"
+    ],
+    "image": "/img/htb-knife-233.png",
+    "words": 629,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-friendzone-625",
+    "title": "OffSec Proving Grounds — FriendZone (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds FriendZone. Resource-Based Constrained Delegation and Open Redirect to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-friendzone-625.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-10",
+    "tags": [
+      "web",
+      "active-directory",
+      "insane",
+      "windows",
+      "pwntilldawn",
+      "forensics",
+      "reversing"
+    ],
+    "image": "/img/htb-friendzone-625.png",
+    "words": 634,
+    "readTime": "4 min"
+  }
+]

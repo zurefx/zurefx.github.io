@@ -1,0 +1,236 @@
+[
+  {
+    "id": "research-browser-exploitation-techniques-478",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-478.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-31",
+    "tags": [
+      "uaf",
+      "aslr-bypass",
+      "exploit-development",
+      "heap-exploitation",
+      "cve",
+      "rop"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-478.png",
+    "words": 498,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-366",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-366.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-31",
+    "tags": [
+      "lateral-movement",
+      "networking",
+      "malware",
+      "enumeration",
+      "oscp",
+      "cheatsheet"
+    ],
+    "image": "/img/note-digital-forensics-methodology-366.png",
+    "words": 727,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-111",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-111.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-31",
+    "tags": [
+      "enumeration",
+      "windows",
+      "persistence",
+      "privilege-escalation",
+      "blue-team",
+      "lateral-movement"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-111.png",
+    "words": 567,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-granny-476",
+    "title": "HackTheBox — Granny (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Granny. NFS No Root Squash and Remote Code Execution to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-granny-476.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-31",
+    "tags": [
+      "pwntilldawn",
+      "hackthebox",
+      "tryhackme"
+    ],
+    "image": "/img/htb-granny-476.png",
+    "words": 601,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-amsi-bypass-collection-821",
+    "title": "AMSI Bypass Collection — Bash",
+    "section": "scripting",
+    "description": "A Bash script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-821.html",
+    "btn_label": "View Script",
+    "date": "2025-08-30",
+    "tags": [
+      "script",
+      "bash",
+      "fuzzer",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-amsi-bypass-collection-821.png",
+    "words": 325,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-479",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-479.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-30",
+    "tags": [
+      "lateral-movement",
+      "linux",
+      "oscp",
+      "malware",
+      "persistence",
+      "cheatsheet"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-479.png",
+    "words": 475,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tartarsauce-952",
+    "title": "OffSec Proving Grounds — Tartarsauce (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Tartarsauce. IDOR and Open Redirect to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-tartarsauce-952.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-30",
+    "tags": [
+      "linux",
+      "insane",
+      "forensics",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-tartarsauce-952.png",
+    "words": 543,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-cereal-580",
+    "title": "TryHackMe — Cereal (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Cereal. Kerberoasting and Path Traversal to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-cereal-580.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-30",
+    "tags": [
+      "forensics",
+      "web",
+      "medium",
+      "pwntilldawn",
+      "hard",
+      "linux"
+    ],
+    "image": "/img/htb-cereal-580.png",
+    "words": 619,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-239",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-239.html",
+    "btn_label": "View Script",
+    "date": "2025-08-29",
+    "tags": [
+      "automation",
+      "c",
+      "tool",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-239.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-omni-333",
+    "title": "TryHackMe — Omni (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Omni. Unquoted Service Path and ACL Abuse to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-omni-333.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-29",
+    "tags": [
+      "medium",
+      "windows",
+      "web",
+      "offsec",
+      "tryhackme",
+      "hackthebox",
+      "ctf"
+    ],
+    "image": "/img/htb-omni-333.png",
+    "words": 585,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-magic-868",
+    "title": "OffSec Proving Grounds — Magic (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Magic. LAPS Abuse and LXD Privilege Escalation to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-magic-868.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-28",
+    "tags": [
+      "medium",
+      "tryhackme",
+      "ctf",
+      "windows",
+      "offsec",
+      "web",
+      "active-directory"
+    ],
+    "image": "/img/htb-magic-868.png",
+    "words": 600,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-intelligence-921",
+    "title": "OffSec Proving Grounds — Intelligence (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Intelligence. Remote Code Execution and Constrained Delegation to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-intelligence-921.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-27",
+    "tags": [
+      "offsec",
+      "hackthebox",
+      "forensics",
+      "hard"
+    ],
+    "image": "/img/htb-intelligence-921.png",
+    "words": 633,
+    "readTime": "4 min"
+  }
+]

@@ -1,0 +1,241 @@
+[
+  {
+    "id": "note-memory-forensics-with-volatility-995",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-995.html",
+    "btn_label": "Read Notes",
+    "date": "2024-04-05",
+    "tags": [
+      "windows",
+      "oscp",
+      "cheatsheet"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-995.png",
+    "words": 492,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-monitors-597",
+    "title": "TryHackMe — Monitors (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Monitors. DNS Rebinding and Silver Ticket to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-monitors-597.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-05",
+    "tags": [
+      "tryhackme",
+      "active-directory",
+      "reversing",
+      "hackthebox",
+      "windows",
+      "linux",
+      "hard"
+    ],
+    "image": "/img/htb-monitors-597.png",
+    "words": 616,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-ophiuchi-100",
+    "title": "HackTheBox — Ophiuchi (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ophiuchi. NTLM Relay and XSS to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-ophiuchi-100.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-04",
+    "tags": [
+      "medium",
+      "hard",
+      "forensics",
+      "web",
+      "active-directory",
+      "insane"
+    ],
+    "image": "/img/htb-ophiuchi-100.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-blunder-311",
+    "title": "VulnHub — Blunder (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Blunder. DCSync and NFS No Root Squash to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-blunder-311.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-04",
+    "tags": [
+      "forensics",
+      "windows",
+      "reversing",
+      "offsec",
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "image": "/img/htb-blunder-311.png",
+    "words": 591,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-685",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-685.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-03",
+    "tags": [
+      "format-string",
+      "buffer-overflow",
+      "shellcode",
+      "zero-day",
+      "rop"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-685.png",
+    "words": 510,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-academy-190",
+    "title": "TryHackMe — Academy (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Academy. SeImpersonatePrivilege and DNS Rebinding to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-academy-190.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-03",
+    "tags": [
+      "hard",
+      "tryhackme",
+      "active-directory",
+      "reversing",
+      "windows",
+      "medium",
+      "offsec"
+    ],
+    "image": "/img/htb-academy-190.png",
+    "words": 581,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-869",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-869.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-02",
+    "tags": [
+      "heap-exploitation",
+      "shellcode",
+      "exploit-development",
+      "buffer-overflow",
+      "rop"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-869.png",
+    "words": 482,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-subdomain-enumeration-tool-467",
+    "title": "Subdomain Enumeration Tool",
+    "section": "projects",
+    "description": "Open source security project: Subdomain Enumeration Tool. Built for the community.",
+    "permalink": "/research/project-subdomain-enumeration-tool-467.html",
+    "btn_label": "View Project",
+    "date": "2024-04-02",
+    "tags": [
+      "library",
+      "tool",
+      "security",
+      "extension"
+    ],
+    "image": "/img/project-subdomain-enumeration-tool-467.png",
+    "words": 209,
+    "readTime": "2 min",
+    "features": [
+      "gobuster",
+      "hydra",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "htb-ghizer-656",
+    "title": "OffSec Proving Grounds — Ghizer (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Ghizer. XXE and Pass the Ticket to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ghizer-656.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-02",
+    "tags": [
+      "windows",
+      "active-directory",
+      "hackthebox",
+      "ctf",
+      "linux",
+      "web",
+      "reversing"
+    ],
+    "image": "/img/htb-ghizer-656.png",
+    "words": 598,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-breadcrumbs-915",
+    "title": "TryHackMe — Breadcrumbs (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Breadcrumbs. XSS and Cron Job to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-breadcrumbs-915.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-02",
+    "tags": [
+      "tryhackme",
+      "insane",
+      "pwntilldawn",
+      "hard"
+    ],
+    "image": "/img/htb-breadcrumbs-915.png",
+    "words": 568,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-173",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-173.html",
+    "btn_label": "View Script",
+    "date": "2024-04-01",
+    "tags": [
+      "c",
+      "fuzzer",
+      "bash",
+      "automation"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-173.png",
+    "words": 319,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-466",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-466.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-01",
+    "tags": [
+      "aslr-bypass",
+      "shellcode",
+      "uaf",
+      "zero-day",
+      "format-string",
+      "kernel"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-466.png",
+    "words": 487,
+    "readTime": "3 min"
+  }
+]

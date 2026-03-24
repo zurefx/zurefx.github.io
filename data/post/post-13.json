@@ -1,0 +1,229 @@
+[
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-813",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-813.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-28",
+    "tags": [
+      "aslr-bypass",
+      "rop",
+      "malware-analysis",
+      "format-string",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-81.png",
+    "words": 475,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-incident-response-playbook-406",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-406.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-27",
+    "tags": [
+      "dfir",
+      "windows",
+      "networking"
+    ],
+    "image": "/img/note-incident-response-playbook-406.png",
+    "words": 419,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tabby-841",
+    "title": "OffSec Proving Grounds — Tabby (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Tabby. SeImpersonatePrivilege and SeDebugPrivilege to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-tabby-841.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-27",
+    "tags": [
+      "offsec",
+      "web",
+      "ctf",
+      "forensics",
+      "tryhackme",
+      "pwntilldawn",
+      "hackthebox"
+    ],
+    "image": "/img/htb-tabby-841.png",
+    "words": 633,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-skynet-827",
+    "title": "TryHackMe — Skynet (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Skynet. Resource-Based Constrained Delegation and SeDebugPrivilege to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-skynet-827.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-27",
+    "tags": [
+      "web",
+      "hackthebox",
+      "windows",
+      "active-directory",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-skynet-827.png",
+    "words": 585,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-relevant-192",
+    "title": "OffSec Proving Grounds — Relevant (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Relevant. Unconstrained Delegation and Resource-Based Constrained Delegation to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-relevant-192.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-27",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "linux"
+    ],
+    "image": "/img/htb-relevant-192.png",
+    "words": 516,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-pit-691",
+    "title": "OffSec Proving Grounds — Pit (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Pit. Open Redirect and Unconstrained Delegation to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pit-691.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-26",
+    "tags": [
+      "easy",
+      "offsec",
+      "web",
+      "ctf",
+      "reversing"
+    ],
+    "image": "/img/htb-pit-691.png",
+    "words": 627,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-breadcrumbs-742",
+    "title": "VulnHub — Breadcrumbs (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Breadcrumbs. IDOR and Weak Service Permissions to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-breadcrumbs-742.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-26",
+    "tags": [
+      "active-directory",
+      "linux",
+      "insane",
+      "medium",
+      "pwntilldawn",
+      "web",
+      "ctf"
+    ],
+    "image": "/img/htb-breadcrumbs-742.png",
+    "words": 618,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-academy-701",
+    "title": "HackTheBox — Academy (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Academy. Weak Service Permissions and XXE to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-academy-701.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-26",
+    "tags": [
+      "pwntilldawn",
+      "web",
+      "tryhackme",
+      "reversing",
+      "linux",
+      "forensics",
+      "windows"
+    ],
+    "image": "/img/htb-academy-701.png",
+    "words": 596,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-mindgames-120",
+    "title": "HackTheBox — Mindgames (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Mindgames. Silver Ticket and Remote File Inclusion to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-mindgames-120.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-25",
+    "tags": [
+      "windows",
+      "medium",
+      "offsec"
+    ],
+    "image": "/img/htb-mindgames-120.png",
+    "words": 651,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-896",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-896.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-24",
+    "tags": [
+      "networking",
+      "windows",
+      "linux",
+      "blue-team",
+      "persistence",
+      "enumeration"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-896.png",
+    "words": 588,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-915",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-915.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-24",
+    "tags": [
+      "dfir",
+      "lateral-movement",
+      "networking"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-915.png",
+    "words": 334,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-valentine-261",
+    "title": "HackTheBox — Valentine (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Valentine. Silver Ticket and Open Redirect to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-valentine-261.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-24",
+    "tags": [
+      "medium",
+      "tryhackme",
+      "forensics"
+    ],
+    "image": "/img/htb-valentine-261.png",
+    "words": 591,
+    "readTime": "3 min"
+  }
+]

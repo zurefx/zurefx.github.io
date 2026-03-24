@@ -1,0 +1,228 @@
+[
+  {
+    "id": "htb-worker-475",
+    "title": "HackTheBox — Worker (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Worker. Open Redirect and ACL Abuse to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-worker-475.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-23",
+    "tags": [
+      "tryhackme",
+      "windows",
+      "web",
+      "ctf",
+      "hard"
+    ],
+    "image": "/img/htb-worker-475.png",
+    "words": 605,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-ghizer-412",
+    "title": "TryHackMe — Ghizer (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Ghizer. Weak Service Permissions and Open Redirect to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-ghizer-412.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-23",
+    "tags": [
+      "offsec",
+      "easy",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-ghizer-412.png",
+    "words": 626,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-bucket-835",
+    "title": "OffSec Proving Grounds — Bucket (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Bucket. Local File Inclusion and Path Traversal to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-bucket-835.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-23",
+    "tags": [
+      "medium",
+      "reversing",
+      "forensics",
+      "hackthebox",
+      "web",
+      "ctf"
+    ],
+    "image": "/img/htb-bucket-835.png",
+    "words": 612,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-password-spraying-tool-839",
+    "title": "Password Spraying Tool — Go",
+    "section": "scripting",
+    "description": "A Go script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-839.html",
+    "btn_label": "View Script",
+    "date": "2024-06-22",
+    "tags": [
+      "tool",
+      "script",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-password-spraying-tool-839.png",
+    "words": 428,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-930",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-930.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-22",
+    "tags": [
+      "networking",
+      "malware",
+      "oscp"
+    ],
+    "image": "/img/note-cryptography-fundamentals-930.png",
+    "words": 575,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-sunday-395",
+    "title": "PwnTillDawn — Sunday (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Sunday. DCSync and Constrained Delegation to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-sunday-395.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-22",
+    "tags": [
+      "offsec",
+      "pwntilldawn",
+      "medium",
+      "insane",
+      "active-directory",
+      "reversing"
+    ],
+    "image": "/img/htb-sunday-395.png",
+    "words": 570,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-optimum-853",
+    "title": "PwnTillDawn — Optimum (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Optimum. Cron Job and XSS to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-optimum-853.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-22",
+    "tags": [
+      "ctf",
+      "offsec",
+      "tryhackme",
+      "easy"
+    ],
+    "image": "/img/htb-optimum-853.png",
+    "words": 594,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-beep-505",
+    "title": "OffSec Proving Grounds — Beep (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Beep. SUID Binary and SQL Injection to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-beep-505.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-22",
+    "tags": [
+      "web",
+      "linux",
+      "ctf",
+      "insane",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-beep-505.png",
+    "words": 600,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-333",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-333.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-21",
+    "tags": [
+      "exploit-development",
+      "uaf",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-333.png",
+    "words": 496,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-460",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-460.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-21",
+    "tags": [
+      "persistence",
+      "privilege-escalation",
+      "windows",
+      "dfir",
+      "linux",
+      "enumeration"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-460.png",
+    "words": 399,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-505",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-505.html",
+    "btn_label": "View Script",
+    "date": "2024-06-20",
+    "tags": [
+      "parser",
+      "go",
+      "scanner",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-505.png",
+    "words": 289,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-755",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-755.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-20",
+    "tags": [
+      "aslr-bypass",
+      "zero-day",
+      "heap-exploitation",
+      "malware-analysis"
+    ],
+    "image": "/img/research-threat-intelligence-integration-755.png",
+    "words": 445,
+    "readTime": "3 min"
+  }
+]

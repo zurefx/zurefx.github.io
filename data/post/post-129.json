@@ -1,0 +1,227 @@
+[
+  {
+    "id": "htb-blunder-745",
+    "title": "VulnHub — Blunder (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Blunder. Docker Escape and Cron Job to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-blunder-745.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-25",
+    "tags": [
+      "hackthebox",
+      "active-directory",
+      "insane",
+      "easy",
+      "reversing"
+    ],
+    "image": "/img/htb-blunder-745.png",
+    "words": 592,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-270",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-270.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-24",
+    "tags": [
+      "buffer-overflow",
+      "rop",
+      "kernel"
+    ],
+    "image": "/img/research-threat-intelligence-integration-270.png",
+    "words": 470,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-656",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-656.html",
+    "btn_label": "View Script",
+    "date": "2024-07-23",
+    "tags": [
+      "rust",
+      "python",
+      "fuzzer",
+      "parser",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-656.png",
+    "words": 326,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-solidstate-847",
+    "title": "HackTheBox — Solidstate (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Solidstate. SQL Injection and Golden Ticket to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-solidstate-847.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-23",
+    "tags": [
+      "web",
+      "hackthebox",
+      "active-directory",
+      "pwntilldawn",
+      "forensics"
+    ],
+    "image": "/img/htb-solidstate-847.png",
+    "words": 564,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-334",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-334.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-22",
+    "tags": [
+      "linux",
+      "persistence",
+      "networking",
+      "lateral-movement"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-334.png",
+    "words": 252,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-spectra-942",
+    "title": "HackTheBox — Spectra (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Spectra. XSS and Resource-Based Constrained Delegation to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-spectra-942.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-22",
+    "tags": [
+      "hackthebox",
+      "ctf",
+      "web",
+      "forensics"
+    ],
+    "image": "/img/htb-spectra-942.png",
+    "words": 659,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-skynet-127",
+    "title": "VulnHub — Skynet (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Skynet. Command Injection and Resource-Based Constrained Delegation to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-skynet-127.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-22",
+    "tags": [
+      "windows",
+      "hackthebox",
+      "easy",
+      "hard"
+    ],
+    "image": "/img/htb-skynet-127.png",
+    "words": 595,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-174",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-174.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-21",
+    "tags": [
+      "rop",
+      "aslr-bypass",
+      "uaf",
+      "exploit-development"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-174.png",
+    "words": 508,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-124",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-124.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-21",
+    "tags": [
+      "malware",
+      "enumeration",
+      "linux",
+      "oscp"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-124.png",
+    "words": 533,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tartarsauce-446",
+    "title": "TryHackMe — Tartarsauce (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tartarsauce. XSS and Resource-Based Constrained Delegation to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-tartarsauce-446.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-21",
+    "tags": [
+      "active-directory",
+      "linux",
+      "forensics",
+      "windows",
+      "ctf",
+      "hackthebox",
+      "offsec"
+    ],
+    "image": "/img/htb-tartarsauce-446.png",
+    "words": 618,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-956",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-956.html",
+    "btn_label": "View Script",
+    "date": "2024-07-20",
+    "tags": [
+      "tool",
+      "scanner",
+      "rust",
+      "parser",
+      "powershell",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-956.png",
+    "words": 284,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-936",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-936.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-20",
+    "tags": [
+      "privilege-escalation",
+      "enumeration",
+      "blue-team"
+    ],
+    "image": "/img/note-digital-forensics-methodology-936.png",
+    "words": 490,
+    "readTime": "3 min"
+  }
+]

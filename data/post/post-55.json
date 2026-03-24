@@ -1,0 +1,225 @@
+[
+  {
+    "id": "htb-beep-888",
+    "title": "VulnHub — Beep (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Beep. Open Redirect and Constrained Delegation to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-beep-888.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-12",
+    "tags": [
+      "medium",
+      "offsec",
+      "reversing"
+    ],
+    "image": "/img/htb-beep-888.png",
+    "words": 558,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-861",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-861.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-11",
+    "tags": [
+      "cheatsheet",
+      "windows",
+      "oscp",
+      "lateral-movement",
+      "linux"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-861.png",
+    "words": 344,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-irked-846",
+    "title": "PwnTillDawn — Irked (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Irked. Subdomain Takeover and Path Traversal to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-irked-846.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-11",
+    "tags": [
+      "easy",
+      "web",
+      "hackthebox"
+    ],
+    "image": "/img/htb-irked-846.png",
+    "words": 533,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-cereal-699",
+    "title": "HackTheBox — Cereal (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Cereal. Insecure Deserialization and Silver Ticket to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-cereal-699.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-11",
+    "tags": [
+      "forensics",
+      "linux",
+      "web",
+      "pwntilldawn",
+      "offsec"
+    ],
+    "image": "/img/htb-cereal-699.png",
+    "words": 544,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-965",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-965.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-10",
+    "tags": [
+      "dfir",
+      "malware",
+      "privilege-escalation",
+      "lateral-movement"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-965.png",
+    "words": 484,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-316",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-316.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-09",
+    "tags": [
+      "oscp",
+      "blue-team",
+      "enumeration",
+      "lateral-movement"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-316.png",
+    "words": 481,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ready-790",
+    "title": "HackTheBox — Ready (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ready. GPP Password and DNS Rebinding to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-ready-790.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-09",
+    "tags": [
+      "web",
+      "forensics",
+      "medium",
+      "windows",
+      "ctf",
+      "linux",
+      "active-directory"
+    ],
+    "image": "/img/htb-ready-790.png",
+    "words": 645,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-dynstr-372",
+    "title": "PwnTillDawn — Dynstr (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Dynstr. LXD Privilege Escalation and AS-REP Roasting to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-dynstr-372.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-09",
+    "tags": [
+      "forensics",
+      "tryhackme",
+      "reversing",
+      "easy",
+      "active-directory",
+      "ctf"
+    ],
+    "image": "/img/htb-dynstr-372.png",
+    "words": 618,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-deja-vu-631",
+    "title": "PwnTillDawn — Deja Vu (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Deja Vu. Sudo Misconfiguration and SQL Injection to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-deja-vu-631.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-09",
+    "tags": [
+      "active-directory",
+      "reversing",
+      "ctf",
+      "easy",
+      "windows"
+    ],
+    "image": "/img/htb-deja-vu-631.png",
+    "words": 694,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-optimum-892",
+    "title": "HackTheBox — Optimum (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Optimum. SQL Injection and SeImpersonatePrivilege to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-optimum-892.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-08",
+    "tags": [
+      "medium",
+      "tryhackme",
+      "pwntilldawn",
+      "hackthebox"
+    ],
+    "image": "/img/htb-optimum-892.png",
+    "words": 561,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-deja-vu-858",
+    "title": "OffSec Proving Grounds — Deja Vu (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Deja Vu. Kerberoasting and Unconstrained Delegation to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-deja-vu-858.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-08",
+    "tags": [
+      "insane",
+      "medium",
+      "active-directory",
+      "forensics"
+    ],
+    "image": "/img/htb-deja-vu-858.png",
+    "words": 622,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-358",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-358.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-07",
+    "tags": [
+      "cheatsheet",
+      "blue-team",
+      "oscp",
+      "enumeration"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-358.png",
+    "words": 300,
+    "readTime": "2 min"
+  }
+]

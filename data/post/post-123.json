@@ -1,0 +1,225 @@
+[
+  {
+    "id": "script-c2-beacon-simulator-315",
+    "title": "C2 Beacon Simulator — Go",
+    "section": "scripting",
+    "description": "A Go script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-315.html",
+    "btn_label": "View Script",
+    "date": "2024-08-20",
+    "tags": [
+      "tool",
+      "bash",
+      "fuzzer",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-c2-beacon-simulator-315.png",
+    "words": 344,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-intelligence-814",
+    "title": "PwnTillDawn — Intelligence (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Intelligence. Subdomain Takeover and Cron Job to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-intelligence-814.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-19",
+    "tags": [
+      "web",
+      "medium",
+      "hackthebox",
+      "ctf",
+      "windows",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-intelligence-814.png",
+    "words": 603,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-blunder-931",
+    "title": "OffSec Proving Grounds — Blunder (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Blunder. DNS Rebinding and Silver Ticket to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-blunder-931.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-19",
+    "tags": [
+      "ctf",
+      "medium",
+      "windows"
+    ],
+    "image": "/img/htb-blunder-931.png",
+    "words": 648,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-656",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-656.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-18",
+    "tags": [
+      "rop",
+      "uaf",
+      "cve"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-656.png",
+    "words": 491,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-247",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-247.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-17",
+    "tags": [
+      "cheatsheet",
+      "networking",
+      "malware",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-digital-forensics-methodology-247.png",
+    "words": 241,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-sunday-254",
+    "title": "PwnTillDawn — Sunday (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Sunday. AS-REP Roasting and DCSync to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-sunday-254.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-17",
+    "tags": [
+      "hard",
+      "windows",
+      "easy",
+      "ctf",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-sunday-254.png",
+    "words": 581,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-111",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-111.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-16",
+    "tags": [
+      "kernel",
+      "buffer-overflow",
+      "zero-day",
+      "uaf",
+      "format-string",
+      "cve"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 425,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-547",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-547.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-16",
+    "tags": [
+      "privilege-escalation",
+      "cheatsheet",
+      "lateral-movement",
+      "enumeration"
+    ],
+    "image": "/img/note-digital-forensics-methodology-547.png",
+    "words": 510,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-breadcrumbs-795",
+    "title": "PwnTillDawn — Breadcrumbs (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Breadcrumbs. Docker Escape and NTLM Relay to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-breadcrumbs-795.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-15",
+    "tags": [
+      "active-directory",
+      "reversing",
+      "insane",
+      "pwntilldawn",
+      "hackthebox",
+      "easy",
+      "forensics"
+    ],
+    "image": "/img/htb-breadcrumbs-795.png",
+    "words": 542,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-breadcrumbs-713",
+    "title": "TryHackMe — Breadcrumbs (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Breadcrumbs. DNS Rebinding and Cron Job to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-breadcrumbs-713.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-15",
+    "tags": [
+      "forensics",
+      "hackthebox",
+      "ctf"
+    ],
+    "image": "/img/htb-breadcrumbs-713.png",
+    "words": 617,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-910",
+    "title": "Log Parser and Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-910.html",
+    "btn_label": "View Script",
+    "date": "2024-08-14",
+    "tags": [
+      "rust",
+      "tool",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-910.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-810",
+    "title": "AMSI Bypass Collection — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-810.html",
+    "btn_label": "View Script",
+    "date": "2024-08-14",
+    "tags": [
+      "script",
+      "powershell",
+      "python",
+      "fuzzer"
+    ],
+    "image": "/img/script-amsi-bypass-collection-810.png",
+    "words": 325,
+    "readTime": "2 min"
+  }
+]

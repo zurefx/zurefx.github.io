@@ -1,0 +1,231 @@
+[
+  {
+    "id": "note-blue-team-detection-techniques-763",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-763.html",
+    "btn_label": "Read Notes",
+    "date": "2025-01-21",
+    "tags": [
+      "enumeration",
+      "blue-team",
+      "lateral-movement",
+      "persistence",
+      "linux",
+      "oscp"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-763.png",
+    "words": 448,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-dynstr-703",
+    "title": "HackTheBox — Dynstr (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Dynstr. Writable PATH and XSS to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-dynstr-703.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-21",
+    "tags": [
+      "linux",
+      "easy",
+      "hard",
+      "windows",
+      "offsec",
+      "tryhackme"
+    ],
+    "image": "/img/htb-dynstr-703.png",
+    "words": 601,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-719",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-719.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-20",
+    "tags": [
+      "malware-analysis",
+      "heap-exploitation",
+      "rop"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-719.png",
+    "words": 450,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-sense-636",
+    "title": "PwnTillDawn — Sense (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Sense. AlwaysInstallElevated and Writable PATH to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-sense-636.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-20",
+    "tags": [
+      "insane",
+      "offsec",
+      "reversing",
+      "windows",
+      "tryhackme"
+    ],
+    "image": "/img/htb-sense-636.png",
+    "words": 575,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-884",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-884.html",
+    "btn_label": "Read Notes",
+    "date": "2025-01-19",
+    "tags": [
+      "lateral-movement",
+      "blue-team",
+      "persistence",
+      "networking"
+    ],
+    "image": "/img/note-digital-forensics-methodology-884.png",
+    "words": 401,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-friendzone-707",
+    "title": "HackTheBox — FriendZone (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox FriendZone. Writable PATH and XSS to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-friendzone-707.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-19",
+    "tags": [
+      "linux",
+      "web",
+      "offsec",
+      "windows"
+    ],
+    "image": "/img/htb-friendzone-707.png",
+    "words": 562,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-overpass-385",
+    "title": "OffSec Proving Grounds — Overpass (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Overpass. Unconstrained Delegation and Local File Inclusion to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-overpass-385.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-18",
+    "tags": [
+      "insane",
+      "pwntilldawn",
+      "ctf",
+      "linux"
+    ],
+    "image": "/img/htb-overpass-385.png",
+    "words": 521,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-convertmyfund-794",
+    "title": "PwnTillDawn — Convertmyfund (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Convertmyfund. Constrained Delegation and NFS No Root Squash to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-convertmyfund-794.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-18",
+    "tags": [
+      "linux",
+      "reversing",
+      "offsec",
+      "web",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-convertmyfund-794.png",
+    "words": 622,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-blunder-860",
+    "title": "PwnTillDawn — Blunder (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Blunder. Sudo Misconfiguration and Subdomain Takeover to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-blunder-860.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-18",
+    "tags": [
+      "easy",
+      "ctf",
+      "hard",
+      "reversing",
+      "hackthebox",
+      "forensics",
+      "linux"
+    ],
+    "image": "/img/htb-blunder-860.png",
+    "words": 587,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-automated-port-scanner-631",
+    "title": "Automated Port Scanner — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-631.html",
+    "btn_label": "View Script",
+    "date": "2025-01-17",
+    "tags": [
+      "bash",
+      "python",
+      "c",
+      "automation",
+      "scanner",
+      "go",
+      "powershell"
+    ],
+    "image": "/img/script-automated-port-scanner-631.png",
+    "words": 312,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-695",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-695.html",
+    "btn_label": "Read Notes",
+    "date": "2025-01-17",
+    "tags": [
+      "blue-team",
+      "privilege-escalation",
+      "cheatsheet",
+      "networking",
+      "oscp"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-695.png",
+    "words": 540,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ophiuchi-739",
+    "title": "TryHackMe — Ophiuchi (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Ophiuchi. NFS No Root Squash and Pass the Hash to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-ophiuchi-739.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-17",
+    "tags": [
+      "forensics",
+      "medium",
+      "insane"
+    ],
+    "image": "/img/htb-ophiuchi-739.png",
+    "words": 633,
+    "readTime": "4 min",
+    "pick": 1
+  }
+]

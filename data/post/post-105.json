@@ -1,0 +1,235 @@
+[
+  {
+    "id": "note-linux-privilege-escalation-techniques-187",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-187.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-10",
+    "tags": [
+      "networking",
+      "linux",
+      "lateral-movement",
+      "blue-team",
+      "windows"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-187.png",
+    "words": 573,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-convertmyfund-137",
+    "title": "PwnTillDawn — Convertmyfund (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Convertmyfund. LXD Privilege Escalation and CORS Misconfiguration to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-convertmyfund-137.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-10",
+    "tags": [
+      "easy",
+      "tryhackme",
+      "hard",
+      "linux",
+      "medium"
+    ],
+    "image": "/img/htb-convertmyfund-137.png",
+    "words": 705,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-poison-220",
+    "title": "OffSec Proving Grounds — Poison (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Poison. Remote File Inclusion and Cron Job to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-poison-220.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-09",
+    "tags": [
+      "reversing",
+      "linux",
+      "offsec",
+      "easy",
+      "medium",
+      "ctf"
+    ],
+    "image": "/img/htb-poison-220.png",
+    "words": 550,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ice-278",
+    "title": "OffSec Proving Grounds — Ice (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Ice. Sudo Misconfiguration and Kerberoasting to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-ice-278.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-09",
+    "tags": [
+      "linux",
+      "forensics",
+      "hackthebox"
+    ],
+    "image": "/img/htb-ice-278.png",
+    "words": 599,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-armageddon-134",
+    "title": "TryHackMe — Armageddon (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Armageddon. Command Injection and XXE to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-armageddon-134.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-09",
+    "tags": [
+      "insane",
+      "ctf",
+      "windows",
+      "tryhackme",
+      "hard",
+      "medium",
+      "hackthebox"
+    ],
+    "image": "/img/htb-armageddon-134.png",
+    "words": 605,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-680",
+    "title": "Log Parser and Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-680.html",
+    "btn_label": "View Script",
+    "date": "2024-11-08",
+    "tags": [
+      "script",
+      "parser",
+      "tool",
+      "python",
+      "rust",
+      "powershell"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-680.png",
+    "words": 320,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-730",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-730.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-08",
+    "tags": [
+      "networking",
+      "dfir",
+      "persistence"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-730.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-514",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-514.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-07",
+    "tags": [
+      "dfir",
+      "lateral-movement",
+      "enumeration",
+      "windows"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-514.png",
+    "words": 448,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-319",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-319.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-07",
+    "tags": [
+      "lateral-movement",
+      "malware",
+      "persistence",
+      "privilege-escalation",
+      "networking"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-319.png",
+    "words": 554,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-writer-523",
+    "title": "HackTheBox — Writer (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Writer. LXD Privilege Escalation and Remote File Inclusion to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-writer-523.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-07",
+    "tags": [
+      "hackthebox",
+      "web",
+      "easy"
+    ],
+    "image": "/img/htb-writer-523.png",
+    "words": 674,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-scriptkiddie-131",
+    "title": "PwnTillDawn — ScriptKiddie (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn ScriptKiddie. Kerberoasting and XSS to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-scriptkiddie-131.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-07",
+    "tags": [
+      "pwntilldawn",
+      "insane",
+      "forensics",
+      "web",
+      "medium",
+      "ctf"
+    ],
+    "image": "/img/htb-scriptkiddie-131.png",
+    "words": 633,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "project-process-injection-poc-716",
+    "title": "Process Injection PoC",
+    "section": "projects",
+    "description": "Open source security project: Process Injection PoC. Built for the community.",
+    "permalink": "/research/project-process-injection-poc-716.html",
+    "btn_label": "View Project",
+    "date": "2024-11-06",
+    "tags": [
+      "library",
+      "open-source",
+      "extension",
+      "tool",
+      "plugin"
+    ],
+    "image": "/img/project-process-injection-poc-716.png",
+    "words": 198,
+    "readTime": "1 min",
+    "features": [
+      "nmap",
+      "hydra",
+      "impacket"
+    ]
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "id": "htb-shocker-707",
+    "title": "OffSec Proving Grounds — Shocker (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Shocker. Broken Access Control and Constrained Delegation to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-shocker-707.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-28",
+    "tags": [
+      "linux",
+      "hackthebox",
+      "easy",
+      "web"
+    ],
+    "image": "/img/htb-shocker-707.png",
+    "words": 671,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-automated-report-generator-493",
+    "title": "Automated Report Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-493.html",
+    "btn_label": "View Script",
+    "date": "2024-03-27",
+    "tags": [
+      "c",
+      "python",
+      "rust",
+      "script",
+      "bash"
+    ],
+    "image": "/img/script-automated-report-generator-493.png",
+    "words": 360,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-437",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-437.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-27",
+    "tags": [
+      "privilege-escalation",
+      "oscp",
+      "enumeration",
+      "windows",
+      "networking",
+      "blue-team"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-437.png",
+    "words": 241,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-729",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-729.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-27",
+    "tags": [
+      "enumeration",
+      "oscp",
+      "persistence"
+    ],
+    "image": "/img/note-digital-forensics-methodology-729.png",
+    "words": 396,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-nineveh-889",
+    "title": "PwnTillDawn — Nineveh (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Nineveh. NFS No Root Squash and AlwaysInstallElevated to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-nineveh-889.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-27",
+    "tags": [
+      "linux",
+      "active-directory",
+      "hackthebox"
+    ],
+    "image": "/img/htb-nineveh-889.png",
+    "words": 561,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-blunder-351",
+    "title": "OffSec Proving Grounds — Blunder (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Blunder. Unquoted Service Path and DLL Hijacking to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-blunder-351.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-27",
+    "tags": [
+      "pwntilldawn",
+      "easy",
+      "medium",
+      "reversing",
+      "windows"
+    ],
+    "image": "/img/htb-blunder-351.png",
+    "words": 706,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-283",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-283.html",
+    "btn_label": "Read Research",
+    "date": "2024-03-26",
+    "tags": [
+      "format-string",
+      "rop",
+      "uaf"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-283.png",
+    "words": 511,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-722",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-722.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-26",
+    "tags": [
+      "malware",
+      "blue-team",
+      "enumeration",
+      "dfir",
+      "lateral-movement"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-722.png",
+    "words": 630,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-sigma-rule-development-631",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-631.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-25",
+    "tags": [
+      "windows",
+      "oscp",
+      "blue-team"
+    ],
+    "image": "/img/note-sigma-rule-development-631.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-docker-security-hardening-392",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-392.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-25",
+    "tags": [
+      "oscp",
+      "linux",
+      "networking",
+      "cheatsheet",
+      "persistence",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-docker-security-hardening-392.png",
+    "words": 421,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-blunder-529",
+    "title": "TryHackMe — Blunder (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Blunder. LXD Privilege Escalation and SSRF to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-blunder-529.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-25",
+    "tags": [
+      "easy",
+      "forensics",
+      "pwntilldawn",
+      "reversing"
+    ],
+    "image": "/img/htb-blunder-529.png",
+    "words": 537,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-jwt-token-analyzer-151",
+    "title": "JWT Token Analyzer",
+    "section": "projects",
+    "description": "Open source security project: JWT Token Analyzer. Built for the community.",
+    "permalink": "/research/project-jwt-token-analyzer-151.html",
+    "btn_label": "View Project",
+    "date": "2024-03-24",
+    "tags": [
+      "automation",
+      "plugin",
+      "library",
+      "framework",
+      "extension"
+    ],
+    "image": "/img/project-jwt-token-analyzer-151.png",
+    "words": 188,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "nmap",
+      "hashcat"
+    ]
+  }
+]

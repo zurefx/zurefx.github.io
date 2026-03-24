@@ -1,0 +1,221 @@
+[
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-757",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-757.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-23",
+    "tags": [
+      "zero-day",
+      "format-string",
+      "exploit-development"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-75.png",
+    "words": 495,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-421",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-421.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-23",
+    "tags": [
+      "oscp",
+      "networking",
+      "enumeration",
+      "windows"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-421.png",
+    "words": 284,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-report-generator-137",
+    "title": "Automated Report Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-137.html",
+    "btn_label": "View Script",
+    "date": "2025-03-22",
+    "tags": [
+      "parser",
+      "powershell",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-automated-report-generator-137.png",
+    "words": 326,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-436",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-436.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-22",
+    "tags": [
+      "kernel",
+      "uaf",
+      "buffer-overflow",
+      "cve",
+      "malware-analysis"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 433,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tabby-201",
+    "title": "TryHackMe — Tabby (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tabby. DCSync and XSS to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-tabby-201.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-22",
+    "tags": [
+      "medium",
+      "hard",
+      "insane"
+    ],
+    "image": "/img/htb-tabby-201.png",
+    "words": 631,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-armageddon-965",
+    "title": "OffSec Proving Grounds — Armageddon (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Armageddon. ACL Abuse and Silver Ticket to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-armageddon-965.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-22",
+    "tags": [
+      "windows",
+      "forensics",
+      "ctf"
+    ],
+    "image": "/img/htb-armageddon-965.png",
+    "words": 592,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-205",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-205.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-21",
+    "tags": [
+      "persistence",
+      "linux",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-205.png",
+    "words": 613,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-430",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-430.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-21",
+    "tags": [
+      "malware",
+      "dfir",
+      "cheatsheet",
+      "windows",
+      "blue-team",
+      "oscp"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-430.png",
+    "words": 332,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-483",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-483.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-21",
+    "tags": [
+      "enumeration",
+      "oscp",
+      "networking",
+      "persistence",
+      "lateral-movement"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-483.png",
+    "words": 639,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-spectra-572",
+    "title": "VulnHub — Spectra (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Spectra. Subdomain Takeover and DNS Rebinding to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-spectra-572.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-21",
+    "tags": [
+      "hackthebox",
+      "tryhackme",
+      "forensics"
+    ],
+    "image": "/img/htb-spectra-572.png",
+    "words": 614,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-295",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-295.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-20",
+    "tags": [
+      "cve",
+      "exploit-development",
+      "uaf",
+      "kernel",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 462,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-overpass-718",
+    "title": "PwnTillDawn — Overpass (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Overpass. AS-REP Roasting and GPP Password to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-overpass-718.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-20",
+    "tags": [
+      "forensics",
+      "tryhackme",
+      "reversing",
+      "easy"
+    ],
+    "image": "/img/htb-overpass-718.png",
+    "words": 594,
+    "readTime": "3 min",
+    "pick": 1
+  }
+]

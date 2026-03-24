@@ -1,0 +1,235 @@
+[
+  {
+    "id": "research-fuzzing-embedded-firmware-284",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-284.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-19",
+    "tags": [
+      "uaf",
+      "zero-day",
+      "format-string",
+      "buffer-overflow",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-284.png",
+    "words": 452,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-armageddon-329",
+    "title": "OffSec Proving Grounds — Armageddon (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Armageddon. Pass the Hash and GPP Password to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-armageddon-329.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-19",
+    "tags": [
+      "web",
+      "hard",
+      "ctf",
+      "forensics",
+      "hackthebox",
+      "windows"
+    ],
+    "image": "/img/htb-armageddon-329.png",
+    "words": 662,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-kubernetes-security-assessment-441",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-441.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-18",
+    "tags": [
+      "enumeration",
+      "dfir",
+      "lateral-movement",
+      "cheatsheet",
+      "windows",
+      "networking"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-441.png",
+    "words": 203,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-breadcrumbs-222",
+    "title": "PwnTillDawn — Breadcrumbs (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Breadcrumbs. SUID Binary and Sudo Misconfiguration to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-breadcrumbs-222.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-17",
+    "tags": [
+      "easy",
+      "pwntilldawn",
+      "reversing"
+    ],
+    "image": "/img/htb-breadcrumbs-222.png",
+    "words": 622,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-601",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-601.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-16",
+    "tags": [
+      "shellcode",
+      "zero-day",
+      "exploit-development",
+      "malware-analysis",
+      "heap-exploitation",
+      "rop"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-601.png",
+    "words": 432,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-506",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-506.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-16",
+    "tags": [
+      "cheatsheet",
+      "enumeration",
+      "persistence",
+      "dfir",
+      "linux"
+    ],
+    "image": "/img/note-active-directory-attack-paths-506.png",
+    "words": 473,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-444",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-444.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-15",
+    "tags": [
+      "malware",
+      "oscp",
+      "dfir"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-444.png",
+    "words": 213,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-poison-641",
+    "title": "VulnHub — Poison (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Poison. Remote Code Execution and XSS to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-poison-641.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-15",
+    "tags": [
+      "forensics",
+      "linux",
+      "insane",
+      "easy",
+      "hackthebox",
+      "web"
+    ],
+    "image": "/img/htb-poison-641.png",
+    "words": 512,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-446",
+    "title": "Subdomain Enumeration Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-446.html",
+    "btn_label": "View Script",
+    "date": "2024-10-14",
+    "tags": [
+      "automation",
+      "python",
+      "scanner",
+      "bash",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-446.png",
+    "words": 367,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-262",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-262.html",
+    "btn_label": "Read Research",
+    "date": "2024-10-14",
+    "tags": [
+      "cve",
+      "kernel",
+      "zero-day",
+      "rop",
+      "format-string",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-262.png",
+    "words": 477,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-crossfit-933",
+    "title": "TryHackMe — Crossfit (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Crossfit. NFS No Root Squash and CSRF to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-crossfit-933.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-14",
+    "tags": [
+      "tryhackme",
+      "hard",
+      "reversing",
+      "forensics",
+      "insane"
+    ],
+    "image": "/img/htb-crossfit-933.png",
+    "words": 534,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-909",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-909.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-12",
+    "tags": [
+      "privilege-escalation",
+      "blue-team",
+      "cheatsheet",
+      "windows",
+      "networking"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-909.png",
+    "words": 658,
+    "readTime": "4 min"
+  }
+]

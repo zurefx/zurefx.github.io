@@ -1,0 +1,221 @@
+[
+  {
+    "id": "htb-forge-801",
+    "title": "VulnHub — Forge (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Forge. SeDebugPrivilege and XSS to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-forge-801.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-26",
+    "tags": [
+      "tryhackme",
+      "offsec",
+      "pwntilldawn",
+      "linux",
+      "insane"
+    ],
+    "image": "/img/htb-forge-801.png",
+    "words": 698,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-170",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-170.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-24",
+    "tags": [
+      "enumeration",
+      "networking",
+      "blue-team",
+      "privilege-escalation",
+      "oscp"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-170.png",
+    "words": 538,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-831",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-831.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-24",
+    "tags": [
+      "linux",
+      "malware",
+      "oscp",
+      "cheatsheet"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-831.png",
+    "words": 392,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-sense-294",
+    "title": "PwnTillDawn — Sense (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Sense. DNS Rebinding and Resource-Based Constrained Delegation to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-sense-294.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-24",
+    "tags": [
+      "tryhackme",
+      "forensics",
+      "web",
+      "hard"
+    ],
+    "image": "/img/htb-sense-294.png",
+    "words": 596,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-deja-vu-870",
+    "title": "HackTheBox — Deja Vu (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Deja Vu. NFS No Root Squash and SQL Injection to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-deja-vu-870.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-24",
+    "tags": [
+      "offsec",
+      "forensics",
+      "hackthebox",
+      "reversing",
+      "pwntilldawn",
+      "windows"
+    ],
+    "image": "/img/htb-deja-vu-870.png",
+    "words": 660,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-red-team-infrastructure-design-709",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-709.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-23",
+    "tags": [
+      "uaf",
+      "cve",
+      "buffer-overflow",
+      "format-string"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-709.png",
+    "words": 477,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-985",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-985.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-23",
+    "tags": [
+      "format-string",
+      "kernel",
+      "shellcode"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-985.png",
+    "words": 489,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-crossfit-426",
+    "title": "TryHackMe — Crossfit (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Crossfit. Unquoted Service Path and Broken Access Control to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-crossfit-426.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-23",
+    "tags": [
+      "insane",
+      "hackthebox",
+      "offsec",
+      "ctf",
+      "reversing"
+    ],
+    "image": "/img/htb-crossfit-426.png",
+    "words": 557,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-docker-security-hardening-636",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-636.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-22",
+    "tags": [
+      "blue-team",
+      "networking",
+      "cheatsheet",
+      "linux",
+      "windows"
+    ],
+    "image": "/img/note-docker-security-hardening-636.png",
+    "words": 690,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-908",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-908.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-21",
+    "tags": [
+      "windows",
+      "oscp",
+      "networking",
+      "persistence"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-908.png",
+    "words": 227,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-217",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-217.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-21",
+    "tags": [
+      "linux",
+      "privilege-escalation",
+      "dfir"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-217.png",
+    "words": 218,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-seal-438",
+    "title": "PwnTillDawn — Seal (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Seal. LXD Privilege Escalation and Unquoted Service Path to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-seal-438.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-21",
+    "tags": [
+      "forensics",
+      "tryhackme",
+      "linux"
+    ],
+    "image": "/img/htb-seal-438.png",
+    "words": 637,
+    "readTime": "4 min"
+  }
+]

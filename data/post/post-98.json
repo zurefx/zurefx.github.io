@@ -1,0 +1,233 @@
+[
+  {
+    "id": "script-dns-resolver-and-brute-forcer-414",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-414.html",
+    "btn_label": "View Script",
+    "date": "2024-12-18",
+    "tags": [
+      "automation",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-414.png",
+    "words": 290,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-traverxec-103",
+    "title": "PwnTillDawn — Traverxec (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Traverxec. ACL Abuse and Unconstrained Delegation to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-traverxec-103.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-18",
+    "tags": [
+      "medium",
+      "forensics",
+      "web",
+      "hard"
+    ],
+    "image": "/img/htb-traverxec-103.png",
+    "words": 608,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-sunday-376",
+    "title": "VulnHub — Sunday (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Sunday. IDOR and Path Traversal to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-sunday-376.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-18",
+    "tags": [
+      "tryhackme",
+      "web",
+      "reversing"
+    ],
+    "image": "/img/htb-sunday-376.png",
+    "words": 625,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-doctor-597",
+    "title": "PwnTillDawn — Doctor (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Doctor. ACL Abuse and SQL Injection to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-doctor-597.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-18",
+    "tags": [
+      "offsec",
+      "hard",
+      "easy",
+      "medium",
+      "pwntilldawn",
+      "ctf",
+      "hackthebox"
+    ],
+    "image": "/img/htb-doctor-597.png",
+    "words": 600,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-731",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-731.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-17",
+    "tags": [
+      "persistence",
+      "cheatsheet",
+      "lateral-movement",
+      "oscp"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-731.png",
+    "words": 560,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-670",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-670.html",
+    "btn_label": "View Script",
+    "date": "2024-12-16",
+    "tags": [
+      "rust",
+      "scanner",
+      "parser",
+      "python",
+      "c",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-670.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-yara-rule-writing-429",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-429.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-16",
+    "tags": [
+      "oscp",
+      "windows",
+      "dfir",
+      "malware",
+      "enumeration"
+    ],
+    "image": "/img/note-yara-rule-writing-429.png",
+    "words": 518,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-beep-403",
+    "title": "HackTheBox — Beep (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Beep. GPP Password and SUID Binary to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-beep-403.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-16",
+    "tags": [
+      "ctf",
+      "offsec",
+      "easy",
+      "hard",
+      "windows",
+      "pwntilldawn",
+      "active-directory"
+    ],
+    "image": "/img/htb-beep-403.png",
+    "words": 617,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-953",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-953.html",
+    "btn_label": "View Script",
+    "date": "2024-12-15",
+    "tags": [
+      "c",
+      "script",
+      "tool",
+      "go",
+      "automation",
+      "rust"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-953.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-buffer-532",
+    "title": "VulnHub — Buffer (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Buffer. Unquoted Service Path and XXE to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-buffer-532.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-15",
+    "tags": [
+      "medium",
+      "easy",
+      "hard",
+      "windows",
+      "insane",
+      "forensics"
+    ],
+    "image": "/img/htb-buffer-532.png",
+    "words": 662,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-646",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-646.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-14",
+    "tags": [
+      "dfir",
+      "privilege-escalation",
+      "enumeration"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-646.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-pikaboo-284",
+    "title": "PwnTillDawn — Pikaboo (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Pikaboo. SSRF and LAPS Abuse to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-pikaboo-284.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-14",
+    "tags": [
+      "easy",
+      "hard",
+      "forensics",
+      "medium",
+      "active-directory"
+    ],
+    "image": "/img/htb-pikaboo-284.png",
+    "words": 616,
+    "readTime": "4 min",
+    "pick": 1
+  }
+]

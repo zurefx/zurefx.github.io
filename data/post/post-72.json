@@ -1,0 +1,230 @@
+[
+  {
+    "id": "htb-node-476",
+    "title": "OffSec Proving Grounds — Node (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Node. SUID Binary and Sudo Misconfiguration to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-node-476.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-27",
+    "tags": [
+      "linux",
+      "forensics",
+      "hard",
+      "easy",
+      "ctf",
+      "web"
+    ],
+    "image": "/img/htb-node-476.png",
+    "words": 572,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-482",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-482.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-26",
+    "tags": [
+      "zero-day",
+      "exploit-development",
+      "buffer-overflow",
+      "cve",
+      "kernel",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-482.png",
+    "words": 449,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-899",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-899.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-26",
+    "tags": [
+      "privilege-escalation",
+      "dfir",
+      "blue-team",
+      "networking",
+      "enumeration",
+      "lateral-movement"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-899.png",
+    "words": 436,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-process-injection-poc-505",
+    "title": "Process Injection PoC — Go",
+    "section": "scripting",
+    "description": "A Go script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-505.html",
+    "btn_label": "View Script",
+    "date": "2025-04-25",
+    "tags": [
+      "bash",
+      "tool",
+      "automation",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-process-injection-poc-505.png",
+    "words": 376,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-203",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-203.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-25",
+    "tags": [
+      "windows",
+      "lateral-movement",
+      "blue-team"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-203.png",
+    "words": 707,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-523",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-523.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-25",
+    "tags": [
+      "lateral-movement",
+      "cheatsheet",
+      "oscp",
+      "linux",
+      "blue-team",
+      "enumeration"
+    ],
+    "image": "/img/note-active-directory-attack-paths-523.png",
+    "words": 330,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-internal-468",
+    "title": "PwnTillDawn — Internal (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Internal. Pass the Ticket and Kerberoasting to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-internal-468.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-25",
+    "tags": [
+      "active-directory",
+      "linux",
+      "insane",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-internal-468.png",
+    "words": 600,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-doctor-370",
+    "title": "TryHackMe — Doctor (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Doctor. Open Redirect and Pass the Hash to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-doctor-370.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-25",
+    "tags": [
+      "pwntilldawn",
+      "windows",
+      "active-directory",
+      "hackthebox",
+      "reversing"
+    ],
+    "image": "/img/htb-doctor-370.png",
+    "words": 579,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-web-crawler-and-spider-559",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-559.html",
+    "btn_label": "View Script",
+    "date": "2025-04-24",
+    "tags": [
+      "powershell",
+      "rust",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-web-crawler-and-spider-559.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-sigma-rule-development-102",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-102.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-24",
+    "tags": [
+      "networking",
+      "linux",
+      "windows",
+      "cheatsheet"
+    ],
+    "image": "/img/note-sigma-rule-development-102.png",
+    "words": 531,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-spectra-803",
+    "title": "VulnHub — Spectra (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Spectra. Remote Code Execution and GPP Password to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-spectra-803.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-24",
+    "tags": [
+      "active-directory",
+      "forensics",
+      "tryhackme",
+      "web"
+    ],
+    "image": "/img/htb-spectra-803.png",
+    "words": 567,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-red-team-infrastructure-design-293",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-293.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-23",
+    "tags": [
+      "malware-analysis",
+      "buffer-overflow",
+      "heap-exploitation",
+      "kernel",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-293.png",
+    "words": 493,
+    "readTime": "3 min"
+  }
+]

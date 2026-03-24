@@ -1,0 +1,226 @@
+[
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-898",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-898.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-19",
+    "tags": [
+      "dfir",
+      "malware",
+      "oscp"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-898.png",
+    "words": 586,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tabby-437",
+    "title": "PwnTillDawn — Tabby (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Tabby. Sudo Misconfiguration and Open Redirect to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-tabby-437.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-18",
+    "tags": [
+      "web",
+      "ctf",
+      "medium"
+    ],
+    "image": "/img/htb-tabby-437.png",
+    "words": 621,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-894",
+    "title": "API Security Testing Framework — Bash",
+    "section": "scripting",
+    "description": "A Bash script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-894.html",
+    "btn_label": "View Script",
+    "date": "2024-07-17",
+    "tags": [
+      "go",
+      "scanner",
+      "fuzzer",
+      "rust",
+      "bash"
+    ],
+    "image": "/img/script-api-security-testing-framework-894.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-427",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-427.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-17",
+    "tags": [
+      "oscp",
+      "persistence",
+      "linux"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-427.png",
+    "words": 386,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-thenotebook-710",
+    "title": "HackTheBox — TheNotebook (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox TheNotebook. AS-REP Roasting and Remote File Inclusion to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-thenotebook-710.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-17",
+    "tags": [
+      "reversing",
+      "offsec",
+      "windows",
+      "web",
+      "forensics"
+    ],
+    "image": "/img/htb-thenotebook-710.png",
+    "words": 582,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-skynet-138",
+    "title": "PwnTillDawn — Skynet (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Skynet. Remote File Inclusion and Path Traversal to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-skynet-138.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-17",
+    "tags": [
+      "easy",
+      "linux",
+      "pwntilldawn",
+      "reversing",
+      "hard",
+      "tryhackme"
+    ],
+    "image": "/img/htb-skynet-138.png",
+    "words": 624,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-anthem-367",
+    "title": "TryHackMe — Anthem (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Anthem. Unquoted Service Path and Silver Ticket to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-anthem-367.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-17",
+    "tags": [
+      "active-directory",
+      "insane",
+      "windows"
+    ],
+    "image": "/img/htb-anthem-367.png",
+    "words": 642,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-atom-793",
+    "title": "VulnHub — Atom (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Atom. SQL Injection and Resource-Based Constrained Delegation to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-atom-793.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-16",
+    "tags": [
+      "linux",
+      "tryhackme",
+      "medium",
+      "ctf",
+      "windows",
+      "hackthebox"
+    ],
+    "image": "/img/htb-atom-793.png",
+    "words": 545,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-108",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-108.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-14",
+    "tags": [
+      "malware-analysis",
+      "heap-exploitation",
+      "cve",
+      "uaf"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-10.png",
+    "words": 488,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-seal-205",
+    "title": "OffSec Proving Grounds — Seal (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Seal. XXE and Open Redirect to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-seal-205.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-14",
+    "tags": [
+      "reversing",
+      "linux",
+      "windows",
+      "hackthebox",
+      "hard",
+      "offsec",
+      "easy"
+    ],
+    "image": "/img/htb-seal-205.png",
+    "words": 603,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-buff-478",
+    "title": "HackTheBox — Buff (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Buff. Sudo Misconfiguration and NTLM Relay to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-buff-478.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-14",
+    "tags": [
+      "windows",
+      "linux",
+      "web",
+      "easy",
+      "ctf"
+    ],
+    "image": "/img/htb-buff-478.png",
+    "words": 608,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-docker-security-hardening-542",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-542.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-13",
+    "tags": [
+      "oscp",
+      "linux",
+      "malware",
+      "cheatsheet",
+      "blue-team"
+    ],
+    "image": "/img/note-docker-security-hardening-542.png",
+    "words": 478,
+    "readTime": "3 min"
+  }
+]

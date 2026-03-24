@@ -1,0 +1,234 @@
+[
+  {
+    "id": "note-common-ctf-tricks-and-techniques-923",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-923.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-14",
+    "tags": [
+      "dfir",
+      "oscp",
+      "malware",
+      "persistence"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-923.png",
+    "words": 469,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-439",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-439.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-14",
+    "tags": [
+      "networking",
+      "persistence",
+      "linux",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-439.png",
+    "words": 606,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-319",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-319.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-14",
+    "tags": [
+      "cheatsheet",
+      "networking",
+      "lateral-movement",
+      "dfir",
+      "persistence",
+      "oscp"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-319.png",
+    "words": 668,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-spectra-100",
+    "title": "OffSec Proving Grounds — Spectra (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Spectra. AlwaysInstallElevated and XSS to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-spectra-100.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-13",
+    "tags": [
+      "ctf",
+      "medium",
+      "windows",
+      "tryhackme",
+      "hackthebox",
+      "insane",
+      "web"
+    ],
+    "image": "/img/htb-spectra-100.png",
+    "words": 558,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-mustacchio-244",
+    "title": "TryHackMe — Mustacchio (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Mustacchio. Unconstrained Delegation and SSRF to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-mustacchio-244.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-13",
+    "tags": [
+      "offsec",
+      "web",
+      "forensics",
+      "insane",
+      "windows",
+      "active-directory",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-mustacchio-244.png",
+    "words": 551,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-friendzone-946",
+    "title": "VulnHub — FriendZone (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub FriendZone. Subdomain Takeover and Writable PATH to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-friendzone-946.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-13",
+    "tags": [
+      "medium",
+      "active-directory",
+      "pwntilldawn",
+      "windows",
+      "ctf",
+      "offsec",
+      "hackthebox"
+    ],
+    "image": "/img/htb-friendzone-946.png",
+    "words": 599,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-automated-report-generator-222",
+    "title": "Automated Report Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-222.html",
+    "btn_label": "View Script",
+    "date": "2024-09-12",
+    "tags": [
+      "python",
+      "go",
+      "rust",
+      "c",
+      "powershell"
+    ],
+    "image": "/img/script-automated-report-generator-222.png",
+    "words": 348,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-924",
+    "title": "API Security Testing Framework — Go",
+    "section": "scripting",
+    "description": "A Go script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-924.html",
+    "btn_label": "View Script",
+    "date": "2024-09-11",
+    "tags": [
+      "c",
+      "scanner",
+      "script",
+      "python",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-api-security-testing-framework-924.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-244",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-244.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-11",
+    "tags": [
+      "windows",
+      "enumeration",
+      "malware"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-244.png",
+    "words": 603,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-nineveh-928",
+    "title": "OffSec Proving Grounds — Nineveh (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Nineveh. Golden Ticket and Cron Job to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-nineveh-928.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-11",
+    "tags": [
+      "linux",
+      "offsec",
+      "hard",
+      "ctf"
+    ],
+    "image": "/img/htb-nineveh-928.png",
+    "words": 584,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-220",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-220.html",
+    "btn_label": "View Script",
+    "date": "2024-09-10",
+    "tags": [
+      "script",
+      "c",
+      "scanner",
+      "parser",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-220.png",
+    "words": 257,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-373",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-373.html",
+    "btn_label": "View Script",
+    "date": "2024-09-10",
+    "tags": [
+      "rust",
+      "powershell",
+      "go",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-373.png",
+    "words": 281,
+    "readTime": "2 min"
+  }
+]

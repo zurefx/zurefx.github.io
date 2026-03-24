@@ -1,0 +1,241 @@
+[
+  {
+    "id": "note-malware-analysis-environment-setup-911",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-911.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-14",
+    "tags": [
+      "blue-team",
+      "windows",
+      "privilege-escalation",
+      "enumeration",
+      "linux",
+      "persistence"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-911.png",
+    "words": 667,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-378",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-378.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-13",
+    "tags": [
+      "privilege-escalation",
+      "dfir",
+      "oscp",
+      "persistence"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-378.png",
+    "words": 360,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-worker-518",
+    "title": "PwnTillDawn — Worker (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Worker. Weak Service Permissions and SSRF to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-worker-518.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-13",
+    "tags": [
+      "insane",
+      "windows",
+      "offsec",
+      "reversing",
+      "linux"
+    ],
+    "image": "/img/htb-worker-518.png",
+    "words": 558,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-cap-779",
+    "title": "OffSec Proving Grounds — Cap (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Cap. DNS Rebinding and LXD Privilege Escalation to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-cap-779.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-13",
+    "tags": [
+      "insane",
+      "active-directory",
+      "windows",
+      "hackthebox",
+      "tryhackme"
+    ],
+    "image": "/img/htb-cap-779.png",
+    "words": 657,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-kubernetes-security-assessment-800",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-800.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-11",
+    "tags": [
+      "dfir",
+      "windows",
+      "blue-team",
+      "persistence",
+      "networking",
+      "oscp"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-800.png",
+    "words": 527,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-169",
+    "title": "Reverse Shell Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-169.html",
+    "btn_label": "View Script",
+    "date": "2025-10-10",
+    "tags": [
+      "parser",
+      "go",
+      "bash",
+      "tool",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-reverse-shell-generator-169.png",
+    "words": 286,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-custom-wordlist-generator-197",
+    "title": "Custom Wordlist Generator",
+    "section": "projects",
+    "description": "Open source security project: Custom Wordlist Generator. Built for the community.",
+    "permalink": "/research/project-custom-wordlist-generator-197.html",
+    "btn_label": "View Project",
+    "date": "2025-10-10",
+    "tags": [
+      "library",
+      "open-source",
+      "cli",
+      "automation"
+    ],
+    "image": "/img/project-custom-wordlist-generator-197.png",
+    "words": 181,
+    "readTime": "1 min",
+    "features": [
+      "gobuster",
+      "impacket",
+      "john"
+    ]
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-171",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-171.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-10",
+    "tags": [
+      "enumeration",
+      "cheatsheet",
+      "malware",
+      "blue-team"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-171.png",
+    "words": 203,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-armageddon-322",
+    "title": "OffSec Proving Grounds — Armageddon (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Armageddon. SeImpersonatePrivilege and Remote File Inclusion to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-armageddon-322.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-10",
+    "tags": [
+      "linux",
+      "medium",
+      "windows",
+      "tryhackme",
+      "hard",
+      "forensics",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-armageddon-322.png",
+    "words": 620,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-704",
+    "title": "C2 Beacon Simulator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-704.html",
+    "btn_label": "View Script",
+    "date": "2025-10-09",
+    "tags": [
+      "c",
+      "tool",
+      "powershell",
+      "python",
+      "bash"
+    ],
+    "image": "/img/script-c2-beacon-simulator-704.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-log-parser-and-analyzer-501",
+    "title": "Log Parser and Analyzer",
+    "section": "projects",
+    "description": "Open source security project: Log Parser and Analyzer. Built for the community.",
+    "permalink": "/research/project-log-parser-and-analyzer-501.html",
+    "btn_label": "View Project",
+    "date": "2025-10-09",
+    "tags": [
+      "cli",
+      "extension",
+      "framework"
+    ],
+    "image": "/img/project-log-parser-and-analyzer-501.png",
+    "words": 208,
+    "readTime": "2 min",
+    "features": [
+      "hydra",
+      "evil-winrm",
+      "nmap"
+    ]
+  },
+  {
+    "id": "htb-jarvis-802",
+    "title": "VulnHub — Jarvis (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Jarvis. SSRF and Resource-Based Constrained Delegation to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-jarvis-802.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-09",
+    "tags": [
+      "medium",
+      "reversing",
+      "tryhackme",
+      "linux"
+    ],
+    "image": "/img/htb-jarvis-802.png",
+    "words": 545,
+    "readTime": "3 min"
+  }
+]

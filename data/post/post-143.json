@@ -1,0 +1,237 @@
+[
+  {
+    "id": "htb-sunday-351",
+    "title": "HackTheBox — Sunday (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Sunday. Kerberoasting and Pass the Ticket to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-sunday-351.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-11",
+    "tags": [
+      "windows",
+      "easy",
+      "reversing",
+      "pwntilldawn",
+      "web"
+    ],
+    "image": "/img/htb-sunday-351.png",
+    "words": 548,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-scriptkiddie-157",
+    "title": "PwnTillDawn — ScriptKiddie (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn ScriptKiddie. Silver Ticket and DLL Hijacking to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-scriptkiddie-157.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-11",
+    "tags": [
+      "hard",
+      "easy",
+      "forensics",
+      "ctf",
+      "offsec",
+      "reversing"
+    ],
+    "image": "/img/htb-scriptkiddie-157.png",
+    "words": 659,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-passage-834",
+    "title": "OffSec Proving Grounds — Passage (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Passage. Pass the Hash and Unconstrained Delegation to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-passage-834.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-11",
+    "tags": [
+      "tryhackme",
+      "offsec",
+      "linux",
+      "forensics"
+    ],
+    "image": "/img/htb-passage-834.png",
+    "words": 650,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-armageddon-880",
+    "title": "TryHackMe — Armageddon (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Armageddon. SSRF and Docker Escape to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-armageddon-880.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-11",
+    "tags": [
+      "active-directory",
+      "insane",
+      "easy",
+      "web",
+      "hard"
+    ],
+    "image": "/img/htb-armageddon-880.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-851",
+    "title": "Payload Obfuscation Script — Go",
+    "section": "scripting",
+    "description": "A Go script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-851.html",
+    "btn_label": "View Script",
+    "date": "2024-05-10",
+    "tags": [
+      "scanner",
+      "parser",
+      "c",
+      "go"
+    ],
+    "image": "/img/script-payload-obfuscation-script-851.png",
+    "words": 271,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-534",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-534.html",
+    "btn_label": "Read Research",
+    "date": "2024-05-10",
+    "tags": [
+      "kernel",
+      "zero-day",
+      "uaf"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-534.png",
+    "words": 466,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-971",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-971.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-09",
+    "tags": [
+      "cheatsheet",
+      "oscp",
+      "malware",
+      "persistence",
+      "windows"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-971.png",
+    "words": 440,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-delivery-466",
+    "title": "VulnHub — Delivery (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Delivery. Remote File Inclusion and DCSync to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-delivery-466.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-09",
+    "tags": [
+      "hackthebox",
+      "pwntilldawn",
+      "hard",
+      "ctf",
+      "medium",
+      "web"
+    ],
+    "image": "/img/htb-delivery-466.png",
+    "words": 558,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-bucket-185",
+    "title": "OffSec Proving Grounds — Bucket (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Bucket. NFS No Root Squash and XSS to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-bucket-185.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-08",
+    "tags": [
+      "reversing",
+      "windows",
+      "linux",
+      "tryhackme",
+      "offsec",
+      "medium"
+    ],
+    "image": "/img/htb-bucket-185.png",
+    "words": 612,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-470",
+    "title": "AMSI Bypass Collection — Go",
+    "section": "scripting",
+    "description": "A Go script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-470.html",
+    "btn_label": "View Script",
+    "date": "2024-05-07",
+    "tags": [
+      "rust",
+      "bash",
+      "script",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-amsi-bypass-collection-470.png",
+    "words": 284,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-log-parser-and-analyzer-347",
+    "title": "Log Parser and Analyzer",
+    "section": "projects",
+    "description": "Open source security project: Log Parser and Analyzer. Built for the community.",
+    "permalink": "/research/project-log-parser-and-analyzer-347.html",
+    "btn_label": "View Project",
+    "date": "2024-05-07",
+    "tags": [
+      "security",
+      "tool",
+      "cli",
+      "open-source",
+      "extension"
+    ],
+    "image": "/img/project-log-parser-and-analyzer-347.png",
+    "words": 204,
+    "readTime": "2 min",
+    "features": [
+      "gobuster",
+      "hashcat",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "htb-cronos-616",
+    "title": "TryHackMe — Cronos (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Cronos. NTLM Relay and Command Injection to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-cronos-616.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-07",
+    "tags": [
+      "linux",
+      "hackthebox",
+      "active-directory"
+    ],
+    "image": "/img/htb-cronos-616.png",
+    "words": 512,
+    "readTime": "3 min"
+  }
+]

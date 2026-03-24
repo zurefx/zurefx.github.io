@@ -1,0 +1,233 @@
+[
+  {
+    "id": "note-digital-forensics-methodology-305",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-305.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-21",
+    "tags": [
+      "lateral-movement",
+      "linux",
+      "dfir",
+      "blue-team",
+      "persistence"
+    ],
+    "image": "/img/note-digital-forensics-methodology-305.png",
+    "words": 410,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-504",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-504.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-20",
+    "tags": [
+      "cve",
+      "heap-exploitation",
+      "exploit-development",
+      "format-string"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-504.png",
+    "words": 480,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-868",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-868.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-20",
+    "tags": [
+      "lateral-movement",
+      "enumeration",
+      "dfir",
+      "networking"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-868.png",
+    "words": 361,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-911",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-911.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-20",
+    "tags": [
+      "cheatsheet",
+      "malware",
+      "privilege-escalation",
+      "dfir",
+      "networking",
+      "blue-team"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-911.png",
+    "words": 801,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-cereal-348",
+    "title": "HackTheBox — Cereal (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Cereal. Unconstrained Delegation and SeDebugPrivilege to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-cereal-348.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-20",
+    "tags": [
+      "medium",
+      "hard",
+      "insane",
+      "offsec",
+      "pwntilldawn",
+      "easy"
+    ],
+    "image": "/img/htb-cereal-348.png",
+    "words": 614,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-tenet-388",
+    "title": "TryHackMe — Tenet (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tenet. SeImpersonatePrivilege and DLL Hijacking to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-tenet-388.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-19",
+    "tags": [
+      "insane",
+      "pwntilldawn",
+      "ctf",
+      "active-directory",
+      "tryhackme",
+      "hackthebox",
+      "forensics"
+    ],
+    "image": "/img/htb-tenet-388.png",
+    "words": 581,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-spectra-198",
+    "title": "HackTheBox — Spectra (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Spectra. IDOR and Pass the Hash to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-spectra-198.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-19",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "reversing",
+      "active-directory",
+      "hard"
+    ],
+    "image": "/img/htb-spectra-198.png",
+    "words": 664,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-465",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-465.html",
+    "btn_label": "View Script",
+    "date": "2026-01-18",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "tool",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-465.png",
+    "words": 360,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-521",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-521.html",
+    "btn_label": "View Script",
+    "date": "2026-01-18",
+    "tags": [
+      "rust",
+      "c",
+      "fuzzer",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-521.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-938",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-938.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-18",
+    "tags": [
+      "enumeration",
+      "malware",
+      "networking"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-938.png",
+    "words": 381,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-129",
+    "title": "Reverse Shell Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-129.html",
+    "btn_label": "View Script",
+    "date": "2026-01-17",
+    "tags": [
+      "tool",
+      "rust",
+      "go",
+      "bash",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-reverse-shell-generator-129.png",
+    "words": 363,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-373",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-373.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-17",
+    "tags": [
+      "cheatsheet",
+      "privilege-escalation",
+      "networking",
+      "oscp",
+      "windows",
+      "persistence"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-373.png",
+    "words": 352,
+    "readTime": "2 min"
+  }
+]

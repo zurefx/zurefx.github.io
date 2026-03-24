@@ -1,0 +1,227 @@
+[
+  {
+    "id": "note-buffer-overflow-exploitation-guide-429",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-429.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-31",
+    "tags": [
+      "linux",
+      "blue-team",
+      "dfir"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-429.png",
+    "words": 359,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-418",
+    "title": "C2 Beacon Simulator — Go",
+    "section": "scripting",
+    "description": "A Go script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-418.html",
+    "btn_label": "View Script",
+    "date": "2025-10-30",
+    "tags": [
+      "automation",
+      "c",
+      "script",
+      "go"
+    ],
+    "image": "/img/script-c2-beacon-simulator-418.png",
+    "words": 318,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-429",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-429.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-30",
+    "tags": [
+      "networking",
+      "persistence",
+      "oscp",
+      "windows",
+      "blue-team"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-429.png",
+    "words": 543,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-worker-601",
+    "title": "TryHackMe — Worker (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Worker. SUID Binary and Silver Ticket to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-worker-601.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-30",
+    "tags": [
+      "windows",
+      "forensics",
+      "insane",
+      "tryhackme"
+    ],
+    "image": "/img/htb-worker-601.png",
+    "words": 626,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-omni-748",
+    "title": "PwnTillDawn — Omni (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Omni. Local File Inclusion and NTLM Relay to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-omni-748.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-30",
+    "tags": [
+      "reversing",
+      "hard",
+      "offsec",
+      "active-directory",
+      "windows"
+    ],
+    "image": "/img/htb-omni-748.png",
+    "words": 527,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-406",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-406.html",
+    "btn_label": "View Script",
+    "date": "2025-10-29",
+    "tags": [
+      "go",
+      "script",
+      "automation",
+      "scanner",
+      "parser",
+      "fuzzer",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-406.png",
+    "words": 334,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-res-668",
+    "title": "PwnTillDawn — Res (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Res. SSRF and DNS Rebinding to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-res-668.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-29",
+    "tags": [
+      "hackthebox",
+      "web",
+      "linux",
+      "medium"
+    ],
+    "image": "/img/htb-res-668.png",
+    "words": 605,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-grandpa-793",
+    "title": "HackTheBox — Grandpa (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Grandpa. Pass the Ticket and Insecure Deserialization to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-grandpa-793.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-28",
+    "tags": [
+      "medium",
+      "hard",
+      "easy",
+      "tryhackme",
+      "hackthebox",
+      "offsec",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-grandpa-793.png",
+    "words": 576,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-858",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-858.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-27",
+    "tags": [
+      "oscp",
+      "privilege-escalation",
+      "persistence"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-858.png",
+    "words": 369,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-979",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-979.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-27",
+    "tags": [
+      "windows",
+      "privilege-escalation",
+      "persistence",
+      "oscp",
+      "cheatsheet"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-979.png",
+    "words": 367,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-vulnnet-463",
+    "title": "PwnTillDawn — Vulnnet (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Vulnnet. DLL Hijacking and IDOR to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-vulnnet-463.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-27",
+    "tags": [
+      "forensics",
+      "windows",
+      "easy",
+      "insane"
+    ],
+    "image": "/img/htb-vulnnet-463.png",
+    "words": 539,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-scriptkiddie-473",
+    "title": "HackTheBox — ScriptKiddie (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox ScriptKiddie. SUID Binary and Constrained Delegation to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-scriptkiddie-473.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-27",
+    "tags": [
+      "hard",
+      "windows",
+      "insane",
+      "easy",
+      "ctf",
+      "reversing"
+    ],
+    "image": "/img/htb-scriptkiddie-473.png",
+    "words": 545,
+    "readTime": "3 min"
+  }
+]

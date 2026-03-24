@@ -1,0 +1,229 @@
+[
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-143",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-143.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-24",
+    "tags": [
+      "linux",
+      "dfir",
+      "enumeration",
+      "oscp"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-143.png",
+    "words": 264,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-monitors-341",
+    "title": "PwnTillDawn — Monitors (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Monitors. Open Redirect and SeDebugPrivilege to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-monitors-341.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-24",
+    "tags": [
+      "hackthebox",
+      "forensics",
+      "ctf",
+      "tryhackme",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-monitors-341.png",
+    "words": 586,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-637",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-637.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-23",
+    "tags": [
+      "enumeration",
+      "privilege-escalation",
+      "oscp",
+      "lateral-movement",
+      "cheatsheet"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-637.png",
+    "words": 586,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-sense-446",
+    "title": "PwnTillDawn — Sense (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Sense. GPP Password and DLL Hijacking to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-sense-446.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-23",
+    "tags": [
+      "hard",
+      "windows",
+      "active-directory",
+      "linux",
+      "hackthebox",
+      "easy"
+    ],
+    "image": "/img/htb-sense-446.png",
+    "words": 649,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-625",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-625.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-22",
+    "tags": [
+      "malware",
+      "cheatsheet",
+      "persistence",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-625.png",
+    "words": 514,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-traverxec-818",
+    "title": "PwnTillDawn — Traverxec (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Traverxec. Broken Access Control and AlwaysInstallElevated to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-traverxec-818.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-22",
+    "tags": [
+      "easy",
+      "hard",
+      "forensics"
+    ],
+    "image": "/img/htb-traverxec-818.png",
+    "words": 598,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-shocker-748",
+    "title": "VulnHub — Shocker (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Shocker. Subdomain Takeover and SSRF to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-shocker-748.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-22",
+    "tags": [
+      "ctf",
+      "hackthebox",
+      "pwntilldawn",
+      "hard",
+      "active-directory"
+    ],
+    "image": "/img/htb-shocker-748.png",
+    "words": 588,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ice-314",
+    "title": "TryHackMe — Ice (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Ice. GPP Password and Resource-Based Constrained Delegation to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ice-314.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-22",
+    "tags": [
+      "easy",
+      "windows",
+      "hackthebox",
+      "reversing",
+      "linux",
+      "ctf"
+    ],
+    "image": "/img/htb-ice-314.png",
+    "words": 539,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-922",
+    "title": "AMSI Bypass Collection — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-922.html",
+    "btn_label": "View Script",
+    "date": "2025-05-21",
+    "tags": [
+      "fuzzer",
+      "rust",
+      "powershell",
+      "tool"
+    ],
+    "image": "/img/script-amsi-bypass-collection-922.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-incident-response-playbook-272",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-272.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-21",
+    "tags": [
+      "dfir",
+      "persistence",
+      "networking",
+      "blue-team",
+      "enumeration",
+      "oscp"
+    ],
+    "image": "/img/note-incident-response-playbook-272.png",
+    "words": 388,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-921",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-921.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-21",
+    "tags": [
+      "oscp",
+      "privilege-escalation",
+      "blue-team",
+      "windows"
+    ],
+    "image": "/img/note-active-directory-attack-paths-921.png",
+    "words": 516,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-nineveh-386",
+    "title": "PwnTillDawn — Nineveh (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Nineveh. Sudo Misconfiguration and Docker Escape to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-nineveh-386.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-21",
+    "tags": [
+      "medium",
+      "tryhackme",
+      "reversing",
+      "insane",
+      "offsec",
+      "forensics"
+    ],
+    "image": "/img/htb-nineveh-386.png",
+    "words": 593,
+    "readTime": "3 min"
+  }
+]

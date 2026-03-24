@@ -1,0 +1,229 @@
+[
+  {
+    "id": "htb-internal-406",
+    "title": "VulnHub — Internal (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Internal. Docker Escape and Local File Inclusion to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-internal-406.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-04",
+    "tags": [
+      "linux",
+      "tryhackme",
+      "ctf"
+    ],
+    "image": "/img/htb-internal-406.png",
+    "words": 624,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-746",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-746.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-03",
+    "tags": [
+      "cheatsheet",
+      "linux",
+      "networking",
+      "lateral-movement",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-cryptography-fundamentals-746.png",
+    "words": 557,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-992",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-992.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-02",
+    "tags": [
+      "cheatsheet",
+      "oscp",
+      "enumeration"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-992.png",
+    "words": 612,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-password-spraying-tool-334",
+    "title": "Password Spraying Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-334.html",
+    "btn_label": "View Script",
+    "date": "2024-07-01",
+    "tags": [
+      "powershell",
+      "scanner",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-password-spraying-tool-334.png",
+    "words": 386,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-212",
+    "title": "JWT Token Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-212.html",
+    "btn_label": "View Script",
+    "date": "2024-07-01",
+    "tags": [
+      "tool",
+      "fuzzer",
+      "script",
+      "powershell",
+      "python",
+      "go"
+    ],
+    "image": "/img/script-jwt-token-analyzer-212.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-364",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-364.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-01",
+    "tags": [
+      "zero-day",
+      "cve",
+      "kernel",
+      "heap-exploitation",
+      "aslr-bypass",
+      "rop"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 527,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-139",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-139.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-01",
+    "tags": [
+      "persistence",
+      "privilege-escalation",
+      "networking",
+      "blue-team",
+      "enumeration"
+    ],
+    "image": "/img/note-reverse-engineering-basics-139.png",
+    "words": 365,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-node-500",
+    "title": "HackTheBox — Node (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Node. Insecure Deserialization and SUID Binary to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-node-500.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-01",
+    "tags": [
+      "forensics",
+      "active-directory",
+      "ctf",
+      "hard"
+    ],
+    "image": "/img/htb-node-500.png",
+    "words": 624,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-crossfit-942",
+    "title": "TryHackMe — Crossfit (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Crossfit. Golden Ticket and Weak Service Permissions to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-crossfit-942.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-01",
+    "tags": [
+      "hard",
+      "ctf",
+      "easy",
+      "tryhackme",
+      "forensics",
+      "windows"
+    ],
+    "image": "/img/htb-crossfit-942.png",
+    "words": 624,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-irked-486",
+    "title": "OffSec Proving Grounds — Irked (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Irked. Writable PATH and ACL Abuse to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-irked-486.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-29",
+    "tags": [
+      "web",
+      "linux",
+      "tryhackme",
+      "forensics",
+      "windows",
+      "reversing",
+      "medium"
+    ],
+    "image": "/img/htb-irked-486.png",
+    "words": 581,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-694",
+    "title": "AMSI Bypass Collection — Go",
+    "section": "scripting",
+    "description": "A Go script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-694.html",
+    "btn_label": "View Script",
+    "date": "2024-06-27",
+    "tags": [
+      "tool",
+      "rust",
+      "bash",
+      "c",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-amsi-bypass-collection-694.png",
+    "words": 329,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-207",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-207.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-27",
+    "tags": [
+      "cheatsheet",
+      "persistence",
+      "enumeration"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-207.png",
+    "words": 217,
+    "readTime": "2 min"
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-119",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-119.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-26",
+    "tags": [
+      "malware-analysis",
+      "buffer-overflow",
+      "rop",
+      "shellcode",
+      "zero-day",
+      "kernel"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 501,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-302",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-302.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-25",
+    "tags": [
+      "oscp",
+      "malware",
+      "networking",
+      "blue-team",
+      "enumeration"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-302.png",
+    "words": 647,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-passage-655",
+    "title": "VulnHub — Passage (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Passage. SSRF and CSRF to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-passage-655.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-25",
+    "tags": [
+      "linux",
+      "tryhackme",
+      "ctf",
+      "hackthebox"
+    ],
+    "image": "/img/htb-passage-655.png",
+    "words": 683,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-785",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-785.html",
+    "btn_label": "View Script",
+    "date": "2025-08-24",
+    "tags": [
+      "go",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-network-packet-sniffer-785.png",
+    "words": 364,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-879",
+    "title": "C2 Beacon Simulator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-879.html",
+    "btn_label": "View Script",
+    "date": "2025-08-24",
+    "tags": [
+      "fuzzer",
+      "rust",
+      "bash",
+      "go",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-c2-beacon-simulator-879.png",
+    "words": 301,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-subdomain-enumeration-tool-199",
+    "title": "Subdomain Enumeration Tool",
+    "section": "projects",
+    "description": "Open source security project: Subdomain Enumeration Tool. Built for the community.",
+    "permalink": "/research/project-subdomain-enumeration-tool-199.html",
+    "btn_label": "View Project",
+    "date": "2025-08-22",
+    "tags": [
+      "framework",
+      "cli",
+      "tool",
+      "automation"
+    ],
+    "image": "/img/project-subdomain-enumeration-tool-199.png",
+    "words": 215,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "ffuf",
+      "impacket"
+    ]
+  },
+  {
+    "id": "htb-seal-171",
+    "title": "OffSec Proving Grounds — Seal (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Seal. Writable PATH and Pass the Ticket to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-seal-171.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-22",
+    "tags": [
+      "forensics",
+      "web",
+      "hackthebox",
+      "hard",
+      "easy",
+      "offsec"
+    ],
+    "image": "/img/htb-seal-171.png",
+    "words": 562,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-node-145",
+    "title": "OffSec Proving Grounds — Node (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Node. Remote File Inclusion and NTLM Relay to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-node-145.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-22",
+    "tags": [
+      "web",
+      "easy",
+      "ctf",
+      "linux",
+      "tryhackme",
+      "offsec"
+    ],
+    "image": "/img/htb-node-145.png",
+    "words": 557,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-irked-921",
+    "title": "OffSec Proving Grounds — Irked (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Irked. SSRF and DNS Rebinding to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-irked-921.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-22",
+    "tags": [
+      "medium",
+      "offsec",
+      "reversing"
+    ],
+    "image": "/img/htb-irked-921.png",
+    "words": 683,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-923",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-923.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-21",
+    "tags": [
+      "persistence",
+      "enumeration",
+      "networking"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-923.png",
+    "words": 309,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-poison-847",
+    "title": "PwnTillDawn — Poison (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Poison. Cron Job and Unconstrained Delegation to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-poison-847.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-21",
+    "tags": [
+      "tryhackme",
+      "forensics",
+      "pwntilldawn",
+      "reversing",
+      "linux",
+      "hard"
+    ],
+    "image": "/img/htb-poison-847.png",
+    "words": 640,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-222",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-222.html",
+    "btn_label": "View Script",
+    "date": "2025-08-20",
+    "tags": [
+      "automation",
+      "rust",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-222.png",
+    "words": 317,
+    "readTime": "2 min"
+  }
+]

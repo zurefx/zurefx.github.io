@@ -1,0 +1,233 @@
+[
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-258",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-258.html",
+    "btn_label": "Read Research",
+    "date": "2025-07-30",
+    "tags": [
+      "format-string",
+      "exploit-development",
+      "zero-day",
+      "aslr-bypass",
+      "uaf",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-25.png",
+    "words": 479,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-994",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-994.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-30",
+    "tags": [
+      "blue-team",
+      "linux",
+      "enumeration",
+      "malware",
+      "windows",
+      "networking"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-994.png",
+    "words": 392,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-ready-588",
+    "title": "VulnHub — Ready (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Ready. Silver Ticket and Kerberoasting to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-ready-588.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-30",
+    "tags": [
+      "windows",
+      "ctf",
+      "reversing",
+      "linux",
+      "pwntilldawn",
+      "hard"
+    ],
+    "image": "/img/htb-ready-588.png",
+    "words": 647,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-doctor-301",
+    "title": "HackTheBox — Doctor (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Doctor. SeDebugPrivilege and SeImpersonatePrivilege to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-doctor-301.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-30",
+    "tags": [
+      "hard",
+      "easy",
+      "linux"
+    ],
+    "image": "/img/htb-doctor-301.png",
+    "words": 642,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-661",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-661.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-29",
+    "tags": [
+      "lateral-movement",
+      "networking",
+      "blue-team",
+      "enumeration",
+      "windows",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-reverse-engineering-basics-661.png",
+    "words": 249,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-146",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-146.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-29",
+    "tags": [
+      "dfir",
+      "persistence",
+      "privilege-escalation",
+      "malware",
+      "cheatsheet",
+      "linux"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-146.png",
+    "words": 572,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-573",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-573.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-29",
+    "tags": [
+      "enumeration",
+      "dfir",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-573.png",
+    "words": 614,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-scriptkiddie-802",
+    "title": "VulnHub — ScriptKiddie (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub ScriptKiddie. SQL Injection and Unconstrained Delegation to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-scriptkiddie-802.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-29",
+    "tags": [
+      "ctf",
+      "active-directory",
+      "reversing",
+      "medium",
+      "windows"
+    ],
+    "image": "/img/htb-scriptkiddie-802.png",
+    "words": 529,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-novel-persistence-mechanisms-in-linux-754",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "projects",
+    "description": "Open source security project: Novel Persistence Mechanisms in Linux. Built for the community.",
+    "permalink": "/research/project-novel-persistence-mechanisms-in-linux-754.html",
+    "btn_label": "View Project",
+    "date": "2025-07-28",
+    "tags": [
+      "automation",
+      "security",
+      "framework",
+      "extension",
+      "tool"
+    ],
+    "image": "/img/project-novel-persistence-mechanisms-in-linux-754.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "nmap",
+      "hashcat",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-844",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-844.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-28",
+    "tags": [
+      "persistence",
+      "malware",
+      "privilege-escalation",
+      "lateral-movement"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-844.png",
+    "words": 869,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-devel-801",
+    "title": "VulnHub — Devel (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Devel. Sudo Misconfiguration and Unconstrained Delegation to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-devel-801.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-28",
+    "tags": [
+      "web",
+      "tryhackme",
+      "ctf"
+    ],
+    "image": "/img/htb-devel-801.png",
+    "words": 570,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-delivery-910",
+    "title": "HackTheBox — Delivery (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Delivery. CORS Misconfiguration and NTLM Relay to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-delivery-910.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-28",
+    "tags": [
+      "ctf",
+      "hard",
+      "hackthebox"
+    ],
+    "image": "/img/htb-delivery-910.png",
+    "words": 638,
+    "readTime": "4 min",
+    "pick": 1
+  }
+]

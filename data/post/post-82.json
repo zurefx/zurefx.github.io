@@ -1,0 +1,228 @@
+[
+  {
+    "id": "htb-tabby-294",
+    "title": "TryHackMe — Tabby (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tabby. SQL Injection and Resource-Based Constrained Delegation to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-tabby-294.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-09",
+    "tags": [
+      "windows",
+      "forensics",
+      "hard",
+      "insane",
+      "easy",
+      "linux"
+    ],
+    "image": "/img/htb-tabby-294.png",
+    "words": 592,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-mindgames-405",
+    "title": "VulnHub — Mindgames (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Mindgames. Open Redirect and SSRF to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-mindgames-405.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-09",
+    "tags": [
+      "windows",
+      "ctf",
+      "easy",
+      "tryhackme",
+      "linux",
+      "medium"
+    ],
+    "image": "/img/htb-mindgames-405.png",
+    "words": 578,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-remote-630",
+    "title": "PwnTillDawn — Remote (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Remote. Command Injection and Sudo Misconfiguration to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-remote-630.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-08",
+    "tags": [
+      "reversing",
+      "web",
+      "offsec"
+    ],
+    "image": "/img/htb-remote-630.png",
+    "words": 584,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-incident-response-playbook-194",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-194.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-07",
+    "tags": [
+      "cheatsheet",
+      "dfir",
+      "enumeration",
+      "blue-team"
+    ],
+    "image": "/img/note-incident-response-playbook-194.png",
+    "words": 248,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-719",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-719.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-07",
+    "tags": [
+      "privilege-escalation",
+      "cheatsheet",
+      "malware",
+      "oscp",
+      "windows"
+    ],
+    "image": "/img/note-active-directory-attack-paths-719.png",
+    "words": 352,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-grandpa-322",
+    "title": "HackTheBox — Grandpa (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Grandpa. Unquoted Service Path and CORS Misconfiguration to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-grandpa-322.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-07",
+    "tags": [
+      "forensics",
+      "windows",
+      "medium",
+      "tryhackme",
+      "hackthebox"
+    ],
+    "image": "/img/htb-grandpa-322.png",
+    "words": 611,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-armageddon-738",
+    "title": "VulnHub — Armageddon (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Armageddon. NFS No Root Squash and Local File Inclusion to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-armageddon-738.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-07",
+    "tags": [
+      "linux",
+      "reversing",
+      "active-directory",
+      "windows",
+      "tryhackme"
+    ],
+    "image": "/img/htb-armageddon-738.png",
+    "words": 599,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-160",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-160.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-06",
+    "tags": [
+      "malware",
+      "privilege-escalation",
+      "persistence",
+      "networking",
+      "dfir"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-160.png",
+    "words": 360,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-tartarsauce-440",
+    "title": "HackTheBox — Tartarsauce (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Tartarsauce. Kerberoasting and Silver Ticket to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-tartarsauce-440.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-06",
+    "tags": [
+      "reversing",
+      "forensics",
+      "ctf"
+    ],
+    "image": "/img/htb-tartarsauce-440.png",
+    "words": 609,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-709",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-709.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-05",
+    "tags": [
+      "enumeration",
+      "networking",
+      "blue-team"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-709.png",
+    "words": 610,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-197",
+    "title": "Network Packet Sniffer — Python",
+    "section": "scripting",
+    "description": "A Python script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-197.html",
+    "btn_label": "View Script",
+    "date": "2025-03-04",
+    "tags": [
+      "script",
+      "go",
+      "python",
+      "tool",
+      "bash"
+    ],
+    "image": "/img/script-network-packet-sniffer-197.png",
+    "words": 326,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-370",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-370.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-04",
+    "tags": [
+      "uaf",
+      "buffer-overflow",
+      "malware-analysis",
+      "kernel",
+      "rop"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-370.png",
+    "words": 521,
+    "readTime": "3 min",
+    "pick": 1
+  }
+]

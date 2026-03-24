@@ -1,0 +1,238 @@
+[
+  {
+    "id": "script-dns-resolver-and-brute-forcer-657",
+    "title": "DNS Resolver and Brute Forcer — Python",
+    "section": "scripting",
+    "description": "A Python script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-657.html",
+    "btn_label": "View Script",
+    "date": "2025-01-25",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "python",
+      "automation",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-657.png",
+    "words": 332,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-356",
+    "title": "Automated Port Scanner — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-356.html",
+    "btn_label": "View Script",
+    "date": "2025-01-25",
+    "tags": [
+      "scanner",
+      "tool",
+      "go",
+      "python",
+      "bash"
+    ],
+    "image": "/img/script-automated-port-scanner-356.png",
+    "words": 305,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-alfred-941",
+    "title": "PwnTillDawn — Alfred (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Alfred. Broken Access Control and Pass the Hash to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-alfred-941.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-25",
+    "tags": [
+      "web",
+      "tryhackme",
+      "pwntilldawn",
+      "easy",
+      "reversing"
+    ],
+    "image": "/img/htb-alfred-941.png",
+    "words": 683,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-alfred-241",
+    "title": "PwnTillDawn — Alfred (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Alfred. CSRF and CORS Misconfiguration to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-alfred-241.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-24",
+    "tags": [
+      "tryhackme",
+      "medium",
+      "windows",
+      "forensics"
+    ],
+    "image": "/img/htb-alfred-241.png",
+    "words": 604,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-password-spraying-tool-696",
+    "title": "Password Spraying Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-696.html",
+    "btn_label": "View Script",
+    "date": "2025-01-23",
+    "tags": [
+      "powershell",
+      "bash",
+      "parser",
+      "tool",
+      "python",
+      "c"
+    ],
+    "image": "/img/script-password-spraying-tool-696.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-ready-331",
+    "title": "HackTheBox — Ready (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ready. SeDebugPrivilege and XXE to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-ready-331.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-23",
+    "tags": [
+      "linux",
+      "hackthebox",
+      "ctf",
+      "pwntilldawn",
+      "web",
+      "medium",
+      "easy"
+    ],
+    "image": "/img/htb-ready-331.png",
+    "words": 661,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-overpass-604",
+    "title": "VulnHub — Overpass (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Overpass. SSTI and SeDebugPrivilege to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-overpass-604.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-23",
+    "tags": [
+      "hackthebox",
+      "pwntilldawn",
+      "tryhackme",
+      "windows",
+      "web"
+    ],
+    "image": "/img/htb-overpass-604.png",
+    "words": 626,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-granny-638",
+    "title": "HackTheBox — Granny (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Granny. DNS Rebinding and DLL Hijacking to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-granny-638.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-22",
+    "tags": [
+      "forensics",
+      "web",
+      "pwntilldawn",
+      "offsec",
+      "medium",
+      "tryhackme",
+      "reversing"
+    ],
+    "image": "/img/htb-granny-638.png",
+    "words": 596,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-doctor-298",
+    "title": "OffSec Proving Grounds — Doctor (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Doctor. SeDebugPrivilege and Writable PATH to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-doctor-298.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-22",
+    "tags": [
+      "easy",
+      "forensics",
+      "reversing",
+      "insane",
+      "ctf",
+      "tryhackme"
+    ],
+    "image": "/img/htb-doctor-298.png",
+    "words": 659,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-cap-632",
+    "title": "TryHackMe — Cap (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Cap. Subdomain Takeover and SeDebugPrivilege to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-cap-632.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-22",
+    "tags": [
+      "hackthebox",
+      "windows",
+      "web",
+      "tryhackme",
+      "ctf",
+      "medium",
+      "forensics"
+    ],
+    "image": "/img/htb-cap-632.png",
+    "words": 646,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-620",
+    "title": "C2 Beacon Simulator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-620.html",
+    "btn_label": "View Script",
+    "date": "2025-01-21",
+    "tags": [
+      "powershell",
+      "fuzzer",
+      "script",
+      "rust",
+      "automation",
+      "parser"
+    ],
+    "image": "/img/script-c2-beacon-simulator-620.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-663",
+    "title": "Automated Port Scanner — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-663.html",
+    "btn_label": "View Script",
+    "date": "2025-01-21",
+    "tags": [
+      "automation",
+      "parser",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-automated-port-scanner-663.png",
+    "words": 396,
+    "readTime": "2 min"
+  }
+]

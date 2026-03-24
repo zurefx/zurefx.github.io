@@ -1,0 +1,238 @@
+[
+  {
+    "id": "htb-writer-810",
+    "title": "VulnHub — Writer (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Writer. NTLM Relay and XXE to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-writer-810.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-20",
+    "tags": [
+      "ctf",
+      "pwntilldawn",
+      "reversing",
+      "forensics",
+      "web",
+      "hackthebox",
+      "hard"
+    ],
+    "image": "/img/htb-writer-810.png",
+    "words": 611,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-cereal-682",
+    "title": "PwnTillDawn — Cereal (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Cereal. CSRF and IDOR to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-cereal-682.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-20",
+    "tags": [
+      "offsec",
+      "forensics",
+      "tryhackme",
+      "windows",
+      "easy"
+    ],
+    "image": "/img/htb-cereal-682.png",
+    "words": 575,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-amsi-bypass-collection-923",
+    "title": "AMSI Bypass Collection",
+    "section": "projects",
+    "description": "Open source security project: AMSI Bypass Collection. Built for the community.",
+    "permalink": "/research/project-amsi-bypass-collection-923.html",
+    "btn_label": "View Project",
+    "date": "2024-06-19",
+    "tags": [
+      "security",
+      "extension",
+      "library",
+      "cli"
+    ],
+    "image": "/img/project-amsi-bypass-collection-923.png",
+    "words": 209,
+    "readTime": "2 min",
+    "features": [
+      "hydra",
+      "john",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-633",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-633.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-19",
+    "tags": [
+      "cheatsheet",
+      "enumeration",
+      "lateral-movement",
+      "networking"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-633.png",
+    "words": 561,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-938",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-938.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-18",
+    "tags": [
+      "kernel",
+      "heap-exploitation",
+      "uaf",
+      "zero-day"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-938.png",
+    "words": 453,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-854",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-854.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-18",
+    "tags": [
+      "privilege-escalation",
+      "blue-team",
+      "enumeration",
+      "malware",
+      "dfir"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-854.png",
+    "words": 450,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-magic-156",
+    "title": "PwnTillDawn — Magic (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Magic. AlwaysInstallElevated and Weak Service Permissions to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-magic-156.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-18",
+    "tags": [
+      "reversing",
+      "easy",
+      "web",
+      "offsec",
+      "windows",
+      "insane",
+      "hackthebox"
+    ],
+    "image": "/img/htb-magic-156.png",
+    "words": 628,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-547",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-547.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-17",
+    "tags": [
+      "networking",
+      "linux",
+      "windows",
+      "oscp",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-547.png",
+    "words": 425,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-968",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-968.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-16",
+    "tags": [
+      "networking",
+      "oscp",
+      "persistence",
+      "privilege-escalation",
+      "dfir",
+      "linux"
+    ],
+    "image": "/img/note-active-directory-attack-paths-968.png",
+    "words": 401,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-irked-825",
+    "title": "VulnHub — Irked (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Irked. Path Traversal and Open Redirect to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-irked-825.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-16",
+    "tags": [
+      "medium",
+      "easy",
+      "active-directory",
+      "ctf"
+    ],
+    "image": "/img/htb-irked-825.png",
+    "words": 674,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-delivery-535",
+    "title": "HackTheBox — Delivery (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Delivery. Unconstrained Delegation and NTLM Relay to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-delivery-535.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-16",
+    "tags": [
+      "easy",
+      "active-directory",
+      "web",
+      "hard"
+    ],
+    "image": "/img/htb-delivery-535.png",
+    "words": 546,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-696",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-696.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-14",
+    "tags": [
+      "lateral-movement",
+      "persistence",
+      "dfir",
+      "cheatsheet",
+      "windows",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-696.png",
+    "words": 444,
+    "readTime": "3 min"
+  }
+]

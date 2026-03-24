@@ -1,0 +1,239 @@
+[
+  {
+    "id": "note-malware-analysis-environment-setup-807",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-807.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-07",
+    "tags": [
+      "lateral-movement",
+      "oscp",
+      "enumeration",
+      "networking",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-807.png",
+    "words": 489,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-780",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-780.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-07",
+    "tags": [
+      "dfir",
+      "enumeration",
+      "linux",
+      "malware"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-780.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-mindgames-878",
+    "title": "TryHackMe — Mindgames (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Mindgames. Unquoted Service Path and XXE to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-mindgames-878.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-07",
+    "tags": [
+      "hard",
+      "active-directory",
+      "web",
+      "medium",
+      "easy",
+      "windows"
+    ],
+    "image": "/img/htb-mindgames-878.png",
+    "words": 639,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-smb-share-enumeration-script-453",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-453.html",
+    "btn_label": "View Script",
+    "date": "2025-11-06",
+    "tags": [
+      "scanner",
+      "parser",
+      "powershell",
+      "rust",
+      "fuzzer",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-453.png",
+    "words": 346,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-750",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-750.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-06",
+    "tags": [
+      "networking",
+      "blue-team",
+      "cheatsheet"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-750.png",
+    "words": 286,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-networked-822",
+    "title": "PwnTillDawn — Networked (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Networked. SSTI and Sudo Misconfiguration to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-networked-822.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-05",
+    "tags": [
+      "web",
+      "tryhackme",
+      "reversing",
+      "hard",
+      "easy",
+      "linux",
+      "offsec"
+    ],
+    "image": "/img/htb-networked-822.png",
+    "words": 598,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-password-spraying-tool-772",
+    "title": "Password Spraying Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-772.html",
+    "btn_label": "View Script",
+    "date": "2025-11-03",
+    "tags": [
+      "c",
+      "script",
+      "scanner",
+      "bash"
+    ],
+    "image": "/img/script-password-spraying-tool-772.png",
+    "words": 284,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-960",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-960.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-03",
+    "tags": [
+      "heap-exploitation",
+      "aslr-bypass",
+      "format-string",
+      "kernel",
+      "exploit-development"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-960.png",
+    "words": 547,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-548",
+    "title": "EDR Evasion Techniques — Go",
+    "section": "scripting",
+    "description": "A Go script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-548.html",
+    "btn_label": "View Script",
+    "date": "2025-11-02",
+    "tags": [
+      "script",
+      "python",
+      "c",
+      "go",
+      "fuzzer"
+    ],
+    "image": "/img/script-edr-evasion-techniques-548.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-922",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-922.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-01",
+    "tags": [
+      "malware-analysis",
+      "zero-day",
+      "heap-exploitation",
+      "format-string",
+      "uaf"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 508,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-737",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-737.html",
+    "btn_label": "View Project",
+    "date": "2025-11-01",
+    "tags": [
+      "library",
+      "extension",
+      "open-source",
+      "plugin",
+      "security"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-737.png",
+    "words": 220,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "hashcat",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-219",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-219.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-31",
+    "tags": [
+      "oscp",
+      "privilege-escalation",
+      "networking",
+      "enumeration",
+      "linux",
+      "dfir"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-219.png",
+    "words": 554,
+    "readTime": "3 min"
+  }
+]

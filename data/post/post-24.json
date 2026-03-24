@@ -1,0 +1,238 @@
+[
+  {
+    "id": "htb-bucket-142",
+    "title": "OffSec Proving Grounds — Bucket (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Bucket. Subdomain Takeover and Insecure Deserialization to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-bucket-142.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-12",
+    "tags": [
+      "insane",
+      "ctf",
+      "active-directory",
+      "hackthebox",
+      "pwntilldawn",
+      "tryhackme"
+    ],
+    "image": "/img/htb-bucket-142.png",
+    "words": 637,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-594",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-594.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-11",
+    "tags": [
+      "persistence",
+      "dfir",
+      "malware",
+      "windows",
+      "linux"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-594.png",
+    "words": 653,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-overpass-681",
+    "title": "OffSec Proving Grounds — Overpass (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Overpass. Unquoted Service Path and Weak Service Permissions to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-overpass-681.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-11",
+    "tags": [
+      "linux",
+      "ctf",
+      "insane",
+      "reversing",
+      "tryhackme",
+      "offsec"
+    ],
+    "image": "/img/htb-overpass-681.png",
+    "words": 660,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-390",
+    "title": "C2 Beacon Simulator — Python",
+    "section": "scripting",
+    "description": "A Python script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-390.html",
+    "btn_label": "View Script",
+    "date": "2025-12-09",
+    "tags": [
+      "scanner",
+      "automation",
+      "c",
+      "tool",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-c2-beacon-simulator-390.png",
+    "words": 300,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-docker-security-hardening-777",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-777.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-09",
+    "tags": [
+      "cheatsheet",
+      "dfir",
+      "persistence",
+      "malware"
+    ],
+    "image": "/img/note-docker-security-hardening-777.png",
+    "words": 484,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tartarsauce-336",
+    "title": "VulnHub — Tartarsauce (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Tartarsauce. Pass the Hash and SSTI to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-tartarsauce-336.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-09",
+    "tags": [
+      "reversing",
+      "windows",
+      "tryhackme",
+      "hackthebox"
+    ],
+    "image": "/img/htb-tartarsauce-336.png",
+    "words": 666,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-137",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-137.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-07",
+    "tags": [
+      "windows",
+      "cheatsheet",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-137.png",
+    "words": 428,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-962",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-962.html",
+    "btn_label": "Read Research",
+    "date": "2025-12-04",
+    "tags": [
+      "malware-analysis",
+      "buffer-overflow",
+      "cve",
+      "exploit-development",
+      "zero-day",
+      "rop"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-962.png",
+    "words": 484,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-networked-623",
+    "title": "OffSec Proving Grounds — Networked (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Networked. LAPS Abuse and SSTI to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-networked-623.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-04",
+    "tags": [
+      "tryhackme",
+      "hackthebox",
+      "insane",
+      "hard",
+      "ctf",
+      "reversing"
+    ],
+    "image": "/img/htb-networked-623.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-464",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-464.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-03",
+    "tags": [
+      "malware",
+      "cheatsheet",
+      "windows",
+      "oscp",
+      "dfir",
+      "linux"
+    ],
+    "image": "/img/note-cryptography-fundamentals-464.png",
+    "words": 435,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-traverxec-489",
+    "title": "TryHackMe — Traverxec (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Traverxec. ACL Abuse and DNS Rebinding to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-traverxec-489.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-03",
+    "tags": [
+      "offsec",
+      "insane",
+      "linux",
+      "forensics",
+      "hard",
+      "pwntilldawn",
+      "easy"
+    ],
+    "image": "/img/htb-traverxec-489.png",
+    "words": 608,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-tenet-576",
+    "title": "TryHackMe — Tenet (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tenet. SUID Binary and DLL Hijacking to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-tenet-576.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-03",
+    "tags": [
+      "forensics",
+      "ctf",
+      "insane",
+      "linux",
+      "offsec",
+      "easy",
+      "active-directory"
+    ],
+    "image": "/img/htb-tenet-576.png",
+    "words": 616,
+    "readTime": "4 min",
+    "pick": 1
+  }
+]

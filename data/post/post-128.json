@@ -1,0 +1,232 @@
+[
+  {
+    "id": "note-linux-privilege-escalation-techniques-760",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-760.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-28",
+    "tags": [
+      "linux",
+      "oscp",
+      "dfir"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-760.png",
+    "words": 886,
+    "readTime": "5 min"
+  },
+  {
+    "id": "note-incident-response-playbook-817",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-817.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-28",
+    "tags": [
+      "linux",
+      "lateral-movement",
+      "windows"
+    ],
+    "image": "/img/note-incident-response-playbook-817.png",
+    "words": 631,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-granny-751",
+    "title": "PwnTillDawn — Granny (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Granny. NTLM Relay and Pass the Hash to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-granny-751.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-28",
+    "tags": [
+      "easy",
+      "reversing",
+      "active-directory",
+      "medium",
+      "pwntilldawn",
+      "web"
+    ],
+    "image": "/img/htb-granny-751.png",
+    "words": 547,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-jwt-token-analyzer-547",
+    "title": "JWT Token Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-547.html",
+    "btn_label": "View Script",
+    "date": "2024-07-27",
+    "tags": [
+      "tool",
+      "c",
+      "automation",
+      "scanner",
+      "bash"
+    ],
+    "image": "/img/script-jwt-token-analyzer-547.png",
+    "words": 404,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-877",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-877.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-27",
+    "tags": [
+      "privilege-escalation",
+      "dfir",
+      "linux",
+      "persistence",
+      "enumeration",
+      "malware"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-877.png",
+    "words": 261,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-692",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-692.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-27",
+    "tags": [
+      "malware",
+      "oscp",
+      "persistence",
+      "linux",
+      "privilege-escalation",
+      "windows"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-692.png",
+    "words": 374,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-bolt-606",
+    "title": "TryHackMe — Bolt (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Bolt. Weak Service Permissions and Docker Escape to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-bolt-606.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-27",
+    "tags": [
+      "windows",
+      "insane",
+      "tryhackme"
+    ],
+    "image": "/img/htb-bolt-606.png",
+    "words": 603,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-browser-exploitation-techniques-935",
+    "title": "Browser Exploitation Techniques",
+    "section": "projects",
+    "description": "Open source security project: Browser Exploitation Techniques. Built for the community.",
+    "permalink": "/research/project-browser-exploitation-techniques-935.html",
+    "btn_label": "View Project",
+    "date": "2024-07-26",
+    "tags": [
+      "extension",
+      "security",
+      "cli"
+    ],
+    "image": "/img/project-browser-exploitation-techniques-935.png",
+    "words": 220,
+    "readTime": "2 min",
+    "features": [
+      "hashcat",
+      "hydra",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-445",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-445.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-25",
+    "tags": [
+      "blue-team",
+      "networking",
+      "linux",
+      "enumeration",
+      "cheatsheet"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-445.png",
+    "words": 280,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-199",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-199.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-25",
+    "tags": [
+      "networking",
+      "dfir",
+      "cheatsheet",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-199.png",
+    "words": 657,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-179",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-179.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-25",
+    "tags": [
+      "oscp",
+      "networking",
+      "windows",
+      "cheatsheet",
+      "dfir",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-179.png",
+    "words": 313,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-buff-959",
+    "title": "VulnHub — Buff (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Buff. SSTI and GPP Password to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-buff-959.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-25",
+    "tags": [
+      "easy",
+      "active-directory",
+      "insane",
+      "offsec",
+      "pwntilldawn",
+      "windows"
+    ],
+    "image": "/img/htb-buff-959.png",
+    "words": 611,
+    "readTime": "4 min"
+  }
+]

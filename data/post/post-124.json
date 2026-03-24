@@ -1,0 +1,231 @@
+[
+  {
+    "id": "note-mitre-att&ck-framework-reference-413",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-413.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-14",
+    "tags": [
+      "lateral-movement",
+      "linux",
+      "oscp",
+      "dfir",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-413.png",
+    "words": 518,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-468",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-468.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-14",
+    "tags": [
+      "malware",
+      "networking",
+      "dfir",
+      "linux",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-468.png",
+    "words": 370,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-667",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-667.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-14",
+    "tags": [
+      "dfir",
+      "windows",
+      "oscp",
+      "malware",
+      "lateral-movement"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-667.png",
+    "words": 513,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-vulnnet-734",
+    "title": "PwnTillDawn — Vulnnet (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Vulnnet. Resource-Based Constrained Delegation and Writable PATH to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-vulnnet-734.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-14",
+    "tags": [
+      "forensics",
+      "insane",
+      "hackthebox",
+      "web"
+    ],
+    "image": "/img/htb-vulnnet-734.png",
+    "words": 631,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-ghizer-779",
+    "title": "HackTheBox — Ghizer (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ghizer. SeDebugPrivilege and CORS Misconfiguration to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-ghizer-779.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-14",
+    "tags": [
+      "medium",
+      "insane",
+      "active-directory",
+      "easy",
+      "ctf",
+      "tryhackme",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-ghizer-779.png",
+    "words": 584,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-seal-934",
+    "title": "PwnTillDawn — Seal (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Seal. DLL Hijacking and XSS to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-seal-934.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-13",
+    "tags": [
+      "offsec",
+      "hackthebox",
+      "hard",
+      "tryhackme",
+      "reversing",
+      "web",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-seal-934.png",
+    "words": 634,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-doctor-292",
+    "title": "VulnHub — Doctor (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Doctor. XSS and SQL Injection to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-doctor-292.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-13",
+    "tags": [
+      "forensics",
+      "insane",
+      "web",
+      "hackthebox",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-doctor-292.png",
+    "words": 612,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-851",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-851.html",
+    "btn_label": "View Script",
+    "date": "2024-08-11",
+    "tags": [
+      "go",
+      "python",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-851.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-960",
+    "title": "Automated Port Scanner — Go",
+    "section": "scripting",
+    "description": "A Go script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-960.html",
+    "btn_label": "View Script",
+    "date": "2024-08-11",
+    "tags": [
+      "automation",
+      "bash",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-automated-port-scanner-960.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-316",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-316.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-11",
+    "tags": [
+      "persistence",
+      "blue-team",
+      "networking",
+      "dfir"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-316.png",
+    "words": 578,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-665",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-665.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-11",
+    "tags": [
+      "cheatsheet",
+      "enumeration",
+      "blue-team"
+    ],
+    "image": "/img/note-reverse-engineering-basics-665.png",
+    "words": 303,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-nineveh-352",
+    "title": "OffSec Proving Grounds — Nineveh (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Nineveh. LXD Privilege Escalation and NTLM Relay to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-nineveh-352.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-11",
+    "tags": [
+      "reversing",
+      "tryhackme",
+      "pwntilldawn",
+      "forensics",
+      "insane",
+      "hard"
+    ],
+    "image": "/img/htb-nineveh-352.png",
+    "words": 551,
+    "readTime": "3 min",
+    "pick": 1
+  }
+]

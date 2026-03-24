@@ -1,0 +1,235 @@
+[
+  {
+    "id": "htb-fuse-157",
+    "title": "VulnHub — Fuse (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Fuse. Silver Ticket and Insecure Deserialization to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-fuse-157.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-11",
+    "tags": [
+      "medium",
+      "pwntilldawn",
+      "forensics",
+      "web",
+      "offsec",
+      "tryhackme"
+    ],
+    "image": "/img/htb-fuse-157.png",
+    "words": 651,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-sigma-rule-development-499",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-499.html",
+    "btn_label": "Read Notes",
+    "date": "2024-04-10",
+    "tags": [
+      "networking",
+      "malware",
+      "lateral-movement",
+      "persistence",
+      "linux"
+    ],
+    "image": "/img/note-sigma-rule-development-499.png",
+    "words": 394,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-964",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-964.html",
+    "btn_label": "Read Notes",
+    "date": "2024-04-09",
+    "tags": [
+      "persistence",
+      "blue-team",
+      "windows",
+      "malware"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-964.png",
+    "words": 528,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-optimum-101",
+    "title": "VulnHub — Optimum (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Optimum. Unconstrained Delegation and CORS Misconfiguration to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-optimum-101.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-09",
+    "tags": [
+      "windows",
+      "medium",
+      "tryhackme"
+    ],
+    "image": "/img/htb-optimum-101.png",
+    "words": 610,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-grandpa-863",
+    "title": "PwnTillDawn — Grandpa (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Grandpa. Constrained Delegation and AS-REP Roasting to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-grandpa-863.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-09",
+    "tags": [
+      "offsec",
+      "hard",
+      "ctf",
+      "easy"
+    ],
+    "image": "/img/htb-grandpa-863.png",
+    "words": 632,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-thenotebook-583",
+    "title": "TryHackMe — TheNotebook (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe TheNotebook. SeDebugPrivilege and CORS Misconfiguration to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-thenotebook-583.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-08",
+    "tags": [
+      "easy",
+      "linux",
+      "forensics"
+    ],
+    "image": "/img/htb-thenotebook-583.png",
+    "words": 567,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-active-directory-attack-paths-687",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-687.html",
+    "btn_label": "Read Notes",
+    "date": "2024-04-07",
+    "tags": [
+      "cheatsheet",
+      "blue-team",
+      "windows",
+      "dfir",
+      "linux",
+      "lateral-movement"
+    ],
+    "image": "/img/note-active-directory-attack-paths-687.png",
+    "words": 429,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-traverxec-889",
+    "title": "VulnHub — Traverxec (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Traverxec. CORS Misconfiguration and Weak Service Permissions to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-traverxec-889.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-07",
+    "tags": [
+      "linux",
+      "insane",
+      "reversing",
+      "active-directory",
+      "easy",
+      "ctf",
+      "tryhackme"
+    ],
+    "image": "/img/htb-traverxec-889.png",
+    "words": 641,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-optimum-573",
+    "title": "PwnTillDawn — Optimum (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Optimum. NFS No Root Squash and IDOR to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-optimum-573.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-07",
+    "tags": [
+      "web",
+      "windows",
+      "medium",
+      "hard"
+    ],
+    "image": "/img/htb-optimum-573.png",
+    "words": 598,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-knife-512",
+    "title": "VulnHub — Knife (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Knife. SUID Binary and Docker Escape to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-knife-512.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-07",
+    "tags": [
+      "offsec",
+      "hard",
+      "easy",
+      "linux"
+    ],
+    "image": "/img/htb-knife-512.png",
+    "words": 636,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-friendzone-546",
+    "title": "PwnTillDawn — FriendZone (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn FriendZone. Subdomain Takeover and DCSync to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-friendzone-546.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-07",
+    "tags": [
+      "easy",
+      "tryhackme",
+      "offsec",
+      "hackthebox",
+      "hard",
+      "linux"
+    ],
+    "image": "/img/htb-friendzone-546.png",
+    "words": 536,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-automated-report-generator-970",
+    "title": "Automated Report Generator",
+    "section": "projects",
+    "description": "Open source security project: Automated Report Generator. Built for the community.",
+    "permalink": "/research/project-automated-report-generator-970.html",
+    "btn_label": "View Project",
+    "date": "2024-04-05",
+    "tags": [
+      "framework",
+      "cli",
+      "tool",
+      "plugin",
+      "security"
+    ],
+    "image": "/img/project-automated-report-generator-970.png",
+    "words": 205,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "crackmapexec",
+      "evil-winrm"
+    ]
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "id": "note-cryptography-fundamentals-261",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-261.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-08",
+    "tags": [
+      "enumeration",
+      "blue-team",
+      "persistence",
+      "lateral-movement",
+      "linux"
+    ],
+    "image": "/img/note-cryptography-fundamentals-261.png",
+    "words": 460,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-admirer-619",
+    "title": "OffSec Proving Grounds — Admirer (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Admirer. Subdomain Takeover and SSRF to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-admirer-619.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-08",
+    "tags": [
+      "easy",
+      "windows",
+      "medium",
+      "insane",
+      "pwntilldawn",
+      "offsec"
+    ],
+    "image": "/img/htb-admirer-619.png",
+    "words": 646,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-reverse-engineering-basics-844",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-844.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-06",
+    "tags": [
+      "persistence",
+      "privilege-escalation",
+      "networking",
+      "lateral-movement",
+      "dfir"
+    ],
+    "image": "/img/note-reverse-engineering-basics-844.png",
+    "words": 296,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-mindgames-552",
+    "title": "TryHackMe — Mindgames (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Mindgames. Unconstrained Delegation and LXD Privilege Escalation to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-mindgames-552.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-06",
+    "tags": [
+      "reversing",
+      "medium",
+      "insane",
+      "ctf"
+    ],
+    "image": "/img/htb-mindgames-552.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-alfred-427",
+    "title": "HackTheBox — Alfred (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Alfred. Docker Escape and Open Redirect to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-alfred-427.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-06",
+    "tags": [
+      "reversing",
+      "hackthebox",
+      "medium",
+      "ctf",
+      "linux",
+      "hard"
+    ],
+    "image": "/img/htb-alfred-427.png",
+    "words": 613,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-517",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-517.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-05",
+    "tags": [
+      "oscp",
+      "linux",
+      "enumeration",
+      "privilege-escalation",
+      "cheatsheet"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-517.png",
+    "words": 305,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-devel-489",
+    "title": "HackTheBox — Devel (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Devel. SSTI and LXD Privilege Escalation to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-devel-489.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-05",
+    "tags": [
+      "linux",
+      "hard",
+      "windows",
+      "active-directory"
+    ],
+    "image": "/img/htb-devel-489.png",
+    "words": 699,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-cronos-481",
+    "title": "TryHackMe — Cronos (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Cronos. Silver Ticket and Writable PATH to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-cronos-481.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-05",
+    "tags": [
+      "medium",
+      "active-directory",
+      "linux",
+      "insane"
+    ],
+    "image": "/img/htb-cronos-481.png",
+    "words": 578,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-devel-555",
+    "title": "PwnTillDawn — Devel (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Devel. DCSync and XXE to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-devel-555.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-04",
+    "tags": [
+      "ctf",
+      "offsec",
+      "web"
+    ],
+    "image": "/img/htb-devel-555.png",
+    "words": 562,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-anthem-668",
+    "title": "PwnTillDawn — Anthem (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Anthem. LXD Privilege Escalation and DNS Rebinding to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-anthem-668.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-04",
+    "tags": [
+      "linux",
+      "reversing",
+      "medium",
+      "web",
+      "hackthebox"
+    ],
+    "image": "/img/htb-anthem-668.png",
+    "words": 627,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-148",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-148.html",
+    "btn_label": "View Script",
+    "date": "2024-06-03",
+    "tags": [
+      "script",
+      "bash",
+      "tool",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-148.png",
+    "words": 289,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-397",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-397.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-03",
+    "tags": [
+      "windows",
+      "privilege-escalation",
+      "cheatsheet",
+      "oscp",
+      "dfir"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-397.png",
+    "words": 599,
+    "readTime": "3 min"
+  }
+]

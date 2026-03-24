@@ -1,0 +1,229 @@
+[
+  {
+    "id": "script-reverse-shell-generator-532",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-532.html",
+    "btn_label": "View Script",
+    "date": "2025-06-20",
+    "tags": [
+      "scanner",
+      "script",
+      "python",
+      "automation",
+      "rust",
+      "bash"
+    ],
+    "image": "/img/script-reverse-shell-generator-532.png",
+    "words": 374,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-718",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-718.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-19",
+    "tags": [
+      "dfir",
+      "privilege-escalation",
+      "lateral-movement",
+      "windows",
+      "persistence"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-718.png",
+    "words": 488,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-297",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-297.html",
+    "btn_label": "View Script",
+    "date": "2025-06-17",
+    "tags": [
+      "powershell",
+      "tool",
+      "scanner",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-297.png",
+    "words": 276,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-964",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-964.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-17",
+    "tags": [
+      "dfir",
+      "persistence",
+      "networking"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-964.png",
+    "words": 380,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-200",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-200.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-17",
+    "tags": [
+      "windows",
+      "dfir",
+      "oscp",
+      "linux"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-200.png",
+    "words": 529,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-docker-security-hardening-864",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-864.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-17",
+    "tags": [
+      "enumeration",
+      "privilege-escalation",
+      "windows",
+      "linux",
+      "oscp"
+    ],
+    "image": "/img/note-docker-security-hardening-864.png",
+    "words": 268,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-armageddon-266",
+    "title": "OffSec Proving Grounds — Armageddon (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Armageddon. NFS No Root Squash and Local File Inclusion to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-armageddon-266.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-17",
+    "tags": [
+      "pwntilldawn",
+      "web",
+      "windows",
+      "hard",
+      "easy",
+      "forensics"
+    ],
+    "image": "/img/htb-armageddon-266.png",
+    "words": 657,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-419",
+    "title": "Subdomain Enumeration Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-419.html",
+    "btn_label": "View Script",
+    "date": "2025-06-16",
+    "tags": [
+      "bash",
+      "script",
+      "fuzzer",
+      "parser"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-419.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-556",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-556.html",
+    "btn_label": "View Script",
+    "date": "2025-06-16",
+    "tags": [
+      "script",
+      "fuzzer",
+      "c",
+      "scanner",
+      "go",
+      "bash",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-556.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-sigma-rule-development-687",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-687.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-16",
+    "tags": [
+      "privilege-escalation",
+      "enumeration",
+      "oscp",
+      "lateral-movement",
+      "malware"
+    ],
+    "image": "/img/note-sigma-rule-development-687.png",
+    "words": 667,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-424",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-424.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-16",
+    "tags": [
+      "windows",
+      "privilege-escalation",
+      "blue-team"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-424.png",
+    "words": 507,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-shocker-957",
+    "title": "HackTheBox — Shocker (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Shocker. Golden Ticket and Remote Code Execution to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-shocker-957.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-16",
+    "tags": [
+      "medium",
+      "web",
+      "offsec",
+      "hackthebox",
+      "ctf",
+      "active-directory"
+    ],
+    "image": "/img/htb-shocker-957.png",
+    "words": 580,
+    "readTime": "3 min",
+    "pick": 1
+  }
+]

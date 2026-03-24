@@ -1,0 +1,233 @@
+[
+  {
+    "id": "htb-alfred-457",
+    "title": "TryHackMe — Alfred (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Alfred. Silver Ticket and SeImpersonatePrivilege to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-alfred-457.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-09",
+    "tags": [
+      "tryhackme",
+      "easy",
+      "web",
+      "ctf",
+      "pwntilldawn",
+      "medium"
+    ],
+    "image": "/img/htb-alfred-457.png",
+    "words": 584,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-447",
+    "title": "AMSI Bypass Collection — Go",
+    "section": "scripting",
+    "description": "A Go script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-447.html",
+    "btn_label": "View Script",
+    "date": "2025-10-08",
+    "tags": [
+      "script",
+      "scanner",
+      "bash",
+      "parser",
+      "automation",
+      "c",
+      "go"
+    ],
+    "image": "/img/script-amsi-bypass-collection-447.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-networked-194",
+    "title": "TryHackMe — Networked (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Networked. Unquoted Service Path and Resource-Based Constrained Delegation to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-networked-194.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-08",
+    "tags": [
+      "windows",
+      "pwntilldawn",
+      "offsec",
+      "linux",
+      "ctf",
+      "forensics",
+      "hackthebox"
+    ],
+    "image": "/img/htb-networked-194.png",
+    "words": 583,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-brainstorm-793",
+    "title": "OffSec Proving Grounds — Brainstorm (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Brainstorm. Golden Ticket and Remote File Inclusion to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-brainstorm-793.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-08",
+    "tags": [
+      "web",
+      "pwntilldawn",
+      "hard",
+      "insane"
+    ],
+    "image": "/img/htb-brainstorm-793.png",
+    "words": 688,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-262",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-262.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-07",
+    "tags": [
+      "cve",
+      "buffer-overflow",
+      "kernel",
+      "exploit-development",
+      "zero-day"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-262.png",
+    "words": 470,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-884",
+    "title": "C2 Beacon Simulator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-884.html",
+    "btn_label": "View Script",
+    "date": "2025-10-06",
+    "tags": [
+      "automation",
+      "tool",
+      "python",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-c2-beacon-simulator-884.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-138",
+    "title": "API Security Testing Framework — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-138.html",
+    "btn_label": "View Script",
+    "date": "2025-10-06",
+    "tags": [
+      "fuzzer",
+      "tool",
+      "automation",
+      "powershell"
+    ],
+    "image": "/img/script-api-security-testing-framework-138.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-626",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-626.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-05",
+    "tags": [
+      "zero-day",
+      "cve",
+      "buffer-overflow",
+      "shellcode",
+      "rop"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 443,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-647",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-647.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-05",
+    "tags": [
+      "blue-team",
+      "windows",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-647.png",
+    "words": 737,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-writer-803",
+    "title": "OffSec Proving Grounds — Writer (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Writer. Path Traversal and SeImpersonatePrivilege to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-writer-803.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-05",
+    "tags": [
+      "easy",
+      "reversing",
+      "offsec"
+    ],
+    "image": "/img/htb-writer-803.png",
+    "words": 642,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-189",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-189.html",
+    "btn_label": "View Script",
+    "date": "2025-10-04",
+    "tags": [
+      "powershell",
+      "scanner",
+      "tool",
+      "rust",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-189.png",
+    "words": 330,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-670",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-670.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-04",
+    "tags": [
+      "kernel",
+      "malware-analysis",
+      "exploit-development",
+      "uaf",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-670.png",
+    "words": 497,
+    "readTime": "3 min",
+    "pick": 1
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "id": "htb-pikaboo-765",
+    "title": "TryHackMe — Pikaboo (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Pikaboo. Unquoted Service Path and Broken Access Control to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pikaboo-765.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-06",
+    "tags": [
+      "medium",
+      "easy",
+      "hackthebox",
+      "reversing",
+      "offsec"
+    ],
+    "image": "/img/htb-pikaboo-765.png",
+    "words": 612,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-dynstr-259",
+    "title": "OffSec Proving Grounds — Dynstr (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Dynstr. GPP Password and Resource-Based Constrained Delegation to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-dynstr-259.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-06",
+    "tags": [
+      "ctf",
+      "tryhackme",
+      "reversing",
+      "web",
+      "forensics",
+      "offsec",
+      "easy"
+    ],
+    "image": "/img/htb-dynstr-259.png",
+    "words": 585,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-145",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-145.html",
+    "btn_label": "View Script",
+    "date": "2024-09-05",
+    "tags": [
+      "bash",
+      "python",
+      "go",
+      "c",
+      "rust"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-145.png",
+    "words": 344,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-red-team-infrastructure-design-970",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-970.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-05",
+    "tags": [
+      "shellcode",
+      "zero-day",
+      "format-string",
+      "buffer-overflow",
+      "rop"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-970.png",
+    "words": 437,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-fuse-955",
+    "title": "TryHackMe — Fuse (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Fuse. AS-REP Roasting and Unquoted Service Path to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-fuse-955.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-05",
+    "tags": [
+      "linux",
+      "insane",
+      "pwntilldawn",
+      "tryhackme",
+      "hard",
+      "medium",
+      "easy"
+    ],
+    "image": "/img/htb-fuse-955.png",
+    "words": 615,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-reverse-engineering-basics-272",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-272.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-04",
+    "tags": [
+      "privilege-escalation",
+      "windows",
+      "oscp",
+      "lateral-movement",
+      "networking",
+      "linux"
+    ],
+    "image": "/img/note-reverse-engineering-basics-272.png",
+    "words": 557,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-974",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-974.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-04",
+    "tags": [
+      "dfir",
+      "persistence",
+      "oscp",
+      "cheatsheet",
+      "enumeration",
+      "windows"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-974.png",
+    "words": 720,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-427",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-427.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-04",
+    "tags": [
+      "privilege-escalation",
+      "dfir",
+      "enumeration",
+      "persistence",
+      "oscp"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-427.png",
+    "words": 587,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-skynet-183",
+    "title": "TryHackMe — Skynet (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Skynet. Writable PATH and Unconstrained Delegation to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-skynet-183.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-04",
+    "tags": [
+      "linux",
+      "forensics",
+      "hard",
+      "windows"
+    ],
+    "image": "/img/htb-skynet-183.png",
+    "words": 608,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-444",
+    "title": "Hash Identifier and Cracker Wrapper — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-444.html",
+    "btn_label": "View Script",
+    "date": "2024-09-03",
+    "tags": [
+      "parser",
+      "go",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-444.png",
+    "words": 280,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-shocker-384",
+    "title": "HackTheBox — Shocker (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Shocker. Unconstrained Delegation and NFS No Root Squash to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-shocker-384.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-03",
+    "tags": [
+      "hard",
+      "easy",
+      "offsec",
+      "medium",
+      "hackthebox",
+      "tryhackme"
+    ],
+    "image": "/img/htb-shocker-384.png",
+    "words": 587,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-mindgames-898",
+    "title": "OffSec Proving Grounds — Mindgames (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Mindgames. CORS Misconfiguration and Remote Code Execution to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-mindgames-898.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-02",
+    "tags": [
+      "tryhackme",
+      "forensics",
+      "pwntilldawn",
+      "hackthebox",
+      "insane",
+      "hard"
+    ],
+    "image": "/img/htb-mindgames-898.png",
+    "words": 511,
+    "readTime": "3 min"
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "id": "note-common-ctf-tricks-and-techniques-323",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-323.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-04",
+    "tags": [
+      "malware",
+      "cheatsheet",
+      "windows"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-323.png",
+    "words": 334,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-admirer-550",
+    "title": "OffSec Proving Grounds — Admirer (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Admirer. Sudo Misconfiguration and NTLM Relay to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-admirer-550.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-04",
+    "tags": [
+      "pwntilldawn",
+      "insane",
+      "forensics",
+      "web"
+    ],
+    "image": "/img/htb-admirer-550.png",
+    "words": 598,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-150",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-150.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-03",
+    "tags": [
+      "rop",
+      "format-string",
+      "uaf",
+      "heap-exploitation",
+      "kernel"
+    ],
+    "image": "/img/research-threat-intelligence-integration-150.png",
+    "words": 478,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-sigma-rule-development-656",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-656.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-03",
+    "tags": [
+      "cheatsheet",
+      "privilege-escalation",
+      "oscp",
+      "lateral-movement",
+      "enumeration"
+    ],
+    "image": "/img/note-sigma-rule-development-656.png",
+    "words": 210,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-knife-467",
+    "title": "VulnHub — Knife (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Knife. Pass the Hash and Kerberoasting to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-knife-467.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-03",
+    "tags": [
+      "active-directory",
+      "forensics",
+      "offsec",
+      "insane",
+      "hackthebox"
+    ],
+    "image": "/img/htb-knife-467.png",
+    "words": 676,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-yara-rule-writing-432",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-432.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-02",
+    "tags": [
+      "enumeration",
+      "persistence",
+      "networking",
+      "cheatsheet",
+      "malware"
+    ],
+    "image": "/img/note-yara-rule-writing-432.png",
+    "words": 220,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-448",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-448.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-02",
+    "tags": [
+      "linux",
+      "blue-team",
+      "cheatsheet"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-448.png",
+    "words": 272,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-407",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-407.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-02",
+    "tags": [
+      "enumeration",
+      "privilege-escalation",
+      "lateral-movement",
+      "linux"
+    ],
+    "image": "/img/note-reverse-engineering-basics-407.png",
+    "words": 721,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-969",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-969.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-01",
+    "tags": [
+      "cheatsheet",
+      "dfir",
+      "networking",
+      "linux",
+      "blue-team",
+      "enumeration"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-969.png",
+    "words": 404,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-dynstr-506",
+    "title": "PwnTillDawn — Dynstr (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Dynstr. Pass the Hash and XXE to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-dynstr-506.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-01",
+    "tags": [
+      "pwntilldawn",
+      "reversing",
+      "easy",
+      "insane",
+      "tryhackme"
+    ],
+    "image": "/img/htb-dynstr-506.png",
+    "words": 553,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-automated-port-scanner-539",
+    "title": "Automated Port Scanner — Python",
+    "section": "scripting",
+    "description": "A Python script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-539.html",
+    "btn_label": "View Script",
+    "date": "2025-08-31",
+    "tags": [
+      "bash",
+      "parser",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-automated-port-scanner-539.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-604",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-604.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-31",
+    "tags": [
+      "buffer-overflow",
+      "format-string",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-604.png",
+    "words": 470,
+    "readTime": "3 min"
+  }
+]

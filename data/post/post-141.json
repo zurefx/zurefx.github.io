@@ -1,0 +1,233 @@
+[
+  {
+    "id": "htb-alfred-566",
+    "title": "OffSec Proving Grounds — Alfred (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Alfred. AS-REP Roasting and Open Redirect to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-alfred-566.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-22",
+    "tags": [
+      "web",
+      "hackthebox",
+      "medium",
+      "offsec",
+      "easy"
+    ],
+    "image": "/img/htb-alfred-566.png",
+    "words": 682,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-938",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-938.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-21",
+    "tags": [
+      "blue-team",
+      "windows",
+      "malware",
+      "cheatsheet"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-938.png",
+    "words": 723,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-591",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-591.html",
+    "btn_label": "View Script",
+    "date": "2024-05-20",
+    "tags": [
+      "powershell",
+      "bash",
+      "python",
+      "parser"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-591.png",
+    "words": 304,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-868",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-868.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-20",
+    "tags": [
+      "malware",
+      "dfir",
+      "linux",
+      "windows"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-868.png",
+    "words": 331,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-worker-750",
+    "title": "TryHackMe — Worker (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Worker. Unquoted Service Path and SQL Injection to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-worker-750.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-20",
+    "tags": [
+      "easy",
+      "reversing",
+      "linux"
+    ],
+    "image": "/img/htb-worker-750.png",
+    "words": 607,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-seal-633",
+    "title": "OffSec Proving Grounds — Seal (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Seal. Pass the Ticket and Constrained Delegation to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-seal-633.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-20",
+    "tags": [
+      "reversing",
+      "easy",
+      "hackthebox",
+      "active-directory",
+      "hard",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-seal-633.png",
+    "words": 626,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-373",
+    "title": "DNS Resolver and Brute Forcer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-373.html",
+    "btn_label": "View Script",
+    "date": "2024-05-19",
+    "tags": [
+      "bash",
+      "python",
+      "c",
+      "parser",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-373.png",
+    "words": 329,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-785",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-785.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-18",
+    "tags": [
+      "blue-team",
+      "linux",
+      "privilege-escalation",
+      "cheatsheet"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-785.png",
+    "words": 489,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-spectra-285",
+    "title": "PwnTillDawn — Spectra (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Spectra. LXD Privilege Escalation and Path Traversal to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-spectra-285.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-18",
+    "tags": [
+      "reversing",
+      "ctf",
+      "linux",
+      "medium",
+      "easy",
+      "forensics"
+    ],
+    "image": "/img/htb-spectra-285.png",
+    "words": 623,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-networked-956",
+    "title": "OffSec Proving Grounds — Networked (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Networked. CSRF and Local File Inclusion to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-networked-956.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-18",
+    "tags": [
+      "windows",
+      "offsec",
+      "reversing",
+      "linux",
+      "hackthebox",
+      "ctf",
+      "forensics"
+    ],
+    "image": "/img/htb-networked-956.png",
+    "words": 680,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-beep-565",
+    "title": "VulnHub — Beep (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Beep. Local File Inclusion and SeDebugPrivilege to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-beep-565.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-18",
+    "tags": [
+      "windows",
+      "forensics",
+      "tryhackme",
+      "offsec",
+      "web",
+      "hackthebox",
+      "easy"
+    ],
+    "image": "/img/htb-beep-565.png",
+    "words": 640,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-136",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-136.html",
+    "btn_label": "View Script",
+    "date": "2024-05-17",
+    "tags": [
+      "powershell",
+      "c",
+      "script",
+      "bash",
+      "fuzzer",
+      "rust"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-136.png",
+    "words": 274,
+    "readTime": "2 min"
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "id": "note-incident-response-playbook-117",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-117.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-23",
+    "tags": [
+      "windows",
+      "dfir",
+      "oscp"
+    ],
+    "image": "/img/note-incident-response-playbook-117.png",
+    "words": 647,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-atom-936",
+    "title": "VulnHub — Atom (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Atom. DNS Rebinding and AS-REP Roasting to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-atom-936.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-23",
+    "tags": [
+      "windows",
+      "forensics",
+      "linux",
+      "medium",
+      "hackthebox"
+    ],
+    "image": "/img/htb-atom-936.png",
+    "words": 545,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-831",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-831.html",
+    "btn_label": "View Script",
+    "date": "2024-09-21",
+    "tags": [
+      "rust",
+      "automation",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-831.png",
+    "words": 299,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-750",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-750.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-21",
+    "tags": [
+      "lateral-movement",
+      "linux",
+      "windows",
+      "blue-team",
+      "persistence"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-750.png",
+    "words": 434,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-spectra-406",
+    "title": "PwnTillDawn — Spectra (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Spectra. Broken Access Control and SQL Injection to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-spectra-406.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-21",
+    "tags": [
+      "hackthebox",
+      "active-directory",
+      "tryhackme",
+      "forensics"
+    ],
+    "image": "/img/htb-spectra-406.png",
+    "words": 606,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-323",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-323.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-20",
+    "tags": [
+      "malware",
+      "privilege-escalation",
+      "dfir",
+      "enumeration",
+      "lateral-movement"
+    ],
+    "image": "/img/note-digital-forensics-methodology-323.png",
+    "words": 552,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-writer-963",
+    "title": "VulnHub — Writer (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Writer. IDOR and SUID Binary to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-writer-963.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-20",
+    "tags": [
+      "offsec",
+      "insane",
+      "easy",
+      "linux"
+    ],
+    "image": "/img/htb-writer-963.png",
+    "words": 623,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-overpass-689",
+    "title": "OffSec Proving Grounds — Overpass (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Overpass. Open Redirect and Remote Code Execution to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-overpass-689.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-20",
+    "tags": [
+      "tryhackme",
+      "windows",
+      "medium"
+    ],
+    "image": "/img/htb-overpass-689.png",
+    "words": 582,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-196",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-196.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-19",
+    "tags": [
+      "uaf",
+      "format-string",
+      "rop",
+      "kernel",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-196.png",
+    "words": 481,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-185",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-185.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-19",
+    "tags": [
+      "heap-exploitation",
+      "format-string",
+      "exploit-development"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-185.png",
+    "words": 456,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-149",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-149.html",
+    "btn_label": "View Script",
+    "date": "2024-09-18",
+    "tags": [
+      "scanner",
+      "rust",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-149.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-110",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-110.html",
+    "btn_label": "View Project",
+    "date": "2024-09-18",
+    "tags": [
+      "automation",
+      "extension",
+      "security"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-110.png",
+    "words": 216,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "gobuster",
+      "crackmapexec"
+    ]
+  }
+]

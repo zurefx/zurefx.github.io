@@ -1,0 +1,239 @@
+[
+  {
+    "id": "htb-pikaboo-798",
+    "title": "TryHackMe — Pikaboo (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Pikaboo. Writable PATH and AS-REP Roasting to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pikaboo-798.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-27",
+    "tags": [
+      "medium",
+      "easy",
+      "offsec",
+      "forensics",
+      "tryhackme",
+      "hard"
+    ],
+    "image": "/img/htb-pikaboo-798.png",
+    "words": 604,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-918",
+    "title": "EDR Evasion Techniques — Python",
+    "section": "scripting",
+    "description": "A Python script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-918.html",
+    "btn_label": "View Script",
+    "date": "2025-10-25",
+    "tags": [
+      "tool",
+      "rust",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-edr-evasion-techniques-918.png",
+    "words": 291,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-624",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-624.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-25",
+    "tags": [
+      "linux",
+      "cheatsheet",
+      "malware",
+      "oscp"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-624.png",
+    "words": 553,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-seal-953",
+    "title": "PwnTillDawn — Seal (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Seal. Resource-Based Constrained Delegation and SeDebugPrivilege to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-seal-953.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-25",
+    "tags": [
+      "hard",
+      "insane",
+      "linux",
+      "medium",
+      "reversing"
+    ],
+    "image": "/img/htb-seal-953.png",
+    "words": 622,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-565",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-565.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-24",
+    "tags": [
+      "aslr-bypass",
+      "malware-analysis",
+      "zero-day"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-565.png",
+    "words": 483,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-web-crawler-and-spider-545",
+    "title": "Web Crawler and Spider",
+    "section": "projects",
+    "description": "Open source security project: Web Crawler and Spider. Built for the community.",
+    "permalink": "/research/project-web-crawler-and-spider-545.html",
+    "btn_label": "View Project",
+    "date": "2025-10-23",
+    "tags": [
+      "open-source",
+      "automation",
+      "library"
+    ],
+    "image": "/img/project-web-crawler-and-spider-545.png",
+    "words": 213,
+    "readTime": "2 min",
+    "features": [
+      "feroxbuster",
+      "ffuf",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-985",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-985.html",
+    "btn_label": "View Project",
+    "date": "2025-10-23",
+    "tags": [
+      "tool",
+      "cli",
+      "extension"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-985.png",
+    "words": 204,
+    "readTime": "2 min",
+    "features": [
+      "evil-winrm",
+      "hydra",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-api-security-testing-framework-168",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-168.html",
+    "btn_label": "View Project",
+    "date": "2025-10-23",
+    "tags": [
+      "library",
+      "security",
+      "automation"
+    ],
+    "image": "/img/project-api-security-testing-framework-168.png",
+    "words": 217,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "feroxbuster",
+      "hydra"
+    ]
+  },
+  {
+    "id": "htb-granny-167",
+    "title": "TryHackMe — Granny (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Granny. Subdomain Takeover and SSRF to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-granny-167.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-23",
+    "tags": [
+      "reversing",
+      "tryhackme",
+      "hackthebox",
+      "windows",
+      "hard",
+      "active-directory"
+    ],
+    "image": "/img/htb-granny-167.png",
+    "words": 613,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-anthem-519",
+    "title": "HackTheBox — Anthem (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Anthem. Docker Escape and NTLM Relay to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-anthem-519.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-23",
+    "tags": [
+      "windows",
+      "hard",
+      "insane"
+    ],
+    "image": "/img/htb-anthem-519.png",
+    "words": 616,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-password-spraying-tool-705",
+    "title": "Password Spraying Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-705.html",
+    "btn_label": "View Script",
+    "date": "2025-10-22",
+    "tags": [
+      "python",
+      "parser",
+      "script",
+      "powershell",
+      "fuzzer"
+    ],
+    "image": "/img/script-password-spraying-tool-705.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-browser-exploitation-techniques-566",
+    "title": "Browser Exploitation Techniques",
+    "section": "projects",
+    "description": "Open source security project: Browser Exploitation Techniques. Built for the community.",
+    "permalink": "/research/project-browser-exploitation-techniques-566.html",
+    "btn_label": "View Project",
+    "date": "2025-10-22",
+    "tags": [
+      "framework",
+      "cli",
+      "plugin"
+    ],
+    "image": "/img/project-browser-exploitation-techniques-566.png",
+    "words": 209,
+    "readTime": "2 min",
+    "features": [
+      "nmap",
+      "hydra",
+      "gobuster"
+    ]
+  }
+]

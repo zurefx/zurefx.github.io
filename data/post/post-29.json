@@ -1,0 +1,225 @@
+[
+  {
+    "id": "note-memory-forensics-with-volatility-882",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-882.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-12",
+    "tags": [
+      "enumeration",
+      "lateral-movement",
+      "dfir"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-882.png",
+    "words": 393,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-853",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-853.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-12",
+    "tags": [
+      "blue-team",
+      "linux",
+      "windows",
+      "oscp",
+      "dfir",
+      "malware"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-853.png",
+    "words": 275,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-254",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-254.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-11",
+    "tags": [
+      "rop",
+      "format-string",
+      "kernel",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-254.png",
+    "words": 494,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tabby-617",
+    "title": "VulnHub — Tabby (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Tabby. LXD Privilege Escalation and Pass the Hash to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-tabby-617.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-11",
+    "tags": [
+      "linux",
+      "offsec",
+      "windows",
+      "forensics"
+    ],
+    "image": "/img/htb-tabby-617.png",
+    "words": 652,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-dynstr-215",
+    "title": "OffSec Proving Grounds — Dynstr (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Dynstr. Silver Ticket and NTLM Relay to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-dynstr-215.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-11",
+    "tags": [
+      "insane",
+      "pwntilldawn",
+      "easy"
+    ],
+    "image": "/img/htb-dynstr-215.png",
+    "words": 599,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-process-injection-poc-650",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-650.html",
+    "btn_label": "View Script",
+    "date": "2025-11-09",
+    "tags": [
+      "fuzzer",
+      "parser",
+      "python",
+      "script",
+      "bash"
+    ],
+    "image": "/img/script-process-injection-poc-650.png",
+    "words": 302,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-514",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-514.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-09",
+    "tags": [
+      "oscp",
+      "windows",
+      "blue-team",
+      "enumeration",
+      "networking"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-514.png",
+    "words": 391,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-tartarsauce-479",
+    "title": "TryHackMe — Tartarsauce (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tartarsauce. Docker Escape and LAPS Abuse to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-tartarsauce-479.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-08",
+    "tags": [
+      "medium",
+      "linux",
+      "offsec",
+      "pwntilldawn",
+      "ctf"
+    ],
+    "image": "/img/htb-tartarsauce-479.png",
+    "words": 650,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-spectra-965",
+    "title": "VulnHub — Spectra (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Spectra. Unquoted Service Path and Broken Access Control to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-spectra-965.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-08",
+    "tags": [
+      "pwntilldawn",
+      "active-directory",
+      "hard",
+      "forensics"
+    ],
+    "image": "/img/htb-spectra-965.png",
+    "words": 642,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-doctor-598",
+    "title": "VulnHub — Doctor (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Doctor. Unquoted Service Path and Constrained Delegation to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-doctor-598.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-08",
+    "tags": [
+      "forensics",
+      "pwntilldawn",
+      "insane",
+      "tryhackme"
+    ],
+    "image": "/img/htb-doctor-598.png",
+    "words": 588,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-930",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-930.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-07",
+    "tags": [
+      "uaf",
+      "buffer-overflow",
+      "cve",
+      "malware-analysis"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-930.png",
+    "words": 459,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-970",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-970.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-07",
+    "tags": [
+      "oscp",
+      "malware",
+      "linux",
+      "dfir"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-970.png",
+    "words": 196,
+    "readTime": "1 min"
+  }
+]

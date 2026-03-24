@@ -1,0 +1,226 @@
+[
+  {
+    "id": "htb-sense-523",
+    "title": "HackTheBox — Sense (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Sense. Open Redirect and DCSync to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-sense-523.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-24",
+    "tags": [
+      "hackthebox",
+      "medium",
+      "ctf"
+    ],
+    "image": "/img/htb-sense-523.png",
+    "words": 626,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-389",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-389.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-23",
+    "tags": [
+      "linux",
+      "networking",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-389.png",
+    "words": 570,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-258",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-258.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-23",
+    "tags": [
+      "linux",
+      "dfir",
+      "networking",
+      "persistence",
+      "cheatsheet",
+      "enumeration"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-258.png",
+    "words": 407,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-docker-security-hardening-500",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-500.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-23",
+    "tags": [
+      "cheatsheet",
+      "dfir",
+      "oscp",
+      "lateral-movement",
+      "malware",
+      "windows"
+    ],
+    "image": "/img/note-docker-security-hardening-500.png",
+    "words": 544,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-networked-288",
+    "title": "TryHackMe — Networked (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Networked. Silver Ticket and XSS to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-networked-288.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-23",
+    "tags": [
+      "pwntilldawn",
+      "linux",
+      "ctf",
+      "easy",
+      "web"
+    ],
+    "image": "/img/htb-networked-288.png",
+    "words": 587,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-devel-569",
+    "title": "OffSec Proving Grounds — Devel (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Devel. Sudo Misconfiguration and AS-REP Roasting to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-devel-569.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-23",
+    "tags": [
+      "easy",
+      "active-directory",
+      "tryhackme",
+      "hard"
+    ],
+    "image": "/img/htb-devel-569.png",
+    "words": 549,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-172",
+    "title": "Payload Obfuscation Script — Python",
+    "section": "scripting",
+    "description": "A Python script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-172.html",
+    "btn_label": "View Script",
+    "date": "2026-01-22",
+    "tags": [
+      "fuzzer",
+      "script",
+      "powershell",
+      "parser",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-payload-obfuscation-script-172.png",
+    "words": 322,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-948",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-948.html",
+    "btn_label": "View Script",
+    "date": "2026-01-22",
+    "tags": [
+      "go",
+      "script",
+      "c",
+      "scanner",
+      "tool"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-948.png",
+    "words": 309,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-684",
+    "title": "C2 Beacon Simulator — Go",
+    "section": "scripting",
+    "description": "A Go script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-684.html",
+    "btn_label": "View Script",
+    "date": "2026-01-22",
+    "tags": [
+      "fuzzer",
+      "script",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-c2-beacon-simulator-684.png",
+    "words": 326,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-report-generator-879",
+    "title": "Automated Report Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-879.html",
+    "btn_label": "View Script",
+    "date": "2026-01-22",
+    "tags": [
+      "powershell",
+      "scanner",
+      "parser",
+      "go",
+      "tool",
+      "automation"
+    ],
+    "image": "/img/script-automated-report-generator-879.png",
+    "words": 266,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-921",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-921.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-22",
+    "tags": [
+      "kernel",
+      "zero-day",
+      "aslr-bypass",
+      "uaf",
+      "exploit-development"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-921.png",
+    "words": 508,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-884",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-884.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-22",
+    "tags": [
+      "malware",
+      "linux",
+      "windows"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-884.png",
+    "words": 224,
+    "readTime": "2 min"
+  }
+]

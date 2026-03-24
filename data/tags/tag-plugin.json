@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2026-02-27",
+    "section": "projects",
+    "permalink": "/research/project-browser-exploitation-techniques-723.html",
+    "image": "/img/project-browser-exploitation-techniques-723.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Process Injection PoC",
+    "date": "2026-02-26",
+    "section": "projects",
+    "permalink": "/research/project-process-injection-poc-764.html",
+    "image": "/img/project-process-injection-poc-764.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Custom Wordlist Generator",
+    "date": "2026-01-14",
+    "section": "projects",
+    "permalink": "/research/project-custom-wordlist-generator-770.html",
+    "image": "/img/project-custom-wordlist-generator-770.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "EDR Evasion Techniques",
+    "date": "2025-12-28",
+    "section": "projects",
+    "permalink": "/research/project-edr-evasion-techniques-313.html",
+    "image": "/img/project-edr-evasion-techniques-313.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "API Security Testing Framework",
+    "date": "2025-12-17",
+    "section": "projects",
+    "permalink": "/research/project-api-security-testing-framework-728.html",
+    "image": "/img/project-api-security-testing-framework-728.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2025-11-01",
+    "section": "projects",
+    "permalink": "/research/project-evading-modern-edr-solutions-737.html",
+    "image": "/img/project-evading-modern-edr-solutions-737.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2025-10-22",
+    "section": "projects",
+    "permalink": "/research/project-browser-exploitation-techniques-566.html",
+    "image": "/img/project-browser-exploitation-techniques-566.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "JWT Token Analyzer",
+    "date": "2025-10-01",
+    "section": "projects",
+    "permalink": "/research/project-jwt-token-analyzer-438.html",
+    "image": "/img/project-jwt-token-analyzer-438.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "API Security Testing Framework",
+    "date": "2025-09-24",
+    "section": "projects",
+    "permalink": "/research/project-api-security-testing-framework-344.html",
+    "image": "/img/project-api-security-testing-framework-344.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2025-09-07",
+    "section": "projects",
+    "permalink": "/research/project-novel-persistence-mechanisms-in-linux-461.html",
+    "image": "/img/project-novel-persistence-mechanisms-in-linux-461.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Reverse Shell Generator",
+    "date": "2025-07-03",
+    "section": "projects",
+    "permalink": "/research/project-reverse-shell-generator-488.html",
+    "image": "/img/project-reverse-shell-generator-488.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "C2 Beacon Simulator",
+    "date": "2025-06-28",
+    "section": "projects",
+    "permalink": "/research/project-c2-beacon-simulator-623.html",
+    "image": "/img/project-c2-beacon-simulator-623.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer",
+    "date": "2025-06-13",
+    "section": "projects",
+    "permalink": "/research/project-dns-resolver-and-brute-forcer-591.html",
+    "image": "/img/project-dns-resolver-and-brute-forcer-591.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Log Parser and Analyzer",
+    "date": "2025-05-16",
+    "section": "projects",
+    "permalink": "/research/project-log-parser-and-analyzer-547.html",
+    "image": "/img/project-log-parser-and-analyzer-547.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Shell Generator",
+    "date": "2025-04-18",
+    "section": "projects",
+    "permalink": "/research/project-reverse-shell-generator-873.html",
+    "image": "/img/project-reverse-shell-generator-873.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2025-04-04",
+    "section": "projects",
+    "permalink": "/research/project-evading-modern-edr-solutions-249.html",
+    "image": "/img/project-evading-modern-edr-solutions-249.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Reverse Shell Generator",
+    "date": "2025-02-05",
+    "section": "projects",
+    "permalink": "/research/project-reverse-shell-generator-545.html",
+    "image": "/img/project-reverse-shell-generator-545.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Automated Report Generator",
+    "date": "2025-01-16",
+    "section": "projects",
+    "permalink": "/research/project-automated-report-generator-107.html",
+    "image": "/img/project-automated-report-generator-107.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2024-12-23",
+    "section": "projects",
+    "permalink": "/research/project-novel-persistence-mechanisms-in-linux-613.html",
+    "image": "/img/project-novel-persistence-mechanisms-in-linux-613.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2024-11-17",
+    "section": "projects",
+    "permalink": "/research/project-novel-persistence-mechanisms-in-linux-216.html",
+    "image": "/img/project-novel-persistence-mechanisms-in-linux-216.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Process Injection PoC",
+    "date": "2024-11-06",
+    "section": "projects",
+    "permalink": "/research/project-process-injection-poc-716.html",
+    "image": "/img/project-process-injection-poc-716.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "AMSI Bypass Collection",
+    "date": "2024-10-02",
+    "section": "projects",
+    "permalink": "/research/project-amsi-bypass-collection-606.html",
+    "image": "/img/project-amsi-bypass-collection-606.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Process Injection PoC",
+    "date": "2024-09-30",
+    "section": "projects",
+    "permalink": "/research/project-process-injection-poc-807.html",
+    "image": "/img/project-process-injection-poc-807.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "API Security Testing Framework",
+    "date": "2024-09-15",
+    "section": "projects",
+    "permalink": "/research/project-api-security-testing-framework-683.html",
+    "image": "/img/project-api-security-testing-framework-683.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "EDR Evasion Techniques",
+    "date": "2024-09-07",
+    "section": "projects",
+    "permalink": "/research/project-edr-evasion-techniques-859.html",
+    "image": "/img/project-edr-evasion-techniques-859.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "date": "2024-08-31",
+    "section": "projects",
+    "permalink": "/research/project-deep-dive-into-windows-kernel-exploitati-258.html",
+    "image": "/img/project-deep-dive-into-windows-kernel-exploitati-2.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "AMSI Bypass Collection",
+    "date": "2024-07-05",
+    "section": "projects",
+    "permalink": "/research/project-amsi-bypass-collection-733.html",
+    "image": "/img/project-amsi-bypass-collection-733.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Subdomain Enumeration Tool",
+    "date": "2024-06-13",
+    "section": "projects",
+    "permalink": "/research/project-subdomain-enumeration-tool-105.html",
+    "image": "/img/project-subdomain-enumeration-tool-105.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Subdomain Enumeration Tool",
+    "date": "2024-05-28",
+    "section": "projects",
+    "permalink": "/research/project-subdomain-enumeration-tool-508.html",
+    "image": "/img/project-subdomain-enumeration-tool-508.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Custom Wordlist Generator",
+    "date": "2024-04-29",
+    "section": "projects",
+    "permalink": "/research/project-custom-wordlist-generator-333.html",
+    "image": "/img/project-custom-wordlist-generator-333.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Automated Report Generator",
+    "date": "2024-04-05",
+    "section": "projects",
+    "permalink": "/research/project-automated-report-generator-970.html",
+    "image": "/img/project-automated-report-generator-970.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "JWT Token Analyzer",
+    "date": "2024-03-24",
+    "section": "projects",
+    "permalink": "/research/project-jwt-token-analyzer-151.html",
+    "image": "/img/project-jwt-token-analyzer-151.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Payload Obfuscation Script",
+    "date": "2024-03-11",
+    "section": "projects",
+    "permalink": "/research/project-payload-obfuscation-script-332.html",
+    "image": "/img/project-payload-obfuscation-script-332.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Process Injection PoC",
+    "date": "2024-02-16",
+    "section": "projects",
+    "permalink": "/research/project-process-injection-poc-680.html",
+    "image": "/img/project-process-injection-poc-680.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Web Crawler and Spider",
+    "date": "2024-02-04",
+    "section": "projects",
+    "permalink": "/research/project-web-crawler-and-spider-800.html",
+    "image": "/img/project-web-crawler-and-spider-800.png",
+    "readTime": "2 min"
+  }
+]

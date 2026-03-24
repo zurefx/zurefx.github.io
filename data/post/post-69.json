@@ -1,0 +1,225 @@
+[
+  {
+    "id": "htb-ghizer-960",
+    "title": "HackTheBox — Ghizer (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ghizer. Insecure Deserialization and SeDebugPrivilege to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-ghizer-960.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-09",
+    "tags": [
+      "windows",
+      "hackthebox",
+      "pwntilldawn",
+      "easy",
+      "web",
+      "linux",
+      "reversing"
+    ],
+    "image": "/img/htb-ghizer-960.png",
+    "words": 678,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-937",
+    "title": "Custom Wordlist Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-937.html",
+    "btn_label": "View Script",
+    "date": "2025-05-08",
+    "tags": [
+      "rust",
+      "scanner",
+      "c",
+      "script",
+      "go"
+    ],
+    "image": "/img/script-custom-wordlist-generator-937.png",
+    "words": 341,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-495",
+    "title": "AMSI Bypass Collection — Python",
+    "section": "scripting",
+    "description": "A Python script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-495.html",
+    "btn_label": "View Script",
+    "date": "2025-05-08",
+    "tags": [
+      "go",
+      "bash",
+      "powershell",
+      "python"
+    ],
+    "image": "/img/script-amsi-bypass-collection-495.png",
+    "words": 347,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-796",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-796.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-08",
+    "tags": [
+      "oscp",
+      "persistence",
+      "enumeration",
+      "blue-team",
+      "malware",
+      "linux"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-796.png",
+    "words": 638,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-crossfit-588",
+    "title": "VulnHub — Crossfit (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Crossfit. Remote File Inclusion and DLL Hijacking to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-crossfit-588.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-08",
+    "tags": [
+      "easy",
+      "offsec",
+      "ctf"
+    ],
+    "image": "/img/htb-crossfit-588.png",
+    "words": 582,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-840",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-840.html",
+    "btn_label": "View Script",
+    "date": "2025-05-07",
+    "tags": [
+      "parser",
+      "python",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-840.png",
+    "words": 306,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-823",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-823.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-07",
+    "tags": [
+      "enumeration",
+      "windows",
+      "blue-team",
+      "dfir"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-823.png",
+    "words": 302,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-485",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-485.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-05",
+    "tags": [
+      "exploit-development",
+      "zero-day",
+      "rop",
+      "uaf",
+      "aslr-bypass",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-485.png",
+    "words": 493,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-incident-response-playbook-739",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-739.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-05",
+    "tags": [
+      "dfir",
+      "malware",
+      "lateral-movement",
+      "blue-team"
+    ],
+    "image": "/img/note-incident-response-playbook-739.png",
+    "words": 352,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-sense-535",
+    "title": "OffSec Proving Grounds — Sense (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Sense. Docker Escape and LAPS Abuse to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-sense-535.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-05",
+    "tags": [
+      "reversing",
+      "active-directory",
+      "offsec",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-sense-535.png",
+    "words": 595,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-network-packet-sniffer-795",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-795.html",
+    "btn_label": "View Script",
+    "date": "2025-05-04",
+    "tags": [
+      "go",
+      "automation",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-network-packet-sniffer-795.png",
+    "words": 373,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-red-team-infrastructure-design-687",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-687.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-04",
+    "tags": [
+      "shellcode",
+      "exploit-development",
+      "cve"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-687.png",
+    "words": 552,
+    "readTime": "3 min"
+  }
+]

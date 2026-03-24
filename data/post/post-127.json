@@ -1,0 +1,221 @@
+[
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-779",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-779.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-01",
+    "tags": [
+      "shellcode",
+      "format-string",
+      "exploit-development",
+      "malware-analysis",
+      "heap-exploitation",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 430,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-190",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-190.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-01",
+    "tags": [
+      "cheatsheet",
+      "malware",
+      "persistence"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-190.png",
+    "words": 482,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-solidstate-219",
+    "title": "HackTheBox — Solidstate (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Solidstate. LXD Privilege Escalation and LAPS Abuse to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-solidstate-219.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-01",
+    "tags": [
+      "hard",
+      "linux",
+      "active-directory",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-solidstate-219.png",
+    "words": 598,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-yara-rule-writing-797",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-797.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-31",
+    "tags": [
+      "privilege-escalation",
+      "cheatsheet",
+      "lateral-movement"
+    ],
+    "image": "/img/note-yara-rule-writing-797.png",
+    "words": 725,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-773",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-773.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-31",
+    "tags": [
+      "privilege-escalation",
+      "cheatsheet",
+      "malware",
+      "enumeration",
+      "windows",
+      "persistence"
+    ],
+    "image": "/img/note-reverse-engineering-basics-773.png",
+    "words": 301,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-831",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-831.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-30",
+    "tags": [
+      "privilege-escalation",
+      "persistence",
+      "linux",
+      "blue-team"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-831.png",
+    "words": 323,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-624",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-624.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-30",
+    "tags": [
+      "networking",
+      "blue-team",
+      "linux",
+      "windows"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-624.png",
+    "words": 386,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-pit-726",
+    "title": "VulnHub — Pit (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Pit. Docker Escape and GPP Password to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pit-726.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-30",
+    "tags": [
+      "hard",
+      "tryhackme",
+      "linux",
+      "ctf"
+    ],
+    "image": "/img/htb-pit-726.png",
+    "words": 635,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-167",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-167.html",
+    "btn_label": "View Script",
+    "date": "2024-07-29",
+    "tags": [
+      "powershell",
+      "go",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-167.png",
+    "words": 303,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-946",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-946.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-29",
+    "tags": [
+      "rop",
+      "shellcode",
+      "zero-day"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-946.png",
+    "words": 451,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-385",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-385.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-28",
+    "tags": [
+      "zero-day",
+      "kernel",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-385.png",
+    "words": 434,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-789",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-789.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-28",
+    "tags": [
+      "lateral-movement",
+      "dfir",
+      "privilege-escalation",
+      "blue-team",
+      "networking"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-789.png",
+    "words": 453,
+    "readTime": "3 min"
+  }
+]

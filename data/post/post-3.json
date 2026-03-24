@@ -1,0 +1,225 @@
+[
+  {
+    "id": "htb-lame-308",
+    "title": "HackTheBox — Lame (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Lame. DLL Hijacking and Sudo Misconfiguration to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-lame-308.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-16",
+    "tags": [
+      "easy",
+      "windows",
+      "offsec",
+      "insane",
+      "linux",
+      "medium"
+    ],
+    "image": "/img/htb-lame-308.png",
+    "words": 599,
+    "readTime": "3 min"
+  },
+  {
+    "id": "linux-privesc-notes",
+    "title": "Linux Privilege Escalation",
+    "section": "notes",
+    "description": "Linux privesc quick reference: SUID, sudo misconfigurations, cron jobs, writable paths and kernel exploits.",
+    "permalink": "/notes/linux-privesc-notes.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-16",
+    "tags": [
+      "cheatsheet",
+      "linux",
+      "privesc",
+      "oscp"
+    ],
+    "image": "/img/linux-privesc-notes.png",
+    "words": 64,
+    "readTime": "1 min",
+    "subsection": "Linux"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-950",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-950.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-15",
+    "tags": [
+      "malware-analysis",
+      "kernel",
+      "exploit-development"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-950.png",
+    "words": 521,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-668",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-668.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-15",
+    "tags": [
+      "malware",
+      "networking",
+      "enumeration"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-668.png",
+    "words": 507,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-555",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-555.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-15",
+    "tags": [
+      "lateral-movement",
+      "dfir",
+      "persistence",
+      "linux",
+      "privilege-escalation",
+      "blue-team"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-555.png",
+    "words": 770,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-spectra-109",
+    "title": "HackTheBox — Spectra (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Spectra. XXE and Docker Escape to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-spectra-109.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-15",
+    "tags": [
+      "forensics",
+      "linux",
+      "medium",
+      "hard",
+      "active-directory",
+      "offsec",
+      "web"
+    ],
+    "image": "/img/htb-spectra-109.png",
+    "words": 605,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-deja-vu-692",
+    "title": "VulnHub — Deja Vu (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Deja Vu. Sudo Misconfiguration and SUID Binary to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-deja-vu-692.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-15",
+    "tags": [
+      "reversing",
+      "hackthebox",
+      "offsec",
+      "medium",
+      "active-directory"
+    ],
+    "image": "/img/htb-deja-vu-692.png",
+    "words": 632,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-crossfit-599",
+    "title": "TryHackMe — Crossfit (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Crossfit. SUID Binary and Pass the Hash to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-crossfit-599.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-15",
+    "tags": [
+      "offsec",
+      "insane",
+      "active-directory"
+    ],
+    "image": "/img/htb-crossfit-599.png",
+    "words": 669,
+    "readTime": "4 min"
+  },
+  {
+    "id": "edr-evasion-research",
+    "title": "EDR Evasion Techniques Overview",
+    "section": "research",
+    "description": "Overview of common EDR evasion techniques: syscall unhooking, AMSI bypass, process injection and sleep obfuscation.",
+    "permalink": "/research/edr-evasion-research.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-15",
+    "tags": [
+      "research",
+      "redteam",
+      "edr",
+      "evasion",
+      "amsi"
+    ],
+    "image": "/img/edr-evasion-research.png",
+    "words": 75,
+    "readTime": "1 min"
+  },
+  {
+    "id": "htb-bizness",
+    "title": "HTB Bizness — Easy Linux",
+    "section": "writeups",
+    "description": "HackTheBox Bizness writeup. Apache OFBiz authentication bypass CVE-2023-49070 and SHA1 hash cracking for root.",
+    "permalink": "/writeups/htb-bizness.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-14",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "ofbiz",
+      "authbypass"
+    ],
+    "image": "/img/htb-bizness.png",
+    "words": 55,
+    "readTime": "1 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-834",
+    "title": "Payload Obfuscation Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-834.html",
+    "btn_label": "View Script",
+    "date": "2026-03-13",
+    "tags": [
+      "fuzzer",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-payload-obfuscation-script-834.png",
+    "words": 336,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-971",
+    "title": "Password Spraying Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-971.html",
+    "btn_label": "View Script",
+    "date": "2026-03-13",
+    "tags": [
+      "go",
+      "c",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-password-spraying-tool-971.png",
+    "words": 330,
+    "readTime": "2 min"
+  }
+]

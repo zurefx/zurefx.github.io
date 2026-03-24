@@ -1,0 +1,235 @@
+[
+  {
+    "id": "htb-tentacle-855",
+    "title": "TryHackMe — Tentacle (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tentacle. Constrained Delegation and Silver Ticket to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-tentacle-855.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-01",
+    "tags": [
+      "insane",
+      "ctf",
+      "offsec"
+    ],
+    "image": "/img/htb-tentacle-855.png",
+    "words": 575,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-cap-606",
+    "title": "OffSec Proving Grounds — Cap (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Cap. Golden Ticket and Command Injection to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-cap-606.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-01",
+    "tags": [
+      "reversing",
+      "offsec",
+      "medium",
+      "web",
+      "tryhackme"
+    ],
+    "image": "/img/htb-cap-606.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-api-security-testing-framework-880",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-880.html",
+    "btn_label": "View Project",
+    "date": "2025-06-30",
+    "tags": [
+      "framework",
+      "tool",
+      "cli"
+    ],
+    "image": "/img/project-api-security-testing-framework-880.png",
+    "words": 189,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "feroxbuster",
+      "hydra"
+    ]
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-521",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-521.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-30",
+    "tags": [
+      "cheatsheet",
+      "dfir",
+      "blue-team",
+      "oscp"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-521.png",
+    "words": 364,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-doctor-435",
+    "title": "TryHackMe — Doctor (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Doctor. Kerberoasting and Insecure Deserialization to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-doctor-435.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-30",
+    "tags": [
+      "web",
+      "ctf",
+      "medium",
+      "easy",
+      "linux"
+    ],
+    "image": "/img/htb-doctor-435.png",
+    "words": 636,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-486",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-486.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-29",
+    "tags": [
+      "persistence",
+      "privilege-escalation",
+      "networking",
+      "linux"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-486.png",
+    "words": 336,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-811",
+    "title": "Reverse Shell Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-811.html",
+    "btn_label": "View Script",
+    "date": "2025-06-28",
+    "tags": [
+      "python",
+      "automation",
+      "scanner",
+      "c",
+      "tool",
+      "rust",
+      "powershell"
+    ],
+    "image": "/img/script-reverse-shell-generator-811.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-c2-beacon-simulator-623",
+    "title": "C2 Beacon Simulator",
+    "section": "projects",
+    "description": "Open source security project: C2 Beacon Simulator. Built for the community.",
+    "permalink": "/research/project-c2-beacon-simulator-623.html",
+    "btn_label": "View Project",
+    "date": "2025-06-28",
+    "tags": [
+      "security",
+      "framework",
+      "plugin"
+    ],
+    "image": "/img/project-c2-beacon-simulator-623.png",
+    "words": 186,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "ffuf",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "htb-pikaboo-223",
+    "title": "VulnHub — Pikaboo (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Pikaboo. AlwaysInstallElevated and IDOR to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-pikaboo-223.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-28",
+    "tags": [
+      "hard",
+      "easy",
+      "linux",
+      "medium",
+      "forensics"
+    ],
+    "image": "/img/htb-pikaboo-223.png",
+    "words": 564,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-365",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-365.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-26",
+    "tags": [
+      "format-string",
+      "malware-analysis",
+      "kernel",
+      "rop",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-36.png",
+    "words": 434,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-yara-rule-writing-170",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-170.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-26",
+    "tags": [
+      "lateral-movement",
+      "windows",
+      "malware",
+      "enumeration"
+    ],
+    "image": "/img/note-yara-rule-writing-170.png",
+    "words": 757,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-game-zone-648",
+    "title": "VulnHub — Game Zone (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Game Zone. Sudo Misconfiguration and SeImpersonatePrivilege to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-game-zone-648.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-26",
+    "tags": [
+      "medium",
+      "reversing",
+      "hackthebox",
+      "windows",
+      "linux"
+    ],
+    "image": "/img/htb-game-zone-648.png",
+    "words": 634,
+    "readTime": "4 min"
+  }
+]

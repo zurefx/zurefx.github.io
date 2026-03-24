@@ -1,0 +1,232 @@
+[
+  {
+    "id": "research-fuzzing-embedded-firmware-458",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-458.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-26",
+    "tags": [
+      "cve",
+      "kernel",
+      "buffer-overflow",
+      "exploit-development",
+      "malware-analysis",
+      "shellcode"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-458.png",
+    "words": 498,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-793",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-793.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-26",
+    "tags": [
+      "shellcode",
+      "aslr-bypass",
+      "zero-day",
+      "rop",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-intelligence-984",
+    "title": "PwnTillDawn — Intelligence (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Intelligence. CORS Misconfiguration and LAPS Abuse to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-intelligence-984.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-26",
+    "tags": [
+      "hackthebox",
+      "active-directory",
+      "easy"
+    ],
+    "image": "/img/htb-intelligence-984.png",
+    "words": 618,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-horizontall-131",
+    "title": "TryHackMe — Horizontall (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Horizontall. Golden Ticket and SSTI to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-horizontall-131.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-26",
+    "tags": [
+      "insane",
+      "hard",
+      "active-directory",
+      "web",
+      "offsec",
+      "reversing",
+      "forensics"
+    ],
+    "image": "/img/htb-horizontall-131.png",
+    "words": 581,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-331",
+    "title": "API Security Testing Framework — Go",
+    "section": "scripting",
+    "description": "A Go script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-331.html",
+    "btn_label": "View Script",
+    "date": "2024-04-25",
+    "tags": [
+      "script",
+      "powershell",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-api-security-testing-framework-331.png",
+    "words": 303,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-861",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-861.html",
+    "btn_label": "Read Research",
+    "date": "2024-04-24",
+    "tags": [
+      "exploit-development",
+      "cve",
+      "kernel",
+      "aslr-bypass",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-861.png",
+    "words": 497,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-network-packet-sniffer-843",
+    "title": "Network Packet Sniffer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-843.html",
+    "btn_label": "View Script",
+    "date": "2024-04-23",
+    "tags": [
+      "parser",
+      "python",
+      "scanner",
+      "bash",
+      "script"
+    ],
+    "image": "/img/script-network-packet-sniffer-843.png",
+    "words": 390,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-992",
+    "title": "Hash Identifier and Cracker Wrapper — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-992.html",
+    "btn_label": "View Script",
+    "date": "2024-04-23",
+    "tags": [
+      "parser",
+      "rust",
+      "c",
+      "go",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-992.png",
+    "words": 319,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-372",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-372.html",
+    "btn_label": "Read Notes",
+    "date": "2024-04-23",
+    "tags": [
+      "persistence",
+      "dfir",
+      "malware",
+      "oscp",
+      "linux"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-372.png",
+    "words": 711,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-492",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-492.html",
+    "btn_label": "Read Notes",
+    "date": "2024-04-22",
+    "tags": [
+      "dfir",
+      "linux",
+      "malware",
+      "persistence"
+    ],
+    "image": "/img/note-active-directory-attack-paths-492.png",
+    "words": 486,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-lame-870",
+    "title": "VulnHub — Lame (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Lame. Resource-Based Constrained Delegation and Cron Job to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-lame-870.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-22",
+    "tags": [
+      "tryhackme",
+      "active-directory",
+      "web"
+    ],
+    "image": "/img/htb-lame-870.png",
+    "words": 641,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-fuse-977",
+    "title": "OffSec Proving Grounds — Fuse (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Fuse. GPP Password and Pass the Hash to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-fuse-977.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-04-20",
+    "tags": [
+      "easy",
+      "ctf",
+      "web",
+      "medium",
+      "forensics",
+      "linux"
+    ],
+    "image": "/img/htb-fuse-977.png",
+    "words": 523,
+    "readTime": "3 min",
+    "pick": 1
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "note-reverse-engineering-basics-233",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-233.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-21",
+    "tags": [
+      "blue-team",
+      "linux",
+      "cheatsheet",
+      "oscp",
+      "networking"
+    ],
+    "image": "/img/note-reverse-engineering-basics-233.png",
+    "words": 430,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-cronos-329",
+    "title": "VulnHub — Cronos (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Cronos. SUID Binary and Docker Escape to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-cronos-329.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-21",
+    "tags": [
+      "ctf",
+      "active-directory",
+      "easy",
+      "medium",
+      "insane",
+      "forensics"
+    ],
+    "image": "/img/htb-cronos-329.png",
+    "words": 651,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-681",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-681.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-20",
+    "tags": [
+      "uaf",
+      "heap-exploitation",
+      "zero-day",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-681.png",
+    "words": 458,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-546",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-546.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-20",
+    "tags": [
+      "cve",
+      "aslr-bypass",
+      "kernel",
+      "uaf",
+      "format-string"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 478,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-edr-evasion-techniques-704",
+    "title": "EDR Evasion Techniques",
+    "section": "projects",
+    "description": "Open source security project: EDR Evasion Techniques. Built for the community.",
+    "permalink": "/research/project-edr-evasion-techniques-704.html",
+    "btn_label": "View Project",
+    "date": "2026-02-20",
+    "tags": [
+      "extension",
+      "automation",
+      "framework"
+    ],
+    "image": "/img/project-edr-evasion-techniques-704.png",
+    "words": 210,
+    "readTime": "2 min",
+    "features": [
+      "feroxbuster",
+      "evil-winrm",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-361",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-361.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-20",
+    "tags": [
+      "networking",
+      "malware",
+      "persistence",
+      "windows",
+      "blue-team",
+      "lateral-movement"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-361.png",
+    "words": 383,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-docker-security-hardening-349",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-349.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-20",
+    "tags": [
+      "dfir",
+      "blue-team",
+      "cheatsheet"
+    ],
+    "image": "/img/note-docker-security-hardening-349.png",
+    "words": 379,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-granny-349",
+    "title": "OffSec Proving Grounds — Granny (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Granny. XSS and CSRF to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-granny-349.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-20",
+    "tags": [
+      "active-directory",
+      "linux",
+      "insane"
+    ],
+    "image": "/img/htb-granny-349.png",
+    "words": 576,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-cap-834",
+    "title": "HackTheBox — Cap (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Cap. Subdomain Takeover and GPP Password to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-cap-834.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-20",
+    "tags": [
+      "windows",
+      "hackthebox",
+      "linux",
+      "medium",
+      "hard",
+      "active-directory",
+      "forensics"
+    ],
+    "image": "/img/htb-cap-834.png",
+    "words": 612,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-red-team-infrastructure-design-378",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-378.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-19",
+    "tags": [
+      "shellcode",
+      "heap-exploitation",
+      "rop",
+      "uaf",
+      "format-string"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-378.png",
+    "words": 507,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-180",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-180.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-19",
+    "tags": [
+      "linux",
+      "privilege-escalation",
+      "oscp",
+      "blue-team"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-180.png",
+    "words": 488,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-317",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-317.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-18",
+    "tags": [
+      "oscp",
+      "malware",
+      "blue-team",
+      "lateral-movement",
+      "dfir"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-317.png",
+    "words": 372,
+    "readTime": "2 min"
+  }
+]

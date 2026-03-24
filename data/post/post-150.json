@@ -1,0 +1,235 @@
+[
+  {
+    "id": "script-jwt-token-analyzer-430",
+    "title": "JWT Token Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-430.html",
+    "btn_label": "View Script",
+    "date": "2024-03-31",
+    "tags": [
+      "tool",
+      "parser",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-jwt-token-analyzer-430.png",
+    "words": 356,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-959",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-959.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-31",
+    "tags": [
+      "persistence",
+      "blue-team",
+      "dfir",
+      "privilege-escalation",
+      "windows",
+      "malware"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-959.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-618",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-618.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-31",
+    "tags": [
+      "privilege-escalation",
+      "enumeration",
+      "lateral-movement",
+      "malware",
+      "linux"
+    ],
+    "image": "/img/note-active-directory-attack-paths-618.png",
+    "words": 365,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-relevant-626",
+    "title": "TryHackMe — Relevant (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Relevant. DLL Hijacking and Writable PATH to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-relevant-626.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-31",
+    "tags": [
+      "linux",
+      "easy",
+      "reversing",
+      "hard",
+      "active-directory",
+      "forensics"
+    ],
+    "image": "/img/htb-relevant-626.png",
+    "words": 597,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ice-288",
+    "title": "TryHackMe — Ice (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Ice. SQL Injection and Local File Inclusion to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ice-288.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-31",
+    "tags": [
+      "forensics",
+      "easy",
+      "hackthebox",
+      "medium",
+      "active-directory",
+      "linux",
+      "insane"
+    ],
+    "image": "/img/htb-ice-288.png",
+    "words": 599,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-convertmyfund-656",
+    "title": "VulnHub — Convertmyfund (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Convertmyfund. CORS Misconfiguration and Path Traversal to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-convertmyfund-656.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-31",
+    "tags": [
+      "forensics",
+      "ctf",
+      "linux",
+      "easy"
+    ],
+    "image": "/img/htb-convertmyfund-656.png",
+    "words": 540,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-dynstr-747",
+    "title": "OffSec Proving Grounds — Dynstr (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Dynstr. Constrained Delegation and SUID Binary to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-dynstr-747.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-30",
+    "tags": [
+      "ctf",
+      "web",
+      "hackthebox",
+      "windows",
+      "hard",
+      "tryhackme"
+    ],
+    "image": "/img/htb-dynstr-747.png",
+    "words": 650,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-armageddon-798",
+    "title": "HackTheBox — Armageddon (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Armageddon. AlwaysInstallElevated and Writable PATH to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-armageddon-798.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-30",
+    "tags": [
+      "hard",
+      "medium",
+      "easy",
+      "pwntilldawn",
+      "active-directory",
+      "ctf"
+    ],
+    "image": "/img/htb-armageddon-798.png",
+    "words": 556,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-solidstate-330",
+    "title": "HackTheBox — Solidstate (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Solidstate. SUID Binary and LAPS Abuse to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-solidstate-330.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-29",
+    "tags": [
+      "pwntilldawn",
+      "linux",
+      "tryhackme",
+      "hackthebox",
+      "windows",
+      "ctf",
+      "offsec"
+    ],
+    "image": "/img/htb-solidstate-330.png",
+    "words": 665,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-jwt-token-analyzer-745",
+    "title": "JWT Token Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-745.html",
+    "btn_label": "View Script",
+    "date": "2024-03-28",
+    "tags": [
+      "tool",
+      "go",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-jwt-token-analyzer-745.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-red-team-infrastructure-design-763",
+    "title": "Red Team Infrastructure Design",
+    "section": "research",
+    "description": "Technical research on Red Team Infrastructure Design. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-red-team-infrastructure-design-763.html",
+    "btn_label": "Read Research",
+    "date": "2024-03-28",
+    "tags": [
+      "cve",
+      "exploit-development",
+      "malware-analysis"
+    ],
+    "image": "/img/research-red-team-infrastructure-design-763.png",
+    "words": 490,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-740",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-740.html",
+    "btn_label": "Read Research",
+    "date": "2024-03-28",
+    "tags": [
+      "shellcode",
+      "uaf",
+      "rop",
+      "cve",
+      "buffer-overflow",
+      "malware-analysis"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 513,
+    "readTime": "3 min"
+  }
+]

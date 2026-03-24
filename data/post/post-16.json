@@ -1,0 +1,233 @@
+[
+  {
+    "id": "note-mitre-att&ck-framework-reference-494",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-494.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-16",
+    "tags": [
+      "enumeration",
+      "lateral-movement",
+      "linux",
+      "oscp"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-494.png",
+    "words": 276,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-docker-security-hardening-627",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-627.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-16",
+    "tags": [
+      "blue-team",
+      "oscp",
+      "linux",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-docker-security-hardening-627.png",
+    "words": 332,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-blunder-803",
+    "title": "HackTheBox — Blunder (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Blunder. SSTI and Cron Job to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-blunder-803.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-16",
+    "tags": [
+      "pwntilldawn",
+      "insane",
+      "ctf",
+      "forensics",
+      "easy",
+      "tryhackme",
+      "web"
+    ],
+    "image": "/img/htb-blunder-803.png",
+    "words": 619,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-751",
+    "title": "CTF Challenge Solver Template — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-751.html",
+    "btn_label": "View Script",
+    "date": "2026-01-15",
+    "tags": [
+      "python",
+      "fuzzer",
+      "c",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-751.png",
+    "words": 314,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-yara-rule-writing-401",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-401.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-15",
+    "tags": [
+      "lateral-movement",
+      "persistence",
+      "cheatsheet",
+      "networking"
+    ],
+    "image": "/img/note-yara-rule-writing-401.png",
+    "words": 652,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-167",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-167.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-15",
+    "tags": [
+      "windows",
+      "networking",
+      "enumeration",
+      "oscp"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-167.png",
+    "words": 652,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-bastard-939",
+    "title": "HackTheBox — Bastard (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Bastard. SeImpersonatePrivilege and SSTI to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-bastard-939.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-15",
+    "tags": [
+      "hard",
+      "forensics",
+      "active-directory",
+      "pwntilldawn",
+      "easy"
+    ],
+    "image": "/img/htb-bastard-939.png",
+    "words": 610,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-234",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-234.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-14",
+    "tags": [
+      "malware-analysis",
+      "uaf",
+      "aslr-bypass",
+      "format-string",
+      "zero-day",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-threat-intelligence-integration-234.png",
+    "words": 513,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-custom-wordlist-generator-770",
+    "title": "Custom Wordlist Generator",
+    "section": "projects",
+    "description": "Open source security project: Custom Wordlist Generator. Built for the community.",
+    "permalink": "/research/project-custom-wordlist-generator-770.html",
+    "btn_label": "View Project",
+    "date": "2026-01-14",
+    "tags": [
+      "extension",
+      "security",
+      "plugin",
+      "framework",
+      "open-source"
+    ],
+    "image": "/img/project-custom-wordlist-generator-770.png",
+    "words": 189,
+    "readTime": "1 min",
+    "features": [
+      "hydra",
+      "nmap",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-656",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-656.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-14",
+    "tags": [
+      "privilege-escalation",
+      "lateral-movement",
+      "malware"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-656.png",
+    "words": 272,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-120",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-120.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-14",
+    "tags": [
+      "cheatsheet",
+      "privilege-escalation",
+      "persistence",
+      "malware",
+      "windows"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-120.png",
+    "words": 371,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-555",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-555.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-14",
+    "tags": [
+      "linux",
+      "cheatsheet",
+      "windows",
+      "enumeration",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-555.png",
+    "words": 296,
+    "readTime": "2 min"
+  }
+]

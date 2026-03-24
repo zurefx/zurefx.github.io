@@ -1,0 +1,233 @@
+[
+  {
+    "id": "note-linux-privilege-escalation-techniques-520",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-520.html",
+    "btn_label": "Read Notes",
+    "date": "2025-01-12",
+    "tags": [
+      "persistence",
+      "malware",
+      "privilege-escalation",
+      "blue-team",
+      "linux",
+      "lateral-movement"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-520.png",
+    "words": 597,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-nineveh-510",
+    "title": "VulnHub — Nineveh (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Nineveh. Cron Job and NTLM Relay to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-nineveh-510.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-12",
+    "tags": [
+      "easy",
+      "ctf",
+      "web",
+      "reversing",
+      "hard",
+      "tryhackme"
+    ],
+    "image": "/img/htb-nineveh-510.png",
+    "words": 629,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-yara-rule-writing-470",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-470.html",
+    "btn_label": "Read Notes",
+    "date": "2025-01-11",
+    "tags": [
+      "blue-team",
+      "windows",
+      "persistence",
+      "dfir",
+      "enumeration"
+    ],
+    "image": "/img/note-yara-rule-writing-470.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-574",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-574.html",
+    "btn_label": "Read Notes",
+    "date": "2025-01-11",
+    "tags": [
+      "enumeration",
+      "persistence",
+      "cheatsheet",
+      "dfir"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-574.png",
+    "words": 558,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-forge-756",
+    "title": "HackTheBox — Forge (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Forge. Unconstrained Delegation and Unquoted Service Path to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-forge-756.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-11",
+    "tags": [
+      "hard",
+      "pwntilldawn",
+      "medium"
+    ],
+    "image": "/img/htb-forge-756.png",
+    "words": 585,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-bolt-603",
+    "title": "PwnTillDawn — Bolt (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Bolt. NFS No Root Squash and Path Traversal to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-bolt-603.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-11",
+    "tags": [
+      "forensics",
+      "linux",
+      "tryhackme"
+    ],
+    "image": "/img/htb-bolt-603.png",
+    "words": 616,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-crossfit-612",
+    "title": "HackTheBox — Crossfit (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Crossfit. Weak Service Permissions and Resource-Based Constrained Delegation to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-crossfit-612.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-10",
+    "tags": [
+      "offsec",
+      "linux",
+      "hard",
+      "tryhackme",
+      "easy",
+      "windows"
+    ],
+    "image": "/img/htb-crossfit-612.png",
+    "words": 623,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-anthem-217",
+    "title": "OffSec Proving Grounds — Anthem (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Anthem. Constrained Delegation and DCSync to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-anthem-217.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-10",
+    "tags": [
+      "active-directory",
+      "pwntilldawn",
+      "reversing",
+      "forensics",
+      "ctf",
+      "easy",
+      "hard"
+    ],
+    "image": "/img/htb-anthem-217.png",
+    "words": 611,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-admirer-311",
+    "title": "HackTheBox — Admirer (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Admirer. Remote Code Execution and SSRF to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-admirer-311.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-10",
+    "tags": [
+      "hackthebox",
+      "forensics",
+      "reversing",
+      "linux",
+      "web",
+      "windows",
+      "easy"
+    ],
+    "image": "/img/htb-admirer-311.png",
+    "words": 593,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-optimum-959",
+    "title": "PwnTillDawn — Optimum (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Optimum. IDOR and SeImpersonatePrivilege to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-optimum-959.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-09",
+    "tags": [
+      "reversing",
+      "active-directory",
+      "medium",
+      "hackthebox",
+      "insane"
+    ],
+    "image": "/img/htb-optimum-959.png",
+    "words": 612,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "research-threat-intelligence-integration-253",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-253.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-08",
+    "tags": [
+      "rop",
+      "exploit-development",
+      "zero-day",
+      "malware-analysis",
+      "cve"
+    ],
+    "image": "/img/research-threat-intelligence-integration-253.png",
+    "words": 483,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-306",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-306.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-08",
+    "tags": [
+      "kernel",
+      "uaf",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-306.png",
+    "words": 459,
+    "readTime": "3 min"
+  }
+]

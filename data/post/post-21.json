@@ -1,0 +1,224 @@
+[
+  {
+    "id": "htb-sunday-405",
+    "title": "VulnHub — Sunday (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Sunday. CORS Misconfiguration and SQL Injection to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-sunday-405.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-28",
+    "tags": [
+      "pwntilldawn",
+      "hackthebox",
+      "medium"
+    ],
+    "image": "/img/htb-sunday-405.png",
+    "words": 613,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-123",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-123.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-27",
+    "tags": [
+      "enumeration",
+      "lateral-movement",
+      "linux"
+    ],
+    "image": "/img/note-cryptography-fundamentals-123.png",
+    "words": 726,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-504",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-504.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-26",
+    "tags": [
+      "dfir",
+      "oscp",
+      "blue-team",
+      "windows"
+    ],
+    "image": "/img/note-active-directory-attack-paths-504.png",
+    "words": 581,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-936",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-936.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-25",
+    "tags": [
+      "cheatsheet",
+      "malware",
+      "linux",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-936.png",
+    "words": 455,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-530",
+    "title": "AMSI Bypass Collection — Python",
+    "section": "scripting",
+    "description": "A Python script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-530.html",
+    "btn_label": "View Script",
+    "date": "2025-12-24",
+    "tags": [
+      "c",
+      "script",
+      "rust",
+      "bash",
+      "tool",
+      "powershell",
+      "python"
+    ],
+    "image": "/img/script-amsi-bypass-collection-530.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-995",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-995.html",
+    "btn_label": "Read Research",
+    "date": "2025-12-24",
+    "tags": [
+      "heap-exploitation",
+      "exploit-development",
+      "malware-analysis",
+      "kernel",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-threat-intelligence-integration-995.png",
+    "words": 462,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-254",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-254.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-24",
+    "tags": [
+      "windows",
+      "blue-team",
+      "cheatsheet"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-254.png",
+    "words": 408,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-980",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-980.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-24",
+    "tags": [
+      "persistence",
+      "dfir",
+      "malware"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-980.png",
+    "words": 326,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-nineveh-602",
+    "title": "PwnTillDawn — Nineveh (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Nineveh. Command Injection and Docker Escape to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-nineveh-602.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-24",
+    "tags": [
+      "insane",
+      "active-directory",
+      "tryhackme"
+    ],
+    "image": "/img/htb-nineveh-602.png",
+    "words": 657,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-legacy-421",
+    "title": "PwnTillDawn — Legacy (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Legacy. Remote File Inclusion and Docker Escape to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-legacy-421.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-24",
+    "tags": [
+      "easy",
+      "tryhackme",
+      "forensics",
+      "linux",
+      "insane"
+    ],
+    "image": "/img/htb-legacy-421.png",
+    "words": 588,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-legacy-398",
+    "title": "HackTheBox — Legacy (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Legacy. Unquoted Service Path and IDOR to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-legacy-398.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-24",
+    "tags": [
+      "reversing",
+      "pwntilldawn",
+      "easy",
+      "medium",
+      "tryhackme",
+      "insane"
+    ],
+    "image": "/img/htb-legacy-398.png",
+    "words": 609,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-970",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-970.html",
+    "btn_label": "View Script",
+    "date": "2025-12-23",
+    "tags": [
+      "c",
+      "bash",
+      "rust",
+      "tool",
+      "scanner",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-custom-wordlist-generator-970.png",
+    "words": 318,
+    "readTime": "2 min"
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "note-kubernetes-security-assessment-123",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-123.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-13",
+    "tags": [
+      "windows",
+      "cheatsheet",
+      "networking",
+      "privilege-escalation",
+      "oscp"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-123.png",
+    "words": 642,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-940",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-940.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-13",
+    "tags": [
+      "privilege-escalation",
+      "networking",
+      "oscp",
+      "lateral-movement",
+      "cheatsheet"
+    ],
+    "image": "/img/note-digital-forensics-methodology-940.png",
+    "words": 647,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-660",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-660.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-12",
+    "tags": [
+      "format-string",
+      "uaf",
+      "kernel",
+      "malware-analysis"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-660.png",
+    "words": 472,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-sunday-644",
+    "title": "OffSec Proving Grounds — Sunday (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Sunday. Unquoted Service Path and XSS to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-sunday-644.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-12",
+    "tags": [
+      "tryhackme",
+      "medium",
+      "hackthebox",
+      "hard",
+      "ctf",
+      "easy"
+    ],
+    "image": "/img/htb-sunday-644.png",
+    "words": 663,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-205",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-205.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-11",
+    "tags": [
+      "blue-team",
+      "cheatsheet",
+      "lateral-movement",
+      "privilege-escalation",
+      "enumeration"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-205.png",
+    "words": 398,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-irked-657",
+    "title": "TryHackMe — Irked (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Irked. CSRF and Unconstrained Delegation to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-irked-657.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-11",
+    "tags": [
+      "pwntilldawn",
+      "tryhackme",
+      "easy",
+      "reversing"
+    ],
+    "image": "/img/htb-irked-657.png",
+    "words": 688,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-156",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-156.html",
+    "btn_label": "View Script",
+    "date": "2025-04-09",
+    "tags": [
+      "powershell",
+      "parser",
+      "go",
+      "rust",
+      "scanner"
+    ],
+    "image": "/img/script-network-packet-sniffer-156.png",
+    "words": 375,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-617",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-617.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-09",
+    "tags": [
+      "persistence",
+      "windows",
+      "oscp"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-617.png",
+    "words": 516,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-816",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-816.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-09",
+    "tags": [
+      "networking",
+      "windows",
+      "enumeration",
+      "privilege-escalation",
+      "persistence",
+      "oscp"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-816.png",
+    "words": 612,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-startup-808",
+    "title": "TryHackMe — Startup (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Startup. DCSync and Remote File Inclusion to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-startup-808.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-09",
+    "tags": [
+      "tryhackme",
+      "pwntilldawn",
+      "hackthebox",
+      "windows",
+      "web",
+      "active-directory",
+      "medium"
+    ],
+    "image": "/img/htb-startup-808.png",
+    "words": 559,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-sense-566",
+    "title": "TryHackMe — Sense (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Sense. Cron Job and CSRF to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-sense-566.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-09",
+    "tags": [
+      "ctf",
+      "linux",
+      "windows",
+      "web",
+      "offsec",
+      "forensics"
+    ],
+    "image": "/img/htb-sense-566.png",
+    "words": 594,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-swagshop-703",
+    "title": "TryHackMe — SwagShop (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe SwagShop. LXD Privilege Escalation and SUID Binary to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-swagshop-703.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-08",
+    "tags": [
+      "insane",
+      "pwntilldawn",
+      "hard",
+      "offsec",
+      "active-directory",
+      "easy"
+    ],
+    "image": "/img/htb-swagshop-703.png",
+    "words": 593,
+    "readTime": "3 min"
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "research-evading-modern-edr-solutions-244",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-244.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-04",
+    "tags": [
+      "zero-day",
+      "aslr-bypass",
+      "shellcode",
+      "rop",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-244.png",
+    "words": 498,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-627",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-627.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-04",
+    "tags": [
+      "windows",
+      "dfir",
+      "enumeration",
+      "networking",
+      "lateral-movement"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-627.png",
+    "words": 552,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-forge-292",
+    "title": "VulnHub — Forge (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Forge. Command Injection and Docker Escape to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-forge-292.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-03",
+    "tags": [
+      "tryhackme",
+      "hard",
+      "ctf"
+    ],
+    "image": "/img/htb-forge-292.png",
+    "words": 548,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-178",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-178.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-02",
+    "tags": [
+      "privilege-escalation",
+      "lateral-movement",
+      "malware"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-178.png",
+    "words": 625,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-blue-732",
+    "title": "HackTheBox — Blue (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Blue. Local File Inclusion and CORS Misconfiguration to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-blue-732.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-02",
+    "tags": [
+      "tryhackme",
+      "linux",
+      "reversing",
+      "pwntilldawn",
+      "hard"
+    ],
+    "image": "/img/htb-blue-732.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-network-packet-sniffer-163",
+    "title": "Network Packet Sniffer",
+    "section": "projects",
+    "description": "Open source security project: Network Packet Sniffer. Built for the community.",
+    "permalink": "/research/project-network-packet-sniffer-163.html",
+    "btn_label": "View Project",
+    "date": "2025-10-01",
+    "tags": [
+      "open-source",
+      "extension",
+      "tool",
+      "library",
+      "cli"
+    ],
+    "image": "/img/project-network-packet-sniffer-163.png",
+    "words": 219,
+    "readTime": "2 min",
+    "features": [
+      "impacket",
+      "ffuf",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "project-jwt-token-analyzer-438",
+    "title": "JWT Token Analyzer",
+    "section": "projects",
+    "description": "Open source security project: JWT Token Analyzer. Built for the community.",
+    "permalink": "/research/project-jwt-token-analyzer-438.html",
+    "btn_label": "View Project",
+    "date": "2025-10-01",
+    "tags": [
+      "security",
+      "tool",
+      "framework",
+      "plugin",
+      "cli"
+    ],
+    "image": "/img/project-jwt-token-analyzer-438.png",
+    "words": 208,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "hashcat",
+      "impacket"
+    ]
+  },
+  {
+    "id": "htb-ready-161",
+    "title": "PwnTillDawn — Ready (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Ready. SUID Binary and SQL Injection to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-ready-161.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-01",
+    "tags": [
+      "hard",
+      "insane",
+      "active-directory",
+      "tryhackme"
+    ],
+    "image": "/img/htb-ready-161.png",
+    "words": 632,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-game-zone-241",
+    "title": "HackTheBox — Game Zone (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Game Zone. AS-REP Roasting and SSTI to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-game-zone-241.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-01",
+    "tags": [
+      "reversing",
+      "hackthebox",
+      "ctf",
+      "easy"
+    ],
+    "image": "/img/htb-game-zone-241.png",
+    "words": 628,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-blue-team-detection-techniques-992",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-992.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-29",
+    "tags": [
+      "windows",
+      "enumeration",
+      "linux"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-992.png",
+    "words": 233,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-servmon-635",
+    "title": "TryHackMe — ServMon (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe ServMon. Open Redirect and SQL Injection to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-servmon-635.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-29",
+    "tags": [
+      "reversing",
+      "offsec",
+      "hard",
+      "linux",
+      "pwntilldawn",
+      "forensics"
+    ],
+    "image": "/img/htb-servmon-635.png",
+    "words": 616,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-dynstr-857",
+    "title": "TryHackMe — Dynstr (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Dynstr. Weak Service Permissions and Insecure Deserialization to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-dynstr-857.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-29",
+    "tags": [
+      "offsec",
+      "web",
+      "forensics",
+      "active-directory",
+      "medium",
+      "linux"
+    ],
+    "image": "/img/htb-dynstr-857.png",
+    "words": 622,
+    "readTime": "4 min",
+    "pick": 1
+  }
+]

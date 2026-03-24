@@ -1,0 +1,227 @@
+[
+  {
+    "id": "htb-tabby-310",
+    "title": "VulnHub — Tabby (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Tabby. SUID Binary and Sudo Misconfiguration to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-tabby-310.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-31",
+    "tags": [
+      "linux",
+      "tryhackme",
+      "active-directory",
+      "easy",
+      "hackthebox"
+    ],
+    "image": "/img/htb-tabby-310.png",
+    "words": 582,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-reverse-shell-generator-432",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-432.html",
+    "btn_label": "View Script",
+    "date": "2024-10-30",
+    "tags": [
+      "go",
+      "bash",
+      "c",
+      "script"
+    ],
+    "image": "/img/script-reverse-shell-generator-432.png",
+    "words": 362,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-395",
+    "title": "Log Parser and Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-395.html",
+    "btn_label": "View Script",
+    "date": "2024-10-30",
+    "tags": [
+      "bash",
+      "rust",
+      "script",
+      "powershell"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-395.png",
+    "words": 368,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-162",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-162.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-30",
+    "tags": [
+      "blue-team",
+      "malware",
+      "windows",
+      "lateral-movement"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-162.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-nibbles-363",
+    "title": "VulnHub — Nibbles (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Nibbles. Docker Escape and Insecure Deserialization to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-nibbles-363.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-30",
+    "tags": [
+      "insane",
+      "medium",
+      "active-directory",
+      "easy"
+    ],
+    "image": "/img/htb-nibbles-363.png",
+    "words": 527,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-automated-report-generator-539",
+    "title": "Automated Report Generator",
+    "section": "projects",
+    "description": "Open source security project: Automated Report Generator. Built for the community.",
+    "permalink": "/research/project-automated-report-generator-539.html",
+    "btn_label": "View Project",
+    "date": "2024-10-29",
+    "tags": [
+      "open-source",
+      "extension",
+      "automation"
+    ],
+    "image": "/img/project-automated-report-generator-539.png",
+    "words": 187,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "john",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-707",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-707.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-29",
+    "tags": [
+      "cheatsheet",
+      "privilege-escalation",
+      "windows",
+      "blue-team",
+      "enumeration",
+      "dfir"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-707.png",
+    "words": 570,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-mindgames-417",
+    "title": "VulnHub — Mindgames (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Mindgames. IDOR and Remote File Inclusion to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-mindgames-417.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-29",
+    "tags": [
+      "insane",
+      "active-directory",
+      "medium"
+    ],
+    "image": "/img/htb-mindgames-417.png",
+    "words": 629,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-doctor-106",
+    "title": "OffSec Proving Grounds — Doctor (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Doctor. Sudo Misconfiguration and AS-REP Roasting to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-doctor-106.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-29",
+    "tags": [
+      "tryhackme",
+      "pwntilldawn",
+      "hackthebox"
+    ],
+    "image": "/img/htb-doctor-106.png",
+    "words": 558,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-790",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-790.html",
+    "btn_label": "View Script",
+    "date": "2024-10-28",
+    "tags": [
+      "rust",
+      "scanner",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-790.png",
+    "words": 285,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-steel-mountain-689",
+    "title": "TryHackMe — Steel Mountain (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Steel Mountain. CSRF and IDOR to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-steel-mountain-689.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-28",
+    "tags": [
+      "pwntilldawn",
+      "offsec",
+      "web",
+      "medium",
+      "active-directory",
+      "windows",
+      "tryhackme"
+    ],
+    "image": "/img/htb-steel-mountain-689.png",
+    "words": 591,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-optimum-820",
+    "title": "OffSec Proving Grounds — Optimum (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Optimum. LAPS Abuse and SSTI to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-optimum-820.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-28",
+    "tags": [
+      "easy",
+      "forensics",
+      "reversing"
+    ],
+    "image": "/img/htb-optimum-820.png",
+    "words": 636,
+    "readTime": "4 min"
+  }
+]

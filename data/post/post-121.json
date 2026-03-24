@@ -1,0 +1,231 @@
+[
+  {
+    "id": "htb-servmon-795",
+    "title": "TryHackMe — ServMon (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe ServMon. Writable PATH and GPP Password to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-servmon-795.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-28",
+    "tags": [
+      "linux",
+      "forensics",
+      "hard",
+      "tryhackme"
+    ],
+    "image": "/img/htb-servmon-795.png",
+    "words": 699,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-ophiuchi-664",
+    "title": "VulnHub — Ophiuchi (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Ophiuchi. Path Traversal and AlwaysInstallElevated to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ophiuchi-664.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-28",
+    "tags": [
+      "hard",
+      "linux",
+      "pwntilldawn",
+      "web",
+      "ctf"
+    ],
+    "image": "/img/htb-ophiuchi-664.png",
+    "words": 600,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-232",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-232.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-27",
+    "tags": [
+      "enumeration",
+      "cheatsheet",
+      "malware",
+      "persistence"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-232.png",
+    "words": 395,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-670",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-670.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-27",
+    "tags": [
+      "oscp",
+      "cheatsheet",
+      "networking",
+      "persistence",
+      "linux",
+      "lateral-movement"
+    ],
+    "image": "/img/note-active-directory-attack-paths-670.png",
+    "words": 266,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-tabby-577",
+    "title": "HackTheBox — Tabby (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Tabby. Writable PATH and Resource-Based Constrained Delegation to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-tabby-577.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-27",
+    "tags": [
+      "pwntilldawn",
+      "windows",
+      "insane",
+      "hard",
+      "ctf"
+    ],
+    "image": "/img/htb-tabby-577.png",
+    "words": 551,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-dynstr-718",
+    "title": "TryHackMe — Dynstr (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Dynstr. Kerberoasting and Weak Service Permissions to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-dynstr-718.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-27",
+    "tags": [
+      "pwntilldawn",
+      "medium",
+      "hard",
+      "insane"
+    ],
+    "image": "/img/htb-dynstr-718.png",
+    "words": 549,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-585",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-585.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-26",
+    "tags": [
+      "heap-exploitation",
+      "buffer-overflow",
+      "shellcode",
+      "format-string"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-585.png",
+    "words": 495,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-228",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-228.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-26",
+    "tags": [
+      "networking",
+      "malware",
+      "blue-team",
+      "privilege-escalation",
+      "linux"
+    ],
+    "image": "/img/note-reverse-engineering-basics-228.png",
+    "words": 470,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-595",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-595.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-26",
+    "tags": [
+      "blue-team",
+      "lateral-movement",
+      "malware",
+      "oscp",
+      "privilege-escalation",
+      "persistence"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-595.png",
+    "words": 344,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-714",
+    "title": "Log Parser and Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-714.html",
+    "btn_label": "View Script",
+    "date": "2024-08-25",
+    "tags": [
+      "scanner",
+      "powershell",
+      "automation",
+      "go",
+      "bash",
+      "script"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-714.png",
+    "words": 306,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-684",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-684.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-25",
+    "tags": [
+      "lateral-movement",
+      "malware",
+      "blue-team",
+      "persistence",
+      "windows"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-684.png",
+    "words": 629,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-shocker-519",
+    "title": "VulnHub — Shocker (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Shocker. SeImpersonatePrivilege and Cron Job to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-shocker-519.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-25",
+    "tags": [
+      "insane",
+      "pwntilldawn",
+      "active-directory",
+      "windows",
+      "easy",
+      "offsec"
+    ],
+    "image": "/img/htb-shocker-519.png",
+    "words": 608,
+    "readTime": "4 min"
+  }
+]

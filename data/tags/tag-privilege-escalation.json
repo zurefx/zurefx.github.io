@@ -1,0 +1,1906 @@
+[
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2026-03-19",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-512.html",
+    "image": "/img/note-threat-hunting-with-splunk-512.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2026-03-15",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-555.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-555.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2026-03-10",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-512.html",
+    "image": "/img/note-kubernetes-security-assessment-512.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2026-03-03",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-657.html",
+    "image": "/img/note-python-scripting-for-pentesting-657.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2026-03-03",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-568.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-568.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2026-03-01",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-810.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-810.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2026-02-23",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-387.html",
+    "image": "/img/note-docker-security-hardening-387.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2026-02-22",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-389.html",
+    "image": "/img/note-web-application-penetration-testing-meth-389.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2026-02-19",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-180.html",
+    "image": "/img/note-web-application-penetration-testing-meth-180.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2026-02-12",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-642.html",
+    "image": "/img/note-reverse-engineering-basics-642.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2026-02-05",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-597.html",
+    "image": "/img/note-malware-analysis-environment-setup-597.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2026-02-03",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-522.html",
+    "image": "/img/note-python-scripting-for-pentesting-522.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2026-02-02",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-160.html",
+    "image": "/img/note-cryptography-fundamentals-160.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2026-02-01",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-451.html",
+    "image": "/img/note-blue-team-detection-techniques-451.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2026-01-31",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-968.html",
+    "image": "/img/note-cryptography-fundamentals-968.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2026-01-23",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-389.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-389.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2026-01-20",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-911.html",
+    "image": "/img/note-kubernetes-security-assessment-911.png",
+    "readTime": "5 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2026-01-17",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-373.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-373.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2026-01-16",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-627.html",
+    "image": "/img/note-docker-security-hardening-627.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2026-01-14",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-656.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-656.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2026-01-14",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-120.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-120.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2026-01-14",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-555.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-555.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2026-01-11",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-968.html",
+    "image": "/img/note-malware-analysis-environment-setup-968.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2026-01-08",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-231.html",
+    "image": "/img/note-memory-forensics-with-volatility-231.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2026-01-01",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-207.html",
+    "image": "/img/note-web-application-penetration-testing-meth-207.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2026-01-01",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-913.html",
+    "image": "/img/note-malware-analysis-environment-setup-913.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2025-12-31",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-726.html",
+    "image": "/img/note-blue-team-detection-techniques-726.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2025-12-30",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-719.html",
+    "image": "/img/note-python-scripting-for-pentesting-719.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2025-12-29",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-657.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-657.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-12-25",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-936.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-936.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2025-12-21",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-782.html",
+    "image": "/img/note-powershell-for-red-teamers-782.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2025-12-21",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-486.html",
+    "image": "/img/note-active-directory-attack-paths-486.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2025-12-14",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-803.html",
+    "image": "/img/note-sigma-rule-development-803.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2025-12-07",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-137.html",
+    "image": "/img/note-memory-forensics-with-volatility-137.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2025-11-27",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-664.html",
+    "image": "/img/note-docker-security-hardening-664.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2025-11-20",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-215.html",
+    "image": "/img/note-sigma-rule-development-215.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2025-11-19",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-811.html",
+    "image": "/img/note-blue-team-detection-techniques-811.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2025-11-07",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-807.html",
+    "image": "/img/note-malware-analysis-environment-setup-807.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Common CTF Tricks and Techniques",
+    "date": "2025-10-31",
+    "section": "notes",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-219.html",
+    "image": "/img/note-common-ctf-tricks-and-techniques-219.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2025-10-27",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-858.html",
+    "image": "/img/note-python-scripting-for-pentesting-858.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2025-10-27",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-979.html",
+    "image": "/img/note-blue-team-detection-techniques-979.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2025-10-22",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-557.html",
+    "image": "/img/note-python-scripting-for-pentesting-557.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2025-10-21",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-653.html",
+    "image": "/img/note-powershell-for-red-teamers-653.png",
+    "readTime": "5 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2025-10-14",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-911.html",
+    "image": "/img/note-malware-analysis-environment-setup-911.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-10-13",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-378.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-378.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-10-05",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-647.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-647.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2025-10-02",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-178.html",
+    "image": "/img/note-kubernetes-security-assessment-178.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2025-09-25",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-558.html",
+    "image": "/img/note-malware-analysis-environment-setup-558.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-09-25",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-904.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-904.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2025-09-24",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-340.html",
+    "image": "/img/note-blue-team-detection-techniques-340.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2025-09-19",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-591.html",
+    "image": "/img/note-memory-forensics-with-volatility-591.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2025-09-19",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-379.html",
+    "image": "/img/note-kubernetes-security-assessment-379.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2025-09-16",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-162.html",
+    "image": "/img/note-yara-rule-writing-162.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2025-09-11",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-341.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-341.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Common CTF Tricks and Techniques",
+    "date": "2025-09-08",
+    "section": "notes",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-592.html",
+    "image": "/img/note-common-ctf-tricks-and-techniques-592.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-09-06",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-556.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-556.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2025-09-03",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-656.html",
+    "image": "/img/note-sigma-rule-development-656.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2025-09-02",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-407.html",
+    "image": "/img/note-reverse-engineering-basics-407.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-08-31",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-111.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-111.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2025-08-20",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-576.html",
+    "image": "/img/note-web-application-penetration-testing-meth-576.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-08-18",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-791.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-791.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2025-08-16",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-185.html",
+    "image": "/img/note-memory-forensics-with-volatility-185.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2025-08-11",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-144.html",
+    "image": "/img/note-cryptography-fundamentals-144.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2025-08-09",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-415.html",
+    "image": "/img/note-cryptography-fundamentals-415.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2025-08-06",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-889.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-889.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-08-04",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-385.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-385.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2025-08-03",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-621.html",
+    "image": "/img/note-threat-hunting-with-splunk-621.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-08-01",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-717.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-717.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2025-08-01",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-613.html",
+    "image": "/img/note-kubernetes-security-assessment-613.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2025-07-29",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-661.html",
+    "image": "/img/note-reverse-engineering-basics-661.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2025-07-29",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-146.html",
+    "image": "/img/note-kubernetes-security-assessment-146.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2025-07-29",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-573.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-573.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2025-07-28",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-844.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-844.png",
+    "readTime": "5 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2025-07-23",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-450.html",
+    "image": "/img/note-active-directory-attack-paths-450.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2025-07-21",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-638.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-638.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-07-12",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-788.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-788.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2025-07-10",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-965.html",
+    "image": "/img/note-web-application-penetration-testing-meth-965.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-06-29",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-486.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-486.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2025-06-21",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-172.html",
+    "image": "/img/note-kubernetes-security-assessment-172.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2025-06-19",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-718.html",
+    "image": "/img/note-web-application-penetration-testing-meth-718.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2025-06-17",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-864.html",
+    "image": "/img/note-docker-security-hardening-864.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2025-06-16",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-687.html",
+    "image": "/img/note-sigma-rule-development-687.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-06-16",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-424.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-424.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2025-06-10",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-932.html",
+    "image": "/img/note-powershell-for-red-teamers-932.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2025-06-10",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-443.html",
+    "image": "/img/note-docker-security-hardening-443.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2025-06-05",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-487.html",
+    "image": "/img/note-kubernetes-security-assessment-487.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-06-04",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-864.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-864.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2025-06-02",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-695.html",
+    "image": "/img/note-sigma-rule-development-695.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2025-06-02",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-317.html",
+    "image": "/img/note-powershell-for-red-teamers-317.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-05-27",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-303.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-303.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OSCP Exam Preparation Notes",
+    "date": "2025-05-23",
+    "section": "notes",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-637.html",
+    "image": "/img/note-oscp-exam-preparation-notes-637.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2025-05-22",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-625.html",
+    "image": "/img/note-blue-team-detection-techniques-625.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2025-05-21",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-921.html",
+    "image": "/img/note-active-directory-attack-paths-921.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2025-05-15",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-254.html",
+    "image": "/img/note-threat-hunting-with-splunk-254.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2025-05-15",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-774.html",
+    "image": "/img/note-incident-response-playbook-774.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2025-05-13",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-619.html",
+    "image": "/img/note-yara-rule-writing-619.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2025-05-13",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-165.html",
+    "image": "/img/note-reverse-engineering-basics-165.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OSCP Exam Preparation Notes",
+    "date": "2025-04-30",
+    "section": "notes",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-619.html",
+    "image": "/img/note-oscp-exam-preparation-notes-619.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-04-30",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-752.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-752.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-04-27",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-420.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-420.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2025-04-26",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-899.html",
+    "image": "/img/note-threat-hunting-with-splunk-899.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2025-04-23",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-165.html",
+    "image": "/img/note-digital-forensics-methodology-165.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2025-04-22",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-404.html",
+    "image": "/img/note-powershell-for-red-teamers-404.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2025-04-21",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-693.html",
+    "image": "/img/note-incident-response-playbook-693.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2025-04-18",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-980.html",
+    "image": "/img/note-malware-analysis-environment-setup-980.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "date": "2025-04-18",
+    "section": "notes",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-120.html",
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-120.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2025-04-13",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-123.html",
+    "image": "/img/note-kubernetes-security-assessment-123.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2025-04-13",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-940.html",
+    "image": "/img/note-digital-forensics-methodology-940.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2025-04-11",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-205.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-205.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-04-09",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-816.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-816.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-04-03",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-750.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-750.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2025-03-29",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-637.html",
+    "image": "/img/note-threat-hunting-with-splunk-637.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2025-03-21",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-205.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-205.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "date": "2025-03-19",
+    "section": "notes",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-237.html",
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-237.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2025-03-11",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-776.html",
+    "image": "/img/note-threat-hunting-with-splunk-776.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2025-03-07",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-719.html",
+    "image": "/img/note-active-directory-attack-paths-719.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2025-03-06",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-160.html",
+    "image": "/img/note-web-application-penetration-testing-meth-160.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2025-03-03",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-125.html",
+    "image": "/img/note-reverse-engineering-basics-125.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-02-26",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-977.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-977.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2025-02-25",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-589.html",
+    "image": "/img/note-powershell-for-red-teamers-589.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2025-02-20",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-570.html",
+    "image": "/img/note-cryptography-fundamentals-570.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2025-02-20",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-521.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-521.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2025-02-19",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-478.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-478.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2025-02-13",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-847.html",
+    "image": "/img/note-digital-forensics-methodology-847.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2025-02-09",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-428.html",
+    "image": "/img/note-web-application-penetration-testing-meth-428.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-02-09",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-167.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-167.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2025-02-02",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-961.html",
+    "image": "/img/note-python-scripting-for-pentesting-961.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-01-17",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-695.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-695.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2025-01-15",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-517.html",
+    "image": "/img/note-yara-rule-writing-517.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-01-12",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-520.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-520.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "date": "2025-01-08",
+    "section": "notes",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-637.html",
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-637.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2025-01-07",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-354.html",
+    "image": "/img/note-threat-hunting-with-splunk-354.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2024-12-20",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-617.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-617.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2024-12-19",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-436.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-436.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-12-14",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-646.html",
+    "image": "/img/note-memory-forensics-with-volatility-646.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2024-12-11",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-293.html",
+    "image": "/img/note-reverse-engineering-basics-293.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "date": "2024-12-06",
+    "section": "notes",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-592.html",
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-592.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2024-12-01",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-819.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-819.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2024-11-24",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-170.html",
+    "image": "/img/note-threat-hunting-with-splunk-170.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2024-11-21",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-217.html",
+    "image": "/img/note-kubernetes-security-assessment-217.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2024-11-19",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-176.html",
+    "image": "/img/note-threat-hunting-with-splunk-176.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Common CTF Tricks and Techniques",
+    "date": "2024-11-19",
+    "section": "notes",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-798.html",
+    "image": "/img/note-common-ctf-tricks-and-techniques-798.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2024-11-16",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-744.html",
+    "image": "/img/note-yara-rule-writing-744.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2024-11-16",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-142.html",
+    "image": "/img/note-sigma-rule-development-142.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-11-07",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-319.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-319.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2024-11-02",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-487.html",
+    "image": "/img/note-threat-hunting-with-splunk-487.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2024-10-29",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-707.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-707.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2024-10-25",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-732.html",
+    "image": "/img/note-sigma-rule-development-732.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-10-23",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-540.html",
+    "image": "/img/note-memory-forensics-with-volatility-540.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2024-10-21",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-389.html",
+    "image": "/img/note-docker-security-hardening-389.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2024-10-12",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-909.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-909.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-10-08",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-404.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-404.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2024-10-05",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-100.html",
+    "image": "/img/note-malware-analysis-environment-setup-100.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2024-09-30",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-687.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-687.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2024-09-24",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-568.html",
+    "image": "/img/note-web-application-penetration-testing-meth-568.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2024-09-20",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-323.html",
+    "image": "/img/note-digital-forensics-methodology-323.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-09-17",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-848.html",
+    "image": "/img/note-memory-forensics-with-volatility-848.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Common CTF Tricks and Techniques",
+    "date": "2024-09-14",
+    "section": "notes",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-439.html",
+    "image": "/img/note-common-ctf-tricks-and-techniques-439.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2024-09-09",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-332.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-332.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-09-06",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-867.html",
+    "image": "/img/note-incident-response-playbook-867.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-09-06",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-771.html",
+    "image": "/img/note-incident-response-playbook-771.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2024-09-04",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-272.html",
+    "image": "/img/note-reverse-engineering-basics-272.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2024-09-04",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-427.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-427.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2024-08-29",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-567.html",
+    "image": "/img/note-docker-security-hardening-567.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2024-08-28",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-206.html",
+    "image": "/img/note-cryptography-fundamentals-206.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Common CTF Tricks and Techniques",
+    "date": "2024-08-28",
+    "section": "notes",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-488.html",
+    "image": "/img/note-common-ctf-tricks-and-techniques-488.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2024-08-28",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-485.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-485.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2024-08-26",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-228.html",
+    "image": "/img/note-reverse-engineering-basics-228.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-08-26",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-595.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-595.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2024-08-23",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-575.html",
+    "image": "/img/note-yara-rule-writing-575.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2024-08-23",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-426.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-426.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2024-08-17",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-247.html",
+    "image": "/img/note-digital-forensics-methodology-247.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2024-08-16",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-547.html",
+    "image": "/img/note-digital-forensics-methodology-547.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-08-14",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-413.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-413.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Common CTF Tricks and Techniques",
+    "date": "2024-08-14",
+    "section": "notes",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-468.html",
+    "image": "/img/note-common-ctf-tricks-and-techniques-468.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2024-08-10",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-520.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-520.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OSCP Exam Preparation Notes",
+    "date": "2024-08-05",
+    "section": "notes",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-313.html",
+    "image": "/img/note-oscp-exam-preparation-notes-313.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2024-08-05",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-732.html",
+    "image": "/img/note-digital-forensics-methodology-732.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2024-07-31",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-797.html",
+    "image": "/img/note-yara-rule-writing-797.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2024-07-31",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-773.html",
+    "image": "/img/note-reverse-engineering-basics-773.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2024-07-30",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-831.html",
+    "image": "/img/note-powershell-for-red-teamers-831.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2024-07-28",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-789.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-789.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2024-07-27",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-877.html",
+    "image": "/img/note-powershell-for-red-teamers-877.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-07-27",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-692.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-692.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2024-07-25",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-199.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-199.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2024-07-25",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-179.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-179.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2024-07-20",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-936.html",
+    "image": "/img/note-digital-forensics-methodology-936.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2024-07-11",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-412.html",
+    "image": "/img/note-web-application-penetration-testing-meth-412.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2024-07-11",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-694.html",
+    "image": "/img/note-digital-forensics-methodology-694.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2024-07-07",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-557.html",
+    "image": "/img/note-active-directory-attack-paths-557.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2024-07-06",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-209.html",
+    "image": "/img/note-cryptography-fundamentals-209.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2024-07-05",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-151.html",
+    "image": "/img/note-python-scripting-for-pentesting-151.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2024-07-03",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-746.html",
+    "image": "/img/note-cryptography-fundamentals-746.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2024-07-01",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-139.html",
+    "image": "/img/note-reverse-engineering-basics-139.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2024-06-21",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-460.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-460.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2024-06-18",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-854.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-854.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2024-06-17",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-547.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-547.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2024-06-16",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-968.html",
+    "image": "/img/note-active-directory-attack-paths-968.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2024-06-14",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-696.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-696.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2024-06-08",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-157.html",
+    "image": "/img/note-threat-hunting-with-splunk-157.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2024-06-06",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-844.html",
+    "image": "/img/note-reverse-engineering-basics-844.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "date": "2024-06-05",
+    "section": "notes",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-517.html",
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-517.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-06-03",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-397.html",
+    "image": "/img/note-memory-forensics-with-volatility-397.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2024-05-29",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-167.html",
+    "image": "/img/note-docker-security-hardening-167.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2024-05-18",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-785.html",
+    "image": "/img/note-blue-team-detection-techniques-785.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-05-05",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-301.html",
+    "image": "/img/note-memory-forensics-with-volatility-301.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-05-04",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-268.html",
+    "image": "/img/note-memory-forensics-with-volatility-268.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OSCP Exam Preparation Notes",
+    "date": "2024-04-29",
+    "section": "notes",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-875.html",
+    "image": "/img/note-oscp-exam-preparation-notes-875.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2024-04-27",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-788.html",
+    "image": "/img/note-malware-analysis-environment-setup-788.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2024-04-18",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-876.html",
+    "image": "/img/note-threat-hunting-with-splunk-876.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-03-31",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-959.html",
+    "image": "/img/note-memory-forensics-with-volatility-959.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2024-03-31",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-618.html",
+    "image": "/img/note-active-directory-attack-paths-618.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2024-03-27",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-437.html",
+    "image": "/img/note-powershell-for-red-teamers-437.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2024-03-25",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-392.html",
+    "image": "/img/note-docker-security-hardening-392.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2024-03-17",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-779.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-779.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2024-03-16",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-798.html",
+    "image": "/img/note-powershell-for-red-teamers-798.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2024-03-10",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-281.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-281.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2024-03-10",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-207.html",
+    "image": "/img/note-digital-forensics-methodology-207.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-03-06",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-785.html",
+    "image": "/img/note-incident-response-playbook-785.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2024-03-05",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-700.html",
+    "image": "/img/note-kubernetes-security-assessment-700.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2024-03-01",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-854.html",
+    "image": "/img/note-web-application-penetration-testing-meth-854.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2024-02-25",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-179.html",
+    "image": "/img/note-blue-team-detection-techniques-179.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-02-22",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-600.html",
+    "image": "/img/note-incident-response-playbook-600.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2024-02-16",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-429.html",
+    "image": "/img/note-threat-hunting-with-splunk-429.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Common CTF Tricks and Techniques",
+    "date": "2024-02-16",
+    "section": "notes",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-833.html",
+    "image": "/img/note-common-ctf-tricks-and-techniques-833.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2024-02-15",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-849.html",
+    "image": "/img/note-python-scripting-for-pentesting-849.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2024-02-14",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-183.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-183.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2024-02-08",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-620.html",
+    "image": "/img/note-blue-team-detection-techniques-620.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2024-02-02",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-821.html",
+    "image": "/img/note-digital-forensics-methodology-821.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-02-01",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-995.html",
+    "image": "/img/note-incident-response-playbook-995.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-02-01",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-114.html",
+    "image": "/img/note-incident-response-playbook-114.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-01-27",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-485.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-485.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2024-01-26",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-167.html",
+    "image": "/img/note-powershell-for-red-teamers-167.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2024-01-21",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-112.html",
+    "image": "/img/note-docker-security-hardening-112.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2024-01-14",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-779.html",
+    "image": "/img/note-web-application-penetration-testing-meth-779.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OSCP Exam Preparation Notes",
+    "date": "2024-01-13",
+    "section": "notes",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-578.html",
+    "image": "/img/note-oscp-exam-preparation-notes-578.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-01-09",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-959.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-959.png",
+    "readTime": "5 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2024-01-02",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-464.html",
+    "image": "/img/note-powershell-for-red-teamers-464.png",
+    "readTime": "2 min"
+  }
+]

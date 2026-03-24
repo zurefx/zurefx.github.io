@@ -1,0 +1,227 @@
+[
+  {
+    "id": "htb-pikaboo-294",
+    "title": "OffSec Proving Grounds — Pikaboo (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Pikaboo. Weak Service Permissions and ACL Abuse to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pikaboo-294.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-16",
+    "tags": [
+      "active-directory",
+      "ctf",
+      "forensics"
+    ],
+    "image": "/img/htb-pikaboo-294.png",
+    "words": 661,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-mustacchio-360",
+    "title": "VulnHub — Mustacchio (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Mustacchio. DCSync and Open Redirect to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-mustacchio-360.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-16",
+    "tags": [
+      "hard",
+      "easy",
+      "hackthebox",
+      "web",
+      "linux"
+    ],
+    "image": "/img/htb-mustacchio-360.png",
+    "words": 634,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-fuse-155",
+    "title": "TryHackMe — Fuse (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Fuse. Remote Code Execution and AlwaysInstallElevated to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-fuse-155.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-16",
+    "tags": [
+      "ctf",
+      "pwntilldawn",
+      "offsec",
+      "linux"
+    ],
+    "image": "/img/htb-fuse-155.png",
+    "words": 647,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-dns-resolver-and-brute-forcer-591",
+    "title": "DNS Resolver and Brute Forcer",
+    "section": "projects",
+    "description": "Open source security project: DNS Resolver and Brute Forcer. Built for the community.",
+    "permalink": "/research/project-dns-resolver-and-brute-forcer-591.html",
+    "btn_label": "View Project",
+    "date": "2025-06-13",
+    "tags": [
+      "automation",
+      "open-source",
+      "plugin",
+      "cli",
+      "extension"
+    ],
+    "image": "/img/project-dns-resolver-and-brute-forcer-591.png",
+    "words": 229,
+    "readTime": "2 min",
+    "features": [
+      "hashcat",
+      "john",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "htb-nineveh-551",
+    "title": "OffSec Proving Grounds — Nineveh (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Nineveh. AlwaysInstallElevated and DCSync to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-nineveh-551.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-13",
+    "tags": [
+      "ctf",
+      "offsec",
+      "hackthebox",
+      "active-directory"
+    ],
+    "image": "/img/htb-nineveh-551.png",
+    "words": 588,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-incident-response-playbook-968",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-968.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-12",
+    "tags": [
+      "enumeration",
+      "blue-team",
+      "linux"
+    ],
+    "image": "/img/note-incident-response-playbook-968.png",
+    "words": 413,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-317",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-317.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-12",
+    "tags": [
+      "oscp",
+      "persistence",
+      "malware",
+      "enumeration"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-317.png",
+    "words": 670,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-388",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-388.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-12",
+    "tags": [
+      "networking",
+      "persistence",
+      "linux",
+      "cheatsheet",
+      "oscp"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-388.png",
+    "words": 527,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-omni-457",
+    "title": "OffSec Proving Grounds — Omni (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Omni. Constrained Delegation and AS-REP Roasting to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-omni-457.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-12",
+    "tags": [
+      "tryhackme",
+      "easy",
+      "offsec",
+      "forensics"
+    ],
+    "image": "/img/htb-omni-457.png",
+    "words": 643,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-916",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-916.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-11",
+    "tags": [
+      "blue-team",
+      "linux",
+      "enumeration",
+      "persistence"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-916.png",
+    "words": 274,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-horizontall-716",
+    "title": "HackTheBox — Horizontall (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Horizontall. SSRF and CSRF to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-horizontall-716.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-11",
+    "tags": [
+      "pwntilldawn",
+      "reversing",
+      "easy",
+      "forensics",
+      "web",
+      "hard",
+      "offsec"
+    ],
+    "image": "/img/htb-horizontall-716.png",
+    "words": 614,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-932",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-932.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-10",
+    "tags": [
+      "lateral-movement",
+      "privilege-escalation",
+      "persistence"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-932.png",
+    "words": 726,
+    "readTime": "4 min"
+  }
+]

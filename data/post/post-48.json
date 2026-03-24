@@ -1,0 +1,236 @@
+[
+  {
+    "id": "project-jwt-token-analyzer-154",
+    "title": "JWT Token Analyzer",
+    "section": "projects",
+    "description": "Open source security project: JWT Token Analyzer. Built for the community.",
+    "permalink": "/research/project-jwt-token-analyzer-154.html",
+    "btn_label": "View Project",
+    "date": "2025-08-11",
+    "tags": [
+      "automation",
+      "tool",
+      "security",
+      "cli",
+      "framework"
+    ],
+    "image": "/img/project-jwt-token-analyzer-154.png",
+    "words": 230,
+    "readTime": "2 min",
+    "features": [
+      "ffuf",
+      "nmap",
+      "john"
+    ]
+  },
+  {
+    "id": "note-cryptography-fundamentals-144",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-144.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-11",
+    "tags": [
+      "lateral-movement",
+      "dfir",
+      "networking",
+      "privilege-escalation",
+      "windows",
+      "oscp"
+    ],
+    "image": "/img/note-cryptography-fundamentals-144.png",
+    "words": 480,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tabby-249",
+    "title": "OffSec Proving Grounds — Tabby (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Tabby. Writable PATH and Cron Job to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-tabby-249.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-11",
+    "tags": [
+      "ctf",
+      "web",
+      "insane",
+      "easy",
+      "reversing"
+    ],
+    "image": "/img/htb-tabby-249.png",
+    "words": 578,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-buff-439",
+    "title": "TryHackMe — Buff (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Buff. ACL Abuse and Unconstrained Delegation to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-buff-439.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-11",
+    "tags": [
+      "web",
+      "hard",
+      "insane",
+      "offsec",
+      "reversing",
+      "medium"
+    ],
+    "image": "/img/htb-buff-439.png",
+    "words": 595,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-733",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-733.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-10",
+    "tags": [
+      "buffer-overflow",
+      "heap-exploitation",
+      "cve"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-73.png",
+    "words": 445,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-275",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-275.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-09",
+    "tags": [
+      "cve",
+      "shellcode",
+      "aslr-bypass",
+      "zero-day"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-275.png",
+    "words": 461,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-716",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-716.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-09",
+    "tags": [
+      "lateral-movement",
+      "dfir",
+      "enumeration",
+      "persistence"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-716.png",
+    "words": 318,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-415",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-415.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-09",
+    "tags": [
+      "enumeration",
+      "linux",
+      "cheatsheet",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-cryptography-fundamentals-415.png",
+    "words": 588,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ophiuchi-349",
+    "title": "TryHackMe — Ophiuchi (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Ophiuchi. Path Traversal and SQL Injection to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-ophiuchi-349.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-09",
+    "tags": [
+      "medium",
+      "web",
+      "pwntilldawn",
+      "hackthebox",
+      "reversing"
+    ],
+    "image": "/img/htb-ophiuchi-349.png",
+    "words": 587,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-647",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-647.html",
+    "btn_label": "View Script",
+    "date": "2025-08-08",
+    "tags": [
+      "rust",
+      "go",
+      "python",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-web-crawler-and-spider-647.png",
+    "words": 346,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-921",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-921.html",
+    "btn_label": "View Script",
+    "date": "2025-08-07",
+    "tags": [
+      "automation",
+      "parser",
+      "go",
+      "bash",
+      "python",
+      "tool"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-921.png",
+    "words": 286,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-828",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-828.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-07",
+    "tags": [
+      "blue-team",
+      "oscp",
+      "persistence",
+      "linux",
+      "windows",
+      "enumeration"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-828.png",
+    "words": 416,
+    "readTime": "3 min"
+  }
+]

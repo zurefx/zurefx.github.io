@@ -1,0 +1,231 @@
+[
+  {
+    "id": "htb-alfred-838",
+    "title": "PwnTillDawn — Alfred (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Alfred. GPP Password and DCSync to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-alfred-838.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-07",
+    "tags": [
+      "hackthebox",
+      "web",
+      "easy",
+      "pwntilldawn",
+      "linux",
+      "medium"
+    ],
+    "image": "/img/htb-alfred-838.png",
+    "words": 643,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-211",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-211.html",
+    "btn_label": "View Script",
+    "date": "2025-08-06",
+    "tags": [
+      "fuzzer",
+      "tool",
+      "powershell",
+      "scanner",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-211.png",
+    "words": 418,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-889",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-889.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-06",
+    "tags": [
+      "enumeration",
+      "linux",
+      "cheatsheet",
+      "lateral-movement",
+      "privilege-escalation",
+      "dfir"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-889.png",
+    "words": 251,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-cap-216",
+    "title": "HackTheBox — Cap (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Cap. DNS Rebinding and NTLM Relay to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-cap-216.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-06",
+    "tags": [
+      "insane",
+      "tryhackme",
+      "web",
+      "easy"
+    ],
+    "image": "/img/htb-cap-216.png",
+    "words": 706,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-721",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-721.html",
+    "btn_label": "View Script",
+    "date": "2025-08-05",
+    "tags": [
+      "powershell",
+      "rust",
+      "python",
+      "fuzzer",
+      "go",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-721.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-dns-resolver-and-brute-forcer-961",
+    "title": "DNS Resolver and Brute Forcer",
+    "section": "projects",
+    "description": "Open source security project: DNS Resolver and Brute Forcer. Built for the community.",
+    "permalink": "/research/project-dns-resolver-and-brute-forcer-961.html",
+    "btn_label": "View Project",
+    "date": "2025-08-05",
+    "tags": [
+      "cli",
+      "extension",
+      "tool"
+    ],
+    "image": "/img/project-dns-resolver-and-brute-forcer-961.png",
+    "words": 191,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "feroxbuster",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "note-blue-team-detection-techniques-166",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-166.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-05",
+    "tags": [
+      "blue-team",
+      "lateral-movement",
+      "persistence",
+      "oscp",
+      "malware"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-166.png",
+    "words": 520,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-shocker-387",
+    "title": "VulnHub — Shocker (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Shocker. Golden Ticket and XXE to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-shocker-387.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-05",
+    "tags": [
+      "hackthebox",
+      "active-directory",
+      "linux",
+      "medium"
+    ],
+    "image": "/img/htb-shocker-387.png",
+    "words": 577,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-135",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-135.html",
+    "btn_label": "View Script",
+    "date": "2025-08-04",
+    "tags": [
+      "bash",
+      "script",
+      "parser",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-135.png",
+    "words": 295,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-385",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-385.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-04",
+    "tags": [
+      "privilege-escalation",
+      "malware",
+      "dfir",
+      "oscp",
+      "enumeration"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-385.png",
+    "words": 403,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-728",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-728.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-04",
+    "tags": [
+      "dfir",
+      "enumeration",
+      "oscp"
+    ],
+    "image": "/img/note-cryptography-fundamentals-728.png",
+    "words": 325,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-mindgames-178",
+    "title": "VulnHub — Mindgames (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Mindgames. Broken Access Control and Unquoted Service Path to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-mindgames-178.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-04",
+    "tags": [
+      "easy",
+      "windows",
+      "hackthebox"
+    ],
+    "image": "/img/htb-mindgames-178.png",
+    "words": 592,
+    "readTime": "3 min"
+  }
+]

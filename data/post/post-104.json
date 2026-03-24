@@ -1,0 +1,226 @@
+[
+  {
+    "id": "script-subdomain-enumeration-tool-190",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-190.html",
+    "btn_label": "View Script",
+    "date": "2024-11-14",
+    "tags": [
+      "rust",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-190.png",
+    "words": 301,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-172",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-172.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-14",
+    "tags": [
+      "windows",
+      "dfir",
+      "persistence",
+      "blue-team",
+      "lateral-movement",
+      "malware"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-172.png",
+    "words": 627,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-694",
+    "title": "C2 Beacon Simulator — Python",
+    "section": "scripting",
+    "description": "A Python script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-694.html",
+    "btn_label": "View Script",
+    "date": "2024-11-13",
+    "tags": [
+      "automation",
+      "fuzzer",
+      "rust",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-c2-beacon-simulator-694.png",
+    "words": 334,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-826",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-826.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-13",
+    "tags": [
+      "malware",
+      "linux",
+      "dfir",
+      "lateral-movement"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-826.png",
+    "words": 598,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-writer-476",
+    "title": "HackTheBox — Writer (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Writer. Command Injection and CSRF to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-writer-476.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-12",
+    "tags": [
+      "linux",
+      "windows",
+      "web",
+      "forensics"
+    ],
+    "image": "/img/htb-writer-476.png",
+    "words": 603,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-290",
+    "title": "Web Crawler and Spider — Bash",
+    "section": "scripting",
+    "description": "A Bash script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-290.html",
+    "btn_label": "View Script",
+    "date": "2024-11-11",
+    "tags": [
+      "parser",
+      "tool",
+      "rust",
+      "go",
+      "fuzzer",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-web-crawler-and-spider-290.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-255",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-255.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-11",
+    "tags": [
+      "cve",
+      "rop",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-threat-intelligence-integration-255.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-203",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-203.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-11",
+    "tags": [
+      "windows",
+      "enumeration",
+      "lateral-movement",
+      "dfir",
+      "cheatsheet",
+      "blue-team"
+    ],
+    "image": "/img/note-reverse-engineering-basics-203.png",
+    "words": 649,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-907",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-907.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-11",
+    "tags": [
+      "persistence",
+      "blue-team",
+      "linux"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-907.png",
+    "words": 586,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-relevant-268",
+    "title": "VulnHub — Relevant (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Relevant. SUID Binary and Cron Job to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-relevant-268.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-11",
+    "tags": [
+      "hackthebox",
+      "reversing",
+      "active-directory",
+      "tryhackme"
+    ],
+    "image": "/img/htb-relevant-268.png",
+    "words": 529,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-forge-131",
+    "title": "HackTheBox — Forge (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Forge. Command Injection and CORS Misconfiguration to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-forge-131.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-11",
+    "tags": [
+      "medium",
+      "easy",
+      "web",
+      "insane"
+    ],
+    "image": "/img/htb-forge-131.png",
+    "words": 602,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-750",
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "section": "scripting",
+    "description": "A Python script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-750.html",
+    "btn_label": "View Script",
+    "date": "2024-11-10",
+    "tags": [
+      "bash",
+      "c",
+      "powershell",
+      "python",
+      "fuzzer",
+      "script"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-750.png",
+    "words": 313,
+    "readTime": "2 min"
+  }
+]

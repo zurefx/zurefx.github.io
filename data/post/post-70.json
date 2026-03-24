@@ -1,0 +1,232 @@
+[
+  {
+    "id": "note-cryptography-fundamentals-462",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-462.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-04",
+    "tags": [
+      "oscp",
+      "dfir",
+      "linux"
+    ],
+    "image": "/img/note-cryptography-fundamentals-462.png",
+    "words": 708,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-remote-908",
+    "title": "HackTheBox — Remote (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Remote. SSRF and Pass the Hash to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-remote-908.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-04",
+    "tags": [
+      "web",
+      "offsec",
+      "linux",
+      "ctf"
+    ],
+    "image": "/img/htb-remote-908.png",
+    "words": 586,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-delivery-960",
+    "title": "OffSec Proving Grounds — Delivery (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Delivery. Resource-Based Constrained Delegation and Docker Escape to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-delivery-960.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-04",
+    "tags": [
+      "linux",
+      "web",
+      "medium",
+      "ctf",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-delivery-960.png",
+    "words": 642,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-automated-port-scanner-881",
+    "title": "Automated Port Scanner — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-881.html",
+    "btn_label": "View Script",
+    "date": "2025-05-03",
+    "tags": [
+      "bash",
+      "c",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-automated-port-scanner-881.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-678",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-678.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-03",
+    "tags": [
+      "dfir",
+      "blue-team",
+      "lateral-movement",
+      "oscp",
+      "windows",
+      "enumeration"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-678.png",
+    "words": 397,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-616",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-616.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-03",
+    "tags": [
+      "windows",
+      "cheatsheet",
+      "enumeration",
+      "linux",
+      "dfir",
+      "malware"
+    ],
+    "image": "/img/note-cryptography-fundamentals-616.png",
+    "words": 290,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-networked-399",
+    "title": "VulnHub — Networked (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Networked. Broken Access Control and Sudo Misconfiguration to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-networked-399.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-03",
+    "tags": [
+      "web",
+      "insane",
+      "active-directory",
+      "forensics"
+    ],
+    "image": "/img/htb-networked-399.png",
+    "words": 571,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-149",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-149.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-02",
+    "tags": [
+      "linux",
+      "networking",
+      "blue-team",
+      "persistence"
+    ],
+    "image": "/img/note-reverse-engineering-basics-149.png",
+    "words": 236,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-775",
+    "title": "JWT Token Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-775.html",
+    "btn_label": "View Script",
+    "date": "2025-05-01",
+    "tags": [
+      "go",
+      "rust",
+      "bash",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-775.png",
+    "words": 279,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-browser-exploitation-techniques-434",
+    "title": "Browser Exploitation Techniques",
+    "section": "projects",
+    "description": "Open source security project: Browser Exploitation Techniques. Built for the community.",
+    "permalink": "/research/project-browser-exploitation-techniques-434.html",
+    "btn_label": "View Project",
+    "date": "2025-05-01",
+    "tags": [
+      "security",
+      "extension",
+      "cli",
+      "open-source"
+    ],
+    "image": "/img/project-browser-exploitation-techniques-434.png",
+    "words": 206,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "hydra",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "note-yara-rule-writing-690",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-690.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-01",
+    "tags": [
+      "windows",
+      "lateral-movement",
+      "dfir",
+      "cheatsheet",
+      "oscp",
+      "linux"
+    ],
+    "image": "/img/note-yara-rule-writing-690.png",
+    "words": 701,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-489",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-489.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-30",
+    "tags": [
+      "format-string",
+      "uaf",
+      "shellcode",
+      "cve"
+    ],
+    "image": "/img/research-threat-intelligence-integration-489.png",
+    "words": 434,
+    "readTime": "3 min",
+    "pick": 1
+  }
+]

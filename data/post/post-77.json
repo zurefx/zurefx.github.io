@@ -1,0 +1,236 @@
+[
+  {
+    "id": "project-evading-modern-edr-solutions-249",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-249.html",
+    "btn_label": "View Project",
+    "date": "2025-04-04",
+    "tags": [
+      "automation",
+      "library",
+      "plugin",
+      "cli",
+      "extension"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-249.png",
+    "words": 198,
+    "readTime": "1 min",
+    "features": [
+      "ffuf",
+      "impacket",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-750",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-750.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-03",
+    "tags": [
+      "privilege-escalation",
+      "windows",
+      "malware"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-750.png",
+    "words": 464,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-friendzone-487",
+    "title": "PwnTillDawn — FriendZone (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn FriendZone. Remote Code Execution and Path Traversal to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-friendzone-487.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-03",
+    "tags": [
+      "active-directory",
+      "hard",
+      "reversing",
+      "pwntilldawn",
+      "windows"
+    ],
+    "image": "/img/htb-friendzone-487.png",
+    "words": 567,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-automated-port-scanner-251",
+    "title": "Automated Port Scanner — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-251.html",
+    "btn_label": "View Script",
+    "date": "2025-04-02",
+    "tags": [
+      "scanner",
+      "bash",
+      "fuzzer",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-automated-port-scanner-251.png",
+    "words": 330,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-valentine-963",
+    "title": "HackTheBox — Valentine (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Valentine. Remote Code Execution and LAPS Abuse to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-valentine-963.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-02",
+    "tags": [
+      "hard",
+      "web",
+      "ctf",
+      "forensics",
+      "offsec",
+      "hackthebox"
+    ],
+    "image": "/img/htb-valentine-963.png",
+    "words": 585,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-servmon-383",
+    "title": "HackTheBox — ServMon (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox ServMon. Cron Job and Kerberoasting to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-servmon-383.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-02",
+    "tags": [
+      "insane",
+      "offsec",
+      "active-directory",
+      "easy"
+    ],
+    "image": "/img/htb-servmon-383.png",
+    "words": 663,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-431",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-431.html",
+    "btn_label": "View Script",
+    "date": "2025-04-01",
+    "tags": [
+      "rust",
+      "script",
+      "powershell",
+      "python",
+      "c",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-431.png",
+    "words": 318,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-overpass-932",
+    "title": "HackTheBox — Overpass (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Overpass. DLL Hijacking and NFS No Root Squash to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-overpass-932.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-31",
+    "tags": [
+      "hackthebox",
+      "reversing",
+      "tryhackme",
+      "medium",
+      "pwntilldawn",
+      "web",
+      "active-directory"
+    ],
+    "image": "/img/htb-overpass-932.png",
+    "words": 560,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-609",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-609.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-30",
+    "tags": [
+      "heap-exploitation",
+      "exploit-development",
+      "buffer-overflow",
+      "rop"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-609.png",
+    "words": 494,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-nineveh-198",
+    "title": "TryHackMe — Nineveh (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Nineveh. Docker Escape and SeImpersonatePrivilege to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-nineveh-198.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-30",
+    "tags": [
+      "easy",
+      "forensics",
+      "insane",
+      "medium"
+    ],
+    "image": "/img/htb-nineveh-198.png",
+    "words": 553,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-academy-635",
+    "title": "TryHackMe — Academy (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Academy. DLL Hijacking and Docker Escape to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-academy-635.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-30",
+    "tags": [
+      "insane",
+      "active-directory",
+      "easy",
+      "hard"
+    ],
+    "image": "/img/htb-academy-635.png",
+    "words": 548,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-637",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-637.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-29",
+    "tags": [
+      "lateral-movement",
+      "blue-team",
+      "enumeration",
+      "privilege-escalation",
+      "networking"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-637.png",
+    "words": 334,
+    "readTime": "2 min"
+  }
+]

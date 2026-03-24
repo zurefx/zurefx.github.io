@@ -1,0 +1,231 @@
+[
+  {
+    "id": "note-python-scripting-for-pentesting-557",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-557.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-22",
+    "tags": [
+      "enumeration",
+      "privilege-escalation",
+      "oscp"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-557.png",
+    "words": 440,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ready-257",
+    "title": "HackTheBox — Ready (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ready. XSS and IDOR to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-ready-257.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-22",
+    "tags": [
+      "medium",
+      "ctf",
+      "web",
+      "pwntilldawn",
+      "hard"
+    ],
+    "image": "/img/htb-ready-257.png",
+    "words": 515,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-168",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-168.html",
+    "btn_label": "Read Research",
+    "date": "2025-10-21",
+    "tags": [
+      "heap-exploitation",
+      "cve",
+      "exploit-development"
+    ],
+    "image": "/img/research-threat-intelligence-integration-168.png",
+    "words": 482,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-653",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-653.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-21",
+    "tags": [
+      "windows",
+      "dfir",
+      "enumeration",
+      "networking",
+      "blue-team",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-653.png",
+    "words": 836,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-academy-338",
+    "title": "PwnTillDawn — Academy (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Academy. CORS Misconfiguration and Path Traversal to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-academy-338.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-19",
+    "tags": [
+      "forensics",
+      "tryhackme",
+      "active-directory",
+      "easy"
+    ],
+    "image": "/img/htb-academy-338.png",
+    "words": 587,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-knife-759",
+    "title": "TryHackMe — Knife (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Knife. Pass the Hash and SQL Injection to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-knife-759.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-18",
+    "tags": [
+      "ctf",
+      "active-directory",
+      "pwntilldawn",
+      "hard",
+      "web",
+      "offsec",
+      "windows"
+    ],
+    "image": "/img/htb-knife-759.png",
+    "words": 642,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-delivery-471",
+    "title": "PwnTillDawn — Delivery (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Delivery. XXE and NFS No Root Squash to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-delivery-471.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-18",
+    "tags": [
+      "ctf",
+      "hard",
+      "offsec",
+      "linux",
+      "easy"
+    ],
+    "image": "/img/htb-delivery-471.png",
+    "words": 587,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-legacy-460",
+    "title": "VulnHub — Legacy (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Legacy. SSRF and Path Traversal to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-legacy-460.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-17",
+    "tags": [
+      "ctf",
+      "web",
+      "linux",
+      "pwntilldawn",
+      "reversing",
+      "tryhackme"
+    ],
+    "image": "/img/htb-legacy-460.png",
+    "words": 607,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-thenotebook-138",
+    "title": "OffSec Proving Grounds — TheNotebook (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds TheNotebook. Subdomain Takeover and DNS Rebinding to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-thenotebook-138.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-16",
+    "tags": [
+      "insane",
+      "easy",
+      "windows",
+      "medium",
+      "linux",
+      "forensics"
+    ],
+    "image": "/img/htb-thenotebook-138.png",
+    "words": 646,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-sense-315",
+    "title": "HackTheBox — Sense (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Sense. SSTI and Silver Ticket to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-sense-315.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-16",
+    "tags": [
+      "linux",
+      "windows",
+      "insane",
+      "medium",
+      "reversing"
+    ],
+    "image": "/img/htb-sense-315.png",
+    "words": 655,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-101",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-101.html",
+    "btn_label": "Read Notes",
+    "date": "2025-10-15",
+    "tags": [
+      "oscp",
+      "linux",
+      "windows"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-101.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-irked-593",
+    "title": "HackTheBox — Irked (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Irked. SeDebugPrivilege and AlwaysInstallElevated to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-irked-593.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-10-15",
+    "tags": [
+      "windows",
+      "forensics",
+      "pwntilldawn",
+      "hard",
+      "insane",
+      "easy"
+    ],
+    "image": "/img/htb-irked-593.png",
+    "words": 527,
+    "readTime": "3 min"
+  }
+]

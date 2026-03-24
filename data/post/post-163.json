@@ -1,0 +1,229 @@
+[
+  {
+    "id": "htb-ghizer-566",
+    "title": "VulnHub — Ghizer (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Ghizer. Insecure Deserialization and LXD Privilege Escalation to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ghizer-566.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-01",
+    "tags": [
+      "windows",
+      "web",
+      "reversing",
+      "medium",
+      "ctf",
+      "offsec",
+      "linux"
+    ],
+    "image": "/img/htb-ghizer-566.png",
+    "words": 579,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-blunder-446",
+    "title": "TryHackMe — Blunder (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Blunder. Resource-Based Constrained Delegation and SQL Injection to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-blunder-446.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-01",
+    "tags": [
+      "offsec",
+      "medium",
+      "active-directory",
+      "windows",
+      "tryhackme"
+    ],
+    "image": "/img/htb-blunder-446.png",
+    "words": 698,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-135",
+    "title": "Log Parser and Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-135.html",
+    "btn_label": "View Script",
+    "date": "2024-01-31",
+    "tags": [
+      "bash",
+      "go",
+      "fuzzer",
+      "powershell",
+      "c"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-135.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-488",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-488.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-31",
+    "tags": [
+      "rop",
+      "malware-analysis",
+      "buffer-overflow",
+      "shellcode",
+      "exploit-development"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-488.png",
+    "words": 526,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-405",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-405.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-31",
+    "tags": [
+      "malware",
+      "windows",
+      "dfir",
+      "persistence"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-405.png",
+    "words": 572,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-376",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-376.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-29",
+    "tags": [
+      "dfir",
+      "networking",
+      "lateral-movement",
+      "blue-team"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-376.png",
+    "words": 380,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-973",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-973.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-28",
+    "tags": [
+      "windows",
+      "persistence",
+      "enumeration",
+      "lateral-movement"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-973.png",
+    "words": 372,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-771",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-771.html",
+    "btn_label": "View Script",
+    "date": "2024-01-27",
+    "tags": [
+      "go",
+      "bash",
+      "fuzzer",
+      "tool",
+      "script"
+    ],
+    "image": "/img/script-network-packet-sniffer-771.png",
+    "words": 318,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-485",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-485.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-27",
+    "tags": [
+      "dfir",
+      "persistence",
+      "linux",
+      "enumeration",
+      "lateral-movement",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-485.png",
+    "words": 346,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-236",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-236.html",
+    "btn_label": "View Script",
+    "date": "2024-01-26",
+    "tags": [
+      "fuzzer",
+      "powershell",
+      "parser"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-236.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-594",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-594.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-26",
+    "tags": [
+      "rop",
+      "cve",
+      "kernel",
+      "heap-exploitation",
+      "malware-analysis"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-594.png",
+    "words": 438,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-706",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-706.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-26",
+    "tags": [
+      "blue-team",
+      "dfir",
+      "lateral-movement",
+      "enumeration",
+      "windows",
+      "networking"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-706.png",
+    "words": 654,
+    "readTime": "4 min"
+  }
+]

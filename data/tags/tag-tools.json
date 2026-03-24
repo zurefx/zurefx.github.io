@@ -1,0 +1,26 @@
+[
+  {
+    "title": "ZFX Recon Tool",
+    "date": "2026-03-22",
+    "section": "projects",
+    "permalink": "/research/zfx-recon-tool.html",
+    "image": "/img/zfx-recon-tool.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Fast Port Scanner in Python",
+    "date": "2026-03-17",
+    "section": "scripting",
+    "permalink": "/scripting/port-scan-tool.html",
+    "image": "/img/port-scan-tool.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Python Reverse Shell Generator",
+    "date": "2026-03-07",
+    "section": "scripting",
+    "permalink": "/scripting/python-rev-shell.html",
+    "image": "/img/python-rev-shell.png",
+    "readTime": "1 min"
+  }
+]

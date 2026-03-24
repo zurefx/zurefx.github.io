@@ -1,0 +1,230 @@
+[
+  {
+    "id": "htb-admirer-568",
+    "title": "HackTheBox — Admirer (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Admirer. Golden Ticket and Subdomain Takeover to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-admirer-568.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-10",
+    "tags": [
+      "medium",
+      "active-directory",
+      "ctf",
+      "offsec",
+      "hard"
+    ],
+    "image": "/img/htb-admirer-568.png",
+    "words": 581,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-959",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-959.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-09",
+    "tags": [
+      "networking",
+      "privilege-escalation",
+      "persistence"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-959.png",
+    "words": 855,
+    "readTime": "5 min"
+  },
+  {
+    "id": "htb-tartarsauce-193",
+    "title": "VulnHub — Tartarsauce (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Tartarsauce. LAPS Abuse and AS-REP Roasting to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-tartarsauce-193.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-09",
+    "tags": [
+      "tryhackme",
+      "reversing",
+      "active-directory",
+      "web",
+      "windows",
+      "medium",
+      "hackthebox"
+    ],
+    "image": "/img/htb-tartarsauce-193.png",
+    "words": 580,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-399",
+    "title": "Network Packet Sniffer — Python",
+    "section": "scripting",
+    "description": "A Python script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-399.html",
+    "btn_label": "View Script",
+    "date": "2024-01-08",
+    "tags": [
+      "rust",
+      "parser",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-network-packet-sniffer-399.png",
+    "words": 277,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-101",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-101.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-08",
+    "tags": [
+      "malware-analysis",
+      "zero-day",
+      "rop",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-101.png",
+    "words": 432,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-digital-forensics-methodology-914",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-914.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-08",
+    "tags": [
+      "cheatsheet",
+      "persistence",
+      "lateral-movement"
+    ],
+    "image": "/img/note-digital-forensics-methodology-914.png",
+    "words": 322,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-node-516",
+    "title": "OffSec Proving Grounds — Node (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Node. AS-REP Roasting and DCSync to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-node-516.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-08",
+    "tags": [
+      "active-directory",
+      "medium",
+      "tryhackme",
+      "easy",
+      "linux",
+      "windows",
+      "offsec"
+    ],
+    "image": "/img/htb-node-516.png",
+    "words": 591,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-analysis-of-cve-2024-xxxx-remote-code-ex-730",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "projects",
+    "description": "Open source security project: Analysis of CVE-2024-XXXX: Remote Code Execution. Built for the community.",
+    "permalink": "/research/project-analysis-of-cve-2024-xxxx-remote-code-ex-730.html",
+    "btn_label": "View Project",
+    "date": "2024-01-07",
+    "tags": [
+      "tool",
+      "security",
+      "cli"
+    ],
+    "image": "/img/project-analysis-of-cve-2024-xxxx-remote-code-ex-7.png",
+    "words": 200,
+    "readTime": "1 min",
+    "features": [
+      "gobuster",
+      "ffuf",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "htb-irked-698",
+    "title": "OffSec Proving Grounds — Irked (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Irked. SSRF and Open Redirect to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-irked-698.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-07",
+    "tags": [
+      "windows",
+      "insane",
+      "reversing",
+      "hackthebox"
+    ],
+    "image": "/img/htb-irked-698.png",
+    "words": 587,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-821",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-821.html",
+    "btn_label": "View Script",
+    "date": "2024-01-05",
+    "tags": [
+      "automation",
+      "scanner",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-reverse-shell-generator-821.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-598",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-598.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-05",
+    "tags": [
+      "format-string",
+      "shellcode",
+      "rop",
+      "exploit-development"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-59.png",
+    "words": 486,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-tenet-535",
+    "title": "OffSec Proving Grounds — Tenet (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Tenet. Constrained Delegation and Subdomain Takeover to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-tenet-535.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-05",
+    "tags": [
+      "insane",
+      "tryhackme",
+      "hard",
+      "windows",
+      "reversing"
+    ],
+    "image": "/img/htb-tenet-535.png",
+    "words": 644,
+    "readTime": "4 min"
+  }
+]

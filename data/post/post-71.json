@@ -1,0 +1,230 @@
+[
+  {
+    "id": "research-bypassing-applocker-and-wdac-236",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-236.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-30",
+    "tags": [
+      "shellcode",
+      "rop",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-236.png",
+    "words": 481,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-619",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-619.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-30",
+    "tags": [
+      "persistence",
+      "dfir",
+      "oscp",
+      "privilege-escalation",
+      "blue-team"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-619.png",
+    "words": 342,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-752",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-752.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-30",
+    "tags": [
+      "privilege-escalation",
+      "windows",
+      "blue-team",
+      "lateral-movement",
+      "oscp"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-752.png",
+    "words": 395,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-sense-840",
+    "title": "HackTheBox — Sense (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Sense. LXD Privilege Escalation and IDOR to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-sense-840.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-29",
+    "tags": [
+      "easy",
+      "pwntilldawn",
+      "reversing",
+      "medium",
+      "forensics"
+    ],
+    "image": "/img/htb-sense-840.png",
+    "words": 584,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-res-638",
+    "title": "VulnHub — Res (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Res. Sudo Misconfiguration and ACL Abuse to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-res-638.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-29",
+    "tags": [
+      "ctf",
+      "active-directory",
+      "hard",
+      "medium",
+      "reversing",
+      "forensics",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-res-638.png",
+    "words": 601,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-bucket-395",
+    "title": "VulnHub — Bucket (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Bucket. Pass the Hash and GPP Password to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-bucket-395.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-29",
+    "tags": [
+      "offsec",
+      "hard",
+      "easy",
+      "web",
+      "tryhackme"
+    ],
+    "image": "/img/htb-bucket-395.png",
+    "words": 554,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-blunder-415",
+    "title": "TryHackMe — Blunder (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Blunder. Remote File Inclusion and Writable PATH to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-blunder-415.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-29",
+    "tags": [
+      "reversing",
+      "hackthebox",
+      "easy",
+      "linux"
+    ],
+    "image": "/img/htb-blunder-415.png",
+    "words": 653,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-727",
+    "title": "DNS Resolver and Brute Forcer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-727.html",
+    "btn_label": "View Script",
+    "date": "2025-04-28",
+    "tags": [
+      "c",
+      "bash",
+      "rust",
+      "fuzzer",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-727.png",
+    "words": 302,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-506",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-506.html",
+    "btn_label": "View Script",
+    "date": "2025-04-28",
+    "tags": [
+      "go",
+      "fuzzer",
+      "script",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-506.png",
+    "words": 301,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-skynet-208",
+    "title": "OffSec Proving Grounds — Skynet (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Skynet. Kerberoasting and IDOR to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-skynet-208.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-28",
+    "tags": [
+      "insane",
+      "pwntilldawn",
+      "forensics",
+      "easy",
+      "linux"
+    ],
+    "image": "/img/htb-skynet-208.png",
+    "words": 548,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-482",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-482.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-27",
+    "tags": [
+      "heap-exploitation",
+      "cve",
+      "malware-analysis",
+      "zero-day",
+      "format-string"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-482.png",
+    "words": 493,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-420",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-420.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-27",
+    "tags": [
+      "malware",
+      "dfir",
+      "privilege-escalation",
+      "blue-team"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-420.png",
+    "words": 274,
+    "readTime": "2 min"
+  }
+]

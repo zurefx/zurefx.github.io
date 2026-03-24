@@ -1,0 +1,236 @@
+[
+  {
+    "id": "note-mitre-att&ck-framework-reference-936",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-936.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-11",
+    "tags": [
+      "networking",
+      "windows",
+      "cheatsheet",
+      "dfir",
+      "lateral-movement"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-936.png",
+    "words": 651,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-308",
+    "title": "Web Crawler and Spider — Python",
+    "section": "scripting",
+    "description": "A Python script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-308.html",
+    "btn_label": "View Script",
+    "date": "2024-03-10",
+    "tags": [
+      "rust",
+      "tool",
+      "script",
+      "bash",
+      "automation",
+      "python"
+    ],
+    "image": "/img/script-web-crawler-and-spider-308.png",
+    "words": 392,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-281",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-281.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-10",
+    "tags": [
+      "lateral-movement",
+      "dfir",
+      "persistence",
+      "oscp",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-281.png",
+    "words": 425,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-207",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-207.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-10",
+    "tags": [
+      "enumeration",
+      "linux",
+      "networking",
+      "privilege-escalation",
+      "persistence",
+      "dfir"
+    ],
+    "image": "/img/note-digital-forensics-methodology-207.png",
+    "words": 542,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-res-621",
+    "title": "VulnHub — Res (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Res. Remote File Inclusion and Kerberoasting to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-res-621.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-10",
+    "tags": [
+      "forensics",
+      "tryhackme",
+      "offsec",
+      "pwntilldawn",
+      "windows",
+      "ctf"
+    ],
+    "image": "/img/htb-res-621.png",
+    "words": 625,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-monitors-213",
+    "title": "OffSec Proving Grounds — Monitors (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Monitors. Insecure Deserialization and Unconstrained Delegation to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-monitors-213.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-10",
+    "tags": [
+      "reversing",
+      "pwntilldawn",
+      "tryhackme",
+      "linux",
+      "hard"
+    ],
+    "image": "/img/htb-monitors-213.png",
+    "words": 596,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-smb-share-enumeration-script-347",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-347.html",
+    "btn_label": "View Script",
+    "date": "2024-03-09",
+    "tags": [
+      "script",
+      "automation",
+      "c",
+      "python",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-347.png",
+    "words": 347,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-process-injection-poc-141",
+    "title": "Process Injection PoC — Go",
+    "section": "scripting",
+    "description": "A Go script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-141.html",
+    "btn_label": "View Script",
+    "date": "2024-03-09",
+    "tags": [
+      "rust",
+      "bash",
+      "c",
+      "powershell",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-process-injection-poc-141.png",
+    "words": 351,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-707",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-707.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-09",
+    "tags": [
+      "persistence",
+      "lateral-movement",
+      "linux",
+      "dfir"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-707.png",
+    "words": 598,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-617",
+    "title": "Reverse Shell Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-617.html",
+    "btn_label": "View Script",
+    "date": "2024-03-08",
+    "tags": [
+      "automation",
+      "python",
+      "scanner",
+      "powershell"
+    ],
+    "image": "/img/script-reverse-shell-generator-617.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-240",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-240.html",
+    "btn_label": "Read Notes",
+    "date": "2024-03-07",
+    "tags": [
+      "enumeration",
+      "windows",
+      "malware",
+      "lateral-movement"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-240.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-nineveh-176",
+    "title": "VulnHub — Nineveh (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Nineveh. IDOR and SSRF to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-nineveh-176.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-03-07",
+    "tags": [
+      "tryhackme",
+      "insane",
+      "windows",
+      "forensics",
+      "easy",
+      "web",
+      "linux"
+    ],
+    "image": "/img/htb-nineveh-176.png",
+    "words": 608,
+    "readTime": "4 min"
+  }
+]

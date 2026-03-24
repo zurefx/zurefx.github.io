@@ -1,0 +1,232 @@
+[
+  {
+    "id": "note-memory-forensics-with-volatility-903",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-903.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-24",
+    "tags": [
+      "persistence",
+      "linux",
+      "networking",
+      "cheatsheet"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-903.png",
+    "words": 535,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-dynstr-973",
+    "title": "VulnHub — Dynstr (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Dynstr. AlwaysInstallElevated and AS-REP Roasting to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-dynstr-973.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-24",
+    "tags": [
+      "easy",
+      "linux",
+      "reversing"
+    ],
+    "image": "/img/htb-dynstr-973.png",
+    "words": 692,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-yara-rule-writing-575",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-575.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-23",
+    "tags": [
+      "lateral-movement",
+      "windows",
+      "privilege-escalation",
+      "malware",
+      "linux"
+    ],
+    "image": "/img/note-yara-rule-writing-575.png",
+    "words": 308,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-426",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-426.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-23",
+    "tags": [
+      "privilege-escalation",
+      "lateral-movement",
+      "networking",
+      "linux"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-426.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-docker-security-hardening-199",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-199.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-23",
+    "tags": [
+      "persistence",
+      "malware",
+      "oscp",
+      "lateral-movement",
+      "enumeration",
+      "cheatsheet"
+    ],
+    "image": "/img/note-docker-security-hardening-199.png",
+    "words": 156,
+    "readTime": "1 min"
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-317",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-317.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-23",
+    "tags": [
+      "cheatsheet",
+      "oscp",
+      "lateral-movement",
+      "blue-team",
+      "malware",
+      "linux"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-317.png",
+    "words": 211,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-629",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-629.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-23",
+    "tags": [
+      "dfir",
+      "networking",
+      "linux",
+      "windows",
+      "cheatsheet",
+      "malware"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-629.png",
+    "words": 497,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-spectra-513",
+    "title": "HackTheBox — Spectra (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Spectra. AS-REP Roasting and XSS to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-spectra-513.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-23",
+    "tags": [
+      "hackthebox",
+      "web",
+      "active-directory"
+    ],
+    "image": "/img/htb-spectra-513.png",
+    "words": 610,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-549",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-549.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-22",
+    "tags": [
+      "heap-exploitation",
+      "malware-analysis",
+      "uaf",
+      "zero-day",
+      "kernel",
+      "rop"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-549.png",
+    "words": 456,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-c2-beacon-simulator-228",
+    "title": "C2 Beacon Simulator",
+    "section": "projects",
+    "description": "Open source security project: C2 Beacon Simulator. Built for the community.",
+    "permalink": "/research/project-c2-beacon-simulator-228.html",
+    "btn_label": "View Project",
+    "date": "2024-08-22",
+    "tags": [
+      "security",
+      "library",
+      "extension",
+      "tool"
+    ],
+    "image": "/img/project-c2-beacon-simulator-228.png",
+    "words": 191,
+    "readTime": "1 min",
+    "features": [
+      "feroxbuster",
+      "impacket",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-417",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-417.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-21",
+    "tags": [
+      "cheatsheet",
+      "enumeration",
+      "linux",
+      "oscp",
+      "dfir",
+      "blue-team"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-417.png",
+    "words": 392,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-252",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-252.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-21",
+    "tags": [
+      "dfir",
+      "lateral-movement",
+      "linux"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-252.png",
+    "words": 354,
+    "readTime": "2 min"
+  }
+]

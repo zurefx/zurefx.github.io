@@ -1,0 +1,242 @@
+[
+  {
+    "id": "htb-networked-782",
+    "title": "OffSec Proving Grounds — Networked (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Networked. SeImpersonatePrivilege and Subdomain Takeover to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-networked-782.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-05",
+    "tags": [
+      "forensics",
+      "web",
+      "windows",
+      "ctf",
+      "tryhackme",
+      "insane"
+    ],
+    "image": "/img/htb-networked-782.png",
+    "words": 651,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-smb-share-enumeration-script-517",
+    "title": "SMB Share Enumeration Script — Python",
+    "section": "scripting",
+    "description": "A Python script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-517.html",
+    "btn_label": "View Script",
+    "date": "2024-08-04",
+    "tags": [
+      "rust",
+      "fuzzer",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-517.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-508",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-508.html",
+    "btn_label": "View Script",
+    "date": "2024-08-04",
+    "tags": [
+      "python",
+      "parser",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-508.png",
+    "words": 309,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-586",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-586.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-04",
+    "tags": [
+      "zero-day",
+      "exploit-development",
+      "uaf",
+      "shellcode",
+      "malware-analysis",
+      "rop"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-586.png",
+    "words": 539,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-process-injection-poc-424",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-424.html",
+    "btn_label": "View Script",
+    "date": "2024-08-03",
+    "tags": [
+      "parser",
+      "tool",
+      "python",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-process-injection-poc-424.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-reverse-shell-generator-254",
+    "title": "Reverse Shell Generator",
+    "section": "projects",
+    "description": "Open source security project: Reverse Shell Generator. Built for the community.",
+    "permalink": "/research/project-reverse-shell-generator-254.html",
+    "btn_label": "View Project",
+    "date": "2024-08-03",
+    "tags": [
+      "security",
+      "extension",
+      "automation",
+      "open-source",
+      "cli"
+    ],
+    "image": "/img/project-reverse-shell-generator-254.png",
+    "words": 208,
+    "readTime": "2 min",
+    "features": [
+      "gobuster",
+      "nmap",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-390",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-390.html",
+    "btn_label": "View Project",
+    "date": "2024-08-03",
+    "tags": [
+      "extension",
+      "tool",
+      "library",
+      "framework",
+      "automation"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-390.png",
+    "words": 198,
+    "readTime": "1 min",
+    "features": [
+      "nmap",
+      "impacket",
+      "john"
+    ]
+  },
+  {
+    "id": "htb-tentacle-382",
+    "title": "HackTheBox — Tentacle (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Tentacle. XSS and Insecure Deserialization to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-tentacle-382.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-03",
+    "tags": [
+      "insane",
+      "active-directory",
+      "hard",
+      "offsec",
+      "easy"
+    ],
+    "image": "/img/htb-tentacle-382.png",
+    "words": 606,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-omni-434",
+    "title": "OffSec Proving Grounds — Omni (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Omni. Command Injection and Unconstrained Delegation to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-omni-434.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-03",
+    "tags": [
+      "windows",
+      "forensics",
+      "tryhackme",
+      "hackthebox",
+      "reversing"
+    ],
+    "image": "/img/htb-omni-434.png",
+    "words": 646,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-api-security-testing-framework-272",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-272.html",
+    "btn_label": "View Project",
+    "date": "2024-08-02",
+    "tags": [
+      "cli",
+      "framework",
+      "tool"
+    ],
+    "image": "/img/project-api-security-testing-framework-272.png",
+    "words": 193,
+    "readTime": "1 min",
+    "features": [
+      "feroxbuster",
+      "john",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-779",
+    "title": "CTF Challenge Solver Template — Go",
+    "section": "scripting",
+    "description": "A Go script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-779.html",
+    "btn_label": "View Script",
+    "date": "2024-08-01",
+    "tags": [
+      "powershell",
+      "parser",
+      "python",
+      "tool",
+      "go"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-779.png",
+    "words": 359,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-769",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-769.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-01",
+    "tags": [
+      "shellcode",
+      "heap-exploitation",
+      "kernel"
+    ],
+    "image": "/img/research-threat-intelligence-integration-769.png",
+    "words": 503,
+    "readTime": "3 min"
+  }
+]

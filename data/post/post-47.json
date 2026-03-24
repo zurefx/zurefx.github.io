@@ -1,0 +1,234 @@
+[
+  {
+    "id": "htb-mindgames-246",
+    "title": "PwnTillDawn — Mindgames (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Mindgames. SQL Injection and Silver Ticket to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-mindgames-246.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-15",
+    "tags": [
+      "forensics",
+      "medium",
+      "reversing",
+      "ctf",
+      "pwntilldawn",
+      "hackthebox",
+      "insane"
+    ],
+    "image": "/img/htb-mindgames-246.png",
+    "words": 548,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-admirer-542",
+    "title": "OffSec Proving Grounds — Admirer (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Admirer. Resource-Based Constrained Delegation and Docker Escape to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-admirer-542.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-15",
+    "tags": [
+      "hackthebox",
+      "tryhackme",
+      "reversing",
+      "forensics",
+      "easy"
+    ],
+    "image": "/img/htb-admirer-542.png",
+    "words": 636,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-507",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-507.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-14",
+    "tags": [
+      "uaf",
+      "rop",
+      "heap-exploitation",
+      "exploit-development"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-507.png",
+    "words": 490,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-762",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-762.html",
+    "btn_label": "View Script",
+    "date": "2025-08-13",
+    "tags": [
+      "rust",
+      "fuzzer",
+      "script",
+      "tool",
+      "python",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-762.png",
+    "words": 392,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-652",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-652.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-13",
+    "tags": [
+      "networking",
+      "malware",
+      "linux"
+    ],
+    "image": "/img/note-cryptography-fundamentals-652.png",
+    "words": 353,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-crossfit-212",
+    "title": "OffSec Proving Grounds — Crossfit (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Crossfit. GPP Password and Path Traversal to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-crossfit-212.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-13",
+    "tags": [
+      "pwntilldawn",
+      "active-directory",
+      "tryhackme",
+      "offsec",
+      "linux",
+      "insane"
+    ],
+    "image": "/img/htb-crossfit-212.png",
+    "words": 623,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-618",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-618.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-12",
+    "tags": [
+      "cheatsheet",
+      "linux",
+      "windows",
+      "dfir"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-618.png",
+    "words": 405,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-171",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-171.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-12",
+    "tags": [
+      "lateral-movement",
+      "dfir",
+      "cheatsheet"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-171.png",
+    "words": 705,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-nineveh-694",
+    "title": "PwnTillDawn — Nineveh (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Nineveh. SSRF and Docker Escape to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-nineveh-694.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-12",
+    "tags": [
+      "hackthebox",
+      "ctf",
+      "reversing",
+      "linux",
+      "pwntilldawn",
+      "medium",
+      "insane"
+    ],
+    "image": "/img/htb-nineveh-694.png",
+    "words": 647,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-arctic-122",
+    "title": "TryHackMe — Arctic (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Arctic. Pass the Ticket and Local File Inclusion to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-arctic-122.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-12",
+    "tags": [
+      "ctf",
+      "windows",
+      "tryhackme",
+      "web",
+      "active-directory"
+    ],
+    "image": "/img/htb-arctic-122.png",
+    "words": 614,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-process-injection-poc-176",
+    "title": "Process Injection PoC — Go",
+    "section": "scripting",
+    "description": "A Go script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-176.html",
+    "btn_label": "View Script",
+    "date": "2025-08-11",
+    "tags": [
+      "parser",
+      "scanner",
+      "python",
+      "go",
+      "powershell",
+      "script"
+    ],
+    "image": "/img/script-process-injection-poc-176.png",
+    "words": 366,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-688",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-688.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-11",
+    "tags": [
+      "malware-analysis",
+      "buffer-overflow",
+      "exploit-development",
+      "cve"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-688.png",
+    "words": 481,
+    "readTime": "3 min"
+  }
+]

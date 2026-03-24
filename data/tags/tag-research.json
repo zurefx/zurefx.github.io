@@ -1,0 +1,18 @@
+[
+  {
+    "title": "EDR Evasion Techniques Overview",
+    "date": "2026-03-15",
+    "section": "research",
+    "permalink": "/research/edr-evasion-research.html",
+    "image": "/img/edr-evasion-research.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Analyzing a Simple Python Dropper",
+    "date": "2026-03-11",
+    "section": "research",
+    "permalink": "/research/malware-dropper-analysis.html",
+    "image": "/img/malware-dropper-analysis.png",
+    "readTime": "1 min"
+  }
+]

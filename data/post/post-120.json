@@ -1,0 +1,228 @@
+[
+  {
+    "id": "htb-admirer-804",
+    "title": "OffSec Proving Grounds — Admirer (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Admirer. DLL Hijacking and Remote File Inclusion to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-admirer-804.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-02",
+    "tags": [
+      "forensics",
+      "linux",
+      "offsec",
+      "tryhackme",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-admirer-804.png",
+    "words": 542,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-673",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-673.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-01",
+    "tags": [
+      "linux",
+      "lateral-movement",
+      "malware",
+      "blue-team",
+      "networking"
+    ],
+    "image": "/img/note-reverse-engineering-basics-673.png",
+    "words": 513,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-536",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-536.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-01",
+    "tags": [
+      "blue-team",
+      "malware",
+      "cheatsheet"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-536.png",
+    "words": 614,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-505",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-505.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-01",
+    "tags": [
+      "windows",
+      "enumeration",
+      "blue-team",
+      "persistence"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-505.png",
+    "words": 615,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-604",
+    "title": "Custom Wordlist Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-604.html",
+    "btn_label": "View Script",
+    "date": "2024-08-31",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "parser",
+      "go"
+    ],
+    "image": "/img/script-custom-wordlist-generator-604.png",
+    "words": 327,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-deep-dive-into-windows-kernel-exploitati-258",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "projects",
+    "description": "Open source security project: Deep Dive into Windows Kernel Exploitation. Built for the community.",
+    "permalink": "/research/project-deep-dive-into-windows-kernel-exploitati-258.html",
+    "btn_label": "View Project",
+    "date": "2024-08-31",
+    "tags": [
+      "plugin",
+      "extension",
+      "cli",
+      "open-source"
+    ],
+    "image": "/img/project-deep-dive-into-windows-kernel-exploitati-2.png",
+    "words": 211,
+    "readTime": "2 min",
+    "features": [
+      "nmap",
+      "impacket",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-579",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-579.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-31",
+    "tags": [
+      "networking",
+      "persistence",
+      "lateral-movement",
+      "windows",
+      "linux"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-579.png",
+    "words": 373,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-638",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-638.html",
+    "btn_label": "View Script",
+    "date": "2024-08-29",
+    "tags": [
+      "rust",
+      "scanner",
+      "python",
+      "script",
+      "tool",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-638.png",
+    "words": 281,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-docker-security-hardening-567",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-567.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-29",
+    "tags": [
+      "privilege-escalation",
+      "linux",
+      "enumeration"
+    ],
+    "image": "/img/note-docker-security-hardening-567.png",
+    "words": 731,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-206",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-206.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-28",
+    "tags": [
+      "cheatsheet",
+      "linux",
+      "privilege-escalation",
+      "persistence",
+      "blue-team",
+      "lateral-movement"
+    ],
+    "image": "/img/note-cryptography-fundamentals-206.png",
+    "words": 738,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-488",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-488.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-28",
+    "tags": [
+      "dfir",
+      "privilege-escalation",
+      "blue-team",
+      "linux"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-488.png",
+    "words": 639,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-485",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-485.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-28",
+    "tags": [
+      "enumeration",
+      "privilege-escalation",
+      "malware"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-485.png",
+    "words": 742,
+    "readTime": "4 min"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "id": "htb-traverxec-888",
+    "title": "PwnTillDawn — Traverxec (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Traverxec. Constrained Delegation and Unconstrained Delegation to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-traverxec-888.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-06",
+    "tags": [
+      "tryhackme",
+      "offsec",
+      "medium",
+      "insane"
+    ],
+    "image": "/img/htb-traverxec-888.png",
+    "words": 582,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-process-injection-poc-421",
+    "title": "Process Injection PoC — Python",
+    "section": "scripting",
+    "description": "A Python script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-421.html",
+    "btn_label": "View Script",
+    "date": "2026-02-05",
+    "tags": [
+      "script",
+      "scanner",
+      "c",
+      "bash",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-process-injection-poc-421.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-597",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-597.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-05",
+    "tags": [
+      "oscp",
+      "privilege-escalation",
+      "persistence",
+      "windows",
+      "linux",
+      "networking"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-597.png",
+    "words": 606,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-solidstate-961",
+    "title": "TryHackMe — Solidstate (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Solidstate. LAPS Abuse and Pass the Hash to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-solidstate-961.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-04",
+    "tags": [
+      "forensics",
+      "reversing",
+      "insane",
+      "active-directory",
+      "tryhackme",
+      "medium",
+      "web"
+    ],
+    "image": "/img/htb-solidstate-961.png",
+    "words": 643,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-armageddon-381",
+    "title": "TryHackMe — Armageddon (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Armageddon. Unquoted Service Path and Weak Service Permissions to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-armageddon-381.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-04",
+    "tags": [
+      "ctf",
+      "offsec",
+      "easy",
+      "web",
+      "insane"
+    ],
+    "image": "/img/htb-armageddon-381.png",
+    "words": 547,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-900",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-900.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-03",
+    "tags": [
+      "shellcode",
+      "kernel",
+      "heap-exploitation",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-900.png",
+    "words": 484,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-360",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-360.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-03",
+    "tags": [
+      "oscp",
+      "lateral-movement",
+      "malware"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-360.png",
+    "words": 477,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-522",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-522.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-03",
+    "tags": [
+      "blue-team",
+      "privilege-escalation",
+      "persistence",
+      "networking",
+      "dfir",
+      "windows"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-522.png",
+    "words": 565,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-588",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-588.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-03",
+    "tags": [
+      "oscp",
+      "linux",
+      "enumeration",
+      "blue-team",
+      "dfir",
+      "cheatsheet"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-588.png",
+    "words": 480,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-160",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-160.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-02",
+    "tags": [
+      "enumeration",
+      "privilege-escalation",
+      "malware"
+    ],
+    "image": "/img/note-cryptography-fundamentals-160.png",
+    "words": 353,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-tenet-908",
+    "title": "HackTheBox — Tenet (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Tenet. Silver Ticket and Constrained Delegation to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-tenet-908.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-02",
+    "tags": [
+      "active-directory",
+      "easy",
+      "pwntilldawn",
+      "hard"
+    ],
+    "image": "/img/htb-tenet-908.png",
+    "words": 589,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ice-906",
+    "title": "TryHackMe — Ice (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Ice. Unquoted Service Path and SSTI to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ice-906.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-02",
+    "tags": [
+      "medium",
+      "insane",
+      "reversing",
+      "ctf",
+      "tryhackme",
+      "hard",
+      "forensics"
+    ],
+    "image": "/img/htb-ice-906.png",
+    "words": 562,
+    "readTime": "3 min"
+  }
+]

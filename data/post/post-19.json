@@ -1,0 +1,227 @@
+[
+  {
+    "id": "script-process-injection-poc-135",
+    "title": "Process Injection PoC — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-135.html",
+    "btn_label": "View Script",
+    "date": "2026-01-05",
+    "tags": [
+      "tool",
+      "c",
+      "parser",
+      "powershell"
+    ],
+    "image": "/img/script-process-injection-poc-135.png",
+    "words": 299,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-914",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-914.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-05",
+    "tags": [
+      "cheatsheet",
+      "oscp",
+      "blue-team"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-914.png",
+    "words": 390,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-tenet-815",
+    "title": "OffSec Proving Grounds — Tenet (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Tenet. SeDebugPrivilege and NFS No Root Squash to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-tenet-815.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-05",
+    "tags": [
+      "insane",
+      "hackthebox",
+      "offsec",
+      "reversing",
+      "windows",
+      "linux",
+      "active-directory"
+    ],
+    "image": "/img/htb-tenet-815.png",
+    "words": 595,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-ophiuchi-688",
+    "title": "OffSec Proving Grounds — Ophiuchi (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Ophiuchi. Weak Service Permissions and SQL Injection to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ophiuchi-688.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-05",
+    "tags": [
+      "pwntilldawn",
+      "ctf",
+      "insane",
+      "active-directory"
+    ],
+    "image": "/img/htb-ophiuchi-688.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-196",
+    "title": "AMSI Bypass Collection — Bash",
+    "section": "scripting",
+    "description": "A Bash script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-196.html",
+    "btn_label": "View Script",
+    "date": "2026-01-04",
+    "tags": [
+      "python",
+      "tool",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-amsi-bypass-collection-196.png",
+    "words": 261,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-345",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-345.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-04",
+    "tags": [
+      "cheatsheet",
+      "oscp",
+      "lateral-movement",
+      "blue-team"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-345.png",
+    "words": 429,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-740",
+    "title": "AMSI Bypass Collection — Python",
+    "section": "scripting",
+    "description": "A Python script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-740.html",
+    "btn_label": "View Script",
+    "date": "2026-01-03",
+    "tags": [
+      "bash",
+      "rust",
+      "python",
+      "parser",
+      "tool"
+    ],
+    "image": "/img/script-amsi-bypass-collection-740.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-372",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-372.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-03",
+    "tags": [
+      "format-string",
+      "malware-analysis",
+      "zero-day",
+      "buffer-overflow",
+      "exploit-development",
+      "cve"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-37.png",
+    "words": 450,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-deja-vu-949",
+    "title": "PwnTillDawn — Deja Vu (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Deja Vu. XXE and DLL Hijacking to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-deja-vu-949.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-03",
+    "tags": [
+      "forensics",
+      "offsec",
+      "easy"
+    ],
+    "image": "/img/htb-deja-vu-949.png",
+    "words": 565,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-pit-191",
+    "title": "HackTheBox — Pit (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Pit. LAPS Abuse and SUID Binary to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-pit-191.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-02",
+    "tags": [
+      "medium",
+      "web",
+      "windows",
+      "tryhackme",
+      "ctf"
+    ],
+    "image": "/img/htb-pit-191.png",
+    "words": 549,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-207",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-207.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-01",
+    "tags": [
+      "blue-team",
+      "privilege-escalation",
+      "malware",
+      "oscp"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-207.png",
+    "words": 581,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-913",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-913.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-01",
+    "tags": [
+      "persistence",
+      "enumeration",
+      "cheatsheet",
+      "linux",
+      "privilege-escalation",
+      "networking"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-913.png",
+    "words": 261,
+    "readTime": "2 min"
+  }
+]

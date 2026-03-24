@@ -1,0 +1,233 @@
+[
+  {
+    "id": "htb-blunder-355",
+    "title": "PwnTillDawn — Blunder (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Blunder. DCSync and SQL Injection to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-blunder-355.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-25",
+    "tags": [
+      "ctf",
+      "insane",
+      "windows",
+      "hard",
+      "active-directory",
+      "reversing"
+    ],
+    "image": "/img/htb-blunder-355.png",
+    "words": 562,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-891",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-891.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-24",
+    "tags": [
+      "cheatsheet",
+      "oscp",
+      "malware"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-891.png",
+    "words": 212,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-ice-774",
+    "title": "PwnTillDawn — Ice (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Ice. SQL Injection and Broken Access Control to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-ice-774.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-24",
+    "tags": [
+      "forensics",
+      "tryhackme",
+      "windows",
+      "insane"
+    ],
+    "image": "/img/htb-ice-774.png",
+    "words": 623,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-528",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-528.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-23",
+    "tags": [
+      "malware-analysis",
+      "heap-exploitation",
+      "format-string",
+      "rop",
+      "shellcode",
+      "exploit-development"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-528.png",
+    "words": 530,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-290",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-290.html",
+    "btn_label": "Read Research",
+    "date": "2025-06-23",
+    "tags": [
+      "aslr-bypass",
+      "buffer-overflow",
+      "cve",
+      "malware-analysis",
+      "format-string"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-29.png",
+    "words": 504,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-atom-788",
+    "title": "HackTheBox — Atom (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Atom. Unquoted Service Path and Kerberoasting to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-atom-788.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-23",
+    "tags": [
+      "web",
+      "pwntilldawn",
+      "medium",
+      "forensics",
+      "tryhackme",
+      "linux",
+      "hackthebox"
+    ],
+    "image": "/img/htb-atom-788.png",
+    "words": 598,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-writer-889",
+    "title": "PwnTillDawn — Writer (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Writer. DLL Hijacking and Open Redirect to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-writer-889.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-22",
+    "tags": [
+      "easy",
+      "insane",
+      "hard",
+      "medium",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-writer-889.png",
+    "words": 670,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-anthem-742",
+    "title": "PwnTillDawn — Anthem (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Anthem. Command Injection and SSRF to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-anthem-742.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-22",
+    "tags": [
+      "hard",
+      "offsec",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-anthem-742.png",
+    "words": 688,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-159",
+    "title": "SMB Share Enumeration Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-159.html",
+    "btn_label": "View Script",
+    "date": "2025-06-21",
+    "tags": [
+      "c",
+      "bash",
+      "scanner",
+      "powershell"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-159.png",
+    "words": 308,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-172",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-172.html",
+    "btn_label": "Read Notes",
+    "date": "2025-06-21",
+    "tags": [
+      "malware",
+      "lateral-movement",
+      "dfir",
+      "privilege-escalation",
+      "windows"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-172.png",
+    "words": 416,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-sense-794",
+    "title": "TryHackMe — Sense (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Sense. Open Redirect and XXE to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-sense-794.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-21",
+    "tags": [
+      "hard",
+      "web",
+      "offsec",
+      "medium",
+      "insane",
+      "ctf",
+      "reversing"
+    ],
+    "image": "/img/htb-sense-794.png",
+    "words": 494,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-forge-974",
+    "title": "TryHackMe — Forge (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Forge. Pass the Hash and CORS Misconfiguration to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-forge-974.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-06-21",
+    "tags": [
+      "ctf",
+      "tryhackme",
+      "medium",
+      "offsec",
+      "web",
+      "hackthebox",
+      "insane"
+    ],
+    "image": "/img/htb-forge-974.png",
+    "words": 568,
+    "readTime": "3 min"
+  }
+]

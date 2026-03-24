@@ -1,0 +1,237 @@
+[
+  {
+    "id": "script-ctf-challenge-solver-template-285",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-285.html",
+    "btn_label": "View Script",
+    "date": "2025-03-19",
+    "tags": [
+      "fuzzer",
+      "script",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-285.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-933",
+    "title": "API Security Testing Framework — Go",
+    "section": "scripting",
+    "description": "A Go script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-933.html",
+    "btn_label": "View Script",
+    "date": "2025-03-19",
+    "tags": [
+      "parser",
+      "python",
+      "scanner",
+      "go"
+    ],
+    "image": "/img/script-api-security-testing-framework-933.png",
+    "words": 279,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-283",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-283.html",
+    "btn_label": "Read Research",
+    "date": "2025-03-19",
+    "tags": [
+      "exploit-development",
+      "shellcode",
+      "buffer-overflow",
+      "rop"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-28.png",
+    "words": 482,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-237",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-237.html",
+    "btn_label": "Read Notes",
+    "date": "2025-03-19",
+    "tags": [
+      "windows",
+      "blue-team",
+      "oscp",
+      "enumeration",
+      "privilege-escalation",
+      "dfir"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-237.png",
+    "words": 594,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-password-spraying-tool-730",
+    "title": "Password Spraying Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-730.html",
+    "btn_label": "View Script",
+    "date": "2025-03-18",
+    "tags": [
+      "scanner",
+      "rust",
+      "automation",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-password-spraying-tool-730.png",
+    "words": 355,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-tenet-833",
+    "title": "TryHackMe — Tenet (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tenet. Pass the Hash and XXE to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-tenet-833.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-18",
+    "tags": [
+      "insane",
+      "offsec",
+      "windows",
+      "forensics",
+      "ctf",
+      "linux"
+    ],
+    "image": "/img/htb-tenet-833.png",
+    "words": 625,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-cronos-549",
+    "title": "OffSec Proving Grounds — Cronos (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Cronos. NTLM Relay and Local File Inclusion to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-cronos-549.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-18",
+    "tags": [
+      "offsec",
+      "hackthebox",
+      "hard",
+      "ctf"
+    ],
+    "image": "/img/htb-cronos-549.png",
+    "words": 699,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-convertmyfund-239",
+    "title": "VulnHub — Convertmyfund (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Convertmyfund. LAPS Abuse and Sudo Misconfiguration to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-convertmyfund-239.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-18",
+    "tags": [
+      "web",
+      "pwntilldawn",
+      "hackthebox",
+      "windows",
+      "active-directory",
+      "ctf",
+      "hard"
+    ],
+    "image": "/img/htb-convertmyfund-239.png",
+    "words": 616,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-thenotebook-527",
+    "title": "HackTheBox — TheNotebook (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox TheNotebook. Constrained Delegation and SUID Binary to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-thenotebook-527.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-17",
+    "tags": [
+      "easy",
+      "tryhackme",
+      "hackthebox",
+      "medium",
+      "pwntilldawn",
+      "hard",
+      "insane"
+    ],
+    "image": "/img/htb-thenotebook-527.png",
+    "words": 584,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-startup-880",
+    "title": "OffSec Proving Grounds — Startup (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Startup. Command Injection and Writable PATH to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-startup-880.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-17",
+    "tags": [
+      "pwntilldawn",
+      "hard",
+      "hackthebox",
+      "linux",
+      "medium"
+    ],
+    "image": "/img/htb-startup-880.png",
+    "words": 614,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-swagshop-963",
+    "title": "PwnTillDawn — SwagShop (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn SwagShop. DCSync and AlwaysInstallElevated to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-swagshop-963.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-16",
+    "tags": [
+      "reversing",
+      "active-directory",
+      "hard",
+      "ctf",
+      "tryhackme",
+      "easy",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-swagshop-963.png",
+    "words": 625,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-monitors-661",
+    "title": "HackTheBox — Monitors (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Monitors. Golden Ticket and Kerberoasting to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-monitors-661.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-03-15",
+    "tags": [
+      "pwntilldawn",
+      "web",
+      "medium",
+      "easy",
+      "windows"
+    ],
+    "image": "/img/htb-monitors-661.png",
+    "words": 617,
+    "readTime": "4 min",
+    "pick": 1
+  }
+]

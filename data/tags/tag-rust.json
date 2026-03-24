@@ -1,0 +1,898 @@
+[
+  {
+    "title": "Network Packet Sniffer — Go",
+    "date": "2026-03-21",
+    "section": "scripting",
+    "permalink": "/scripting/script-network-packet-sniffer-393.html",
+    "image": "/img/script-network-packet-sniffer-393.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — PowerShell",
+    "date": "2026-03-20",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-715.html",
+    "image": "/img/script-web-crawler-and-spider-715.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — PowerShell",
+    "date": "2026-02-28",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-994.html",
+    "image": "/img/script-web-crawler-and-spider-994.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Custom Wordlist Generator — PowerShell",
+    "date": "2026-02-16",
+    "section": "scripting",
+    "permalink": "/scripting/script-custom-wordlist-generator-744.html",
+    "image": "/img/script-custom-wordlist-generator-744.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "date": "2026-02-14",
+    "section": "scripting",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-379.html",
+    "image": "/img/script-dns-resolver-and-brute-forcer-379.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "date": "2026-01-18",
+    "section": "scripting",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-521.html",
+    "image": "/img/script-dns-resolver-and-brute-forcer-521.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Shell Generator — PowerShell",
+    "date": "2026-01-17",
+    "section": "scripting",
+    "permalink": "/scripting/script-reverse-shell-generator-129.html",
+    "image": "/img/script-reverse-shell-generator-129.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "CTF Challenge Solver Template — Python",
+    "date": "2026-01-11",
+    "section": "scripting",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-298.html",
+    "image": "/img/script-ctf-challenge-solver-template-298.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer — Python",
+    "date": "2026-01-07",
+    "section": "scripting",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-517.html",
+    "image": "/img/script-dns-resolver-and-brute-forcer-517.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Process Injection PoC — Bash",
+    "date": "2026-01-05",
+    "section": "scripting",
+    "permalink": "/scripting/script-process-injection-poc-704.html",
+    "image": "/img/script-process-injection-poc-704.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "AMSI Bypass Collection — Python",
+    "date": "2026-01-03",
+    "section": "scripting",
+    "permalink": "/scripting/script-amsi-bypass-collection-740.html",
+    "image": "/img/script-amsi-bypass-collection-740.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "AMSI Bypass Collection — Python",
+    "date": "2025-12-24",
+    "section": "scripting",
+    "permalink": "/scripting/script-amsi-bypass-collection-530.html",
+    "image": "/img/script-amsi-bypass-collection-530.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Custom Wordlist Generator — PowerShell",
+    "date": "2025-12-23",
+    "section": "scripting",
+    "permalink": "/scripting/script-custom-wordlist-generator-970.html",
+    "image": "/img/script-custom-wordlist-generator-970.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Custom Wordlist Generator — Python",
+    "date": "2025-12-22",
+    "section": "scripting",
+    "permalink": "/scripting/script-custom-wordlist-generator-424.html",
+    "image": "/img/script-custom-wordlist-generator-424.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "JWT Token Analyzer — Bash",
+    "date": "2025-12-21",
+    "section": "scripting",
+    "permalink": "/scripting/script-jwt-token-analyzer-944.html",
+    "image": "/img/script-jwt-token-analyzer-944.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "API Security Testing Framework — Bash",
+    "date": "2025-12-21",
+    "section": "scripting",
+    "permalink": "/scripting/script-api-security-testing-framework-862.html",
+    "image": "/img/script-api-security-testing-framework-862.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Process Injection PoC — Go",
+    "date": "2025-12-18",
+    "section": "scripting",
+    "permalink": "/scripting/script-process-injection-poc-460.html",
+    "image": "/img/script-process-injection-poc-460.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Subdomain Enumeration Tool — Go",
+    "date": "2025-11-30",
+    "section": "scripting",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-454.html",
+    "image": "/img/script-subdomain-enumeration-tool-454.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Log Parser and Analyzer — PowerShell",
+    "date": "2025-11-24",
+    "section": "scripting",
+    "permalink": "/scripting/script-log-parser-and-analyzer-320.html",
+    "image": "/img/script-log-parser-and-analyzer-320.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer — PowerShell",
+    "date": "2025-11-18",
+    "section": "scripting",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-898.html",
+    "image": "/img/script-dns-resolver-and-brute-forcer-898.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "JWT Token Analyzer — Go",
+    "date": "2025-11-14",
+    "section": "scripting",
+    "permalink": "/scripting/script-jwt-token-analyzer-521.html",
+    "image": "/img/script-jwt-token-analyzer-521.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Process Injection PoC — Go",
+    "date": "2025-11-13",
+    "section": "scripting",
+    "permalink": "/scripting/script-process-injection-poc-799.html",
+    "image": "/img/script-process-injection-poc-799.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "SMB Share Enumeration Script — Go",
+    "date": "2025-11-06",
+    "section": "scripting",
+    "permalink": "/scripting/script-smb-share-enumeration-script-453.html",
+    "image": "/img/script-smb-share-enumeration-script-453.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "EDR Evasion Techniques — Python",
+    "date": "2025-10-25",
+    "section": "scripting",
+    "permalink": "/scripting/script-edr-evasion-techniques-918.html",
+    "image": "/img/script-edr-evasion-techniques-918.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "SMB Share Enumeration Script — Bash",
+    "date": "2025-10-04",
+    "section": "scripting",
+    "permalink": "/scripting/script-smb-share-enumeration-script-189.html",
+    "image": "/img/script-smb-share-enumeration-script-189.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "API Security Testing Framework — Python",
+    "date": "2025-09-19",
+    "section": "scripting",
+    "permalink": "/scripting/script-api-security-testing-framework-469.html",
+    "image": "/img/script-api-security-testing-framework-469.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Log Parser and Analyzer — Go",
+    "date": "2025-09-07",
+    "section": "scripting",
+    "permalink": "/scripting/script-log-parser-and-analyzer-641.html",
+    "image": "/img/script-log-parser-and-analyzer-641.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Payload Obfuscation Script — PowerShell",
+    "date": "2025-09-04",
+    "section": "scripting",
+    "permalink": "/scripting/script-payload-obfuscation-script-393.html",
+    "image": "/img/script-payload-obfuscation-script-393.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "C2 Beacon Simulator — PowerShell",
+    "date": "2025-08-24",
+    "section": "scripting",
+    "permalink": "/scripting/script-c2-beacon-simulator-879.html",
+    "image": "/img/script-c2-beacon-simulator-879.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "CTF Challenge Solver Template — Python",
+    "date": "2025-08-20",
+    "section": "scripting",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-222.html",
+    "image": "/img/script-ctf-challenge-solver-template-222.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "CTF Challenge Solver Template — Python",
+    "date": "2025-08-13",
+    "section": "scripting",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-762.html",
+    "image": "/img/script-ctf-challenge-solver-template-762.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — PowerShell",
+    "date": "2025-08-08",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-647.html",
+    "image": "/img/script-web-crawler-and-spider-647.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "date": "2025-08-05",
+    "section": "scripting",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-721.html",
+    "image": "/img/script-dns-resolver-and-brute-forcer-721.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Log Parser and Analyzer — Bash",
+    "date": "2025-07-24",
+    "section": "scripting",
+    "permalink": "/scripting/script-log-parser-and-analyzer-433.html",
+    "image": "/img/script-log-parser-and-analyzer-433.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Shell Generator — PowerShell",
+    "date": "2025-06-28",
+    "section": "scripting",
+    "permalink": "/scripting/script-reverse-shell-generator-811.html",
+    "image": "/img/script-reverse-shell-generator-811.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Shell Generator — Bash",
+    "date": "2025-06-20",
+    "section": "scripting",
+    "permalink": "/scripting/script-reverse-shell-generator-532.html",
+    "image": "/img/script-reverse-shell-generator-532.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer — Python",
+    "date": "2025-06-03",
+    "section": "scripting",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-892.html",
+    "image": "/img/script-dns-resolver-and-brute-forcer-892.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — Python",
+    "date": "2025-05-31",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-245.html",
+    "image": "/img/script-web-crawler-and-spider-245.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "AMSI Bypass Collection — PowerShell",
+    "date": "2025-05-21",
+    "section": "scripting",
+    "permalink": "/scripting/script-amsi-bypass-collection-922.html",
+    "image": "/img/script-amsi-bypass-collection-922.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — Go",
+    "date": "2025-05-10",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-756.html",
+    "image": "/img/script-web-crawler-and-spider-756.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Custom Wordlist Generator — Go",
+    "date": "2025-05-08",
+    "section": "scripting",
+    "permalink": "/scripting/script-custom-wordlist-generator-937.html",
+    "image": "/img/script-custom-wordlist-generator-937.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "JWT Token Analyzer — Go",
+    "date": "2025-05-01",
+    "section": "scripting",
+    "permalink": "/scripting/script-jwt-token-analyzer-775.html",
+    "image": "/img/script-jwt-token-analyzer-775.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer — PowerShell",
+    "date": "2025-04-28",
+    "section": "scripting",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-727.html",
+    "image": "/img/script-dns-resolver-and-brute-forcer-727.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — PowerShell",
+    "date": "2025-04-24",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-559.html",
+    "image": "/img/script-web-crawler-and-spider-559.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "JWT Token Analyzer — Bash",
+    "date": "2025-04-22",
+    "section": "scripting",
+    "permalink": "/scripting/script-jwt-token-analyzer-577.html",
+    "image": "/img/script-jwt-token-analyzer-577.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Packet Sniffer — Go",
+    "date": "2025-04-09",
+    "section": "scripting",
+    "permalink": "/scripting/script-network-packet-sniffer-156.html",
+    "image": "/img/script-network-packet-sniffer-156.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "API Security Testing Framework — PowerShell",
+    "date": "2025-04-07",
+    "section": "scripting",
+    "permalink": "/scripting/script-api-security-testing-framework-607.html",
+    "image": "/img/script-api-security-testing-framework-607.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "SMB Share Enumeration Script — Go",
+    "date": "2025-04-01",
+    "section": "scripting",
+    "permalink": "/scripting/script-smb-share-enumeration-script-431.html",
+    "image": "/img/script-smb-share-enumeration-script-431.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "date": "2025-03-23",
+    "section": "scripting",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-434.html",
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-434.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Password Spraying Tool — Bash",
+    "date": "2025-03-18",
+    "section": "scripting",
+    "permalink": "/scripting/script-password-spraying-tool-730.html",
+    "image": "/img/script-password-spraying-tool-730.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Shell Generator — Go",
+    "date": "2025-03-13",
+    "section": "scripting",
+    "permalink": "/scripting/script-reverse-shell-generator-548.html",
+    "image": "/img/script-reverse-shell-generator-548.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Custom Wordlist Generator — Python",
+    "date": "2025-03-03",
+    "section": "scripting",
+    "permalink": "/scripting/script-custom-wordlist-generator-320.html",
+    "image": "/img/script-custom-wordlist-generator-320.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Subdomain Enumeration Tool — PowerShell",
+    "date": "2025-03-02",
+    "section": "scripting",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-915.html",
+    "image": "/img/script-subdomain-enumeration-tool-915.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "SMB Share Enumeration Script — Bash",
+    "date": "2025-02-28",
+    "section": "scripting",
+    "permalink": "/scripting/script-smb-share-enumeration-script-301.html",
+    "image": "/img/script-smb-share-enumeration-script-301.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Payload Obfuscation Script — Go",
+    "date": "2025-02-14",
+    "section": "scripting",
+    "permalink": "/scripting/script-payload-obfuscation-script-775.html",
+    "image": "/img/script-payload-obfuscation-script-775.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — Go",
+    "date": "2025-02-10",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-534.html",
+    "image": "/img/script-web-crawler-and-spider-534.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "EDR Evasion Techniques — Bash",
+    "date": "2025-02-05",
+    "section": "scripting",
+    "permalink": "/scripting/script-edr-evasion-techniques-128.html",
+    "image": "/img/script-edr-evasion-techniques-128.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "SMB Share Enumeration Script — Go",
+    "date": "2025-01-29",
+    "section": "scripting",
+    "permalink": "/scripting/script-smb-share-enumeration-script-398.html",
+    "image": "/img/script-smb-share-enumeration-script-398.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "C2 Beacon Simulator — PowerShell",
+    "date": "2025-01-21",
+    "section": "scripting",
+    "permalink": "/scripting/script-c2-beacon-simulator-620.html",
+    "image": "/img/script-c2-beacon-simulator-620.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Password Spraying Tool — PowerShell",
+    "date": "2025-01-16",
+    "section": "scripting",
+    "permalink": "/scripting/script-password-spraying-tool-119.html",
+    "image": "/img/script-password-spraying-tool-119.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Hash Identifier and Cracker Wrapper — Go",
+    "date": "2025-01-13",
+    "section": "scripting",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-510.html",
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-510.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Shell Generator — PowerShell",
+    "date": "2024-12-29",
+    "section": "scripting",
+    "permalink": "/scripting/script-reverse-shell-generator-974.html",
+    "image": "/img/script-reverse-shell-generator-974.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — Bash",
+    "date": "2024-12-16",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-670.html",
+    "image": "/img/script-web-crawler-and-spider-670.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "date": "2024-12-15",
+    "section": "scripting",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-953.html",
+    "image": "/img/script-dns-resolver-and-brute-forcer-953.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "C2 Beacon Simulator — Python",
+    "date": "2024-11-30",
+    "section": "scripting",
+    "permalink": "/scripting/script-c2-beacon-simulator-291.html",
+    "image": "/img/script-c2-beacon-simulator-291.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Subdomain Enumeration Tool — Python",
+    "date": "2024-11-14",
+    "section": "scripting",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-190.html",
+    "image": "/img/script-subdomain-enumeration-tool-190.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "C2 Beacon Simulator — Python",
+    "date": "2024-11-13",
+    "section": "scripting",
+    "permalink": "/scripting/script-c2-beacon-simulator-694.html",
+    "image": "/img/script-c2-beacon-simulator-694.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — Bash",
+    "date": "2024-11-11",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-290.html",
+    "image": "/img/script-web-crawler-and-spider-290.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Log Parser and Analyzer — PowerShell",
+    "date": "2024-11-08",
+    "section": "scripting",
+    "permalink": "/scripting/script-log-parser-and-analyzer-680.html",
+    "image": "/img/script-log-parser-and-analyzer-680.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Log Parser and Analyzer — PowerShell",
+    "date": "2024-10-30",
+    "section": "scripting",
+    "permalink": "/scripting/script-log-parser-and-analyzer-395.html",
+    "image": "/img/script-log-parser-and-analyzer-395.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — Bash",
+    "date": "2024-10-28",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-790.html",
+    "image": "/img/script-web-crawler-and-spider-790.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "CTF Challenge Solver Template — PowerShell",
+    "date": "2024-10-24",
+    "section": "scripting",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-291.html",
+    "image": "/img/script-ctf-challenge-solver-template-291.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "AMSI Bypass Collection — PowerShell",
+    "date": "2024-10-10",
+    "section": "scripting",
+    "permalink": "/scripting/script-amsi-bypass-collection-446.html",
+    "image": "/img/script-amsi-bypass-collection-446.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "date": "2024-10-07",
+    "section": "scripting",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-736.html",
+    "image": "/img/script-dns-resolver-and-brute-forcer-736.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Automated Report Generator — PowerShell",
+    "date": "2024-10-05",
+    "section": "scripting",
+    "permalink": "/scripting/script-automated-report-generator-343.html",
+    "image": "/img/script-automated-report-generator-343.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Log Parser and Analyzer — PowerShell",
+    "date": "2024-09-30",
+    "section": "scripting",
+    "permalink": "/scripting/script-log-parser-and-analyzer-487.html",
+    "image": "/img/script-log-parser-and-analyzer-487.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer — PowerShell",
+    "date": "2024-09-28",
+    "section": "scripting",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-312.html",
+    "image": "/img/script-dns-resolver-and-brute-forcer-312.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "CTF Challenge Solver Template — Go",
+    "date": "2024-09-24",
+    "section": "scripting",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-415.html",
+    "image": "/img/script-ctf-challenge-solver-template-415.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "C2 Beacon Simulator — Python",
+    "date": "2024-09-23",
+    "section": "scripting",
+    "permalink": "/scripting/script-c2-beacon-simulator-369.html",
+    "image": "/img/script-c2-beacon-simulator-369.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "SMB Share Enumeration Script — Go",
+    "date": "2024-09-21",
+    "section": "scripting",
+    "permalink": "/scripting/script-smb-share-enumeration-script-831.html",
+    "image": "/img/script-smb-share-enumeration-script-831.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "SMB Share Enumeration Script — Bash",
+    "date": "2024-09-18",
+    "section": "scripting",
+    "permalink": "/scripting/script-smb-share-enumeration-script-149.html",
+    "image": "/img/script-smb-share-enumeration-script-149.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Automated Report Generator — PowerShell",
+    "date": "2024-09-12",
+    "section": "scripting",
+    "permalink": "/scripting/script-automated-report-generator-222.html",
+    "image": "/img/script-automated-report-generator-222.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "CTF Challenge Solver Template — Python",
+    "date": "2024-09-10",
+    "section": "scripting",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-373.html",
+    "image": "/img/script-ctf-challenge-solver-template-373.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "CTF Challenge Solver Template — Python",
+    "date": "2024-09-05",
+    "section": "scripting",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-145.html",
+    "image": "/img/script-ctf-challenge-solver-template-145.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "CTF Challenge Solver Template — Bash",
+    "date": "2024-08-29",
+    "section": "scripting",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-638.html",
+    "image": "/img/script-ctf-challenge-solver-template-638.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Log Parser and Analyzer — Python",
+    "date": "2024-08-14",
+    "section": "scripting",
+    "permalink": "/scripting/script-log-parser-and-analyzer-910.html",
+    "image": "/img/script-log-parser-and-analyzer-910.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "SMB Share Enumeration Script — Python",
+    "date": "2024-08-04",
+    "section": "scripting",
+    "permalink": "/scripting/script-smb-share-enumeration-script-517.html",
+    "image": "/img/script-smb-share-enumeration-script-517.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Packet Sniffer — Go",
+    "date": "2024-07-23",
+    "section": "scripting",
+    "permalink": "/scripting/script-network-packet-sniffer-656.html",
+    "image": "/img/script-network-packet-sniffer-656.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "SMB Share Enumeration Script — Bash",
+    "date": "2024-07-20",
+    "section": "scripting",
+    "permalink": "/scripting/script-smb-share-enumeration-script-956.html",
+    "image": "/img/script-smb-share-enumeration-script-956.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "API Security Testing Framework — Bash",
+    "date": "2024-07-17",
+    "section": "scripting",
+    "permalink": "/scripting/script-api-security-testing-framework-894.html",
+    "image": "/img/script-api-security-testing-framework-894.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Shell Generator — Go",
+    "date": "2024-07-10",
+    "section": "scripting",
+    "permalink": "/scripting/script-reverse-shell-generator-928.html",
+    "image": "/img/script-reverse-shell-generator-928.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "AMSI Bypass Collection — Go",
+    "date": "2024-06-27",
+    "section": "scripting",
+    "permalink": "/scripting/script-amsi-bypass-collection-694.html",
+    "image": "/img/script-amsi-bypass-collection-694.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Log Parser and Analyzer — Python",
+    "date": "2024-06-26",
+    "section": "scripting",
+    "permalink": "/scripting/script-log-parser-and-analyzer-962.html",
+    "image": "/img/script-log-parser-and-analyzer-962.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "date": "2024-06-25",
+    "section": "scripting",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-173.html",
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-173.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — Go",
+    "date": "2024-06-24",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-693.html",
+    "image": "/img/script-web-crawler-and-spider-693.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "CTF Challenge Solver Template — Go",
+    "date": "2024-05-27",
+    "section": "scripting",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-260.html",
+    "image": "/img/script-ctf-challenge-solver-template-260.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "date": "2024-05-17",
+    "section": "scripting",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-136.html",
+    "image": "/img/script-dns-resolver-and-brute-forcer-136.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "CTF Challenge Solver Template — Python",
+    "date": "2024-05-11",
+    "section": "scripting",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-370.html",
+    "image": "/img/script-ctf-challenge-solver-template-370.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "AMSI Bypass Collection — Go",
+    "date": "2024-05-07",
+    "section": "scripting",
+    "permalink": "/scripting/script-amsi-bypass-collection-470.html",
+    "image": "/img/script-amsi-bypass-collection-470.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Custom Wordlist Generator — PowerShell",
+    "date": "2024-05-03",
+    "section": "scripting",
+    "permalink": "/scripting/script-custom-wordlist-generator-541.html",
+    "image": "/img/script-custom-wordlist-generator-541.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Hash Identifier and Cracker Wrapper — PowerShell",
+    "date": "2024-04-23",
+    "section": "scripting",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-992.html",
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-992.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "API Security Testing Framework — Bash",
+    "date": "2024-04-14",
+    "section": "scripting",
+    "permalink": "/scripting/script-api-security-testing-framework-393.html",
+    "image": "/img/script-api-security-testing-framework-393.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Automated Report Generator — Bash",
+    "date": "2024-03-27",
+    "section": "scripting",
+    "permalink": "/scripting/script-automated-report-generator-493.html",
+    "image": "/img/script-automated-report-generator-493.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Reverse Shell Generator — Bash",
+    "date": "2024-03-18",
+    "section": "scripting",
+    "permalink": "/scripting/script-reverse-shell-generator-993.html",
+    "image": "/img/script-reverse-shell-generator-993.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Automated Port Scanner — Bash",
+    "date": "2024-03-18",
+    "section": "scripting",
+    "permalink": "/scripting/script-automated-port-scanner-315.html",
+    "image": "/img/script-automated-port-scanner-315.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Crawler and Spider — Python",
+    "date": "2024-03-10",
+    "section": "scripting",
+    "permalink": "/scripting/script-web-crawler-and-spider-308.html",
+    "image": "/img/script-web-crawler-and-spider-308.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Process Injection PoC — Go",
+    "date": "2024-03-09",
+    "section": "scripting",
+    "permalink": "/scripting/script-process-injection-poc-141.html",
+    "image": "/img/script-process-injection-poc-141.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Packet Sniffer — PowerShell",
+    "date": "2024-02-07",
+    "section": "scripting",
+    "permalink": "/scripting/script-network-packet-sniffer-504.html",
+    "image": "/img/script-network-packet-sniffer-504.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Automated Port Scanner — Go",
+    "date": "2024-01-17",
+    "section": "scripting",
+    "permalink": "/scripting/script-automated-port-scanner-425.html",
+    "image": "/img/script-automated-port-scanner-425.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Packet Sniffer — Python",
+    "date": "2024-01-08",
+    "section": "scripting",
+    "permalink": "/scripting/script-network-packet-sniffer-399.html",
+    "image": "/img/script-network-packet-sniffer-399.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Log Parser and Analyzer — Go",
+    "date": "2024-01-03",
+    "section": "scripting",
+    "permalink": "/scripting/script-log-parser-and-analyzer-730.html",
+    "image": "/img/script-log-parser-and-analyzer-730.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "date": "2024-01-03",
+    "section": "scripting",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-626.html",
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-626.png",
+    "readTime": "2 min"
+  }
+]

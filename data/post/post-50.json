@@ -1,0 +1,232 @@
+[
+  {
+    "id": "htb-granny-813",
+    "title": "PwnTillDawn — Granny (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Granny. Local File Inclusion and Command Injection to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-granny-813.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-04",
+    "tags": [
+      "tryhackme",
+      "forensics",
+      "offsec",
+      "ctf",
+      "hard",
+      "insane",
+      "medium"
+    ],
+    "image": "/img/htb-granny-813.png",
+    "words": 604,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-621",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-621.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-03",
+    "tags": [
+      "malware",
+      "privilege-escalation",
+      "networking",
+      "dfir",
+      "lateral-movement"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-621.png",
+    "words": 410,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-199",
+    "title": "Network Packet Sniffer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-199.html",
+    "btn_label": "View Script",
+    "date": "2025-08-02",
+    "tags": [
+      "parser",
+      "tool",
+      "automation",
+      "script",
+      "bash",
+      "c",
+      "powershell"
+    ],
+    "image": "/img/script-network-packet-sniffer-199.png",
+    "words": 380,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-731",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-731.html",
+    "btn_label": "Read Research",
+    "date": "2025-08-01",
+    "tags": [
+      "cve",
+      "rop",
+      "format-string",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 495,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-717",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-717.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-01",
+    "tags": [
+      "windows",
+      "networking",
+      "privilege-escalation",
+      "cheatsheet",
+      "oscp"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-717.png",
+    "words": 560,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-524",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-524.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-01",
+    "tags": [
+      "oscp",
+      "enumeration",
+      "lateral-movement",
+      "dfir",
+      "malware",
+      "cheatsheet"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-524.png",
+    "words": 738,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-613",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-613.html",
+    "btn_label": "Read Notes",
+    "date": "2025-08-01",
+    "tags": [
+      "enumeration",
+      "lateral-movement",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-613.png",
+    "words": 408,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-mindgames-698",
+    "title": "VulnHub — Mindgames (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Mindgames. Resource-Based Constrained Delegation and LXD Privilege Escalation to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-mindgames-698.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-01",
+    "tags": [
+      "tryhackme",
+      "offsec",
+      "reversing",
+      "ctf"
+    ],
+    "image": "/img/htb-mindgames-698.png",
+    "words": 579,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-magic-478",
+    "title": "PwnTillDawn — Magic (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Magic. Unquoted Service Path and SSRF to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-magic-478.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-08-01",
+    "tags": [
+      "ctf",
+      "reversing",
+      "forensics",
+      "hackthebox",
+      "pwntilldawn",
+      "hard"
+    ],
+    "image": "/img/htb-magic-478.png",
+    "words": 600,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-871",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-871.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-31",
+    "tags": [
+      "persistence",
+      "lateral-movement",
+      "cheatsheet",
+      "dfir"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-871.png",
+    "words": 482,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-601",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-601.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-31",
+    "tags": [
+      "linux",
+      "cheatsheet",
+      "lateral-movement",
+      "persistence",
+      "dfir",
+      "enumeration"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-601.png",
+    "words": 219,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-765",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-765.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-31",
+    "tags": [
+      "persistence",
+      "linux",
+      "oscp",
+      "networking"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-765.png",
+    "words": 495,
+    "readTime": "3 min"
+  }
+]

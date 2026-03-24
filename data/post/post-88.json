@@ -1,0 +1,239 @@
+[
+  {
+    "id": "htb-spectra-563",
+    "title": "VulnHub — Spectra (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Spectra. Local File Inclusion and Unquoted Service Path to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-spectra-563.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-08",
+    "tags": [
+      "pwntilldawn",
+      "offsec",
+      "tryhackme",
+      "easy"
+    ],
+    "image": "/img/htb-spectra-563.png",
+    "words": 622,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-460",
+    "title": "Custom Wordlist Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-460.html",
+    "btn_label": "View Script",
+    "date": "2025-02-07",
+    "tags": [
+      "automation",
+      "tool",
+      "fuzzer",
+      "c",
+      "python",
+      "parser"
+    ],
+    "image": "/img/script-custom-wordlist-generator-460.png",
+    "words": 352,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-886",
+    "title": "API Security Testing Framework — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-886.html",
+    "btn_label": "View Script",
+    "date": "2025-02-06",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "python",
+      "automation",
+      "powershell"
+    ],
+    "image": "/img/script-api-security-testing-framework-886.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-684",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-684.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-06",
+    "tags": [
+      "linux",
+      "oscp",
+      "cheatsheet",
+      "networking"
+    ],
+    "image": "/img/note-reverse-engineering-basics-684.png",
+    "words": 534,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-bucket-882",
+    "title": "PwnTillDawn — Bucket (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Bucket. DNS Rebinding and SUID Binary to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-bucket-882.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-06",
+    "tags": [
+      "hard",
+      "easy",
+      "medium"
+    ],
+    "image": "/img/htb-bucket-882.png",
+    "words": 667,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-edr-evasion-techniques-128",
+    "title": "EDR Evasion Techniques — Bash",
+    "section": "scripting",
+    "description": "A Bash script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-128.html",
+    "btn_label": "View Script",
+    "date": "2025-02-05",
+    "tags": [
+      "tool",
+      "automation",
+      "script",
+      "go",
+      "rust",
+      "bash"
+    ],
+    "image": "/img/script-edr-evasion-techniques-128.png",
+    "words": 331,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-reverse-shell-generator-545",
+    "title": "Reverse Shell Generator",
+    "section": "projects",
+    "description": "Open source security project: Reverse Shell Generator. Built for the community.",
+    "permalink": "/research/project-reverse-shell-generator-545.html",
+    "btn_label": "View Project",
+    "date": "2025-02-05",
+    "tags": [
+      "cli",
+      "open-source",
+      "plugin",
+      "framework"
+    ],
+    "image": "/img/project-reverse-shell-generator-545.png",
+    "words": 219,
+    "readTime": "2 min",
+    "features": [
+      "ffuf",
+      "gobuster",
+      "impacket"
+    ]
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-980",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-980.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-05",
+    "tags": [
+      "dfir",
+      "linux",
+      "blue-team",
+      "oscp"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-980.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-961",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-961.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-02",
+    "tags": [
+      "oscp",
+      "networking",
+      "persistence",
+      "lateral-movement",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-961.png",
+    "words": 571,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-150",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-150.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-01",
+    "tags": [
+      "exploit-development",
+      "shellcode",
+      "zero-day"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-150.png",
+    "words": 506,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-deep-dive-into-windows-kernel-exploitati-750",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "projects",
+    "description": "Open source security project: Deep Dive into Windows Kernel Exploitation. Built for the community.",
+    "permalink": "/research/project-deep-dive-into-windows-kernel-exploitati-750.html",
+    "btn_label": "View Project",
+    "date": "2025-02-01",
+    "tags": [
+      "automation",
+      "extension",
+      "tool",
+      "security"
+    ],
+    "image": "/img/project-deep-dive-into-windows-kernel-exploitati-7.png",
+    "words": 210,
+    "readTime": "2 min",
+    "features": [
+      "hashcat",
+      "crackmapexec",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "project-analysis-of-cve-2024-xxxx-remote-code-ex-760",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "projects",
+    "description": "Open source security project: Analysis of CVE-2024-XXXX: Remote Code Execution. Built for the community.",
+    "permalink": "/research/project-analysis-of-cve-2024-xxxx-remote-code-ex-760.html",
+    "btn_label": "View Project",
+    "date": "2025-02-01",
+    "tags": [
+      "security",
+      "cli",
+      "library",
+      "framework",
+      "open-source"
+    ],
+    "image": "/img/project-analysis-of-cve-2024-xxxx-remote-code-ex-7.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "ffuf",
+      "nmap",
+      "crackmapexec"
+    ]
+  }
+]

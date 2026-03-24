@@ -1,0 +1,234 @@
+[
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-133",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-133.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-06",
+    "tags": [
+      "exploit-development",
+      "malware-analysis",
+      "cve",
+      "format-string",
+      "aslr-bypass",
+      "shellcode"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-13.png",
+    "words": 472,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-legacy-537",
+    "title": "HackTheBox — Legacy (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Legacy. Resource-Based Constrained Delegation and SSTI to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-legacy-537.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-06",
+    "tags": [
+      "linux",
+      "tryhackme",
+      "pwntilldawn",
+      "insane",
+      "forensics",
+      "hard"
+    ],
+    "image": "/img/htb-legacy-537.png",
+    "words": 595,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-lame-414",
+    "title": "VulnHub — Lame (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Lame. CORS Misconfiguration and IDOR to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-lame-414.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-06",
+    "tags": [
+      "reversing",
+      "tryhackme",
+      "active-directory"
+    ],
+    "image": "/img/htb-lame-414.png",
+    "words": 650,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-swagshop-575",
+    "title": "PwnTillDawn — SwagShop (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn SwagShop. Pass the Hash and SQL Injection to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-swagshop-575.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-05",
+    "tags": [
+      "hard",
+      "forensics",
+      "reversing",
+      "insane",
+      "pwntilldawn",
+      "medium"
+    ],
+    "image": "/img/htb-swagshop-575.png",
+    "words": 584,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-buff-760",
+    "title": "TryHackMe — Buff (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Buff. LAPS Abuse and XXE to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-buff-760.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-05",
+    "tags": [
+      "linux",
+      "insane",
+      "medium",
+      "hackthebox",
+      "windows",
+      "pwntilldawn",
+      "web"
+    ],
+    "image": "/img/htb-buff-760.png",
+    "words": 605,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-keeper",
+    "title": "HTB Keeper — Easy Linux",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Keeper. Exploiting default credentials in a ticket system and KeePass memory dump to get root.",
+    "permalink": "/writeups/htb-keeper.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-05",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "keepass",
+      "defaultcreds"
+    ],
+    "image": "/img/htb-keeper.png",
+    "words": 62,
+    "readTime": "1 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-613",
+    "title": "Subdomain Enumeration Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-613.html",
+    "btn_label": "View Script",
+    "date": "2026-03-04",
+    "tags": [
+      "tool",
+      "script",
+      "go",
+      "scanner",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-613.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-441",
+    "title": "CTF Challenge Solver Template — Go",
+    "section": "scripting",
+    "description": "A Go script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-441.html",
+    "btn_label": "View Script",
+    "date": "2026-03-03",
+    "tags": [
+      "parser",
+      "bash",
+      "python",
+      "go"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-441.png",
+    "words": 375,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-657",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-657.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-03",
+    "tags": [
+      "cheatsheet",
+      "linux",
+      "oscp",
+      "privilege-escalation",
+      "windows"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-657.png",
+    "words": 741,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-568",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-568.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-03",
+    "tags": [
+      "linux",
+      "cheatsheet",
+      "privilege-escalation",
+      "enumeration",
+      "networking"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-568.png",
+    "words": 334,
+    "readTime": "2 min"
+  },
+  {
+    "id": "ffuf-guide",
+    "title": "FFUF Web Fuzzing Guide",
+    "section": "notes",
+    "description": "Practical FFUF guide for directory, parameter and subdomain fuzzing during web pentests.",
+    "permalink": "/notes/ffuf-guide.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-03",
+    "tags": [
+      "web",
+      "fuzzing",
+      "ffuf",
+      "bugbounty"
+    ],
+    "image": "/img/ffuf-guide.png",
+    "words": 65,
+    "readTime": "1 min",
+    "subsection": "Web"
+  },
+  {
+    "id": "script-reverse-shell-generator-293",
+    "title": "Reverse Shell Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-293.html",
+    "btn_label": "View Script",
+    "date": "2026-03-02",
+    "tags": [
+      "python",
+      "powershell",
+      "go",
+      "fuzzer",
+      "bash"
+    ],
+    "image": "/img/script-reverse-shell-generator-293.png",
+    "words": 289,
+    "readTime": "2 min"
+  }
+]

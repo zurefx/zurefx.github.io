@@ -1,0 +1,225 @@
+[
+  {
+    "id": "research-cobalt-strike-profile-development-472",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-472.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-18",
+    "tags": [
+      "zero-day",
+      "uaf",
+      "format-string",
+      "kernel"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-472.png",
+    "words": 470,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-automated-port-scanner-335",
+    "title": "Automated Port Scanner — Bash",
+    "section": "scripting",
+    "description": "A Bash script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-335.html",
+    "btn_label": "View Script",
+    "date": "2025-09-17",
+    "tags": [
+      "tool",
+      "scanner",
+      "c",
+      "bash"
+    ],
+    "image": "/img/script-automated-port-scanner-335.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-209",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-209.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-17",
+    "tags": [
+      "lateral-movement",
+      "malware",
+      "dfir",
+      "enumeration",
+      "oscp"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-209.png",
+    "words": 442,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-blue-446",
+    "title": "OffSec Proving Grounds — Blue (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Blue. Resource-Based Constrained Delegation and Path Traversal to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-blue-446.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-17",
+    "tags": [
+      "medium",
+      "insane",
+      "easy",
+      "offsec"
+    ],
+    "image": "/img/htb-blue-446.png",
+    "words": 636,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-yara-rule-writing-162",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-162.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-16",
+    "tags": [
+      "blue-team",
+      "privilege-escalation",
+      "dfir",
+      "enumeration",
+      "windows",
+      "persistence"
+    ],
+    "image": "/img/note-yara-rule-writing-162.png",
+    "words": 469,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-omni-406",
+    "title": "OffSec Proving Grounds — Omni (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Omni. SQL Injection and AS-REP Roasting to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-omni-406.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-16",
+    "tags": [
+      "insane",
+      "ctf",
+      "linux",
+      "web",
+      "windows"
+    ],
+    "image": "/img/htb-omni-406.png",
+    "words": 576,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-networked-165",
+    "title": "HackTheBox — Networked (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Networked. Docker Escape and IDOR to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-networked-165.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-16",
+    "tags": [
+      "reversing",
+      "pwntilldawn",
+      "linux",
+      "active-directory"
+    ],
+    "image": "/img/htb-networked-165.png",
+    "words": 565,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-fuse-498",
+    "title": "VulnHub — Fuse (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Fuse. Local File Inclusion and Open Redirect to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-fuse-498.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-16",
+    "tags": [
+      "forensics",
+      "medium",
+      "ctf",
+      "windows",
+      "linux"
+    ],
+    "image": "/img/htb-fuse-498.png",
+    "words": 616,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-281",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-281.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-15",
+    "tags": [
+      "aslr-bypass",
+      "zero-day",
+      "cve",
+      "buffer-overflow",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-281.png",
+    "words": 492,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-yara-rule-writing-764",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-764.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-15",
+    "tags": [
+      "linux",
+      "dfir",
+      "windows",
+      "cheatsheet"
+    ],
+    "image": "/img/note-yara-rule-writing-764.png",
+    "words": 506,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-536",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-536.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-15",
+    "tags": [
+      "persistence",
+      "windows",
+      "linux",
+      "dfir"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-536.png",
+    "words": 459,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-remote-358",
+    "title": "VulnHub — Remote (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Remote. IDOR and Open Redirect to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-remote-358.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-15",
+    "tags": [
+      "web",
+      "easy",
+      "reversing",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-remote-358.png",
+    "words": 616,
+    "readTime": "4 min"
+  }
+]

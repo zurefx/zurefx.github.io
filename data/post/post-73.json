@@ -1,0 +1,230 @@
+[
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-848",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-848.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-23",
+    "tags": [
+      "oscp",
+      "enumeration",
+      "malware",
+      "networking",
+      "lateral-movement"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-848.png",
+    "words": 488,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-165",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-165.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-23",
+    "tags": [
+      "blue-team",
+      "privilege-escalation",
+      "persistence",
+      "networking",
+      "malware"
+    ],
+    "image": "/img/note-digital-forensics-methodology-165.png",
+    "words": 406,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ready-280",
+    "title": "PwnTillDawn — Ready (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Ready. SeImpersonatePrivilege and AlwaysInstallElevated to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-ready-280.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-23",
+    "tags": [
+      "pwntilldawn",
+      "ctf",
+      "easy",
+      "tryhackme"
+    ],
+    "image": "/img/htb-ready-280.png",
+    "words": 572,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-577",
+    "title": "JWT Token Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-577.html",
+    "btn_label": "View Script",
+    "date": "2025-04-22",
+    "tags": [
+      "rust",
+      "go",
+      "script",
+      "parser",
+      "bash"
+    ],
+    "image": "/img/script-jwt-token-analyzer-577.png",
+    "words": 320,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-smb-share-enumeration-script-898",
+    "title": "SMB Share Enumeration Script",
+    "section": "projects",
+    "description": "Open source security project: SMB Share Enumeration Script. Built for the community.",
+    "permalink": "/research/project-smb-share-enumeration-script-898.html",
+    "btn_label": "View Project",
+    "date": "2025-04-22",
+    "tags": [
+      "cli",
+      "framework",
+      "open-source",
+      "extension",
+      "automation"
+    ],
+    "image": "/img/project-smb-share-enumeration-script-898.png",
+    "words": 211,
+    "readTime": "2 min",
+    "features": [
+      "gobuster",
+      "crackmapexec",
+      "impacket"
+    ]
+  },
+  {
+    "id": "note-powershell-for-red-teamers-404",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-404.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-22",
+    "tags": [
+      "enumeration",
+      "lateral-movement",
+      "networking",
+      "privilege-escalation",
+      "oscp",
+      "blue-team"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-404.png",
+    "words": 280,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-798",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-798.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-21",
+    "tags": [
+      "enumeration",
+      "blue-team",
+      "linux"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-798.png",
+    "words": 803,
+    "readTime": "5 min"
+  },
+  {
+    "id": "note-incident-response-playbook-693",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-693.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-21",
+    "tags": [
+      "privilege-escalation",
+      "persistence",
+      "dfir",
+      "enumeration"
+    ],
+    "image": "/img/note-incident-response-playbook-693.png",
+    "words": 317,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-spectra-998",
+    "title": "VulnHub — Spectra (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Spectra. Insecure Deserialization and Resource-Based Constrained Delegation to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-spectra-998.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-21",
+    "tags": [
+      "hackthebox",
+      "forensics",
+      "web",
+      "insane",
+      "linux"
+    ],
+    "image": "/img/htb-spectra-998.png",
+    "words": 669,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-653",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-653.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-20",
+    "tags": [
+      "persistence",
+      "windows",
+      "linux",
+      "oscp",
+      "networking"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-653.png",
+    "words": 419,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-394",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-394.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-20",
+    "tags": [
+      "cheatsheet",
+      "persistence",
+      "malware",
+      "networking"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-394.png",
+    "words": 580,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-mindgames-922",
+    "title": "PwnTillDawn — Mindgames (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Mindgames. AlwaysInstallElevated and DNS Rebinding to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-mindgames-922.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-20",
+    "tags": [
+      "pwntilldawn",
+      "ctf",
+      "forensics"
+    ],
+    "image": "/img/htb-mindgames-922.png",
+    "words": 595,
+    "readTime": "3 min"
+  }
+]

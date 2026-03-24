@@ -1,0 +1,235 @@
+[
+  {
+    "id": "script-automated-port-scanner-255",
+    "title": "Automated Port Scanner — Python",
+    "section": "scripting",
+    "description": "A Python script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-255.html",
+    "btn_label": "View Script",
+    "date": "2025-12-18",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "python",
+      "script",
+      "tool"
+    ],
+    "image": "/img/script-automated-port-scanner-255.png",
+    "words": 301,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-732",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-732.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-18",
+    "tags": [
+      "networking",
+      "cheatsheet",
+      "persistence",
+      "malware"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-732.png",
+    "words": 402,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-984",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-984.html",
+    "btn_label": "Read Research",
+    "date": "2025-12-17",
+    "tags": [
+      "buffer-overflow",
+      "cve",
+      "kernel",
+      "shellcode"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-984.png",
+    "words": 458,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-api-security-testing-framework-728",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-728.html",
+    "btn_label": "View Project",
+    "date": "2025-12-17",
+    "tags": [
+      "plugin",
+      "library",
+      "cli",
+      "open-source"
+    ],
+    "image": "/img/project-api-security-testing-framework-728.png",
+    "words": 186,
+    "readTime": "1 min",
+    "features": [
+      "ffuf",
+      "hashcat",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "htb-spectra-566",
+    "title": "HackTheBox — Spectra (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Spectra. GPP Password and XSS to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-spectra-566.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-17",
+    "tags": [
+      "web",
+      "hackthebox",
+      "pwntilldawn",
+      "windows"
+    ],
+    "image": "/img/htb-spectra-566.png",
+    "words": 629,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-pit-547",
+    "title": "VulnHub — Pit (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Pit. SeDebugPrivilege and Pass the Hash to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pit-547.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-16",
+    "tags": [
+      "pwntilldawn",
+      "ctf",
+      "linux"
+    ],
+    "image": "/img/htb-pit-547.png",
+    "words": 595,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-love-309",
+    "title": "OffSec Proving Grounds — Love (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Love. Weak Service Permissions and DCSync to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-love-309.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-16",
+    "tags": [
+      "forensics",
+      "ctf",
+      "web",
+      "active-directory",
+      "hackthebox",
+      "offsec"
+    ],
+    "image": "/img/htb-love-309.png",
+    "words": 602,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-sigma-rule-development-803",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-803.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-14",
+    "tags": [
+      "linux",
+      "privilege-escalation",
+      "malware",
+      "dfir",
+      "networking"
+    ],
+    "image": "/img/note-sigma-rule-development-803.png",
+    "words": 460,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-love-558",
+    "title": "PwnTillDawn — Love (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Love. Kerberoasting and Resource-Based Constrained Delegation to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-love-558.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-13",
+    "tags": [
+      "tryhackme",
+      "offsec",
+      "windows",
+      "reversing",
+      "web",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-love-558.png",
+    "words": 524,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-500",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-500.html",
+    "btn_label": "Read Research",
+    "date": "2025-12-12",
+    "tags": [
+      "aslr-bypass",
+      "heap-exploitation",
+      "buffer-overflow",
+      "kernel",
+      "exploit-development",
+      "shellcode"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-500.png",
+    "words": 440,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-812",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-812.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-12",
+    "tags": [
+      "dfir",
+      "malware",
+      "blue-team",
+      "linux",
+      "enumeration",
+      "windows"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-812.png",
+    "words": 543,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-friendzone-846",
+    "title": "HackTheBox — FriendZone (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox FriendZone. Kerberoasting and SSTI to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-friendzone-846.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-12",
+    "tags": [
+      "linux",
+      "reversing",
+      "medium",
+      "web",
+      "active-directory"
+    ],
+    "image": "/img/htb-friendzone-846.png",
+    "words": 572,
+    "readTime": "3 min"
+  }
+]

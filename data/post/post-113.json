@@ -1,0 +1,236 @@
+[
+  {
+    "id": "htb-legacy-583",
+    "title": "TryHackMe — Legacy (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Legacy. Pass the Ticket and AS-REP Roasting to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-legacy-583.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-02",
+    "tags": [
+      "linux",
+      "web",
+      "easy",
+      "windows",
+      "forensics"
+    ],
+    "image": "/img/htb-legacy-583.png",
+    "words": 597,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-servmon-652",
+    "title": "OffSec Proving Grounds — ServMon (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds ServMon. Unquoted Service Path and ACL Abuse to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-servmon-652.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-01",
+    "tags": [
+      "ctf",
+      "easy",
+      "hackthebox",
+      "pwntilldawn",
+      "medium",
+      "hard"
+    ],
+    "image": "/img/htb-servmon-652.png",
+    "words": 615,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-487",
+    "title": "Log Parser and Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-487.html",
+    "btn_label": "View Script",
+    "date": "2024-09-30",
+    "tags": [
+      "powershell",
+      "automation",
+      "rust",
+      "parser",
+      "go"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-487.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-process-injection-poc-807",
+    "title": "Process Injection PoC",
+    "section": "projects",
+    "description": "Open source security project: Process Injection PoC. Built for the community.",
+    "permalink": "/research/project-process-injection-poc-807.html",
+    "btn_label": "View Project",
+    "date": "2024-09-30",
+    "tags": [
+      "extension",
+      "security",
+      "plugin",
+      "automation",
+      "framework"
+    ],
+    "image": "/img/project-process-injection-poc-807.png",
+    "words": 210,
+    "readTime": "2 min",
+    "features": [
+      "hydra",
+      "feroxbuster",
+      "nmap"
+    ]
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-687",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-687.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-30",
+    "tags": [
+      "malware",
+      "oscp",
+      "privilege-escalation",
+      "persistence",
+      "windows"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-687.png",
+    "words": 674,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-thenotebook-732",
+    "title": "VulnHub — TheNotebook (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub TheNotebook. LAPS Abuse and ACL Abuse to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-thenotebook-732.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-30",
+    "tags": [
+      "forensics",
+      "ctf",
+      "insane",
+      "easy",
+      "medium"
+    ],
+    "image": "/img/htb-thenotebook-732.png",
+    "words": 626,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-yara-rule-writing-788",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-788.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-29",
+    "tags": [
+      "windows",
+      "linux",
+      "persistence",
+      "dfir",
+      "malware"
+    ],
+    "image": "/img/note-yara-rule-writing-788.png",
+    "words": 525,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-169",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-169.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-29",
+    "tags": [
+      "blue-team",
+      "cheatsheet",
+      "networking",
+      "windows"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-169.png",
+    "words": 706,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-atom-459",
+    "title": "OffSec Proving Grounds — Atom (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Atom. SSRF and Sudo Misconfiguration to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-atom-459.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-29",
+    "tags": [
+      "insane",
+      "tryhackme",
+      "web",
+      "easy",
+      "forensics",
+      "hard",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-atom-459.png",
+    "words": 681,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-872",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-872.html",
+    "btn_label": "View Script",
+    "date": "2024-09-28",
+    "tags": [
+      "go",
+      "script",
+      "bash",
+      "python",
+      "scanner"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-872.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-312",
+    "title": "DNS Resolver and Brute Forcer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-312.html",
+    "btn_label": "View Script",
+    "date": "2024-09-28",
+    "tags": [
+      "fuzzer",
+      "powershell",
+      "rust"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-312.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-963",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-963.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-28",
+    "tags": [
+      "shellcode",
+      "kernel",
+      "format-string",
+      "rop",
+      "aslr-bypass",
+      "malware-analysis"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-963.png",
+    "words": 430,
+    "readTime": "3 min"
+  }
+]

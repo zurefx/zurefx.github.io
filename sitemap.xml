@@ -66,6 +66,8 @@
   <!-- ════════════════════════════════════════════════════════
        NOTES / CHEATSHEETS — monthly porque pueden corregirse
        ════════════════════════════════════════════════════════ -->
+
+
   <url>
     <loc>https://zurefx.github.io/notes/nmap-cheatsheet.html</loc>
     <lastmod>2026-03-01</lastmod>
@@ -76,6 +78,8 @@
       <image:title>Nmap Cheatsheet</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/notes/ffuf-guide.html</loc>
     <lastmod>2026-03-03</lastmod>
@@ -86,6 +90,8 @@
       <image:title>FFUF Web Fuzzing Guide</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/writeups/htb-keeper.html</loc>
     <lastmod>2026-03-05</lastmod>
@@ -96,6 +102,8 @@
       <image:title>HTB Keeper — Easy Linux</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/scripting/python-rev-shell.html</loc>
     <lastmod>2026-03-07</lastmod>
@@ -106,6 +114,8 @@
       <image:title>Python Reverse Shell Generator</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/notes/smb-enumeration.html</loc>
     <lastmod>2026-03-08</lastmod>
@@ -116,6 +126,8 @@
       <image:title>SMB Enumeration</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/writeups/htb-hospital.html</loc>
     <lastmod>2026-03-10</lastmod>
@@ -126,6 +138,8 @@
       <image:title>HTB Hospital — Medium Windows</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/research/malware-dropper-analysis.html</loc>
     <lastmod>2026-03-11</lastmod>
@@ -136,6 +150,8 @@
       <image:title>Analyzing a Simple Python Dropper</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/scripting/bash-automation.html</loc>
     <lastmod>2026-03-12</lastmod>
@@ -146,6 +162,8 @@
       <image:title>Bash Recon Automation</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/notes/sql-injection-notes.html</loc>
     <lastmod>2026-03-13</lastmod>
@@ -156,6 +174,8 @@
       <image:title>SQL Injection Notes</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/writeups/htb-bizness.html</loc>
     <lastmod>2026-03-14</lastmod>
@@ -166,6 +186,8 @@
       <image:title>HTB Bizness — Easy Linux</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/research/edr-evasion-research.html</loc>
     <lastmod>2026-03-15</lastmod>
@@ -176,6 +198,8 @@
       <image:title>EDR Evasion Techniques Overview</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/notes/linux-privesc-notes.html</loc>
     <lastmod>2026-03-16</lastmod>
@@ -186,6 +210,8 @@
       <image:title>Linux Privilege Escalation</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/scripting/port-scan-tool.html</loc>
     <lastmod>2026-03-17</lastmod>
@@ -196,6 +222,8 @@
       <image:title>Fast Port Scanner in Python</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/notes/ad-kerberoasting.html</loc>
     <lastmod>2026-03-18</lastmod>
@@ -206,6 +234,8 @@
       <image:title>Kerberoasting — Active Directory</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/writeups/htb-analysis.html</loc>
     <lastmod>2026-03-19</lastmod>
@@ -216,6 +246,8 @@
       <image:title>HTB Analysis — Hard Windows</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/research/zfx-recon-tool.html</loc>
     <lastmod>2026-03-22</lastmod>
@@ -226,6 +258,8 @@
       <image:title>ZFX Recon Tool</image:title>
     </image:image>
   </url>
+
+
   <url>
     <loc>https://zurefx.github.io/writeups/htb-linkvortex.html</loc>
     <lastmod>2026-03-23</lastmod>
@@ -238,16 +272,6 @@
   </url>
 
 
-  <url>
-    <loc>https://zurefx.github.io/writeups/htb-active.html</loc>
-    <lastmod>2026-03-25</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://zurefx.github.io/img/htb-active.png</image:loc>
-      <image:title>HTB Active — Easy Windows</image:title>
-    </image:image>
-  </url>
   <url>
     <loc>https://zurefx.github.io/writeups/htb-activexxxxxxxxx.html</loc>
     <lastmod>2026-03-25</lastmod>

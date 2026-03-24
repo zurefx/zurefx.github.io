@@ -1,0 +1,233 @@
+[
+  {
+    "id": "htb-arctic-840",
+    "title": "HackTheBox — Arctic (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Arctic. SQL Injection and Unquoted Service Path to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-arctic-840.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-14",
+    "tags": [
+      "forensics",
+      "reversing",
+      "hard",
+      "tryhackme",
+      "easy",
+      "hackthebox"
+    ],
+    "image": "/img/htb-arctic-840.png",
+    "words": 578,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-916",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-916.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-13",
+    "tags": [
+      "exploit-development",
+      "shellcode",
+      "rop",
+      "malware-analysis",
+      "aslr-bypass",
+      "kernel"
+    ],
+    "image": "/img/research-threat-intelligence-integration-916.png",
+    "words": 508,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-578",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-578.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-13",
+    "tags": [
+      "windows",
+      "oscp",
+      "privilege-escalation",
+      "blue-team"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-578.png",
+    "words": 524,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-224",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-224.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-12",
+    "tags": [
+      "malware-analysis",
+      "exploit-development",
+      "aslr-bypass",
+      "heap-exploitation",
+      "kernel"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-224.png",
+    "words": 462,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-684",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-684.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-12",
+    "tags": [
+      "windows",
+      "blue-team",
+      "oscp"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-684.png",
+    "words": 444,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-dynstr-984",
+    "title": "OffSec Proving Grounds — Dynstr (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Dynstr. Golden Ticket and SUID Binary to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-dynstr-984.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-12",
+    "tags": [
+      "tryhackme",
+      "medium",
+      "easy",
+      "offsec",
+      "active-directory",
+      "ctf"
+    ],
+    "image": "/img/htb-dynstr-984.png",
+    "words": 646,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-devel-475",
+    "title": "TryHackMe — Devel (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Devel. Golden Ticket and Constrained Delegation to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-devel-475.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-12",
+    "tags": [
+      "web",
+      "medium",
+      "tryhackme",
+      "active-directory",
+      "insane",
+      "hackthebox",
+      "hard"
+    ],
+    "image": "/img/htb-devel-475.png",
+    "words": 585,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-cereal-808",
+    "title": "PwnTillDawn — Cereal (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Cereal. Weak Service Permissions and Sudo Misconfiguration to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-cereal-808.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-12",
+    "tags": [
+      "offsec",
+      "reversing",
+      "windows",
+      "forensics",
+      "hackthebox",
+      "pwntilldawn",
+      "easy"
+    ],
+    "image": "/img/htb-cereal-808.png",
+    "words": 705,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-breadcrumbs-927",
+    "title": "VulnHub — Breadcrumbs (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Breadcrumbs. Path Traversal and Cron Job to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-breadcrumbs-927.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-12",
+    "tags": [
+      "pwntilldawn",
+      "windows",
+      "reversing",
+      "linux",
+      "active-directory",
+      "easy"
+    ],
+    "image": "/img/htb-breadcrumbs-927.png",
+    "words": 577,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-243",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-243.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-11",
+    "tags": [
+      "kernel",
+      "rop",
+      "exploit-development"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-24.png",
+    "words": 484,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-904",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-904.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-11",
+    "tags": [
+      "blue-team",
+      "cheatsheet",
+      "networking",
+      "enumeration"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-904.png",
+    "words": 530,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-174",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-174.html",
+    "btn_label": "View Script",
+    "date": "2024-01-10",
+    "tags": [
+      "scanner",
+      "tool",
+      "fuzzer",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-174.png",
+    "words": 336,
+    "readTime": "2 min"
+  }
+]

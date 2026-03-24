@@ -1,0 +1,229 @@
+[
+  {
+    "id": "htb-res-437",
+    "title": "VulnHub — Res (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Res. DLL Hijacking and Resource-Based Constrained Delegation to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-res-437.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-27",
+    "tags": [
+      "offsec",
+      "hackthebox",
+      "linux",
+      "medium",
+      "reversing",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-res-437.png",
+    "words": 599,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-641",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-641.html",
+    "btn_label": "Read Research",
+    "date": "2024-12-25",
+    "tags": [
+      "rop",
+      "format-string",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-64.png",
+    "words": 526,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-385",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-385.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-25",
+    "tags": [
+      "persistence",
+      "malware",
+      "dfir",
+      "linux"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-385.png",
+    "words": 738,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-cereal-267",
+    "title": "OffSec Proving Grounds — Cereal (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Cereal. LXD Privilege Escalation and CSRF to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-cereal-267.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-25",
+    "tags": [
+      "forensics",
+      "windows",
+      "web",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-cereal-267.png",
+    "words": 699,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-649",
+    "title": "CTF Challenge Solver Template — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-649.html",
+    "btn_label": "View Script",
+    "date": "2024-12-24",
+    "tags": [
+      "powershell",
+      "bash",
+      "go",
+      "c",
+      "automation"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-649.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-monitors-220",
+    "title": "PwnTillDawn — Monitors (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Monitors. NFS No Root Squash and Writable PATH to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-monitors-220.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-24",
+    "tags": [
+      "web",
+      "active-directory",
+      "hackthebox",
+      "easy",
+      "ctf",
+      "tryhackme",
+      "medium"
+    ],
+    "image": "/img/htb-monitors-220.png",
+    "words": 651,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-irked-753",
+    "title": "OffSec Proving Grounds — Irked (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Irked. Command Injection and Constrained Delegation to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-irked-753.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-24",
+    "tags": [
+      "offsec",
+      "linux",
+      "forensics"
+    ],
+    "image": "/img/htb-irked-753.png",
+    "words": 588,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-novel-persistence-mechanisms-in-linux-613",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "projects",
+    "description": "Open source security project: Novel Persistence Mechanisms in Linux. Built for the community.",
+    "permalink": "/research/project-novel-persistence-mechanisms-in-linux-613.html",
+    "btn_label": "View Project",
+    "date": "2024-12-23",
+    "tags": [
+      "tool",
+      "automation",
+      "open-source",
+      "plugin",
+      "security"
+    ],
+    "image": "/img/project-novel-persistence-mechanisms-in-linux-613.png",
+    "words": 221,
+    "readTime": "2 min",
+    "features": [
+      "nmap",
+      "crackmapexec",
+      "hydra"
+    ]
+  },
+  {
+    "id": "note-sigma-rule-development-548",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-548.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-22",
+    "tags": [
+      "malware",
+      "oscp",
+      "enumeration",
+      "lateral-movement"
+    ],
+    "image": "/img/note-sigma-rule-development-548.png",
+    "words": 429,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-226",
+    "title": "DNS Resolver and Brute Forcer — Python",
+    "section": "scripting",
+    "description": "A Python script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-226.html",
+    "btn_label": "View Script",
+    "date": "2024-12-21",
+    "tags": [
+      "parser",
+      "bash",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-226.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-407",
+    "title": "Custom Wordlist Generator — Bash",
+    "section": "scripting",
+    "description": "A Bash script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-407.html",
+    "btn_label": "View Script",
+    "date": "2024-12-21",
+    "tags": [
+      "bash",
+      "c",
+      "tool",
+      "fuzzer"
+    ],
+    "image": "/img/script-custom-wordlist-generator-407.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-356",
+    "title": "AMSI Bypass Collection — Bash",
+    "section": "scripting",
+    "description": "A Bash script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-356.html",
+    "btn_label": "View Script",
+    "date": "2024-12-21",
+    "tags": [
+      "automation",
+      "scanner",
+      "fuzzer",
+      "bash"
+    ],
+    "image": "/img/script-amsi-bypass-collection-356.png",
+    "words": 289,
+    "readTime": "2 min"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "id": "htb-spectra-912",
+    "title": "PwnTillDawn — Spectra (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Spectra. NTLM Relay and Unconstrained Delegation to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-spectra-912.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-30",
+    "tags": [
+      "medium",
+      "web",
+      "linux"
+    ],
+    "image": "/img/htb-spectra-912.png",
+    "words": 626,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-spectra-227",
+    "title": "TryHackMe — Spectra (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Spectra. CORS Misconfiguration and SUID Binary to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-spectra-227.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-30",
+    "tags": [
+      "tryhackme",
+      "linux",
+      "offsec",
+      "forensics",
+      "medium",
+      "insane"
+    ],
+    "image": "/img/htb-spectra-227.png",
+    "words": 639,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-doctor-919",
+    "title": "PwnTillDawn — Doctor (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Doctor. NTLM Relay and Path Traversal to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-doctor-919.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-30",
+    "tags": [
+      "linux",
+      "hard",
+      "hackthebox"
+    ],
+    "image": "/img/htb-doctor-919.png",
+    "words": 618,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-armageddon-325",
+    "title": "OffSec Proving Grounds — Armageddon (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Armageddon. IDOR and Constrained Delegation to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-armageddon-325.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-30",
+    "tags": [
+      "linux",
+      "insane",
+      "easy",
+      "ctf",
+      "offsec"
+    ],
+    "image": "/img/htb-armageddon-325.png",
+    "words": 601,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-974",
+    "title": "Reverse Shell Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-974.html",
+    "btn_label": "View Script",
+    "date": "2024-12-29",
+    "tags": [
+      "python",
+      "parser",
+      "powershell",
+      "automation",
+      "c",
+      "rust"
+    ],
+    "image": "/img/script-reverse-shell-generator-974.png",
+    "words": 331,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-jarvis-841",
+    "title": "PwnTillDawn — Jarvis (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Jarvis. Docker Escape and Kerberoasting to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-jarvis-841.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-29",
+    "tags": [
+      "easy",
+      "web",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-jarvis-841.png",
+    "words": 650,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-deja-vu-482",
+    "title": "TryHackMe — Deja Vu (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Deja Vu. DCSync and Writable PATH to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-deja-vu-482.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-29",
+    "tags": [
+      "easy",
+      "web",
+      "ctf",
+      "hackthebox",
+      "active-directory",
+      "offsec",
+      "medium"
+    ],
+    "image": "/img/htb-deja-vu-482.png",
+    "words": 559,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-cap-350",
+    "title": "OffSec Proving Grounds — Cap (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Cap. CSRF and Open Redirect to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-cap-350.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-29",
+    "tags": [
+      "offsec",
+      "medium",
+      "linux",
+      "hackthebox",
+      "hard",
+      "easy",
+      "insane"
+    ],
+    "image": "/img/htb-cap-350.png",
+    "words": 558,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-838",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-838.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-28",
+    "tags": [
+      "cheatsheet",
+      "linux",
+      "oscp",
+      "malware",
+      "blue-team"
+    ],
+    "image": "/img/note-digital-forensics-methodology-838.png",
+    "words": 619,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-102",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-102.html",
+    "btn_label": "Read Notes",
+    "date": "2024-12-28",
+    "tags": [
+      "malware",
+      "cheatsheet",
+      "blue-team",
+      "linux",
+      "dfir"
+    ],
+    "image": "/img/note-cryptography-fundamentals-102.png",
+    "words": 375,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-sense-887",
+    "title": "VulnHub — Sense (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Sense. Path Traversal and SeDebugPrivilege to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-sense-887.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-12-28",
+    "tags": [
+      "ctf",
+      "tryhackme",
+      "linux",
+      "insane"
+    ],
+    "image": "/img/htb-sense-887.png",
+    "words": 626,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-923",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-923.html",
+    "btn_label": "Read Research",
+    "date": "2024-12-27",
+    "tags": [
+      "cve",
+      "aslr-bypass",
+      "heap-exploitation",
+      "exploit-development",
+      "uaf",
+      "zero-day"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-92.png",
+    "words": 437,
+    "readTime": "3 min"
+  }
+]

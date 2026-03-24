@@ -1,13 +1,36 @@
 /* ============================================================
-   ZureFX — tags.js  (v5)
+   ZureFX — tags.js  (v6)
    - Índice (tags.html)       → solo tag cloud (pills), sin posts
    - Filtro  (tags.html#tag)  → lista posts del tag seleccionado
+
+   NEW DATA ARCHITECTURE (v6)
+   --------------------------
+   Previously everything lived in a single data/tags.json:
+     { "ctf": [post1, post2], "linux": [post1] }
+
+   Now tags are split into separate files for scalability:
+
+     data/tags/index.json        → { "ctf": 54, "linux": 32 }  (counts only)
+     data/tags/tag-ctf.json      → [ post1, post2, ... ]        (posts on demand)
+     data/tags/tag-linux.json    → [ post1, ... ]
+
+   This means:
+   • The tag cloud loads a tiny index file (~1–2 KB) instead of megabytes.
+   • Tag post lists are fetched only when the user actually opens a tag.
+   • Already-fetched tag files are cached in memory to avoid repeat requests.
+
    Depende de app.js: getRootPrefix(), SECTION_COLOR_MAP,
    fmtDate(), capitalize().
    ============================================================ */
 
-var _tags_index  = null;
+/* ── Index cache: populated once from data/tags/index.json ── */
+var _tags_index  = null;   // { "ctf": 54, "linux": 32, … }
 var _tags_loaded = false;
+
+/* ── Per-tag post cache: populated on demand ─────────────────
+   _tag_cache["ctf"] = [ post1, post2, … ]
+   Avoids re-fetching the same tag file when navigating back. */
+var _tag_cache = {};
 
 function escT(s) {
   return String(s || '')
@@ -16,12 +39,15 @@ function escT(s) {
 }
 
 /* ══════════════════════════════════════════════════
-   LOAD
+   LOAD INDEX
+   Fetches data/tags/index.json — contains tag counts only.
+   Shape: { "ctf": 54, "linux": 32, "reversing": 12 }
    ══════════════════════════════════════════════════ */
 function tagsLoadIndex() {
   if (_tags_loaded) return Promise.resolve(_tags_index);
 
-  var url = getRootPrefix() + 'data/tags.json?v=' + Date.now();
+  /* New path: data/tags/index.json (was: data/tags.json) */
+  var url = getRootPrefix() + 'data/tags/index.json?v=' + Date.now();
   return fetch(url, { cache: 'no-store' })
     .then(function(res) {
       if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -30,14 +56,51 @@ function tagsLoadIndex() {
     .then(function(data) {
       _tags_index  = (data && typeof data === 'object' && !Array.isArray(data)) ? data : {};
       _tags_loaded = true;
-      console.log('[ZFX] tags — ' + Object.keys(_tags_index).length + ' tags');
+      console.log('[ZFX] tags index — ' + Object.keys(_tags_index).length + ' tags');
       return _tags_index;
     })
     .catch(function(err) {
-      console.warn('[tags.js] Could not load tags.json:', err);
+      console.warn('[tags.js] Could not load tags/index.json:', err);
       _tags_index  = {};
       _tags_loaded = true;
       return {};
+    });
+}
+
+/* ══════════════════════════════════════════════════
+   LOAD TAG FILE
+   Fetches data/tags/tag-<slug>.json on demand.
+   Returns a Promise<Array> of post objects.
+
+   Caching strategy:
+   • Check _tag_cache[slug] first — return instantly if found.
+   • Otherwise fetch data/tags/tag-<slug>.json and store result.
+   • A failed fetch stores an empty array so we don't retry endlessly.
+   ══════════════════════════════════════════════════ */
+function tagsLoadTag(slug) {
+  /* Return cached result immediately if available */
+  if (Object.prototype.hasOwnProperty.call(_tag_cache, slug)) {
+    return Promise.resolve(_tag_cache[slug]);
+  }
+
+  /* Build the per-tag file URL: data/tags/tag-ctf.json */
+  var url = getRootPrefix() + 'data/tags/tag-' + encodeURIComponent(slug) + '.json?v=' + Date.now();
+
+  return fetch(url, { cache: 'no-store' })
+    .then(function(res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .then(function(data) {
+      var posts = Array.isArray(data) ? data : [];
+      _tag_cache[slug] = posts;   /* Store in memory cache */
+      console.log('[ZFX] tag "' + slug + '" — ' + posts.length + ' posts loaded');
+      return posts;
+    })
+    .catch(function(err) {
+      console.warn('[tags.js] Could not load tag file for "' + slug + '":', err);
+      _tag_cache[slug] = [];      /* Cache empty result to avoid repeated failing fetches */
+      return [];
     });
 }
 
@@ -62,6 +125,7 @@ function renderTagsSkeleton(container) {
 
 /* ══════════════════════════════════════════════════
    BUILD POST ROW (solo en modo filtro)
+   Unchanged from v5 — only data loading changed.
    ══════════════════════════════════════════════════ */
 function buildPlItemT(p) {
   var color = SECTION_COLOR_MAP[p.section] || '#cc2b2b';
@@ -157,6 +221,9 @@ function buildPlItemT(p) {
 
 /* ══════════════════════════════════════════════════
    MODO FILTRO — tags.html#ctf
+   Fetches data/tags/tag-<slug>.json on demand.
+   The index is still loaded first (usually already cached)
+   to resolve the canonical slug casing.
    ══════════════════════════════════════════════════ */
 async function renderFilter(tag, container) {
   document.title = '#' + tag + ' — ZureFX';
@@ -183,12 +250,14 @@ async function renderFilter(tag, container) {
 
   renderTagsSkeleton(container);
 
+  /* Load the index to resolve the canonical slug (handles casing mismatches) */
   var index = await tagsLoadIndex();
-
   var tagKey = Object.keys(index).find(function(k) {
     return k.toLowerCase() === tag.toLowerCase();
-  });
-  var posts = tagKey ? (index[tagKey] || []) : [];
+  }) || tag.toLowerCase();
+
+  /* Fetch the per-tag file — returns from cache if previously loaded */
+  var posts = await tagsLoadTag(tagKey);
 
   updateTagsStats(posts.length + ' post' + (posts.length !== 1 ? 's' : ''));
 
@@ -214,6 +283,11 @@ async function renderFilter(tag, container) {
 
 /* ══════════════════════════════════════════════════
    MODO ÍNDICE — tags.html (solo pills, sin posts)
+   Uses index.json counts directly.
+
+   KEY CHANGE from v5:
+   Previously index[tag] was an array, so count = entry[1].length
+   Now index[tag] is a number,          so count = entry[1]
    ══════════════════════════════════════════════════ */
 function renderIndex(index, container) {
   var entries = Object.entries(index);
@@ -225,7 +299,10 @@ function renderIndex(index, container) {
   cloud.className = 'tags-cloud';
 
   entries.forEach(function(entry) {
-    var tg = entry[0], count = entry[1].length;
+    var tg = entry[0];
+    /* entry[1] is now a plain number (post count), not an array */
+    var count = typeof entry[1] === 'number' ? entry[1] : (Array.isArray(entry[1]) ? entry[1].length : 0);
+
     var btn = document.createElement('a');
     btn.className   = 'tags-cloud-pill';
     btn.dataset.tag = tg;
@@ -264,7 +341,7 @@ async function renderTagsPage() {
           '<circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>' +
         '</svg>' +
         '<h3>Could not load tags</h3>' +
-        '<p>Check that <code>/data/tags.json</code> exists and is valid JSON.</p>' +
+        '<p>Check that <code>/data/tags/index.json</code> exists and is valid JSON.</p>' +
       '</div>';
   }
 }

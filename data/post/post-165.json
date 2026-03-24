@@ -1,0 +1,240 @@
+[
+  {
+    "id": "note-python-scripting-for-pentesting-674",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-674.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-21",
+    "tags": [
+      "dfir",
+      "windows",
+      "enumeration",
+      "cheatsheet",
+      "networking",
+      "oscp"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-674.png",
+    "words": 488,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-docker-security-hardening-112",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-112.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-21",
+    "tags": [
+      "privilege-escalation",
+      "enumeration",
+      "networking"
+    ],
+    "image": "/img/note-docker-security-hardening-112.png",
+    "words": 501,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-skynet-792",
+    "title": "HackTheBox — Skynet (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Skynet. Sudo Misconfiguration and Command Injection to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-skynet-792.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-20",
+    "tags": [
+      "hard",
+      "easy",
+      "pwntilldawn",
+      "hackthebox"
+    ],
+    "image": "/img/htb-skynet-792.png",
+    "words": 592,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-scriptkiddie-143",
+    "title": "OffSec Proving Grounds — ScriptKiddie (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds ScriptKiddie. Command Injection and Unconstrained Delegation to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-scriptkiddie-143.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-19",
+    "tags": [
+      "ctf",
+      "tryhackme",
+      "easy",
+      "insane",
+      "offsec",
+      "windows"
+    ],
+    "image": "/img/htb-scriptkiddie-143.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-398",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-398.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-18",
+    "tags": [
+      "zero-day",
+      "kernel",
+      "cve",
+      "exploit-development",
+      "format-string",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-39.png",
+    "words": 506,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-248",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-248.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-18",
+    "tags": [
+      "lateral-movement",
+      "linux",
+      "windows",
+      "enumeration",
+      "dfir"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-248.png",
+    "words": 692,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-node-750",
+    "title": "OffSec Proving Grounds — Node (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Node. CSRF and AlwaysInstallElevated to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-node-750.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-18",
+    "tags": [
+      "active-directory",
+      "reversing",
+      "insane",
+      "forensics",
+      "hackthebox",
+      "linux",
+      "windows"
+    ],
+    "image": "/img/htb-node-750.png",
+    "words": 628,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-automated-port-scanner-425",
+    "title": "Automated Port Scanner — Go",
+    "section": "scripting",
+    "description": "A Go script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-425.html",
+    "btn_label": "View Script",
+    "date": "2024-01-17",
+    "tags": [
+      "c",
+      "scanner",
+      "rust",
+      "python",
+      "parser",
+      "go"
+    ],
+    "image": "/img/script-automated-port-scanner-425.png",
+    "words": 275,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-report-generator-699",
+    "title": "Automated Report Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-699.html",
+    "btn_label": "View Script",
+    "date": "2024-01-15",
+    "tags": [
+      "c",
+      "script",
+      "powershell",
+      "fuzzer",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-automated-report-generator-699.png",
+    "words": 389,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-automated-port-scanner-140",
+    "title": "Automated Port Scanner",
+    "section": "projects",
+    "description": "Open source security project: Automated Port Scanner. Built for the community.",
+    "permalink": "/research/project-automated-port-scanner-140.html",
+    "btn_label": "View Project",
+    "date": "2024-01-14",
+    "tags": [
+      "automation",
+      "cli",
+      "framework"
+    ],
+    "image": "/img/project-automated-port-scanner-140.png",
+    "words": 195,
+    "readTime": "1 min",
+    "features": [
+      "nmap",
+      "impacket",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-779",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-779.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-14",
+    "tags": [
+      "blue-team",
+      "windows",
+      "enumeration",
+      "privilege-escalation",
+      "persistence",
+      "dfir"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-779.png",
+    "words": 352,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-optimum-492",
+    "title": "HackTheBox — Optimum (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Optimum. Local File Inclusion and SeImpersonatePrivilege to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-optimum-492.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-14",
+    "tags": [
+      "windows",
+      "medium",
+      "linux",
+      "tryhackme",
+      "easy",
+      "web"
+    ],
+    "image": "/img/htb-optimum-492.png",
+    "words": 621,
+    "readTime": "4 min"
+  }
+]

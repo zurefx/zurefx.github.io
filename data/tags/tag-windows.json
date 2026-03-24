@@ -1,0 +1,3850 @@
+[
+  {
+    "title": "HTB XD — Easy Windows",
+    "date": "2026-03-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-activexxxxxxxxxx.html",
+    "image": "/img/htb-active.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Passage (Insane FreeBSD)",
+    "date": "2026-03-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-passage-418.html",
+    "image": "/img/htb-passage-418.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2026-03-21",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-438.html",
+    "image": "/img/note-sigma-rule-development-438.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — ServMon (Easy FreeBSD)",
+    "date": "2026-03-21",
+    "section": "writeups",
+    "permalink": "/writeups/htb-servmon-305.html",
+    "image": "/img/htb-servmon-305.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2026-03-19",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-512.html",
+    "image": "/img/note-threat-hunting-with-splunk-512.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Doctor (Insane OpenBSD)",
+    "date": "2026-03-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-doctor-614.html",
+    "image": "/img/htb-doctor-614.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HTB Analysis — Hard Windows",
+    "date": "2026-03-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-analysis.html",
+    "image": "/img/htb-analysis.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "HackTheBox — Lame (Medium FreeBSD)",
+    "date": "2026-03-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-lame-308.html",
+    "image": "/img/htb-lame-308.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2026-03-13",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-655.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-655.png",
+    "readTime": "5 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2026-03-10",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-127.html",
+    "image": "/img/note-cryptography-fundamentals-127.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HTB Hospital — Medium Windows",
+    "date": "2026-03-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-hospital.html",
+    "image": "/img/htb-hospital.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "TryHackMe — Delivery (Hard Linux)",
+    "date": "2026-03-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-delivery-495.html",
+    "image": "/img/htb-delivery-495.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Crossfit (Hard FreeBSD)",
+    "date": "2026-03-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-crossfit-865.html",
+    "image": "/img/htb-crossfit-865.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Buff (Insane FreeBSD)",
+    "date": "2026-03-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-buff-760.html",
+    "image": "/img/htb-buff-760.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2026-03-03",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-657.html",
+    "image": "/img/note-python-scripting-for-pentesting-657.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Doctor (Medium Windows)",
+    "date": "2026-02-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-doctor-372.html",
+    "image": "/img/htb-doctor-372.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Solidstate (Easy Windows)",
+    "date": "2026-02-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-solidstate-558.html",
+    "image": "/img/htb-solidstate-558.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2026-02-20",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-361.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-361.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Cap (Hard Windows)",
+    "date": "2026-02-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cap-834.html",
+    "image": "/img/htb-cap-834.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Ophiuchi (Medium OpenBSD)",
+    "date": "2026-02-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ophiuchi-879.html",
+    "image": "/img/htb-ophiuchi-879.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2026-02-16",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-733.html",
+    "image": "/img/note-active-directory-attack-paths-733.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "VulnHub — Mindgames (Medium Windows)",
+    "date": "2026-02-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-916.html",
+    "image": "/img/htb-mindgames-916.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Arctic (Easy Linux)",
+    "date": "2026-02-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-arctic-486.html",
+    "image": "/img/htb-arctic-486.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Convertmyfund (Hard Windows)",
+    "date": "2026-02-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-convertmyfund-808.html",
+    "image": "/img/htb-convertmyfund-808.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Fuse (Medium OpenBSD)",
+    "date": "2026-02-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-fuse-185.html",
+    "image": "/img/htb-fuse-185.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2026-02-05",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-597.html",
+    "image": "/img/note-malware-analysis-environment-setup-597.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2026-02-03",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-522.html",
+    "image": "/img/note-python-scripting-for-pentesting-522.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Tenet (Medium Linux)",
+    "date": "2026-02-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tenet-442.html",
+    "image": "/img/htb-tenet-442.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2026-01-31",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-968.html",
+    "image": "/img/note-cryptography-fundamentals-968.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2026-01-27",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-406.html",
+    "image": "/img/note-incident-response-playbook-406.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Skynet (Medium OpenBSD)",
+    "date": "2026-01-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-skynet-827.html",
+    "image": "/img/htb-skynet-827.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Academy (Insane OpenBSD)",
+    "date": "2026-01-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-academy-701.html",
+    "image": "/img/htb-academy-701.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Mindgames (Insane OpenBSD)",
+    "date": "2026-01-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-120.html",
+    "image": "/img/htb-mindgames-120.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2026-01-24",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-896.html",
+    "image": "/img/note-python-scripting-for-pentesting-896.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2026-01-23",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-500.html",
+    "image": "/img/note-docker-security-hardening-500.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2026-01-22",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-884.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-884.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2026-01-17",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-373.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-373.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2026-01-15",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-167.html",
+    "image": "/img/note-threat-hunting-with-splunk-167.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2026-01-14",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-120.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-120.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2026-01-14",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-555.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-555.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "TryHackMe — Vulnnet (Hard FreeBSD)",
+    "date": "2026-01-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-vulnnet-314.html",
+    "image": "/img/htb-vulnnet-314.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2026-01-11",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-968.html",
+    "image": "/img/note-malware-analysis-environment-setup-968.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Knife (Medium Linux)",
+    "date": "2026-01-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-knife-233.html",
+    "image": "/img/htb-knife-233.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — FriendZone (Medium Windows)",
+    "date": "2026-01-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-friendzone-625.html",
+    "image": "/img/htb-friendzone-625.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Mustacchio (Medium Windows)",
+    "date": "2026-01-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mustacchio-440.html",
+    "image": "/img/htb-mustacchio-440.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Devel (Easy Linux)",
+    "date": "2026-01-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-devel-882.html",
+    "image": "/img/htb-devel-882.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Tenet (Insane FreeBSD)",
+    "date": "2026-01-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tenet-815.html",
+    "image": "/img/htb-tenet-815.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Pit (Easy OpenBSD)",
+    "date": "2026-01-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pit-191.html",
+    "image": "/img/htb-pit-191.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2025-12-30",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-719.html",
+    "image": "/img/note-python-scripting-for-pentesting-719.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2025-12-26",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-504.html",
+    "image": "/img/note-active-directory-attack-paths-504.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-12-24",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-254.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-254.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Doctor (Medium Windows)",
+    "date": "2025-12-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-doctor-127.html",
+    "image": "/img/htb-doctor-127.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2025-12-21",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-486.html",
+    "image": "/img/note-active-directory-attack-paths-486.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Bucket (Insane FreeBSD)",
+    "date": "2025-12-21",
+    "section": "writeups",
+    "permalink": "/writeups/htb-bucket-804.html",
+    "image": "/img/htb-bucket-804.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Spectra (Medium OpenBSD)",
+    "date": "2025-12-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-566.html",
+    "image": "/img/htb-spectra-566.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Love (Medium FreeBSD)",
+    "date": "2025-12-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-love-558.html",
+    "image": "/img/htb-love-558.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2025-12-12",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-812.html",
+    "image": "/img/note-blue-team-detection-techniques-812.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2025-12-11",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-594.html",
+    "image": "/img/note-threat-hunting-with-splunk-594.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Tartarsauce (Insane OpenBSD)",
+    "date": "2025-12-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tartarsauce-336.html",
+    "image": "/img/htb-tartarsauce-336.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2025-12-07",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-137.html",
+    "image": "/img/note-memory-forensics-with-volatility-137.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2025-12-03",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-464.html",
+    "image": "/img/note-cryptography-fundamentals-464.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Tentacle (Insane OpenBSD)",
+    "date": "2025-11-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tentacle-918.html",
+    "image": "/img/htb-tentacle-918.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Cereal (Easy FreeBSD)",
+    "date": "2025-11-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cereal-887.html",
+    "image": "/img/htb-cereal-887.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2025-11-29",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-841.html",
+    "image": "/img/note-web-application-penetration-testing-meth-841.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Remote (Easy Windows)",
+    "date": "2025-11-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-remote-805.html",
+    "image": "/img/htb-remote-805.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Internal (Medium FreeBSD)",
+    "date": "2025-11-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-internal-921.html",
+    "image": "/img/htb-internal-921.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — TheNotebook (Medium Windows)",
+    "date": "2025-11-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-thenotebook-269.html",
+    "image": "/img/htb-thenotebook-269.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Node (Easy FreeBSD)",
+    "date": "2025-11-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-node-346.html",
+    "image": "/img/htb-node-346.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Crossfit (Easy OpenBSD)",
+    "date": "2025-11-21",
+    "section": "writeups",
+    "permalink": "/writeups/htb-crossfit-371.html",
+    "image": "/img/htb-crossfit-371.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2025-11-20",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-215.html",
+    "image": "/img/note-sigma-rule-development-215.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2025-11-19",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-598.html",
+    "image": "/img/note-web-application-penetration-testing-meth-598.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Love (Easy FreeBSD)",
+    "date": "2025-11-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-love-555.html",
+    "image": "/img/htb-love-555.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Buffer (Medium Linux)",
+    "date": "2025-11-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-buffer-721.html",
+    "image": "/img/htb-buffer-721.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — FriendZone (Insane Windows)",
+    "date": "2025-11-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-friendzone-434.html",
+    "image": "/img/htb-friendzone-434.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Ophiuchi (Insane FreeBSD)",
+    "date": "2025-11-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ophiuchi-379.html",
+    "image": "/img/htb-ophiuchi-379.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Startup (Medium OpenBSD)",
+    "date": "2025-11-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-startup-364.html",
+    "image": "/img/htb-startup-364.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "date": "2025-11-12",
+    "section": "notes",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-853.html",
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-853.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "VulnHub — Tabby (Hard Linux)",
+    "date": "2025-11-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tabby-617.html",
+    "image": "/img/htb-tabby-617.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2025-11-09",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-514.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-514.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "TryHackMe — Mindgames (Easy Linux)",
+    "date": "2025-11-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-878.html",
+    "image": "/img/htb-mindgames-878.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "date": "2025-10-30",
+    "section": "notes",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-429.html",
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-429.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Worker (Medium OpenBSD)",
+    "date": "2025-10-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-worker-601.html",
+    "image": "/img/htb-worker-601.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Omni (Easy Windows)",
+    "date": "2025-10-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-omni-748.html",
+    "image": "/img/htb-omni-748.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2025-10-27",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-979.html",
+    "image": "/img/note-blue-team-detection-techniques-979.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PwnTillDawn — Vulnnet (Easy Linux)",
+    "date": "2025-10-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-vulnnet-463.html",
+    "image": "/img/htb-vulnnet-463.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — ScriptKiddie (Medium Windows)",
+    "date": "2025-10-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-scriptkiddie-473.html",
+    "image": "/img/htb-scriptkiddie-473.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Granny (Easy Windows)",
+    "date": "2025-10-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-granny-167.html",
+    "image": "/img/htb-granny-167.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Anthem (Insane Windows)",
+    "date": "2025-10-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-anthem-519.html",
+    "image": "/img/htb-anthem-519.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2025-10-21",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-653.html",
+    "image": "/img/note-powershell-for-red-teamers-653.png",
+    "readTime": "5 min"
+  },
+  {
+    "title": "TryHackMe — Knife (Hard OpenBSD)",
+    "date": "2025-10-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-knife-759.html",
+    "image": "/img/htb-knife-759.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — TheNotebook (Medium OpenBSD)",
+    "date": "2025-10-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-thenotebook-138.html",
+    "image": "/img/htb-thenotebook-138.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Sense (Insane Windows)",
+    "date": "2025-10-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-315.html",
+    "image": "/img/htb-sense-315.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2025-10-15",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-101.html",
+    "image": "/img/note-python-scripting-for-pentesting-101.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Irked (Insane Linux)",
+    "date": "2025-10-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-irked-593.html",
+    "image": "/img/htb-irked-593.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2025-10-14",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-911.html",
+    "image": "/img/note-malware-analysis-environment-setup-911.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Worker (Easy FreeBSD)",
+    "date": "2025-10-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-worker-518.html",
+    "image": "/img/htb-worker-518.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Cap (Easy FreeBSD)",
+    "date": "2025-10-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cap-779.html",
+    "image": "/img/htb-cap-779.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2025-10-11",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-800.html",
+    "image": "/img/note-kubernetes-security-assessment-800.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Armageddon (Hard OpenBSD)",
+    "date": "2025-10-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-armageddon-322.html",
+    "image": "/img/htb-armageddon-322.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Networked (Hard Linux)",
+    "date": "2025-10-08",
+    "section": "writeups",
+    "permalink": "/writeups/htb-networked-194.html",
+    "image": "/img/htb-networked-194.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-10-05",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-647.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-647.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2025-10-04",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-627.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-627.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2025-09-29",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-992.html",
+    "image": "/img/note-blue-team-detection-techniques-992.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2025-09-28",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-619.html",
+    "image": "/img/note-incident-response-playbook-619.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-09-25",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-904.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-904.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — TheNotebook (Medium FreeBSD)",
+    "date": "2025-09-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-thenotebook-519.html",
+    "image": "/img/htb-thenotebook-519.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Valentine (Insane Linux)",
+    "date": "2025-09-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-valentine-728.html",
+    "image": "/img/htb-valentine-728.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Fuse (Hard Linux)",
+    "date": "2025-09-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-fuse-364.html",
+    "image": "/img/htb-fuse-364.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2025-09-19",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-591.html",
+    "image": "/img/note-memory-forensics-with-volatility-591.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2025-09-16",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-162.html",
+    "image": "/img/note-yara-rule-writing-162.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Omni (Easy OpenBSD)",
+    "date": "2025-09-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-omni-406.html",
+    "image": "/img/htb-omni-406.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Fuse (Insane FreeBSD)",
+    "date": "2025-09-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-fuse-498.html",
+    "image": "/img/htb-fuse-498.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2025-09-15",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-764.html",
+    "image": "/img/note-yara-rule-writing-764.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-09-15",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-536.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-536.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Admirer (Insane OpenBSD)",
+    "date": "2025-09-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-admirer-911.html",
+    "image": "/img/htb-admirer-911.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2025-09-09",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-600.html",
+    "image": "/img/note-python-scripting-for-pentesting-600.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Startup (Insane Windows)",
+    "date": "2025-09-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-startup-786.html",
+    "image": "/img/htb-startup-786.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-09-08",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-326.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-326.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Common CTF Tricks and Techniques",
+    "date": "2025-09-08",
+    "section": "notes",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-592.html",
+    "image": "/img/note-common-ctf-tricks-and-techniques-592.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PwnTillDawn — Jarvis (Insane Linux)",
+    "date": "2025-09-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-jarvis-351.html",
+    "image": "/img/htb-jarvis-351.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Tartarsauce (Hard Linux)",
+    "date": "2025-09-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tartarsauce-634.html",
+    "image": "/img/htb-tartarsauce-634.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Tabby (Hard Windows)",
+    "date": "2025-09-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tabby-836.html",
+    "image": "/img/htb-tabby-836.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Common CTF Tricks and Techniques",
+    "date": "2025-09-04",
+    "section": "notes",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-323.html",
+    "image": "/img/note-common-ctf-tricks-and-techniques-323.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-08-31",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-111.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-111.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Omni (Medium Linux)",
+    "date": "2025-08-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-omni-333.html",
+    "image": "/img/htb-omni-333.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Magic (Hard OpenBSD)",
+    "date": "2025-08-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-magic-868.html",
+    "image": "/img/htb-magic-868.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Passage (Medium Linux)",
+    "date": "2025-08-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-passage-531.html",
+    "image": "/img/htb-passage-531.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-08-18",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-791.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-791.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2025-08-18",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-322.html",
+    "image": "/img/note-cryptography-fundamentals-322.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Ophiuchi (Insane FreeBSD)",
+    "date": "2025-08-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ophiuchi-309.html",
+    "image": "/img/htb-ophiuchi-309.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Monitors (Hard FreeBSD)",
+    "date": "2025-08-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-monitors-263.html",
+    "image": "/img/htb-monitors-263.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Solidstate (Insane OpenBSD)",
+    "date": "2025-08-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-solidstate-707.html",
+    "image": "/img/htb-solidstate-707.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2025-08-12",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-618.html",
+    "image": "/img/note-malware-analysis-environment-setup-618.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Arctic (Medium OpenBSD)",
+    "date": "2025-08-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-arctic-122.html",
+    "image": "/img/htb-arctic-122.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2025-08-11",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-144.html",
+    "image": "/img/note-cryptography-fundamentals-144.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2025-08-07",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-828.html",
+    "image": "/img/note-blue-team-detection-techniques-828.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Mindgames (Medium Windows)",
+    "date": "2025-08-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-178.html",
+    "image": "/img/htb-mindgames-178.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-08-01",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-717.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-717.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-07-30",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-994.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-994.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "VulnHub — Ready (Hard Windows)",
+    "date": "2025-07-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ready-588.html",
+    "image": "/img/htb-ready-588.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2025-07-29",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-661.html",
+    "image": "/img/note-reverse-engineering-basics-661.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "VulnHub — ScriptKiddie (Easy FreeBSD)",
+    "date": "2025-07-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-scriptkiddie-802.html",
+    "image": "/img/htb-scriptkiddie-802.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Tenet (Insane Linux)",
+    "date": "2025-07-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tenet-449.html",
+    "image": "/img/htb-tenet-449.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Breadcrumbs (Easy Linux)",
+    "date": "2025-07-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-breadcrumbs-399.html",
+    "image": "/img/htb-breadcrumbs-399.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2025-07-21",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-638.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-638.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — ServMon (Insane Windows)",
+    "date": "2025-07-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-servmon-308.html",
+    "image": "/img/htb-servmon-308.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Networked (Insane FreeBSD)",
+    "date": "2025-07-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-networked-651.html",
+    "image": "/img/htb-networked-651.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Crossfit (Easy OpenBSD)",
+    "date": "2025-07-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-crossfit-197.html",
+    "image": "/img/htb-crossfit-197.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2025-07-17",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-273.html",
+    "image": "/img/note-blue-team-detection-techniques-273.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "TryHackMe — Relevant (Insane OpenBSD)",
+    "date": "2025-07-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-relevant-201.html",
+    "image": "/img/htb-relevant-201.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Mindgames (Medium Linux)",
+    "date": "2025-07-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-625.html",
+    "image": "/img/htb-mindgames-625.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2025-07-14",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-815.html",
+    "image": "/img/note-yara-rule-writing-815.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2025-07-11",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-861.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-861.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Ready (Easy Linux)",
+    "date": "2025-07-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ready-790.html",
+    "image": "/img/htb-ready-790.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Deja Vu (Insane Windows)",
+    "date": "2025-07-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-631.html",
+    "image": "/img/htb-deja-vu-631.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Anthem (Hard Linux)",
+    "date": "2025-07-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-anthem-253.html",
+    "image": "/img/htb-anthem-253.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — ScriptKiddie (Easy OpenBSD)",
+    "date": "2025-07-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-scriptkiddie-340.html",
+    "image": "/img/htb-scriptkiddie-340.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Anthem (Medium OpenBSD)",
+    "date": "2025-07-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-anthem-174.html",
+    "image": "/img/htb-anthem-174.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2025-06-26",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-170.html",
+    "image": "/img/note-yara-rule-writing-170.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Game Zone (Insane FreeBSD)",
+    "date": "2025-06-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-game-zone-648.html",
+    "image": "/img/htb-game-zone-648.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Blunder (Insane OpenBSD)",
+    "date": "2025-06-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-355.html",
+    "image": "/img/htb-blunder-355.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Ice (Hard Linux)",
+    "date": "2025-06-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ice-774.html",
+    "image": "/img/htb-ice-774.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2025-06-21",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-172.html",
+    "image": "/img/note-kubernetes-security-assessment-172.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2025-06-19",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-718.html",
+    "image": "/img/note-web-application-penetration-testing-meth-718.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-06-17",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-200.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-200.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2025-06-17",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-864.html",
+    "image": "/img/note-docker-security-hardening-864.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Armageddon (Hard Windows)",
+    "date": "2025-06-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-armageddon-266.html",
+    "image": "/img/htb-armageddon-266.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-06-16",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-424.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-424.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Atom (Insane Windows)",
+    "date": "2025-06-08",
+    "section": "writeups",
+    "permalink": "/writeups/htb-atom-678.html",
+    "image": "/img/htb-atom-678.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2025-06-06",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-329.html",
+    "image": "/img/note-docker-security-hardening-329.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Skynet (Easy Windows)",
+    "date": "2025-06-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-skynet-566.html",
+    "image": "/img/htb-skynet-566.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2025-06-02",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-695.html",
+    "image": "/img/note-sigma-rule-development-695.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Passage (Medium OpenBSD)",
+    "date": "2025-05-31",
+    "section": "writeups",
+    "permalink": "/writeups/htb-passage-767.html",
+    "image": "/img/htb-passage-767.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Sense (Hard Windows)",
+    "date": "2025-05-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-446.html",
+    "image": "/img/htb-sense-446.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Ice (Insane FreeBSD)",
+    "date": "2025-05-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ice-314.html",
+    "image": "/img/htb-ice-314.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2025-05-21",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-921.html",
+    "image": "/img/note-active-directory-attack-paths-921.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — TheNotebook (Easy Linux)",
+    "date": "2025-05-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-thenotebook-181.html",
+    "image": "/img/htb-thenotebook-181.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2025-05-19",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-128.html",
+    "image": "/img/note-web-application-penetration-testing-meth-128.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2025-05-17",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-180.html",
+    "image": "/img/note-threat-hunting-with-splunk-180.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PwnTillDawn — Mindgames (Insane FreeBSD)",
+    "date": "2025-05-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-720.html",
+    "image": "/img/htb-mindgames-720.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2025-05-15",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-254.html",
+    "image": "/img/note-threat-hunting-with-splunk-254.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2025-05-15",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-774.html",
+    "image": "/img/note-incident-response-playbook-774.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Alfred (Hard OpenBSD)",
+    "date": "2025-05-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-alfred-527.html",
+    "image": "/img/htb-alfred-527.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Omni (Easy FreeBSD)",
+    "date": "2025-05-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-omni-460.html",
+    "image": "/img/htb-omni-460.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2025-05-12",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-952.html",
+    "image": "/img/note-threat-hunting-with-splunk-952.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PwnTillDawn — SwagShop (Hard Windows)",
+    "date": "2025-05-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-swagshop-402.html",
+    "image": "/img/htb-swagshop-402.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-05-10",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-993.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-993.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Ghizer (Easy Linux)",
+    "date": "2025-05-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ghizer-960.html",
+    "image": "/img/htb-ghizer-960.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2025-05-07",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-823.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-823.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2025-05-03",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-678.html",
+    "image": "/img/note-web-application-penetration-testing-meth-678.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2025-05-03",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-616.html",
+    "image": "/img/note-cryptography-fundamentals-616.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2025-05-01",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-690.html",
+    "image": "/img/note-yara-rule-writing-690.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-04-30",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-752.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-752.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-04-25",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-203.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-203.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Doctor (Insane Windows)",
+    "date": "2025-04-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-doctor-370.html",
+    "image": "/img/htb-doctor-370.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2025-04-24",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-102.html",
+    "image": "/img/note-sigma-rule-development-102.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2025-04-20",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-653.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-653.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2025-04-18",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-980.html",
+    "image": "/img/note-malware-analysis-environment-setup-980.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2025-04-16",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-682.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-682.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2025-04-13",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-123.html",
+    "image": "/img/note-kubernetes-security-assessment-123.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2025-04-09",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-617.html",
+    "image": "/img/note-malware-analysis-environment-setup-617.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2025-04-09",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-816.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-816.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Startup (Easy FreeBSD)",
+    "date": "2025-04-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-startup-808.html",
+    "image": "/img/htb-startup-808.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Sense (Medium OpenBSD)",
+    "date": "2025-04-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-566.html",
+    "image": "/img/htb-sense-566.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Networked (Hard OpenBSD)",
+    "date": "2025-04-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-networked-436.html",
+    "image": "/img/htb-networked-436.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-04-03",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-750.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-750.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — FriendZone (Easy Windows)",
+    "date": "2025-04-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-friendzone-487.html",
+    "image": "/img/htb-friendzone-487.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2025-03-27",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-427.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-427.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Deja Vu (Insane Linux)",
+    "date": "2025-03-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-263.html",
+    "image": "/img/htb-deja-vu-263.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2025-03-25",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-511.html",
+    "image": "/img/note-web-application-penetration-testing-meth-511.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2025-03-23",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-421.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-421.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Armageddon (Easy FreeBSD)",
+    "date": "2025-03-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-armageddon-965.html",
+    "image": "/img/htb-armageddon-965.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2025-03-21",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-430.html",
+    "image": "/img/note-powershell-for-red-teamers-430.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "date": "2025-03-19",
+    "section": "notes",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-237.html",
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-237.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Tenet (Insane FreeBSD)",
+    "date": "2025-03-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tenet-833.html",
+    "image": "/img/htb-tenet-833.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Convertmyfund (Medium Windows)",
+    "date": "2025-03-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-convertmyfund-239.html",
+    "image": "/img/htb-convertmyfund-239.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Monitors (Easy Windows)",
+    "date": "2025-03-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-monitors-661.html",
+    "image": "/img/htb-monitors-661.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2025-03-12",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-150.html",
+    "image": "/img/note-active-directory-attack-paths-150.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "TryHackMe — Pit (Hard FreeBSD)",
+    "date": "2025-03-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pit-533.html",
+    "image": "/img/htb-pit-533.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Tabby (Easy Linux)",
+    "date": "2025-03-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tabby-294.html",
+    "image": "/img/htb-tabby-294.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Mindgames (Insane OpenBSD)",
+    "date": "2025-03-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-405.html",
+    "image": "/img/htb-mindgames-405.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2025-03-07",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-719.html",
+    "image": "/img/note-active-directory-attack-paths-719.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Grandpa (Hard Linux)",
+    "date": "2025-03-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-grandpa-322.html",
+    "image": "/img/htb-grandpa-322.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Armageddon (Medium FreeBSD)",
+    "date": "2025-03-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-armageddon-738.html",
+    "image": "/img/htb-armageddon-738.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Legacy (Insane Windows)",
+    "date": "2025-03-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-legacy-255.html",
+    "image": "/img/htb-legacy-255.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Granny (Hard OpenBSD)",
+    "date": "2025-03-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-granny-303.html",
+    "image": "/img/htb-granny-303.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2025-03-02",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-985.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-985.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PwnTillDawn — Anthem (Easy FreeBSD)",
+    "date": "2025-02-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-anthem-393.html",
+    "image": "/img/htb-anthem-393.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2025-02-27",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-689.html",
+    "image": "/img/note-malware-analysis-environment-setup-689.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Armageddon (Insane FreeBSD)",
+    "date": "2025-02-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-armageddon-221.html",
+    "image": "/img/htb-armageddon-221.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Traverxec (Hard Windows)",
+    "date": "2025-02-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-traverxec-303.html",
+    "image": "/img/htb-traverxec-303.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Networked (Hard Windows)",
+    "date": "2025-02-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-networked-407.html",
+    "image": "/img/htb-networked-407.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Brainstorm (Easy Linux)",
+    "date": "2025-02-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-brainstorm-693.html",
+    "image": "/img/htb-brainstorm-693.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2025-02-23",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-578.html",
+    "image": "/img/note-blue-team-detection-techniques-578.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2025-02-20",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-521.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-521.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2025-02-19",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-478.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-478.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2025-02-15",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-478.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-478.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "TryHackMe — Relevant (Insane Windows)",
+    "date": "2025-02-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-relevant-571.html",
+    "image": "/img/htb-relevant-571.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Poison (Easy FreeBSD)",
+    "date": "2025-01-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-poison-238.html",
+    "image": "/img/htb-poison-238.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Game Zone (Easy OpenBSD)",
+    "date": "2025-01-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-game-zone-186.html",
+    "image": "/img/htb-game-zone-186.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Alfred (Easy Linux)",
+    "date": "2025-01-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-alfred-241.html",
+    "image": "/img/htb-alfred-241.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Overpass (Hard OpenBSD)",
+    "date": "2025-01-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-overpass-604.html",
+    "image": "/img/htb-overpass-604.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Cap (Insane OpenBSD)",
+    "date": "2025-01-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cap-632.html",
+    "image": "/img/htb-cap-632.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Dynstr (Medium FreeBSD)",
+    "date": "2025-01-21",
+    "section": "writeups",
+    "permalink": "/writeups/htb-dynstr-703.html",
+    "image": "/img/htb-dynstr-703.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Sense (Hard Windows)",
+    "date": "2025-01-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-636.html",
+    "image": "/img/htb-sense-636.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — FriendZone (Easy Windows)",
+    "date": "2025-01-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-friendzone-707.html",
+    "image": "/img/htb-friendzone-707.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Pikaboo (Insane FreeBSD)",
+    "date": "2025-01-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pikaboo-799.html",
+    "image": "/img/htb-pikaboo-799.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Buffer (Insane OpenBSD)",
+    "date": "2025-01-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-buffer-749.html",
+    "image": "/img/htb-buffer-749.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2025-01-11",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-470.html",
+    "image": "/img/note-yara-rule-writing-470.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Crossfit (Hard Windows)",
+    "date": "2025-01-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-crossfit-612.html",
+    "image": "/img/htb-crossfit-612.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Admirer (Insane OpenBSD)",
+    "date": "2025-01-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-admirer-311.html",
+    "image": "/img/htb-admirer-311.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "date": "2025-01-08",
+    "section": "notes",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-637.html",
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-637.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Breadcrumbs (Insane OpenBSD)",
+    "date": "2025-01-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-breadcrumbs-171.html",
+    "image": "/img/htb-breadcrumbs-171.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2024-12-31",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-337.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-337.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Lame (Medium Linux)",
+    "date": "2024-12-31",
+    "section": "writeups",
+    "permalink": "/writeups/htb-lame-868.html",
+    "image": "/img/htb-lame-868.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2024-12-30",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-111.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-111.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Cereal (Medium Linux)",
+    "date": "2024-12-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cereal-267.html",
+    "image": "/img/htb-cereal-267.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2024-12-21",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-891.html",
+    "image": "/img/note-python-scripting-for-pentesting-891.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-12-21",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-222.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-222.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-12-21",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-350.html",
+    "image": "/img/note-memory-forensics-with-volatility-350.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2024-12-19",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-436.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-436.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2024-12-19",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-675.html",
+    "image": "/img/note-blue-team-detection-techniques-675.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2024-12-16",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-429.html",
+    "image": "/img/note-yara-rule-writing-429.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Beep (Easy FreeBSD)",
+    "date": "2024-12-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-beep-403.html",
+    "image": "/img/htb-beep-403.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Buffer (Easy Windows)",
+    "date": "2024-12-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-buffer-532.html",
+    "image": "/img/htb-buffer-532.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Buff (Hard FreeBSD)",
+    "date": "2024-12-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-buff-803.html",
+    "image": "/img/htb-buff-803.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "date": "2024-12-06",
+    "section": "notes",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-592.html",
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-592.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Brainstorm (Medium OpenBSD)",
+    "date": "2024-12-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-brainstorm-691.html",
+    "image": "/img/htb-brainstorm-691.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Spectra (Medium OpenBSD)",
+    "date": "2024-12-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-284.html",
+    "image": "/img/htb-spectra-284.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2024-12-03",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-131.html",
+    "image": "/img/note-cryptography-fundamentals-131.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Blue (Medium Linux)",
+    "date": "2024-12-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blue-314.html",
+    "image": "/img/htb-blue-314.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Granny (Easy FreeBSD)",
+    "date": "2024-12-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-granny-184.html",
+    "image": "/img/htb-granny-184.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2024-11-30",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-149.html",
+    "image": "/img/note-malware-analysis-environment-setup-149.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Atom (Hard FreeBSD)",
+    "date": "2024-11-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-atom-526.html",
+    "image": "/img/htb-atom-526.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2024-11-29",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-349.html",
+    "image": "/img/note-malware-analysis-environment-setup-349.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PwnTillDawn — Doctor (Hard Linux)",
+    "date": "2024-11-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-doctor-911.html",
+    "image": "/img/htb-doctor-911.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Pikaboo (Insane Linux)",
+    "date": "2024-11-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pikaboo-587.html",
+    "image": "/img/htb-pikaboo-587.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2024-11-27",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-544.html",
+    "image": "/img/note-blue-team-detection-techniques-544.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Deja Vu (Easy Linux)",
+    "date": "2024-11-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-870.html",
+    "image": "/img/htb-deja-vu-870.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2024-11-22",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-636.html",
+    "image": "/img/note-docker-security-hardening-636.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-11-21",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-908.html",
+    "image": "/img/note-memory-forensics-with-volatility-908.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Common CTF Tricks and Techniques",
+    "date": "2024-11-19",
+    "section": "notes",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-798.html",
+    "image": "/img/note-common-ctf-tricks-and-techniques-798.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Mindgames (Hard Windows)",
+    "date": "2024-11-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-183.html",
+    "image": "/img/htb-mindgames-183.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Love (Hard Linux)",
+    "date": "2024-11-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-love-441.html",
+    "image": "/img/htb-love-441.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-11-14",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-172.html",
+    "image": "/img/note-memory-forensics-with-volatility-172.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Writer (Insane OpenBSD)",
+    "date": "2024-11-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-writer-476.html",
+    "image": "/img/htb-writer-476.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2024-11-11",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-203.html",
+    "image": "/img/note-reverse-engineering-basics-203.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2024-11-10",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-187.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-187.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Armageddon (Medium FreeBSD)",
+    "date": "2024-11-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-armageddon-134.html",
+    "image": "/img/htb-armageddon-134.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OSCP Exam Preparation Notes",
+    "date": "2024-11-07",
+    "section": "notes",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-514.html",
+    "image": "/img/note-oscp-exam-preparation-notes-514.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Knife (Insane Windows)",
+    "date": "2024-11-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-knife-232.html",
+    "image": "/img/htb-knife-232.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2024-11-05",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-211.html",
+    "image": "/img/note-kubernetes-security-assessment-211.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Omni (Easy FreeBSD)",
+    "date": "2024-11-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-omni-739.html",
+    "image": "/img/htb-omni-739.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2024-11-02",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-487.html",
+    "image": "/img/note-threat-hunting-with-splunk-487.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2024-10-30",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-162.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-162.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2024-10-29",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-707.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-707.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Steel Mountain (Insane OpenBSD)",
+    "date": "2024-10-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-steel-mountain-689.html",
+    "image": "/img/htb-steel-mountain-689.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Passage (Hard FreeBSD)",
+    "date": "2024-10-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-passage-198.html",
+    "image": "/img/htb-passage-198.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2024-10-25",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-706.html",
+    "image": "/img/note-kubernetes-security-assessment-706.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Mustacchio (Medium Linux)",
+    "date": "2024-10-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mustacchio-504.html",
+    "image": "/img/htb-mustacchio-504.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2024-10-23",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-114.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-114.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-10-23",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-540.html",
+    "image": "/img/note-memory-forensics-with-volatility-540.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Ophiuchi (Insane FreeBSD)",
+    "date": "2024-10-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ophiuchi-761.html",
+    "image": "/img/htb-ophiuchi-761.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2024-10-21",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-389.html",
+    "image": "/img/note-docker-security-hardening-389.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "VulnHub — Devel (Hard Windows)",
+    "date": "2024-10-21",
+    "section": "writeups",
+    "permalink": "/writeups/htb-devel-524.html",
+    "image": "/img/htb-devel-524.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Armageddon (Easy Windows)",
+    "date": "2024-10-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-armageddon-329.html",
+    "image": "/img/htb-armageddon-329.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2024-10-18",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-441.html",
+    "image": "/img/note-kubernetes-security-assessment-441.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2024-10-12",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-909.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-909.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Spectra (Insane Linux)",
+    "date": "2024-10-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-547.html",
+    "image": "/img/htb-spectra-547.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Passage (Medium FreeBSD)",
+    "date": "2024-10-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-passage-843.html",
+    "image": "/img/htb-passage-843.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Legacy (Insane Linux)",
+    "date": "2024-10-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-legacy-583.html",
+    "image": "/img/htb-legacy-583.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2024-09-30",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-687.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-687.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2024-09-29",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-788.html",
+    "image": "/img/note-yara-rule-writing-788.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2024-09-29",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-169.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-169.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Sense (Insane Linux)",
+    "date": "2024-09-28",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sense-714.html",
+    "image": "/img/htb-sense-714.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2024-09-25",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-776.html",
+    "image": "/img/note-blue-team-detection-techniques-776.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Traverxec (Medium OpenBSD)",
+    "date": "2024-09-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-traverxec-280.html",
+    "image": "/img/htb-traverxec-280.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-09-23",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-117.html",
+    "image": "/img/note-incident-response-playbook-117.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Atom (Easy OpenBSD)",
+    "date": "2024-09-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-atom-936.html",
+    "image": "/img/htb-atom-936.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2024-09-21",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-750.html",
+    "image": "/img/note-blue-team-detection-techniques-750.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Overpass (Insane Windows)",
+    "date": "2024-09-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-overpass-689.html",
+    "image": "/img/htb-overpass-689.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2024-09-18",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-335.html",
+    "image": "/img/note-cryptography-fundamentals-335.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2024-09-17",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-474.html",
+    "image": "/img/note-docker-security-hardening-474.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Tenet (Easy OpenBSD)",
+    "date": "2024-09-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tenet-133.html",
+    "image": "/img/htb-tenet-133.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Spectra (Medium FreeBSD)",
+    "date": "2024-09-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-100.html",
+    "image": "/img/htb-spectra-100.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Mustacchio (Insane FreeBSD)",
+    "date": "2024-09-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mustacchio-244.html",
+    "image": "/img/htb-mustacchio-244.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — FriendZone (Medium Linux)",
+    "date": "2024-09-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-friendzone-946.html",
+    "image": "/img/htb-friendzone-946.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2024-09-11",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-244.html",
+    "image": "/img/note-blue-team-detection-techniques-244.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Lame (Insane Linux)",
+    "date": "2024-09-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-lame-810.html",
+    "image": "/img/htb-lame-810.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2024-09-06",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-944.html",
+    "image": "/img/note-powershell-for-red-teamers-944.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2024-09-04",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-272.html",
+    "image": "/img/note-reverse-engineering-basics-272.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OSCP Exam Preparation Notes",
+    "date": "2024-09-04",
+    "section": "notes",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-974.html",
+    "image": "/img/note-oscp-exam-preparation-notes-974.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Skynet (Insane Linux)",
+    "date": "2024-09-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-skynet-183.html",
+    "image": "/img/htb-skynet-183.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-09-01",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-505.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-505.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-08-31",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-579.html",
+    "image": "/img/note-memory-forensics-with-volatility-579.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Tabby (Insane OpenBSD)",
+    "date": "2024-08-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tabby-577.html",
+    "image": "/img/htb-tabby-577.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-08-25",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-684.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-684.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Shocker (Hard FreeBSD)",
+    "date": "2024-08-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-shocker-519.html",
+    "image": "/img/htb-shocker-519.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "YARA Rule Writing",
+    "date": "2024-08-23",
+    "section": "notes",
+    "permalink": "/notes/note-yara-rule-writing-575.html",
+    "image": "/img/note-yara-rule-writing-575.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2024-08-23",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-629.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-629.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Intelligence (Hard FreeBSD)",
+    "date": "2024-08-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-intelligence-814.html",
+    "image": "/img/htb-intelligence-814.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Blunder (Hard Windows)",
+    "date": "2024-08-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-931.html",
+    "image": "/img/htb-blunder-931.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Sunday (Insane Linux)",
+    "date": "2024-08-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sunday-254.html",
+    "image": "/img/htb-sunday-254.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2024-08-14",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-667.html",
+    "image": "/img/note-blue-team-detection-techniques-667.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OSCP Exam Preparation Notes",
+    "date": "2024-08-05",
+    "section": "notes",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-313.html",
+    "image": "/img/note-oscp-exam-preparation-notes-313.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2024-08-05",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-732.html",
+    "image": "/img/note-digital-forensics-methodology-732.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Networked (Insane OpenBSD)",
+    "date": "2024-08-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-networked-782.html",
+    "image": "/img/htb-networked-782.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Omni (Easy Linux)",
+    "date": "2024-08-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-omni-434.html",
+    "image": "/img/htb-omni-434.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Reverse Engineering Basics",
+    "date": "2024-07-31",
+    "section": "notes",
+    "permalink": "/notes/note-reverse-engineering-basics-773.html",
+    "image": "/img/note-reverse-engineering-basics-773.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-07-30",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-624.html",
+    "image": "/img/note-memory-forensics-with-volatility-624.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-07-28",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-817.html",
+    "image": "/img/note-incident-response-playbook-817.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-07-27",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-692.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-692.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "TryHackMe — Bolt (Easy Linux)",
+    "date": "2024-07-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-bolt-606.html",
+    "image": "/img/htb-bolt-606.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Network Traffic Analysis with Wireshark",
+    "date": "2024-07-25",
+    "section": "notes",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-179.html",
+    "image": "/img/note-network-traffic-analysis-with-wireshark-179.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "VulnHub — Buff (Medium OpenBSD)",
+    "date": "2024-07-25",
+    "section": "writeups",
+    "permalink": "/writeups/htb-buff-959.html",
+    "image": "/img/htb-buff-959.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Skynet (Hard Linux)",
+    "date": "2024-07-22",
+    "section": "writeups",
+    "permalink": "/writeups/htb-skynet-127.html",
+    "image": "/img/htb-skynet-127.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Tartarsauce (Medium Windows)",
+    "date": "2024-07-21",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tartarsauce-446.html",
+    "image": "/img/htb-tartarsauce-446.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — TheNotebook (Easy OpenBSD)",
+    "date": "2024-07-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-thenotebook-710.html",
+    "image": "/img/htb-thenotebook-710.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Anthem (Medium Linux)",
+    "date": "2024-07-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-anthem-367.html",
+    "image": "/img/htb-anthem-367.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Atom (Medium FreeBSD)",
+    "date": "2024-07-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-atom-793.html",
+    "image": "/img/htb-atom-793.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Seal (Insane FreeBSD)",
+    "date": "2024-07-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-seal-205.html",
+    "image": "/img/htb-seal-205.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Buff (Hard OpenBSD)",
+    "date": "2024-07-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-buff-478.html",
+    "image": "/img/htb-buff-478.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PwnTillDawn — Nibbles (Insane OpenBSD)",
+    "date": "2024-07-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-nibbles-587.html",
+    "image": "/img/htb-nibbles-587.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Doctor (Hard Windows)",
+    "date": "2024-07-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-doctor-750.html",
+    "image": "/img/htb-doctor-750.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Armageddon (Insane FreeBSD)",
+    "date": "2024-07-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-armageddon-870.html",
+    "image": "/img/htb-armageddon-870.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2024-07-05",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-151.html",
+    "image": "/img/note-python-scripting-for-pentesting-151.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "VulnHub — Writer (Easy FreeBSD)",
+    "date": "2024-07-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-writer-579.html",
+    "image": "/img/htb-writer-579.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Crossfit (Insane OpenBSD)",
+    "date": "2024-07-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-crossfit-942.html",
+    "image": "/img/htb-crossfit-942.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Irked (Insane Linux)",
+    "date": "2024-06-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-irked-486.html",
+    "image": "/img/htb-irked-486.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Worker (Easy OpenBSD)",
+    "date": "2024-06-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-worker-475.html",
+    "image": "/img/htb-worker-475.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2024-06-21",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-460.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-460.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PwnTillDawn — Cereal (Hard Linux)",
+    "date": "2024-06-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cereal-682.html",
+    "image": "/img/htb-cereal-682.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Magic (Insane Linux)",
+    "date": "2024-06-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-magic-156.html",
+    "image": "/img/htb-magic-156.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2024-06-17",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-547.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-547.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "date": "2024-06-14",
+    "section": "notes",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-696.html",
+    "image": "/img/note-windows-post-exploitation-cheatsheet-696.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Deja Vu (Hard FreeBSD)",
+    "date": "2024-06-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-245.html",
+    "image": "/img/htb-deja-vu-245.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2024-06-11",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-287.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-287.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2024-06-11",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-832.html",
+    "image": "/img/note-digital-forensics-methodology-832.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Spectra (Easy OpenBSD)",
+    "date": "2024-06-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-477.html",
+    "image": "/img/htb-spectra-477.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Blue (Medium OpenBSD)",
+    "date": "2024-06-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blue-554.html",
+    "image": "/img/htb-blue-554.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2024-06-08",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-157.html",
+    "image": "/img/note-threat-hunting-with-splunk-157.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Admirer (Insane Windows)",
+    "date": "2024-06-08",
+    "section": "writeups",
+    "permalink": "/writeups/htb-admirer-619.html",
+    "image": "/img/htb-admirer-619.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Devel (Medium Linux)",
+    "date": "2024-06-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-devel-489.html",
+    "image": "/img/htb-devel-489.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-06-03",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-397.html",
+    "image": "/img/note-memory-forensics-with-volatility-397.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Docker Security Hardening",
+    "date": "2024-05-29",
+    "section": "notes",
+    "permalink": "/notes/note-docker-security-hardening-167.html",
+    "image": "/img/note-docker-security-hardening-167.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-05-26",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-765.html",
+    "image": "/img/note-incident-response-playbook-765.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2024-05-21",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-938.html",
+    "image": "/img/note-kubernetes-security-assessment-938.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OSCP Exam Preparation Notes",
+    "date": "2024-05-20",
+    "section": "notes",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-868.html",
+    "image": "/img/note-oscp-exam-preparation-notes-868.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Networked (Hard Linux)",
+    "date": "2024-05-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-networked-956.html",
+    "image": "/img/htb-networked-956.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Beep (Insane OpenBSD)",
+    "date": "2024-05-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-beep-565.html",
+    "image": "/img/htb-beep-565.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2024-05-16",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-844.html",
+    "image": "/img/note-web-application-penetration-testing-meth-844.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cryptography Fundamentals",
+    "date": "2024-05-16",
+    "section": "notes",
+    "permalink": "/notes/note-cryptography-fundamentals-348.html",
+    "image": "/img/note-cryptography-fundamentals-348.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2024-05-16",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-339.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-339.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Cap (Medium OpenBSD)",
+    "date": "2024-05-13",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cap-173.html",
+    "image": "/img/htb-cap-173.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Sunday (Medium Linux)",
+    "date": "2024-05-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-sunday-351.html",
+    "image": "/img/htb-sunday-351.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2024-05-09",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-971.html",
+    "image": "/img/note-malware-analysis-environment-setup-971.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Bucket (Medium OpenBSD)",
+    "date": "2024-05-08",
+    "section": "writeups",
+    "permalink": "/writeups/htb-bucket-185.html",
+    "image": "/img/htb-bucket-185.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2024-05-06",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-758.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-758.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Overpass (Easy OpenBSD)",
+    "date": "2024-05-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-overpass-635.html",
+    "image": "/img/htb-overpass-635.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Lame (Insane OpenBSD)",
+    "date": "2024-05-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-lame-297.html",
+    "image": "/img/htb-lame-297.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Convertmyfund (Medium Linux)",
+    "date": "2024-05-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-convertmyfund-208.html",
+    "image": "/img/htb-convertmyfund-208.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2024-04-30",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-546.html",
+    "image": "/img/note-kubernetes-security-assessment-546.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Deja Vu (Insane Windows)",
+    "date": "2024-04-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-159.html",
+    "image": "/img/htb-deja-vu-159.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Startup (Easy Linux)",
+    "date": "2024-04-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-startup-392.html",
+    "image": "/img/htb-startup-392.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "date": "2024-04-17",
+    "section": "notes",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-359.html",
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-359.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Monitors (Easy Windows)",
+    "date": "2024-04-11",
+    "section": "writeups",
+    "permalink": "/writeups/htb-monitors-858.html",
+    "image": "/img/htb-monitors-858.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-04-09",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-964.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-964.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Optimum (Medium Windows)",
+    "date": "2024-04-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-optimum-101.html",
+    "image": "/img/htb-optimum-101.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Active Directory Attack Paths",
+    "date": "2024-04-07",
+    "section": "notes",
+    "permalink": "/notes/note-active-directory-attack-paths-687.html",
+    "image": "/img/note-active-directory-attack-paths-687.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Optimum (Hard OpenBSD)",
+    "date": "2024-04-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-optimum-573.html",
+    "image": "/img/htb-optimum-573.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-04-05",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-995.html",
+    "image": "/img/note-memory-forensics-with-volatility-995.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Monitors (Insane Windows)",
+    "date": "2024-04-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-monitors-597.html",
+    "image": "/img/htb-monitors-597.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Blunder (Medium Windows)",
+    "date": "2024-04-04",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-311.html",
+    "image": "/img/htb-blunder-311.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Academy (Medium Linux)",
+    "date": "2024-04-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-academy-190.html",
+    "image": "/img/htb-academy-190.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Ghizer (Easy FreeBSD)",
+    "date": "2024-04-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ghizer-656.html",
+    "image": "/img/htb-ghizer-656.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-03-31",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-959.html",
+    "image": "/img/note-memory-forensics-with-volatility-959.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Dynstr (Insane OpenBSD)",
+    "date": "2024-03-30",
+    "section": "writeups",
+    "permalink": "/writeups/htb-dynstr-747.html",
+    "image": "/img/htb-dynstr-747.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Solidstate (Medium Linux)",
+    "date": "2024-03-29",
+    "section": "writeups",
+    "permalink": "/writeups/htb-solidstate-330.html",
+    "image": "/img/htb-solidstate-330.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2024-03-27",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-437.html",
+    "image": "/img/note-powershell-for-red-teamers-437.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Blunder (Easy Windows)",
+    "date": "2024-03-27",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-351.html",
+    "image": "/img/htb-blunder-351.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2024-03-25",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-631.html",
+    "image": "/img/note-sigma-rule-development-631.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Spectra (Easy OpenBSD)",
+    "date": "2024-03-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-687.html",
+    "image": "/img/htb-spectra-687.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Irked (Insane OpenBSD)",
+    "date": "2024-03-20",
+    "section": "writeups",
+    "permalink": "/writeups/htb-irked-867.html",
+    "image": "/img/htb-irked-867.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2024-03-17",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-779.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-779.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Bolt (Insane OpenBSD)",
+    "date": "2024-03-17",
+    "section": "writeups",
+    "permalink": "/writeups/htb-bolt-475.html",
+    "image": "/img/htb-bolt-475.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2024-03-16",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-798.html",
+    "image": "/img/note-powershell-for-red-teamers-798.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Mindgames (Insane Windows)",
+    "date": "2024-03-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-mindgames-927.html",
+    "image": "/img/htb-mindgames-927.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "TryHackMe — Forge (Medium OpenBSD)",
+    "date": "2024-03-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-forge-569.html",
+    "image": "/img/htb-forge-569.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Deja Vu (Hard FreeBSD)",
+    "date": "2024-03-15",
+    "section": "writeups",
+    "permalink": "/writeups/htb-deja-vu-829.html",
+    "image": "/img/htb-deja-vu-829.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Buff (Medium Linux)",
+    "date": "2024-03-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-buff-792.html",
+    "image": "/img/htb-buff-792.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Overpass (Medium Windows)",
+    "date": "2024-03-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-overpass-636.html",
+    "image": "/img/htb-overpass-636.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-03-11",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-936.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-936.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Res (Hard Windows)",
+    "date": "2024-03-10",
+    "section": "writeups",
+    "permalink": "/writeups/htb-res-621.html",
+    "image": "/img/htb-res-621.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Linux Privilege Escalation Techniques",
+    "date": "2024-03-07",
+    "section": "notes",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-240.html",
+    "image": "/img/note-linux-privilege-escalation-techniques-240.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "VulnHub — Nineveh (Easy FreeBSD)",
+    "date": "2024-03-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-nineveh-176.html",
+    "image": "/img/htb-nineveh-176.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-03-06",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-785.html",
+    "image": "/img/note-incident-response-playbook-785.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Tenet (Hard Windows)",
+    "date": "2024-03-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tenet-754.html",
+    "image": "/img/htb-tenet-754.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Cereal (Hard FreeBSD)",
+    "date": "2024-03-06",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cereal-900.html",
+    "image": "/img/htb-cereal-900.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Kubernetes Security Assessment",
+    "date": "2024-03-05",
+    "section": "notes",
+    "permalink": "/notes/note-kubernetes-security-assessment-700.html",
+    "image": "/img/note-kubernetes-security-assessment-700.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PwnTillDawn — Cereal (Insane Linux)",
+    "date": "2024-03-03",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cereal-636.html",
+    "image": "/img/htb-cereal-636.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Malware Analysis Environment Setup",
+    "date": "2024-03-02",
+    "section": "notes",
+    "permalink": "/notes/note-malware-analysis-environment-setup-250.html",
+    "image": "/img/note-malware-analysis-environment-setup-250.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2024-03-01",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-854.html",
+    "image": "/img/note-web-application-penetration-testing-meth-854.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2024-03-01",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-798.html",
+    "image": "/img/note-python-scripting-for-pentesting-798.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Pit (Medium FreeBSD)",
+    "date": "2024-03-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pit-167.html",
+    "image": "/img/htb-pit-167.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2024-02-28",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-909.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-909.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Ready (Insane OpenBSD)",
+    "date": "2024-02-26",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ready-677.html",
+    "image": "/img/htb-ready-677.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-02-22",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-600.html",
+    "image": "/img/note-incident-response-playbook-600.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Bash One-Liners for Security Testing",
+    "date": "2024-02-21",
+    "section": "notes",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-395.html",
+    "image": "/img/note-bash-one-liners-for-security-testing-395.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Threat Hunting with Splunk",
+    "date": "2024-02-20",
+    "section": "notes",
+    "permalink": "/notes/note-threat-hunting-with-splunk-675.html",
+    "image": "/img/note-threat-hunting-with-splunk-675.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Sigma Rule Development",
+    "date": "2024-02-17",
+    "section": "notes",
+    "permalink": "/notes/note-sigma-rule-development-209.html",
+    "image": "/img/note-sigma-rule-development-209.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Dynstr (Easy FreeBSD)",
+    "date": "2024-02-16",
+    "section": "writeups",
+    "permalink": "/writeups/htb-dynstr-386.html",
+    "image": "/img/htb-dynstr-386.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Monitors (Hard OpenBSD)",
+    "date": "2024-02-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-monitors-693.html",
+    "image": "/img/htb-monitors-693.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-02-03",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-891.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-891.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Incident Response Playbook",
+    "date": "2024-02-01",
+    "section": "notes",
+    "permalink": "/notes/note-incident-response-playbook-114.html",
+    "image": "/img/note-incident-response-playbook-114.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "VulnHub — Ghizer (Medium FreeBSD)",
+    "date": "2024-02-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ghizer-566.html",
+    "image": "/img/htb-ghizer-566.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "TryHackMe — Blunder (Hard Windows)",
+    "date": "2024-02-01",
+    "section": "writeups",
+    "permalink": "/writeups/htb-blunder-446.html",
+    "image": "/img/htb-blunder-446.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-01-31",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-405.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-405.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Common CTF Tricks and Techniques",
+    "date": "2024-01-28",
+    "section": "notes",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-973.html",
+    "image": "/img/note-common-ctf-tricks-and-techniques-973.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2024-01-26",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-706.html",
+    "image": "/img/note-powershell-for-red-teamers-706.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "PowerShell for Red Teamers",
+    "date": "2024-01-26",
+    "section": "notes",
+    "permalink": "/notes/note-powershell-for-red-teamers-167.html",
+    "image": "/img/note-powershell-for-red-teamers-167.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "HackTheBox — Ready (Insane FreeBSD)",
+    "date": "2024-01-24",
+    "section": "writeups",
+    "permalink": "/writeups/htb-ready-458.html",
+    "image": "/img/htb-ready-458.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Digital Forensics Methodology",
+    "date": "2024-01-23",
+    "section": "notes",
+    "permalink": "/notes/note-digital-forensics-methodology-829.html",
+    "image": "/img/note-digital-forensics-methodology-829.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Spectra (Insane Linux)",
+    "date": "2024-01-23",
+    "section": "writeups",
+    "permalink": "/writeups/htb-spectra-594.html",
+    "image": "/img/htb-spectra-594.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Python Scripting for Pentesting",
+    "date": "2024-01-21",
+    "section": "notes",
+    "permalink": "/notes/note-python-scripting-for-pentesting-674.html",
+    "image": "/img/note-python-scripting-for-pentesting-674.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — ScriptKiddie (Medium FreeBSD)",
+    "date": "2024-01-19",
+    "section": "writeups",
+    "permalink": "/writeups/htb-scriptkiddie-143.html",
+    "image": "/img/htb-scriptkiddie-143.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "MITRE ATT&CK Framework Reference",
+    "date": "2024-01-18",
+    "section": "notes",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-248.html",
+    "image": "/img/note-mitre-att&ck-framework-reference-248.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Node (Insane OpenBSD)",
+    "date": "2024-01-18",
+    "section": "writeups",
+    "permalink": "/writeups/htb-node-750.html",
+    "image": "/img/htb-node-750.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Web Application Penetration Testing Methodology",
+    "date": "2024-01-14",
+    "section": "notes",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-779.html",
+    "image": "/img/note-web-application-penetration-testing-meth-779.png",
+    "readTime": "2 min"
+  },
+  {
+    "title": "HackTheBox — Optimum (Easy OpenBSD)",
+    "date": "2024-01-14",
+    "section": "writeups",
+    "permalink": "/writeups/htb-optimum-492.html",
+    "image": "/img/htb-optimum-492.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OSCP Exam Preparation Notes",
+    "date": "2024-01-13",
+    "section": "notes",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-578.html",
+    "image": "/img/note-oscp-exam-preparation-notes-578.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Memory Forensics with Volatility",
+    "date": "2024-01-12",
+    "section": "notes",
+    "permalink": "/notes/note-memory-forensics-with-volatility-684.html",
+    "image": "/img/note-memory-forensics-with-volatility-684.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "PwnTillDawn — Cereal (Insane Windows)",
+    "date": "2024-01-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-cereal-808.html",
+    "image": "/img/htb-cereal-808.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "VulnHub — Breadcrumbs (Medium OpenBSD)",
+    "date": "2024-01-12",
+    "section": "writeups",
+    "permalink": "/writeups/htb-breadcrumbs-927.html",
+    "image": "/img/htb-breadcrumbs-927.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "VulnHub — Tartarsauce (Easy Linux)",
+    "date": "2024-01-09",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tartarsauce-193.html",
+    "image": "/img/htb-tartarsauce-193.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Node (Medium Linux)",
+    "date": "2024-01-08",
+    "section": "writeups",
+    "permalink": "/writeups/htb-node-516.html",
+    "image": "/img/htb-node-516.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Irked (Easy OpenBSD)",
+    "date": "2024-01-07",
+    "section": "writeups",
+    "permalink": "/writeups/htb-irked-698.html",
+    "image": "/img/htb-irked-698.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Tenet (Insane OpenBSD)",
+    "date": "2024-01-05",
+    "section": "writeups",
+    "permalink": "/writeups/htb-tenet-535.html",
+    "image": "/img/htb-tenet-535.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "OffSec Proving Grounds — Pikaboo (Easy FreeBSD)",
+    "date": "2024-01-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-pikaboo-895.html",
+    "image": "/img/htb-pikaboo-895.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "HackTheBox — Atom (Easy OpenBSD)",
+    "date": "2024-01-02",
+    "section": "writeups",
+    "permalink": "/writeups/htb-atom-200.html",
+    "image": "/img/htb-atom-200.png",
+    "readTime": "4 min"
+  },
+  {
+    "title": "Buffer Overflow Exploitation Guide",
+    "date": "2024-01-01",
+    "section": "notes",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-567.html",
+    "image": "/img/note-buffer-overflow-exploitation-guide-567.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Blue Team Detection Techniques",
+    "date": "2024-01-01",
+    "section": "notes",
+    "permalink": "/notes/note-blue-team-detection-techniques-368.html",
+    "image": "/img/note-blue-team-detection-techniques-368.png",
+    "readTime": "3 min"
+  }
+]

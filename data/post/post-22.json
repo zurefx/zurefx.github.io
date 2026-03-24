@@ -1,0 +1,230 @@
+[
+  {
+    "id": "htb-breadcrumbs-976",
+    "title": "TryHackMe — Breadcrumbs (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Breadcrumbs. SSTI and Unquoted Service Path to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-breadcrumbs-976.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-23",
+    "tags": [
+      "pwntilldawn",
+      "active-directory",
+      "insane",
+      "tryhackme",
+      "linux",
+      "hackthebox"
+    ],
+    "image": "/img/htb-breadcrumbs-976.png",
+    "words": 632,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-424",
+    "title": "Custom Wordlist Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-424.html",
+    "btn_label": "View Script",
+    "date": "2025-12-22",
+    "tags": [
+      "rust",
+      "bash",
+      "python",
+      "scanner"
+    ],
+    "image": "/img/script-custom-wordlist-generator-424.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-389",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-389.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-22",
+    "tags": [
+      "blue-team",
+      "enumeration",
+      "persistence",
+      "linux"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-389.png",
+    "words": 331,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-doctor-127",
+    "title": "PwnTillDawn — Doctor (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Doctor. IDOR and Constrained Delegation to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-doctor-127.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-22",
+    "tags": [
+      "medium",
+      "linux",
+      "easy",
+      "windows"
+    ],
+    "image": "/img/htb-doctor-127.png",
+    "words": 604,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-944",
+    "title": "JWT Token Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-944.html",
+    "btn_label": "View Script",
+    "date": "2025-12-21",
+    "tags": [
+      "python",
+      "powershell",
+      "go",
+      "rust",
+      "bash"
+    ],
+    "image": "/img/script-jwt-token-analyzer-944.png",
+    "words": 257,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-862",
+    "title": "API Security Testing Framework — Bash",
+    "section": "scripting",
+    "description": "A Bash script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-862.html",
+    "btn_label": "View Script",
+    "date": "2025-12-21",
+    "tags": [
+      "go",
+      "script",
+      "bash",
+      "rust",
+      "scanner",
+      "tool"
+    ],
+    "image": "/img/script-api-security-testing-framework-862.png",
+    "words": 387,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-782",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-782.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-21",
+    "tags": [
+      "privilege-escalation",
+      "persistence",
+      "oscp",
+      "linux",
+      "blue-team",
+      "lateral-movement"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-782.png",
+    "words": 496,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-486",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-486.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-21",
+    "tags": [
+      "blue-team",
+      "networking",
+      "windows",
+      "privilege-escalation",
+      "dfir"
+    ],
+    "image": "/img/note-active-directory-attack-paths-486.png",
+    "words": 418,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-bucket-804",
+    "title": "TryHackMe — Bucket (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Bucket. IDOR and Silver Ticket to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-bucket-804.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-21",
+    "tags": [
+      "ctf",
+      "offsec",
+      "web",
+      "forensics",
+      "windows",
+      "hard"
+    ],
+    "image": "/img/htb-bucket-804.png",
+    "words": 614,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-513",
+    "title": "CTF Challenge Solver Template — Python",
+    "section": "scripting",
+    "description": "A Python script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-513.html",
+    "btn_label": "View Script",
+    "date": "2025-12-19",
+    "tags": [
+      "automation",
+      "parser",
+      "c",
+      "scanner",
+      "fuzzer",
+      "python"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-513.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-thenotebook-736",
+    "title": "HackTheBox — TheNotebook (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox TheNotebook. SUID Binary and CSRF to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-thenotebook-736.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-19",
+    "tags": [
+      "hard",
+      "web",
+      "reversing"
+    ],
+    "image": "/img/htb-thenotebook-736.png",
+    "words": 585,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-process-injection-poc-460",
+    "title": "Process Injection PoC — Go",
+    "section": "scripting",
+    "description": "A Go script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-460.html",
+    "btn_label": "View Script",
+    "date": "2025-12-18",
+    "tags": [
+      "powershell",
+      "go",
+      "fuzzer",
+      "rust",
+      "parser"
+    ],
+    "image": "/img/script-process-injection-poc-460.png",
+    "words": 289,
+    "readTime": "2 min"
+  }
+]

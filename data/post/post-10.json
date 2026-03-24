@@ -1,0 +1,226 @@
+[
+  {
+    "id": "htb-arctic-486",
+    "title": "VulnHub — Arctic (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Arctic. DLL Hijacking and Pass the Ticket to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-arctic-486.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-15",
+    "tags": [
+      "insane",
+      "windows",
+      "hackthebox",
+      "reversing"
+    ],
+    "image": "/img/htb-arctic-486.png",
+    "words": 640,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-379",
+    "title": "DNS Resolver and Brute Forcer — Go",
+    "section": "scripting",
+    "description": "A Go script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-379.html",
+    "btn_label": "View Script",
+    "date": "2026-02-14",
+    "tags": [
+      "rust",
+      "automation",
+      "script",
+      "go"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-379.png",
+    "words": 343,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-576",
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "section": "scripting",
+    "description": "A Python script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-576.html",
+    "btn_label": "View Script",
+    "date": "2026-02-13",
+    "tags": [
+      "script",
+      "c",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-576.png",
+    "words": 355,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-581",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-581.html",
+    "btn_label": "View Script",
+    "date": "2026-02-12",
+    "tags": [
+      "scanner",
+      "parser",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-web-crawler-and-spider-581.png",
+    "words": 312,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-465",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-465.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-12",
+    "tags": [
+      "shellcode",
+      "buffer-overflow",
+      "zero-day",
+      "uaf",
+      "kernel"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-465.png",
+    "words": 439,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-642",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-642.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-12",
+    "tags": [
+      "dfir",
+      "oscp",
+      "blue-team",
+      "privilege-escalation",
+      "malware"
+    ],
+    "image": "/img/note-reverse-engineering-basics-642.png",
+    "words": 767,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-convertmyfund-808",
+    "title": "HackTheBox — Convertmyfund (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Convertmyfund. Path Traversal and AS-REP Roasting to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-convertmyfund-808.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-12",
+    "tags": [
+      "linux",
+      "pwntilldawn",
+      "windows",
+      "forensics",
+      "tryhackme"
+    ],
+    "image": "/img/htb-convertmyfund-808.png",
+    "words": 641,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-fuse-185",
+    "title": "TryHackMe — Fuse (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Fuse. Subdomain Takeover and Pass the Hash to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-fuse-185.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-11",
+    "tags": [
+      "linux",
+      "web",
+      "forensics",
+      "hard",
+      "ctf",
+      "windows",
+      "hackthebox"
+    ],
+    "image": "/img/htb-fuse-185.png",
+    "words": 677,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-673",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-673.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-09",
+    "tags": [
+      "kernel",
+      "zero-day",
+      "shellcode"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-673.png",
+    "words": 496,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-poison-223",
+    "title": "TryHackMe — Poison (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Poison. IDOR and AS-REP Roasting to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-poison-223.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-08",
+    "tags": [
+      "tryhackme",
+      "medium",
+      "reversing",
+      "insane"
+    ],
+    "image": "/img/htb-poison-223.png",
+    "words": 575,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-861",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-861.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-07",
+    "tags": [
+      "cve",
+      "rop",
+      "shellcode",
+      "heap-exploitation",
+      "format-string"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-861.png",
+    "words": 459,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-590",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-590.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-06",
+    "tags": [
+      "lateral-movement",
+      "dfir",
+      "oscp",
+      "cheatsheet",
+      "networking",
+      "linux"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-590.png",
+    "words": 372,
+    "readTime": "2 min"
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "id": "htb-sunday-227",
+    "title": "HackTheBox — Sunday (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Sunday. SQL Injection and IDOR to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-sunday-227.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-12",
+    "tags": [
+      "web",
+      "tryhackme",
+      "offsec",
+      "active-directory",
+      "insane",
+      "hackthebox",
+      "reversing"
+    ],
+    "image": "/img/htb-sunday-227.png",
+    "words": 642,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-spectra-547",
+    "title": "VulnHub — Spectra (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Spectra. ACL Abuse and Subdomain Takeover to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-spectra-547.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-12",
+    "tags": [
+      "pwntilldawn",
+      "offsec",
+      "reversing",
+      "medium",
+      "web",
+      "windows",
+      "easy"
+    ],
+    "image": "/img/htb-spectra-547.png",
+    "words": 576,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-sense-356",
+    "title": "TryHackMe — Sense (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Sense. Remote File Inclusion and SSRF to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-sense-356.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-12",
+    "tags": [
+      "linux",
+      "tryhackme",
+      "pwntilldawn",
+      "active-directory",
+      "forensics"
+    ],
+    "image": "/img/htb-sense-356.png",
+    "words": 540,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-528",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-528.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-11",
+    "tags": [
+      "persistence",
+      "oscp",
+      "blue-team",
+      "enumeration"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-528.png",
+    "words": 320,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-cronos-531",
+    "title": "PwnTillDawn — Cronos (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Cronos. Command Injection and ACL Abuse to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-cronos-531.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-11",
+    "tags": [
+      "offsec",
+      "medium",
+      "pwntilldawn",
+      "hackthebox",
+      "tryhackme",
+      "active-directory",
+      "reversing"
+    ],
+    "image": "/img/htb-cronos-531.png",
+    "words": 562,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-446",
+    "title": "AMSI Bypass Collection — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-446.html",
+    "btn_label": "View Script",
+    "date": "2024-10-10",
+    "tags": [
+      "rust",
+      "tool",
+      "scanner",
+      "fuzzer",
+      "automation",
+      "powershell"
+    ],
+    "image": "/img/script-amsi-bypass-collection-446.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-jarvis-678",
+    "title": "TryHackMe — Jarvis (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Jarvis. Open Redirect and Pass the Ticket to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-jarvis-678.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-10",
+    "tags": [
+      "linux",
+      "pwntilldawn",
+      "insane",
+      "hackthebox",
+      "medium",
+      "forensics",
+      "web"
+    ],
+    "image": "/img/htb-jarvis-678.png",
+    "words": 612,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-armageddon-749",
+    "title": "PwnTillDawn — Armageddon (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Armageddon. IDOR and Remote Code Execution to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-armageddon-749.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-10",
+    "tags": [
+      "easy",
+      "linux",
+      "active-directory",
+      "forensics",
+      "offsec",
+      "hackthebox"
+    ],
+    "image": "/img/htb-armageddon-749.png",
+    "words": 558,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-404",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-404.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-08",
+    "tags": [
+      "malware",
+      "blue-team",
+      "oscp",
+      "privilege-escalation",
+      "persistence",
+      "enumeration"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-404.png",
+    "words": 230,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-736",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-736.html",
+    "btn_label": "View Script",
+    "date": "2024-10-07",
+    "tags": [
+      "c",
+      "tool",
+      "go",
+      "rust",
+      "fuzzer",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-736.png",
+    "words": 332,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-405",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-405.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-07",
+    "tags": [
+      "persistence",
+      "linux",
+      "enumeration",
+      "cheatsheet",
+      "blue-team"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-405.png",
+    "words": 449,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-beep-569",
+    "title": "PwnTillDawn — Beep (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Beep. CORS Misconfiguration and SUID Binary to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-beep-569.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-07",
+    "tags": [
+      "web",
+      "insane",
+      "hard",
+      "active-directory",
+      "tryhackme"
+    ],
+    "image": "/img/htb-beep-569.png",
+    "words": 635,
+    "readTime": "4 min"
+  }
+]

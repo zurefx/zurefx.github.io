@@ -1,0 +1,231 @@
+[
+  {
+    "id": "htb-sense-714",
+    "title": "PwnTillDawn — Sense (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Sense. Kerberoasting and XXE to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-sense-714.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-28",
+    "tags": [
+      "reversing",
+      "forensics",
+      "insane",
+      "linux",
+      "windows",
+      "tryhackme",
+      "easy"
+    ],
+    "image": "/img/htb-sense-714.png",
+    "words": 644,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-mustacchio-287",
+    "title": "HackTheBox — Mustacchio (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Mustacchio. SeDebugPrivilege and AlwaysInstallElevated to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-mustacchio-287.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-28",
+    "tags": [
+      "web",
+      "forensics",
+      "easy"
+    ],
+    "image": "/img/htb-mustacchio-287.png",
+    "words": 639,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-beep-153",
+    "title": "HackTheBox — Beep (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Beep. DNS Rebinding and SQL Injection to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-beep-153.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-28",
+    "tags": [
+      "active-directory",
+      "offsec",
+      "tryhackme",
+      "ctf",
+      "hackthebox",
+      "hard"
+    ],
+    "image": "/img/htb-beep-153.png",
+    "words": 632,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-networked-590",
+    "title": "VulnHub — Networked (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Networked. SUID Binary and SSRF to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-networked-590.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-26",
+    "tags": [
+      "insane",
+      "hackthebox",
+      "reversing",
+      "pwntilldawn",
+      "active-directory",
+      "forensics"
+    ],
+    "image": "/img/htb-networked-590.png",
+    "words": 633,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-776",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-776.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-25",
+    "tags": [
+      "windows",
+      "lateral-movement",
+      "dfir"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-776.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-traverxec-280",
+    "title": "HackTheBox — Traverxec (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Traverxec. IDOR and AlwaysInstallElevated to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-traverxec-280.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-25",
+    "tags": [
+      "windows",
+      "linux",
+      "easy",
+      "pwntilldawn",
+      "tryhackme",
+      "hard"
+    ],
+    "image": "/img/htb-traverxec-280.png",
+    "words": 708,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-alfred-227",
+    "title": "PwnTillDawn — Alfred (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Alfred. ACL Abuse and AlwaysInstallElevated to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-alfred-227.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-25",
+    "tags": [
+      "insane",
+      "web",
+      "tryhackme"
+    ],
+    "image": "/img/htb-alfred-227.png",
+    "words": 569,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-415",
+    "title": "CTF Challenge Solver Template — Go",
+    "section": "scripting",
+    "description": "A Go script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-415.html",
+    "btn_label": "View Script",
+    "date": "2024-09-24",
+    "tags": [
+      "c",
+      "go",
+      "rust",
+      "bash",
+      "scanner"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-415.png",
+    "words": 345,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-568",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-568.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-24",
+    "tags": [
+      "networking",
+      "privilege-escalation",
+      "dfir"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-568.png",
+    "words": 582,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-passage-984",
+    "title": "TryHackMe — Passage (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Passage. LAPS Abuse and Remote Code Execution to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-passage-984.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-24",
+    "tags": [
+      "pwntilldawn",
+      "offsec",
+      "active-directory",
+      "ctf",
+      "medium",
+      "forensics"
+    ],
+    "image": "/img/htb-passage-984.png",
+    "words": 626,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-c2-beacon-simulator-369",
+    "title": "C2 Beacon Simulator — Python",
+    "section": "scripting",
+    "description": "A Python script for c2 beacon simulator. Built for security research and automation.",
+    "permalink": "/scripting/script-c2-beacon-simulator-369.html",
+    "btn_label": "View Script",
+    "date": "2024-09-23",
+    "tags": [
+      "rust",
+      "go",
+      "c",
+      "script",
+      "tool",
+      "bash",
+      "python"
+    ],
+    "image": "/img/script-c2-beacon-simulator-369.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-959",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-959.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-23",
+    "tags": [
+      "persistence",
+      "lateral-movement",
+      "dfir",
+      "oscp",
+      "networking",
+      "cheatsheet"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-959.png",
+    "words": 326,
+    "readTime": "2 min"
+  }
+]

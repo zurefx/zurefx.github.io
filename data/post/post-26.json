@@ -1,0 +1,228 @@
+[
+  {
+    "id": "note-docker-security-hardening-664",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-664.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-27",
+    "tags": [
+      "persistence",
+      "dfir",
+      "blue-team",
+      "privilege-escalation",
+      "linux"
+    ],
+    "image": "/img/note-docker-security-hardening-664.png",
+    "words": 518,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-920",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-920.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-27",
+    "tags": [
+      "networking",
+      "malware",
+      "linux",
+      "persistence",
+      "enumeration"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-920.png",
+    "words": 641,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-optimum-343",
+    "title": "PwnTillDawn — Optimum (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Optimum. ACL Abuse and DNS Rebinding to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-optimum-343.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-27",
+    "tags": [
+      "easy",
+      "medium",
+      "forensics",
+      "linux"
+    ],
+    "image": "/img/htb-optimum-343.png",
+    "words": 652,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-internal-921",
+    "title": "PwnTillDawn — Internal (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Internal. DCSync and ACL Abuse to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-internal-921.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-27",
+    "tags": [
+      "linux",
+      "windows",
+      "insane"
+    ],
+    "image": "/img/htb-internal-921.png",
+    "words": 630,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-breadcrumbs-267",
+    "title": "PwnTillDawn — Breadcrumbs (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Breadcrumbs. Kerberoasting and GPP Password to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-breadcrumbs-267.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-27",
+    "tags": [
+      "reversing",
+      "tryhackme",
+      "linux",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-breadcrumbs-267.png",
+    "words": 603,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-arctic-862",
+    "title": "HackTheBox — Arctic (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Arctic. XSS and DCSync to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-arctic-862.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-27",
+    "tags": [
+      "reversing",
+      "tryhackme",
+      "medium",
+      "forensics",
+      "active-directory"
+    ],
+    "image": "/img/htb-arctic-862.png",
+    "words": 637,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-seal-343",
+    "title": "PwnTillDawn — Seal (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Seal. Silver Ticket and SSTI to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-seal-343.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-26",
+    "tags": [
+      "pwntilldawn",
+      "reversing",
+      "forensics"
+    ],
+    "image": "/img/htb-seal-343.png",
+    "words": 617,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-thenotebook-269",
+    "title": "TryHackMe — TheNotebook (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe TheNotebook. Cron Job and XSS to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-thenotebook-269.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-25",
+    "tags": [
+      "hackthebox",
+      "windows",
+      "forensics",
+      "offsec",
+      "reversing",
+      "pwntilldawn",
+      "hard"
+    ],
+    "image": "/img/htb-thenotebook-269.png",
+    "words": 575,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-pikaboo-557",
+    "title": "OffSec Proving Grounds — Pikaboo (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Pikaboo. LAPS Abuse and XSS to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pikaboo-557.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-25",
+    "tags": [
+      "forensics",
+      "active-directory",
+      "medium",
+      "tryhackme",
+      "insane",
+      "hackthebox"
+    ],
+    "image": "/img/htb-pikaboo-557.png",
+    "words": 652,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-node-346",
+    "title": "TryHackMe — Node (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Node. Sudo Misconfiguration and NFS No Root Squash to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-node-346.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-25",
+    "tags": [
+      "active-directory",
+      "ctf",
+      "offsec",
+      "forensics",
+      "windows",
+      "hackthebox"
+    ],
+    "image": "/img/htb-node-346.png",
+    "words": 640,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-421",
+    "title": "Subdomain Enumeration Tool — Go",
+    "section": "scripting",
+    "description": "A Go script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-421.html",
+    "btn_label": "View Script",
+    "date": "2025-11-24",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "python",
+      "go"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-421.png",
+    "words": 307,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-320",
+    "title": "Log Parser and Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-320.html",
+    "btn_label": "View Script",
+    "date": "2025-11-24",
+    "tags": [
+      "powershell",
+      "c",
+      "scanner",
+      "fuzzer",
+      "rust"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-320.png",
+    "words": 265,
+    "readTime": "2 min"
+  }
+]

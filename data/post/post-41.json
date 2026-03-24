@@ -1,0 +1,239 @@
+[
+  {
+    "id": "htb-convertmyfund-279",
+    "title": "PwnTillDawn — Convertmyfund (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Convertmyfund. LAPS Abuse and Open Redirect to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-convertmyfund-279.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-09",
+    "tags": [
+      "web",
+      "hard",
+      "insane",
+      "easy",
+      "reversing",
+      "offsec",
+      "linux"
+    ],
+    "image": "/img/htb-convertmyfund-279.png",
+    "words": 637,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-326",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-326.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-08",
+    "tags": [
+      "lateral-movement",
+      "cheatsheet",
+      "blue-team",
+      "windows",
+      "oscp"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-326.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-592",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-592.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-08",
+    "tags": [
+      "blue-team",
+      "windows",
+      "lateral-movement",
+      "networking",
+      "persistence",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-592.png",
+    "words": 243,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-641",
+    "title": "Log Parser and Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-641.html",
+    "btn_label": "View Script",
+    "date": "2025-09-07",
+    "tags": [
+      "python",
+      "script",
+      "rust",
+      "tool",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-641.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-223",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-223.html",
+    "btn_label": "Read Research",
+    "date": "2025-09-07",
+    "tags": [
+      "uaf",
+      "zero-day",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 487,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-novel-persistence-mechanisms-in-linux-461",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "projects",
+    "description": "Open source security project: Novel Persistence Mechanisms in Linux. Built for the community.",
+    "permalink": "/research/project-novel-persistence-mechanisms-in-linux-461.html",
+    "btn_label": "View Project",
+    "date": "2025-09-07",
+    "tags": [
+      "security",
+      "plugin",
+      "cli",
+      "extension",
+      "open-source"
+    ],
+    "image": "/img/project-novel-persistence-mechanisms-in-linux-461.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "hashcat",
+      "ffuf",
+      "hydra"
+    ]
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-178",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-178.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-07",
+    "tags": [
+      "cheatsheet",
+      "malware",
+      "linux",
+      "dfir",
+      "blue-team"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-178.png",
+    "words": 514,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-jarvis-351",
+    "title": "PwnTillDawn — Jarvis (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Jarvis. ACL Abuse and DLL Hijacking to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-jarvis-351.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-07",
+    "tags": [
+      "web",
+      "forensics",
+      "active-directory",
+      "insane",
+      "linux",
+      "medium",
+      "windows"
+    ],
+    "image": "/img/htb-jarvis-351.png",
+    "words": 627,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-ghizer-339",
+    "title": "HackTheBox — Ghizer (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ghizer. Local File Inclusion and CORS Misconfiguration to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-ghizer-339.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-07",
+    "tags": [
+      "pwntilldawn",
+      "ctf",
+      "easy",
+      "web"
+    ],
+    "image": "/img/htb-ghizer-339.png",
+    "words": 638,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-password-spraying-tool-141",
+    "title": "Password Spraying Tool — Go",
+    "section": "scripting",
+    "description": "A Go script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-141.html",
+    "btn_label": "View Script",
+    "date": "2025-09-06",
+    "tags": [
+      "scanner",
+      "bash",
+      "script",
+      "automation",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-password-spraying-tool-141.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-yara-rule-writing-152",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-152.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-06",
+    "tags": [
+      "malware",
+      "dfir",
+      "oscp",
+      "linux",
+      "lateral-movement"
+    ],
+    "image": "/img/note-yara-rule-writing-152.png",
+    "words": 425,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-556",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-556.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-06",
+    "tags": [
+      "enumeration",
+      "persistence",
+      "malware",
+      "cheatsheet",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-556.png",
+    "words": 362,
+    "readTime": "2 min"
+  }
+]

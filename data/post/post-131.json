@@ -1,0 +1,228 @@
+[
+  {
+    "id": "script-process-injection-poc-507",
+    "title": "Process Injection PoC — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-507.html",
+    "btn_label": "View Script",
+    "date": "2024-07-12",
+    "tags": [
+      "python",
+      "tool",
+      "scanner",
+      "fuzzer",
+      "powershell"
+    ],
+    "image": "/img/script-process-injection-poc-507.png",
+    "words": 391,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-relevant-694",
+    "title": "OffSec Proving Grounds — Relevant (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Relevant. SSRF and NTLM Relay to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-relevant-694.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-12",
+    "tags": [
+      "tryhackme",
+      "hackthebox",
+      "insane",
+      "forensics",
+      "pwntilldawn",
+      "medium"
+    ],
+    "image": "/img/htb-relevant-694.png",
+    "words": 614,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-node-777",
+    "title": "TryHackMe — Node (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Node. GPP Password and AlwaysInstallElevated to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-node-777.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-12",
+    "tags": [
+      "insane",
+      "ctf",
+      "hard",
+      "web",
+      "forensics"
+    ],
+    "image": "/img/htb-node-777.png",
+    "words": 561,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-439",
+    "title": "Log Parser and Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-439.html",
+    "btn_label": "View Script",
+    "date": "2024-07-11",
+    "tags": [
+      "fuzzer",
+      "scanner",
+      "tool",
+      "python",
+      "powershell",
+      "go",
+      "bash"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-439.png",
+    "words": 295,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-412",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-412.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-11",
+    "tags": [
+      "lateral-movement",
+      "blue-team",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-412.png",
+    "words": 347,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-694",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-694.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-11",
+    "tags": [
+      "networking",
+      "cheatsheet",
+      "privilege-escalation",
+      "malware"
+    ],
+    "image": "/img/note-digital-forensics-methodology-694.png",
+    "words": 307,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-nibbles-587",
+    "title": "PwnTillDawn — Nibbles (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Nibbles. Sudo Misconfiguration and SSTI to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-nibbles-587.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-11",
+    "tags": [
+      "insane",
+      "medium",
+      "ctf",
+      "linux",
+      "tryhackme",
+      "windows"
+    ],
+    "image": "/img/htb-nibbles-587.png",
+    "words": 604,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-reverse-shell-generator-928",
+    "title": "Reverse Shell Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-928.html",
+    "btn_label": "View Script",
+    "date": "2024-07-10",
+    "tags": [
+      "scanner",
+      "rust",
+      "c",
+      "tool",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-reverse-shell-generator-928.png",
+    "words": 355,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-tabby-677",
+    "title": "TryHackMe — Tabby (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Tabby. Remote Code Execution and GPP Password to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-tabby-677.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-10",
+    "tags": [
+      "pwntilldawn",
+      "reversing",
+      "hard",
+      "tryhackme"
+    ],
+    "image": "/img/htb-tabby-677.png",
+    "words": 602,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-doctor-750",
+    "title": "HackTheBox — Doctor (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Doctor. NTLM Relay and Command Injection to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-doctor-750.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-10",
+    "tags": [
+      "ctf",
+      "windows",
+      "medium"
+    ],
+    "image": "/img/htb-doctor-750.png",
+    "words": 515,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-edr-evasion-techniques-629",
+    "title": "EDR Evasion Techniques — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-629.html",
+    "btn_label": "View Script",
+    "date": "2024-07-09",
+    "tags": [
+      "script",
+      "bash",
+      "fuzzer",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-edr-evasion-techniques-629.png",
+    "words": 308,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-229",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-229.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-08",
+    "tags": [
+      "cve",
+      "shellcode",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-229.png",
+    "words": 461,
+    "readTime": "3 min",
+    "pick": 1
+  }
+]

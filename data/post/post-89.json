@@ -1,0 +1,228 @@
+[
+  {
+    "id": "note-cryptography-fundamentals-780",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-780.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-01",
+    "tags": [
+      "lateral-movement",
+      "malware",
+      "enumeration",
+      "networking",
+      "oscp",
+      "persistence"
+    ],
+    "image": "/img/note-cryptography-fundamentals-780.png",
+    "words": 390,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-armageddon-855",
+    "title": "HackTheBox — Armageddon (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Armageddon. XSS and DLL Hijacking to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-armageddon-855.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-31",
+    "tags": [
+      "linux",
+      "reversing",
+      "ctf",
+      "easy",
+      "hackthebox"
+    ],
+    "image": "/img/htb-armageddon-855.png",
+    "words": 608,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-802",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-802.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-30",
+    "tags": [
+      "rop",
+      "malware-analysis",
+      "aslr-bypass",
+      "cve"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-802.png",
+    "words": 480,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-131",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-131.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-30",
+    "tags": [
+      "format-string",
+      "zero-day",
+      "buffer-overflow",
+      "cve"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 512,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-bolt-121",
+    "title": "TryHackMe — Bolt (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Bolt. XXE and Golden Ticket to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-bolt-121.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-30",
+    "tags": [
+      "hard",
+      "hackthebox",
+      "offsec"
+    ],
+    "image": "/img/htb-bolt-121.png",
+    "words": 599,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-398",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-398.html",
+    "btn_label": "View Script",
+    "date": "2025-01-29",
+    "tags": [
+      "rust",
+      "scanner",
+      "c",
+      "go"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-398.png",
+    "words": 342,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-755",
+    "title": "Password Spraying Tool — Python",
+    "section": "scripting",
+    "description": "A Python script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-755.html",
+    "btn_label": "View Script",
+    "date": "2025-01-29",
+    "tags": [
+      "fuzzer",
+      "tool",
+      "script",
+      "go",
+      "python"
+    ],
+    "image": "/img/script-password-spraying-tool-755.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-openadmin-836",
+    "title": "PwnTillDawn — OpenAdmin (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn OpenAdmin. XXE and NFS No Root Squash to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-openadmin-836.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-28",
+    "tags": [
+      "forensics",
+      "insane",
+      "easy",
+      "hard"
+    ],
+    "image": "/img/htb-openadmin-836.png",
+    "words": 643,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-698",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-698.html",
+    "btn_label": "Read Research",
+    "date": "2025-01-27",
+    "tags": [
+      "cve",
+      "heap-exploitation",
+      "zero-day",
+      "format-string",
+      "rop",
+      "shellcode"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-698.png",
+    "words": 484,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-804",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-804.html",
+    "btn_label": "Read Notes",
+    "date": "2025-01-27",
+    "tags": [
+      "networking",
+      "blue-team",
+      "enumeration",
+      "linux",
+      "oscp"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-804.png",
+    "words": 386,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-poison-238",
+    "title": "TryHackMe — Poison (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Poison. AS-REP Roasting and Kerberoasting to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-poison-238.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-27",
+    "tags": [
+      "windows",
+      "ctf",
+      "pwntilldawn",
+      "easy",
+      "insane",
+      "web",
+      "tryhackme"
+    ],
+    "image": "/img/htb-poison-238.png",
+    "words": 601,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-game-zone-186",
+    "title": "OffSec Proving Grounds — Game Zone (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Game Zone. Command Injection and Pass the Hash to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-game-zone-186.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-27",
+    "tags": [
+      "windows",
+      "ctf",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-game-zone-186.png",
+    "words": 574,
+    "readTime": "3 min"
+  }
+]

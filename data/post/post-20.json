@@ -1,0 +1,231 @@
+[
+  {
+    "id": "note-blue-team-detection-techniques-726",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-726.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-31",
+    "tags": [
+      "networking",
+      "privilege-escalation",
+      "malware",
+      "persistence",
+      "linux"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-726.png",
+    "words": 599,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-omni-885",
+    "title": "VulnHub — Omni (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Omni. SeImpersonatePrivilege and SSRF to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-omni-885.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-31",
+    "tags": [
+      "pwntilldawn",
+      "tryhackme",
+      "easy",
+      "insane",
+      "web"
+    ],
+    "image": "/img/htb-omni-885.png",
+    "words": 615,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-499",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-499.html",
+    "btn_label": "Read Research",
+    "date": "2025-12-30",
+    "tags": [
+      "malware-analysis",
+      "buffer-overflow",
+      "format-string"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-499.png",
+    "words": 516,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-719",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-719.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-30",
+    "tags": [
+      "malware",
+      "privilege-escalation",
+      "windows",
+      "dfir"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-719.png",
+    "words": 473,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-steel-mountain-336",
+    "title": "VulnHub — Steel Mountain (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Steel Mountain. Resource-Based Constrained Delegation and AlwaysInstallElevated to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-steel-mountain-336.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-30",
+    "tags": [
+      "hard",
+      "easy",
+      "medium",
+      "tryhackme",
+      "insane",
+      "linux",
+      "forensics"
+    ],
+    "image": "/img/htb-steel-mountain-336.png",
+    "words": 602,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-657",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-657.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-29",
+    "tags": [
+      "privilege-escalation",
+      "enumeration",
+      "lateral-movement"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-657.png",
+    "words": 327,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-926",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-926.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-29",
+    "tags": [
+      "blue-team",
+      "linux",
+      "cheatsheet",
+      "dfir"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-926.png",
+    "words": 349,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-blue-296",
+    "title": "PwnTillDawn — Blue (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Blue. Resource-Based Constrained Delegation and Kerberoasting to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-blue-296.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-29",
+    "tags": [
+      "active-directory",
+      "ctf",
+      "web",
+      "easy",
+      "hard",
+      "medium",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-blue-296.png",
+    "words": 529,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-edr-evasion-techniques-313",
+    "title": "EDR Evasion Techniques",
+    "section": "projects",
+    "description": "Open source security project: EDR Evasion Techniques. Built for the community.",
+    "permalink": "/research/project-edr-evasion-techniques-313.html",
+    "btn_label": "View Project",
+    "date": "2025-12-28",
+    "tags": [
+      "cli",
+      "plugin",
+      "tool",
+      "framework"
+    ],
+    "image": "/img/project-edr-evasion-techniques-313.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "gobuster",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-165",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-165.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-28",
+    "tags": [
+      "networking",
+      "lateral-movement",
+      "dfir",
+      "linux"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-165.png",
+    "words": 473,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-102",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-102.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-28",
+    "tags": [
+      "linux",
+      "networking",
+      "oscp"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-102.png",
+    "words": 413,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-984",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-984.html",
+    "btn_label": "Read Notes",
+    "date": "2025-12-28",
+    "tags": [
+      "cheatsheet",
+      "networking",
+      "dfir",
+      "blue-team"
+    ],
+    "image": "/img/note-cryptography-fundamentals-984.png",
+    "words": 305,
+    "readTime": "2 min"
+  }
+]

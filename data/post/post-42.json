@@ -1,0 +1,241 @@
+[
+  {
+    "id": "htb-tartarsauce-634",
+    "title": "PwnTillDawn — Tartarsauce (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Tartarsauce. Sudo Misconfiguration and ACL Abuse to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-tartarsauce-634.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-06",
+    "tags": [
+      "hackthebox",
+      "linux",
+      "windows",
+      "pwntilldawn",
+      "hard",
+      "forensics"
+    ],
+    "image": "/img/htb-tartarsauce-634.png",
+    "words": 637,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-tabby-836",
+    "title": "OffSec Proving Grounds — Tabby (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Tabby. NTLM Relay and DNS Rebinding to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-tabby-836.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-06",
+    "tags": [
+      "ctf",
+      "windows",
+      "web",
+      "easy",
+      "hackthebox",
+      "offsec"
+    ],
+    "image": "/img/htb-tabby-836.png",
+    "words": 609,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-startup-458",
+    "title": "VulnHub — Startup (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Startup. LXD Privilege Escalation and CSRF to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-startup-458.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-06",
+    "tags": [
+      "active-directory",
+      "forensics",
+      "easy",
+      "hackthebox",
+      "offsec",
+      "tryhackme",
+      "ctf"
+    ],
+    "image": "/img/htb-startup-458.png",
+    "words": 608,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-sense-820",
+    "title": "TryHackMe — Sense (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Sense. AS-REP Roasting and XSS to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-sense-820.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-06",
+    "tags": [
+      "insane",
+      "web",
+      "active-directory",
+      "hackthebox"
+    ],
+    "image": "/img/htb-sense-820.png",
+    "words": 675,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-ice-780",
+    "title": "VulnHub — Ice (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Ice. IDOR and AS-REP Roasting to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-ice-780.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-06",
+    "tags": [
+      "ctf",
+      "web",
+      "tryhackme",
+      "forensics",
+      "insane"
+    ],
+    "image": "/img/htb-ice-780.png",
+    "words": 619,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-bolt-680",
+    "title": "TryHackMe — Bolt (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Bolt. CORS Misconfiguration and CSRF to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-bolt-680.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-06",
+    "tags": [
+      "medium",
+      "ctf",
+      "active-directory"
+    ],
+    "image": "/img/htb-bolt-680.png",
+    "words": 547,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-deep-dive-into-windows-kernel-exploitati-205",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "projects",
+    "description": "Open source security project: Deep Dive into Windows Kernel Exploitation. Built for the community.",
+    "permalink": "/research/project-deep-dive-into-windows-kernel-exploitati-205.html",
+    "btn_label": "View Project",
+    "date": "2025-09-05",
+    "tags": [
+      "security",
+      "cli",
+      "library"
+    ],
+    "image": "/img/project-deep-dive-into-windows-kernel-exploitati-2.png",
+    "words": 174,
+    "readTime": "1 min",
+    "features": [
+      "hashcat",
+      "hydra",
+      "impacket"
+    ]
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-137",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-137.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-05",
+    "tags": [
+      "cheatsheet",
+      "persistence",
+      "linux",
+      "dfir"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-137.png",
+    "words": 384,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-passage-869",
+    "title": "OffSec Proving Grounds — Passage (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Passage. Unconstrained Delegation and CSRF to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-passage-869.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-05",
+    "tags": [
+      "easy",
+      "tryhackme",
+      "active-directory",
+      "hackthebox"
+    ],
+    "image": "/img/htb-passage-869.png",
+    "words": 555,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-devel-450",
+    "title": "TryHackMe — Devel (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Devel. Unconstrained Delegation and SSTI to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-devel-450.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-05",
+    "tags": [
+      "insane",
+      "active-directory",
+      "forensics",
+      "hard",
+      "hackthebox",
+      "offsec"
+    ],
+    "image": "/img/htb-devel-450.png",
+    "words": 659,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-payload-obfuscation-script-393",
+    "title": "Payload Obfuscation Script — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-393.html",
+    "btn_label": "View Script",
+    "date": "2025-09-04",
+    "tags": [
+      "bash",
+      "scanner",
+      "rust",
+      "go",
+      "automation",
+      "c",
+      "powershell"
+    ],
+    "image": "/img/script-payload-obfuscation-script-393.png",
+    "words": 359,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-process-injection-poc-270",
+    "title": "Process Injection PoC",
+    "section": "projects",
+    "description": "Open source security project: Process Injection PoC. Built for the community.",
+    "permalink": "/research/project-process-injection-poc-270.html",
+    "btn_label": "View Project",
+    "date": "2025-09-04",
+    "tags": [
+      "extension",
+      "library",
+      "automation",
+      "cli"
+    ],
+    "image": "/img/project-process-injection-poc-270.png",
+    "words": 182,
+    "readTime": "1 min",
+    "features": [
+      "feroxbuster",
+      "gobuster",
+      "crackmapexec"
+    ]
+  }
+]

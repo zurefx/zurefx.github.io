@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Fast Port Scanner in Python",
+    "date": "2026-03-17",
+    "section": "scripting",
+    "permalink": "/scripting/port-scan-tool.html",
+    "image": "/img/port-scan-tool.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Bash Recon Automation",
+    "date": "2026-03-12",
+    "section": "scripting",
+    "permalink": "/scripting/bash-automation.html",
+    "image": "/img/bash-automation.png",
+    "readTime": "1 min"
+  },
+  {
+    "title": "Python Reverse Shell Generator",
+    "date": "2026-03-07",
+    "section": "scripting",
+    "permalink": "/scripting/python-rev-shell.html",
+    "image": "/img/python-rev-shell.png",
+    "readTime": "1 min"
+  }
+]

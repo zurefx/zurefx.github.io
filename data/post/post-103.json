@@ -1,0 +1,234 @@
+[
+  {
+    "id": "research-custom-c2-framework-architecture-759",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-759.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-20",
+    "tags": [
+      "zero-day",
+      "cve",
+      "rop",
+      "format-string",
+      "malware-analysis"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-759.png",
+    "words": 464,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-armageddon-836",
+    "title": "TryHackMe — Armageddon (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Armageddon. Docker Escape and CSRF to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-armageddon-836.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-20",
+    "tags": [
+      "hard",
+      "web",
+      "active-directory"
+    ],
+    "image": "/img/htb-armageddon-836.png",
+    "words": 588,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-176",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-176.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-19",
+    "tags": [
+      "privilege-escalation",
+      "enumeration",
+      "cheatsheet"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-176.png",
+    "words": 497,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-798",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-798.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-19",
+    "tags": [
+      "oscp",
+      "persistence",
+      "windows",
+      "cheatsheet",
+      "blue-team",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-798.png",
+    "words": 638,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-omni-374",
+    "title": "TryHackMe — Omni (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Omni. IDOR and XSS to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-omni-374.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-18",
+    "tags": [
+      "active-directory",
+      "insane",
+      "ctf",
+      "forensics"
+    ],
+    "image": "/img/htb-omni-374.png",
+    "words": 574,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-mindgames-183",
+    "title": "TryHackMe — Mindgames (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Mindgames. Silver Ticket and Sudo Misconfiguration to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-mindgames-183.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-18",
+    "tags": [
+      "easy",
+      "linux",
+      "medium",
+      "hackthebox",
+      "web",
+      "windows"
+    ],
+    "image": "/img/htb-mindgames-183.png",
+    "words": 677,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-689",
+    "title": "SMB Share Enumeration Script — Go",
+    "section": "scripting",
+    "description": "A Go script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-689.html",
+    "btn_label": "View Script",
+    "date": "2024-11-17",
+    "tags": [
+      "python",
+      "go",
+      "fuzzer",
+      "scanner"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-689.png",
+    "words": 293,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-novel-persistence-mechanisms-in-linux-216",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "projects",
+    "description": "Open source security project: Novel Persistence Mechanisms in Linux. Built for the community.",
+    "permalink": "/research/project-novel-persistence-mechanisms-in-linux-216.html",
+    "btn_label": "View Project",
+    "date": "2024-11-17",
+    "tags": [
+      "tool",
+      "library",
+      "plugin",
+      "framework"
+    ],
+    "image": "/img/project-novel-persistence-mechanisms-in-linux-216.png",
+    "words": 192,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "ffuf",
+      "nmap"
+    ]
+  },
+  {
+    "id": "note-yara-rule-writing-744",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-744.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-16",
+    "tags": [
+      "enumeration",
+      "lateral-movement",
+      "persistence",
+      "cheatsheet",
+      "privilege-escalation",
+      "oscp"
+    ],
+    "image": "/img/note-yara-rule-writing-744.png",
+    "words": 404,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-sigma-rule-development-142",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-142.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-16",
+    "tags": [
+      "lateral-movement",
+      "privilege-escalation",
+      "dfir",
+      "oscp",
+      "enumeration"
+    ],
+    "image": "/img/note-sigma-rule-development-142.png",
+    "words": 378,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-920",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-920.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-16",
+    "tags": [
+      "networking",
+      "persistence",
+      "oscp",
+      "linux"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-920.png",
+    "words": 260,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-love-441",
+    "title": "HackTheBox — Love (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Love. LXD Privilege Escalation and Local File Inclusion to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-love-441.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-15",
+    "tags": [
+      "easy",
+      "ctf",
+      "reversing",
+      "medium",
+      "hard",
+      "windows",
+      "hackthebox"
+    ],
+    "image": "/img/htb-love-441.png",
+    "words": 626,
+    "readTime": "4 min"
+  }
+]

@@ -1,0 +1,238 @@
+[
+  {
+    "id": "htb-knife-232",
+    "title": "VulnHub — Knife (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Knife. NFS No Root Squash and XXE to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-knife-232.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-06",
+    "tags": [
+      "windows",
+      "forensics",
+      "reversing",
+      "easy",
+      "web",
+      "hard"
+    ],
+    "image": "/img/htb-knife-232.png",
+    "words": 623,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-kubernetes-security-assessment-211",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-211.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-05",
+    "tags": [
+      "cheatsheet",
+      "persistence",
+      "windows"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-211.png",
+    "words": 504,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-905",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-905.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-05",
+    "tags": [
+      "persistence",
+      "dfir",
+      "networking",
+      "enumeration",
+      "malware"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-905.png",
+    "words": 257,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-monitors-245",
+    "title": "OffSec Proving Grounds — Monitors (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Monitors. Sudo Misconfiguration and Open Redirect to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-monitors-245.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-05",
+    "tags": [
+      "forensics",
+      "hard",
+      "tryhackme",
+      "medium",
+      "reversing",
+      "hackthebox",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-monitors-245.png",
+    "words": 551,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-blunder-146",
+    "title": "PwnTillDawn — Blunder (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Blunder. AlwaysInstallElevated and DCSync to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-blunder-146.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-04",
+    "tags": [
+      "insane",
+      "hard",
+      "ctf",
+      "easy"
+    ],
+    "image": "/img/htb-blunder-146.png",
+    "words": 585,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-analysis-of-cve-2024-xxxx-remote-code-ex-479",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "projects",
+    "description": "Open source security project: Analysis of CVE-2024-XXXX: Remote Code Execution. Built for the community.",
+    "permalink": "/research/project-analysis-of-cve-2024-xxxx-remote-code-ex-479.html",
+    "btn_label": "View Project",
+    "date": "2024-11-03",
+    "tags": [
+      "tool",
+      "automation",
+      "security"
+    ],
+    "image": "/img/project-analysis-of-cve-2024-xxxx-remote-code-ex-4.png",
+    "words": 228,
+    "readTime": "2 min",
+    "features": [
+      "impacket",
+      "evil-winrm",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "htb-omni-739",
+    "title": "VulnHub — Omni (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Omni. XSS and Resource-Based Constrained Delegation to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-omni-739.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-03",
+    "tags": [
+      "tryhackme",
+      "hard",
+      "active-directory",
+      "easy",
+      "windows",
+      "medium"
+    ],
+    "image": "/img/htb-omni-739.png",
+    "words": 537,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-191",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-191.html",
+    "btn_label": "Read Research",
+    "date": "2024-11-02",
+    "tags": [
+      "format-string",
+      "buffer-overflow",
+      "cve",
+      "uaf",
+      "aslr-bypass",
+      "exploit-development"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-191.png",
+    "words": 492,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-269",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-269.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-02",
+    "tags": [
+      "malware",
+      "enumeration",
+      "linux",
+      "cheatsheet"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-269.png",
+    "words": 522,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-487",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-487.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-02",
+    "tags": [
+      "windows",
+      "privilege-escalation",
+      "cheatsheet",
+      "persistence",
+      "dfir",
+      "lateral-movement"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-487.png",
+    "words": 434,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-212",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-212.html",
+    "btn_label": "Read Notes",
+    "date": "2024-11-02",
+    "tags": [
+      "linux",
+      "blue-team",
+      "dfir",
+      "persistence",
+      "malware"
+    ],
+    "image": "/img/note-active-directory-attack-paths-212.png",
+    "words": 317,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-monitors-568",
+    "title": "TryHackMe — Monitors (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Monitors. LXD Privilege Escalation and DNS Rebinding to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-monitors-568.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-11-02",
+    "tags": [
+      "linux",
+      "forensics",
+      "hard"
+    ],
+    "image": "/img/htb-monitors-568.png",
+    "words": 648,
+    "readTime": "4 min"
+  }
+]

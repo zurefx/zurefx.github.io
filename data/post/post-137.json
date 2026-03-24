@@ -1,0 +1,236 @@
+[
+  {
+    "id": "htb-ready-870",
+    "title": "OffSec Proving Grounds — Ready (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Ready. SSRF and CSRF to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-ready-870.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-14",
+    "tags": [
+      "active-directory",
+      "medium",
+      "tryhackme",
+      "web"
+    ],
+    "image": "/img/htb-ready-870.png",
+    "words": 514,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-nibbles-215",
+    "title": "PwnTillDawn — Nibbles (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Nibbles. GPP Password and XSS to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-nibbles-215.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-14",
+    "tags": [
+      "offsec",
+      "easy",
+      "hackthebox",
+      "insane"
+    ],
+    "image": "/img/htb-nibbles-215.png",
+    "words": 603,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-subdomain-enumeration-tool-105",
+    "title": "Subdomain Enumeration Tool",
+    "section": "projects",
+    "description": "Open source security project: Subdomain Enumeration Tool. Built for the community.",
+    "permalink": "/research/project-subdomain-enumeration-tool-105.html",
+    "btn_label": "View Project",
+    "date": "2024-06-13",
+    "tags": [
+      "automation",
+      "plugin",
+      "open-source"
+    ],
+    "image": "/img/project-subdomain-enumeration-tool-105.png",
+    "words": 198,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "gobuster",
+      "john"
+    ]
+  },
+  {
+    "id": "project-payload-obfuscation-script-363",
+    "title": "Payload Obfuscation Script",
+    "section": "projects",
+    "description": "Open source security project: Payload Obfuscation Script. Built for the community.",
+    "permalink": "/research/project-payload-obfuscation-script-363.html",
+    "btn_label": "View Project",
+    "date": "2024-06-13",
+    "tags": [
+      "framework",
+      "security",
+      "extension",
+      "automation"
+    ],
+    "image": "/img/project-payload-obfuscation-script-363.png",
+    "words": 207,
+    "readTime": "2 min",
+    "features": [
+      "ffuf",
+      "hashcat",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "htb-startup-659",
+    "title": "TryHackMe — Startup (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Startup. Silver Ticket and GPP Password to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-startup-659.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-13",
+    "tags": [
+      "ctf",
+      "pwntilldawn",
+      "medium"
+    ],
+    "image": "/img/htb-startup-659.png",
+    "words": 614,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-deja-vu-245",
+    "title": "VulnHub — Deja Vu (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Deja Vu. AS-REP Roasting and Silver Ticket to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-deja-vu-245.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-13",
+    "tags": [
+      "windows",
+      "offsec",
+      "forensics",
+      "ctf",
+      "reversing",
+      "medium"
+    ],
+    "image": "/img/htb-deja-vu-245.png",
+    "words": 547,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-bastard-613",
+    "title": "PwnTillDawn — Bastard (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Bastard. SQL Injection and Local File Inclusion to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-bastard-613.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-13",
+    "tags": [
+      "linux",
+      "insane",
+      "active-directory"
+    ],
+    "image": "/img/htb-bastard-613.png",
+    "words": 646,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-641",
+    "title": "Payload Obfuscation Script — Go",
+    "section": "scripting",
+    "description": "A Go script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-641.html",
+    "btn_label": "View Script",
+    "date": "2024-06-12",
+    "tags": [
+      "tool",
+      "fuzzer",
+      "parser",
+      "c",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-payload-obfuscation-script-641.png",
+    "words": 292,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-298",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-298.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-12",
+    "tags": [
+      "format-string",
+      "buffer-overflow",
+      "rop",
+      "exploit-development",
+      "zero-day"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-29.png",
+    "words": 478,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-284",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-284.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-12",
+    "tags": [
+      "aslr-bypass",
+      "uaf",
+      "exploit-development",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 486,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-723",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-723.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-12",
+    "tags": [
+      "kernel",
+      "heap-exploitation",
+      "zero-day",
+      "exploit-development"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-72.png",
+    "words": 467,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-532",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-532.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-12",
+    "tags": [
+      "blue-team",
+      "oscp",
+      "lateral-movement",
+      "networking",
+      "linux",
+      "malware"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-532.png",
+    "words": 341,
+    "readTime": "2 min"
+  }
+]

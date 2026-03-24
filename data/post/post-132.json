@@ -1,0 +1,235 @@
+[
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-378",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-378.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-07",
+    "tags": [
+      "malware",
+      "networking",
+      "blue-team"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-378.png",
+    "words": 457,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-201",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-201.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-07",
+    "tags": [
+      "enumeration",
+      "linux",
+      "oscp",
+      "persistence",
+      "cheatsheet",
+      "malware"
+    ],
+    "image": "/img/note-digital-forensics-methodology-201.png",
+    "words": 402,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-557",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-557.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-07",
+    "tags": [
+      "enumeration",
+      "cheatsheet",
+      "blue-team",
+      "persistence",
+      "privilege-escalation",
+      "oscp"
+    ],
+    "image": "/img/note-active-directory-attack-paths-557.png",
+    "words": 355,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-password-spraying-tool-489",
+    "title": "Password Spraying Tool",
+    "section": "projects",
+    "description": "Open source security project: Password Spraying Tool. Built for the community.",
+    "permalink": "/research/project-password-spraying-tool-489.html",
+    "btn_label": "View Project",
+    "date": "2024-07-06",
+    "tags": [
+      "extension",
+      "tool",
+      "framework",
+      "security",
+      "automation"
+    ],
+    "image": "/img/project-password-spraying-tool-489.png",
+    "words": 224,
+    "readTime": "2 min",
+    "features": [
+      "hashcat",
+      "crackmapexec",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "note-cryptography-fundamentals-209",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-209.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-06",
+    "tags": [
+      "persistence",
+      "privilege-escalation",
+      "networking",
+      "dfir"
+    ],
+    "image": "/img/note-cryptography-fundamentals-209.png",
+    "words": 535,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-sense-811",
+    "title": "TryHackMe — Sense (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Sense. NFS No Root Squash and Silver Ticket to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-sense-811.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-06",
+    "tags": [
+      "hackthebox",
+      "tryhackme",
+      "reversing",
+      "medium",
+      "forensics"
+    ],
+    "image": "/img/htb-sense-811.png",
+    "words": 609,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-armageddon-870",
+    "title": "TryHackMe — Armageddon (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Armageddon. XSS and Sudo Misconfiguration to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-armageddon-870.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-06",
+    "tags": [
+      "web",
+      "windows",
+      "medium",
+      "easy",
+      "ctf",
+      "offsec"
+    ],
+    "image": "/img/htb-armageddon-870.png",
+    "words": 575,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-amsi-bypass-collection-733",
+    "title": "AMSI Bypass Collection",
+    "section": "projects",
+    "description": "Open source security project: AMSI Bypass Collection. Built for the community.",
+    "permalink": "/research/project-amsi-bypass-collection-733.html",
+    "btn_label": "View Project",
+    "date": "2024-07-05",
+    "tags": [
+      "open-source",
+      "extension",
+      "plugin"
+    ],
+    "image": "/img/project-amsi-bypass-collection-733.png",
+    "words": 212,
+    "readTime": "2 min",
+    "features": [
+      "feroxbuster",
+      "evil-winrm",
+      "john"
+    ]
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-151",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-151.html",
+    "btn_label": "Read Notes",
+    "date": "2024-07-05",
+    "tags": [
+      "privilege-escalation",
+      "oscp",
+      "windows"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-151.png",
+    "words": 316,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-writer-579",
+    "title": "VulnHub — Writer (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Writer. Kerberoasting and SSRF to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-writer-579.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-05",
+    "tags": [
+      "tryhackme",
+      "ctf",
+      "hard",
+      "offsec",
+      "windows"
+    ],
+    "image": "/img/htb-writer-579.png",
+    "words": 610,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-664",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-664.html",
+    "btn_label": "Read Research",
+    "date": "2024-07-04",
+    "tags": [
+      "aslr-bypass",
+      "shellcode",
+      "buffer-overflow",
+      "exploit-development",
+      "format-string"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-664.png",
+    "words": 497,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-knife-751",
+    "title": "TryHackMe — Knife (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Knife. Open Redirect and Broken Access Control to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-knife-751.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-07-04",
+    "tags": [
+      "ctf",
+      "forensics",
+      "web"
+    ],
+    "image": "/img/htb-knife-751.png",
+    "words": 585,
+    "readTime": "3 min"
+  }
+]

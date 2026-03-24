@@ -1,0 +1,249 @@
+[
+  {
+    "id": "project-jwt-token-analyzer-279",
+    "title": "JWT Token Analyzer",
+    "section": "projects",
+    "description": "Open source security project: JWT Token Analyzer. Built for the community.",
+    "permalink": "/research/project-jwt-token-analyzer-279.html",
+    "btn_label": "View Project",
+    "date": "2026-03-02",
+    "tags": [
+      "open-source",
+      "extension",
+      "security",
+      "tool",
+      "cli"
+    ],
+    "image": "/img/project-jwt-token-analyzer-279.png",
+    "words": 201,
+    "readTime": "2 min",
+    "features": [
+      "hydra",
+      "ffuf",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-310",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-310.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-02",
+    "tags": [
+      "networking",
+      "enumeration",
+      "malware",
+      "lateral-movement",
+      "dfir"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-310.png",
+    "words": 407,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-shocker-257",
+    "title": "TryHackMe — Shocker (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Shocker. Kerberoasting and Command Injection to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-shocker-257.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-02",
+    "tags": [
+      "hard",
+      "ctf",
+      "hackthebox",
+      "linux"
+    ],
+    "image": "/img/htb-shocker-257.png",
+    "words": 650,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-901",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-901.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-01",
+    "tags": [
+      "linux",
+      "lateral-movement",
+      "blue-team"
+    ],
+    "image": "/img/note-reverse-engineering-basics-901.png",
+    "words": 409,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-810",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-810.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-01",
+    "tags": [
+      "privilege-escalation",
+      "cheatsheet",
+      "blue-team",
+      "linux"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-810.png",
+    "words": 566,
+    "readTime": "3 min"
+  },
+  {
+    "id": "nmap-cheatsheet",
+    "title": "Nmap Cheatsheet",
+    "section": "notes",
+    "description": "Quick reference for Nmap: scan types, timing, scripts and output formats for pentesting.",
+    "permalink": "/notes/nmap-cheatsheet.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-01",
+    "tags": [
+      "cheatsheet",
+      "network",
+      "nmap",
+      "enumeration"
+    ],
+    "image": "/img/nmap-cheatsheet.png",
+    "words": 47,
+    "readTime": "1 min",
+    "subsection": "Network"
+  },
+  {
+    "id": "script-web-crawler-and-spider-994",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-994.html",
+    "btn_label": "View Script",
+    "date": "2026-02-28",
+    "tags": [
+      "bash",
+      "fuzzer",
+      "script",
+      "rust",
+      "powershell",
+      "automation"
+    ],
+    "image": "/img/script-web-crawler-and-spider-994.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-doctor-372",
+    "title": "TryHackMe — Doctor (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Doctor. SSTI and GPP Password to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-doctor-372.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-28",
+    "tags": [
+      "active-directory",
+      "pwntilldawn",
+      "linux",
+      "windows",
+      "forensics",
+      "reversing"
+    ],
+    "image": "/img/htb-doctor-372.png",
+    "words": 659,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-browser-exploitation-techniques-723",
+    "title": "Browser Exploitation Techniques",
+    "section": "projects",
+    "description": "Open source security project: Browser Exploitation Techniques. Built for the community.",
+    "permalink": "/research/project-browser-exploitation-techniques-723.html",
+    "btn_label": "View Project",
+    "date": "2026-02-27",
+    "tags": [
+      "automation",
+      "plugin",
+      "security",
+      "framework",
+      "library"
+    ],
+    "image": "/img/project-browser-exploitation-techniques-723.png",
+    "words": 188,
+    "readTime": "1 min",
+    "features": [
+      "ffuf",
+      "nmap",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "project-process-injection-poc-764",
+    "title": "Process Injection PoC",
+    "section": "projects",
+    "description": "Open source security project: Process Injection PoC. Built for the community.",
+    "permalink": "/research/project-process-injection-poc-764.html",
+    "btn_label": "View Project",
+    "date": "2026-02-26",
+    "tags": [
+      "library",
+      "automation",
+      "cli",
+      "open-source",
+      "plugin"
+    ],
+    "image": "/img/project-process-injection-poc-764.png",
+    "words": 219,
+    "readTime": "2 min",
+    "features": [
+      "evil-winrm",
+      "ffuf",
+      "impacket"
+    ]
+  },
+  {
+    "id": "htb-vulnnet-227",
+    "title": "TryHackMe — Vulnnet (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Vulnnet. NTLM Relay and Local File Inclusion to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-vulnnet-227.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-26",
+    "tags": [
+      "tryhackme",
+      "insane",
+      "medium",
+      "hard",
+      "ctf",
+      "active-directory"
+    ],
+    "image": "/img/htb-vulnnet-227.png",
+    "words": 580,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-automated-report-generator-636",
+    "title": "Automated Report Generator",
+    "section": "projects",
+    "description": "Open source security project: Automated Report Generator. Built for the community.",
+    "permalink": "/research/project-automated-report-generator-636.html",
+    "btn_label": "View Project",
+    "date": "2026-02-25",
+    "tags": [
+      "security",
+      "extension",
+      "framework",
+      "tool"
+    ],
+    "image": "/img/project-automated-report-generator-636.png",
+    "words": 232,
+    "readTime": "2 min",
+    "features": [
+      "gobuster",
+      "impacket",
+      "evil-winrm"
+    ]
+  }
+]

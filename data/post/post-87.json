@@ -1,0 +1,231 @@
+[
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-173",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-173.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-11",
+    "tags": [
+      "cheatsheet",
+      "oscp",
+      "lateral-movement"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-173.png",
+    "words": 517,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-valentine-467",
+    "title": "HackTheBox — Valentine (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Valentine. AS-REP Roasting and DCSync to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-valentine-467.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-11",
+    "tags": [
+      "tryhackme",
+      "active-directory",
+      "insane",
+      "forensics"
+    ],
+    "image": "/img/htb-valentine-467.png",
+    "words": 569,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-spectra-600",
+    "title": "HackTheBox — Spectra (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Spectra. ACL Abuse and Cron Job to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-spectra-600.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-11",
+    "tags": [
+      "insane",
+      "tryhackme",
+      "web",
+      "medium",
+      "easy",
+      "hackthebox",
+      "linux"
+    ],
+    "image": "/img/htb-spectra-600.png",
+    "words": 508,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-relevant-571",
+    "title": "TryHackMe — Relevant (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Relevant. Broken Access Control and Command Injection to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-relevant-571.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-11",
+    "tags": [
+      "windows",
+      "web",
+      "insane",
+      "forensics",
+      "tryhackme",
+      "hard",
+      "active-directory"
+    ],
+    "image": "/img/htb-relevant-571.png",
+    "words": 617,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-web-crawler-and-spider-534",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-534.html",
+    "btn_label": "View Script",
+    "date": "2025-02-10",
+    "tags": [
+      "bash",
+      "scanner",
+      "rust",
+      "python",
+      "go",
+      "script"
+    ],
+    "image": "/img/script-web-crawler-and-spider-534.png",
+    "words": 310,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-ctf-challenge-solver-template-165",
+    "title": "CTF Challenge Solver Template — Bash",
+    "section": "scripting",
+    "description": "A Bash script for ctf challenge solver template. Built for security research and automation.",
+    "permalink": "/scripting/script-ctf-challenge-solver-template-165.html",
+    "btn_label": "View Script",
+    "date": "2025-02-10",
+    "tags": [
+      "automation",
+      "c",
+      "tool",
+      "bash"
+    ],
+    "image": "/img/script-ctf-challenge-solver-template-165.png",
+    "words": 297,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-cronos-578",
+    "title": "VulnHub — Cronos (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Cronos. Local File Inclusion and IDOR to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-cronos-578.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-10",
+    "tags": [
+      "web",
+      "offsec",
+      "reversing"
+    ],
+    "image": "/img/htb-cronos-578.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-428",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-428.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-09",
+    "tags": [
+      "oscp",
+      "blue-team",
+      "privilege-escalation",
+      "enumeration",
+      "malware",
+      "linux"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-428.png",
+    "words": 384,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-common-ctf-tricks-and-techniques-936",
+    "title": "Common CTF Tricks and Techniques",
+    "section": "notes",
+    "description": "Personal notes on Common CTF Tricks and Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-common-ctf-tricks-and-techniques-936.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-09",
+    "tags": [
+      "enumeration",
+      "malware",
+      "dfir"
+    ],
+    "image": "/img/note-common-ctf-tricks-and-techniques-936.png",
+    "words": 676,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-167",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-167.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-09",
+    "tags": [
+      "cheatsheet",
+      "lateral-movement",
+      "malware",
+      "dfir",
+      "oscp",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-167.png",
+    "words": 769,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-334",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-334.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-08",
+    "tags": [
+      "shellcode",
+      "aslr-bypass",
+      "malware-analysis",
+      "heap-exploitation",
+      "kernel",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-334.png",
+    "words": 536,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-438",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-438.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-08",
+    "tags": [
+      "persistence",
+      "dfir",
+      "enumeration",
+      "lateral-movement"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-438.png",
+    "words": 575,
+    "readTime": "3 min"
+  }
+]

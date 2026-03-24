@@ -1,0 +1,235 @@
+[
+  {
+    "id": "htb-mustacchio-506",
+    "title": "PwnTillDawn — Mustacchio (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Mustacchio. SeImpersonatePrivilege and Cron Job to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-mustacchio-506.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-12-01",
+    "tags": [
+      "offsec",
+      "tryhackme",
+      "linux",
+      "medium",
+      "insane"
+    ],
+    "image": "/img/htb-mustacchio-506.png",
+    "words": 613,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-subdomain-enumeration-tool-454",
+    "title": "Subdomain Enumeration Tool — Go",
+    "section": "scripting",
+    "description": "A Go script for subdomain enumeration tool. Built for security research and automation.",
+    "permalink": "/scripting/script-subdomain-enumeration-tool-454.html",
+    "btn_label": "View Script",
+    "date": "2025-11-30",
+    "tags": [
+      "tool",
+      "python",
+      "rust",
+      "automation",
+      "fuzzer",
+      "powershell",
+      "go"
+    ],
+    "image": "/img/script-subdomain-enumeration-tool-454.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-traverxec-451",
+    "title": "OffSec Proving Grounds — Traverxec (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Traverxec. LAPS Abuse and Unconstrained Delegation to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-traverxec-451.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-30",
+    "tags": [
+      "hard",
+      "ctf",
+      "reversing",
+      "hackthebox",
+      "web"
+    ],
+    "image": "/img/htb-traverxec-451.png",
+    "words": 593,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tentacle-918",
+    "title": "OffSec Proving Grounds — Tentacle (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Tentacle. Weak Service Permissions and SQL Injection to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-tentacle-918.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-30",
+    "tags": [
+      "insane",
+      "forensics",
+      "ctf",
+      "hackthebox",
+      "reversing",
+      "windows"
+    ],
+    "image": "/img/htb-tentacle-918.png",
+    "words": 561,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-monitors-173",
+    "title": "PwnTillDawn — Monitors (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Monitors. Constrained Delegation and Unconstrained Delegation to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-monitors-173.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-30",
+    "tags": [
+      "offsec",
+      "active-directory",
+      "web",
+      "medium",
+      "hackthebox",
+      "tryhackme"
+    ],
+    "image": "/img/htb-monitors-173.png",
+    "words": 606,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-cereal-887",
+    "title": "PwnTillDawn — Cereal (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Cereal. ACL Abuse and SSTI to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-cereal-887.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-30",
+    "tags": [
+      "insane",
+      "easy",
+      "windows",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-cereal-887.png",
+    "words": 604,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-arctic-763",
+    "title": "PwnTillDawn — Arctic (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Arctic. GPP Password and SSRF to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-arctic-763.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-30",
+    "tags": [
+      "reversing",
+      "tryhackme",
+      "active-directory"
+    ],
+    "image": "/img/htb-arctic-763.png",
+    "words": 551,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-evading-modern-edr-solutions-717",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-717.html",
+    "btn_label": "View Project",
+    "date": "2025-11-29",
+    "tags": [
+      "framework",
+      "cli",
+      "security",
+      "extension"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-717.png",
+    "words": 203,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "hydra",
+      "impacket"
+    ]
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-841",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-841.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-29",
+    "tags": [
+      "blue-team",
+      "lateral-movement",
+      "windows",
+      "linux",
+      "networking"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-841.png",
+    "words": 605,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-remote-805",
+    "title": "OffSec Proving Grounds — Remote (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Remote. Pass the Hash and Path Traversal to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-remote-805.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-29",
+    "tags": [
+      "medium",
+      "hard",
+      "windows",
+      "active-directory",
+      "easy"
+    ],
+    "image": "/img/htb-remote-805.png",
+    "words": 608,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-monitors-592",
+    "title": "VulnHub — Monitors (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Monitors. Remote File Inclusion and Silver Ticket to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-monitors-592.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-28",
+    "tags": [
+      "easy",
+      "hard",
+      "tryhackme"
+    ],
+    "image": "/img/htb-monitors-592.png",
+    "words": 556,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-698",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-698.html",
+    "btn_label": "Read Research",
+    "date": "2025-11-27",
+    "tags": [
+      "format-string",
+      "kernel",
+      "exploit-development",
+      "shellcode",
+      "rop",
+      "uaf"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-698.png",
+    "words": 501,
+    "readTime": "3 min",
+    "pick": 1
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "note-incident-response-playbook-600",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-600.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-22",
+    "tags": [
+      "privilege-escalation",
+      "malware",
+      "persistence",
+      "windows",
+      "blue-team"
+    ],
+    "image": "/img/note-incident-response-playbook-600.png",
+    "words": 677,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-250",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-250.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-21",
+    "tags": [
+      "buffer-overflow",
+      "malware-analysis",
+      "kernel",
+      "zero-day"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-25.png",
+    "words": 457,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-574",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-574.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-21",
+    "tags": [
+      "oscp",
+      "networking",
+      "cheatsheet"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-574.png",
+    "words": 177,
+    "readTime": "1 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-482",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-482.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-21",
+    "tags": [
+      "enumeration",
+      "linux",
+      "persistence"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-482.png",
+    "words": 515,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-395",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-395.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-21",
+    "tags": [
+      "malware",
+      "oscp",
+      "windows",
+      "networking",
+      "persistence"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-395.png",
+    "words": 649,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-675",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-675.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-20",
+    "tags": [
+      "dfir",
+      "blue-team",
+      "windows"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-675.png",
+    "words": 460,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-traverxec-428",
+    "title": "HackTheBox — Traverxec (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Traverxec. Remote Code Execution and Subdomain Takeover to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-traverxec-428.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-20",
+    "tags": [
+      "reversing",
+      "ctf",
+      "hackthebox",
+      "easy",
+      "tryhackme"
+    ],
+    "image": "/img/htb-traverxec-428.png",
+    "words": 569,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-intelligence-240",
+    "title": "PwnTillDawn — Intelligence (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Intelligence. NTLM Relay and Insecure Deserialization to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-intelligence-240.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-02-20",
+    "tags": [
+      "active-directory",
+      "hackthebox",
+      "pwntilldawn",
+      "forensics",
+      "insane",
+      "easy"
+    ],
+    "image": "/img/htb-intelligence-240.png",
+    "words": 672,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-sigma-rule-development-209",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-209.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-17",
+    "tags": [
+      "dfir",
+      "windows",
+      "enumeration"
+    ],
+    "image": "/img/note-sigma-rule-development-209.png",
+    "words": 376,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-692",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-692.html",
+    "btn_label": "Read Research",
+    "date": "2024-02-16",
+    "tags": [
+      "heap-exploitation",
+      "exploit-development",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 482,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-process-injection-poc-680",
+    "title": "Process Injection PoC",
+    "section": "projects",
+    "description": "Open source security project: Process Injection PoC. Built for the community.",
+    "permalink": "/research/project-process-injection-poc-680.html",
+    "btn_label": "View Project",
+    "date": "2024-02-16",
+    "tags": [
+      "security",
+      "plugin",
+      "library",
+      "open-source",
+      "extension"
+    ],
+    "image": "/img/project-process-injection-poc-680.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "ffuf",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-429",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-429.html",
+    "btn_label": "Read Notes",
+    "date": "2024-02-16",
+    "tags": [
+      "lateral-movement",
+      "enumeration",
+      "blue-team",
+      "linux",
+      "dfir",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-429.png",
+    "words": 291,
+    "readTime": "2 min"
+  }
+]

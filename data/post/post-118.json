@@ -1,0 +1,229 @@
+[
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-522",
+    "title": "Hash Identifier and Cracker Wrapper — Bash",
+    "section": "scripting",
+    "description": "A Bash script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-522.html",
+    "btn_label": "View Script",
+    "date": "2024-09-09",
+    "tags": [
+      "python",
+      "parser",
+      "automation",
+      "bash"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-522.png",
+    "words": 346,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-332",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-332.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-09",
+    "tags": [
+      "networking",
+      "privilege-escalation",
+      "malware"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-332.png",
+    "words": 456,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-587",
+    "title": "Log Parser and Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-587.html",
+    "btn_label": "View Script",
+    "date": "2024-09-08",
+    "tags": [
+      "script",
+      "powershell",
+      "c",
+      "bash",
+      "tool"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-587.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-536",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-536.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-08",
+    "tags": [
+      "kernel",
+      "heap-exploitation",
+      "exploit-development",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-pit-211",
+    "title": "PwnTillDawn — Pit (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Pit. NTLM Relay and Broken Access Control to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-pit-211.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-08",
+    "tags": [
+      "pwntilldawn",
+      "ctf",
+      "easy",
+      "forensics"
+    ],
+    "image": "/img/htb-pit-211.png",
+    "words": 655,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-cronos-543",
+    "title": "VulnHub — Cronos (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Cronos. CORS Misconfiguration and AlwaysInstallElevated to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-cronos-543.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-08",
+    "tags": [
+      "reversing",
+      "easy",
+      "hackthebox"
+    ],
+    "image": "/img/htb-cronos-543.png",
+    "words": 688,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-552",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-552.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-07",
+    "tags": [
+      "uaf",
+      "kernel",
+      "exploit-development",
+      "shellcode",
+      "rop"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-55.png",
+    "words": 439,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-edr-evasion-techniques-859",
+    "title": "EDR Evasion Techniques",
+    "section": "projects",
+    "description": "Open source security project: EDR Evasion Techniques. Built for the community.",
+    "permalink": "/research/project-edr-evasion-techniques-859.html",
+    "btn_label": "View Project",
+    "date": "2024-09-07",
+    "tags": [
+      "plugin",
+      "security",
+      "tool",
+      "automation"
+    ],
+    "image": "/img/project-edr-evasion-techniques-859.png",
+    "words": 194,
+    "readTime": "1 min",
+    "features": [
+      "hashcat",
+      "gobuster",
+      "evil-winrm"
+    ]
+  },
+  {
+    "id": "htb-lame-810",
+    "title": "OffSec Proving Grounds — Lame (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Lame. SSTI and XXE to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-lame-810.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-07",
+    "tags": [
+      "ctf",
+      "easy",
+      "offsec",
+      "windows",
+      "reversing",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-lame-810.png",
+    "words": 563,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-944",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-944.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-06",
+    "tags": [
+      "windows",
+      "oscp",
+      "networking"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-944.png",
+    "words": 617,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-incident-response-playbook-867",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-867.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-06",
+    "tags": [
+      "malware",
+      "enumeration",
+      "lateral-movement",
+      "privilege-escalation",
+      "persistence",
+      "cheatsheet"
+    ],
+    "image": "/img/note-incident-response-playbook-867.png",
+    "words": 315,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-incident-response-playbook-771",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-771.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-06",
+    "tags": [
+      "lateral-movement",
+      "enumeration",
+      "privilege-escalation",
+      "persistence",
+      "networking",
+      "dfir"
+    ],
+    "image": "/img/note-incident-response-playbook-771.png",
+    "words": 472,
+    "readTime": "3 min"
+  }
+]

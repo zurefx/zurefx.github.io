@@ -1,0 +1,232 @@
+[
+  {
+    "id": "htb-seal-617",
+    "title": "OffSec Proving Grounds — Seal (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Seal. SeDebugPrivilege and SeImpersonatePrivilege to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-seal-617.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-05",
+    "tags": [
+      "tryhackme",
+      "forensics",
+      "pwntilldawn",
+      "hard"
+    ],
+    "image": "/img/htb-seal-617.png",
+    "words": 606,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-magic-231",
+    "title": "HackTheBox — Magic (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Magic. NTLM Relay and CSRF to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-magic-231.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-05",
+    "tags": [
+      "easy",
+      "active-directory",
+      "hard",
+      "medium",
+      "forensics",
+      "web",
+      "hackthebox"
+    ],
+    "image": "/img/htb-magic-231.png",
+    "words": 625,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-ophiuchi-281",
+    "title": "PwnTillDawn — Ophiuchi (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Ophiuchi. Sudo Misconfiguration and SSRF to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-ophiuchi-281.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-04",
+    "tags": [
+      "web",
+      "hackthebox",
+      "hard",
+      "ctf"
+    ],
+    "image": "/img/htb-ophiuchi-281.png",
+    "words": 598,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-log-parser-and-analyzer-730",
+    "title": "Log Parser and Analyzer — Go",
+    "section": "scripting",
+    "description": "A Go script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-730.html",
+    "btn_label": "View Script",
+    "date": "2024-01-03",
+    "tags": [
+      "fuzzer",
+      "go",
+      "c",
+      "tool",
+      "rust",
+      "script"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-730.png",
+    "words": 288,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-677",
+    "title": "JWT Token Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-677.html",
+    "btn_label": "View Script",
+    "date": "2024-01-03",
+    "tags": [
+      "bash",
+      "script",
+      "automation",
+      "tool",
+      "parser",
+      "powershell"
+    ],
+    "image": "/img/script-jwt-token-analyzer-677.png",
+    "words": 333,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-626",
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "section": "scripting",
+    "description": "A Python script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-626.html",
+    "btn_label": "View Script",
+    "date": "2024-01-03",
+    "tags": [
+      "c",
+      "script",
+      "rust",
+      "scanner",
+      "python"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-626.png",
+    "words": 321,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-powershell-for-red-teamers-464",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-464.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-02",
+    "tags": [
+      "linux",
+      "malware",
+      "cheatsheet",
+      "lateral-movement",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-464.png",
+    "words": 377,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-pikaboo-895",
+    "title": "OffSec Proving Grounds — Pikaboo (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Pikaboo. Local File Inclusion and Unquoted Service Path to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pikaboo-895.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-02",
+    "tags": [
+      "windows",
+      "reversing",
+      "tryhackme",
+      "forensics",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-pikaboo-895.png",
+    "words": 572,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-atom-200",
+    "title": "HackTheBox — Atom (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Atom. Resource-Based Constrained Delegation and Sudo Misconfiguration to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-atom-200.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-02",
+    "tags": [
+      "ctf",
+      "windows",
+      "insane",
+      "linux",
+      "tryhackme",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-atom-200.png",
+    "words": 622,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-619",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-619.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-01",
+    "tags": [
+      "malware-analysis",
+      "exploit-development",
+      "aslr-bypass",
+      "format-string"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-619.png",
+    "words": 507,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-567",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-567.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-01",
+    "tags": [
+      "cheatsheet",
+      "enumeration",
+      "oscp",
+      "windows"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-567.png",
+    "words": 538,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-368",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-368.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-01",
+    "tags": [
+      "cheatsheet",
+      "windows",
+      "enumeration",
+      "blue-team"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-368.png",
+    "words": 568,
+    "readTime": "3 min"
+  }
+]

@@ -1,0 +1,238 @@
+[
+  {
+    "id": "note-cryptography-fundamentals-335",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-335.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-18",
+    "tags": [
+      "cheatsheet",
+      "windows",
+      "persistence",
+      "oscp"
+    ],
+    "image": "/img/note-cryptography-fundamentals-335.png",
+    "words": 640,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-anthem-324",
+    "title": "PwnTillDawn — Anthem (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Anthem. NFS No Root Squash and ACL Abuse to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-anthem-324.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-18",
+    "tags": [
+      "forensics",
+      "tryhackme",
+      "pwntilldawn",
+      "active-directory",
+      "hard"
+    ],
+    "image": "/img/htb-anthem-324.png",
+    "words": 675,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-466",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-466.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-17",
+    "tags": [
+      "format-string",
+      "buffer-overflow",
+      "aslr-bypass",
+      "kernel"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-46.png",
+    "words": 443,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-dns-resolver-and-brute-forcer-821",
+    "title": "DNS Resolver and Brute Forcer",
+    "section": "projects",
+    "description": "Open source security project: DNS Resolver and Brute Forcer. Built for the community.",
+    "permalink": "/research/project-dns-resolver-and-brute-forcer-821.html",
+    "btn_label": "View Project",
+    "date": "2024-09-17",
+    "tags": [
+      "framework",
+      "security",
+      "tool",
+      "open-source"
+    ],
+    "image": "/img/project-dns-resolver-and-brute-forcer-821.png",
+    "words": 185,
+    "readTime": "1 min",
+    "features": [
+      "impacket",
+      "hydra",
+      "feroxbuster"
+    ]
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-848",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-848.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-17",
+    "tags": [
+      "enumeration",
+      "cheatsheet",
+      "dfir",
+      "privilege-escalation",
+      "persistence"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-848.png",
+    "words": 638,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-docker-security-hardening-474",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-474.html",
+    "btn_label": "Read Notes",
+    "date": "2024-09-17",
+    "tags": [
+      "linux",
+      "lateral-movement",
+      "blue-team",
+      "windows"
+    ],
+    "image": "/img/note-docker-security-hardening-474.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-tenet-133",
+    "title": "HackTheBox — Tenet (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Tenet. IDOR and Writable PATH to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-tenet-133.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-17",
+    "tags": [
+      "windows",
+      "hard",
+      "web",
+      "linux",
+      "ctf",
+      "pwntilldawn",
+      "hackthebox"
+    ],
+    "image": "/img/htb-tenet-133.png",
+    "words": 569,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-overpass-224",
+    "title": "PwnTillDawn — Overpass (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Overpass. CSRF and Remote Code Execution to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-overpass-224.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-17",
+    "tags": [
+      "easy",
+      "ctf",
+      "linux",
+      "medium",
+      "hackthebox",
+      "hard"
+    ],
+    "image": "/img/htb-overpass-224.png",
+    "words": 655,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-supply-chain-attack-vectors-452",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-452.html",
+    "btn_label": "Read Research",
+    "date": "2024-09-16",
+    "tags": [
+      "rop",
+      "shellcode",
+      "format-string",
+      "malware-analysis",
+      "aslr-bypass",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-452.png",
+    "words": 454,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-mindgames-547",
+    "title": "TryHackMe — Mindgames (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Mindgames. Writable PATH and Local File Inclusion to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-mindgames-547.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-16",
+    "tags": [
+      "offsec",
+      "insane",
+      "reversing"
+    ],
+    "image": "/img/htb-mindgames-547.png",
+    "words": 591,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-api-security-testing-framework-683",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-683.html",
+    "btn_label": "View Project",
+    "date": "2024-09-15",
+    "tags": [
+      "extension",
+      "tool",
+      "plugin",
+      "open-source",
+      "framework"
+    ],
+    "image": "/img/project-api-security-testing-framework-683.png",
+    "words": 195,
+    "readTime": "1 min",
+    "features": [
+      "hashcat",
+      "ffuf",
+      "john"
+    ]
+  },
+  {
+    "id": "htb-lame-455",
+    "title": "VulnHub — Lame (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Lame. SeImpersonatePrivilege and AlwaysInstallElevated to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-lame-455.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-09-15",
+    "tags": [
+      "ctf",
+      "tryhackme",
+      "pwntilldawn",
+      "forensics"
+    ],
+    "image": "/img/htb-lame-455.png",
+    "words": 567,
+    "readTime": "3 min"
+  }
+]

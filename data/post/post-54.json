@@ -1,0 +1,236 @@
+[
+  {
+    "id": "project-evading-modern-edr-solutions-257",
+    "title": "Evading Modern EDR Solutions",
+    "section": "projects",
+    "description": "Open source security project: Evading Modern EDR Solutions. Built for the community.",
+    "permalink": "/research/project-evading-modern-edr-solutions-257.html",
+    "btn_label": "View Project",
+    "date": "2025-07-17",
+    "tags": [
+      "security",
+      "cli",
+      "framework"
+    ],
+    "image": "/img/project-evading-modern-edr-solutions-257.png",
+    "words": 220,
+    "readTime": "2 min",
+    "features": [
+      "evil-winrm",
+      "nmap",
+      "hydra"
+    ]
+  },
+  {
+    "id": "note-blue-team-detection-techniques-273",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-273.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-17",
+    "tags": [
+      "windows",
+      "malware",
+      "persistence"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-273.png",
+    "words": 373,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-relevant-201",
+    "title": "TryHackMe — Relevant (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Relevant. NTLM Relay and DNS Rebinding to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-relevant-201.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-17",
+    "tags": [
+      "reversing",
+      "windows",
+      "easy",
+      "hard",
+      "medium",
+      "ctf"
+    ],
+    "image": "/img/htb-relevant-201.png",
+    "words": 644,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-371",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-371.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-16",
+    "tags": [
+      "lateral-movement",
+      "malware",
+      "dfir"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-371.png",
+    "words": 372,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-mindgames-625",
+    "title": "PwnTillDawn — Mindgames (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Mindgames. SSRF and Weak Service Permissions to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-mindgames-625.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-15",
+    "tags": [
+      "windows",
+      "forensics",
+      "linux",
+      "offsec",
+      "medium",
+      "easy",
+      "hard"
+    ],
+    "image": "/img/htb-mindgames-625.png",
+    "words": 592,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-knife-924",
+    "title": "VulnHub — Knife (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Knife. IDOR and LAPS Abuse to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-knife-924.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-15",
+    "tags": [
+      "insane",
+      "active-directory",
+      "hackthebox",
+      "forensics",
+      "tryhackme",
+      "offsec",
+      "reversing"
+    ],
+    "image": "/img/htb-knife-924.png",
+    "words": 656,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-yara-rule-writing-815",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-815.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-14",
+    "tags": [
+      "enumeration",
+      "lateral-movement",
+      "cheatsheet",
+      "windows",
+      "dfir"
+    ],
+    "image": "/img/note-yara-rule-writing-815.png",
+    "words": 365,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-servmon-784",
+    "title": "OffSec Proving Grounds — ServMon (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds ServMon. Pass the Hash and Subdomain Takeover to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-servmon-784.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-14",
+    "tags": [
+      "insane",
+      "web",
+      "hard",
+      "reversing"
+    ],
+    "image": "/img/htb-servmon-784.png",
+    "words": 605,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-buffer-418",
+    "title": "TryHackMe — Buffer (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Buffer. Subdomain Takeover and Constrained Delegation to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-buffer-418.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-14",
+    "tags": [
+      "medium",
+      "reversing",
+      "web",
+      "tryhackme",
+      "ctf"
+    ],
+    "image": "/img/htb-buffer-418.png",
+    "words": 584,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-kubernetes-security-assessment-529",
+    "title": "Kubernetes Security Assessment",
+    "section": "notes",
+    "description": "Personal notes on Kubernetes Security Assessment. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-kubernetes-security-assessment-529.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-13",
+    "tags": [
+      "malware",
+      "persistence",
+      "oscp"
+    ],
+    "image": "/img/note-kubernetes-security-assessment-529.png",
+    "words": 614,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-relevant-597",
+    "title": "PwnTillDawn — Relevant (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Relevant. NFS No Root Squash and Weak Service Permissions to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-relevant-597.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-13",
+    "tags": [
+      "tryhackme",
+      "pwntilldawn",
+      "hard",
+      "active-directory",
+      "linux",
+      "web",
+      "forensics"
+    ],
+    "image": "/img/htb-relevant-597.png",
+    "words": 578,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-788",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-788.html",
+    "btn_label": "Read Notes",
+    "date": "2025-07-12",
+    "tags": [
+      "persistence",
+      "blue-team",
+      "lateral-movement",
+      "networking",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-788.png",
+    "words": 617,
+    "readTime": "4 min"
+  }
+]

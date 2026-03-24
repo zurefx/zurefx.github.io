@@ -1,0 +1,234 @@
+[
+  {
+    "id": "script-password-spraying-tool-119",
+    "title": "Password Spraying Tool — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-119.html",
+    "btn_label": "View Script",
+    "date": "2025-01-16",
+    "tags": [
+      "bash",
+      "scanner",
+      "script",
+      "tool",
+      "rust",
+      "powershell"
+    ],
+    "image": "/img/script-password-spraying-tool-119.png",
+    "words": 351,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-899",
+    "title": "Log Parser and Analyzer — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-899.html",
+    "btn_label": "View Script",
+    "date": "2025-01-16",
+    "tags": [
+      "fuzzer",
+      "go",
+      "parser",
+      "powershell"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-899.png",
+    "words": 311,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-automated-report-generator-107",
+    "title": "Automated Report Generator",
+    "section": "projects",
+    "description": "Open source security project: Automated Report Generator. Built for the community.",
+    "permalink": "/research/project-automated-report-generator-107.html",
+    "btn_label": "View Project",
+    "date": "2025-01-16",
+    "tags": [
+      "library",
+      "plugin",
+      "extension"
+    ],
+    "image": "/img/project-automated-report-generator-107.png",
+    "words": 193,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "john",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "project-automated-port-scanner-799",
+    "title": "Automated Port Scanner",
+    "section": "projects",
+    "description": "Open source security project: Automated Port Scanner. Built for the community.",
+    "permalink": "/research/project-automated-port-scanner-799.html",
+    "btn_label": "View Project",
+    "date": "2025-01-15",
+    "tags": [
+      "cli",
+      "tool",
+      "framework",
+      "open-source"
+    ],
+    "image": "/img/project-automated-port-scanner-799.png",
+    "words": 226,
+    "readTime": "2 min",
+    "features": [
+      "hydra",
+      "feroxbuster",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "note-yara-rule-writing-517",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-517.html",
+    "btn_label": "Read Notes",
+    "date": "2025-01-15",
+    "tags": [
+      "blue-team",
+      "linux",
+      "persistence",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-yara-rule-writing-517.png",
+    "words": 565,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-automated-report-generator-796",
+    "title": "Automated Report Generator — Go",
+    "section": "scripting",
+    "description": "A Go script for automated report generator. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-report-generator-796.html",
+    "btn_label": "View Script",
+    "date": "2025-01-14",
+    "tags": [
+      "powershell",
+      "automation",
+      "fuzzer",
+      "script",
+      "c",
+      "scanner",
+      "go"
+    ],
+    "image": "/img/script-automated-report-generator-796.png",
+    "words": 367,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-pikaboo-799",
+    "title": "TryHackMe — Pikaboo (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Pikaboo. Path Traversal and XSS to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pikaboo-799.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-14",
+    "tags": [
+      "windows",
+      "active-directory",
+      "hard"
+    ],
+    "image": "/img/htb-pikaboo-799.png",
+    "words": 605,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-buffer-749",
+    "title": "VulnHub — Buffer (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Buffer. LXD Privilege Escalation and Unquoted Service Path to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-buffer-749.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-14",
+    "tags": [
+      "reversing",
+      "forensics",
+      "web",
+      "medium",
+      "offsec",
+      "windows",
+      "tryhackme"
+    ],
+    "image": "/img/htb-buffer-749.png",
+    "words": 619,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-bucket-884",
+    "title": "HackTheBox — Bucket (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Bucket. Path Traversal and SQL Injection to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-bucket-884.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-01-14",
+    "tags": [
+      "pwntilldawn",
+      "forensics",
+      "ctf"
+    ],
+    "image": "/img/htb-bucket-884.png",
+    "words": 587,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-510",
+    "title": "Hash Identifier and Cracker Wrapper — Go",
+    "section": "scripting",
+    "description": "A Go script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-510.html",
+    "btn_label": "View Script",
+    "date": "2025-01-13",
+    "tags": [
+      "python",
+      "rust",
+      "parser",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-510.png",
+    "words": 253,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-486",
+    "title": "Log Parser and Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-486.html",
+    "btn_label": "View Script",
+    "date": "2025-01-12",
+    "tags": [
+      "scanner",
+      "go",
+      "fuzzer",
+      "python"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-486.png",
+    "words": 296,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-yara-rule-writing-784",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-784.html",
+    "btn_label": "Read Notes",
+    "date": "2025-01-12",
+    "tags": [
+      "enumeration",
+      "cheatsheet",
+      "networking"
+    ],
+    "image": "/img/note-yara-rule-writing-784.png",
+    "words": 604,
+    "readTime": "4 min"
+  }
+]

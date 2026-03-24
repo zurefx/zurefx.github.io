@@ -1,0 +1,233 @@
+[
+  {
+    "id": "htb-ophiuchi-924",
+    "title": "VulnHub — Ophiuchi (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Ophiuchi. Broken Access Control and Cron Job to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ophiuchi-924.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-07",
+    "tags": [
+      "reversing",
+      "insane",
+      "hard"
+    ],
+    "image": "/img/htb-ophiuchi-924.png",
+    "words": 661,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-threat-intelligence-integration-347",
+    "title": "Threat Intelligence Integration",
+    "section": "research",
+    "description": "Technical research on Threat Intelligence Integration. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-threat-intelligence-integration-347.html",
+    "btn_label": "Read Research",
+    "date": "2025-07-05",
+    "tags": [
+      "heap-exploitation",
+      "cve",
+      "shellcode",
+      "uaf"
+    ],
+    "image": "/img/research-threat-intelligence-integration-347.png",
+    "words": 491,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-lame-843",
+    "title": "HackTheBox — Lame (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Lame. Remote Code Execution and CORS Misconfiguration to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-lame-843.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-05",
+    "tags": [
+      "web",
+      "tryhackme",
+      "ctf",
+      "linux",
+      "easy",
+      "medium"
+    ],
+    "image": "/img/htb-lame-843.png",
+    "words": 556,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ice-641",
+    "title": "HackTheBox — Ice (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ice. XSS and AS-REP Roasting to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-ice-641.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-05",
+    "tags": [
+      "hackthebox",
+      "offsec",
+      "hard"
+    ],
+    "image": "/img/htb-ice-641.png",
+    "words": 609,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-anthem-253",
+    "title": "PwnTillDawn — Anthem (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Anthem. Resource-Based Constrained Delegation and ACL Abuse to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-anthem-253.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-05",
+    "tags": [
+      "hard",
+      "linux",
+      "windows",
+      "insane",
+      "hackthebox",
+      "forensics"
+    ],
+    "image": "/img/htb-anthem-253.png",
+    "words": 602,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-scriptkiddie-340",
+    "title": "PwnTillDawn — ScriptKiddie (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn ScriptKiddie. DCSync and NTLM Relay to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-scriptkiddie-340.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-04",
+    "tags": [
+      "active-directory",
+      "medium",
+      "hackthebox",
+      "windows"
+    ],
+    "image": "/img/htb-scriptkiddie-340.png",
+    "words": 626,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-reverse-shell-generator-488",
+    "title": "Reverse Shell Generator",
+    "section": "projects",
+    "description": "Open source security project: Reverse Shell Generator. Built for the community.",
+    "permalink": "/research/project-reverse-shell-generator-488.html",
+    "btn_label": "View Project",
+    "date": "2025-07-03",
+    "tags": [
+      "framework",
+      "library",
+      "cli",
+      "plugin",
+      "security"
+    ],
+    "image": "/img/project-reverse-shell-generator-488.png",
+    "words": 203,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "hydra",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "htb-bucket-688",
+    "title": "HackTheBox — Bucket (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Bucket. ACL Abuse and Path Traversal to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-bucket-688.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-03",
+    "tags": [
+      "tryhackme",
+      "active-directory",
+      "forensics",
+      "ctf"
+    ],
+    "image": "/img/htb-bucket-688.png",
+    "words": 557,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-atom-358",
+    "title": "TryHackMe — Atom (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Atom. CSRF and Command Injection to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-atom-358.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-03",
+    "tags": [
+      "insane",
+      "hard",
+      "linux",
+      "medium"
+    ],
+    "image": "/img/htb-atom-358.png",
+    "words": 559,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-anthem-174",
+    "title": "HackTheBox — Anthem (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Anthem. SSRF and IDOR to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-anthem-174.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-07-03",
+    "tags": [
+      "easy",
+      "ctf",
+      "linux",
+      "windows",
+      "pwntilldawn",
+      "active-directory"
+    ],
+    "image": "/img/htb-anthem-174.png",
+    "words": 564,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-688",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-688.html",
+    "btn_label": "Read Research",
+    "date": "2025-07-02",
+    "tags": [
+      "aslr-bypass",
+      "uaf",
+      "exploit-development"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 478,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-ctf-challenge-solver-template-850",
+    "title": "CTF Challenge Solver Template",
+    "section": "projects",
+    "description": "Open source security project: CTF Challenge Solver Template. Built for the community.",
+    "permalink": "/research/project-ctf-challenge-solver-template-850.html",
+    "btn_label": "View Project",
+    "date": "2025-07-01",
+    "tags": [
+      "tool",
+      "extension",
+      "open-source"
+    ],
+    "image": "/img/project-ctf-challenge-solver-template-850.png",
+    "words": 194,
+    "readTime": "1 min",
+    "features": [
+      "crackmapexec",
+      "hydra",
+      "nmap"
+    ]
+  }
+]

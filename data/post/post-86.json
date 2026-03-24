@@ -1,0 +1,230 @@
+[
+  {
+    "id": "research-bypassing-applocker-and-wdac-787",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-787.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-20",
+    "tags": [
+      "shellcode",
+      "buffer-overflow",
+      "uaf",
+      "zero-day",
+      "exploit-development"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-787.png",
+    "words": 525,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-cryptography-fundamentals-570",
+    "title": "Cryptography Fundamentals",
+    "section": "notes",
+    "description": "Personal notes on Cryptography Fundamentals. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cryptography-fundamentals-570.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-20",
+    "tags": [
+      "malware",
+      "blue-team",
+      "privilege-escalation",
+      "persistence",
+      "oscp",
+      "lateral-movement"
+    ],
+    "image": "/img/note-cryptography-fundamentals-570.png",
+    "words": 439,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-521",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-521.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-20",
+    "tags": [
+      "dfir",
+      "windows",
+      "networking",
+      "privilege-escalation",
+      "linux"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-521.png",
+    "words": 145,
+    "readTime": "1 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-598",
+    "title": "DNS Resolver and Brute Forcer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-598.html",
+    "btn_label": "View Script",
+    "date": "2025-02-19",
+    "tags": [
+      "powershell",
+      "bash",
+      "scanner"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-598.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-478",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-478.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-19",
+    "tags": [
+      "privilege-escalation",
+      "networking",
+      "blue-team",
+      "windows",
+      "persistence",
+      "lateral-movement"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-478.png",
+    "words": 389,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-pikaboo-148",
+    "title": "HackTheBox — Pikaboo (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Pikaboo. Constrained Delegation and Remote Code Execution to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pikaboo-148.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-17",
+    "tags": [
+      "web",
+      "pwntilldawn",
+      "ctf",
+      "easy",
+      "offsec"
+    ],
+    "image": "/img/htb-pikaboo-148.png",
+    "words": 542,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-478",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-478.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-15",
+    "tags": [
+      "windows",
+      "networking",
+      "dfir",
+      "persistence"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-478.png",
+    "words": 171,
+    "readTime": "1 min"
+  },
+  {
+    "id": "htb-spectra-212",
+    "title": "HackTheBox — Spectra (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Spectra. Pass the Hash and SSTI to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-spectra-212.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-02-15",
+    "tags": [
+      "pwntilldawn",
+      "medium",
+      "offsec"
+    ],
+    "image": "/img/htb-spectra-212.png",
+    "words": 664,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-payload-obfuscation-script-775",
+    "title": "Payload Obfuscation Script — Go",
+    "section": "scripting",
+    "description": "A Go script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-775.html",
+    "btn_label": "View Script",
+    "date": "2025-02-14",
+    "tags": [
+      "script",
+      "bash",
+      "rust",
+      "python",
+      "fuzzer",
+      "go"
+    ],
+    "image": "/img/script-payload-obfuscation-script-775.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-354",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-354.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-14",
+    "tags": [
+      "buffer-overflow",
+      "shellcode",
+      "exploit-development"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-354.png",
+    "words": 514,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-digital-forensics-methodology-847",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-847.html",
+    "btn_label": "Read Notes",
+    "date": "2025-02-13",
+    "tags": [
+      "dfir",
+      "linux",
+      "cheatsheet",
+      "blue-team",
+      "privilege-escalation",
+      "lateral-movement"
+    ],
+    "image": "/img/note-digital-forensics-methodology-847.png",
+    "words": 551,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-492",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-492.html",
+    "btn_label": "Read Research",
+    "date": "2025-02-12",
+    "tags": [
+      "kernel",
+      "uaf",
+      "rop",
+      "exploit-development",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-49.png",
+    "words": 504,
+    "readTime": "3 min"
+  }
+]

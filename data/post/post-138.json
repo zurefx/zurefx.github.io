@@ -1,0 +1,229 @@
+[
+  {
+    "id": "note-linux-privilege-escalation-techniques-287",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-287.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-11",
+    "tags": [
+      "lateral-movement",
+      "windows",
+      "enumeration",
+      "cheatsheet"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-287.png",
+    "words": 466,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-832",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-832.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-11",
+    "tags": [
+      "cheatsheet",
+      "networking",
+      "windows"
+    ],
+    "image": "/img/note-digital-forensics-methodology-832.png",
+    "words": 304,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-tenet-267",
+    "title": "PwnTillDawn — Tenet (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Tenet. SUID Binary and Unconstrained Delegation to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-tenet-267.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-11",
+    "tags": [
+      "tryhackme",
+      "ctf",
+      "hard",
+      "forensics",
+      "active-directory"
+    ],
+    "image": "/img/htb-tenet-267.png",
+    "words": 621,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-spectra-477",
+    "title": "HackTheBox — Spectra (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Spectra. NTLM Relay and Writable PATH to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-spectra-477.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-11",
+    "tags": [
+      "hackthebox",
+      "windows",
+      "easy"
+    ],
+    "image": "/img/htb-spectra-477.png",
+    "words": 571,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-fuse-535",
+    "title": "OffSec Proving Grounds — Fuse (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Fuse. SeImpersonatePrivilege and Command Injection to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-fuse-535.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-11",
+    "tags": [
+      "hard",
+      "linux",
+      "easy",
+      "pwntilldawn",
+      "tryhackme",
+      "ctf",
+      "reversing"
+    ],
+    "image": "/img/htb-fuse-535.png",
+    "words": 642,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-admirer-741",
+    "title": "HackTheBox — Admirer (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Admirer. LAPS Abuse and CSRF to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-admirer-741.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-11",
+    "tags": [
+      "easy",
+      "tryhackme",
+      "reversing",
+      "linux"
+    ],
+    "image": "/img/htb-admirer-741.png",
+    "words": 633,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-696",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-696.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-10",
+    "tags": [
+      "format-string",
+      "zero-day",
+      "malware-analysis",
+      "cve",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-696.png",
+    "words": 444,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-devel-991",
+    "title": "HackTheBox — Devel (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Devel. Path Traversal and SeDebugPrivilege to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-devel-991.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-10",
+    "tags": [
+      "insane",
+      "offsec",
+      "tryhackme",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-devel-991.png",
+    "words": 536,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-blue-554",
+    "title": "TryHackMe — Blue (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Blue. IDOR and CSRF to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-blue-554.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-10",
+    "tags": [
+      "web",
+      "hackthebox",
+      "tryhackme",
+      "active-directory",
+      "windows",
+      "offsec",
+      "hard"
+    ],
+    "image": "/img/htb-blue-554.png",
+    "words": 577,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-friendzone-494",
+    "title": "OffSec Proving Grounds — FriendZone (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds FriendZone. Writable PATH and Golden Ticket to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-friendzone-494.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-09",
+    "tags": [
+      "hard",
+      "active-directory",
+      "easy",
+      "insane"
+    ],
+    "image": "/img/htb-friendzone-494.png",
+    "words": 689,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-352",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-352.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-08",
+    "tags": [
+      "linux",
+      "networking",
+      "dfir",
+      "oscp",
+      "blue-team",
+      "lateral-movement"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-352.png",
+    "words": 544,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-157",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-157.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-08",
+    "tags": [
+      "cheatsheet",
+      "privilege-escalation",
+      "dfir",
+      "linux",
+      "windows",
+      "enumeration"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-157.png",
+    "words": 554,
+    "readTime": "3 min"
+  }
+]

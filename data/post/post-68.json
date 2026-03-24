@@ -1,0 +1,235 @@
+[
+  {
+    "id": "note-reverse-engineering-basics-165",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-165.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-13",
+    "tags": [
+      "enumeration",
+      "cheatsheet",
+      "privilege-escalation",
+      "linux"
+    ],
+    "image": "/img/note-reverse-engineering-basics-165.png",
+    "words": 400,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-952",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-952.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-12",
+    "tags": [
+      "lateral-movement",
+      "windows",
+      "dfir",
+      "networking",
+      "oscp",
+      "linux"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-952.png",
+    "words": 295,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-swagshop-402",
+    "title": "PwnTillDawn — SwagShop (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn SwagShop. Command Injection and Weak Service Permissions to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-swagshop-402.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-12",
+    "tags": [
+      "offsec",
+      "active-directory",
+      "windows",
+      "linux",
+      "reversing",
+      "forensics",
+      "tryhackme"
+    ],
+    "image": "/img/htb-swagshop-402.png",
+    "words": 630,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-sense-133",
+    "title": "VulnHub — Sense (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Sense. DCSync and Remote File Inclusion to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-sense-133.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-11",
+    "tags": [
+      "reversing",
+      "forensics",
+      "hackthebox",
+      "offsec",
+      "easy"
+    ],
+    "image": "/img/htb-sense-133.png",
+    "words": 610,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-756",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-756.html",
+    "btn_label": "View Script",
+    "date": "2025-05-10",
+    "tags": [
+      "python",
+      "go",
+      "rust",
+      "scanner",
+      "script"
+    ],
+    "image": "/img/script-web-crawler-and-spider-756.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-147",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-147.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-10",
+    "tags": [
+      "buffer-overflow",
+      "uaf",
+      "zero-day",
+      "aslr-bypass",
+      "kernel",
+      "heap-exploitation"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-147.png",
+    "words": 448,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-mitre-att&ck-framework-reference-532",
+    "title": "MITRE ATT&CK Framework Reference",
+    "section": "notes",
+    "description": "Personal notes on MITRE ATT&CK Framework Reference. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-mitre-att&ck-framework-reference-532.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-10",
+    "tags": [
+      "networking",
+      "cheatsheet",
+      "malware",
+      "linux",
+      "oscp",
+      "blue-team"
+    ],
+    "image": "/img/note-mitre-att&ck-framework-reference-532.png",
+    "words": 342,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-993",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-993.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-10",
+    "tags": [
+      "enumeration",
+      "lateral-movement",
+      "windows",
+      "dfir"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-993.png",
+    "words": 560,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-brainstorm-142",
+    "title": "VulnHub — Brainstorm (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Brainstorm. Docker Escape and LXD Privilege Escalation to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-brainstorm-142.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-10",
+    "tags": [
+      "tryhackme",
+      "insane",
+      "medium",
+      "pwntilldawn",
+      "offsec",
+      "ctf"
+    ],
+    "image": "/img/htb-brainstorm-142.png",
+    "words": 582,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-reverse-engineering-basics-716",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-716.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-09",
+    "tags": [
+      "malware",
+      "oscp",
+      "persistence",
+      "cheatsheet"
+    ],
+    "image": "/img/note-reverse-engineering-basics-716.png",
+    "words": 636,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-614",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-614.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-09",
+    "tags": [
+      "blue-team",
+      "lateral-movement",
+      "malware",
+      "dfir",
+      "oscp",
+      "cheatsheet"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-614.png",
+    "words": 476,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-tenet-703",
+    "title": "VulnHub — Tenet (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Tenet. AlwaysInstallElevated and Open Redirect to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-tenet-703.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-09",
+    "tags": [
+      "ctf",
+      "reversing",
+      "hackthebox",
+      "insane",
+      "offsec"
+    ],
+    "image": "/img/htb-tenet-703.png",
+    "words": 612,
+    "readTime": "4 min",
+    "pick": 1
+  }
+]

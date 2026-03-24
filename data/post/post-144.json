@@ -1,0 +1,237 @@
+[
+  {
+    "id": "research-supply-chain-attack-vectors-837",
+    "title": "Supply Chain Attack Vectors",
+    "section": "research",
+    "description": "Technical research on Supply Chain Attack Vectors. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-supply-chain-attack-vectors-837.html",
+    "btn_label": "Read Research",
+    "date": "2024-05-06",
+    "tags": [
+      "uaf",
+      "format-string",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-supply-chain-attack-vectors-837.png",
+    "words": 434,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-living-off-the-land-binaries-(lolbins)-495",
+    "title": "Living off the Land Binaries (LOLBins)",
+    "section": "research",
+    "description": "Technical research on Living off the Land Binaries (LOLBins). In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-495.html",
+    "btn_label": "Read Research",
+    "date": "2024-05-06",
+    "tags": [
+      "shellcode",
+      "uaf",
+      "malware-analysis",
+      "aslr-bypass",
+      "exploit-development",
+      "kernel"
+    ],
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-49.png",
+    "words": 446,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-758",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-758.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-06",
+    "tags": [
+      "cheatsheet",
+      "windows",
+      "enumeration"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-758.png",
+    "words": 726,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-301",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-301.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-05",
+    "tags": [
+      "lateral-movement",
+      "blue-team",
+      "persistence",
+      "privilege-escalation",
+      "linux",
+      "enumeration"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-301.png",
+    "words": 629,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-663",
+    "title": "Log Parser and Analyzer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-663.html",
+    "btn_label": "View Script",
+    "date": "2024-05-04",
+    "tags": [
+      "parser",
+      "tool",
+      "scanner",
+      "bash"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-663.png",
+    "words": 327,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-268",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-268.html",
+    "btn_label": "Read Notes",
+    "date": "2024-05-04",
+    "tags": [
+      "enumeration",
+      "lateral-movement",
+      "cheatsheet",
+      "privilege-escalation",
+      "oscp",
+      "malware"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-268.png",
+    "words": 527,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-overpass-635",
+    "title": "TryHackMe — Overpass (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Overpass. SSTI and Kerberoasting to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-overpass-635.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-04",
+    "tags": [
+      "hackthebox",
+      "windows",
+      "tryhackme",
+      "reversing",
+      "forensics"
+    ],
+    "image": "/img/htb-overpass-635.png",
+    "words": 586,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-lame-297",
+    "title": "VulnHub — Lame (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Lame. XXE and SQL Injection to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-lame-297.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-04",
+    "tags": [
+      "web",
+      "forensics",
+      "tryhackme",
+      "linux",
+      "hackthebox",
+      "windows",
+      "active-directory"
+    ],
+    "image": "/img/htb-lame-297.png",
+    "words": 629,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-custom-wordlist-generator-541",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-541.html",
+    "btn_label": "View Script",
+    "date": "2024-05-03",
+    "tags": [
+      "c",
+      "python",
+      "script",
+      "rust",
+      "tool",
+      "powershell"
+    ],
+    "image": "/img/script-custom-wordlist-generator-541.png",
+    "words": 353,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-convertmyfund-208",
+    "title": "TryHackMe — Convertmyfund (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Convertmyfund. Kerberoasting and GPP Password to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-convertmyfund-208.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-03",
+    "tags": [
+      "active-directory",
+      "reversing",
+      "hackthebox",
+      "offsec",
+      "ctf",
+      "windows",
+      "forensics"
+    ],
+    "image": "/img/htb-convertmyfund-208.png",
+    "words": 566,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-solidstate-899",
+    "title": "PwnTillDawn — Solidstate (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Solidstate. Golden Ticket and Remote Code Execution to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-solidstate-899.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-02",
+    "tags": [
+      "insane",
+      "tryhackme",
+      "hackthebox",
+      "pwntilldawn",
+      "reversing",
+      "ctf"
+    ],
+    "image": "/img/htb-solidstate-899.png",
+    "words": 620,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-deja-vu-348",
+    "title": "VulnHub — Deja Vu (Hard FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Deja Vu. DNS Rebinding and CSRF to achieve hard compromise on FreeBSD.",
+    "permalink": "/writeups/htb-deja-vu-348.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-05-02",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "insane",
+      "web",
+      "forensics"
+    ],
+    "image": "/img/htb-deja-vu-348.png",
+    "words": 633,
+    "readTime": "4 min"
+  }
+]

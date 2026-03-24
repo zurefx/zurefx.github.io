@@ -1,0 +1,235 @@
+[
+  {
+    "id": "htb-mustacchio-440",
+    "title": "VulnHub — Mustacchio (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Mustacchio. DCSync and Unquoted Service Path to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-mustacchio-440.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-09",
+    "tags": [
+      "pwntilldawn",
+      "windows",
+      "tryhackme",
+      "forensics",
+      "hackthebox"
+    ],
+    "image": "/img/htb-mustacchio-440.png",
+    "words": 686,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-mindgames-144",
+    "title": "HackTheBox — Mindgames (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Mindgames. ACL Abuse and XXE to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-mindgames-144.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-09",
+    "tags": [
+      "easy",
+      "insane",
+      "linux",
+      "active-directory",
+      "forensics",
+      "hard",
+      "offsec"
+    ],
+    "image": "/img/htb-mindgames-144.png",
+    "words": 653,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-opsec-considerations-for-red-teams-244",
+    "title": "OPSEC Considerations for Red Teams",
+    "section": "research",
+    "description": "Technical research on OPSEC Considerations for Red Teams. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-244.html",
+    "btn_label": "Read Research",
+    "date": "2026-01-08",
+    "tags": [
+      "malware-analysis",
+      "exploit-development",
+      "rop",
+      "format-string",
+      "zero-day",
+      "buffer-overflow"
+    ],
+    "image": "/img/research-opsec-considerations-for-red-teams-244.png",
+    "words": 476,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-memory-forensics-with-volatility-231",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-231.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-08",
+    "tags": [
+      "lateral-movement",
+      "blue-team",
+      "privilege-escalation",
+      "oscp",
+      "networking"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-231.png",
+    "words": 685,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-devel-663",
+    "title": "VulnHub — Devel (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Devel. DLL Hijacking and Pass the Hash to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-devel-663.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-08",
+    "tags": [
+      "tryhackme",
+      "easy",
+      "insane",
+      "reversing",
+      "forensics",
+      "linux"
+    ],
+    "image": "/img/htb-devel-663.png",
+    "words": 607,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-log-parser-and-analyzer-276",
+    "title": "Log Parser and Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-276.html",
+    "btn_label": "View Script",
+    "date": "2026-01-07",
+    "tags": [
+      "automation",
+      "go",
+      "bash",
+      "python",
+      "c"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-276.png",
+    "words": 302,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-dns-resolver-and-brute-forcer-517",
+    "title": "DNS Resolver and Brute Forcer — Python",
+    "section": "scripting",
+    "description": "A Python script for dns resolver and brute forcer. Built for security research and automation.",
+    "permalink": "/scripting/script-dns-resolver-and-brute-forcer-517.html",
+    "btn_label": "View Script",
+    "date": "2026-01-07",
+    "tags": [
+      "python",
+      "powershell",
+      "rust"
+    ],
+    "image": "/img/script-dns-resolver-and-brute-forcer-517.png",
+    "words": 283,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-415",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-415.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-07",
+    "tags": [
+      "lateral-movement",
+      "linux",
+      "persistence",
+      "enumeration",
+      "oscp"
+    ],
+    "image": "/img/note-active-directory-attack-paths-415.png",
+    "words": 507,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-630",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-630.html",
+    "btn_label": "Read Notes",
+    "date": "2026-01-06",
+    "tags": [
+      "malware",
+      "lateral-movement",
+      "dfir",
+      "blue-team"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-630.png",
+    "words": 572,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-forge-205",
+    "title": "TryHackMe — Forge (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Forge. Unquoted Service Path and Weak Service Permissions to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-forge-205.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-06",
+    "tags": [
+      "easy",
+      "reversing",
+      "forensics",
+      "insane"
+    ],
+    "image": "/img/htb-forge-205.png",
+    "words": 571,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-devel-882",
+    "title": "TryHackMe — Devel (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Devel. Broken Access Control and Sudo Misconfiguration to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-devel-882.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-01-06",
+    "tags": [
+      "pwntilldawn",
+      "hard",
+      "hackthebox",
+      "medium",
+      "tryhackme",
+      "windows",
+      "linux"
+    ],
+    "image": "/img/htb-devel-882.png",
+    "words": 589,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "script-process-injection-poc-704",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-704.html",
+    "btn_label": "View Script",
+    "date": "2026-01-05",
+    "tags": [
+      "c",
+      "scanner",
+      "script",
+      "rust",
+      "powershell",
+      "bash"
+    ],
+    "image": "/img/script-process-injection-poc-704.png",
+    "words": 279,
+    "readTime": "2 min"
+  }
+]

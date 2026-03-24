@@ -1,0 +1,222 @@
+[
+  {
+    "id": "note-powershell-for-red-teamers-167",
+    "title": "PowerShell for Red Teamers",
+    "section": "notes",
+    "description": "Personal notes on PowerShell for Red Teamers. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-powershell-for-red-teamers-167.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-26",
+    "tags": [
+      "windows",
+      "cheatsheet",
+      "malware",
+      "privilege-escalation",
+      "oscp"
+    ],
+    "image": "/img/note-powershell-for-red-teamers-167.png",
+    "words": 729,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-swagshop-736",
+    "title": "OffSec Proving Grounds — SwagShop (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds SwagShop. LXD Privilege Escalation and Remote File Inclusion to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-swagshop-736.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-26",
+    "tags": [
+      "tryhackme",
+      "pwntilldawn",
+      "medium"
+    ],
+    "image": "/img/htb-swagshop-736.png",
+    "words": 628,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-bash-one-liners-for-security-testing-189",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-189.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-25",
+    "tags": [
+      "persistence",
+      "oscp",
+      "enumeration",
+      "networking",
+      "linux",
+      "lateral-movement"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-189.png",
+    "words": 298,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-browser-exploitation-techniques-717",
+    "title": "Browser Exploitation Techniques",
+    "section": "research",
+    "description": "Technical research on Browser Exploitation Techniques. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-browser-exploitation-techniques-717.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-24",
+    "tags": [
+      "exploit-development",
+      "aslr-bypass",
+      "cve"
+    ],
+    "image": "/img/research-browser-exploitation-techniques-717.png",
+    "words": 485,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-785",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-785.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-24",
+    "tags": [
+      "malware",
+      "cheatsheet",
+      "linux",
+      "lateral-movement",
+      "networking"
+    ],
+    "image": "/img/note-active-directory-attack-paths-785.png",
+    "words": 548,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ready-458",
+    "title": "HackTheBox — Ready (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ready. Cron Job and Weak Service Permissions to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ready-458.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-24",
+    "tags": [
+      "windows",
+      "insane",
+      "linux",
+      "active-directory",
+      "tryhackme"
+    ],
+    "image": "/img/htb-ready-458.png",
+    "words": 622,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "note-reverse-engineering-basics-696",
+    "title": "Reverse Engineering Basics",
+    "section": "notes",
+    "description": "Personal notes on Reverse Engineering Basics. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-reverse-engineering-basics-696.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-23",
+    "tags": [
+      "persistence",
+      "lateral-movement",
+      "blue-team",
+      "oscp"
+    ],
+    "image": "/img/note-reverse-engineering-basics-696.png",
+    "words": 375,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-829",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-829.html",
+    "btn_label": "Read Notes",
+    "date": "2024-01-23",
+    "tags": [
+      "networking",
+      "lateral-movement",
+      "windows"
+    ],
+    "image": "/img/note-digital-forensics-methodology-829.png",
+    "words": 328,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-spectra-594",
+    "title": "HackTheBox — Spectra (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Spectra. XXE and DCSync to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-spectra-594.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-23",
+    "tags": [
+      "forensics",
+      "reversing",
+      "pwntilldawn",
+      "windows"
+    ],
+    "image": "/img/htb-spectra-594.png",
+    "words": 625,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-advanced-phishing-infrastructure-setup-679",
+    "title": "Advanced Phishing Infrastructure Setup",
+    "section": "research",
+    "description": "Technical research on Advanced Phishing Infrastructure Setup. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-679.html",
+    "btn_label": "Read Research",
+    "date": "2024-01-22",
+    "tags": [
+      "format-string",
+      "shellcode",
+      "malware-analysis"
+    ],
+    "image": "/img/research-advanced-phishing-infrastructure-setup-67.png",
+    "words": 469,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-ophiuchi-646",
+    "title": "HackTheBox — Ophiuchi (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ophiuchi. Weak Service Permissions and SeImpersonatePrivilege to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-ophiuchi-646.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-22",
+    "tags": [
+      "tryhackme",
+      "ctf",
+      "hard"
+    ],
+    "image": "/img/htb-ophiuchi-646.png",
+    "words": 672,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-jarvis-443",
+    "title": "VulnHub — Jarvis (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Jarvis. Writable PATH and CORS Misconfiguration to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-jarvis-443.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-22",
+    "tags": [
+      "tryhackme",
+      "active-directory",
+      "web",
+      "easy",
+      "hard"
+    ],
+    "image": "/img/htb-jarvis-443.png",
+    "words": 612,
+    "readTime": "4 min"
+  }
+]

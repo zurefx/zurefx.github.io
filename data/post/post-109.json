@@ -1,0 +1,225 @@
+[
+  {
+    "id": "note-memory-forensics-with-volatility-540",
+    "title": "Memory Forensics with Volatility",
+    "section": "notes",
+    "description": "Personal notes on Memory Forensics with Volatility. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-memory-forensics-with-volatility-540.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-23",
+    "tags": [
+      "windows",
+      "dfir",
+      "persistence",
+      "networking",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-memory-forensics-with-volatility-540.png",
+    "words": 432,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-omni-922",
+    "title": "PwnTillDawn — Omni (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Omni. Remote Code Execution and Local File Inclusion to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-omni-922.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-23",
+    "tags": [
+      "hard",
+      "hackthebox",
+      "active-directory"
+    ],
+    "image": "/img/htb-omni-922.png",
+    "words": 558,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-optimum-123",
+    "title": "TryHackMe — Optimum (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Optimum. Insecure Deserialization and XSS to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-optimum-123.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-22",
+    "tags": [
+      "tryhackme",
+      "medium",
+      "active-directory",
+      "pwntilldawn",
+      "hard"
+    ],
+    "image": "/img/htb-optimum-123.png",
+    "words": 609,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-ophiuchi-761",
+    "title": "VulnHub — Ophiuchi (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Ophiuchi. XXE and DNS Rebinding to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-ophiuchi-761.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-22",
+    "tags": [
+      "active-directory",
+      "windows",
+      "reversing",
+      "web",
+      "medium",
+      "easy",
+      "tryhackme"
+    ],
+    "image": "/img/htb-ophiuchi-761.png",
+    "words": 582,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-process-injection-poc-527",
+    "title": "Process Injection PoC — Bash",
+    "section": "scripting",
+    "description": "A Bash script for process injection poc. Built for security research and automation.",
+    "permalink": "/scripting/script-process-injection-poc-527.html",
+    "btn_label": "View Script",
+    "date": "2024-10-21",
+    "tags": [
+      "bash",
+      "python",
+      "powershell"
+    ],
+    "image": "/img/script-process-injection-poc-527.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-898",
+    "title": "Automated Port Scanner — Python",
+    "section": "scripting",
+    "description": "A Python script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-898.html",
+    "btn_label": "View Script",
+    "date": "2024-10-21",
+    "tags": [
+      "bash",
+      "automation",
+      "c",
+      "python"
+    ],
+    "image": "/img/script-automated-port-scanner-898.png",
+    "words": 299,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-docker-security-hardening-389",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-389.html",
+    "btn_label": "Read Notes",
+    "date": "2024-10-21",
+    "tags": [
+      "lateral-movement",
+      "privilege-escalation",
+      "windows"
+    ],
+    "image": "/img/note-docker-security-hardening-389.png",
+    "words": 218,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-passage-672",
+    "title": "VulnHub — Passage (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Passage. DNS Rebinding and AS-REP Roasting to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-passage-672.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-21",
+    "tags": [
+      "ctf",
+      "pwntilldawn",
+      "web",
+      "tryhackme"
+    ],
+    "image": "/img/htb-passage-672.png",
+    "words": 622,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-devel-524",
+    "title": "VulnHub — Devel (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Devel. Pass the Ticket and AlwaysInstallElevated to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-devel-524.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-21",
+    "tags": [
+      "insane",
+      "windows",
+      "ctf",
+      "forensics",
+      "linux",
+      "tryhackme",
+      "hard"
+    ],
+    "image": "/img/htb-devel-524.png",
+    "words": 711,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-legacy-908",
+    "title": "OffSec Proving Grounds — Legacy (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Legacy. DCSync and Broken Access Control to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-legacy-908.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-20",
+    "tags": [
+      "web",
+      "ctf",
+      "medium",
+      "reversing"
+    ],
+    "image": "/img/htb-legacy-908.png",
+    "words": 567,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-crossfit-634",
+    "title": "PwnTillDawn — Crossfit (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Crossfit. Unconstrained Delegation and LXD Privilege Escalation to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-crossfit-634.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-10-20",
+    "tags": [
+      "reversing",
+      "ctf",
+      "web",
+      "insane",
+      "medium"
+    ],
+    "image": "/img/htb-crossfit-634.png",
+    "words": 606,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-jwt-token-analyzer-665",
+    "title": "JWT Token Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for jwt token analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-jwt-token-analyzer-665.html",
+    "btn_label": "View Script",
+    "date": "2024-10-19",
+    "tags": [
+      "automation",
+      "script",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-jwt-token-analyzer-665.png",
+    "words": 294,
+    "readTime": "2 min"
+  }
+]

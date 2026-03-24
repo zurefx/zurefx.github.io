@@ -1,0 +1,231 @@
+[
+  {
+    "id": "htb-ophiuchi-879",
+    "title": "VulnHub — Ophiuchi (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Ophiuchi. Local File Inclusion and Insecure Deserialization to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-ophiuchi-879.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-18",
+    "tags": [
+      "linux",
+      "windows",
+      "medium",
+      "hackthebox",
+      "ctf",
+      "reversing"
+    ],
+    "image": "/img/htb-ophiuchi-879.png",
+    "words": 615,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-hash-identifier-and-cracker-wrapper-835",
+    "title": "Hash Identifier and Cracker Wrapper",
+    "section": "projects",
+    "description": "Open source security project: Hash Identifier and Cracker Wrapper. Built for the community.",
+    "permalink": "/research/project-hash-identifier-and-cracker-wrapper-835.html",
+    "btn_label": "View Project",
+    "date": "2026-02-17",
+    "tags": [
+      "extension",
+      "framework",
+      "automation"
+    ],
+    "image": "/img/project-hash-identifier-and-cracker-wrapper-835.png",
+    "words": 227,
+    "readTime": "2 min",
+    "features": [
+      "john",
+      "gobuster",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "htb-tenet-473",
+    "title": "PwnTillDawn — Tenet (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Tenet. Open Redirect and Unconstrained Delegation to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-tenet-473.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-17",
+    "tags": [
+      "forensics",
+      "easy",
+      "offsec"
+    ],
+    "image": "/img/htb-tenet-473.png",
+    "words": 637,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-spectra-813",
+    "title": "HackTheBox — Spectra (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Spectra. AS-REP Roasting and CSRF to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-spectra-813.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-17",
+    "tags": [
+      "ctf",
+      "insane",
+      "hackthebox",
+      "pwntilldawn",
+      "web",
+      "offsec",
+      "active-directory"
+    ],
+    "image": "/img/htb-spectra-813.png",
+    "words": 595,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-custom-wordlist-generator-744",
+    "title": "Custom Wordlist Generator — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for custom wordlist generator. Built for security research and automation.",
+    "permalink": "/scripting/script-custom-wordlist-generator-744.html",
+    "btn_label": "View Script",
+    "date": "2026-02-16",
+    "tags": [
+      "tool",
+      "powershell",
+      "c",
+      "parser",
+      "rust"
+    ],
+    "image": "/img/script-custom-wordlist-generator-744.png",
+    "words": 345,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-109",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-109.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-16",
+    "tags": [
+      "linux",
+      "networking",
+      "persistence"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-109.png",
+    "words": 355,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-572",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-572.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-16",
+    "tags": [
+      "persistence",
+      "cheatsheet",
+      "blue-team"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-572.png",
+    "words": 580,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-733",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-733.html",
+    "btn_label": "Read Notes",
+    "date": "2026-02-16",
+    "tags": [
+      "malware",
+      "dfir",
+      "windows"
+    ],
+    "image": "/img/note-active-directory-attack-paths-733.png",
+    "words": 375,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-mindgames-916",
+    "title": "VulnHub — Mindgames (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Mindgames. Golden Ticket and IDOR to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-mindgames-916.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-16",
+    "tags": [
+      "tryhackme",
+      "windows",
+      "offsec",
+      "linux",
+      "ctf",
+      "reversing",
+      "medium"
+    ],
+    "image": "/img/htb-mindgames-916.png",
+    "words": 580,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-alfred-921",
+    "title": "HackTheBox — Alfred (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Alfred. Weak Service Permissions and DLL Hijacking to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-alfred-921.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-02-16",
+    "tags": [
+      "hard",
+      "hackthebox",
+      "forensics",
+      "medium"
+    ],
+    "image": "/img/htb-alfred-921.png",
+    "words": 578,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-amsi-bypass-collection-750",
+    "title": "AMSI Bypass Collection — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for amsi bypass collection. Built for security research and automation.",
+    "permalink": "/scripting/script-amsi-bypass-collection-750.html",
+    "btn_label": "View Script",
+    "date": "2026-02-15",
+    "tags": [
+      "bash",
+      "parser",
+      "scanner",
+      "automation",
+      "powershell"
+    ],
+    "image": "/img/script-amsi-bypass-collection-750.png",
+    "words": 330,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-705",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-705.html",
+    "btn_label": "Read Research",
+    "date": "2026-02-15",
+    "tags": [
+      "uaf",
+      "heap-exploitation",
+      "kernel",
+      "buffer-overflow",
+      "cve",
+      "aslr-bypass"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-705.png",
+    "words": 415,
+    "readTime": "3 min"
+  }
+]

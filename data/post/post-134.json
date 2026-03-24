@@ -1,0 +1,227 @@
+[
+  {
+    "id": "htb-bastard-843",
+    "title": "HackTheBox — Bastard (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Bastard. NFS No Root Squash and XSS to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-bastard-843.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-27",
+    "tags": [
+      "web",
+      "hard",
+      "linux"
+    ],
+    "image": "/img/htb-bastard-843.png",
+    "words": 541,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-log-parser-and-analyzer-962",
+    "title": "Log Parser and Analyzer — Python",
+    "section": "scripting",
+    "description": "A Python script for log parser and analyzer. Built for security research and automation.",
+    "permalink": "/scripting/script-log-parser-and-analyzer-962.html",
+    "btn_label": "View Script",
+    "date": "2024-06-26",
+    "tags": [
+      "rust",
+      "scanner",
+      "fuzzer",
+      "parser",
+      "tool",
+      "python"
+    ],
+    "image": "/img/script-log-parser-and-analyzer-962.png",
+    "words": 319,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-609",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-609.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-26",
+    "tags": [
+      "oscp",
+      "enumeration",
+      "linux",
+      "lateral-movement"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-609.png",
+    "words": 356,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-fuse-708",
+    "title": "OffSec Proving Grounds — Fuse (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Fuse. LAPS Abuse and NFS No Root Squash to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-fuse-708.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-26",
+    "tags": [
+      "hard",
+      "linux",
+      "easy"
+    ],
+    "image": "/img/htb-fuse-708.png",
+    "words": 667,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-hash-identifier-and-cracker-wrapper-173",
+    "title": "Hash Identifier and Cracker Wrapper — Python",
+    "section": "scripting",
+    "description": "A Python script for hash identifier and cracker wrapper. Built for security research and automation.",
+    "permalink": "/scripting/script-hash-identifier-and-cracker-wrapper-173.html",
+    "btn_label": "View Script",
+    "date": "2024-06-25",
+    "tags": [
+      "go",
+      "rust",
+      "scanner",
+      "fuzzer",
+      "c",
+      "script",
+      "python"
+    ],
+    "image": "/img/script-hash-identifier-and-cracker-wrapper-173.png",
+    "words": 338,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-swagshop-953",
+    "title": "OffSec Proving Grounds — SwagShop (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds SwagShop. Sudo Misconfiguration and DNS Rebinding to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-swagshop-953.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-25",
+    "tags": [
+      "tryhackme",
+      "hackthebox",
+      "pwntilldawn",
+      "web",
+      "offsec",
+      "linux"
+    ],
+    "image": "/img/htb-swagshop-953.png",
+    "words": 585,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-693",
+    "title": "Web Crawler and Spider — Go",
+    "section": "scripting",
+    "description": "A Go script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-693.html",
+    "btn_label": "View Script",
+    "date": "2024-06-24",
+    "tags": [
+      "bash",
+      "tool",
+      "automation",
+      "rust",
+      "go"
+    ],
+    "image": "/img/script-web-crawler-and-spider-693.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-257",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-257.html",
+    "btn_label": "Read Research",
+    "date": "2024-06-24",
+    "tags": [
+      "shellcode",
+      "cve",
+      "aslr-bypass",
+      "exploit-development"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-257.png",
+    "words": 470,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-python-scripting-for-pentesting-571",
+    "title": "Python Scripting for Pentesting",
+    "section": "notes",
+    "description": "Personal notes on Python Scripting for Pentesting. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-python-scripting-for-pentesting-571.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-24",
+    "tags": [
+      "dfir",
+      "lateral-movement",
+      "blue-team",
+      "networking",
+      "oscp",
+      "linux"
+    ],
+    "image": "/img/note-python-scripting-for-pentesting-571.png",
+    "words": 891,
+    "readTime": "5 min"
+  },
+  {
+    "id": "note-active-directory-attack-paths-469",
+    "title": "Active Directory Attack Paths",
+    "section": "notes",
+    "description": "Personal notes on Active Directory Attack Paths. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-active-directory-attack-paths-469.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-24",
+    "tags": [
+      "blue-team",
+      "dfir",
+      "cheatsheet",
+      "persistence"
+    ],
+    "image": "/img/note-active-directory-attack-paths-469.png",
+    "words": 376,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-mindgames-793",
+    "title": "PwnTillDawn — Mindgames (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Mindgames. Subdomain Takeover and Resource-Based Constrained Delegation to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-mindgames-793.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-06-24",
+    "tags": [
+      "hackthebox",
+      "active-directory",
+      "easy",
+      "web",
+      "insane"
+    ],
+    "image": "/img/htb-mindgames-793.png",
+    "words": 581,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-486",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-486.html",
+    "btn_label": "Read Notes",
+    "date": "2024-06-23",
+    "tags": [
+      "dfir",
+      "blue-team",
+      "persistence",
+      "oscp"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-486.png",
+    "words": 670,
+    "readTime": "4 min"
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "id": "htb-cronos-460",
+    "title": "HackTheBox — Cronos (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Cronos. SeDebugPrivilege and XSS to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-cronos-460.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-29",
+    "tags": [
+      "hard",
+      "web",
+      "hackthebox",
+      "offsec"
+    ],
+    "image": "/img/htb-cronos-460.png",
+    "words": 654,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "script-reverse-shell-generator-171",
+    "title": "Reverse Shell Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-171.html",
+    "btn_label": "View Script",
+    "date": "2025-09-28",
+    "tags": [
+      "c",
+      "go",
+      "bash",
+      "python",
+      "parser"
+    ],
+    "image": "/img/script-reverse-shell-generator-171.png",
+    "words": 357,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-incident-response-playbook-619",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-619.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-28",
+    "tags": [
+      "oscp",
+      "windows",
+      "lateral-movement"
+    ],
+    "image": "/img/note-incident-response-playbook-619.png",
+    "words": 789,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-payload-obfuscation-script-178",
+    "title": "Payload Obfuscation Script — Python",
+    "section": "scripting",
+    "description": "A Python script for payload obfuscation script. Built for security research and automation.",
+    "permalink": "/scripting/script-payload-obfuscation-script-178.html",
+    "btn_label": "View Script",
+    "date": "2025-09-27",
+    "tags": [
+      "c",
+      "bash",
+      "fuzzer",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-payload-obfuscation-script-178.png",
+    "words": 330,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-password-spraying-tool-388",
+    "title": "Password Spraying Tool — Bash",
+    "section": "scripting",
+    "description": "A Bash script for password spraying tool. Built for security research and automation.",
+    "permalink": "/scripting/script-password-spraying-tool-388.html",
+    "btn_label": "View Script",
+    "date": "2025-09-25",
+    "tags": [
+      "c",
+      "bash",
+      "go"
+    ],
+    "image": "/img/script-password-spraying-tool-388.png",
+    "words": 317,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-558",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-558.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-25",
+    "tags": [
+      "lateral-movement",
+      "enumeration",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-558.png",
+    "words": 355,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-buffer-overflow-exploitation-guide-904",
+    "title": "Buffer Overflow Exploitation Guide",
+    "section": "notes",
+    "description": "Personal notes on Buffer Overflow Exploitation Guide. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-buffer-overflow-exploitation-guide-904.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-25",
+    "tags": [
+      "windows",
+      "blue-team",
+      "privilege-escalation",
+      "cheatsheet",
+      "dfir"
+    ],
+    "image": "/img/note-buffer-overflow-exploitation-guide-904.png",
+    "words": 544,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-pit-286",
+    "title": "VulnHub — Pit (Hard Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Pit. DCSync and Cron Job to achieve hard compromise on Windows.",
+    "permalink": "/writeups/htb-pit-286.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-25",
+    "tags": [
+      "reversing",
+      "ctf",
+      "tryhackme",
+      "offsec"
+    ],
+    "image": "/img/htb-pit-286.png",
+    "words": 683,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-cap-819",
+    "title": "HackTheBox — Cap (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Cap. Subdomain Takeover and Path Traversal to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-cap-819.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-09-25",
+    "tags": [
+      "web",
+      "active-directory",
+      "hard"
+    ],
+    "image": "/img/htb-cap-819.png",
+    "words": 716,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "project-api-security-testing-framework-344",
+    "title": "API Security Testing Framework",
+    "section": "projects",
+    "description": "Open source security project: API Security Testing Framework. Built for the community.",
+    "permalink": "/research/project-api-security-testing-framework-344.html",
+    "btn_label": "View Project",
+    "date": "2025-09-24",
+    "tags": [
+      "framework",
+      "security",
+      "plugin",
+      "extension",
+      "cli"
+    ],
+    "image": "/img/project-api-security-testing-framework-344.png",
+    "words": 193,
+    "readTime": "1 min",
+    "features": [
+      "hydra",
+      "gobuster",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "note-digital-forensics-methodology-325",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-325.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-24",
+    "tags": [
+      "malware",
+      "networking",
+      "lateral-movement"
+    ],
+    "image": "/img/note-digital-forensics-methodology-325.png",
+    "words": 457,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-340",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-340.html",
+    "btn_label": "Read Notes",
+    "date": "2025-09-24",
+    "tags": [
+      "privilege-escalation",
+      "persistence",
+      "networking"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-340.png",
+    "words": 419,
+    "readTime": "3 min"
+  }
+]

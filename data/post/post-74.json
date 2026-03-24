@@ -1,0 +1,242 @@
+[
+  {
+    "id": "htb-anthem-342",
+    "title": "HackTheBox — Anthem (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Anthem. AS-REP Roasting and Command Injection to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-anthem-342.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-20",
+    "tags": [
+      "easy",
+      "linux",
+      "medium",
+      "hard"
+    ],
+    "image": "/img/htb-anthem-342.png",
+    "words": 593,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-browser-exploitation-techniques-155",
+    "title": "Browser Exploitation Techniques",
+    "section": "projects",
+    "description": "Open source security project: Browser Exploitation Techniques. Built for the community.",
+    "permalink": "/research/project-browser-exploitation-techniques-155.html",
+    "btn_label": "View Project",
+    "date": "2025-04-19",
+    "tags": [
+      "cli",
+      "tool",
+      "security",
+      "open-source"
+    ],
+    "image": "/img/project-browser-exploitation-techniques-155.png",
+    "words": 197,
+    "readTime": "1 min",
+    "features": [
+      "hashcat",
+      "gobuster",
+      "crackmapexec"
+    ]
+  },
+  {
+    "id": "htb-ice-245",
+    "title": "HackTheBox — Ice (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Ice. Sudo Misconfiguration and DLL Hijacking to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-ice-245.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-19",
+    "tags": [
+      "active-directory",
+      "easy",
+      "reversing",
+      "insane",
+      "hackthebox"
+    ],
+    "image": "/img/htb-ice-245.png",
+    "words": 609,
+    "readTime": "4 min"
+  },
+  {
+    "id": "project-reverse-shell-generator-873",
+    "title": "Reverse Shell Generator",
+    "section": "projects",
+    "description": "Open source security project: Reverse Shell Generator. Built for the community.",
+    "permalink": "/research/project-reverse-shell-generator-873.html",
+    "btn_label": "View Project",
+    "date": "2025-04-18",
+    "tags": [
+      "plugin",
+      "security",
+      "library"
+    ],
+    "image": "/img/project-reverse-shell-generator-873.png",
+    "words": 214,
+    "readTime": "2 min",
+    "features": [
+      "evil-winrm",
+      "impacket",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "note-malware-analysis-environment-setup-980",
+    "title": "Malware Analysis Environment Setup",
+    "section": "notes",
+    "description": "Personal notes on Malware Analysis Environment Setup. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-malware-analysis-environment-setup-980.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-18",
+    "tags": [
+      "windows",
+      "privilege-escalation",
+      "linux",
+      "dfir",
+      "cheatsheet"
+    ],
+    "image": "/img/note-malware-analysis-environment-setup-980.png",
+    "words": 359,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-cloud-security-(aws-azure-gcp)-120",
+    "title": "Cloud Security (AWS/Azure/GCP)",
+    "section": "notes",
+    "description": "Personal notes on Cloud Security (AWS/Azure/GCP). Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-cloud-security-(aws-azure-gcp)-120.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-18",
+    "tags": [
+      "enumeration",
+      "privilege-escalation",
+      "oscp",
+      "cheatsheet",
+      "blue-team",
+      "networking"
+    ],
+    "image": "/img/note-cloud-security-(aws-azure-gcp)-120.png",
+    "words": 767,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-windows-post-exploitation-cheatsheet-682",
+    "title": "Windows Post-Exploitation Cheatsheet",
+    "section": "notes",
+    "description": "Personal notes on Windows Post-Exploitation Cheatsheet. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-windows-post-exploitation-cheatsheet-682.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-16",
+    "tags": [
+      "blue-team",
+      "networking",
+      "windows",
+      "persistence",
+      "enumeration",
+      "oscp"
+    ],
+    "image": "/img/note-windows-post-exploitation-cheatsheet-682.png",
+    "words": 499,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-bypassing-applocker-and-wdac-583",
+    "title": "Bypassing AppLocker and WDAC",
+    "section": "research",
+    "description": "Technical research on Bypassing AppLocker and WDAC. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-583.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-15",
+    "tags": [
+      "zero-day",
+      "malware-analysis",
+      "heap-exploitation",
+      "rop",
+      "cve",
+      "exploit-development"
+    ],
+    "image": "/img/research-bypassing-applocker-and-wdac-583.png",
+    "words": 445,
+    "readTime": "3 min"
+  },
+  {
+    "id": "project-automated-port-scanner-793",
+    "title": "Automated Port Scanner",
+    "section": "projects",
+    "description": "Open source security project: Automated Port Scanner. Built for the community.",
+    "permalink": "/research/project-automated-port-scanner-793.html",
+    "btn_label": "View Project",
+    "date": "2025-04-15",
+    "tags": [
+      "framework",
+      "library",
+      "extension"
+    ],
+    "image": "/img/project-automated-port-scanner-793.png",
+    "words": 216,
+    "readTime": "2 min",
+    "features": [
+      "impacket",
+      "hydra",
+      "gobuster"
+    ]
+  },
+  {
+    "id": "note-yara-rule-writing-332",
+    "title": "YARA Rule Writing",
+    "section": "notes",
+    "description": "Personal notes on YARA Rule Writing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-yara-rule-writing-332.html",
+    "btn_label": "Read Notes",
+    "date": "2025-04-14",
+    "tags": [
+      "persistence",
+      "networking",
+      "malware",
+      "cheatsheet",
+      "dfir"
+    ],
+    "image": "/img/note-yara-rule-writing-332.png",
+    "words": 494,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-forge-143",
+    "title": "OffSec Proving Grounds — Forge (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Forge. Unconstrained Delegation and CORS Misconfiguration to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-forge-143.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-14",
+    "tags": [
+      "active-directory",
+      "medium",
+      "ctf"
+    ],
+    "image": "/img/htb-forge-143.png",
+    "words": 578,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-cobalt-strike-profile-development-626",
+    "title": "Cobalt Strike Profile Development",
+    "section": "research",
+    "description": "Technical research on Cobalt Strike Profile Development. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-cobalt-strike-profile-development-626.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-13",
+    "tags": [
+      "aslr-bypass",
+      "uaf",
+      "shellcode",
+      "malware-analysis",
+      "kernel"
+    ],
+    "image": "/img/research-cobalt-strike-profile-development-626.png",
+    "words": 471,
+    "readTime": "3 min"
+  }
+]

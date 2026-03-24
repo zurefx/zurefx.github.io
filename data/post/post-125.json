@@ -1,0 +1,224 @@
+[
+  {
+    "id": "note-bash-one-liners-for-security-testing-520",
+    "title": "Bash One-Liners for Security Testing",
+    "section": "notes",
+    "description": "Personal notes on Bash One-Liners for Security Testing. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-bash-one-liners-for-security-testing-520.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-10",
+    "tags": [
+      "blue-team",
+      "networking",
+      "privilege-escalation"
+    ],
+    "image": "/img/note-bash-one-liners-for-security-testing-520.png",
+    "words": 721,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-pikaboo-796",
+    "title": "TryHackMe — Pikaboo (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Pikaboo. DLL Hijacking and Writable PATH to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-pikaboo-796.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-10",
+    "tags": [
+      "tryhackme",
+      "forensics",
+      "hackthebox"
+    ],
+    "image": "/img/htb-pikaboo-796.png",
+    "words": 596,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-deja-vu-160",
+    "title": "TryHackMe — Deja Vu (Medium Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Deja Vu. Path Traversal and IDOR to achieve medium compromise on Linux.",
+    "permalink": "/writeups/htb-deja-vu-160.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-10",
+    "tags": [
+      "offsec",
+      "reversing",
+      "hackthebox"
+    ],
+    "image": "/img/htb-deja-vu-160.png",
+    "words": 631,
+    "readTime": "4 min"
+  },
+  {
+    "id": "research-novel-persistence-mechanisms-in-linux-260",
+    "title": "Novel Persistence Mechanisms in Linux",
+    "section": "research",
+    "description": "Technical research on Novel Persistence Mechanisms in Linux. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-260.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-07",
+    "tags": [
+      "aslr-bypass",
+      "exploit-development",
+      "format-string",
+      "heap-exploitation",
+      "zero-day"
+    ],
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-260.png",
+    "words": 470,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "project-network-packet-sniffer-604",
+    "title": "Network Packet Sniffer",
+    "section": "projects",
+    "description": "Open source security project: Network Packet Sniffer. Built for the community.",
+    "permalink": "/research/project-network-packet-sniffer-604.html",
+    "btn_label": "View Project",
+    "date": "2024-08-07",
+    "tags": [
+      "framework",
+      "automation",
+      "cli",
+      "security"
+    ],
+    "image": "/img/project-network-packet-sniffer-604.png",
+    "words": 211,
+    "readTime": "2 min",
+    "features": [
+      "nmap",
+      "impacket",
+      "hashcat"
+    ]
+  },
+  {
+    "id": "note-incident-response-playbook-472",
+    "title": "Incident Response Playbook",
+    "section": "notes",
+    "description": "Personal notes on Incident Response Playbook. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-incident-response-playbook-472.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-07",
+    "tags": [
+      "linux",
+      "lateral-movement",
+      "dfir",
+      "enumeration"
+    ],
+    "image": "/img/note-incident-response-playbook-472.png",
+    "words": 340,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-100",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-100.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-07",
+    "tags": [
+      "lateral-movement",
+      "oscp",
+      "networking",
+      "persistence"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-100.png",
+    "words": 437,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-256",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-256.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-06",
+    "tags": [
+      "networking",
+      "blue-team",
+      "oscp"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-256.png",
+    "words": 382,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-cereal-302",
+    "title": "PwnTillDawn — Cereal (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Cereal. AS-REP Roasting and IDOR to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-cereal-302.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-08-06",
+    "tags": [
+      "pwntilldawn",
+      "hard",
+      "active-directory",
+      "linux"
+    ],
+    "image": "/img/htb-cereal-302.png",
+    "words": 542,
+    "readTime": "3 min"
+  },
+  {
+    "id": "research-fuzzing-embedded-firmware-249",
+    "title": "Fuzzing Embedded Firmware",
+    "section": "research",
+    "description": "Technical research on Fuzzing Embedded Firmware. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-fuzzing-embedded-firmware-249.html",
+    "btn_label": "Read Research",
+    "date": "2024-08-05",
+    "tags": [
+      "malware-analysis",
+      "heap-exploitation",
+      "format-string",
+      "rop"
+    ],
+    "image": "/img/research-fuzzing-embedded-firmware-249.png",
+    "words": 523,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "note-oscp-exam-preparation-notes-313",
+    "title": "OSCP Exam Preparation Notes",
+    "section": "notes",
+    "description": "Personal notes on OSCP Exam Preparation Notes. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-oscp-exam-preparation-notes-313.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-05",
+    "tags": [
+      "privilege-escalation",
+      "dfir",
+      "windows",
+      "blue-team",
+      "lateral-movement"
+    ],
+    "image": "/img/note-oscp-exam-preparation-notes-313.png",
+    "words": 257,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-digital-forensics-methodology-732",
+    "title": "Digital Forensics Methodology",
+    "section": "notes",
+    "description": "Personal notes on Digital Forensics Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-digital-forensics-methodology-732.html",
+    "btn_label": "Read Notes",
+    "date": "2024-08-05",
+    "tags": [
+      "privilege-escalation",
+      "blue-team",
+      "persistence",
+      "windows"
+    ],
+    "image": "/img/note-digital-forensics-methodology-732.png",
+    "words": 291,
+    "readTime": "2 min"
+  }
+]

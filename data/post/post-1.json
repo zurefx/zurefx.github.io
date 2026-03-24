@@ -1,0 +1,237 @@
+[
+  {
+    "id": "htb-activexxxxxxxxxx",
+    "title": "HTB XD — Easy Windows",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Active. SMB anonymous share enumeration, GPP password decryption with gpp-decrypt, and Kerberoasting the Administrator account to get SYSTEM.",
+    "permalink": "/writeups/htb-activexxxxxxxxxx.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-25",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "windows",
+      "kerberoasting",
+      "gpp",
+      "smb",
+      "activedirectory"
+    ],
+    "image": "/img/htb-active.png",
+    "words": 771,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-passage-418",
+    "title": "HackTheBox — Passage (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Passage. Sudo Misconfiguration and SeImpersonatePrivilege to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-passage-418.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-23",
+    "tags": [
+      "medium",
+      "windows",
+      "active-directory",
+      "easy"
+    ],
+    "image": "/img/htb-passage-418.png",
+    "words": 611,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-linkvortex",
+    "title": "HTB LinkVortex — Easy Linux",
+    "section": "writeups",
+    "description": "HackTheBox LinkVortex writeup. Ghost CMS credential leak via git repo exposure and symlink exploit for root.",
+    "permalink": "/writeups/htb-linkvortex.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-23",
+    "tags": [
+      "hackthebox",
+      "easy",
+      "linux",
+      "ghostcms",
+      "symlink"
+    ],
+    "image": "/img/htb-linkvortex.png",
+    "words": 96,
+    "readTime": "1 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-skynet-771",
+    "title": "PwnTillDawn — Skynet (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Skynet. NFS No Root Squash and XXE to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-skynet-771.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-22",
+    "tags": [
+      "linux",
+      "forensics",
+      "medium"
+    ],
+    "image": "/img/htb-skynet-771.png",
+    "words": 683,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-intelligence-365",
+    "title": "OffSec Proving Grounds — Intelligence (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Intelligence. Pass the Hash and Subdomain Takeover to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-intelligence-365.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-22",
+    "tags": [
+      "ctf",
+      "hard",
+      "active-directory"
+    ],
+    "image": "/img/htb-intelligence-365.png",
+    "words": 588,
+    "readTime": "3 min"
+  },
+  {
+    "id": "zfx-recon-tool",
+    "title": "ZFX Recon Tool",
+    "section": "projects",
+    "description": "Automated reconnaissance framework for CTF and pentesting. Chains nmap, ffuf, whatweb and screenshots into a single command with structured output.",
+    "permalink": "/research/zfx-recon-tool.html",
+    "btn_label": "View on GitHub",
+    "date": "2026-03-22",
+    "tags": [
+      "python",
+      "automation",
+      "recon",
+      "opensource",
+      "tools"
+    ],
+    "image": "/img/zfx-recon-tool.png",
+    "words": 43,
+    "readTime": "1 min",
+    "features": [
+      "Automated nmap + ffuf + whatweb chain",
+      "Structured markdown output per target",
+      "Screenshot capture via gowitness",
+      "Plugin system for custom modules"
+    ]
+  },
+  {
+    "id": "script-network-packet-sniffer-393",
+    "title": "Network Packet Sniffer — Go",
+    "section": "scripting",
+    "description": "A Go script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-393.html",
+    "btn_label": "View Script",
+    "date": "2026-03-21",
+    "tags": [
+      "bash",
+      "scanner",
+      "rust",
+      "tool",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-network-packet-sniffer-393.png",
+    "words": 299,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-sigma-rule-development-438",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-438.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-21",
+    "tags": [
+      "windows",
+      "dfir",
+      "linux",
+      "lateral-movement",
+      "blue-team",
+      "oscp"
+    ],
+    "image": "/img/note-sigma-rule-development-438.png",
+    "words": 479,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-linux-privilege-escalation-techniques-300",
+    "title": "Linux Privilege Escalation Techniques",
+    "section": "notes",
+    "description": "Personal notes on Linux Privilege Escalation Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-linux-privilege-escalation-techniques-300.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-21",
+    "tags": [
+      "enumeration",
+      "persistence",
+      "malware"
+    ],
+    "image": "/img/note-linux-privilege-escalation-techniques-300.png",
+    "words": 396,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-servmon-305",
+    "title": "HackTheBox — ServMon (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox ServMon. SQL Injection and Writable PATH to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-servmon-305.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-21",
+    "tags": [
+      "insane",
+      "medium",
+      "forensics",
+      "web",
+      "hard",
+      "windows"
+    ],
+    "image": "/img/htb-servmon-305.png",
+    "words": 601,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-buff-407",
+    "title": "HackTheBox — Buff (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Buff. Subdomain Takeover and Broken Access Control to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-buff-407.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-21",
+    "tags": [
+      "hard",
+      "web",
+      "medium",
+      "forensics"
+    ],
+    "image": "/img/htb-buff-407.png",
+    "words": 616,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-web-crawler-and-spider-715",
+    "title": "Web Crawler and Spider — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for web crawler and spider. Built for security research and automation.",
+    "permalink": "/scripting/script-web-crawler-and-spider-715.html",
+    "btn_label": "View Script",
+    "date": "2026-03-20",
+    "tags": [
+      "powershell",
+      "fuzzer",
+      "script",
+      "rust",
+      "go"
+    ],
+    "image": "/img/script-web-crawler-and-spider-715.png",
+    "words": 345,
+    "readTime": "2 min"
+  }
+]

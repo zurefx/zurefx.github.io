@@ -1,0 +1,232 @@
+[
+  {
+    "id": "script-reverse-shell-generator-759",
+    "title": "Reverse Shell Generator — Python",
+    "section": "scripting",
+    "description": "A Python script for reverse shell generator. Built for security research and automation.",
+    "permalink": "/scripting/script-reverse-shell-generator-759.html",
+    "btn_label": "View Script",
+    "date": "2026-03-19",
+    "tags": [
+      "script",
+      "automation",
+      "parser",
+      "python"
+    ],
+    "image": "/img/script-reverse-shell-generator-759.png",
+    "words": 317,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-threat-hunting-with-splunk-512",
+    "title": "Threat Hunting with Splunk",
+    "section": "notes",
+    "description": "Personal notes on Threat Hunting with Splunk. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-threat-hunting-with-splunk-512.html",
+    "btn_label": "Read Notes",
+    "date": "2026-03-19",
+    "tags": [
+      "privilege-escalation",
+      "networking",
+      "linux",
+      "cheatsheet",
+      "windows",
+      "malware"
+    ],
+    "image": "/img/note-threat-hunting-with-splunk-512.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-grandpa-203",
+    "title": "HackTheBox — Grandpa (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Grandpa. Remote Code Execution and IDOR to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-grandpa-203.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-19",
+    "tags": [
+      "tryhackme",
+      "web",
+      "offsec",
+      "linux",
+      "hackthebox",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-grandpa-203.png",
+    "words": 583,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-doctor-614",
+    "title": "HackTheBox — Doctor (Insane OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Doctor. Golden Ticket and CSRF to achieve insane compromise on OpenBSD.",
+    "permalink": "/writeups/htb-doctor-614.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-19",
+    "tags": [
+      "reversing",
+      "web",
+      "windows"
+    ],
+    "image": "/img/htb-doctor-614.png",
+    "words": 611,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-analysis",
+    "title": "HTB Analysis — Hard Windows",
+    "section": "writeups",
+    "description": "HackTheBox Analysis writeup. LDAP injection, ASP webshell, DLL hijacking and Snort dynamic preprocessor abuse for root.",
+    "permalink": "/writeups/htb-analysis.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-19",
+    "tags": [
+      "hackthebox",
+      "hard",
+      "windows",
+      "ldapinjection",
+      "dllhijacking"
+    ],
+    "image": "/img/htb-analysis.png",
+    "words": 85,
+    "readTime": "1 min"
+  },
+  {
+    "id": "htb-node-156",
+    "title": "HackTheBox — Node (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Node. Insecure Deserialization and SSRF to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-node-156.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-18",
+    "tags": [
+      "hard",
+      "easy",
+      "pwntilldawn",
+      "insane",
+      "forensics",
+      "active-directory",
+      "reversing"
+    ],
+    "image": "/img/htb-node-156.png",
+    "words": 631,
+    "readTime": "4 min"
+  },
+  {
+    "id": "ad-kerberoasting",
+    "title": "Kerberoasting — Active Directory",
+    "section": "notes",
+    "description": "Kerberoasting attack explained: how to request TGS tickets, extract hashes and crack service account passwords offline.",
+    "permalink": "/notes/ad-kerberoasting.html",
+    "btn_label": "View CheatSheet",
+    "date": "2026-03-18",
+    "tags": [
+      "activedirectory",
+      "kerberoasting",
+      "cheatsheet",
+      "impacket"
+    ],
+    "image": "/img/ad-kerberoasting.png",
+    "words": 87,
+    "readTime": "1 min",
+    "subsection": "Active Directory"
+  },
+  {
+    "id": "research-evading-modern-edr-solutions-489",
+    "title": "Evading Modern EDR Solutions",
+    "section": "research",
+    "description": "Technical research on Evading Modern EDR Solutions. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-evading-modern-edr-solutions-489.html",
+    "btn_label": "Read Research",
+    "date": "2026-03-17",
+    "tags": [
+      "rop",
+      "exploit-development",
+      "kernel",
+      "format-string"
+    ],
+    "image": "/img/research-evading-modern-edr-solutions-489.png",
+    "words": 455,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-monitors-928",
+    "title": "TryHackMe — Monitors (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Monitors. XSS and SSTI to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-monitors-928.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-17",
+    "tags": [
+      "web",
+      "linux",
+      "insane",
+      "tryhackme",
+      "medium"
+    ],
+    "image": "/img/htb-monitors-928.png",
+    "words": 678,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-game-zone-608",
+    "title": "PwnTillDawn — Game Zone (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Game Zone. Remote Code Execution and DLL Hijacking to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-game-zone-608.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-17",
+    "tags": [
+      "linux",
+      "web",
+      "reversing",
+      "active-directory",
+      "hard",
+      "insane"
+    ],
+    "image": "/img/htb-game-zone-608.png",
+    "words": 611,
+    "readTime": "4 min"
+  },
+  {
+    "id": "port-scan-tool",
+    "title": "Fast Port Scanner in Python",
+    "section": "scripting",
+    "description": "Multithreaded Python port scanner with banner grabbing, built as a lightweight alternative to nmap for CTF environments.",
+    "permalink": "/scripting/port-scan-tool.html",
+    "btn_label": "View Script",
+    "date": "2026-03-17",
+    "tags": [
+      "python",
+      "scripting",
+      "tools",
+      "networking"
+    ],
+    "image": "/img/port-scan-tool.png",
+    "words": 81,
+    "readTime": "1 min"
+  },
+  {
+    "id": "htb-legacy-548",
+    "title": "HackTheBox — Legacy (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Legacy. NTLM Relay and Insecure Deserialization to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-legacy-548.html",
+    "btn_label": "Read Writeup",
+    "date": "2026-03-16",
+    "tags": [
+      "offsec",
+      "linux",
+      "insane",
+      "reversing",
+      "active-directory"
+    ],
+    "image": "/img/htb-legacy-548.png",
+    "words": 591,
+    "readTime": "3 min",
+    "pick": 1
+  }
+]

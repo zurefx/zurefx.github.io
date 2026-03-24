@@ -1,0 +1,222 @@
+[
+  {
+    "id": "script-network-packet-sniffer-189",
+    "title": "Network Packet Sniffer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-189.html",
+    "btn_label": "View Script",
+    "date": "2025-05-27",
+    "tags": [
+      "automation",
+      "scanner",
+      "fuzzer",
+      "bash"
+    ],
+    "image": "/img/script-network-packet-sniffer-189.png",
+    "words": 376,
+    "readTime": "2 min"
+  },
+  {
+    "id": "project-network-packet-sniffer-310",
+    "title": "Network Packet Sniffer",
+    "section": "projects",
+    "description": "Open source security project: Network Packet Sniffer. Built for the community.",
+    "permalink": "/research/project-network-packet-sniffer-310.html",
+    "btn_label": "View Project",
+    "date": "2025-05-27",
+    "tags": [
+      "library",
+      "security",
+      "extension",
+      "tool"
+    ],
+    "image": "/img/project-network-packet-sniffer-310.png",
+    "words": 206,
+    "readTime": "2 min",
+    "features": [
+      "crackmapexec",
+      "gobuster",
+      "ffuf"
+    ]
+  },
+  {
+    "id": "note-network-traffic-analysis-with-wireshark-303",
+    "title": "Network Traffic Analysis with Wireshark",
+    "section": "notes",
+    "description": "Personal notes on Network Traffic Analysis with Wireshark. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-network-traffic-analysis-with-wireshark-303.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-27",
+    "tags": [
+      "networking",
+      "persistence",
+      "privilege-escalation",
+      "enumeration"
+    ],
+    "image": "/img/note-network-traffic-analysis-with-wireshark-303.png",
+    "words": 611,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-docker-security-hardening-656",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-656.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-27",
+    "tags": [
+      "blue-team",
+      "enumeration",
+      "malware"
+    ],
+    "image": "/img/note-docker-security-hardening-656.png",
+    "words": 501,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-docker-security-hardening-253",
+    "title": "Docker Security Hardening",
+    "section": "notes",
+    "description": "Personal notes on Docker Security Hardening. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-docker-security-hardening-253.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-27",
+    "tags": [
+      "malware",
+      "dfir",
+      "oscp",
+      "persistence",
+      "enumeration"
+    ],
+    "image": "/img/note-docker-security-hardening-253.png",
+    "words": 423,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-admirer-212",
+    "title": "OffSec Proving Grounds — Admirer (Medium OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Admirer. DNS Rebinding and Resource-Based Constrained Delegation to achieve medium compromise on OpenBSD.",
+    "permalink": "/writeups/htb-admirer-212.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-27",
+    "tags": [
+      "tryhackme",
+      "medium",
+      "hackthebox",
+      "insane",
+      "reversing"
+    ],
+    "image": "/img/htb-admirer-212.png",
+    "words": 570,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-187",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-187.html",
+    "btn_label": "Read Notes",
+    "date": "2025-05-26",
+    "tags": [
+      "enumeration",
+      "lateral-movement",
+      "persistence",
+      "linux"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-187.png",
+    "words": 335,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-smb-share-enumeration-script-200",
+    "title": "SMB Share Enumeration Script — Bash",
+    "section": "scripting",
+    "description": "A Bash script for smb share enumeration script. Built for security research and automation.",
+    "permalink": "/scripting/script-smb-share-enumeration-script-200.html",
+    "btn_label": "View Script",
+    "date": "2025-05-25",
+    "tags": [
+      "c",
+      "automation",
+      "python",
+      "bash"
+    ],
+    "image": "/img/script-smb-share-enumeration-script-200.png",
+    "words": 278,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-deep-dive-into-windows-kernel-exploitation-323",
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "section": "research",
+    "description": "Technical research on Deep Dive into Windows Kernel Exploitation. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-323.html",
+    "btn_label": "Read Research",
+    "date": "2025-05-25",
+    "tags": [
+      "aslr-bypass",
+      "buffer-overflow",
+      "zero-day"
+    ],
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "words": 519,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-vulnnet-263",
+    "title": "OffSec Proving Grounds — Vulnnet (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Vulnnet. Weak Service Permissions and Cron Job to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-vulnnet-263.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-25",
+    "tags": [
+      "active-directory",
+      "ctf",
+      "web"
+    ],
+    "image": "/img/htb-vulnnet-263.png",
+    "words": 661,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-skynet-428",
+    "title": "HackTheBox — Skynet (Easy Linux)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Skynet. SeDebugPrivilege and GPP Password to achieve easy compromise on Linux.",
+    "permalink": "/writeups/htb-skynet-428.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-05-25",
+    "tags": [
+      "pwntilldawn",
+      "insane",
+      "ctf"
+    ],
+    "image": "/img/htb-skynet-428.png",
+    "words": 562,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-535",
+    "title": "API Security Testing Framework — Go",
+    "section": "scripting",
+    "description": "A Go script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-535.html",
+    "btn_label": "View Script",
+    "date": "2025-05-24",
+    "tags": [
+      "tool",
+      "powershell",
+      "scanner",
+      "automation",
+      "go"
+    ],
+    "image": "/img/script-api-security-testing-framework-535.png",
+    "words": 328,
+    "readTime": "2 min"
+  }
+]

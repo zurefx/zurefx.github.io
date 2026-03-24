@@ -1,0 +1,618 @@
+[
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2026-03-17",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-489.html",
+    "image": "/img/research-evading-modern-edr-solutions-489.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2026-03-15",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-950.html",
+    "image": "/img/research-custom-c2-framework-architecture-950.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "date": "2026-02-22",
+    "section": "research",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-244.html",
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2026-02-20",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-546.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2026-02-15",
+    "section": "research",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-705.html",
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-705.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2026-02-12",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-465.html",
+    "image": "/img/research-browser-exploitation-techniques-465.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Fuzzing Embedded Firmware",
+    "date": "2026-02-09",
+    "section": "research",
+    "permalink": "/research/research-fuzzing-embedded-firmware-673.html",
+    "image": "/img/research-fuzzing-embedded-firmware-673.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2026-02-03",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-900.html",
+    "image": "/img/research-evading-modern-edr-solutions-900.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2026-01-22",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-921.html",
+    "image": "/img/research-evading-modern-edr-solutions-921.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2026-01-13",
+    "section": "research",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-388.html",
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-388.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2025-12-24",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-995.html",
+    "image": "/img/research-threat-intelligence-integration-995.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OPSEC Considerations for Red Teams",
+    "date": "2025-12-17",
+    "section": "research",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-984.html",
+    "image": "/img/research-opsec-considerations-for-red-teams-984.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bypassing AppLocker and WDAC",
+    "date": "2025-12-12",
+    "section": "research",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-500.html",
+    "image": "/img/research-bypassing-applocker-and-wdac-500.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-11-27",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-698.html",
+    "image": "/img/research-custom-c2-framework-architecture-698.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2025-11-16",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-915.html",
+    "image": "/img/research-cobalt-strike-profile-development-915.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-11-11",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-254.html",
+    "image": "/img/research-custom-c2-framework-architecture-254.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-11-03",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-960.html",
+    "image": "/img/research-custom-c2-framework-architecture-960.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2025-10-07",
+    "section": "research",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-262.html",
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-262.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Fuzzing Embedded Firmware",
+    "date": "2025-10-04",
+    "section": "research",
+    "permalink": "/research/research-fuzzing-embedded-firmware-670.html",
+    "image": "/img/research-fuzzing-embedded-firmware-670.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2025-09-20",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-935.html",
+    "image": "/img/research-cobalt-strike-profile-development-935.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-09-18",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-683.html",
+    "image": "/img/research-custom-c2-framework-architecture-683.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2025-09-18",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-472.html",
+    "image": "/img/research-cobalt-strike-profile-development-472.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2025-09-03",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-150.html",
+    "image": "/img/research-threat-intelligence-integration-150.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "date": "2025-08-26",
+    "section": "research",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-119.html",
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Supply Chain Attack Vectors",
+    "date": "2025-07-20",
+    "section": "research",
+    "permalink": "/research/research-supply-chain-attack-vectors-822.html",
+    "image": "/img/research-supply-chain-attack-vectors-822.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Living off the Land Binaries (LOLBins)",
+    "date": "2025-06-26",
+    "section": "research",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-365.html",
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-36.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2025-06-03",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-127.html",
+    "image": "/img/research-evading-modern-edr-solutions-127.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Supply Chain Attack Vectors",
+    "date": "2025-05-19",
+    "section": "research",
+    "permalink": "/research/research-supply-chain-attack-vectors-500.html",
+    "image": "/img/research-supply-chain-attack-vectors-500.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Living off the Land Binaries (LOLBins)",
+    "date": "2025-05-16",
+    "section": "research",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-480.html",
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-48.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-05-10",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-147.html",
+    "image": "/img/research-custom-c2-framework-architecture-147.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Fuzzing Embedded Firmware",
+    "date": "2025-04-26",
+    "section": "research",
+    "permalink": "/research/research-fuzzing-embedded-firmware-482.html",
+    "image": "/img/research-fuzzing-embedded-firmware-482.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Red Team Infrastructure Design",
+    "date": "2025-04-23",
+    "section": "research",
+    "permalink": "/research/research-red-team-infrastructure-design-293.html",
+    "image": "/img/research-red-team-infrastructure-design-293.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2025-04-13",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-626.html",
+    "image": "/img/research-cobalt-strike-profile-development-626.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2025-04-12",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-660.html",
+    "image": "/img/research-browser-exploitation-techniques-660.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-04-06",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-649.html",
+    "image": "/img/research-custom-c2-framework-architecture-649.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2025-04-06",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-374.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2025-03-22",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-436.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "date": "2025-03-20",
+    "section": "research",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-295.html",
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2025-03-04",
+    "section": "research",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-370.html",
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-370.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Supply Chain Attack Vectors",
+    "date": "2025-02-23",
+    "section": "research",
+    "permalink": "/research/research-supply-chain-attack-vectors-378.html",
+    "image": "/img/research-supply-chain-attack-vectors-378.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2025-02-22",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-416.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2025-02-12",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-492.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-49.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-02-08",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-334.html",
+    "image": "/img/research-custom-c2-framework-architecture-334.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2025-01-08",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-306.html",
+    "image": "/img/research-custom-c2-framework-architecture-306.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2024-11-28",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-443.html",
+    "image": "/img/research-evading-modern-edr-solutions-443.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2024-11-27",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-436.html",
+    "image": "/img/research-browser-exploitation-techniques-436.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2024-11-23",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-985.html",
+    "image": "/img/research-cobalt-strike-profile-development-985.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2024-10-14",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-262.html",
+    "image": "/img/research-browser-exploitation-techniques-262.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Custom C2 Framework Architecture",
+    "date": "2024-09-28",
+    "section": "research",
+    "permalink": "/research/research-custom-c2-framework-architecture-963.html",
+    "image": "/img/research-custom-c2-framework-architecture-963.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "OPSEC Considerations for Red Teams",
+    "date": "2024-09-19",
+    "section": "research",
+    "permalink": "/research/research-opsec-considerations-for-red-teams-196.html",
+    "image": "/img/research-opsec-considerations-for-red-teams-196.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Living off the Land Binaries (LOLBins)",
+    "date": "2024-09-17",
+    "section": "research",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-466.html",
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-46.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "date": "2024-09-08",
+    "section": "research",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-536.html",
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2024-09-07",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-552.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-55.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Bypassing AppLocker and WDAC",
+    "date": "2024-08-22",
+    "section": "research",
+    "permalink": "/research/research-bypassing-applocker-and-wdac-549.html",
+    "image": "/img/research-bypassing-applocker-and-wdac-549.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "date": "2024-08-16",
+    "section": "research",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-111.html",
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2024-08-01",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-769.html",
+    "image": "/img/research-threat-intelligence-integration-769.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2024-07-28",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-385.html",
+    "image": "/img/research-evading-modern-edr-solutions-385.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2024-07-24",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-270.html",
+    "image": "/img/research-threat-intelligence-integration-270.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Deep Dive into Windows Kernel Exploitation",
+    "date": "2024-07-01",
+    "section": "research",
+    "permalink": "/research/research-deep-dive-into-windows-kernel-exploitation-364.html",
+    "image": "/img/research-deep-dive-into-windows-kernel-exploitatio.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2024-06-18",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-938.html",
+    "image": "/img/research-evading-modern-edr-solutions-938.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2024-06-12",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-723.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-72.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2024-05-10",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-534.html",
+    "image": "/img/research-browser-exploitation-techniques-534.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Living off the Land Binaries (LOLBins)",
+    "date": "2024-05-06",
+    "section": "research",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-495.html",
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-49.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2024-04-30",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-820.html",
+    "image": "/img/research-threat-intelligence-integration-820.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Fuzzing Embedded Firmware",
+    "date": "2024-04-26",
+    "section": "research",
+    "permalink": "/research/research-fuzzing-embedded-firmware-458.html",
+    "image": "/img/research-fuzzing-embedded-firmware-458.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Cobalt Strike Profile Development",
+    "date": "2024-04-24",
+    "section": "research",
+    "permalink": "/research/research-cobalt-strike-profile-development-861.html",
+    "image": "/img/research-cobalt-strike-profile-development-861.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2024-04-01",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-466.html",
+    "image": "/img/research-evading-modern-edr-solutions-466.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Browser Exploitation Techniques",
+    "date": "2024-03-23",
+    "section": "research",
+    "permalink": "/research/research-browser-exploitation-techniques-271.html",
+    "image": "/img/research-browser-exploitation-techniques-271.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2024-02-21",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-250.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-25.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Fuzzing Embedded Firmware",
+    "date": "2024-02-06",
+    "section": "research",
+    "permalink": "/research/research-fuzzing-embedded-firmware-263.html",
+    "image": "/img/research-fuzzing-embedded-firmware-263.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Advanced Phishing Infrastructure Setup",
+    "date": "2024-02-06",
+    "section": "research",
+    "permalink": "/research/research-advanced-phishing-infrastructure-setup-665.html",
+    "image": "/img/research-advanced-phishing-infrastructure-setup-66.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Living off the Land Binaries (LOLBins)",
+    "date": "2024-02-01",
+    "section": "research",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-958.html",
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-95.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Evading Modern EDR Solutions",
+    "date": "2024-01-26",
+    "section": "research",
+    "permalink": "/research/research-evading-modern-edr-solutions-594.html",
+    "image": "/img/research-evading-modern-edr-solutions-594.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Living off the Land Binaries (LOLBins)",
+    "date": "2024-01-18",
+    "section": "research",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-398.html",
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-39.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Threat Intelligence Integration",
+    "date": "2024-01-13",
+    "section": "research",
+    "permalink": "/research/research-threat-intelligence-integration-916.html",
+    "image": "/img/research-threat-intelligence-integration-916.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Novel Persistence Mechanisms in Linux",
+    "date": "2024-01-12",
+    "section": "research",
+    "permalink": "/research/research-novel-persistence-mechanisms-in-linux-224.html",
+    "image": "/img/research-novel-persistence-mechanisms-in-linux-224.png",
+    "readTime": "3 min"
+  },
+  {
+    "title": "Living off the Land Binaries (LOLBins)",
+    "date": "2024-01-11",
+    "section": "research",
+    "permalink": "/research/research-living-off-the-land-binaries-(lolbins)-243.html",
+    "image": "/img/research-living-off-the-land-binaries-(lolbins)-24.png",
+    "readTime": "3 min"
+  }
+]

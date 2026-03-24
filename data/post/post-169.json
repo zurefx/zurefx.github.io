@@ -1,0 +1,38 @@
+[
+  {
+    "id": "htb-tenet-939",
+    "title": "HackTheBox — Tenet (Insane FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Tenet. CORS Misconfiguration and Path Traversal to achieve insane compromise on FreeBSD.",
+    "permalink": "/writeups/htb-tenet-939.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-01",
+    "tags": [
+      "forensics",
+      "pwntilldawn",
+      "active-directory",
+      "tryhackme",
+      "easy"
+    ],
+    "image": "/img/htb-tenet-939.png",
+    "words": 589,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-crossfit-155",
+    "title": "VulnHub — Crossfit (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Crossfit. GPP Password and SeImpersonatePrivilege to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-crossfit-155.html",
+    "btn_label": "Read Writeup",
+    "date": "2024-01-01",
+    "tags": [
+      "active-directory",
+      "reversing",
+      "web"
+    ],
+    "image": "/img/htb-crossfit-155.png",
+    "words": 595,
+    "readTime": "3 min"
+  }
+]

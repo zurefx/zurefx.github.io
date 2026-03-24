@@ -1,0 +1,224 @@
+[
+  {
+    "id": "script-edr-evasion-techniques-528",
+    "title": "EDR Evasion Techniques — Python",
+    "section": "scripting",
+    "description": "A Python script for edr evasion techniques. Built for security research and automation.",
+    "permalink": "/scripting/script-edr-evasion-techniques-528.html",
+    "btn_label": "View Script",
+    "date": "2025-11-23",
+    "tags": [
+      "powershell",
+      "python",
+      "c",
+      "tool",
+      "go",
+      "scanner"
+    ],
+    "image": "/img/script-edr-evasion-techniques-528.png",
+    "words": 368,
+    "readTime": "2 min"
+  },
+  {
+    "id": "htb-overpass-379",
+    "title": "PwnTillDawn — Overpass (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Overpass. Resource-Based Constrained Delegation and Writable PATH to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-overpass-379.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-23",
+    "tags": [
+      "easy",
+      "tryhackme",
+      "active-directory",
+      "offsec",
+      "hard",
+      "linux",
+      "hackthebox"
+    ],
+    "image": "/img/htb-overpass-379.png",
+    "words": 649,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-horizontall-346",
+    "title": "PwnTillDawn — Horizontall (Insane Linux)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Horizontall. Unquoted Service Path and Constrained Delegation to achieve insane compromise on Linux.",
+    "permalink": "/writeups/htb-horizontall-346.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-23",
+    "tags": [
+      "forensics",
+      "pwntilldawn",
+      "tryhackme"
+    ],
+    "image": "/img/htb-horizontall-346.png",
+    "words": 629,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-armageddon-310",
+    "title": "TryHackMe — Armageddon (Hard Linux)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Armageddon. Pass the Ticket and SUID Binary to achieve hard compromise on Linux.",
+    "permalink": "/writeups/htb-armageddon-310.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-23",
+    "tags": [
+      "insane",
+      "offsec",
+      "web",
+      "ctf"
+    ],
+    "image": "/img/htb-armageddon-310.png",
+    "words": 614,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-mustacchio-428",
+    "title": "TryHackMe — Mustacchio (Medium Windows)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Mustacchio. Pass the Hash and Broken Access Control to achieve medium compromise on Windows.",
+    "permalink": "/writeups/htb-mustacchio-428.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-21",
+    "tags": [
+      "pwntilldawn",
+      "forensics",
+      "linux"
+    ],
+    "image": "/img/htb-mustacchio-428.png",
+    "words": 607,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-crossfit-371",
+    "title": "HackTheBox — Crossfit (Easy OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox Crossfit. Golden Ticket and Sudo Misconfiguration to achieve easy compromise on OpenBSD.",
+    "permalink": "/writeups/htb-crossfit-371.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-21",
+    "tags": [
+      "insane",
+      "linux",
+      "windows",
+      "hackthebox",
+      "medium"
+    ],
+    "image": "/img/htb-crossfit-371.png",
+    "words": 619,
+    "readTime": "4 min"
+  },
+  {
+    "id": "note-sigma-rule-development-215",
+    "title": "Sigma Rule Development",
+    "section": "notes",
+    "description": "Personal notes on Sigma Rule Development. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-sigma-rule-development-215.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-20",
+    "tags": [
+      "enumeration",
+      "cheatsheet",
+      "privilege-escalation",
+      "windows",
+      "malware",
+      "blue-team"
+    ],
+    "image": "/img/note-sigma-rule-development-215.png",
+    "words": 300,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-network-packet-sniffer-613",
+    "title": "Network Packet Sniffer — Bash",
+    "section": "scripting",
+    "description": "A Bash script for network packet sniffer. Built for security research and automation.",
+    "permalink": "/scripting/script-network-packet-sniffer-613.html",
+    "btn_label": "View Script",
+    "date": "2025-11-19",
+    "tags": [
+      "python",
+      "fuzzer",
+      "bash",
+      "scanner",
+      "automation"
+    ],
+    "image": "/img/script-network-packet-sniffer-613.png",
+    "words": 365,
+    "readTime": "2 min"
+  },
+  {
+    "id": "note-web-application-penetration-testing-meth-598",
+    "title": "Web Application Penetration Testing Methodology",
+    "section": "notes",
+    "description": "Personal notes on Web Application Penetration Testing Methodology. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-web-application-penetration-testing-meth-598.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-19",
+    "tags": [
+      "dfir",
+      "windows",
+      "persistence"
+    ],
+    "image": "/img/note-web-application-penetration-testing-meth-598.png",
+    "words": 552,
+    "readTime": "3 min"
+  },
+  {
+    "id": "note-blue-team-detection-techniques-811",
+    "title": "Blue Team Detection Techniques",
+    "section": "notes",
+    "description": "Personal notes on Blue Team Detection Techniques. Quick reference for pentesting and CTF challenges.",
+    "permalink": "/notes/note-blue-team-detection-techniques-811.html",
+    "btn_label": "Read Notes",
+    "date": "2025-11-19",
+    "tags": [
+      "blue-team",
+      "enumeration",
+      "privilege-escalation",
+      "cheatsheet"
+    ],
+    "image": "/img/note-blue-team-detection-techniques-811.png",
+    "words": 583,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-worker-895",
+    "title": "VulnHub — Worker (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Worker. NTLM Relay and SeImpersonatePrivilege to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-worker-895.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-19",
+    "tags": [
+      "linux",
+      "web",
+      "insane",
+      "easy"
+    ],
+    "image": "/img/htb-worker-895.png",
+    "words": 604,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-love-555",
+    "title": "VulnHub — Love (Easy FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Love. Silver Ticket and IDOR to achieve easy compromise on FreeBSD.",
+    "permalink": "/writeups/htb-love-555.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-11-19",
+    "tags": [
+      "medium",
+      "reversing",
+      "windows"
+    ],
+    "image": "/img/htb-love-555.png",
+    "words": 571,
+    "readTime": "3 min",
+    "pick": 1
+  }
+]

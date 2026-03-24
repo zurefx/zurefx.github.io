@@ -1,0 +1,228 @@
+[
+  {
+    "id": "htb-sense-630",
+    "title": "OffSec Proving Grounds — Sense (Medium FreeBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Sense. SUID Binary and Broken Access Control to achieve medium compromise on FreeBSD.",
+    "permalink": "/writeups/htb-sense-630.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-08",
+    "tags": [
+      "insane",
+      "pwntilldawn",
+      "linux",
+      "active-directory",
+      "offsec",
+      "forensics"
+    ],
+    "image": "/img/htb-sense-630.png",
+    "words": 557,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-breadcrumbs-685",
+    "title": "PwnTillDawn — Breadcrumbs (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for PwnTillDawn Breadcrumbs. CORS Misconfiguration and GPP Password to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-breadcrumbs-685.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-08",
+    "tags": [
+      "easy",
+      "forensics",
+      "tryhackme",
+      "ctf",
+      "insane"
+    ],
+    "image": "/img/htb-breadcrumbs-685.png",
+    "words": 572,
+    "readTime": "3 min"
+  },
+  {
+    "id": "script-api-security-testing-framework-607",
+    "title": "API Security Testing Framework — PowerShell",
+    "section": "scripting",
+    "description": "A PowerShell script for api security testing framework. Built for security research and automation.",
+    "permalink": "/scripting/script-api-security-testing-framework-607.html",
+    "btn_label": "View Script",
+    "date": "2025-04-07",
+    "tags": [
+      "scanner",
+      "bash",
+      "script",
+      "rust",
+      "go",
+      "powershell"
+    ],
+    "image": "/img/script-api-security-testing-framework-607.png",
+    "words": 339,
+    "readTime": "2 min"
+  },
+  {
+    "id": "script-automated-port-scanner-307",
+    "title": "Automated Port Scanner — Go",
+    "section": "scripting",
+    "description": "A Go script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-307.html",
+    "btn_label": "View Script",
+    "date": "2025-04-06",
+    "tags": [
+      "fuzzer",
+      "parser",
+      "go",
+      "c",
+      "script"
+    ],
+    "image": "/img/script-automated-port-scanner-307.png",
+    "words": 377,
+    "readTime": "2 min"
+  },
+  {
+    "id": "research-custom-c2-framework-architecture-649",
+    "title": "Custom C2 Framework Architecture",
+    "section": "research",
+    "description": "Technical research on Custom C2 Framework Architecture. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-custom-c2-framework-architecture-649.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-06",
+    "tags": [
+      "kernel",
+      "rop",
+      "uaf",
+      "buffer-overflow",
+      "exploit-development"
+    ],
+    "image": "/img/research-custom-c2-framework-architecture-649.png",
+    "words": 490,
+    "readTime": "3 min",
+    "pick": 1
+  },
+  {
+    "id": "research-analysis-of-cve-2024-xxxx-remote-code-executi-374",
+    "title": "Analysis of CVE-2024-XXXX: Remote Code Execution",
+    "section": "research",
+    "description": "Technical research on Analysis of CVE-2024-XXXX: Remote Code Execution. In-depth analysis with PoC and mitigation strategies.",
+    "permalink": "/research/research-analysis-of-cve-2024-xxxx-remote-code-executi-374.html",
+    "btn_label": "Read Research",
+    "date": "2025-04-06",
+    "tags": [
+      "rop",
+      "exploit-development",
+      "heap-exploitation",
+      "kernel",
+      "malware-analysis"
+    ],
+    "image": "/img/research-analysis-of-cve-2024-xxxx-remote-code-exe.png",
+    "words": 498,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-servmon-516",
+    "title": "HackTheBox — ServMon (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for HackTheBox ServMon. AlwaysInstallElevated and CORS Misconfiguration to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-servmon-516.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-06",
+    "tags": [
+      "easy",
+      "medium",
+      "hackthebox"
+    ],
+    "image": "/img/htb-servmon-516.png",
+    "words": 716,
+    "readTime": "4 min",
+    "pick": 1
+  },
+  {
+    "id": "htb-networked-436",
+    "title": "OffSec Proving Grounds — Networked (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Networked. LXD Privilege Escalation and NFS No Root Squash to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-networked-436.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-06",
+    "tags": [
+      "windows",
+      "ctf",
+      "linux",
+      "offsec"
+    ],
+    "image": "/img/htb-networked-436.png",
+    "words": 647,
+    "readTime": "4 min"
+  },
+  {
+    "id": "htb-forge-605",
+    "title": "VulnHub — Forge (Easy Windows)",
+    "section": "writeups",
+    "description": "Full writeup for VulnHub Forge. Kerberoasting and Pass the Ticket to achieve easy compromise on Windows.",
+    "permalink": "/writeups/htb-forge-605.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-06",
+    "tags": [
+      "web",
+      "linux",
+      "medium"
+    ],
+    "image": "/img/htb-forge-605.png",
+    "words": 580,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-crossfit-755",
+    "title": "OffSec Proving Grounds — Crossfit (Insane Windows)",
+    "section": "writeups",
+    "description": "Full writeup for OffSec Proving Grounds Crossfit. LXD Privilege Escalation and Docker Escape to achieve insane compromise on Windows.",
+    "permalink": "/writeups/htb-crossfit-755.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-06",
+    "tags": [
+      "linux",
+      "active-directory",
+      "offsec"
+    ],
+    "image": "/img/htb-crossfit-755.png",
+    "words": 558,
+    "readTime": "3 min"
+  },
+  {
+    "id": "htb-solidstate-368",
+    "title": "TryHackMe — Solidstate (Hard OpenBSD)",
+    "section": "writeups",
+    "description": "Full writeup for TryHackMe Solidstate. DNS Rebinding and Kerberoasting to achieve hard compromise on OpenBSD.",
+    "permalink": "/writeups/htb-solidstate-368.html",
+    "btn_label": "Read Writeup",
+    "date": "2025-04-05",
+    "tags": [
+      "active-directory",
+      "ctf",
+      "tryhackme",
+      "pwntilldawn"
+    ],
+    "image": "/img/htb-solidstate-368.png",
+    "words": 641,
+    "readTime": "4 min"
+  },
+  {
+    "id": "script-automated-port-scanner-511",
+    "title": "Automated Port Scanner — Python",
+    "section": "scripting",
+    "description": "A Python script for automated port scanner. Built for security research and automation.",
+    "permalink": "/scripting/script-automated-port-scanner-511.html",
+    "btn_label": "View Script",
+    "date": "2025-04-04",
+    "tags": [
+      "python",
+      "fuzzer",
+      "tool",
+      "powershell",
+      "go",
+      "c"
+    ],
+    "image": "/img/script-automated-port-scanner-511.png",
+    "words": 362,
+    "readTime": "2 min"
+  }
+]
