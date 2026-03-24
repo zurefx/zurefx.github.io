@@ -1,8 +1,13 @@
 /* ============================================================
-   ZureFX — projects.js  (v2)
+   ZureFX — projects.js  (v3)
    Carga desde data/research.json (proyectos).
-   Reutiliza CACHE de app.js cuando está disponible.
-   Depende de app.js: getRootPrefix(), CACHE, loadSection().
+
+   CAMBIO v3
+   ---------
+   Ya no intenta usar CACHE['all'] ni loadSection('all') porque
+   la sección 'all' ahora es paginada (data/post/post-N.json) y
+   no está disponible como array plano en memoria.
+   Fuente de datos: data/research.json siempre.
    ============================================================ */
 
 function esc(s) {
@@ -128,33 +133,42 @@ function groupBySubsection(projects) {
   return groups;
 }
 
+/* ══════════════════════════════════════════════════════════════════════════
+   LOAD PROJECTS
+   Fuente única: data/research.json
+   Filtra por section === 'projects'.
+
+   No usa CACHE['all'] ni loadSection('all') porque 'all' es ahora
+   paginado y no está disponible como array completo en memoria.
+   ══════════════════════════════════════════════════════════════════════════ */
 function loadProjects() {
-  // Nivel 1: CACHE
-  if (typeof CACHE !== 'undefined' && Array.isArray(CACHE['all']) && CACHE['all'].length) {
-    console.log('[ZFX] projects — usando CACHE[all]');
-    return Promise.resolve(CACHE['all'].filter(p => String(p.section || '').toLowerCase() === 'projects'));
+  /* Reutilizar caché de research.json si loadSection ya lo tiene */
+  if (typeof CACHE !== 'undefined' && Array.isArray(CACHE['research']) && CACHE['research'].length) {
+    console.log('[ZFX] projects — usando CACHE[research]');
+    return Promise.resolve(
+      CACHE['research'].filter(p => String(p.section || '').toLowerCase() === 'projects')
+    );
   }
 
-  // Nivel 2: loadSection
+  /* loadSection('research') si está disponible */
   if (typeof loadSection === 'function') {
-    return loadSection('all').then(posts =>
+    return loadSection('research').then(posts =>
       posts.filter(p => String(p.section || '').toLowerCase() === 'projects')
     );
   }
 
-  // Nivel 3: fetch directo
+  /* Fetch directo como fallback */
   const url = getRootPrefix() + 'data/research.json?v=' + Date.now();
   return fetch(url, { cache: 'no-store' })
     .then(res => {
       if (!res.ok) throw new Error('HTTP ' + res.status);
       return res.json();
     })
-    .then(data => {
-      console.log('[projects.js] fetch data:', data);
-      return Array.isArray(data)
+    .then(data =>
+      Array.isArray(data)
         ? data.filter(p => String(p.section || '').toLowerCase() === 'projects')
-        : [];
-    })
+        : []
+    )
     .catch(err => {
       console.warn('[projects.js] Could not load research.json:', err);
       return [];

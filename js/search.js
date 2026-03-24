@@ -1,6 +1,16 @@
 /* ══════════════════════════════════════════════════════════════════════════
-   ZureFX — search.js  (v2)
-   Carga progresiva por chunks — igual que app.js.
+   ZureFX — search.js  (v3)
+   Carga progresiva por páginas desde data/post/post-N.json.
+
+   CAMBIO v3
+   ---------
+   El sistema de chunks ahora usa la misma ruta paginada que app.js:
+     data/post/post-1.json
+     data/post/post-2.json
+     …
+   El número total de páginas se lee desde data/posts-index.json para
+   saber exactamente cuándo parar, sin necesidad de esperar un 404.
+
    Depende de app.js (cargado antes): getRootPrefix(), SECTION_COLOR_MAP.
    Trigger: #search-toggle  |  Atajos: Ctrl+K  /  "/"
    ══════════════════════════════════════════════════════════════════════════ */
@@ -8,12 +18,12 @@
 (function () {
   'use strict';
 
-  /* ── Estado de chunks ── */
-  var _s_posts   = [];
-  var _s_chunk   = 0;
-  var _s_loaded  = false;
-  var _s_loading = false;
-  var MAX_CHUNKS_S = 50;
+  /* ── Estado de páginas ── */
+  var _s_posts      = [];       /* posts acumulados de todas las páginas cargadas */
+  var _s_page       = 0;        /* última página cargada (0 = ninguna) */
+  var _s_totalPages = null;     /* total de páginas según posts-index.json */
+  var _s_loaded     = false;    /* true cuando se han cargado todas las páginas */
+  var _s_loading    = false;    /* mutex para evitar cargas paralelas */
 
   /* ── Estado de búsqueda ── */
   var isOpen        = false;
@@ -28,20 +38,59 @@
   document.addEventListener('DOMContentLoaded', function() {
     buildModal();
     bindTriggers();
-    preloadFirstChunk();   /* carga posts-1.json en background al arrancar */
+    preloadFirstPage();   /* carga data/post/post-1.json en background al arrancar */
   });
 
   /* ════════════════════════════════════════════════════════
-     SISTEMA DE CHUNKS
+     ÍNDICE DE PAGINACIÓN
+     Lee data/posts-index.json para saber cuántas páginas
+     existen. Evita pedir páginas que no existen.
      ════════════════════════════════════════════════════════ */
 
-  async function loadNextChunkS() {
+  async function loadPostsIndex() {
+    if (_s_totalPages !== null) return _s_totalPages;
+
+    /* Reutilizar POSTS_INDEX de app.js si ya fue cargado */
+    if (typeof POSTS_INDEX !== 'undefined' && POSTS_INDEX && POSTS_INDEX.total_pages) {
+      _s_totalPages = POSTS_INDEX.total_pages;
+      return _s_totalPages;
+    }
+
+    try {
+      var url = getRootPrefix() + 'data/posts-index.json?v=' + Date.now();
+      var res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      var data = await res.json();
+      _s_totalPages = data.total_pages || 1;
+    } catch (e) {
+      console.warn('[search.js] Could not load posts-index.json:', e);
+      _s_totalPages = 1;   /* fallback conservador */
+    }
+
+    return _s_totalPages;
+  }
+
+  /* ════════════════════════════════════════════════════════
+     CARGA DE PÁGINAS
+     Carga la siguiente página de data/post/post-N.json.
+     Se detiene cuando se alcanza total_pages o cuando
+     el servidor devuelve un array vacío.
+     ════════════════════════════════════════════════════════ */
+
+  async function loadNextPage() {
     if (_s_loaded || _s_loading) return [];
-    if (_s_chunk >= MAX_CHUNKS_S) { _s_loaded = true; return []; }
+
+    var totalPages = await loadPostsIndex();
+
+    /* Ya hemos cargado todas las páginas conocidas */
+    if (_s_page >= totalPages) {
+      _s_loaded = true;
+      return [];
+    }
 
     _s_loading = true;
-    var nextIdx = _s_chunk + 1;
-    var url = getRootPrefix() + 'data/posts-' + nextIdx + '.json?v=' + Date.now();
+    var nextPage = _s_page + 1;
+    var url = getRootPrefix() + 'data/post/post-' + nextPage + '.json?v=' + Date.now();
 
     try {
       var res = await fetch(url, { cache: 'no-store' });
@@ -52,29 +101,33 @@
         _s_loaded = true; _s_loading = false; return [];
       }
 
-      /* deduplicar por id */
+      /* Deduplicar por id para evitar entradas dobles si se llama en paralelo */
       var existing = {};
-      _s_posts.forEach(function(p) { existing[p.id] = true; });
-      var unique = incoming.filter(function(p) { return !existing[p.id]; });
+      _s_posts.forEach(function(p) { if (p.id) existing[p.id] = true; });
+      var unique = incoming.filter(function(p) { return !p.id || !existing[p.id]; });
 
       _s_posts   = _s_posts.concat(unique);
-      _s_chunk   = nextIdx;
+      _s_page    = nextPage;
       _s_loading = false;
+
+      /* Si esta era la última página, marcar como completo */
+      if (nextPage >= totalPages) _s_loaded = true;
+
       return unique;
     } catch (e) {
       _s_loaded = true; _s_loading = false; return [];
     }
   }
 
-  /* Carga posts-1.json en background al arrancar la página */
-  function preloadFirstChunk() {
-    loadNextChunkS().catch(function() {});
+  /* Carga data/post/post-1.json en background cuando la página arranca */
+  function preloadFirstPage() {
+    loadNextPage().catch(function() {});
   }
 
-  /* Carga TODOS los chunks — se llama cuando el usuario escribe */
-  async function loadAllChunks() {
+  /* Carga TODAS las páginas — se llama cuando el usuario escribe una búsqueda */
+  async function loadAllPages() {
     while (!_s_loaded) {
-      var added = await loadNextChunkS();
+      var added = await loadNextPage();
       if (!added.length) break;
     }
   }
@@ -215,8 +268,8 @@
 
   /* ════════════════════════════════════════════════════════
      SEARCH
-     Carga todos los chunks antes de buscar, así los resultados
-     son completos aunque el usuario tenga muchos posts.
+     Carga todas las páginas antes de buscar para garantizar
+     resultados completos, luego aplica scoring local.
      ════════════════════════════════════════════════════════ */
 
   async function runSearch(query) {
@@ -225,10 +278,10 @@
 
     if (!query) { showRecent(); setEmpty(false); return; }
 
-    /* Si aún hay chunks sin cargar, cargarlos todos ahora */
+    /* Si aún quedan páginas sin cargar, cargarlas todas ahora */
     if (!_s_loaded) {
       setCount('Searching…');
-      await loadAllChunks();
+      await loadAllPages();
     }
 
     var terms = query.toLowerCase().split(/\s+/).filter(Boolean);
@@ -289,7 +342,6 @@
       item.dataset.idx = i;
 
       var section = post.section || 'post';
-      /* reutilizar SECTION_COLOR_MAP de app.js */
       var color   = (typeof SECTION_COLOR_MAP !== 'undefined' && SECTION_COLOR_MAP[section])
                     || '#525252';
       var desc    = post.description || '';
